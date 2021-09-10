@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2021-09-10T05:57:15 UTC">
+<meta name="revised" content="2021-09-10T13:54:04 UTC">
 <title>qchem :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -889,6 +889,16 @@
 <td>Fastest Fourier Transform in the West library optimized for AMD Epyc CPUs</td>
 </tr>
 <tr>
+<td><a href="https://developer.amd.com/amd-aocl/scalapack/">amd-scalapack-3.0</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/amd-scalapack/default.nix#L54">nur.repos.qchem.amd-scalapack</a></td>
+<td>Linear algebra routines for parallel distributed memory machines optmized for AMD processors</td>
+</tr>
+<tr>
+<td><a href="https://github.com/OpenChemistry/avogadroapp">avogadro2-1.94.0</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem">nur.repos.qchem.avogadro2</a></td>
+<td>Molecule editor and visualizer</td>
+</tr>
+<tr>
 <td><a href="https://nubakery.org">bagel-1.2.2</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/bagel/default.nix#L97">nur.repos.qchem.bagel</a></td>
 <td>Brilliantly Advanced General Electronic-structure Library</td>
@@ -924,7 +934,7 @@
 <td>Quantum chemistry and solid state physics program</td>
 </tr>
 <tr>
-<td><a href="https://github.com/grimme-lab/crest">crest-2021-04-24</a></td>
+<td><a href="https://github.com/grimme-lab/crest">crest-2.11.1</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/crest/default.nix#L34">nur.repos.qchem.crest</a></td>
 <td>Conformer-Rotamer Ensemble Sampling Tool based on the xtb Semiempirical Extended Tight-Binding Program Package</td>
 </tr>
@@ -1000,12 +1010,12 @@
 </tr>
 <tr>
 <td><a href="http://www.gromacs.org">gromacs-2020.4</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem">nur.repos.qchem.gromacsMpi</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem">nur.repos.qchem.gromacsDoubleMpi</a></td>
 <td>Molecular dynamics software package</td>
 </tr>
 <tr>
 <td><a href="http://www.gromacs.org">gromacs-2020.4</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem">nur.repos.qchem.gromacsDoubleMpi</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem">nur.repos.qchem.gromacsMpi</a></td>
 <td>Molecular dynamics software package</td>
 </tr>
 <tr>
@@ -1064,11 +1074,6 @@
 <td>Library and command-line utility for reading GDSII geometry files</td>
 </tr>
 <tr>
-<td><a href="https://github.com/evaleev/libint">libint-1.1.5</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libint/1.nix#L42">nur.repos.qchem.libint1</a></td>
-<td>Library for the evaluation of molecular integrals of many-body operators over Gaussian functions</td>
-</tr>
-<tr>
 <td><a href="https://github.com/evaleev/libint">libint-2.6.0</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem">nur.repos.qchem.libint</a></td>
 <td>Library for the evaluation of molecular integrals of many-body operators over Gaussian functions</td>
@@ -1085,12 +1090,12 @@
 </tr>
 <tr>
 <td><a href="https://github.com/libwfa/libwfa">libwfa-2020-02-19</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libwfa/default.nix#L45">nur.repos.qchem.wfaMolcas</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libwfa/default.nix#L45">nur.repos.qchem.libwfa</a></td>
 <td>Wave-function analysis tool library for quantum chemical applications</td>
 </tr>
 <tr>
 <td><a href="https://github.com/libwfa/libwfa">libwfa-2020-02-19</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libwfa/default.nix#L45">nur.repos.qchem.libwfa</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libwfa/default.nix#L45">nur.repos.qchem.wfaMolcas</a></td>
 <td>Wave-function analysis tool library for quantum chemical applications</td>
 </tr>
 <tr>
@@ -1209,13 +1214,8 @@
 <td>An API for the Polarizable Continuum Model</td>
 </tr>
 <tr>
-<td><a href="http://www.psicode.org/">psi4-01.11.2020</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/psi4/default.nix#L272">nur.repos.qchem.psi4Unstable</a></td>
-<td>Open-Source Quantum Chemistry – an electronic structure package in C++ driven by Python</td>
-</tr>
-<tr>
-<td><a href="http://www.psicode.org/">psi4-1.3.2</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/psi4/default.nix#L272">nur.repos.qchem.psi4</a></td>
+<td><a href="http://www.psicode.org/">psi4-1.4</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/psi4/default.nix#L214">nur.repos.qchem.psi4</a></td>
 <td>Open-Source Quantum Chemistry – an electronic structure package in C++ driven by Python</td>
 </tr>
 <tr>
