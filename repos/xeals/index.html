@@ -5,12 +5,12 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2021-11-22T22:45:42 UTC">
+<meta name="revised" content="2021-11-23T21:09:11 CET">
 <title>xeals :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
-<link href="/theme-flex/style.css" rel="stylesheet">
+<link href="/theme-nur/style.css" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <script src="/js/jquery-2.x.min.js"></script>
@@ -27,15 +27,27 @@
     
       <header>
   <div class="logo">
-    
-	
-  
-    <a class="baselink" href="/">Packages search for NUR</a>
-  
-
+    <a class="baselink" href="/"> <img src="/images/logonur.png" /></a>
 
   </div>
   <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="/documentation/#how-to-add-your-own-repository"  rel="noopener">
+                  <i class='fa fa-plus'></i> <label>Add your repo</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/documentation/"  rel="noopener">
+                  <i class='fa fa-book'></i> <label>Documentation</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="https://github.com/nix-community/NUR"  rel="noopener">
+                  <i class='fa fa-github'></i> <label>NUR Project</label>
+                </a>
+            </li>
+    </nav>
 </header>
 <article>
   <aside>
@@ -45,6 +57,18 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
+    <li data-nav-id="/documentation/" class="dd-item alwaysopen
+        ">
+      <div>
+      <a href="/documentation/">Documentation</a>
+      </div>
+    </li>
+    <li data-nav-id="/credits/" class="dd-item alwaysopen
+        ">
+      <div>
+      <a href="/credits/">Credits</a>
+      </div>
+    </li>
     <li data-nav-id="/repos/" class="dd-item parent alwaysopen haschildren
         ">
       <div>
@@ -782,6 +806,12 @@
       <center>Navigation : 
         <select onchange="javascript:location.href = this.value;">
           
+    <option value="/documentation/" >
+   Documentation</option> 
+  
+    <option value="/credits/" >
+   Credits</option> 
+  
     <option value="/repos/" >
    Repos</option> 
       <option value="/repos/0x4a6f/" >- 0x4A6F</option>
@@ -965,17 +995,17 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://github.com/yshui/picom">picom-animations-8.2</a></td>
-<td><a href="https://github.com/xeals/nur-packages/blob/HEAD/pkgs/applications/window-managers/picom/default.nix#L97">nur.repos.xeals.picom-animations</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xeals">nur.repos.xeals.picom-animations</a></td>
 <td>A fork of XCompMgr, a sample compositing manager for X servers</td>
 </tr>
 <tr>
 <td><a href="https://polybar.github.io/">polybar-3.5.7</a></td>
-<td><a href="https://github.com/xeals/nur-packages/blob/HEAD/pkgs/applications/misc/polybar/default.nix#L106">nur.repos.xeals.polybar</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xeals">nur.repos.xeals.polybar</a></td>
 <td>A fast and easy-to-use tool for creating status bars</td>
 </tr>
 <tr>
 <td><a href="https://protonmail.com">protonmail-bridge-1.5.6</a></td>
-<td><a href="https://github.com/xeals/nur-packages/blob/HEAD/lib/attrsets.nix#L369">nur.repos.xeals.protonmail-bridge</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xeals">nur.repos.xeals.protonmail-bridge</a></td>
 <td>Integrate ProtonMail paid account with any program that supports IMAP and SMTP</td>
 </tr>
 <tr>
@@ -990,17 +1020,17 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://github.com/tartley/colorama">python2.7-colorama-0.4.4</a></td>
-<td><a href="https://github.com/xeals/nur-packages/blob/HEAD/pkgs/development/python-modules/colorama/default.nix#L18">nur.repos.xeals.python2Packages.colorama_0_3_3</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xeals">nur.repos.xeals.python2Packages.colorama_0_3_3</a></td>
 <td>Cross-platform colored terminal text</td>
 </tr>
 <tr>
 <td><a href="https://mutagen.readthedocs.io">python2.7-mutagen-1.43.1</a></td>
-<td><a href="https://github.com/xeals/nur-packages/blob/HEAD/pkgs/development/python-modules/mutagen/1.43.nix#L29">nur.repos.xeals.python2Packages.mutagen_1_30</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xeals">nur.repos.xeals.python2Packages.mutagen_1_30</a></td>
 <td>Python multimedia tagging library</td>
 </tr>
 <tr>
 <td><a href="http://pyspotify.mopidy.com">python2.7-pyspotify-2.1.3</a></td>
-<td><a href="https://github.com/xeals/nur-packages/blob/HEAD/pkgs/development/python-modules/pyspotify/default.nix#L41">nur.repos.xeals.python2Packages.pyspotify_2_0_5</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xeals">nur.repos.xeals.python2Packages.pyspotify_2_0_5</a></td>
 <td>A Python interface to Spotify’s online music streaming service</td>
 </tr>
 <tr>
@@ -1065,7 +1095,10 @@ overflow-wrap: break-word;
 
 
   
-    <p><a href="https://github.com/nix-community/NUR">Join on github</a></p>
+    <p>Powered by the <a href="https://nix-community.org/">Nix Community</a> |
+<a href="https://github.com/nix-community/NUR">Join NUR on github</a> |
+<a href="https://github.com/nix-community/nur-search">Fork this site</a> |
+<a href="/credits/">Credits</a></p>
 
   
 
@@ -1081,7 +1114,7 @@ overflow-wrap: break-word;
 
 
 
-<script src="/theme-flex/script.js"></script>
+<script src="/theme-nur/script.js"></script>
 
 
     
