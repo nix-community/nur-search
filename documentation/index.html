@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2021-12-07T07:25:51 UTC">
+<meta name="revised" content="2021-12-07T15:37:35 UTC">
 <title>Documentation :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -1064,17 +1064,17 @@ as shown above!</p>
 }
 </code></pre></div><h2 id="how-to-use">How to use</h2>
 <p>Then packages can be used or installed from the NUR namespace.</p>
-<pre tabindex="0"><code class="language-console" data-lang="console">$ nix-shell -p nur.repos.mic92.hello-nur
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$ nix-shell -p nur.repos.mic92.hello-nur
 nix-shell&gt; hello
 Hello, NUR!
-</code></pre><p>or</p>
-<pre tabindex="0"><code class="language-console" data-lang="console">$ nix-env -f '&lt;nixpkgs&gt;' -iA nur.repos.mic92.hello-nur
-</code></pre><p>or</p>
-<pre tabindex="0"><code class="language-console" data-lang="console"># configuration.nix
+</code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$ nix-env -f <span style="color:#e6db74">&#39;&lt;nixpkgs&gt;&#39;</span> -iA nur.repos.mic92.hello-nur
+</code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console"># configuration.nix
 environment.systemPackages = with pkgs; [
   nur.repos.mic92.hello-nur
 ];
-</code></pre><p>Each contributor can register their repository under a name and is responsible
+</code></pre></div><p>Each contributor can register their repository under a name and is responsible
 for its content.</p>
 <p><em><strong>NUR does not check the repository for malicious content on a regular basis
 and it is recommended to check the expressions before installing them.</strong></em></p>
@@ -1208,20 +1208,20 @@ stdenv<span style="color:#f92672">.</span>mkDerivation <span style="color:#66d9e
   };
 }
 </code></pre></div><p>You can use <code>nix-shell</code> or <code>nix-build</code> to build your packages:</p>
-<pre tabindex="0"><code class="language-console" data-lang="console">$ nix-shell --arg pkgs 'import &lt;nixpkgs&gt; {}' -A hello-nur
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$ nix-shell --arg pkgs <span style="color:#e6db74">&#39;import &lt;nixpkgs&gt; {}&#39;</span> -A hello-nur
 nix-shell&gt; hello
 nix-shell&gt; find $buildInputs
-</code></pre><pre tabindex="0"><code class="language-console" data-lang="console">$ nix-build --arg pkgs 'import &lt;nixpkgs&gt; {}' -A hello-nur
-</code></pre><p>For development convenience, you can also set a default value for the pkgs argument:</p>
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$ nix-build --arg pkgs <span style="color:#e6db74">&#39;import &lt;nixpkgs&gt; {}&#39;</span> -A hello-nur
+</code></pre></div><p>For development convenience, you can also set a default value for the pkgs argument:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-nix" data-lang="nix">{ pkgs <span style="color:#f92672">?</span> <span style="color:#f92672">import</span> <span style="color:#e6db74">&lt;nixpkgs&gt;</span> {} }:
 {
   hello-nur <span style="color:#f92672">=</span> pkgs<span style="color:#f92672">.</span>callPackage <span style="color:#e6db74">./hello-nur</span> {};
 }
-</code></pre></div><pre tabindex="0"><code class="language-console" data-lang="console">$ nix-build -A hello-nur
-</code></pre><p>Add your own repository to in the <code>repos.json</code> of NUR:</p>
-<pre tabindex="0"><code class="language-console" data-lang="console">$ git clone --depth 1 https://github.com/nix-community/NUR
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$ nix-build -A hello-nur
+</code></pre></div><p>Add your own repository to in the <code>repos.json</code> of NUR:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$ git clone --depth <span style="color:#ae81ff">1</span> https://github.com/nix-community/NUR
 $ cd NUR
-</code></pre><p>edit the file <code>repos.json</code>:</p>
+</code></pre></div><p>edit the file <code>repos.json</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
     <span style="color:#f92672">&#34;repos&#34;</span>: {
         <span style="color:#f92672">&#34;mic92&#34;</span>: {
@@ -1259,8 +1259,8 @@ option to a path relative to the repository root:</p>
 github action to update our lock file <code>repos.json.lock</code>.
 To update NUR faster, you can use our service at <a href="https://nur-update.herokuapp.com/">https://nur-update.herokuapp.com/</a>
 after you have pushed an update to your repository, e.g.:</p>
-<pre tabindex="0"><code class="language-console" data-lang="console">curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
-</code></pre><p>Check out the <a href="https://github.com/nix-community/nur-update#nur-update-endpoint">github page</a> for further details</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
+</code></pre></div><p>Check out the <a href="https://github.com/nix-community/nur-update#nur-update-endpoint">github page</a> for further details</p>
 <h3 id="help-why-are-my-nur-packages-not-updating">HELP! Why are my NUR packages not updating?</h3>
 <p>With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are:</p>
 <ul>
