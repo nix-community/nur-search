@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2022-05-20T06:39:13 UTC">
+<meta name="revised" content="2022-05-20T06:52:42 UTC">
 <title>Documentation :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -1382,14 +1382,15 @@ after you have pushed an update to your repository, e.g.:</p>
 <p>You can find out if your evaluation succeeded by checking the <a href="https://github.com/nix-community/NUR/actions">latest build job</a>.</p>
 <h4 id="local-evaluation-check">Local evaluation check</h4>
 <p>In your <code>nur-packages/</code> folder, run the <a href="https://github.com/nix-community/nur-packages-template/blob/master/.github/workflows/build.yml">check evaluation</a> task</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>nix-env -f . -qa <span style="color:#ae81ff">\*</span> --meta --xml <span style="color:#ae81ff">\
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>nix-env -f . -qa <span style="color:#ae81ff">\*</span> --meta <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --allowed-uris https://static.rust-lang.org <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --option restrict-eval true <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --option allow-import-from-derivation true <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --drv-path --show-trace <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -I nixpkgs<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>nix-instantiate --find-file nixpkgs<span style="color:#66d9ef">)</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -I ./
-</span></span></code></pre></div><p>On success, this shows an XML document with a list of your packages</p>
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -I ./ <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --json | jq -r <span style="color:#e6db74">&#39;values | .[].name&#39;</span>
+</span></span></code></pre></div><p>On success, this shows a list of your packages</p>
 <h3 id="git-submodules">Git submodules</h3>
 <p>To fetch git submodules in repositories set <code>submodules</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
