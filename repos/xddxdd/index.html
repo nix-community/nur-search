@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2022-11-30T07:25:29 UTC">
+<meta name="revised" content="2022-12-06T08:39:21 UTC">
 <title>xddxdd :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -993,13 +993,6 @@
           </a>
         </div>
     </li>
-      <li data-nav-id="/repos/sikmir/" class="dd-item">
-        <div>
-          <a href="/repos/sikmir/">
-            sikmir
-          </a>
-        </div>
-    </li>
       <li data-nav-id="/repos/sky/" class="dd-item">
         <div>
           <a href="/repos/sky/">
@@ -1088,6 +1081,13 @@
         <div>
           <a href="/repos/uniquepointer/">
             uniquepointer
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/repos/utybo/" class="dd-item">
+        <div>
+          <a href="/repos/utybo/">
+            utybo
           </a>
         </div>
     </li>
@@ -1358,7 +1358,6 @@
       <option value="/repos/shadowrz/" >- shadowrz</option>
       <option value="/repos/shamilton/" >- shamilton</option>
       <option value="/repos/sigprof/" >- sigprof</option>
-      <option value="/repos/sikmir/" >- sikmir</option>
       <option value="/repos/sky/" >- sky</option>
       <option value="/repos/slaier/" >- slaier</option>
       <option value="/repos/smaret/" >- smaret</option>
@@ -1372,6 +1371,7 @@
       <option value="/repos/tokudan/" >- tokudan</option>
       <option value="/repos/tomberek/" >- tomberek</option>
       <option value="/repos/uniquepointer/" >- uniquepointer</option>
+      <option value="/repos/utybo/" >- utybo</option>
       <option value="/repos/vanilla/" >- vanilla</option>
       <option value="/repos/vroad/" >- vroad</option>
       <option value="/repos/wamserma/" >- wamserma</option>
@@ -1631,28 +1631,33 @@ overflow-wrap: break-word;
 <td></td>
 </tr>
 <tr>
+<td><a href="https://netfilter.org/projects/libnftnl/">libnftnl-1.2.4</a></td>
+<td><a href="https://github.com/xddxdd/nur-packages/blob/HEAD/pkgs/development/libraries/libnftnl/default.nix#L16">nur.repos.xddxdd.libnftnl-fullcone</a></td>
+<td>A userspace library providing a low-level netlink API to the in-kernel nf_tables subsystem</td>
+</tr>
+<tr>
 <td><a href="https://openquantumsafe.org">liboqs-0.7.2</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/uncategorized/liboqs/default.nix#L31">nur.repos.xddxdd.liboqs</a></td>
 <td>C library for prototyping and experimenting with quantum-resistant cryptography</td>
 </tr>
 <tr>
-<td><a href="https://www.kernel.org/">linux-6.0.10</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/lantian-customized/linux-xanmod-lantian/default.nix#L30">nur.repos.xddxdd.lantianCustomized.linux-xanmod-lantian</a></td>
-<td>The Linux kernel (with patches: bridge-stp-helper, request-key-helper, 0001-drm-i915-gvt-Add-virtual-option-ROM-emulation.patch, 0002-qcserial.patch, 0004-hp-omen-fourzone.patch, 0008-hp-omen-mute-led.patch)</td>
-</tr>
-<tr>
-<td><a href="https://www.kernel.org/">linux-6.0.10</a></td>
+<td><a href="https://www.kernel.org/">linux-6.0.11</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/lantian-customized/linux-xanmod-lantian/default.nix#L30">nur.repos.xddxdd.lantianCustomized.linux-xanmod-lantian-lto</a></td>
 <td>The Linux kernel (with patches: bridge-stp-helper, request-key-helper, 0001-drm-i915-gvt-Add-virtual-option-ROM-emulation.patch, 0002-qcserial.patch, 0004-hp-omen-fourzone.patch, 0008-hp-omen-mute-led.patch)</td>
 </tr>
 <tr>
-<td>linux-config-6.0.10</td>
-<td><a href="https://github.com/xddxdd/nur-packages/blob/HEAD/pkgs/os-specific/linux/kernel/generic.nix#L119">nur.repos.xddxdd.lantianCustomized.linux-xanmod-lantian-config</a></td>
+<td><a href="https://www.kernel.org/">linux-6.0.11</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/lantian-customized/linux-xanmod-lantian/default.nix#L30">nur.repos.xddxdd.lantianCustomized.linux-xanmod-lantian</a></td>
+<td>The Linux kernel (with patches: bridge-stp-helper, request-key-helper, 0001-drm-i915-gvt-Add-virtual-option-ROM-emulation.patch, 0002-qcserial.patch, 0004-hp-omen-fourzone.patch, 0008-hp-omen-mute-led.patch)</td>
+</tr>
+<tr>
+<td>linux-config-6.0.11</td>
+<td><a href="https://github.com/xddxdd/nur-packages/blob/HEAD/pkgs/os-specific/linux/kernel/generic.nix#L119">nur.repos.xddxdd.lantianCustomized.linux-xanmod-lantian-lto-config</a></td>
 <td></td>
 </tr>
 <tr>
-<td>linux-config-6.0.10</td>
-<td><a href="https://github.com/xddxdd/nur-packages/blob/HEAD/pkgs/os-specific/linux/kernel/generic.nix#L119">nur.repos.xddxdd.lantianCustomized.linux-xanmod-lantian-lto-config</a></td>
+<td>linux-config-6.0.11</td>
+<td><a href="https://github.com/xddxdd/nur-packages/blob/HEAD/pkgs/os-specific/linux/kernel/generic.nix#L119">nur.repos.xddxdd.lantianCustomized.linux-xanmod-lantian-config</a></td>
 <td></td>
 </tr>
 <tr>
@@ -1669,6 +1674,11 @@ overflow-wrap: break-word;
 <td><a href="https://github.com/pekman/netns-exec">netns-exec-aa346fd058d47b238ae1b86250f414bcab2e7927</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/uncategorized/netns-exec/default.nix#L18">nur.repos.xddxdd.netns-exec</a></td>
 <td>Run command in Linux network namespace as normal user</td>
+</tr>
+<tr>
+<td><a href="https://netfilter.org/projects/nftables/">nftables-1.0.5</a></td>
+<td><a href="https://github.com/xddxdd/nur-packages/blob/HEAD/pkgs/os-specific/linux/nftables/default.nix#L41">nur.repos.xddxdd.nftables-fullcone</a></td>
+<td>The project that aims to replace the existing {ip,ip6,arp,eb}tables framework</td>
 </tr>
 <tr>
 <td><a href="https://github.com/werman/noise-suppression-for-voice">noise-suppression-for-voice-v1.03</a></td>
@@ -1722,22 +1732,22 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jdk-bin-11.0.17.0</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jdk-bin-11</a></td>
-<td>OpenJ9 binaries built by IBM Semeru</td>
-</tr>
-<tr>
-<td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jdk-bin-11.0.17.0</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jdk-bin-11_0_17_0</a></td>
 <td>OpenJ9 binaries built by IBM Semeru</td>
 </tr>
 <tr>
-<td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jdk-bin-16.0.2.0</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jdk-bin-16_0_2_0</a></td>
+<td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jdk-bin-11.0.17.0</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jdk-bin-11</a></td>
 <td>OpenJ9 binaries built by IBM Semeru</td>
 </tr>
 <tr>
 <td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jdk-bin-16.0.2.0</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jdk-bin-16</a></td>
+<td>OpenJ9 binaries built by IBM Semeru</td>
+</tr>
+<tr>
+<td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jdk-bin-16.0.2.0</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jdk-bin-16_0_2_0</a></td>
 <td>OpenJ9 binaries built by IBM Semeru</td>
 </tr>
 <tr>
@@ -1947,12 +1957,12 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jre-bin-18.0.2.1</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-18_0_2_1</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-18</a></td>
 <td>OpenJ9 binaries built by IBM Semeru</td>
 </tr>
 <tr>
 <td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jre-bin-18.0.2.1</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-18</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-18_0_2_1</a></td>
 <td>OpenJ9 binaries built by IBM Semeru</td>
 </tr>
 <tr>
@@ -1987,12 +1997,12 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jre-bin-8.0.352.0</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-8_0_352_0</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-8</a></td>
 <td>OpenJ9 binaries built by IBM Semeru</td>
 </tr>
 <tr>
 <td><a href="https://developer.ibm.com/languages/java/semeru-runtimes/">openj9-ibm-semeru-jre-bin-8.0.352.0</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-8</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openj9-ibm-semeru/jdk-linux-base.nix#L115">nur.repos.xddxdd.openj9-ibm-semeru.jre-bin-8_0_352_0</a></td>
 <td>OpenJ9 binaries built by IBM Semeru</td>
 </tr>
 <tr>
@@ -2147,12 +2157,12 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://adoptium.net/">openjdk-adoptium-jdk-bin-8u352-b08_adopt</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jdk-bin-8u352_b08</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jdk-bin-8</a></td>
 <td>OpenJDK binaries built by Eclipse Adoptium</td>
 </tr>
 <tr>
 <td><a href="https://adoptium.net/">openjdk-adoptium-jdk-bin-8u352-b08_adopt</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jdk-bin-8</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jdk-bin-8u352_b08</a></td>
 <td>OpenJDK binaries built by Eclipse Adoptium</td>
 </tr>
 <tr>
@@ -2242,12 +2252,12 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://adoptium.net/">openjdk-adoptium-jre-bin-18.0.2.1_1_adopt</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jre-bin-18_0_2_1_1</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jre-bin-18</a></td>
 <td>OpenJDK binaries built by Eclipse Adoptium</td>
 </tr>
 <tr>
 <td><a href="https://adoptium.net/">openjdk-adoptium-jre-bin-18.0.2.1_1_adopt</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jre-bin-18</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L115">nur.repos.xddxdd.openjdk-adoptium.jre-bin-18_0_2_1_1</a></td>
 <td>OpenJDK binaries built by Eclipse Adoptium</td>
 </tr>
 <tr>
