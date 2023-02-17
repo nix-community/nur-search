@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2023-02-17T11:39:48 UTC">
+<meta name="revised" content="2023-02-17T15:51:39 UTC">
 <title>Documentation :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -1620,7 +1620,7 @@ You can then configure your services like usual.</p>
 </span></span><span style="display:flex;"><span>  nur-no-pkgs <span style="color:#f92672">=</span> <span style="color:#f92672">import</span> (builtins<span style="color:#f92672">.</span>fetchTarball <span style="color:#e6db74">&#34;https://github.com/nix-community/NUR/archive/master.tar.gz&#34;</span>) {};
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">in</span>
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  imports <span style="color:#f92672">=</span> lib<span style="color:#f92672">.</span>attrValues nur-no-pkgs<span style="color:#f92672">.</span>repos<span style="color:#f92672">.</span>moredhel<span style="color:#f92672">.</span>hmModules<span style="color:#f92672">.</span>modules;
+</span></span><span style="display:flex;"><span>  imports <span style="color:#f92672">=</span> lib<span style="color:#f92672">.</span>attrValues nur-no-pkgs<span style="color:#f92672">.</span>repos<span style="color:#f92672">.</span>moredhel<span style="color:#f92672">.</span>hmModules<span style="color:#f92672">.</span>rawModules;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  services<span style="color:#f92672">.</span>unison <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>    enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
