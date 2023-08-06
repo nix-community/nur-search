@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2023-08-06T04:48:34 UTC">
+<meta name="revised" content="2023-08-06T08:50:44 UTC">
 <title>Documentation :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -1861,18 +1861,22 @@ and it is recommended to check the expressions before installing them.</strong><
 </span></span></code></pre></div><p>You cannot use <code>config.nur</code> for importing NixOS modules from NUR as this will lead to infinite recursion errors.</p>
 <p>Instead use:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-nix" data-lang="nix"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  inputs<span style="color:#f92672">.</span>nur<span style="color:#f92672">.</span>url <span style="color:#f92672">=</span> <span style="color:#e6db74">github:nix-community/NUR</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  outputs <span style="color:#f92672">=</span> { self<span style="color:#f92672">,</span> nixpkgs<span style="color:#f92672">,</span> nur }: {
-</span></span><span style="display:flex;"><span>    nixosConfigurations<span style="color:#f92672">.</span>myConfig <span style="color:#f92672">=</span> nixpkgs<span style="color:#f92672">.</span>lib<span style="color:#f92672">.</span>nixosSystem {
-</span></span><span style="display:flex;"><span>      <span style="color:#75715e"># ...</span>
-</span></span><span style="display:flex;"><span>      modules <span style="color:#f92672">=</span> <span style="color:#66d9ef">let</span>
-</span></span><span style="display:flex;"><span>        nur-modules <span style="color:#f92672">=</span> <span style="color:#f92672">import</span> nur {
-</span></span><span style="display:flex;"><span>          nurpkgs <span style="color:#f92672">=</span> nixpkgs<span style="color:#f92672">.</span>legacyPackages<span style="color:#f92672">.</span>x86_64-linux;
-</span></span><span style="display:flex;"><span>          pkgs <span style="color:#f92672">=</span> nixpkgs<span style="color:#f92672">.</span>legacyPackages<span style="color:#f92672">.</span>x86_64-linux;
-</span></span><span style="display:flex;"><span>        };
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">in</span> [
-</span></span><span style="display:flex;"><span>       { imports <span style="color:#f92672">=</span> [ nur-modules<span style="color:#f92672">.</span>repos<span style="color:#f92672">.</span>paul<span style="color:#f92672">.</span>modules<span style="color:#f92672">.</span>foo ]; }
+</span></span><span style="display:flex;"><span>  inputs<span style="color:#f92672">.</span>nur<span style="color:#f92672">.</span>url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;github:nix-community/NUR&#34;</span>;
+</span></span><span style="display:flex;"><span>  outputs <span style="color:#f92672">=</span> { self<span style="color:#f92672">,</span> nixpkgs<span style="color:#f92672">,</span> nur }: <span style="color:#66d9ef">rec</span> {
+</span></span><span style="display:flex;"><span>    nixosConfigurations<span style="color:#f92672">.</span>laptop <span style="color:#f92672">=</span> nixpkgs<span style="color:#f92672">.</span>lib<span style="color:#f92672">.</span>nixosSystem {
+</span></span><span style="display:flex;"><span>      system <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;x86_64-linux&#34;</span>;
+</span></span><span style="display:flex;"><span>      modules <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>        { nixpkgs<span style="color:#f92672">.</span>overlays <span style="color:#f92672">=</span> [ nur<span style="color:#f92672">.</span>overlay ]; }
+</span></span><span style="display:flex;"><span>        ({ pkgs<span style="color:#f92672">,</span> <span style="color:#f92672">...</span> }:
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">let</span>
+</span></span><span style="display:flex;"><span>            nur-no-pkgs <span style="color:#f92672">=</span> <span style="color:#f92672">import</span> nur {
+</span></span><span style="display:flex;"><span>              nurpkgs <span style="color:#f92672">=</span> <span style="color:#f92672">import</span> nixpkgs { system <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;x86_64-linux&#34;</span>; };
+</span></span><span style="display:flex;"><span>            };
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">in</span> {
+</span></span><span style="display:flex;"><span>            imports <span style="color:#f92672">=</span> [ nur-no-pkgs<span style="color:#f92672">.</span>repos<span style="color:#f92672">.</span>iopq<span style="color:#f92672">.</span>modules<span style="color:#f92672">.</span>xraya  ];
+</span></span><span style="display:flex;"><span>            services<span style="color:#f92672">.</span>xraya<span style="color:#f92672">.</span>enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>          })
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">#./configuration.nix or other imports here</span>
 </span></span><span style="display:flex;"><span>      ];
 </span></span><span style="display:flex;"><span>    };
 </span></span><span style="display:flex;"><span>  };
