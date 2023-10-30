@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2023-10-30T10:11:25 UTC">
+<meta name="revised" content="2023-10-30T13:19:01 UTC">
 <title>Documentation :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -1931,7 +1931,7 @@ and it is recommended to check the expressions before installing them.</strong><
 </span></span><span style="display:flex;"><span>  };
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="using-modules-overlays-or-library-functions-in-nixos">Using modules overlays or library functions in NixOS</h3>
-<p>If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care to not introduce infinite recursion. Specifically, you need to import NUR like this in the modules:</p>
+<p>If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care not to introduce infinite recursion. Specifically, you need to import NUR like this in the modules:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-nix" data-lang="nix"><span style="display:flex;"><span>{ pkgs<span style="color:#f92672">,</span> config<span style="color:#f92672">,</span> lib<span style="color:#f92672">,</span> <span style="color:#f92672">...</span> }:
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span>
 </span></span><span style="display:flex;"><span>  nur-no-pkgs <span style="color:#f92672">=</span> <span style="color:#f92672">import</span> (builtins<span style="color:#f92672">.</span>fetchTarball <span style="color:#e6db74">&#34;https://github.com/nix-community/NUR/archive/master.tar.gz&#34;</span>) {};
@@ -1974,8 +1974,8 @@ or search our
 repository, which contains all nix expressions from all users, via
 <a href="https://github.com/nix-community/nur-combined/search">github</a>.</p>
 <h2 id="how-to-add-your-own-repository">How to add your own repository.</h2>
-<p>First create a repository that contains a <code>default.nix</code> in its top-level directory.
-We also provide <a href="https://github.com/nix-community/nur-packages-template">repository template</a> that contains
+<p>First, create a repository that contains a <code>default.nix</code> in its top-level directory.
+We also provide a <a href="https://github.com/nix-community/nur-packages-template">repository template</a> that contains
 a prepared directory structure.</p>
 <p>DO NOT import packages for example <code>with import &lt;nixpkgs&gt; {};</code>.
 Instead take all dependency you want to import from Nixpkgs from the given <code>pkgs</code> argument.
@@ -2027,7 +2027,7 @@ Each repository should return a set of Nix derivations:</p>
 </span></span><span style="display:flex;"><span>  hello-nur <span style="color:#f92672">=</span> pkgs<span style="color:#f92672">.</span>callPackage <span style="color:#e6db74">./hello-nur</span> {};
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ nix-build -A hello-nur
-</span></span></code></pre></div><p>Add your own repository to in the <code>repos.json</code> of NUR:</p>
+</span></span></code></pre></div><p>Add your own repository to the <code>repos.json</code> of NUR:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git clone --depth <span style="color:#ae81ff">1</span> https://github.com/nix-community/NUR
 </span></span><span style="display:flex;"><span>$ cd NUR
 </span></span></code></pre></div><p>edit the file <code>repos.json</code>:</p>
@@ -2041,9 +2041,9 @@ Each repository should return a set of Nix derivations:</p>
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>At the moment each URL must point to a git repository. By running <code>bin/nur update</code>
+</span></span></code></pre></div><p>At the moment, each URL must point to a git repository. By running <code>bin/nur update</code>
 the corresponding <code>repos.json.lock</code> is updated and the repository is  tested. This will
-perform also an evaluation check, which must be passed for your repository. Commit the changed
+also perform an evaluation check, which must be passed for your repository. Commit the changed
 <code>repos.json</code> but NOT <code>repos.json.lock</code></p>
 <pre tabindex="0"><code>$ ./bin/nur format-manifest # ensure repos.json is sorted alphabetically
 $ git add repos.json
