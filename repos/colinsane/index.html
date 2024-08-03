@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2024-08-03T22:39:10 UTC">
+<meta name="revised" content="2024-08-03T23:53:18 UTC">
 <title>colinsane :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -2661,6 +2661,11 @@ overflow-wrap: break-word;
 <td><a href="https://libdng.me.gapixels.me">libdng-unstable-2024-04-28</a></td>
 <td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/libdng/default.nix#L37">nur.repos.colinsane.libdng</a></td>
 <td>Interface library between libtiff and the world to make sure the output is valid DNG</td>
+</tr>
+<tr>
+<td><a href="https://github.com/libfuse/libfuse">fuse-3.16.2</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/libfuse-sane/default.nix#L17">nur.repos.colinsane.libfuse-sane</a></td>
+<td>provides <code>mount.fuse3.sane</code>, which behaves identically to <code>mount.fuse3</code> exceptit supports an additional mount flag, <code>-o pass_fuse_fd</code>.when mounting with <code>-o pass_fuse_fd</code>, <code>mount.fuse3.sane</code> opens the <code>/dev/fuse</code> device (which requires CAP_SYS_ADMIN),and then <code>exec</code>s the userspace implementation, which inherits this file descriptor.<code>mount.fuse3.sane</code> invokes the userspace implementation with the device argument set to something like <code>/dev/fd/3</code>, indicating which fd holds the fuse device.the aim of this flag is to provide a clear handoff point at which the filesystem may drop CAP_SYS_ADMIN.in this regard, it&rsquo;s much like <code>-o drop_privileges</code>, only it leaves the responsibility for that to the fs impl,in case the fs needs to preserve <em>other</em> privileges besides CAP_SYS_ADMIN.</td>
 </tr>
 <tr>
 <td><a href="https://gitlab.com/megapixels-org/libmegapixels">libmegapixels-0.1.0-unstable-2024-05-18</a></td>
