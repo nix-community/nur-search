@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2024-08-05T21:55:16 UTC">
+<meta name="revised" content="2024-08-06T02:24:11 UTC">
 <title>colinsane :: Packages search for NUR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -2633,8 +2633,8 @@ overflow-wrap: break-word;
 <td>An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices</td>
 </tr>
 <tr>
-<td><a href="https://landlock.io">landlock-sandboxer-6.6.43</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/landlock-sandboxer/default.nix#L45">nur.repos.colinsane.landlock-sandboxer</a></td>
+<td><a href="https://landlock.io">landlock-sandboxer-6.10.2</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/landlock-sandboxer/default.nix#L53">nur.repos.colinsane.landlock-sandboxer</a></td>
 <td>The goal of Landlock is to enable to restrict ambient rights (e.g. global filesystem access) for a set of processes.</td>
 </tr>
 <tr>
@@ -2664,7 +2664,7 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td><a href="https://github.com/libfuse/libfuse">fuse-3.16.2</a></td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/libfuse-sane/default.nix#L17">nur.repos.colinsane.libfuse-sane</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/libfuse-sane/default.nix#L27">nur.repos.colinsane.libfuse-sane</a></td>
 <td>provides <code>mount.fuse3.sane</code>, which behaves identically to <code>mount.fuse3</code> exceptit supports an additional mount flag, <code>-o pass_fuse_fd</code>.when mounting with <code>-o pass_fuse_fd</code>, <code>mount.fuse3.sane</code> opens the <code>/dev/fuse</code> device (which requires CAP_SYS_ADMIN),and then <code>exec</code>s the userspace implementation, which inherits this file descriptor.<code>mount.fuse3.sane</code> invokes the userspace implementation with the device argument set to something like <code>/dev/fd/3</code>, indicating which fd holds the fuse device.the aim of this flag is to provide a clear handoff point at which the filesystem may drop CAP_SYS_ADMIN.in this regard, it&rsquo;s much like <code>-o drop_privileges</code>, only it leaves the responsibility for that to the fs impl,in case the fs needs to preserve <em>other</em> privileges besides CAP_SYS_ADMIN.</td>
 </tr>
 <tr>
@@ -3004,7 +3004,7 @@ overflow-wrap: break-word;
 </tr>
 <tr>
 <td>sanebox-0.1</td>
-<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/sanebox/default.nix#L57">nur.repos.colinsane.pkgs.sanebox</a></td>
+<td><a href="https://github.com/nix-community/nur-combined/tree/master/repos/colinsane/pkgs/additional/sanebox/default.nix#L58">nur.repos.colinsane.pkgs.sanebox</a></td>
 <td>helper program to run some other program in a sandbox.factoring this out allows:1. to abstract over the particular sandbox implementation (bwrap, landlock, &hellip;).2. to modify sandbox settings without forcing a rebuild of the sandboxed package.</td>
 </tr>
 <tr>
