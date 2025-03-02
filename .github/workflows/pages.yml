@@ -1,0 +1,47 @@
+name: Update NUR Search Website
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+concurrency:
+  group: website
+  cancel-in-progress: false
+permissions: # Required for GH pages
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  update_website:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: nix-community/nur-search
+          submodules: true
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        # TODO: Use nix / flakes
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+        env:
+          HUGO_VERSION: 0.128.0
+      - name: Make website
+        run: make all
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+  deploy_website:
+    runs-on: ubuntu-latest
+    needs: update_website
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
