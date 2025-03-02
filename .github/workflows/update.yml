@@ -4,12 +4,16 @@ on:
     types:
       - nur_update
   workflow_dispatch:
+  push:
+    branches:
+      - main
 concurrency:
   group: update
   cancel-in-progress: false
 jobs:
   update_search:
     runs-on: ubuntu-latest
+    if: github.event_name != 'push' || !endsWith(github.actor, '[bot]')
     steps:
     - id: get_workflow_token
       uses: peter-murray/workflow-application-token-action@v4.0.1
@@ -54,3 +58,41 @@ jobs:
         token: ${{ steps.get_workflow_token.outputs.token }}
         branch: ${{ github.event.repository.default_branch }}
         path: nur-search
+  update_website:
+    runs-on: ubuntu-latest
+    needs: update_search
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: nix-community/nur-search
+          fetch-depth: '0'
+      - uses: cachix/install-nix-action@v30
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - name: Make website
+        run: make all
+      - name: Deploy website
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          cname: nur.nix-community.org
+          user_name: NUR Bot
+          user_email:
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+  deploy_website:
+    runs-on: ubuntu-latest
+    needs: update_website
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
