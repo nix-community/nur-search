@@ -10,6 +10,10 @@ on:
 concurrency:
   group: update
   cancel-in-progress: false
+permissions: # Required for GH actions
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   update_search:
     runs-on: ubuntu-latest
@@ -62,6 +66,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: nix-community/nur-search
+          submodules: true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
