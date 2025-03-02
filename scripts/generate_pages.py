@@ -57,7 +57,7 @@ Name | Attribute | Description
             f.write(f"{name}|{attribute}|{description}\n")
 
 def download_readme():
-    url = "https://raw.githubusercontent.com/nix-community/NUR/master/README.md"
+    url = "https://raw.githubusercontent.com/nix-community/NUR/main/README.md"
     r = requests.get(url)
     with open("content/documentation/_index.md", 'wb') as f:
         fm = bytes("""
