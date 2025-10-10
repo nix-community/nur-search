@@ -80,11 +80,18 @@ jQuery(document).ready(function() {
             items.css('display', 'block');
             sessionStorage.removeItem('search-value');
             $("article").unhighlight({ element: 'mark' })
+            // Remove query parameter from URL when search is cleared
+            var newUrl = window.location.origin + window.location.pathname;
+            window.history.replaceState({}, '', newUrl);
             return;
         }
 
         sessionStorage.setItem('search-value', value);
         $("article").unhighlight({ element: 'mark' }).highlight(value, { element: 'mark' });
+        
+        // Update URL query parameter as the user types
+        var newUrl = window.location.origin + window.location.pathname + '?query=' + encodeURIComponent(value);
+        window.history.replaceState({}, '', newUrl);
 
         if (ajax && ajax.abort) ajax.abort();
 
