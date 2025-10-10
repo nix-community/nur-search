@@ -101,7 +101,17 @@ jQuery(document).ready(function() {
         };
     });
 
-    if (sessionStorage.getItem('search-value')) {
+    // Check for query parameter in URL
+    var urlParams = getUrlParameter(window.location.href);
+    if (urlParams && urlParams['query']) {
+        try {
+            var queryValue = decodeURIComponent(urlParams['query']);
+            jQuery('[data-search-input]').val(queryValue).trigger('input');
+        } catch (e) {
+            // Handle malformed URL encoding gracefully
+            console.warn('Invalid URL encoding in query parameter:', e);
+        }
+    } else if (sessionStorage.getItem('search-value')) {
         var searchValue = sessionStorage.getItem('search-value')
         sessionStorage.removeItem('search-value');
         var searchedElem = $('article').find(':contains(' + searchValue + ')').get(0);
