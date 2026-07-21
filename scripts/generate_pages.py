@@ -17,7 +17,9 @@ class Package:
 
 
 def write_repo_page(repos_path: Path, repo_name: str, pkgs: List[Package]):
-    with open(str(repos_path.joinpath(repo_name)) + ".md", "w+") as f:
+    safe_name = os.path.basename(repo_name)
+    out_path = repos_path / (safe_name + ".md")
+    with open(out_path, "w+") as f:
         f.write(
             f"""
 +++
