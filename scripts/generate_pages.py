@@ -5,6 +5,7 @@ import os
 import shutil
 from pathlib import Path
 from typing import Any, DefaultDict, Dict, List
+
 import requests
 
 ROOT = Path(__file__).parent.parent.resolve()
@@ -16,7 +17,9 @@ class Package:
         self.metadata = metadata
 
 
-def write_repo_page(repos_path: Path, repo_name: str, pkgs: List[Package]):
+def write_repo_page(
+    repos_path: Path, repo_name: str, repo_url: str, pkgs: List[Package]
+):
     safe_name = os.path.basename(repo_name)
     out_path = repos_path / (safe_name + ".md")
     with open(out_path, "w+") as f:
@@ -24,6 +27,7 @@ def write_repo_page(repos_path: Path, repo_name: str, pkgs: List[Package]):
             f"""
 +++
 title = "{repo_name}"
+repo_url = {json.dumps(repo_url)}
 +++
 
 # Packages
@@ -58,6 +62,7 @@ Name | Attribute | Description
 
             f.write(f"{name}|{attribute}|{description}\n")
 
+
 def download_readme():
     url = "https://raw.githubusercontent.com/nix-community/NUR/main/README.md"
     r = requests.get(url)
@@ -71,6 +76,13 @@ alwaysopen = true
 """, 'utf-8')
         f.write(fm)
         f.write(r.content)
+
+
+def download_repo_urls() -> Dict[str, str]:
+    url = "https://raw.githubusercontent.com/nix-community/NUR/main/repos.json"
+    manifest = requests.get(url).json()
+    return {name: repo["url"] for name, repo in manifest["repos"].items()}
+
 
 def create_repos_section():
     repos_path = ROOT.joinpath("content", "repos")
@@ -87,9 +99,11 @@ alwaysopen = true
 
 """)
 
+
 def main() -> None:
 
     download_readme()
+    repo_urls = download_repo_urls()
 
     with open(ROOT.joinpath("data", "packages.json")) as f:
         repos: DefaultDict[str, List[Package]] = DefaultDict(list)
@@ -105,7 +119,7 @@ def main() -> None:
         repo_count = 0
         for repo_name, pkgs in repos.items():
             repo_count += 1
-            write_repo_page(repos_path, repo_name, pkgs)
+            write_repo_page(repos_path, repo_name, repo_urls[repo_name], pkgs)
 
         stats_dict={'repo_count':repo_count, 'pkg_count': pkg_count}
         stats_path = ROOT.joinpath("data", "stats.json")

@@ -65,4 +65,5 @@
     {{- end}}
     
 
-    {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
+    {{if not .IsHome}}<h1>{{with .Params.repo_url}}<a href="{{.}}">{{$.Title}}</a>{{else}}{{.Title}}{{end}}</h1>{{end}}
+
