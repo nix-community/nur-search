@@ -65,7 +65,8 @@ Name | Attribute | Description
 
 def download_readme():
     url = "https://raw.githubusercontent.com/nix-community/NUR/main/README.md"
-    r = requests.get(url)
+    r = requests.get(url, timeout=30, verify=True)
+    r.raise_for_status()
     with open("content/documentation/_index.md", 'wb') as f:
         fm = bytes("""
 +++
@@ -80,7 +81,9 @@ alwaysopen = true
 
 def download_repo_urls() -> Dict[str, str]:
     url = "https://raw.githubusercontent.com/nix-community/NUR/main/repos.json"
-    manifest = requests.get(url).json()
+    r = requests.get(url, timeout=30, verify=True)
+    r.raise_for_status()
+    manifest = r.json()
     return {name: repo["url"] for name, repo in manifest["repos"].items()}
 
 
