@@ -242220,6 +242220,96 @@
         "_attr": "fluxdown-server",
         "_repo": "davinci42"
     },
+    "nur.repos.davinci42.mnamer-rs": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Rename and organize media files using online metadata",
+            "homepage": "https://github.com/jkwill87/mnamer",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mnamer-rs",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mnamer-rs",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "mnamer",
+            "maintainers": [],
+            "name": "mnamer-rs-3.0.0-dev5",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/mnamer-rs/default.nix#L43",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mnamer-rs-3.0.0-dev5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mnamer-rs",
+        "system": "x86_64-linux",
+        "version": "3.0.0-dev5",
+        "_attr": "mnamer-rs",
+        "_repo": "davinci42"
+    },
     "nur.repos.davinci42.rsshub": {
         "meta": {
             "available": true,
@@ -271135,7 +271225,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/etu/pkgs/dms-shell-plugins/fullscreen-power-menu.nix",
                 "line": 28
             },
-            "name": "dms-fullscreen-power-menu-0-unstable-2026-09-07",
+            "name": "dms-fullscreen-power-menu-1.2.0-unstable-2026-10-10",
             "nonTeamMaintainers": [
                 {
                     "email": "elis@hirwing.se",
@@ -271239,14 +271329,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dms-fullscreen-power-menu-0-unstable-2026-09-07",
+        "name": "dms-fullscreen-power-menu-1.2.0-unstable-2026-10-10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dms-fullscreen-power-menu",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-09-07",
+        "version": "1.2.0-unstable-2026-10-10",
         "_attr": "dmsShellPlugins.fullscreenPowerMenu",
         "_repo": "etu"
     },
