@@ -57296,9 +57296,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/ublksrv/package.nix",
-                "line": 98
+                "line": 99
             },
-            "name": "ublksrv-1.8",
+            "name": "ublksrv-1.8-unstable-2026-09-24",
             "nonTeamMaintainers": [
                 {
                     "email": "skye@soss.website",
@@ -57340,19 +57340,19 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/ublksrv/package.nix#L82",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/ublksrv/package.nix#L83",
             "problems": {},
             "unfree": true,
             "unsupported": false
         },
-        "name": "ublksrv-1.8",
+        "name": "ublksrv-1.8-unstable-2026-09-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ublksrv",
         "system": "x86_64-linux",
-        "version": "1.8",
+        "version": "1.8-unstable-2026-09-24",
         "_attr": "ublksrv",
         "_repo": "Skyb0rg007"
     },
@@ -260847,6 +260847,79 @@
         "_attr": "proton-wineland",
         "_repo": "duncannah"
     },
+    "nur.repos.duncannah.tide": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fork of the unmaintained Tide Fish prompt",
+            "homepage": "https://github.com/plttn/tide",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tide",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tide",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "fishplugin-tide-7.1.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/duncannah/pkgs/tide/default.nix#L37",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fishplugin-tide-7.1.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fishplugin-tide",
+        "system": "x86_64-linux",
+        "version": "7.1.2",
+        "_attr": "tide",
+        "_repo": "duncannah"
+    },
     "nur.repos.dustinblackman.languagetool-code-comments": {
         "meta": {
             "available": true,
@@ -392984,7 +393057,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "abdownloadmanager-bin-1.10.4",
+            "name": "abdownloadmanager-bin-1.11.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -393025,14 +393098,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "abdownloadmanager-bin-1.10.4",
+        "name": "abdownloadmanager-bin-1.11.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "abdownloadmanager-bin",
         "system": "x86_64-linux",
-        "version": "1.10.4",
+        "version": "1.11.0",
         "_attr": "abdm",
         "_repo": "lonerOrz"
     },
@@ -394337,7 +394410,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fabric/default.nix",
                 "line": 77
             },
-            "name": "python3.14-fabric-0-unstable-20261010-285439dfc",
+            "name": "python3.14-fabric-0-unstable-20261011-285439dfc",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -394387,7 +394460,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-fabric-0-unstable-20261010-285439dfc",
+        "name": "python3.14-fabric-0-unstable-20261011-285439dfc",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -394395,7 +394468,7 @@
         },
         "pname": "python3.14-fabric",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261010-285439dfc",
+        "version": "0-unstable-20261011-285439dfc",
         "_attr": "fabric",
         "_repo": "lonerOrz"
     },
@@ -394756,7 +394829,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fluxer/default.nix",
                 "line": 105
             },
-            "name": "fluxer-2026.1010.155917",
+            "name": "fluxer-2026.1011.181115",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -394783,14 +394856,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-2026.1010.155917",
+        "name": "fluxer-2026.1011.181115",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer",
         "system": "x86_64-linux",
-        "version": "2026.1010.155917",
+        "version": "2026.1011.181115",
         "_attr": "fluxer",
         "_repo": "lonerOrz"
     },
@@ -394854,7 +394927,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/folia-major/default.nix",
                 "line": 148
             },
-            "name": "folia-major-bin-0.7.17",
+            "name": "folia-major-bin-0.7.18",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -394874,14 +394947,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "folia-major-bin-0.7.17",
+        "name": "folia-major-bin-0.7.18",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "folia-major-bin",
         "system": "x86_64-linux",
-        "version": "0.7.17",
+        "version": "0.7.18",
         "_attr": "folia-major",
         "_repo": "lonerOrz"
     },
@@ -395952,7 +396025,7 @@
             },
             "mainProgram": "linux-wallpaperengine",
             "maintainers": [],
-            "name": "linux-wallpaperengine-0-unstable-2026-10-10",
+            "name": "linux-wallpaperengine-0-unstable-2026-10-11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -395993,14 +396066,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-wallpaperengine-0-unstable-2026-10-10",
+        "name": "linux-wallpaperengine-0-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linux-wallpaperengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-10",
+        "version": "0-unstable-2026-10-11",
         "_attr": "linux-wallpaperengine",
         "_repo": "lonerOrz"
     },
@@ -396426,7 +396499,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/niri-git/default.nix",
                 "line": 156
             },
-            "name": "niri-git-26.04-unstable-2026-10-10",
+            "name": "niri-git-26.04-unstable-2026-10-11",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -396464,7 +396537,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "niri-git-26.04-unstable-2026-10-10",
+        "name": "niri-git-26.04-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "doc": null,
@@ -396472,7 +396545,7 @@
         },
         "pname": "niri-git",
         "system": "x86_64-linux",
-        "version": "26.04-unstable-2026-10-10",
+        "version": "26.04-unstable-2026-10-11",
         "_attr": "niri-git",
         "_repo": "lonerOrz"
     },
@@ -396824,7 +396897,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia/default.nix",
                 "line": 149
             },
-            "name": "noctalia-0-unstable-20261010-a5f86c169",
+            "name": "noctalia-0-unstable-20261011-4b4dedef3",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -396867,14 +396940,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-0-unstable-20261010-a5f86c169",
+        "name": "noctalia-0-unstable-20261011-4b4dedef3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "noctalia",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261010-a5f86c169",
+        "version": "0-unstable-20261011-4b4dedef3",
         "_attr": "noctalia",
         "_repo": "lonerOrz"
     },
@@ -396938,7 +397011,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia-qs/default.nix",
                 "line": 99
             },
-            "name": "noctalia-qs-0-unstable-20261010-606adedbf",
+            "name": "noctalia-qs-0-unstable-20261011-606adedbf",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -396981,7 +397054,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-qs-0-unstable-20261010-606adedbf",
+        "name": "noctalia-qs-0-unstable-20261011-606adedbf",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -396989,7 +397062,7 @@
         },
         "pname": "noctalia-qs",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261010-606adedbf",
+        "version": "0-unstable-20261011-606adedbf",
         "_attr": "noctalia-qs",
         "_repo": "lonerOrz"
     },
@@ -397960,7 +398033,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/qwen-code-bin/default.nix",
                 "line": 46
             },
-            "name": "qwen-code-0.25.0",
+            "name": "qwen-code-0.25.1",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -398058,14 +398131,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qwen-code-0.25.0",
+        "name": "qwen-code-0.25.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qwen-code",
         "system": "x86_64-linux",
-        "version": "0.25.0",
+        "version": "0.25.1",
         "_attr": "qwen-code-bin",
         "_repo": "lonerOrz"
     },
@@ -398902,7 +398975,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nexmoe/VidBee/releases/tag/v2.1.0",
+            "changelog": "https://github.com/nexmoe/VidBee/releases/tag/v2.2.3",
             "description": "A modern Electron application for downloading videos and audios",
             "homepage": "https://vidbee.org/",
             "identifiers": {
@@ -398959,7 +399032,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/vidbee/default.nix",
                 "line": 330
             },
-            "name": "vidbee-2.1.0",
+            "name": "vidbee-2.2.3",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -399008,14 +399081,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vidbee-2.1.0",
+        "name": "vidbee-2.2.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vidbee",
         "system": "x86_64-linux",
-        "version": "2.1.0",
+        "version": "2.2.3",
         "_attr": "vidbee",
         "_repo": "lonerOrz"
     },
@@ -399962,7 +400035,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/zarumet/default.nix",
                 "line": 40
             },
-            "name": "zarumet-0-unstable-2026-10-04",
+            "name": "zarumet-0-unstable-2026-10-11",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -400019,14 +400092,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zarumet-0-unstable-2026-10-04",
+        "name": "zarumet-0-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "zarumet",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-04",
+        "version": "0-unstable-2026-10-11",
         "_attr": "zarumet",
         "_repo": "lonerOrz"
     },
