@@ -3558,7 +3558,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/alvr-git/default.nix",
                 "line": 62
             },
-            "name": "alvr-git-20.14.1-unstable-2026-10-07",
+            "name": "alvr-git-20.14.1-unstable-2026-10-11",
             "nonTeamMaintainers": [
                 {
                     "email": "luana@luana.dev.br",
@@ -3616,14 +3616,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "alvr-git-20.14.1-unstable-2026-10-07",
+        "name": "alvr-git-20.14.1-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "alvr-git",
         "system": "x86_64-linux",
-        "version": "20.14.1-unstable-2026-10-07",
+        "version": "20.14.1-unstable-2026-10-11",
         "_attr": "alvr-git",
         "_repo": "Adamekka"
     },
@@ -58558,6 +58558,131 @@
         "_attr": "runmat",
         "_repo": "VZstless"
     },
+    "nur.repos.VZstless.sashiko": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Agentic review of Linux Kernel code changes",
+            "homepage": "https://sashiko.dev",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sashiko",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sashiko",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "sashiko",
+            "maintainers": [],
+            "name": "sashiko-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/VZstless/pkgs/by-name/sa/sashiko/package.nix#L67",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sashiko-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sashiko",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "sashiko",
+        "_repo": "VZstless"
+    },
     "nur.repos.VZstless.sourcetrail": {
         "meta": {
             "available": true,
@@ -76180,6 +76305,140 @@
         "system": "x86_64-linux",
         "version": "0.54.3-unstable-2026-06-11",
         "_attr": "hyprlandPlugins.hyprsplit",
+        "_repo": "adam0"
+    },
+    "nur.repos.adam0.hypruse": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Hyprland computer use over MCP with native Wayland input",
+            "homepage": "https://github.com/IlyasKhallouki/hypruse",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "hypruse",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "hypruse",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "hypruse",
+            "maintainers": [],
+            "name": "hypruse-0.12.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/hypruse/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "hypruse-0.12.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "hypruse",
+        "system": "x86_64-linux",
+        "version": "0.12.0",
+        "_attr": "hypruse",
         "_repo": "adam0"
     },
     "nur.repos.adam0.opencubicplayer": {
@@ -107680,7 +107939,7 @@
                 "scripting",
                 "<all_urls>"
             ],
-            "name": "auto-tab-discard-0.7.5",
+            "name": "auto-tab-discard-0.7.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -107776,14 +108035,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "auto-tab-discard-0.7.5",
+        "name": "auto-tab-discard-0.7.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "auto-tab-discard",
         "system": "x86_64-linux",
-        "version": "0.7.5",
+        "version": "0.7.6",
         "_attr": "firefoxAddons.auto-tab-discard",
         "_repo": "bandithedoge"
     },
@@ -107996,7 +108255,7 @@
                 "activeTab",
                 "<all_urls>"
             ],
-            "name": "betterviewer-3.1.1",
+            "name": "betterviewer-3.2.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -108092,14 +108351,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "betterviewer-3.1.1",
+        "name": "betterviewer-3.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "betterviewer",
         "system": "x86_64-linux",
-        "version": "3.1.1",
+        "version": "3.2.0",
         "_attr": "firefoxAddons.betterviewer",
         "_repo": "bandithedoge"
     },
@@ -110701,7 +110960,7 @@
                 "declarativeNetRequestWithHostAccess",
                 "https://*.nexusmods.com/*"
             ],
-            "name": "nexusmods-advance-0.27.2",
+            "name": "nexusmods-advance-0.27.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -110797,14 +111056,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nexusmods-advance-0.27.2",
+        "name": "nexusmods-advance-0.27.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nexusmods-advance",
         "system": "x86_64-linux",
-        "version": "0.27.2",
+        "version": "0.27.3",
         "_attr": "firefoxAddons.nexusmods-advance",
         "_repo": "bandithedoge"
     },
@@ -147241,7 +147500,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "vimplugin-opencode.nvim-f97d008b9022965edc173b2adfc02dabc751124f",
+            "name": "vimplugin-opencode.nvim-ee684b140b2903540fca3448e42cafc838d1810f",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -147332,12 +147591,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vimplugin-opencode.nvim-f97d008b9022965edc173b2adfc02dabc751124f",
+        "name": "vimplugin-opencode.nvim-ee684b140b2903540fca3448e42cafc838d1810f",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "vimplugin-opencode.nvim-f97d008b9022965edc173b2adfc02dabc751124f",
+        "pname": "vimplugin-opencode.nvim-ee684b140b2903540fca3448e42cafc838d1810f",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "vimPlugins.opencode-nvim",
@@ -153234,7 +153493,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "vimplugin-ucw.nvim-49ede0a9c7538b190fb26fc0dd38cb32170d4c02",
+            "name": "vimplugin-ucw.nvim-83d1dd2b9a4625abf9432c0ef6b39dd84e2ce795",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -153325,14 +153584,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vimplugin-ucw.nvim-49ede0a9c7538b190fb26fc0dd38cb32170d4c02",
+        "name": "vimplugin-ucw.nvim-83d1dd2b9a4625abf9432c0ef6b39dd84e2ce795",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vimplugin-ucw.nvim",
         "system": "x86_64-linux",
-        "version": "49ede0a9c7538b190fb26fc0dd38cb32170d4c02",
+        "version": "83d1dd2b9a4625abf9432c0ef6b39dd84e2ce795",
         "_attr": "vimPlugins.ucw-nvim",
         "_repo": "bandithedoge"
     },
@@ -161381,7 +161640,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/zerostack/package.nix",
                 "line": 50
             },
-            "name": "zerostack-1.8.4",
+            "name": "zerostack-1.8.5",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -161435,14 +161694,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zerostack-1.8.4",
+        "name": "zerostack-1.8.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "zerostack",
         "system": "x86_64-linux",
-        "version": "1.8.4",
+        "version": "1.8.5",
         "_attr": "zerostack",
         "_repo": "bandithedoge"
     },
@@ -161551,7 +161810,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Zig Language Server",
+            "description": "Zig Language Server - A drop-in alternative to ZLS",
             "homepage": "https://github.com/llogick/zigscient",
             "identifiers": {
                 "cpeParts": {
@@ -161596,26 +161855,22 @@
             "mainProgram": "zigscient",
             "maintainers": [
                 {
-                    "email": "bandithedoge@protonmail.com",
-                    "github": "bandithedoge",
-                    "githubId": 26331682,
-                    "matrix": "@bandithedoge:matrix.org",
-                    "name": "Miko\u0142aj Lercher"
+                    "github": "alorans",
+                    "githubId": 143277280,
+                    "name": "Aled Lorans"
                 }
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/zigscient/package.nix",
-                "line": 48
+                "file": "/nix/store/ghasbyyjrmlg6sl7v04hiq8n57kcy9a9-source/pkgs/by-name/zi/zigscient/package.nix",
+                "line": 40
             },
             "name": "zigscient-0.17.0",
             "nonTeamMaintainers": [
                 {
-                    "email": "bandithedoge@protonmail.com",
-                    "github": "bandithedoge",
-                    "githubId": 26331682,
-                    "matrix": "@bandithedoge:matrix.org",
-                    "name": "Miko\u0142aj Lercher"
+                    "github": "alorans",
+                    "githubId": 143277280,
+                    "name": "Aled Lorans"
                 }
             ],
             "outputsToInstall": [
@@ -161668,7 +161923,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/zigscient/package.nix#L43",
+            "position": "https://github.com/bandithedoge/nur-packages/blob/HEAD/pkgs/by-name/zi/zigscient/package.nix#L36",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -349251,7 +349506,7 @@
             },
             "mainProgram": "omp",
             "maintainers": [],
-            "name": "oh-my-pi-bin-18.8.7",
+            "name": "oh-my-pi-bin-18.9.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -349272,14 +349527,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oh-my-pi-bin-18.8.7",
+        "name": "oh-my-pi-bin-18.9.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oh-my-pi-bin",
         "system": "x86_64-linux",
-        "version": "18.8.7",
+        "version": "18.9.1",
         "_attr": "oh-my-pi-bin",
         "_repo": "jeffguorg"
     },
@@ -825043,7 +825298,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sakuraba07/pkgs/omp/default.nix",
                 "line": 68
             },
-            "name": "omp-18.8.7",
+            "name": "omp-18.9.1",
             "nonTeamMaintainers": [
                 {
                     "github": "sakuraba07",
@@ -825071,14 +825326,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "omp-18.8.7",
+        "name": "omp-18.9.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "omp",
         "system": "x86_64-linux",
-        "version": "18.8.7",
+        "version": "18.9.1",
         "_attr": "omp",
         "_repo": "sakuraba07"
     },
