@@ -64413,7 +64413,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Comfy-Org/ComfyUI-Manager/blob/87ed66b80bdaf3cc5f930b74903650956e499afb/CHANGELOG.md",
+            "changelog": "https://github.com/Comfy-Org/ComfyUI-Manager/blob/45c3fb68373e4dc09f5cf8cf221e2b56d0b27164/CHANGELOG.md",
             "description": "Extension designed to enhance the usability of ComfyUI",
             "homepage": "https://github.com/Comfy-Org/ComfyUI-Manager",
             "identifiers": {
@@ -64476,7 +64476,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/co/comfyui-manager/package.nix",
                 "line": 55
             },
-            "name": "comfyui-manager-4.3-unstable-2026-10-08",
+            "name": "comfyui-manager-4.3-unstable-2026-10-11",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -64499,14 +64499,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "comfyui-manager-4.3-unstable-2026-10-08",
+        "name": "comfyui-manager-4.3-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "comfyui-manager",
         "system": "x86_64-linux",
-        "version": "4.3-unstable-2026-10-08",
+        "version": "4.3-unstable-2026-10-11",
         "_attr": "comfyui-manager",
         "_repo": "abszero"
     },
@@ -64575,7 +64575,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/co/comfyui-prompt-manager/package.nix",
                 "line": 47
             },
-            "name": "comfyui-prompt-manager-1.0.0-unstable-2026-10-09",
+            "name": "comfyui-prompt-manager-1.0.0-unstable-2026-10-11",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -64598,14 +64598,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "comfyui-prompt-manager-1.0.0-unstable-2026-10-09",
+        "name": "comfyui-prompt-manager-1.0.0-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "comfyui-prompt-manager",
         "system": "x86_64-linux",
-        "version": "1.0.0-unstable-2026-10-09",
+        "version": "1.0.0-unstable-2026-10-11",
         "_attr": "comfyui-prompt-manager",
         "_repo": "abszero"
     },
@@ -699593,6 +699593,434 @@
         "_attr": "BedrockNix",
         "_repo": "quriosity"
     },
+    "nur.repos.quriosity.artcraft-launcher": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "One place to install, update and open every app in the Craft App Suite, rebuilt in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "artcraft-launcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "artcraft-launcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "artcraft-launcher",
+            "maintainers": [],
+            "name": "artcraft-launcher-0.2.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/artcraft-launcher/default.nix#L73",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "artcraft-launcher-0.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "artcraft-launcher",
+        "system": "x86_64-linux",
+        "version": "0.2.1",
+        "_attr": "artcraft-launcher",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.cadcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "an open-source, clean-room AutoCAD-style app in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cadcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cadcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "cadcraft",
+            "maintainers": [],
+            "name": "cadcraft-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/cadcraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cadcraft-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cadcraft",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "cadcraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.deckcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "deckcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "deckcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "deckcraft",
+            "maintainers": [],
+            "name": "deckcraft-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/deckcraft/default.nix#L80",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "deckcraft-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "deckcraft",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "deckcraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.designcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "an open-source, clean-room reimplementation of Adobe InDesign, rebuilt in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "designcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "designcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "designcraft",
+            "maintainers": [],
+            "name": "designcraft-0.6.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/designcraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "designcraft-0.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "designcraft",
+        "system": "x86_64-linux",
+        "version": "0.6.0",
+        "_attr": "designcraft",
+        "_repo": "quriosity"
+    },
     "nur.repos.quriosity.echo-sddm": {
         "meta": {
             "available": true,
@@ -699671,7 +700099,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/sddm-themes/echo-sddm/default.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/sddm-themes/echo-sddm/default.nix#L32",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -699692,19 +700120,30 @@
         "_attr": "echo-sddm",
         "_repo": "quriosity"
     },
-    "nur.repos.quriosity.elio": {
+    "nur.repos.quriosity.effectcraft": {
         "meta": {
             "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
             "broken": false,
-            "description": "Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
-            "homepage": "https://elio-fm.github.io/",
+            "description": "an open-source, clean-room reimplementation of Adobe After Effects, rebuilt in pure Rust",
+            "homepage": "https://getartcraft.com/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "elio",
+                    "product": "effectcraft",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -699718,7 +700157,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "elio",
+                        "product": "effectcraft",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -699728,27 +700167,40 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "elio",
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "effectcraft",
             "maintainers": [],
-            "name": "elio-1.12.0",
+            "name": "effectcraft-0.8.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
+                "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/elio/default.nix#L49",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/effectcraft/default.nix#L80",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -699757,22 +700209,236 @@
             },
             "sourceProvenance": [
                 {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
+                    "isSource": true,
+                    "shortName": "fromSource"
                 }
             ],
             "unfree": false,
             "unsupported": false
         },
-        "name": "elio-1.12.0",
+        "name": "effectcraft-0.8.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "elio",
+        "pname": "effectcraft",
         "system": "x86_64-linux",
-        "version": "1.12.0",
-        "_attr": "elio",
+        "version": "0.8.0",
+        "_attr": "effectcraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.filmcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "filmcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "filmcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "filmcraft",
+            "maintainers": [],
+            "name": "filmcraft-0.6.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/filmcraft/default.nix#L80",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "filmcraft-0.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "filmcraft",
+        "system": "x86_64-linux",
+        "version": "0.6.0",
+        "_attr": "filmcraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.gridcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gridcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gridcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "gridcraft",
+            "maintainers": [],
+            "name": "gridcraft-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/gridcraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gridcraft-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gridcraft",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "gridcraft",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.hyper": {
@@ -699939,6 +700605,113 @@
         "system": "x86_64-linux",
         "version": "2.5.0",
         "_attr": "leshade",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.lightcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lightcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lightcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "lightcraft",
+            "maintainers": [],
+            "name": "lightcraft-0.6.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/lightcraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "lightcraft-0.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lightcraft",
+        "system": "x86_64-linux",
+        "version": "0.6.0",
+        "_attr": "lightcraft",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.olauncher": {
@@ -700131,6 +700904,327 @@
         "_attr": "opennow",
         "_repo": "quriosity"
     },
+    "nur.repos.quriosity.pdfcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pdfcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pdfcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "pdfcraft",
+            "maintainers": [],
+            "name": "pdfcraft-0.6.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/pdfcraft/default.nix#L83",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pdfcraft-0.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pdfcraft",
+        "system": "x86_64-linux",
+        "version": "0.6.0",
+        "_attr": "pdfcraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.photocraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "photocraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "photocraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "photocraft",
+            "maintainers": [],
+            "name": "photocraft-0.7.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/photocraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "photocraft-0.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "photocraft",
+        "system": "x86_64-linux",
+        "version": "0.7.0",
+        "_attr": "photocraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.soundcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "soundcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "soundcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "soundcraft",
+            "maintainers": [],
+            "name": "soundcraft-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/soundcraft/default.nix#L80",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "soundcraft-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "soundcraft",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "soundcraft",
+        "_repo": "quriosity"
+    },
     "nur.repos.quriosity.tabby": {
         "meta": {
             "available": true,
@@ -700179,7 +701273,7 @@
             },
             "mainProgram": "tabby",
             "maintainers": [],
-            "name": "tabby-1.0.237",
+            "name": "tabby-1.0.238",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -700203,15 +701297,122 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tabby-1.0.237",
+        "name": "tabby-1.0.238",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tabby",
         "system": "x86_64-linux",
-        "version": "1.0.237",
+        "version": "1.0.238",
         "_attr": "tabby",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.vectorcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vectorcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vectorcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "vectorcraft",
+            "maintainers": [],
+            "name": "vectorcraft-0.9.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/vectorcraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vectorcraft-0.9.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vectorcraft",
+        "system": "x86_64-linux",
+        "version": "0.9.0",
+        "_attr": "vectorcraft",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.where-is-my-sddm-theme": {
@@ -700311,6 +701512,113 @@
         "system": "x86_64-linux",
         "version": "2fddf8",
         "_attr": "where-is-my-sddm-theme",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.wordcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "wordcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "wordcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "wordcraft",
+            "maintainers": [],
+            "name": "wordcraft-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/wordcraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "wordcraft-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "wordcraft",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "wordcraft",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.zen-browser": {
