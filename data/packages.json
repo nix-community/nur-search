@@ -52288,6 +52288,7 @@
                 }
             ],
             "broken": false,
+            "changelog": "https://github.com/microsoft/litebox/releases/tag/v0.1.0",
             "description": "Security-focused library OS",
             "homepage": "https://github.com/microsoft/litebox",
             "identifiers": {
@@ -52330,9 +52331,30 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "maintainers": [],
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/litebox/package.nix",
+                "line": 122
+            },
             "name": "litebox-0.1.0",
-            "nonTeamMaintainers": [],
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
@@ -52357,13 +52379,8 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/litebox/package.nix#L36",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/litebox/package.nix#L117",
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
@@ -360548,7 +360565,7 @@
             },
             "mainProgram": "gh-audit",
             "maintainers": [],
-            "name": "gh-audit-0.3.3",
+            "name": "gh-audit-0.4.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -360644,7 +360661,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gh-audit-0.3.3",
+        "name": "gh-audit-0.4.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -360652,7 +360669,7 @@
         },
         "pname": "gh-audit",
         "system": "x86_64-linux",
-        "version": "0.3.3",
+        "version": "0.4.0",
         "_attr": "gh-audit",
         "_repo": "josh"
     },
@@ -361138,7 +361155,7 @@
             },
             "mainProgram": "imdb-data",
             "maintainers": [],
-            "name": "imdb-data-0.2.0",
+            "name": "imdb-data-0.3.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -361234,7 +361251,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "imdb-data-0.2.0",
+        "name": "imdb-data-0.3.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -361242,7 +361259,7 @@
         },
         "pname": "imdb-data",
         "system": "x86_64-linux",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "_attr": "imdb-data",
         "_repo": "josh"
     },
@@ -361516,7 +361533,7 @@
             },
             "mainProgram": "imdb-trakt-sync",
             "maintainers": [],
-            "name": "imdb-trakt-sync-0.2.0",
+            "name": "imdb-trakt-sync-0.3.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -361612,7 +361629,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "imdb-trakt-sync-0.2.0",
+        "name": "imdb-trakt-sync-0.3.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -361620,7 +361637,7 @@
         },
         "pname": "imdb-trakt-sync",
         "system": "x86_64-linux",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "_attr": "imdb-trakt-sync",
         "_repo": "josh"
     },
@@ -361980,7 +361997,7 @@
             },
             "mainProgram": "jmap2nats",
             "maintainers": [],
-            "name": "jmap2nats-1.0.2",
+            "name": "jmap2nats-1.0.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -362027,14 +362044,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "jmap2nats-1.0.2",
+        "name": "jmap2nats-1.0.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "jmap2nats",
         "system": "x86_64-linux",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "_attr": "jmap2nats",
         "_repo": "josh"
     },
@@ -362564,7 +362581,7 @@
             },
             "mainProgram": "nats-static",
             "maintainers": [],
-            "name": "nats-static-0.0.6",
+            "name": "nats-static-0.0.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -362611,14 +362628,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nats-static-0.0.6",
+        "name": "nats-static-0.0.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nats-static",
         "system": "x86_64-linux",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "_attr": "nats-static",
         "_repo": "josh"
     },
@@ -362781,7 +362798,7 @@
             },
             "mainProgram": "overcast-data",
             "maintainers": [],
-            "name": "overcast-data-0.1.2",
+            "name": "overcast-data-0.2.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -362877,7 +362894,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "overcast-data-0.1.2",
+        "name": "overcast-data-0.2.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -362885,7 +362902,7 @@
         },
         "pname": "overcast-data",
         "system": "x86_64-linux",
-        "version": "0.1.2",
+        "version": "0.2.0",
         "_attr": "overcast-data",
         "_repo": "josh"
     },
@@ -365000,7 +365017,7 @@
             },
             "mainProgram": "sops-install-secrets",
             "maintainers": [],
-            "name": "sops-install-secrets-assets-unstable-2026-10-10",
+            "name": "sops-install-secrets-assets-unstable-2026-10-11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -365042,14 +365059,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sops-install-secrets-assets-unstable-2026-10-10",
+        "name": "sops-install-secrets-assets-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sops-install-secrets-assets-unstable",
         "system": "x86_64-linux",
-        "version": "2026-10-10",
+        "version": "2026-10-11",
         "_attr": "sops-install-secrets",
         "_repo": "josh"
     },
@@ -366222,7 +366239,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "tmuxplugin-tmux-powerkit-7.5.0",
+            "name": "tmuxplugin-tmux-powerkit-7.5.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -366284,14 +366301,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tmuxplugin-tmux-powerkit-7.5.0",
+        "name": "tmuxplugin-tmux-powerkit-7.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tmuxplugin-tmux-powerkit",
         "system": "x86_64-linux",
-        "version": "7.5.0",
+        "version": "7.5.1",
         "_attr": "tmux-powerkit",
         "_repo": "josh"
     },
@@ -391611,7 +391628,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/coderabbit-cli/default.nix",
-                "line": 104
+                "line": 107
             },
             "name": "coderabbit-cli-0.9.0",
             "nonTeamMaintainers": [
@@ -391626,7 +391643,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lmdevv/pkgs/coderabbit-cli/default.nix#L89",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lmdevv/pkgs/coderabbit-cli/default.nix#L92",
             "problems": {},
             "sourceProvenance": [
                 {
