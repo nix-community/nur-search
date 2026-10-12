@@ -59835,7 +59835,7 @@
             },
             "mainProgram": "fresh",
             "maintainers": [],
-            "name": "fresh-unstable-2026-10-10",
+            "name": "fresh-unstable-2026-10-11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -59890,14 +59890,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fresh-unstable-2026-10-10",
+        "name": "fresh-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fresh-unstable",
         "system": "x86_64-linux",
-        "version": "2026-10-10",
+        "version": "2026-10-11",
         "_attr": "fresh",
         "_repo": "Vortriz"
     },
@@ -62598,7 +62598,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "teldrive-1.8.3",
+            "name": "teldrive-2.0.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -62616,14 +62616,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "teldrive-1.8.3",
+        "name": "teldrive-2.0.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "teldrive",
         "system": "x86_64-linux",
-        "version": "1.8.3",
+        "version": "2.0.3",
         "_attr": "teldrive",
         "_repo": "XiaoXioe"
     },
@@ -101326,147 +101326,6 @@
         "system": "x86_64-linux",
         "version": "3.0.7",
         "_attr": "pot-translation",
-        "_repo": "awa2333"
-    },
-    "nur.repos.awa2333.pycolmap": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/colmap/colmap/blob/refs/tags/4.1.1/CHANGELOG.rst",
-            "description": "COLMAP - Structure-from-Motion and Multi-View Stereo",
-            "homepage": "https://github.com/colmap/colmap",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "pycolmap",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "pycolmap",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [],
-            "name": "python3.14-pycolmap-4.1.1",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/awa2333/pkgs/pycolmap/default.nix#L75",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "python3.14-pycolmap-4.1.1",
-        "outputName": "out",
-        "outputs": {
-            "dist": null,
-            "out": null
-        },
-        "pname": "python3.14-pycolmap",
-        "system": "x86_64-linux",
-        "version": "4.1.1",
-        "_attr": "pycolmap",
         "_repo": "awa2333"
     },
     "nur.repos.awa2333.rime-flypy": {
@@ -498062,7 +497921,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/k1LoW/gh-pr-reviews/blob/v0.14.1/CHANGELOG.md",
+            "changelog": "https://github.com/k1LoW/gh-pr-reviews/blob/v0.15.1/CHANGELOG.md",
             "description": "GitHub CLI extension to identify unresolved review comments in a pull request",
             "homepage": "https://github.com/k1LoW/gh-pr-reviews",
             "identifiers": {
@@ -498107,7 +497966,7 @@
             },
             "mainProgram": "gh-pr-reviews",
             "maintainers": [],
-            "name": "gh-pr-reviews-0.14.1",
+            "name": "gh-pr-reviews-0.15.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -498154,14 +498013,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gh-pr-reviews-0.14.1",
+        "name": "gh-pr-reviews-0.15.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gh-pr-reviews",
         "system": "x86_64-linux",
-        "version": "0.14.1",
+        "version": "0.15.1",
         "_attr": "gh-pr-reviews",
         "_repo": "mst-mkt"
     },
@@ -991891,6 +991750,130 @@
         "_attr": "vimPlugins.gh-actions-nvim",
         "_repo": "twistoy"
     },
+    "nur.repos.tylerstyle.dfcore": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/tylerstyle/dfcore/releases/tag/v0.1.0",
+            "description": "Shared forensic safety core for dfnix tools (device topology, protected-device registry, audit log)",
+            "homepage": "https://github.com/tylerstyle/dfcore",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dfcore",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dfcore",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "dfcore-audit",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/tylerstyle/pkgs/dfcore/default.nix",
+                "line": 37
+            },
+            "name": "dfcore-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tylerstyle/pkgs/dfcore/default.nix#L33",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "dfcore-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dfcore",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "dfcore",
+        "_repo": "tylerstyle"
+    },
     "nur.repos.tylerstyle.dfdisk": {
         "meta": {
             "available": true,
@@ -991966,7 +991949,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/tylerstyle/pkgs/dfdisk/default.nix",
-                "line": 60
+                "line": 82
             },
             "name": "dfdisk-0.1.10",
             "nonTeamMaintainers": [],
@@ -991994,7 +991977,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tylerstyle/pkgs/dfdisk/default.nix#L56",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tylerstyle/pkgs/dfdisk/default.nix#L78",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
