@@ -165950,6 +165950,173 @@
         "_attr": "_bartPackages.downdoc",
         "_repo": "bartoostveen"
     },
+    "nur.repos.bartoostveen._bartPackages.ed25519-orlp": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Python wrapper around Orson Peters' Ed25519 implementation",
+            "homepage": "https://pypi.org/project/ed25519-orlp",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ed25519-orlp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ed25519-orlp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "zlib License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "https://spdx.org/licenses/Zlib.html"
+            },
+            "mainProgram": "ed25519-orlp",
+            "maintainers": [
+                {
+                    "email": "bart@bartoostveen.nl",
+                    "github": "bartoostveen",
+                    "githubId": 50515369,
+                    "keys": [
+                        {
+                            "fingerprint": "81FF AB19 BAA5 6FFD 6571  890B 992D 94B5 7AC4 3430"
+                        }
+                    ],
+                    "matrix": "@bart:bartoostveen.nl",
+                    "name": "Bart Oostveen"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/ed25519-orlp/package.nix",
+                "line": 35
+            },
+            "name": "ed25519-orlp-0.1.3",
+            "nonTeamMaintainers": [
+                {
+                    "email": "bart@bartoostveen.nl",
+                    "github": "bartoostveen",
+                    "githubId": 50515369,
+                    "keys": [
+                        {
+                            "fingerprint": "81FF AB19 BAA5 6FFD 6571  890B 992D 94B5 7AC4 3430"
+                        }
+                    ],
+                    "matrix": "@bart:bartoostveen.nl",
+                    "name": "Bart Oostveen"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/ed25519-orlp/package.nix#L32",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ed25519-orlp-0.1.3",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "ed25519-orlp",
+        "system": "x86_64-linux",
+        "version": "0.1.3",
+        "_attr": "_bartPackages.ed25519-orlp",
+        "_repo": "bartoostveen"
+    },
     "nur.repos.bartoostveen._bartPackages.git-pages": {
         "meta": {
             "available": true,
@@ -166016,7 +166183,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/git-pages/package.nix",
                 "line": 51
             },
-            "name": "git-pages-latest-unstable-2026-10-10",
+            "name": "git-pages-latest-unstable-2026-10-11",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -166071,14 +166238,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "git-pages-latest-unstable-2026-10-10",
+        "name": "git-pages-latest-unstable-2026-10-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "git-pages-latest-unstable",
         "system": "x86_64-linux",
-        "version": "2026-10-10",
+        "version": "2026-10-11",
         "_attr": "_bartPackages.git-pages",
         "_repo": "bartoostveen"
     },
@@ -167940,6 +168107,172 @@
         "system": "x86_64-linux",
         "version": "0.3.2",
         "_attr": "_bartPackages.meshcoredecoder",
+        "_repo": "bartoostveen"
+    },
+    "nur.repos.bartoostveen._bartPackages.meshcoretomqtt": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A python based script to send meshore debug and packet capture data to MQTT for analysis  Requires meshcore repeater to be connected to a raspberry pi, server or similar linux device able to run python",
+            "homepage": "https://github.com/Cisien/meshcoretomqtt",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "meshcoretomqtt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "meshcoretomqtt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "mctomqtt",
+            "maintainers": [
+                {
+                    "email": "bart@bartoostveen.nl",
+                    "github": "bartoostveen",
+                    "githubId": 50515369,
+                    "keys": [
+                        {
+                            "fingerprint": "81FF AB19 BAA5 6FFD 6571  890B 992D 94B5 7AC4 3430"
+                        }
+                    ],
+                    "matrix": "@bart:bartoostveen.nl",
+                    "name": "Bart Oostveen"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/meshcoretomqtt/package.nix",
+                "line": 96
+            },
+            "name": "meshcoretomqtt-0-unstable-2026-07-16",
+            "nonTeamMaintainers": [
+                {
+                    "email": "bart@bartoostveen.nl",
+                    "github": "bartoostveen",
+                    "githubId": 50515369,
+                    "keys": [
+                        {
+                            "fingerprint": "81FF AB19 BAA5 6FFD 6571  890B 992D 94B5 7AC4 3430"
+                        }
+                    ],
+                    "matrix": "@bart:bartoostveen.nl",
+                    "name": "Bart Oostveen"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/meshcoretomqtt/package.nix#L93",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "meshcoretomqtt-0-unstable-2026-07-16",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "meshcoretomqtt",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-07-16",
+        "_attr": "_bartPackages.meshcoretomqtt",
         "_repo": "bartoostveen"
     },
     "nur.repos.bartoostveen._bartPackages.mistserver": {
@@ -170471,7 +170804,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/venator/package.nix",
                 "line": 108
             },
-            "name": "venator-0.1.0a4-unstable-2026-09-30",
+            "name": "venator-0.1.0a4-unstable-2026-10-12",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -170575,14 +170908,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "venator-0.1.0a4-unstable-2026-09-30",
+        "name": "venator-0.1.0a4-unstable-2026-10-12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "venator",
         "system": "x86_64-linux",
-        "version": "0.1.0a4-unstable-2026-09-30",
+        "version": "0.1.0a4-unstable-2026-10-12",
         "_attr": "_bartPackages.venator",
         "_repo": "bartoostveen"
     },
@@ -297584,6 +297917,104 @@
         "_attr": "ned14-status-code",
         "_repo": "foolnotion"
     },
+    "nur.repos.foolnotion.obsbot-camera-control": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Linux control application for OBSBOT cameras",
+            "homepage": "https://github.com/aaronsb/obsbot-camera-control",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "obsbot-camera-control",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "obsbot-camera-control",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "obsbot-camera-control",
+            "maintainers": [],
+            "name": "obsbot-camera-control-unstable-2026-09-11",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/foolnotion/pkgs/obsbot-camera-control/default.nix#L57",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "obsbot-camera-control-unstable-2026-09-11",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "obsbot-camera-control-unstable",
+        "system": "x86_64-linux",
+        "version": "2026-09-11",
+        "_attr": "obsbot-camera-control",
+        "_repo": "foolnotion"
+    },
     "nur.repos.foolnotion.parallel-hashmap": {
         "meta": {
             "available": true,
@@ -297971,7 +298402,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/foolnotion/pkgs/paseo/default.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/foolnotion/pkgs/paseo/default.nix#L44",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -299048,6 +299479,112 @@
         "_attr": "qobuz-linux",
         "_repo": "foolnotion"
     },
+    "nur.repos.foolnotion.ricercar": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Bit-perfect music player and UPnP/OpenHome network receiver",
+            "homepage": "https://github.com/ricercar-player/ricercar",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ricercar",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ricercar",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "ricercar",
+            "maintainers": [],
+            "name": "ricercar-0.10.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/foolnotion/pkgs/ricercar/default.nix#L98",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ricercar-0.10.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ricercar",
+        "system": "x86_64-linux",
+        "version": "0.10.0",
+        "_attr": "ricercar",
+        "_repo": "foolnotion"
+    },
     "nur.repos.foolnotion.scidb": {
         "meta": {
             "available": true,
@@ -299810,7 +300347,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "slint-1.17.1",
+            "name": "slint-1.18.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -299842,7 +300379,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/foolnotion/pkgs/slint/default.nix#L89",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/foolnotion/pkgs/slint/default.nix#L91",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -299852,14 +300389,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "slint-1.17.1",
+        "name": "slint-1.18.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "slint",
         "system": "x86_64-linux",
-        "version": "1.17.1",
+        "version": "1.18.1",
         "_attr": "slint",
         "_repo": "foolnotion"
     },
@@ -543662,7 +544199,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/gotgenes/pi-packages/blob/pi-permission-system-v40.1.4/packages/pi-permission-system/CHANGELOG.md",
+            "changelog": "https://github.com/gotgenes/pi-packages/blob/pi-permission-system-v40.2.0/packages/pi-permission-system/CHANGELOG.md",
             "description": "Permission enforcement extension for the Pi coding agent",
             "downloadPage": "https://github.com/gotgenes/pi-packages/releases",
             "homepage": "https://github.com/gotgenes/pi-packages/tree/main/packages/pi-permission-system",
@@ -543725,7 +544262,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/go/gotgenes-pi-permission-system/package.nix",
                 "line": 65
             },
-            "name": "gotgenes-pi-permission-system-40.1.4",
+            "name": "gotgenes-pi-permission-system-40.2.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -543771,14 +544308,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gotgenes-pi-permission-system-40.1.4",
+        "name": "gotgenes-pi-permission-system-40.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gotgenes-pi-permission-system",
         "system": "x86_64-linux",
-        "version": "40.1.4",
+        "version": "40.2.0",
         "_attr": "gotgenes-pi-permission-system",
         "_repo": "prince213"
     },
@@ -543850,7 +544387,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/ig/ignis/package.nix",
                 "line": 93
             },
-            "name": "ignis-0.8.16",
+            "name": "ignis-0.8.17",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -543896,14 +544433,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ignis-0.8.16",
+        "name": "ignis-0.8.17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ignis",
         "system": "x86_64-linux",
-        "version": "0.8.16",
+        "version": "0.8.17",
         "_attr": "ignis",
         "_repo": "prince213"
     },
@@ -700737,7 +701274,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/narumiruna/pi-extensions/blob/@narumitw/pi-usage@0.65.0/packages/pi-usage/CHANGELOG.md",
+            "changelog": "https://github.com/narumiruna/pi-extensions/blob/@narumitw/pi-usage@0.65.1/packages/pi-usage/CHANGELOG.md",
             "description": "Pi extension that shows current-account usage and DeepSeek API balance for supported providers",
             "downloadPage": "https://github.com/narumiruna/pi-extensions/releases",
             "homepage": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-usage",
@@ -700800,7 +701337,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/na/narumitw-pi-usage/package.nix",
                 "line": 43
             },
-            "name": "narumitw-pi-usage-0.65.0",
+            "name": "narumitw-pi-usage-0.65.1",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -700846,14 +701383,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "narumitw-pi-usage-0.65.0",
+        "name": "narumitw-pi-usage-0.65.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "narumitw-pi-usage",
         "system": "x86_64-linux",
-        "version": "0.65.0",
+        "version": "0.65.1",
         "_attr": "narumitw-pi-usage",
         "_repo": "prince213"
     },
@@ -700861,7 +701398,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/minuque/pi-cc-extensions/releases/tag/v0.9.12",
+            "changelog": "https://github.com/minuque/pi-cc-extensions/releases/tag/v1.0.2",
             "description": "Claude Code-style TUI output and utilities for the Pi coding agent",
             "downloadPage": "https://github.com/minuque/pi-cc-extensions/releases",
             "homepage": "https://github.com/minuque/pi-cc-extensions",
@@ -700922,9 +701459,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-cc-extensions/package.nix",
-                "line": 43
+                "line": 40
             },
-            "name": "pi-cc-extensions-0.9.12",
+            "name": "pi-cc-extensions-1.0.2",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -700965,19 +701502,19 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/pi/pi-cc-extensions/package.nix#L38",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/pi/pi-cc-extensions/package.nix#L35",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-cc-extensions-0.9.12",
+        "name": "pi-cc-extensions-1.0.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-cc-extensions",
         "system": "x86_64-linux",
-        "version": "0.9.12",
+        "version": "1.0.2",
         "_attr": "pi-cc-extensions",
         "_repo": "prince213"
     },
@@ -701557,7 +702094,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.38.0/CHANGELOG.md",
+            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.39.0/CHANGELOG.md",
             "description": "Web search and content extraction extension for Pi coding agent",
             "downloadPage": "https://github.com/nicobailon/pi-web-access/releases",
             "homepage": "https://github.com/nicobailon/pi-web-access",
@@ -701620,7 +702157,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-web-access/package.nix",
                 "line": 33
             },
-            "name": "pi-web-access-0.38.0",
+            "name": "pi-web-access-0.39.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -701666,14 +702203,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.38.0",
+        "name": "pi-web-access-0.39.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.38.0",
+        "version": "0.39.0",
         "_attr": "pi-web-access",
         "_repo": "prince213"
     },
@@ -701949,9 +702486,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/rp/rpiv-mono/package.nix",
-                "line": 37
+                "line": 39
             },
-            "name": "rpiv-mono-2.12.0",
+            "name": "rpiv-mono-2.13.7",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -701992,19 +702529,19 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/rp/rpiv-mono/package.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/rp/rpiv-mono/package.nix#L35",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "rpiv-mono-2.12.0",
+        "name": "rpiv-mono-2.13.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpiv-mono",
         "system": "x86_64-linux",
-        "version": "2.12.0",
+        "version": "2.13.7",
         "_attr": "rpiv-mono",
         "_repo": "prince213"
     },
@@ -703010,7 +703547,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/te/termius-app/package.nix",
                 "line": 32
             },
-            "name": "termius-app-10.1.3",
+            "name": "termius-app-10.2.1",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -703043,14 +703580,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "termius-app-10.1.3",
+        "name": "termius-app-10.2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "termius-app",
         "system": "x86_64-linux",
-        "version": "10.1.3",
+        "version": "10.2.1",
         "_attr": "termius-app",
         "_repo": "prince213"
     },
@@ -703058,7 +703595,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/tintinweb/pi-subagents/blob/v0.20.0/CHANGELOG.md",
+            "changelog": "https://github.com/tintinweb/pi-subagents/blob/v0.21.0/CHANGELOG.md",
             "description": "Pi extension that brings Claude Code-style autonomous subagents to Pi",
             "downloadPage": "https://github.com/tintinweb/pi-subagents/releases",
             "homepage": "https://github.com/tintinweb/pi-subagents",
@@ -703121,7 +703658,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/ti/tintinweb-pi-subagents/package.nix",
                 "line": 39
             },
-            "name": "tintinweb-pi-subagents-0.20.0",
+            "name": "tintinweb-pi-subagents-0.21.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -703167,14 +703704,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tintinweb-pi-subagents-0.20.0",
+        "name": "tintinweb-pi-subagents-0.21.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tintinweb-pi-subagents",
         "system": "x86_64-linux",
-        "version": "0.20.0",
+        "version": "0.21.0",
         "_attr": "tintinweb-pi-subagents",
         "_repo": "prince213"
     },
