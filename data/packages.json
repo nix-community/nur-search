@@ -50446,6 +50446,164 @@
         "_attr": "credentialsd",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.darnit": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Pluggable compliance audit framework",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "darnit",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/darnit/package.nix",
+                "line": 133
+            },
+            "name": "darnit-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/darnit/package.nix#L136",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "darnit-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "darnit",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "darnit",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.debspawn": {
         "meta": {
             "available": true,
@@ -51276,6 +51434,130 @@
         "_attr": "grant",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.guac": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/guacsec/guac/releases/tag/v1.1.0",
+            "description": "Aggregator for software security metadata",
+            "homepage": "https://guac.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "guac",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "guac",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Graph for Understanding Artifact Composition (GUAC) aggregates software\nsecurity metadata into a high fidelity graph database\u2014normalizing entity\nidentities and mapping standard relationships between them.\nQuerying this graph can drive higher-level organizational outcomes such\nas audit, policy, risk management, and even developer assistance.\n",
+            "mainProgram": "guacone",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/guac/package.nix",
+                "line": 54
+            },
+            "name": "guac-1.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/guac/package.nix#L43",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "guac-1.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "guac",
+        "system": "x86_64-linux",
+        "version": "1.1.0",
+        "_attr": "guac",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.image-builder": {
         "meta": {
             "available": true,
@@ -52055,7 +52337,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/landstrip/landstrip/releases/tag/0.19.7",
+            "changelog": "https://github.com/landstrip/landstrip/releases/tag/0.19.13",
             "description": "Run tools in OS-level sandboxes",
             "homepage": "https://github.com/landstrip/landstrip",
             "identifiers": {
@@ -52113,7 +52395,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/landstrip/package.nix",
                 "line": 40
             },
-            "name": "landstrip-0.19.7",
+            "name": "landstrip-0.19.13",
             "nonTeamMaintainers": [
                 {
                     "email": "skye@soss.website",
@@ -52155,14 +52437,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "landstrip-0.19.7",
+        "name": "landstrip-0.19.13",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "landstrip",
         "system": "x86_64-linux",
-        "version": "0.19.7",
+        "version": "0.19.13",
         "_attr": "landstrip",
         "_repo": "Skyb0rg007"
     },
@@ -54070,6 +54352,635 @@
         "_attr": "python313Packages.cache-dit",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.python313Packages.darnit-baseline": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "OpenSSF Baseline compliance checks for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-baseline",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-baseline",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-baseline/package.nix",
+                "line": 41
+            },
+            "name": "python3.13-darnit-baseline-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-baseline/package.nix#L36",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-darnit-baseline-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-darnit-baseline",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python313Packages.darnit-baseline",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python313Packages.darnit-core": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Generic compliance audit framework with plugin architecture",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-core",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-core",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "darnit",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-core/package.nix",
+                "line": 60
+            },
+            "name": "python3.13-darnit-core-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-core/package.nix#L56",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-darnit-core-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-darnit-core",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python313Packages.darnit-core",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python313Packages.darnit-gittuf": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Gittuf policy checks plugin for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-gittuf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-gittuf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-gittuf/package.nix",
+                "line": 31
+            },
+            "name": "python3.13-darnit-gittuf-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-gittuf/package.nix#L26",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-darnit-gittuf-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-darnit-gittuf",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python313Packages.darnit-gittuf",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python313Packages.darnit-reproducibility": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Scientific reproducibility checks plugin for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-reproducibility",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-reproducibility",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-reproducibility/package.nix",
+                "line": 35
+            },
+            "name": "python3.13-darnit-reproducibility-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-reproducibility/package.nix#L30",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-darnit-reproducibility-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-darnit-reproducibility",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python313Packages.darnit-reproducibility",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.python314Packages.buildgrid-metering-client": {
         "meta": {
             "available": true,
@@ -54381,6 +55292,635 @@
         "system": "x86_64-linux",
         "version": "1.5.2",
         "_attr": "python314Packages.cache-dit",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python314Packages.darnit-baseline": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "OpenSSF Baseline compliance checks for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-baseline",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-baseline",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-baseline/package.nix",
+                "line": 41
+            },
+            "name": "python3.14-darnit-baseline-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-baseline/package.nix#L36",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-darnit-baseline-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-darnit-baseline",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python314Packages.darnit-baseline",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python314Packages.darnit-core": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Generic compliance audit framework with plugin architecture",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-core",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-core",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "darnit",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-core/package.nix",
+                "line": 60
+            },
+            "name": "python3.14-darnit-core-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-core/package.nix#L56",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-darnit-core-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-darnit-core",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python314Packages.darnit-core",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python314Packages.darnit-gittuf": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Gittuf policy checks plugin for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-gittuf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-gittuf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-gittuf/package.nix",
+                "line": 31
+            },
+            "name": "python3.14-darnit-gittuf-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-gittuf/package.nix#L26",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-darnit-gittuf-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-darnit-gittuf",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python314Packages.darnit-gittuf",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python314Packages.darnit-reproducibility": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Scientific reproducibility checks plugin for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-reproducibility",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-reproducibility",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-reproducibility/package.nix",
+                "line": 35
+            },
+            "name": "python3.14-darnit-reproducibility-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-reproducibility/package.nix#L30",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-darnit-reproducibility-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-darnit-reproducibility",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python314Packages.darnit-reproducibility",
         "_repo": "Skyb0rg007"
     },
     "nur.repos.Skyb0rg007.python315Packages.buildgrid-metering-client": {
@@ -54704,6 +56244,635 @@
         "system": "x86_64-linux",
         "version": "1.5.2",
         "_attr": "python315Packages.cache-dit",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python315Packages.darnit-baseline": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "OpenSSF Baseline compliance checks for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-baseline",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-baseline",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-baseline/package.nix",
+                "line": 41
+            },
+            "name": "python3.15-darnit-baseline-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-baseline/package.nix#L36",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.15-darnit-baseline-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.15-darnit-baseline",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python315Packages.darnit-baseline",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python315Packages.darnit-core": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Generic compliance audit framework with plugin architecture",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-core",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-core",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "darnit",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-core/package.nix",
+                "line": 60
+            },
+            "name": "python3.15-darnit-core-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-core/package.nix#L56",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.15-darnit-core-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.15-darnit-core",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python315Packages.darnit-core",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python315Packages.darnit-gittuf": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Gittuf policy checks plugin for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-gittuf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-gittuf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-gittuf/package.nix",
+                "line": 31
+            },
+            "name": "python3.15-darnit-gittuf-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-gittuf/package.nix#L26",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.15-darnit-gittuf-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.15-darnit-gittuf",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python315Packages.darnit-gittuf",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.python315Packages.darnit-reproducibility": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darnitdevorg/darnit/blob/v0.1.1/CHANGELOG.md",
+            "description": "Scientific reproducibility checks plugin for darnit",
+            "homepage": "https://github.com/darnitdevorg/darnit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darnit-reproducibility",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darnit-reproducibility",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-reproducibility/package.nix",
+                "line": 35
+            },
+            "name": "python3.15-darnit-reproducibility-0.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/python-modules/darnit-reproducibility/package.nix#L30",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.15-darnit-reproducibility-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.15-darnit-reproducibility",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "python315Packages.darnit-reproducibility",
         "_repo": "Skyb0rg007"
     },
     "nur.repos.Skyb0rg007.quarry": {
@@ -243807,7 +245976,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/dgtlmoon/changedetection.io/releases/tag/0.60.8",
+            "changelog": "https://github.com/dgtlmoon/changedetection.io/releases/tag/0.60.9",
             "description": "Self-hosted website change monitoring and notifications",
             "homepage": "https://github.com/dgtlmoon/changedetection.io",
             "identifiers": {
@@ -243885,7 +246054,7 @@
             },
             "mainProgram": "changedetection.io",
             "maintainers": [],
-            "name": "changedetection-io-0.60.8",
+            "name": "changedetection-io-0.60.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -243895,7 +246064,7 @@
                 "aarch64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/changedetection-io/default.nix#L132",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/changedetection-io/default.nix#L162",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -243905,7 +246074,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "changedetection-io-0.60.8",
+        "name": "changedetection-io-0.60.9",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -243913,7 +246082,7 @@
         },
         "pname": "changedetection-io",
         "system": "x86_64-linux",
-        "version": "0.60.8",
+        "version": "0.60.9",
         "_attr": "changedetection-io",
         "_repo": "davinci42"
     },
@@ -243965,7 +246134,7 @@
             },
             "mainProgram": "fluxdown-agent",
             "maintainers": [],
-            "name": "fluxdown-server-0.5.5",
+            "name": "fluxdown-server-0.5.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -243990,14 +246159,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxdown-server-0.5.5",
+        "name": "fluxdown-server-0.5.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxdown-server",
         "system": "x86_64-linux",
-        "version": "0.5.5",
+        "version": "0.5.6",
         "_attr": "fluxdown-server",
         "_repo": "davinci42"
     },
@@ -244139,7 +246308,7 @@
             },
             "mainProgram": "rsshub",
             "maintainers": [],
-            "name": "rsshub-2026.10.12-8412.4b1f220",
+            "name": "rsshub-2026.10.12-8414.1470116",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -244159,14 +246328,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rsshub-2026.10.12-8412.4b1f220",
+        "name": "rsshub-2026.10.12-8414.1470116",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rsshub",
         "system": "x86_64-linux",
-        "version": "2026.10.12-8412.4b1f220",
+        "version": "2026.10.12-8414.1470116",
         "_attr": "rsshub",
         "_repo": "davinci42"
     },
