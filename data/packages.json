@@ -48428,7 +48428,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Sittymin/pkgs/wechat/default.nix",
                 "line": 212
             },
-            "name": "wechat-4.1.13.23",
+            "name": "wechat-4.1.13.26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -48452,14 +48452,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "wechat-4.1.13.23",
+        "name": "wechat-4.1.13.26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wechat",
         "system": "x86_64-linux",
-        "version": "4.1.13.23",
+        "version": "4.1.13.26",
         "_attr": "wechat",
         "_repo": "Sittymin"
     },
@@ -989634,9 +989634,9 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/hyprwm/xdg-desktop-portal-hyprland/releases/tag/v1.4.1",
+            "changelog": "https://github.com/spotdemo4/xdg-desktop-portal-hyprland/commits/feature/remote-desktop",
             "description": "xdg-desktop-portal backend for Hyprland, with RemoteDesktop support",
-            "homepage": "https://github.com/hyprwm/xdg-desktop-portal-hyprland",
+            "homepage": "https://github.com/spotdemo4/xdg-desktop-portal-hyprland",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -989678,44 +989678,8 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "mainProgram": "hyprland-share-picker",
-            "maintainers": [
-                {
-                    "email": "khaneliman12@gmail.com",
-                    "github": "khaneliman",
-                    "githubId": 1778670,
-                    "name": "Austin Horstman"
-                },
-                {
-                    "email": "masumrezarock100@gmail.com",
-                    "github": "johnrtitor",
-                    "githubId": 50095635,
-                    "name": "Masum Reza"
-                },
-                {
-                    "email": "raf@notashelf.dev",
-                    "github": "NotAShelf",
-                    "githubId": 62766066,
-                    "matrix": "@raf:notashelf.dev",
-                    "name": "NotAShelf"
-                },
-                {
-                    "github": "donovanglover",
-                    "githubId": 2374245,
-                    "keys": [
-                        {
-                            "fingerprint": "EE7D 158E F9E7 660E 0C33  86B2 8FC5 F7D9 0A5D 8F4D"
-                        }
-                    ],
-                    "name": "Donovan Glover"
-                },
-                {
-                    "email": "fufexan@protonmail.com",
-                    "github": "fufexan",
-                    "githubId": 36706276,
-                    "name": "Fufezan Mihai"
-                }
-            ],
-            "name": "xdg-desktop-portal-hyprland-1.4.1",
+            "maintainers": [],
+            "name": "xdg-desktop-portal-hyprland-1.4.1-unstable-2026-10-12",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -989746,79 +989710,24 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/xdg-desktop-portal-hyprland/default.nix#L26",
-            "problems": {},
-            "teams": [
-                {
-                    "enableFeatureFreezePing": true,
-                    "github": "hyprland",
-                    "githubId": 12048885,
-                    "githubMaintainers": [
-                        {
-                            "email": "khaneliman12@gmail.com",
-                            "github": "khaneliman",
-                            "githubId": 1778670,
-                            "name": "Austin Horstman"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "khaneliman12@gmail.com",
-                            "github": "khaneliman",
-                            "githubId": 1778670,
-                            "name": "Austin Horstman"
-                        },
-                        {
-                            "email": "masumrezarock100@gmail.com",
-                            "github": "johnrtitor",
-                            "githubId": 50095635,
-                            "name": "Masum Reza"
-                        },
-                        {
-                            "email": "raf@notashelf.dev",
-                            "github": "NotAShelf",
-                            "githubId": 62766066,
-                            "matrix": "@raf:notashelf.dev",
-                            "name": "NotAShelf"
-                        },
-                        {
-                            "github": "donovanglover",
-                            "githubId": 2374245,
-                            "keys": [
-                                {
-                                    "fingerprint": "EE7D 158E F9E7 660E 0C33  86B2 8FC5 F7D9 0A5D 8F4D"
-                                }
-                            ],
-                            "name": "Donovan Glover"
-                        },
-                        {
-                            "email": "fufexan@protonmail.com",
-                            "github": "fufexan",
-                            "githubId": 36706276,
-                            "name": "Fufezan Mihai"
-                        }
-                    ],
-                    "scope": "Maintain Hyprland compositor and ecosystem.",
-                    "shortName": "hyprland"
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/xdg-desktop-portal-hyprland/default.nix#L105",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
-            ],
-            "teamsPosition": {
-                "column": 5,
-                "file": "/nix/store/ghasbyyjrmlg6sl7v04hiq8n57kcy9a9-source/pkgs/applications/window-managers/hyprwm/xdg-desktop-portal-hyprland/default.nix",
-                "line": 104
             },
             "unfree": false,
             "unsupported": false
         },
-        "name": "xdg-desktop-portal-hyprland-1.4.1",
+        "name": "xdg-desktop-portal-hyprland-1.4.1-unstable-2026-10-12",
         "outputName": "out",
         "outputs": {
-            "debug": null,
             "out": null
         },
         "pname": "xdg-desktop-portal-hyprland",
         "system": "x86_64-linux",
-        "version": "1.4.1",
+        "version": "1.4.1-unstable-2026-10-12",
         "_attr": "xdg-desktop-portal-hyprland",
         "_repo": "trev"
     },
