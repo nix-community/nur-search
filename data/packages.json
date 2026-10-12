@@ -22384,7 +22384,7 @@
             },
             "mainProgram": "hayase",
             "maintainers": [],
-            "name": "hayase-6.4.86",
+            "name": "hayase-6.5.8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -22405,14 +22405,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "hayase-6.4.86",
+        "name": "hayase-6.5.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hayase",
         "system": "x86_64-linux",
-        "version": "6.4.86",
+        "version": "6.5.8",
         "_attr": "hayase",
         "_repo": "Ev357"
     },
@@ -22420,7 +22420,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/imputnet/helium-linux/releases/tag/0.18.3.1",
+            "changelog": "https://github.com/imputnet/helium-linux/releases/tag/0.19.2.1",
             "description": "Private, fast, and honest web browser based on Chromium",
             "homepage": "https://github.com/imputnet/helium-chromium",
             "identifiers": {
@@ -22465,7 +22465,7 @@
             },
             "mainProgram": "helium",
             "maintainers": [],
-            "name": "helium-0.18.3.1",
+            "name": "helium-0.19.2.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -22490,14 +22490,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "helium-0.18.3.1",
+        "name": "helium-0.19.2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "helium",
         "system": "x86_64-linux",
-        "version": "0.18.3.1",
+        "version": "0.19.2.1",
         "_attr": "helium",
         "_repo": "Ev357"
     },
@@ -22644,7 +22644,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/miflow13/mochi-desktop/blob/8ac1478e064673657c4206e2a20d6024bb026291/CHANGELOG.md",
+            "changelog": "https://github.com/miflow13/mochi-desktop/blob/471342631206c40d56bbba016578926e16ca8d0b/CHANGELOG.md",
             "description": "A cute, lightweight desktop companion for Linux that idles, reacts, sleeps, and hangs out while you work",
             "homepage": "https://github.com/miflow13/mochi-desktop",
             "identifiers": {
@@ -22978,8 +22978,8 @@
     },
     "nur.repos.Ev357.obsidian-git": {
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "changelog": "https://github.com/Vinzent03/obsidian-git/releases/tag/2.41.1",
             "description": "Integrate Git version control with automatic backup and other advanced features.",
             "homepage": "https://github.com/Vinzent03/obsidian-git",
@@ -23029,12 +23029,8 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Ev357/pkgs/obsidian-git/default.nix#L52",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Ev357/pkgs/obsidian-git/default.nix#L59",
             "problems": {
-                "broken": {
-                    "kind": "broken",
-                    "message": "This package is broken."
-                },
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
@@ -169723,7 +169719,7 @@
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
-            "mainProgram": "sable-next",
+            "mainProgram": "sable",
             "maintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -169741,7 +169737,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/sable-next-desktop/package.nix",
-                "line": 484
+                "line": 495
             },
             "name": "sable-next-desktop-2.0.2",
             "nonTeamMaintainers": [
@@ -169801,7 +169797,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-desktop/package.nix#L480",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-desktop/package.nix#L491",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -304856,7 +304852,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/beeper-nightly/default.nix",
                 "line": 26
             },
-            "name": "beeper-nightly-4.3.195",
+            "name": "beeper-nightly-4.3.199",
             "nonTeamMaintainers": [
                 {
                     "email": "me@joshuadcampbell.com",
@@ -304915,14 +304911,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-nightly-4.3.195",
+        "name": "beeper-nightly-4.3.199",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper-nightly",
         "system": "x86_64-linux",
-        "version": "4.3.195",
+        "version": "4.3.199",
         "_attr": "beeper-nightly",
         "_repo": "forkprince"
     },
@@ -305503,7 +305499,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/cadcraft/default.nix",
                 "line": 16
             },
-            "name": "cadcraft-0.5.0",
+            "name": "cadcraft-0.6.2",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -305552,14 +305548,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cadcraft-0.5.0",
+        "name": "cadcraft-0.6.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cadcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.6.2",
         "_attr": "cadcraft",
         "_repo": "forkprince"
     },
@@ -305621,7 +305617,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/clop/default.nix",
                 "line": 20
             },
-            "name": "clop-3.5.1",
+            "name": "clop-3.5.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -305646,14 +305642,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clop-3.5.1",
+        "name": "clop-3.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clop",
         "system": "x86_64-linux",
-        "version": "3.5.1",
+        "version": "3.5.0",
         "_attr": "clop",
         "_repo": "forkprince"
     },
@@ -305715,7 +305711,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/compositor/default.nix",
                 "line": 20
             },
-            "name": "compositor-1.4.9",
+            "name": "compositor-1.5",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -305740,14 +305736,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.4.9",
+        "name": "compositor-1.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.4.9",
+        "version": "1.5",
         "_attr": "compositor",
         "_repo": "forkprince"
     },
@@ -306446,7 +306442,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/designcraft/default.nix",
                 "line": 16
             },
-            "name": "designcraft-0.5.0",
+            "name": "designcraft-0.6.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -306495,14 +306491,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "designcraft-0.5.0",
+        "name": "designcraft-0.6.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "designcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.6.0",
         "_attr": "designcraft",
         "_repo": "forkprince"
     },
@@ -306857,7 +306853,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/effectcraft/default.nix",
                 "line": 16
             },
-            "name": "effectcraft-0.7.0",
+            "name": "effectcraft-0.8.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -306906,14 +306902,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-0.7.0",
+        "name": "effectcraft-0.8.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "_attr": "effectcraft",
         "_repo": "forkprince"
     },
@@ -307367,7 +307363,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/filmcraft/default.nix",
                 "line": 16
             },
-            "name": "filmcraft-0.5.0",
+            "name": "filmcraft-0.6.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -307416,14 +307412,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "filmcraft-0.5.0",
+        "name": "filmcraft-0.6.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "filmcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.6.0",
         "_attr": "filmcraft",
         "_repo": "forkprince"
     },
@@ -307589,7 +307585,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/flux-markdown/default.nix",
                 "line": 20
             },
-            "name": "flux-markdown-1.35.539",
+            "name": "flux-markdown-1.36.556",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -307614,14 +307610,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "flux-markdown-1.35.539",
+        "name": "flux-markdown-1.36.556",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "flux-markdown",
         "system": "x86_64-linux",
-        "version": "1.35.539",
+        "version": "1.36.556",
         "_attr": "flux-markdown",
         "_repo": "forkprince"
     },
@@ -308148,7 +308144,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/genoffice/default.nix",
                 "line": 16
             },
-            "name": "genoffice-0.11.505",
+            "name": "genoffice-0.11.564",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -308174,14 +308170,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "genoffice-0.11.505",
+        "name": "genoffice-0.11.564",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "genoffice",
         "system": "x86_64-linux",
-        "version": "0.11.505",
+        "version": "0.11.564",
         "_attr": "genoffice",
         "_repo": "forkprince"
     },
@@ -309181,7 +309177,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/highball/default.nix",
                 "line": 40
             },
-            "name": "highball-0.10.10",
+            "name": "highball-0.10.15",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -309206,14 +309202,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "highball-0.10.10",
+        "name": "highball-0.10.15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "highball",
         "system": "x86_64-linux",
-        "version": "0.10.10",
+        "version": "0.10.15",
         "_attr": "highball",
         "_repo": "forkprince"
     },
@@ -309600,7 +309596,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/hytale/default.nix",
                 "line": 100
             },
-            "name": "hytale-launcher-unwrapped-2026.09.30-326a0c2",
+            "name": "hytale-launcher-unwrapped-2026.10.09-4e41671",
             "nonTeamMaintainers": [
                 {
                     "email": "gutyina.gergo.2@gmail.com",
@@ -309810,7 +309806,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/kryoto-desktop/default.nix",
                 "line": 35
             },
-            "name": "kryoto-desktop-0.2.12",
+            "name": "kryoto-desktop-0.2.14",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -309835,14 +309831,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kryoto-desktop-0.2.12",
+        "name": "kryoto-desktop-0.2.14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kryoto-desktop",
         "system": "x86_64-linux",
-        "version": "0.2.12",
+        "version": "0.2.14",
         "_attr": "kryoto-desktop",
         "_repo": "forkprince"
     },
@@ -309917,7 +309913,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/lightcraft/default.nix",
                 "line": 16
             },
-            "name": "lightcraft-0.5.0",
+            "name": "lightcraft-0.6.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -309966,14 +309962,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lightcraft-0.5.0",
+        "name": "lightcraft-0.6.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lightcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.6.0",
         "_attr": "lightcraft",
         "_repo": "forkprince"
     },
@@ -311493,7 +311489,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/nuvio/default.nix",
                 "line": 16
             },
-            "name": "nuvio-0.1.29-alpha",
+            "name": "nuvio-0.1.30-alpha",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -311519,14 +311515,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nuvio-0.1.29-alpha",
+        "name": "nuvio-0.1.30-alpha",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nuvio",
         "system": "x86_64-linux",
-        "version": "0.1.29-alpha",
+        "version": "0.1.30-alpha",
         "_attr": "nuvio",
         "_repo": "forkprince"
     },
@@ -312567,7 +312563,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/orbolay/default.nix",
                 "line": 16
             },
-            "name": "orbolay-4.0.0",
+            "name": "orbolay-4.1.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -312593,14 +312589,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orbolay-4.0.0",
+        "name": "orbolay-4.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orbolay",
         "system": "x86_64-linux",
-        "version": "4.0.0",
+        "version": "4.1.0",
         "_attr": "orbolay",
         "_repo": "forkprince"
     },
@@ -313636,7 +313632,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/pdfcraft/default.nix",
                 "line": 16
             },
-            "name": "pdfcraft-0.5.0",
+            "name": "pdfcraft-0.7.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -313685,14 +313681,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-0.5.0",
+        "name": "pdfcraft-0.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.7.1",
         "_attr": "pdfcraft",
         "_repo": "forkprince"
     },
@@ -313989,7 +313985,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/photocraft/default.nix",
                 "line": 16
             },
-            "name": "photocraft-0.6.0",
+            "name": "photocraft-0.7.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -314038,14 +314034,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "photocraft-0.6.0",
+        "name": "photocraft-0.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photocraft",
         "system": "x86_64-linux",
-        "version": "0.6.0",
+        "version": "0.7.0",
         "_attr": "photocraft",
         "_repo": "forkprince"
     },
@@ -316603,7 +316599,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/soundcraft/default.nix",
                 "line": 16
             },
-            "name": "soundcraft-0.5.0",
+            "name": "soundcraft-0.6.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -316652,14 +316648,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "soundcraft-0.5.0",
+        "name": "soundcraft-0.6.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "soundcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.6.1",
         "_attr": "soundcraft",
         "_repo": "forkprince"
     },
@@ -317681,7 +317677,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/tinywiibackupmanager/default.nix",
                 "line": 18
             },
-            "name": "tinywiibackupmanager-6.1.5",
+            "name": "tinywiibackupmanager-6.1.6",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -317730,14 +317726,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tinywiibackupmanager-6.1.5",
+        "name": "tinywiibackupmanager-6.1.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tinywiibackupmanager",
         "system": "x86_64-linux",
-        "version": "6.1.5",
+        "version": "6.1.6",
         "_attr": "tinywiibackupmanager",
         "_repo": "forkprince"
     },
@@ -317930,7 +317926,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/vectorcraft/default.nix",
                 "line": 16
             },
-            "name": "vectorcraft-0.8.0",
+            "name": "vectorcraft-0.10.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -317979,14 +317975,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vectorcraft-0.8.0",
+        "name": "vectorcraft-0.10.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vectorcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.10.0",
         "_attr": "vectorcraft",
         "_repo": "forkprince"
     },
@@ -318853,7 +318849,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/wordcraft/default.nix",
                 "line": 16
             },
-            "name": "wordcraft-0.5.0",
+            "name": "wordcraft-0.6.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -318902,14 +318898,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wordcraft-0.5.0",
+        "name": "wordcraft-0.6.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wordcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.6.1",
         "_attr": "wordcraft",
         "_repo": "forkprince"
     },
@@ -418163,7 +418159,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/openai/codex/releases/tag/rust-v0.162.0",
+            "changelog": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
             "description": "Lightweight coding agent that runs in your terminal",
             "homepage": "https://github.com/openai/codex",
             "identifiers": {
@@ -418220,7 +418216,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/codex-bin/default.nix",
                 "line": 69
             },
-            "name": "codex-bin-0.162.0",
+            "name": "codex-bin-0.162.1",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -418246,14 +418242,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "codex-bin-0.162.0",
+        "name": "codex-bin-0.162.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "codex-bin",
         "system": "x86_64-linux",
-        "version": "0.162.0",
+        "version": "0.162.1",
         "_attr": "codex-bin",
         "_repo": "merrkry"
     },
@@ -418261,7 +418257,7 @@
         "meta": {
             "available": false,
             "broken": false,
-            "changelog": "https://github.com/zed-industries/delta-nix/releases/tag/v0.19.1",
+            "changelog": "https://github.com/zed-industries/delta-nix/releases/tag/v0.19.2",
             "description": "Delta, the AI coding assistant",
             "homepage": "https://delta.dev",
             "identifiers": {
@@ -418316,7 +418312,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/delta/default.nix",
                 "line": 49
             },
-            "name": "delta-0.19.1",
+            "name": "delta-0.19.2",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -418343,14 +418339,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "delta-0.19.1",
+        "name": "delta-0.19.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "delta",
         "system": "x86_64-linux",
-        "version": "0.19.1",
+        "version": "0.19.2",
         "_attr": "delta",
         "_repo": "merrkry"
     },
@@ -418472,7 +418468,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/xifan2333/fcitx5-vinput/releases/tag/v2.4.0",
+            "changelog": "https://github.com/xifan2333/fcitx5-vinput/releases/tag/v2.4.1",
             "description": "Voice input addon for Fcitx5, built without local ASR",
             "homepage": "https://github.com/xifan2333/fcitx5-vinput",
             "identifiers": {
@@ -418517,7 +418513,7 @@
             },
             "mainProgram": "vinput",
             "maintainers": [],
-            "name": "fcitx5-vinput-lite-2.4.0",
+            "name": "fcitx5-vinput-lite-2.4.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -418536,14 +418532,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fcitx5-vinput-lite-2.4.0",
+        "name": "fcitx5-vinput-lite-2.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fcitx5-vinput-lite",
         "system": "x86_64-linux",
-        "version": "2.4.0",
+        "version": "2.4.1",
         "_attr": "fcitx5-vinput-lite",
         "_repo": "merrkry"
     },
@@ -418562,7 +418558,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/kunobi-ninja/kache/releases/tag/v1.0.0",
+            "changelog": "https://github.com/kunobi-ninja/kache/releases/tag/v1.1.0",
             "description": "Content-addressed build cache for Rust, C/C++ and CUDA",
             "homepage": "https://github.com/kunobi-ninja/kache",
             "identifiers": {
@@ -418619,7 +418615,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/kache.nix",
                 "line": 82
             },
-            "name": "kache-1.0.0",
+            "name": "kache-1.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -418672,14 +418668,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kache-1.0.0",
+        "name": "kache-1.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kache",
         "system": "x86_64-linux",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "_attr": "kache",
         "_repo": "merrkry"
     },
@@ -418812,13 +418808,13 @@
                     "target_sw": "*"
                 },
                 "possibleCPEs": [],
-                "purl": "pkg:github/zed-industries/delta-nix@v0.19.1",
+                "purl": "pkg:github/zed-industries/delta-nix@v0.19.2",
                 "purlParts": {
-                    "spec": "zed-industries/delta-nix@v0.19.1",
+                    "spec": "zed-industries/delta-nix@v0.19.2",
                     "type": "github"
                 },
                 "purls": [
-                    "pkg:github/zed-industries/delta-nix@v0.19.1"
+                    "pkg:github/zed-industries/delta-nix@v0.19.2"
                 ],
                 "v1": {
                     "cpeParts": {
@@ -418831,9 +418827,9 @@
                         "target_sw": "*"
                     },
                     "possibleCPEs": [],
-                    "purl": "pkg:github/zed-industries/delta-nix@v0.19.1",
+                    "purl": "pkg:github/zed-industries/delta-nix@v0.19.2",
                     "purls": [
-                        "pkg:github/zed-industries/delta-nix@v0.19.1"
+                        "pkg:github/zed-industries/delta-nix@v0.19.2"
                     ]
                 }
             },
@@ -419165,7 +419161,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/pingdotgg/t3code/releases/tag/v0.0.46-nightly.20261008.2849",
+            "changelog": "https://github.com/pingdotgg/t3code/releases/tag/v0.0.46-nightly.20261012.3021",
             "description": "Web interface for coding agents",
             "homepage": "https://github.com/pingdotgg/t3code",
             "identifiers": {
@@ -419222,7 +419218,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/t3code-bin/unwrapped.nix",
                 "line": 46
             },
-            "name": "t3code-bin-unwrapped-0.0.46-nightly.20261008.2849",
+            "name": "t3code-bin-unwrapped-0.0.46-nightly.20261012.3021",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -419248,14 +419244,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "t3code-bin-0.0.46-nightly.20261008.2849",
+        "name": "t3code-bin-0.0.46-nightly.20261012.3021",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "t3code-bin",
         "system": "x86_64-linux",
-        "version": "0.0.46-nightly.20261008.2849",
+        "version": "0.0.46-nightly.20261012.3021",
         "_attr": "t3code-nightly-bin",
         "_repo": "merrkry"
     },
@@ -544317,6 +544313,105 @@
         "system": "x86_64-linux",
         "version": "40.2.0",
         "_attr": "gotgenes-pi-permission-system",
+        "_repo": "prince213"
+    },
+    "nur.repos.prince213.humanize": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Skills that strip AI tells from text and score text for remaining ones",
+            "homepage": "https://github.com/harshaneel/humanize",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "humanize",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "humanize",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/hu/humanize/package.nix",
+                "line": 30
+            },
+            "name": "humanize-0-unstable-2026-09-22",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/hu/humanize/package.nix#L27",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "humanize-0-unstable-2026-09-22",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "humanize",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-09-22",
+        "_attr": "humanize",
         "_repo": "prince213"
     },
     "nur.repos.prince213.ignis": {
