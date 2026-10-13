@@ -949713,6 +949713,161 @@
         "_attr": "arpk",
         "_repo": "sn0wm1x"
     },
+    "nur.repos.sn0wm1x.caddy-sn0wm1x": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/caddyserver/caddy/releases/tag/v2.11.7",
+            "description": "Caddy with plugins selected by SN0WM1X",
+            "homepage": "https://github.com/sn0wm1x/ur",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "caddy-sn0wm1x",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "caddy-sn0wm1x",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                }
+            ],
+            "mainProgram": "caddy",
+            "maintainers": [
+                {
+                    "email": "kwa@kwaa.dev",
+                    "github": "kwaa",
+                    "githubId": 50108258,
+                    "keys": [
+                        {
+                            "fingerprint": "ABCB A12F 1A8E 3CCC F10B  5109 4444 7777 3333 4444"
+                        }
+                    ],
+                    "matrix": "@kwaa:matrix.org",
+                    "name": "\u85cd+85CD"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix",
+                "line": 126
+            },
+            "name": "caddy-sn0wm1x-2.11.7",
+            "nonTeamMaintainers": [
+                {
+                    "email": "kwa@kwaa.dev",
+                    "github": "kwaa",
+                    "githubId": 50108258,
+                    "keys": [
+                        {
+                            "fingerprint": "ABCB A12F 1A8E 3CCC F10B  5109 4444 7777 3333 4444"
+                        }
+                    ],
+                    "matrix": "@kwaa:matrix.org",
+                    "name": "\u85cd+85CD"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix#L119",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "caddy-sn0wm1x-2.11.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "caddy-sn0wm1x",
+        "system": "x86_64-linux",
+        "version": "2.11.7",
+        "_attr": "caddy-sn0wm1x",
+        "_repo": "sn0wm1x"
+    },
     "nur.repos.sn0wm1x.godot-fbx2gltf-bin": {
         "meta": {
             "available": true,
