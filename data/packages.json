@@ -504573,7 +504573,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/jarrodwatts/claude-hud/releases/tag/v0.11.1",
+            "changelog": "https://github.com/jarrodwatts/claude-hud/releases/tag/v0.11.2",
             "description": "Real-time statusline HUD for Claude Code",
             "homepage": "https://github.com/jarrodwatts/claude-hud",
             "identifiers": {
@@ -504627,7 +504627,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/claude-hud/default.nix",
                 "line": 81
             },
-            "name": "claude-hud-0.11.1",
+            "name": "claude-hud-0.11.2",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -504646,14 +504646,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "claude-hud-0.11.1",
+        "name": "claude-hud-0.11.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "claude-hud",
         "system": "x86_64-linux",
-        "version": "0.11.1",
+        "version": "0.11.2",
         "_attr": "claude-hud",
         "_repo": "mzwing"
     },
@@ -504925,7 +504925,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.17.29",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.17.38",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -504979,7 +504979,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 41
             },
-            "name": "cnb-cli-1.17.29",
+            "name": "cnb-cli-1.17.38",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -504998,14 +504998,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.17.29",
+        "name": "cnb-cli-1.17.38",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.17.29",
+        "version": "1.17.38",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -505875,7 +505875,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.48.0",
+            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.0",
             "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit",
             "homepage": "https://github.com/cortexkit/magic-context",
             "identifiers": {
@@ -505929,7 +505929,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
                 "line": 82
             },
-            "name": "magic-context-0.48.0",
+            "name": "magic-context-0.49.0",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -505948,14 +505948,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magic-context-0.48.0",
+        "name": "magic-context-0.49.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magic-context",
         "system": "x86_64-linux",
-        "version": "0.48.0",
+        "version": "0.49.0",
         "_attr": "magic-context",
         "_repo": "mzwing"
     },
@@ -997460,6 +997460,118 @@
         "system": "x86_64-linux",
         "version": "0.4.1",
         "_attr": "pig",
+        "_repo": "uriotv"
+    },
+    "nur.repos.uriotv.rea-agents": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0",
+            "description": "Reverse-engineering tools and MCP server for coding agents",
+            "homepage": "https://rea.tools/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rea-agents",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rea-agents",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "rea",
+            "maintainers": [],
+            "name": "rea-agents-6.4.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/pkgs/rea-agents/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rea-agents-6.4.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rea-agents",
+        "system": "x86_64-linux",
+        "version": "6.4.0",
+        "_attr": "rea-agents",
         "_repo": "uriotv"
     },
     "nur.repos.uriotv.rimsort-appimage": {
