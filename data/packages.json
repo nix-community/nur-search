@@ -8111,7 +8111,7 @@
                 "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
             },
             "maintainers": [],
-            "name": "josm-plugin-build-env-19613-36511",
+            "name": "josm-plugin-build-env-19613-36512",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -8121,14 +8121,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "josm-plugin-build-env-19613-36511",
+        "name": "josm-plugin-build-env-19613-36512",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "josm-plugin-build-env",
         "system": "x86_64-linux",
-        "version": "19613-36511",
+        "version": "19613-36512",
         "_attr": "josm-plugin-build-env",
         "_repo": "AndrewKvalheim"
     },
@@ -367578,7 +367578,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "pi-web-access-0.39.0",
+            "name": "pi-web-access-0.40.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -367640,14 +367640,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.39.0",
+        "name": "pi-web-access-0.40.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.39.0",
+        "version": "0.40.0",
         "_attr": "pi-web-access",
         "_repo": "josh"
     },
@@ -705754,7 +705754,7 @@
             ],
             "mainProgram": "artcraft-launcher",
             "maintainers": [],
-            "name": "artcraft-launcher-0.3.2",
+            "name": "artcraft-launcher-0.4.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -705779,14 +705779,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artcraft-launcher-0.3.2",
+        "name": "artcraft-launcher-0.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artcraft-launcher",
         "system": "x86_64-linux",
-        "version": "0.3.2",
+        "version": "0.4.1",
         "_attr": "artcraft-launcher",
         "_repo": "quriosity"
     },
@@ -706317,6 +706317,113 @@
         "_attr": "effectcraft",
         "_repo": "quriosity"
     },
+    "nur.repos.quriosity.figcraft": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
+            "homepage": "https://getartcraft.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "figcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "figcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "figcraft",
+            "maintainers": [],
+            "name": "figcraft-0.5.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/figcraft/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "figcraft-0.5.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "figcraft",
+        "system": "x86_64-linux",
+        "version": "0.5.1",
+        "_attr": "figcraft",
+        "_repo": "quriosity"
+    },
     "nur.repos.quriosity.filmcraft": {
         "meta": {
             "available": true,
@@ -706495,7 +706602,7 @@
             ],
             "mainProgram": "gridcraft",
             "maintainers": [],
-            "name": "gridcraft-0.5.0",
+            "name": "gridcraft-0.6.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -706520,14 +706627,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gridcraft-0.5.0",
+        "name": "gridcraft-0.6.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gridcraft",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.6.1",
         "_attr": "gridcraft",
         "_repo": "quriosity"
     },
