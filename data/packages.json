@@ -64763,7 +64763,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "teldrive-2.0.3",
+            "name": "teldrive-2.0.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -64781,14 +64781,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "teldrive-2.0.3",
+        "name": "teldrive-2.0.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "teldrive",
         "system": "x86_64-linux",
-        "version": "2.0.3",
+        "version": "2.0.4",
         "_attr": "teldrive",
         "_repo": "XiaoXioe"
     },
@@ -246959,7 +246959,7 @@
             },
             "mainProgram": "rsshub",
             "maintainers": [],
-            "name": "rsshub-2026.10.12-8414.1470116",
+            "name": "rsshub-2026.10.13-8416.d89867e",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -246979,14 +246979,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rsshub-2026.10.12-8414.1470116",
+        "name": "rsshub-2026.10.13-8416.d89867e",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rsshub",
         "system": "x86_64-linux",
-        "version": "2026.10.12-8414.1470116",
+        "version": "2026.10.13-8416.d89867e",
         "_attr": "rsshub",
         "_repo": "davinci42"
     },
@@ -949843,7 +949843,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/klzgrad/naiveproxy/releases/tag/v140.0.7339.123-1",
+            "changelog": "https://github.com/klzgrad/naiveproxy/releases/tag/v154.0.8037.49-4",
             "description": "Make a fortune quietly",
             "homepage": "https://github.com/klzgrad/naiveproxy",
             "identifiers": {
@@ -949906,7 +949906,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sn0wm1x/pkgs/by-name/naiveproxy-bin/default.nix",
                 "line": 43
             },
-            "name": "naiveproxy-140.0.7339.123-1",
+            "name": "naiveproxy-154.0.8037.49-4",
             "nonTeamMaintainers": [
                 {
                     "email": "kwa@kwaa.dev",
@@ -949938,126 +949938,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "naiveproxy-140.0.7339.123-1",
+        "name": "naiveproxy-154.0.8037.49-4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "naiveproxy",
         "system": "x86_64-linux",
-        "version": "140.0.7339.123-1",
+        "version": "154.0.8037.49-4",
         "_attr": "naiveproxy-bin",
-        "_repo": "sn0wm1x"
-    },
-    "nur.repos.sn0wm1x.open-ai-translator-bin": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/openai-translator/openai-translator/releases/tag/v0.4.33",
-            "description": "Cross-platform desktop application for translation based on ChatGPT API",
-            "downloadPage": "https://github.com/openai-translator/openai-translator/releases",
-            "homepage": "https://github.com/openai-translator/openai-translator",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "open-ai-translator",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "open-ai-translator",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
-            },
-            "mainProgram": "open-ai-translator",
-            "maintainers": [
-                {
-                    "email": "kwa@kwaa.dev",
-                    "github": "kwaa",
-                    "githubId": 50108258,
-                    "keys": [
-                        {
-                            "fingerprint": "ABCB A12F 1A8E 3CCC F10B  5109 4444 7777 3333 4444"
-                        }
-                    ],
-                    "matrix": "@kwaa:matrix.org",
-                    "name": "\u85cd+85CD"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sn0wm1x/pkgs/by-name/open-ai-translator-bin/default.nix",
-                "line": 78
-            },
-            "name": "open-ai-translator-0.4.33",
-            "nonTeamMaintainers": [
-                {
-                    "email": "kwa@kwaa.dev",
-                    "github": "kwaa",
-                    "githubId": 50108258,
-                    "keys": [
-                        {
-                            "fingerprint": "ABCB A12F 1A8E 3CCC F10B  5109 4444 7777 3333 4444"
-                        }
-                    ],
-                    "matrix": "@kwaa:matrix.org",
-                    "name": "\u85cd+85CD"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sn0wm1x/pkgs/by-name/open-ai-translator-bin/default.nix#L72",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "open-ai-translator-0.4.33",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "open-ai-translator",
-        "system": "x86_64-linux",
-        "version": "0.4.33",
-        "_attr": "open-ai-translator-bin",
         "_repo": "sn0wm1x"
     },
     "nur.repos.so1ve.ab-download-manager": {
