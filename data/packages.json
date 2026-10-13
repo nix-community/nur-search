@@ -243489,7 +243489,7 @@
             "insecure": false,
             "mainProgram": "enso",
             "maintainers": [],
-            "name": "enso-2025.2.3",
+            "name": "enso-2025.3.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -243505,14 +243505,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "enso-2025.2.3",
+        "name": "enso-2025.3.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "enso",
         "system": "x86_64-linux",
-        "version": "2025.2.3",
+        "version": "2025.3.4",
         "_attr": "enso",
         "_repo": "crazazy"
     },
@@ -244377,79 +244377,6 @@
         "_attr": "firefox-addons.youtube_downloader_webx",
         "_repo": "crazazy"
     },
-    "nur.repos.crazazy.nix-gen-node-tools": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Generates nix expressions for node.js CLI tools written in pure JS",
-            "homepage": "https://github.com/crazazy/nix-gen-node-tools",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "nix-gen-node-tools",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "nix-gen-node-tools",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [],
-            "name": "nix-gen-node-tools-1.0.2",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/crazazy/pkgs/gen-node-env/default.nix#L18",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "nix-gen-node-tools-1.0.2",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "nix-gen-node-tools",
-        "system": "x86_64-linux",
-        "version": "1.0.2",
-        "_attr": "nix-gen-node-tools",
-        "_repo": "crazazy"
-    },
     "nur.repos.crazazy.nvfetcher": {
         "meta": {
             "available": true,
@@ -244859,7 +244786,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wasmtime-21540296f1c262188636fe0fb373cd2a9600d764",
+        "name": "wasmtime-13ff1ce45671a517bd47e6df7b248e0ff3cc1d0f",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -244868,7 +244795,7 @@
         },
         "pname": "wasmtime",
         "system": "x86_64-linux",
-        "version": "21540296f1c262188636fe0fb373cd2a9600d764",
+        "version": "13ff1ce45671a517bd47e6df7b248e0ff3cc1d0f",
         "_attr": "wasmfxtime",
         "_repo": "crazazy"
     },
@@ -388765,6 +388692,161 @@
         "version": "5.9.20220814.0",
         "_attr": "universal-ctags-pcre2",
         "_repo": "lightquantum"
+    },
+    "nur.repos.lillycham.akyuu": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A content-addressed memory store for AI agents",
+            "homepage": "https://github.com/lillycham/akyuu",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "akyuu",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "akyuu",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "akyuu",
+            "maintainers": [],
+            "name": "akyuu-0.2.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillycham/pkgs/akyuu/default.nix#L40",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "akyuu-0.2.0.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "akyuu",
+        "system": "x86_64-linux",
+        "version": "0.2.0.0",
+        "_attr": "akyuu",
+        "_repo": "lillycham"
     },
     "nur.repos.lillycham.dq": {
         "meta": {
