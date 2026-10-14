@@ -18690,19 +18690,20 @@
         "_attr": "TRWUDMincho",
         "_repo": "DzmingLi"
     },
-    "nur.repos.DzmingLi.baidupcs-go": {
+    "nur.repos.DzmingLi.baidunetdisk": {
         "meta": {
-            "available": true,
+            "available": false,
             "broken": false,
-            "description": "\u4eff Linux shell \u6587\u4ef6\u5904\u7406\u547d\u4ee4\u7684\u767e\u5ea6\u7f51\u76d8\u547d\u4ee4\u884c\u5ba2\u6237\u7aef",
-            "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
+            "description": "Baidu Netdisk",
+            "downloadPage": "https://pan.baidu.com/download",
+            "homepage": "https://pan.baidu.com/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "baidupcs-go",
+                    "product": "baidunetdisk",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -18716,7 +18717,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "baidupcs-go",
+                        "product": "baidunetdisk",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -18728,15 +18729,13 @@
             "insecure": false,
             "license": {
                 "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
+                "free": false,
+                "fullName": "Unfree redistributable",
                 "licenseType": "simple",
                 "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
+                "shortName": "unfreeRedistributable"
             },
-            "mainProgram": "BaiduPCS-Go",
+            "mainProgram": "baidunetdisk",
             "maintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -18755,10 +18754,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/DzmingLi/pkgs/baidupcs-go/default.nix",
-                "line": 44
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/DzmingLi/pkgs/baidunetdisk/default.nix",
+                "line": 184
             },
-            "name": "baidupcs-go-4.0.2",
+            "name": "baidunetdisk-8.7.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -18779,51 +18778,28 @@
                 "out"
             ],
             "platforms": [
-                "aarch64-darwin",
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
+                "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/baidupcs-go/default.nix#L45",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/baidunetdisk/default.nix#L185",
             "problems": {},
-            "unfree": false,
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
             "unsupported": false
         },
-        "name": "baidupcs-go-4.0.2",
+        "name": "baidunetdisk-8.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "baidupcs-go",
+        "pname": "baidunetdisk",
         "system": "x86_64-linux",
-        "version": "4.0.2",
-        "_attr": "baidupcs-go",
+        "version": "8.7.0",
+        "_attr": "baidunetdisk",
         "_repo": "DzmingLi"
     },
     "nur.repos.DzmingLi.berkeley-mono-trial": {
@@ -246644,7 +246620,7 @@
             ],
             "mainProgram": "cf",
             "maintainers": [],
-            "name": "cf-1.0.0-beta.14",
+            "name": "cf-1.0.0-beta.16",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -246664,14 +246640,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cf-1.0.0-beta.14",
+        "name": "cf-1.0.0-beta.16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cf",
         "system": "x86_64-linux",
-        "version": "1.0.0-beta.14",
+        "version": "1.0.0-beta.16",
         "_attr": "cf",
         "_repo": "davinci42"
     },
@@ -247011,7 +246987,7 @@
             },
             "mainProgram": "rsshub",
             "maintainers": [],
-            "name": "rsshub-2026.10.13-8416.d89867e",
+            "name": "rsshub-2026.10.14-8421.a7faf80",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -247031,14 +247007,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rsshub-2026.10.13-8416.d89867e",
+        "name": "rsshub-2026.10.14-8421.a7faf80",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rsshub",
         "system": "x86_64-linux",
-        "version": "2026.10.13-8416.d89867e",
+        "version": "2026.10.14-8421.a7faf80",
         "_attr": "rsshub",
         "_repo": "davinci42"
     },
@@ -419168,7 +419144,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/kunobi-ninja/kache/releases/tag/v1.1.0",
+            "changelog": "https://github.com/kunobi-ninja/kache/releases/tag/v1.1.1",
             "description": "Content-addressed build cache for Rust, C/C++ and CUDA",
             "homepage": "https://github.com/kunobi-ninja/kache",
             "identifiers": {
@@ -419225,7 +419201,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/kache.nix",
                 "line": 82
             },
-            "name": "kache-1.1.0",
+            "name": "kache-1.1.1",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -419278,14 +419254,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kache-1.1.0",
+        "name": "kache-1.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kache",
         "system": "x86_64-linux",
-        "version": "1.1.0",
+        "version": "1.1.1",
         "_attr": "kache",
         "_repo": "merrkry"
     },
@@ -501578,7 +501554,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/mi/miodroid/package.nix",
-                "line": 436
+                "line": 536
             },
             "name": "miodroid-1.6.3",
             "nonTeamMaintainers": [],
@@ -501611,7 +501587,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/mi/miodroid/package.nix#L431",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/mi/miodroid/package.nix#L531",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
