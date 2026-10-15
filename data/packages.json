@@ -520797,6 +520797,106 @@
         "_attr": "nyanpasu-service",
         "_repo": "moraxyc"
     },
+    "nur.repos.moraxyc.opencode-go-cliproxyapi": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "OpenCode Go provider plugin for CLIProxyAPI",
+            "homepage": "https://github.com/massiveits/opencode-go-cliproxyapi",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "opencode-go-cliproxyapi",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "opencode-go-cliproxyapi",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "opencode-go-cliproxyapi-0.0.0-unstable-2026-10-05",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/op/opencode-go-cliproxyapi/package.nix#L33",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "opencode-go-cliproxyapi-0.0.0-unstable-2026-10-05",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "opencode-go-cliproxyapi",
+        "system": "x86_64-linux",
+        "version": "0.0.0-unstable-2026-10-05",
+        "_attr": "opencode-go-cliproxyapi",
+        "_repo": "moraxyc"
+    },
     "nur.repos.moraxyc.opencode-telegram-bot": {
         "meta": {
             "available": true,
@@ -573927,7 +574027,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/gotgenes/pi-packages/blob/pi-permission-system-v40.2.0/packages/pi-permission-system/CHANGELOG.md",
+            "changelog": "https://github.com/gotgenes/pi-packages/blob/pi-permission-system-v40.2.1/packages/pi-permission-system/CHANGELOG.md",
             "description": "Permission enforcement extension for the Pi coding agent",
             "downloadPage": "https://github.com/gotgenes/pi-packages/releases",
             "homepage": "https://github.com/gotgenes/pi-packages/tree/main/packages/pi-permission-system",
@@ -573990,7 +574090,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/go/gotgenes-pi-permission-system/package.nix",
                 "line": 65
             },
-            "name": "gotgenes-pi-permission-system-40.2.0",
+            "name": "gotgenes-pi-permission-system-40.2.1",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -574036,14 +574136,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gotgenes-pi-permission-system-40.2.0",
+        "name": "gotgenes-pi-permission-system-40.2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gotgenes-pi-permission-system",
         "system": "x86_64-linux",
-        "version": "40.2.0",
+        "version": "40.2.1",
         "_attr": "gotgenes-pi-permission-system",
         "_repo": "prince213"
     },
@@ -736745,7 +736845,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nicobailon/pi-mcp-adapter/blob/v5.3.0/CHANGELOG.md",
+            "changelog": "https://github.com/nicobailon/pi-mcp-adapter/blob/v5.3.1/CHANGELOG.md",
             "description": "MCP adapter for Pi coding agent",
             "downloadPage": "https://github.com/nicobailon/pi-mcp-adapter/releases",
             "homepage": "https://github.com/nicobailon/pi-mcp-adapter",
@@ -736808,7 +736908,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-mcp-adapter/package.nix",
                 "line": 36
             },
-            "name": "pi-mcp-adapter-5.3.0",
+            "name": "pi-mcp-adapter-5.3.1",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -736854,14 +736954,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-mcp-adapter-5.3.0",
+        "name": "pi-mcp-adapter-5.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-mcp-adapter",
         "system": "x86_64-linux",
-        "version": "5.3.0",
+        "version": "5.3.1",
         "_attr": "pi-mcp-adapter",
         "_repo": "prince213"
     },
@@ -737318,7 +737418,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.40.0/CHANGELOG.md",
+            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.41.0/CHANGELOG.md",
             "description": "Web search and content extraction extension for Pi coding agent",
             "downloadPage": "https://github.com/nicobailon/pi-web-access/releases",
             "homepage": "https://github.com/nicobailon/pi-web-access",
@@ -737381,7 +737481,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-web-access/package.nix",
                 "line": 33
             },
-            "name": "pi-web-access-0.40.0",
+            "name": "pi-web-access-0.41.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -737427,14 +737527,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.40.0",
+        "name": "pi-web-access-0.41.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.40.0",
+        "version": "0.41.0",
         "_attr": "pi-web-access",
         "_repo": "prince213"
     },
@@ -741161,7 +741261,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/filmcraft/default.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/filmcraft/default.nix#L84",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
