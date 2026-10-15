@@ -406526,6 +406526,221 @@
         "_attr": "myosevka.proportional",
         "_repo": "lunik1"
     },
+    "nur.repos.lunik1.scanverdict": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tell what scan type and cadence a video file really has, then prove the fix works",
+            "homepage": "https://github.com/Booyaka101/scanverdict",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "scanverdict",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "scanverdict",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "scanverdict",
+            "maintainers": [
+                {
+                    "email": "ch.nixpkgs@themaw.xyz",
+                    "github": "lunik1",
+                    "githubId": 13547699,
+                    "keys": [
+                        {
+                            "fingerprint": "6E69 6A19 4BD8 BFAE 7362  ACDB 6437 4619 95CA 7F16"
+                        }
+                    ],
+                    "matrix": "@lunik1:lunik.one",
+                    "name": "Corin Hoad"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lunik1/pkgs/scanverdict/default.nix",
+                "line": 40
+            },
+            "name": "scanverdict-1.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ch.nixpkgs@themaw.xyz",
+                    "github": "lunik1",
+                    "githubId": 13547699,
+                    "keys": [
+                        {
+                            "fingerprint": "6E69 6A19 4BD8 BFAE 7362  ACDB 6437 4619 95CA 7F16"
+                        }
+                    ],
+                    "matrix": "@lunik1:lunik.one",
+                    "name": "Corin Hoad"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lunik1/pkgs/scanverdict/default.nix#L37",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "scanverdict-1.1.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "scanverdict",
+        "system": "x86_64-linux",
+        "version": "1.1.1",
+        "_attr": "scanverdict",
+        "_repo": "lunik1"
+    },
     "nur.repos.lunik1.ssim-downscaler": {
         "meta": {
             "available": true,
@@ -486578,7 +486793,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 318
+                "line": 323
             },
             "name": "archivetune-15.1.0",
             "nonTeamMaintainers": [
@@ -486598,7 +486813,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L315",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L320",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -497055,6 +497270,159 @@
         "system": "x86_64-linux",
         "version": "3.0.5",
         "_attr": "globalprotect-openconnect",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.google-maps-pake": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Desktop application for Google Maps (packaged via Pake)",
+            "homepage": "https://www.google.com/maps",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "google-maps",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "google-maps",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "google-maps",
+            "maintainers": [],
+            "name": "google-maps-3.17.5",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/google-maps-pake/package.nix#L17",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "google-maps-3.17.5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "google-maps",
+        "system": "x86_64-linux",
+        "version": "3.17.5",
+        "_attr": "google-maps-pake",
         "_repo": "mio"
     },
     "nur.repos.mio.graphene-hardened-malloc": {
