@@ -72232,7 +72232,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-10-14",
+            "name": "albedo-git-0-unstable-2026-10-15",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -72294,14 +72294,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-10-14",
+        "name": "albedo-git-0-unstable-2026-10-15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-14",
+        "version": "0-unstable-2026-10-15",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -78833,7 +78833,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-13",
+            "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-14",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -78874,14 +78874,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-13",
+        "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gruvbox-plus-icons",
         "system": "x86_64-linux",
-        "version": "6.6.0-unstable-2026-10-13",
+        "version": "6.6.0-unstable-2026-10-14",
         "_attr": "gruvbox-plus-icons",
         "_repo": "adam0"
     },
@@ -504899,6 +504899,108 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-03-31",
         "_attr": "nm2nix",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.nrs-client": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Client for the Australian National Relay Service (NRS) Internet Relay built with Flutter and Rinf",
+            "homepage": "https://nrschat.nrscall.gov.au/nrs/internetrelay",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nrs-client",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nrs-client",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "nrs_client",
+            "maintainers": [],
+            "name": "nrs-client-1.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/nr/nrs-client/package.nix#L42",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nrs-client-1.0.0",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "out": null,
+            "pubcache": null
+        },
+        "pname": "nrs-client",
+        "system": "x86_64-linux",
+        "version": "1.0.0",
+        "_attr": "nrs-client",
         "_repo": "mio"
     },
     "nur.repos.mio.nurl_patched": {
@@ -1295800,6 +1295902,16 @@
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
             },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
             "unfree": false,
             "unsupported": false
         },
@@ -1295940,6 +1296052,10 @@
                 {
                     "isSource": true,
                     "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
                 }
             ],
             "unfree": false,
@@ -1296140,6 +1296256,14 @@
                 {
                     "isSource": true,
                     "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
                 }
             ],
             "unfree": false,
@@ -1296407,7 +1296531,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "fortune-mod-hitokoto-1.0.1325",
+            "name": "fortune-mod-hitokoto-1.0.1328",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1296475,14 +1296599,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fortune-mod-hitokoto-1.0.1325",
+        "name": "fortune-mod-hitokoto-1.0.1328",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fortune-mod-hitokoto",
         "system": "x86_64-linux",
-        "version": "1.0.1325",
+        "version": "1.0.1328",
         "_attr": "fortune-mod-hitokoto",
         "_repo": "zerozawa"
     },
@@ -1296580,6 +1296704,137 @@
         "system": "x86_64-linux",
         "version": "0-unstable-4d9cd37",
         "_attr": "grub-theme-yorha",
+        "_repo": "zerozawa"
+    },
+    "nur.repos.zerozawa.jadx-headless-mcp": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Headless MCP server for Android APK static analysis, built directly on jadx-core. No JADX GUI required, no Python adapter, no plugin to install \u2014 just one JVM process speaking MCP over stdio.",
+            "homepage": "https://github.com/1013503897/jadx-headless-mcp",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jadx-headless-mcp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jadx-headless-mcp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "jadx-headless-mcp",
+            "maintainers": [],
+            "name": "jadx-headless-mcp-0.7.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/jadx-headless-mcp/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "jadx-headless-mcp-0.7.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jadx-headless-mcp",
+        "system": "x86_64-linux",
+        "version": "0.7.1",
+        "_attr": "jadx-headless-mcp",
         "_repo": "zerozawa"
     },
     "nur.repos.zerozawa.lightnovel-crawler": {
@@ -1296857,7 +1297112,7 @@
             },
             "mainProgram": "mihomo-smart",
             "maintainers": [],
-            "name": "mihomo-smart-0-unstable-daf3ad0",
+            "name": "mihomo-smart-0-unstable-83e67d0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1296959,14 +1297214,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mihomo-smart-0-unstable-daf3ad0",
+        "name": "mihomo-smart-0-unstable-83e67d0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mihomo-smart",
         "system": "x86_64-linux",
-        "version": "0-unstable-daf3ad0",
+        "version": "0-unstable-83e67d0",
         "_attr": "mihomo-smart",
         "_repo": "zerozawa"
     },
@@ -1297530,7 +1297785,7 @@
             "sourceProvenance": [
                 {
                     "isSource": false,
-                    "shortName": "binaryBytecode"
+                    "shortName": "binaryNativeCode"
                 }
             ],
             "unfree": false,
@@ -1298485,6 +1298740,127 @@
         "_attr": "truenas-mcp",
         "_repo": "zerozawa"
     },
+    "nur.repos.zerozawa.wakaru": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Unpack. Unminify. Understand.",
+            "homepage": "https://github.com/pionxzh/wakaru",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "wakaru",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "wakaru",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "wakaru",
+            "maintainers": [],
+            "name": "wakaru-1.14.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/wakaru.nix#L26",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "wakaru-1.14.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "wakaru",
+        "system": "x86_64-linux",
+        "version": "1.14.0",
+        "_attr": "wakaru",
+        "_repo": "zerozawa"
+    },
     "nur.repos.zerozawa.waybar-vd": {
         "meta": {
             "available": true,
@@ -1298647,8 +1299023,12 @@
             },
             "sourceProvenance": [
                 {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
                     "isSource": false,
-                    "shortName": "binaryBytecode"
+                    "shortName": "binaryNativeCode"
                 }
             ],
             "unfree": false,
