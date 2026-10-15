@@ -520876,7 +520876,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/op/opencode-go-cliproxyapi/package.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/op/opencode-go-cliproxyapi/package.nix#L37",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -972931,6 +972931,105 @@
         "_attr": "CloudflareSpeedTest",
         "_repo": "slaier"
     },
+    "nur.repos.slaier.fix-entities": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Strip raw HTML entities from embedded SubRip subtitle tracks of mkv files",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "fix-entities",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "fix-entities",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "fix-entities",
+            "maintainers": [],
+            "name": "fix-entities-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/slaier/modules/shell/fix-entities/package.nix#L31",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fix-entities-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fix-entities",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "fix-entities",
+        "_repo": "slaier"
+    },
     "nur.repos.slaier.font-check": {
         "meta": {
             "available": true,
@@ -973049,6 +973148,85 @@
         "system": "x86_64-linux",
         "version": "0.1.0",
         "_attr": "font-check",
+        "_repo": "slaier"
+    },
+    "nur.repos.slaier.githubstarsmanager": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "githubstarsmanager-server",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "githubstarsmanager-server",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "githubstarsmanager-server-0.8.6",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/slaier/modules/githubstarsmanager/package.nix#L47",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "githubstarsmanager-server-0.8.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "githubstarsmanager-server",
+        "system": "x86_64-linux",
+        "version": "0.8.6",
+        "_attr": "githubstarsmanager",
         "_repo": "slaier"
     },
     "nur.repos.slaier.mediaplayer": {
@@ -973277,19 +973455,18 @@
         "_attr": "pw-duck",
         "_repo": "slaier"
     },
-    "nur.repos.slaier.qwentts": {
+    "nur.repos.slaier.svc-ports": {
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Local AI text-to-speech with named speakers, voice cloning and voice design, powered by GGML",
-            "homepage": "https://github.com/ServeurpersoCom/qwentts.cpp",
+            "description": "List running systemd services and their listening ports",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "qwentts-cpp",
+                    "product": "svc-ports",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -973303,7 +973480,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "qwentts-cpp",
+                        "product": "svc-ports",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -973323,14 +973500,40 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "mainProgram": "qwen-tts",
+            "mainProgram": "svc-ports",
             "maintainers": [],
-            "name": "qwentts-cpp-0",
+            "name": "svc-ports-0.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/slaier/modules/ai/qwentts/package.nix#L67",
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/slaier/modules/shell/svc-ports/package.nix#L33",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -973340,15 +973543,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qwentts-cpp-0",
+        "name": "svc-ports-0.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "qwentts-cpp",
+        "pname": "svc-ports",
         "system": "x86_64-linux",
-        "version": "0",
-        "_attr": "qwentts",
+        "version": "0.1.0",
+        "_attr": "svc-ports",
         "_repo": "slaier"
     },
     "nur.repos.smaret.astrochem": {
