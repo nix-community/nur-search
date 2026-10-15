@@ -21675,6 +21675,83 @@
         "_attr": "lceda-pro",
         "_repo": "Emin017"
     },
+    "nur.repos.Emin017.magpie": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "One local gateway serving every AI agent's model",
+            "homepage": "https://usemagpie.ai",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "magpie",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "magpie",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "magpie",
+            "maintainers": [],
+            "name": "magpie-0.1.1226",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Emin017/pkgs/magpie/default.nix#L46",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "magpie-0.1.1226",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "magpie",
+        "system": "x86_64-linux",
+        "version": "0.1.1226",
+        "_attr": "magpie",
+        "_repo": "Emin017"
+    },
     "nur.repos.Emin017.rtl2gds": {
         "meta": {
             "available": true,
@@ -102161,7 +102238,7 @@
             },
             "mainProgram": "chat-on-steroids",
             "maintainers": [],
-            "name": "chat-on-steroids-2.1.36",
+            "name": "chat-on-steroids-2.1.37",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -102185,14 +102262,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "chat-on-steroids-2.1.36",
+        "name": "chat-on-steroids-2.1.37",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chat-on-steroids",
         "system": "x86_64-linux",
-        "version": "2.1.36",
+        "version": "2.1.37",
         "_attr": "chat-on-steroids",
         "_repo": "arch-fan"
     },
@@ -102458,7 +102535,7 @@
             },
             "mainProgram": "rpcs3",
             "maintainers": [],
-            "name": "rpcs3-0.0.43-20291",
+            "name": "rpcs3-0.0.43-20310",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -102482,14 +102559,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rpcs3-0.0.43-20291",
+        "name": "rpcs3-0.0.43-20310",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3",
         "system": "x86_64-linux",
-        "version": "0.0.43-20291",
+        "version": "0.0.43-20310",
         "_attr": "rpcs3-bin",
         "_repo": "arch-fan"
     },
@@ -892855,7 +892932,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "wander-1.1.0",
+            "name": "wander-1.1.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -892883,14 +892960,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wander-1.1.0",
+        "name": "wander-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wander",
         "system": "x86_64-linux",
-        "version": "1.1.0",
+        "version": "1.1.2",
         "_attr": "wander",
         "_repo": "robinovitch61"
     },
