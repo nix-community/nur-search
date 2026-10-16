@@ -41434,7 +41434,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Rhys-T/pkgs/llama-cpp-toshllm/default.nix",
                 "line": 64
             },
-            "name": "llama-cpp-toshllm-0.87.24",
+            "name": "llama-cpp-toshllm-0.87.25",
             "nonTeamMaintainers": [
                 {
                     "github": "Rhys-T",
@@ -41556,7 +41556,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "llama-cpp-toshllm-0.87.24",
+        "name": "llama-cpp-toshllm-0.87.25",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -41564,7 +41564,7 @@
         },
         "pname": "llama-cpp-toshllm",
         "system": "x86_64-linux",
-        "version": "0.87.24",
+        "version": "0.87.25",
         "_attr": "llama-cpp-toshllm",
         "_repo": "Rhys-T"
     },
@@ -41676,7 +41676,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Rhys-T/pkgs/llama-cpp-toshllm/default.nix",
                 "line": 64
             },
-            "name": "llama-cpp-toshllm-0.87.24",
+            "name": "llama-cpp-toshllm-0.87.25",
             "nonTeamMaintainers": [
                 {
                     "github": "Rhys-T",
@@ -41798,7 +41798,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "llama-cpp-toshllm-0.87.24",
+        "name": "llama-cpp-toshllm-0.87.25",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -41806,7 +41806,7 @@
         },
         "pname": "llama-cpp-toshllm",
         "system": "x86_64-linux",
-        "version": "0.87.24",
+        "version": "0.87.25",
         "_attr": "llama-cpp-toshllm-noavx2",
         "_repo": "Rhys-T"
     },
@@ -44340,7 +44340,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Rhys-T/pkgs/shapez-ce/default.nix",
                 "line": 141
             },
-            "name": "shapez-ce-0-unstable-2026-10-10",
+            "name": "shapez-ce-0-unstable-2026-10-16",
             "nonTeamMaintainers": [
                 {
                     "github": "Rhys-T",
@@ -44362,14 +44362,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "shapez-ce-0-unstable-2026-10-10",
+        "name": "shapez-ce-0-unstable-2026-10-16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "shapez-ce",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-10",
+        "version": "0-unstable-2026-10-16",
         "_attr": "shapez-ce",
         "_repo": "Rhys-T"
     },
@@ -194718,6 +194718,103 @@
         "version": "1.0.13-unstable-2026-1-08",
         "_attr": "throne",
         "_repo": "cinqwqeggs"
+    },
+    "nur.repos.claymorwan.deltapatcher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "GUI for creating and applying xdelta patches.",
+            "homepage": "https://github.com/marco-calautti/DeltaPatcher",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "deltapatcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "deltapatcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "claymorwan@fembois.dev",
+                    "github": "claymorwan",
+                    "githubId": 86072589,
+                    "keys": [
+                        {
+                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
+                        }
+                    ],
+                    "name": "claymorwan"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/deltapatcher/default.nix",
+                "line": 42
+            },
+            "name": "deltapatcher-3.1.6",
+            "nonTeamMaintainers": [
+                {
+                    "email": "claymorwan@fembois.dev",
+                    "github": "claymorwan",
+                    "githubId": 86072589,
+                    "keys": [
+                        {
+                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
+                        }
+                    ],
+                    "name": "claymorwan"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/deltapatcher/default.nix#L39",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "deltapatcher-3.1.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "deltapatcher",
+        "system": "x86_64-linux",
+        "version": "3.1.6",
+        "_attr": "deltapatcher",
+        "_repo": "claymorwan"
     },
     "nur.repos.claymorwan.fabric-cli": {
         "meta": {
