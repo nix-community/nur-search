@@ -185709,6 +185709,121 @@
         "_attr": "krunner-zed",
         "_repo": "ccicnce113424"
     },
+    "nur.repos.ccicnce113424.liblhdcv5": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AOSP LHDC v5 Bluetooth encoder library for Linux",
+            "homepage": "https://github.com/DBeidachazi/liblhdcv5",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "liblhdcv5",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "liblhdcv5",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/liblhdcv5/package.nix",
+                "line": 56
+            },
+            "name": "liblhdcv5-0.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ccicnce113424/pkgs/liblhdcv5/package.nix#L53",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "liblhdcv5-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "liblhdcv5",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "liblhdcv5",
+        "_repo": "ccicnce113424"
+    },
     "nur.repos.ccicnce113424.linux-enable-ir-emitter": {
         "meta": {
             "available": true,
@@ -186324,7 +186439,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/nix-auth/default.nix",
                 "line": 19
             },
-            "name": "nix-auth-0-unstable-2026-10-14",
+            "name": "nix-auth-0-unstable-2026-10-16",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -186374,14 +186489,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nix-auth-0-unstable-2026-10-14",
+        "name": "nix-auth-0-unstable-2026-10-16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nix-auth",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-14",
+        "version": "0-unstable-2026-10-16",
         "_attr": "nix-auth",
         "_repo": "ccicnce113424"
     },
@@ -186890,6 +187005,121 @@
         "system": "x86_64-linux",
         "version": "2.1.6.2",
         "_attr": "piliplus",
+        "_repo": "ccicnce113424"
+    },
+    "nur.repos.ccicnce113424.pipewire-bluez5-lhdc-git": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "PipeWire bluez5 SPA plugins with LHDC v5 codec support",
+            "homepage": "https://pipewire.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pipewire-bluez5-lhdc-git",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pipewire-bluez5-lhdc-git",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/pipewire-bluez5-lhdc-git/default.nix",
+                "line": 139
+            },
+            "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-10-16",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ccicnce113424/pkgs/pipewire-bluez5-lhdc-git/default.nix#L136",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-10-16",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pipewire-bluez5-lhdc-git",
+        "system": "x86_64-linux",
+        "version": "1.7-unstable-2026-10-16",
+        "_attr": "pipewire-bluez5-lhdc-git",
         "_repo": "ccicnce113424"
     },
     "nur.repos.ccicnce113424.pixes": {
@@ -287439,7 +287669,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.0",
+            "name": "opencode-1.19.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -287481,14 +287711,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.0",
+        "name": "opencode-1.19.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.0",
+        "version": "1.19.2",
         "_attr": "opencode",
         "_repo": "falconprogrammer"
     },
@@ -287541,7 +287771,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.0",
+            "name": "opencode-1.19.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -287583,14 +287813,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.0",
+        "name": "opencode-1.19.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.0",
+        "version": "1.19.2",
         "_attr": "opencode-sst",
         "_repo": "falconprogrammer"
     },
@@ -1042386,6 +1042616,108 @@
         "_attr": "it-tools",
         "_repo": "xddxdd"
     },
+    "nur.repos.xddxdd.ja4-nginx-module": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "JA4+ TLS fingerprint module for nginx",
+            "homepage": "https://github.com/FoxIO-LLC/ja4-nginx-module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ja4-nginx-module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ja4-nginx-module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/ja4-nginx-module/default.nix",
+                "line": 30
+            },
+            "name": "nginx-mod-ja4-nginx-module-0-unstable-2026-10-12",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/ja4-nginx-module/default.nix#L27",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "nginx-mod-ja4-nginx-module-0-unstable-2026-10-12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-ja4-nginx-module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-12",
+        "_attr": "ja4-nginx-module",
+        "_repo": "xddxdd"
+    },
     "nur.repos.xddxdd.jproxy": {
         "meta": {
             "available": true,
@@ -1046388,10 +1046720,10 @@
     },
     "nur.repos.xddxdd.lantianCustomized.nginx": {
         "meta": {
-            "available": true,
+            "available": false,
             "broken": false,
-            "description": "OpenResty with Lan Tian modifications",
-            "homepage": "https://openresty.org",
+            "description": "Web server (nginx mainline) with Lan Tian modifications",
+            "homepage": "https://nginx.org",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -1046422,16 +1046754,126 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "BSD 2-clause \"Simplified\" License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "bsd2",
-                "spdxId": "BSD-2-Clause",
-                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
-            },
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": false,
+                    "fullName": "Unfree",
+                    "licenseType": "simple",
+                    "redistributable": false,
+                    "shortName": "unfree"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Only",
+                    "spdxId": "GPL-3.0-only",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                }
+            ],
             "mainProgram": "nginx",
             "maintainers": [
                 {
@@ -1046450,11 +1046892,11 @@
                 }
             ],
             "maintainersPosition": {
-                "column": 5,
+                "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/lantian-customized/nginx/default.nix",
-                "line": 228
+                "line": 82
             },
-            "name": "nginx-lantian-1.31.1.1",
+            "name": "nginx-lantian-1.31.6",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1046474,19 +1046916,101 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/nginx/default.nix#L229",
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/nginx/default.nix#L81",
             "problems": {},
-            "unfree": false,
+            "unfree": true,
             "unsupported": false
         },
-        "name": "nginx-lantian-1.31.1.1",
+        "name": "nginx-lantian-1.31.6",
         "outputName": "out",
         "outputs": {
+            "doc": null,
             "out": null
         },
         "pname": "nginx-lantian",
         "system": "x86_64-linux",
-        "version": "1.31.1.1",
+        "version": "1.31.6",
         "_attr": "lantianCustomized.nginx",
         "_repo": "xddxdd"
     },
@@ -1050765,6 +1051289,940 @@
         "system": "x86_64-linux",
         "version": "1.1.7",
         "_attr": "nftables-fullcone",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-auth-jwt": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "JWT authentication module for nginx",
+            "homepage": "https://github.com/kjdev/nginx-auth-jwt",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nginx-auth-jwt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nginx-auth-jwt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/nginx-auth-jwt/default.nix",
+                "line": 32
+            },
+            "name": "nginx-mod-nginx-auth-jwt-0.15.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/nginx-auth-jwt/default.nix#L29",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-nginx-auth-jwt-0.15.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-nginx-auth-jwt",
+        "system": "x86_64-linux",
+        "version": "0.15.0",
+        "_attr": "nginx-auth-jwt",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-modules.ja4-nginx-module": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "JA4+ TLS fingerprint module for nginx",
+            "homepage": "https://github.com/FoxIO-LLC/ja4-nginx-module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ja4-nginx-module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ja4-nginx-module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/ja4-nginx-module/default.nix",
+                "line": 30
+            },
+            "name": "nginx-mod-ja4-nginx-module-0-unstable-2026-10-12",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/ja4-nginx-module/default.nix#L27",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "nginx-mod-ja4-nginx-module-0-unstable-2026-10-12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-ja4-nginx-module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-12",
+        "_attr": "nginx-modules.ja4-nginx-module",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-modules.nginx-auth-jwt": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "JWT authentication module for nginx",
+            "homepage": "https://github.com/kjdev/nginx-auth-jwt",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nginx-auth-jwt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nginx-auth-jwt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/nginx-auth-jwt/default.nix",
+                "line": 32
+            },
+            "name": "nginx-mod-nginx-auth-jwt-0.15.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/nginx-auth-jwt/default.nix#L29",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-nginx-auth-jwt-0.15.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-nginx-auth-jwt",
+        "system": "x86_64-linux",
+        "version": "0.15.0",
+        "_attr": "nginx-modules.nginx-auth-jwt",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-modules.nginx-oidc": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "OpenID Connect authentication module for nginx",
+            "homepage": "https://github.com/kjdev/nginx-oidc",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nginx-oidc",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nginx-oidc",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/nginx-oidc/default.nix",
+                "line": 38
+            },
+            "name": "nginx-mod-nginx-oidc-0.8.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/nginx-oidc/default.nix#L35",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-nginx-oidc-0.8.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-nginx-oidc",
+        "system": "x86_64-linux",
+        "version": "0.8.0",
+        "_attr": "nginx-modules.nginx-oidc",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-modules.ngx_http_js_challenge_module": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple JavaScript proof-of-work based DDoS protection module for nginx",
+            "homepage": "https://github.com/simon987/ngx_http_js_challenge_module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ngx_http_js_challenge_module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ngx_http_js_challenge_module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/ngx_http_js_challenge_module/default.nix",
+                "line": 30
+            },
+            "name": "nginx-mod-ngx_http_js_challenge_module-0-unstable-2023-03-17",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/ngx_http_js_challenge_module/default.nix#L27",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-ngx_http_js_challenge_module-0-unstable-2023-03-17",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-ngx_http_js_challenge_module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2023-03-17",
+        "_attr": "nginx-modules.ngx_http_js_challenge_module",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-modules.stream-echo-nginx-module": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "TCP stream echo module for nginx",
+            "homepage": "https://github.com/openresty/stream-echo-nginx-module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "stream-echo-nginx-module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "stream-echo-nginx-module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/stream-echo-nginx-module/default.nix",
+                "line": 32
+            },
+            "name": "nginx-mod-stream-echo-nginx-module-0-unstable-2016-12-18",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/stream-echo-nginx-module/default.nix#L29",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-stream-echo-nginx-module-0-unstable-2016-12-18",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-stream-echo-nginx-module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2016-12-18",
+        "_attr": "nginx-modules.stream-echo-nginx-module",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-modules.zstd-nginx-module": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "HTTP zstd compression module for nginx",
+            "homepage": "https://github.com/HanadaLee/ngx_http_zstd_module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zstd-nginx-module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zstd-nginx-module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/zstd-nginx-module/default.nix",
+                "line": 33
+            },
+            "name": "nginx-mod-zstd-nginx-module-0-unstable-2026-09-25",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/zstd-nginx-module/default.nix#L30",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-zstd-nginx-module-0-unstable-2026-09-25",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-zstd-nginx-module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-09-25",
+        "_attr": "nginx-modules.zstd-nginx-module",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.nginx-oidc": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "OpenID Connect authentication module for nginx",
+            "homepage": "https://github.com/kjdev/nginx-oidc",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nginx-oidc",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nginx-oidc",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/nginx-oidc/default.nix",
+                "line": 38
+            },
+            "name": "nginx-mod-nginx-oidc-0.8.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/nginx-oidc/default.nix#L35",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-nginx-oidc-0.8.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-nginx-oidc",
+        "system": "x86_64-linux",
+        "version": "0.8.0",
+        "_attr": "nginx-oidc",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.ngx_http_js_challenge_module": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple JavaScript proof-of-work based DDoS protection module for nginx",
+            "homepage": "https://github.com/simon987/ngx_http_js_challenge_module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ngx_http_js_challenge_module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ngx_http_js_challenge_module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/ngx_http_js_challenge_module/default.nix",
+                "line": 30
+            },
+            "name": "nginx-mod-ngx_http_js_challenge_module-0-unstable-2023-03-17",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/ngx_http_js_challenge_module/default.nix#L27",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-ngx_http_js_challenge_module-0-unstable-2023-03-17",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-ngx_http_js_challenge_module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2023-03-17",
+        "_attr": "ngx_http_js_challenge_module",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.noise-suppression-for-voice": {
@@ -1103247,6 +1104705,110 @@
         "_attr": "strata",
         "_repo": "xddxdd"
     },
+    "nur.repos.xddxdd.stream-echo-nginx-module": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "TCP stream echo module for nginx",
+            "homepage": "https://github.com/openresty/stream-echo-nginx-module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "stream-echo-nginx-module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "stream-echo-nginx-module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/stream-echo-nginx-module/default.nix",
+                "line": 32
+            },
+            "name": "nginx-mod-stream-echo-nginx-module-0-unstable-2016-12-18",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/stream-echo-nginx-module/default.nix#L29",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-stream-echo-nginx-module-0-unstable-2016-12-18",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-stream-echo-nginx-module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2016-12-18",
+        "_attr": "stream-echo-nginx-module",
+        "_repo": "xddxdd"
+    },
     "nur.repos.xddxdd.suwayomi-server": {
         "meta": {
             "available": true,
@@ -1130731,6 +1132293,110 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2025-03-06",
         "_attr": "xvcd",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.zstd-nginx-module": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "HTTP zstd compression module for nginx",
+            "homepage": "https://github.com/HanadaLee/ngx_http_zstd_module",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zstd-nginx-module",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zstd-nginx-module",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/nginx-modules/zstd-nginx-module/default.nix",
+                "line": 33
+            },
+            "name": "nginx-mod-zstd-nginx-module-0-unstable-2026-09-25",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/nginx-modules/zstd-nginx-module/default.nix#L30",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nginx-mod-zstd-nginx-module-0-unstable-2026-09-25",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nginx-mod-zstd-nginx-module",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-09-25",
+        "_attr": "zstd-nginx-module",
         "_repo": "xddxdd"
     },
     "nur.repos.xfix.asar": {
