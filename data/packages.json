@@ -246750,6 +246750,91 @@
         "_attr": "rsshub",
         "_repo": "davinci42"
     },
+    "nur.repos.davinci42.sfl": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.12",
+            "description": "Linux desktop client for sing-box",
+            "homepage": "https://github.com/SagerNet/sing-box-for-desktop",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sfl",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sfl",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "sfl",
+            "maintainers": [],
+            "name": "sfl-1.15.0-alpha.12",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/sfl/default.nix#L186",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sfl-1.15.0-alpha.12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sfl",
+        "system": "x86_64-linux",
+        "version": "1.15.0-alpha.12",
+        "_attr": "sfl",
+        "_repo": "davinci42"
+    },
     "nur.repos.davinci42.spotify-spotx": {
         "meta": {
             "available": false,
