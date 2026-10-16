@@ -183890,9 +183890,9 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/SpikeHD/Dorion/releases/tag/v6.13.0-unstable-2026-09-27",
+            "changelog": "https://github.com/SpikeHD/Dorion/releases/tag/v6.13.0-unstable-2026-10-15",
             "description": "Tiny alternative Discord client",
-            "downloadPage": "https://github.com/SpikeHD/Dorion/releases/tag/v6.13.0-unstable-2026-09-27",
+            "downloadPage": "https://github.com/SpikeHD/Dorion/releases/tag/v6.13.0-unstable-2026-10-15",
             "homepage": "https://spikehd.github.io/projects/dorion/",
             "identifiers": {
                 "cpeParts": {
@@ -183970,7 +183970,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/dorion-git/package.nix",
                 "line": 201
             },
-            "name": "dorion-git-6.13.0-unstable-2026-09-27",
+            "name": "dorion-git-6.13.0-unstable-2026-10-15",
             "nonTeamMaintainers": [
                 {
                     "email": "nyanbinary@keemail.me",
@@ -184050,14 +184050,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dorion-git-6.13.0-unstable-2026-09-27",
+        "name": "dorion-git-6.13.0-unstable-2026-10-15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dorion-git",
         "system": "x86_64-linux",
-        "version": "6.13.0-unstable-2026-09-27",
+        "version": "6.13.0-unstable-2026-10-15",
         "_attr": "dorion-git",
         "_repo": "ccicnce113424"
     },
@@ -486747,7 +486747,7 @@
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "archivetune",
+                    "product": "archivetune-unwrapped",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -486761,7 +486761,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "archivetune",
+                        "product": "archivetune-unwrapped",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -486793,9 +486793,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 333
+                "line": 338
             },
-            "name": "archivetune-15.1.0",
+            "name": "archivetune-unwrapped-15.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "mio@mio19.uk",
@@ -486813,7 +486813,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L330",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L335",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -531091,6 +531091,113 @@
         "system": "x86_64-linux",
         "version": "0.15.0",
         "_attr": "gengo",
+        "_repo": "mst-mkt"
+    },
+    "nur.repos.mst-mkt.gh-actions-lock": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/github/gh-actions-lock/releases/tag/v0.2.0",
+            "description": "gh CLI extension that generates and verifies the GitHub Actions dependency lockfile",
+            "homepage": "https://github.com/github/gh-actions-lock",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gh-actions-lock",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gh-actions-lock",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "gh-actions-lock",
+            "maintainers": [],
+            "name": "gh-actions-lock-0.2.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mst-mkt/pkgs/gh-actions-lock/default.nix#L34",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gh-actions-lock-0.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gh-actions-lock",
+        "system": "x86_64-linux",
+        "version": "0.2.0",
+        "_attr": "gh-actions-lock",
         "_repo": "mst-mkt"
     },
     "nur.repos.mst-mkt.git-hunk": {
