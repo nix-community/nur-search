@@ -67045,7 +67045,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/co/comfyui-prompt-manager/package.nix",
                 "line": 47
             },
-            "name": "comfyui-prompt-manager-3.3.1-unstable-2026-10-14",
+            "name": "comfyui-prompt-manager-3.3.1-unstable-2026-10-16",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -67068,14 +67068,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "comfyui-prompt-manager-3.3.1-unstable-2026-10-14",
+        "name": "comfyui-prompt-manager-3.3.1-unstable-2026-10-16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "comfyui-prompt-manager",
         "system": "x86_64-linux",
-        "version": "3.3.1-unstable-2026-10-14",
+        "version": "3.3.1-unstable-2026-10-16",
         "_attr": "comfyui-prompt-manager",
         "_repo": "abszero"
     },
@@ -67892,7 +67892,7 @@
                 "file": "/nix/store/03cqpv2b76rijbymjiip5pygawr0njss-source/pkgs/by-name/nu/nu_scripts/package.nix",
                 "line": 41
             },
-            "name": "nu_scripts-0-unstable-2026-10-13",
+            "name": "nu_scripts-0-unstable-2026-10-16",
             "nonTeamMaintainers": [
                 {
                     "email": "kiran@ostrolenk.co.uk",
@@ -67961,14 +67961,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nu_scripts-0-unstable-2026-10-13",
+        "name": "nu_scripts-0-unstable-2026-10-16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nu_scripts",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-13",
+        "version": "0-unstable-2026-10-16",
         "_attr": "nu_scripts_git",
         "_repo": "abszero"
     },
@@ -975623,6 +975623,90 @@
         "_attr": "ab-download-manager",
         "_repo": "so1ve"
     },
+    "nur.repos.so1ve.alger-music-player": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/algerkong/AlgerMusicPlayer/releases/tag/v5.1.0",
+            "description": "Third-party NetEase Cloud Music player",
+            "homepage": "https://github.com/algerkong/AlgerMusicPlayer",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "alger-music-player",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "alger-music-player",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "alger-music-player",
+            "maintainers": [],
+            "name": "alger-music-player-5.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/alger-music-player/default.nix#L36",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "alger-music-player-5.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "alger-music-player",
+        "system": "x86_64-linux",
+        "version": "5.1.0",
+        "_attr": "alger-music-player",
+        "_repo": "so1ve"
+    },
     "nur.repos.so1ve.baidunetdisk": {
         "meta": {
             "available": false,
@@ -976169,7 +976253,7 @@
             },
             "mainProgram": "dingtalk",
             "maintainers": [],
-            "name": "dingtalk-8.2.8.260818002",
+            "name": "dingtalk-8.3.1.261008001",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -976193,14 +976277,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "dingtalk-8.2.8.260818002",
+        "name": "dingtalk-8.3.1.261008001",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dingtalk",
         "system": "x86_64-linux",
-        "version": "8.2.8.260818002",
+        "version": "8.3.1.261008001",
         "_attr": "dingtalk",
         "_repo": "so1ve"
     },
@@ -977666,6 +977750,90 @@
         "system": "x86_64-linux",
         "version": "5.1.0",
         "_attr": "yanhekt-autoslides",
+        "_repo": "so1ve"
+    },
+    "nur.repos.so1ve.yesplaymusic": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/qier222/YesPlayMusic/releases/tag/v0.4.11",
+            "description": "Third-party NetEase Cloud Music player",
+            "homepage": "https://github.com/qier222/YesPlayMusic",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "yesplaymusic",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "yesplaymusic",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "yesplaymusic",
+            "maintainers": [],
+            "name": "yesplaymusic-0.4.11",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/yesplaymusic/default.nix#L36",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "yesplaymusic-0.4.11",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "yesplaymusic",
+        "system": "x86_64-linux",
+        "version": "0.4.11",
+        "_attr": "yesplaymusic",
         "_repo": "so1ve"
     },
     "nur.repos.sorz.mtg": {
@@ -1138143,7 +1138311,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1268",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1275",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1138200,7 +1138368,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 188
             },
-            "name": "magpie-0.1.1268",
+            "name": "magpie-0.1.1275",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1138244,14 +1138412,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1268",
+        "name": "magpie-0.1.1275",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1268",
+        "version": "0.1.1275",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
