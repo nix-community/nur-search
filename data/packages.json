@@ -205184,211 +205184,6 @@
         "_attr": "basic-memory",
         "_repo": "davinci42"
     },
-    "nur.repos.davinci42.cf": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Command-line interface for the Cloudflare API",
-            "homepage": "https://github.com/cloudflare/cf",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "cf",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "cf",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "mainProgram": "cf",
-            "maintainers": [],
-            "name": "cf-1.0.0-beta.18",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "aarch64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/cf/default.nix#L90",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "cf-1.0.0-beta.18",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "cf",
-        "system": "x86_64-linux",
-        "version": "1.0.0-beta.18",
-        "_attr": "cf",
-        "_repo": "davinci42"
-    },
-    "nur.repos.davinci42.changedetection-io": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/dgtlmoon/changedetection.io/releases/tag/0.60.9",
-            "description": "Self-hosted website change monitoring and notifications",
-            "homepage": "https://github.com/dgtlmoon/changedetection.io",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "changedetection-io",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "changedetection-io",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "mainProgram": "changedetection.io",
-            "maintainers": [],
-            "name": "changedetection-io-0.60.9",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "aarch64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/changedetection-io/default.nix#L163",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "changedetection-io-0.60.9",
-        "outputName": "out",
-        "outputs": {
-            "dist": null,
-            "out": null
-        },
-        "pname": "changedetection-io",
-        "system": "x86_64-linux",
-        "version": "0.60.9",
-        "_attr": "changedetection-io",
-        "_repo": "davinci42"
-    },
     "nur.repos.davinci42.fluxdown-server": {
         "meta": {
             "available": true,
@@ -205640,188 +205435,6 @@
         "system": "x86_64-linux",
         "version": "2026.10.16-8440.e50d306",
         "_attr": "rsshub",
-        "_repo": "davinci42"
-    },
-    "nur.repos.davinci42.sfl": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.12",
-            "description": "Linux desktop client for sing-box",
-            "homepage": "https://github.com/SagerNet/sing-box-for-desktop",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "sfl",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "sfl",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "mainProgram": "sfl",
-            "maintainers": [],
-            "name": "sfl-1.15.0-alpha.12",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/sfl/default.nix#L281",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "sfl-1.15.0-alpha.12",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "sfl",
-        "system": "x86_64-linux",
-        "version": "1.15.0-alpha.12",
-        "_attr": "sfl",
-        "_repo": "davinci42"
-    },
-    "nur.repos.davinci42.spotify-spotx": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Spotify patched with SpotX-Bash",
-            "homepage": "https://www.spotify.com/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "spotify-spotx",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "spotify-spotx",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "spotify",
-            "maintainers": [
-                {
-                    "email": "maximilian@mbosch.me",
-                    "github": "Ma27",
-                    "githubId": 6025220,
-                    "matrix": "@ma27:nicht-so.sexy",
-                    "name": "Maximilian Bosch"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/03cqpv2b76rijbymjiip5pygawr0njss-source/pkgs/by-name/sp/spotify/linux.nix",
-                "line": 255
-            },
-            "name": "spotify-spotx-1.2.95.453.g0eeebbed",
-            "nonTeamMaintainers": [
-                {
-                    "email": "maximilian@mbosch.me",
-                    "github": "Ma27",
-                    "githubId": 6025220,
-                    "matrix": "@ma27:nicht-so.sexy",
-                    "name": "Maximilian Bosch"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/spotify-spotx/default.nix#L73",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "spotify-spotx-1.2.95.453.g0eeebbed",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "spotify-spotx",
-        "system": "x86_64-linux",
-        "version": "1.2.95.453.g0eeebbed",
-        "_attr": "spotify-spotx",
         "_repo": "davinci42"
     },
     "nur.repos.dawidsowa.freshrss": {
@@ -497327,6 +496940,155 @@
         "_attr": "apertium",
         "_repo": "nagy"
     },
+    "nur.repos.nagy.arbol": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Tree-sitter powered Rust workspace explorer",
+            "homepage": "https://github.com/joaommartins/arbol",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "arbol",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "arbol",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "arbol",
+            "maintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/arbol.nix",
+                "line": 29
+            },
+            "name": "arbol-0.1.0-unstable-2026-05-12",
+            "nonTeamMaintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/by-name/arbol.nix#L26",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "arbol-0.1.0-unstable-2026-05-12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "arbol",
+        "system": "x86_64-linux",
+        "version": "0.1.0-unstable-2026-05-12",
+        "_attr": "arbol",
+        "_repo": "nagy"
+    },
     "nur.repos.nagy.bollux": {
         "meta": {
             "available": true,
@@ -497515,7 +497277,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/carta.nix",
                 "line": 30
             },
-            "name": "carta-0.0.10",
+            "name": "carta-0.0.11",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -497577,14 +497339,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "carta-0.0.10",
+        "name": "carta-0.0.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "carta",
         "system": "x86_64-linux",
-        "version": "0.0.10",
+        "version": "0.0.11",
         "_attr": "carta",
         "_repo": "nagy"
     },
@@ -497780,7 +497542,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/cpp-httplib.nix",
                 "line": 29
             },
-            "name": "cpp-httplib-0.58.0",
+            "name": "cpp-httplib-0.61.0",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -497883,14 +497645,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpp-httplib-0.58.0",
+        "name": "cpp-httplib-0.61.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpp-httplib",
         "system": "x86_64-linux",
-        "version": "0.58.0",
+        "version": "0.61.0",
         "_attr": "cpp-httplib",
         "_repo": "nagy"
     },
@@ -498442,7 +498204,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/ds4.nix",
                 "line": 51
             },
-            "name": "ds4-0-unstable-2026-09-02",
+            "name": "ds4-0-unstable-2026-10-07",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -498490,14 +498252,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ds4-0-unstable-2026-09-02",
+        "name": "ds4-0-unstable-2026-10-07",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ds4",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-09-02",
+        "version": "0-unstable-2026-10-07",
         "_attr": "ds4",
         "_repo": "nagy"
     },
@@ -501113,7 +500875,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/neka-nat/freecad-mcp/blob/v0.1.25/CHANGELOG.md",
+            "changelog": "https://github.com/neka-nat/freecad-mcp/blob/v0.1.27/CHANGELOG.md",
             "description": "Model Context Protocol server that lets AI assistants control FreeCAD",
             "homepage": "https://github.com/neka-nat/freecad-mcp",
             "identifiers": {
@@ -501208,7 +500970,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/freecad-mcp.nix",
                 "line": 42
             },
-            "name": "freecad-mcp-0.1.25",
+            "name": "freecad-mcp-0.1.27",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -501263,7 +501025,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "freecad-mcp-0.1.25",
+        "name": "freecad-mcp-0.1.27",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -501271,7 +501033,7 @@
         },
         "pname": "freecad-mcp",
         "system": "x86_64-linux",
-        "version": "0.1.25",
+        "version": "0.1.27",
         "_attr": "freecad-mcp",
         "_repo": "nagy"
     },
@@ -503536,7 +503298,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/simonw/ttok/releases/tag/0.3",
+            "changelog": "https://github.com/simonw/ttok/releases/tag/1.0",
             "description": "Count and truncate text based on tokens",
             "homepage": "https://github.com/simonw/ttok",
             "identifiers": {
@@ -503631,7 +503393,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/llm-ttok.nix",
                 "line": 36
             },
-            "name": "llm-ttok-0.3",
+            "name": "llm-ttok-1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -503686,7 +503448,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "llm-ttok-0.3",
+        "name": "llm-ttok-1.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -503694,7 +503456,7 @@
         },
         "pname": "llm-ttok",
         "system": "x86_64-linux",
-        "version": "0.3",
+        "version": "1.0",
         "_attr": "llm-ttok",
         "_repo": "nagy"
     },
@@ -505504,336 +505266,6 @@
         "system": "x86_64-linux",
         "version": "0.1.1",
         "_attr": "paperify",
-        "_repo": "nagy"
-    },
-    "nur.repos.nagy.pass-otp-unstable": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Pass extension for managing one-time-password (OTP) tokens",
-            "homepage": "https://github.com/tadfisher/pass-otp",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "pass-otp-unstable",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "pass-otp-unstable",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "free": true,
-                "fullName": "GNU General Public License v3.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "johnw@newartisans.com",
-                    "github": "jwiegley",
-                    "githubId": 8460,
-                    "keys": [
-                        {
-                            "fingerprint": "4710 CF98 AF9B 327B B80F  60E1 46C4 BD1A 7AC1 4BA2"
-                        }
-                    ],
-                    "name": "John Wiegley"
-                },
-                {
-                    "email": "tadfisher@gmail.com",
-                    "github": "tadfisher",
-                    "githubId": 129148,
-                    "name": "Tad Fisher"
-                },
-                {
-                    "email": "nixpkgs@toonn.io",
-                    "github": "toonn",
-                    "githubId": 1486805,
-                    "matrix": "@toonn:matrix.org",
-                    "name": "Toon Nolten"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/pass-otp-unstable.nix",
-                "line": 37
-            },
-            "name": "pass-otp-unstable-0-unstable-2025-08-09",
-            "nonTeamMaintainers": [
-                {
-                    "email": "johnw@newartisans.com",
-                    "github": "jwiegley",
-                    "githubId": 8460,
-                    "keys": [
-                        {
-                            "fingerprint": "4710 CF98 AF9B 327B B80F  60E1 46C4 BD1A 7AC1 4BA2"
-                        }
-                    ],
-                    "name": "John Wiegley"
-                },
-                {
-                    "email": "tadfisher@gmail.com",
-                    "github": "tadfisher",
-                    "githubId": 129148,
-                    "name": "Tad Fisher"
-                },
-                {
-                    "email": "nixpkgs@toonn.io",
-                    "github": "toonn",
-                    "githubId": 1486805,
-                    "matrix": "@toonn:matrix.org",
-                    "name": "Toon Nolten"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/by-name/pass-otp-unstable.nix#L34",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "pass-otp-unstable-0-unstable-2025-08-09",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "pass-otp-unstable",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2025-08-09",
-        "_attr": "pass-otp-unstable",
-        "_repo": "nagy"
-    },
-    "nur.repos.nagy.passage-with-otp": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Stores, retrieves, generates, and synchronizes passwords securely",
-            "homepage": "https://github.com/FiloSottile/passage",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "passage",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "passage",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "longDescription": "passage is a fork of password-store (https://www.passwordstore.org) that uses\nage (https://age-encryption.org) as a backend instead of GnuPG.\n\nIt keeps passwords inside age(1) encrypted files inside a simple\ndirectory tree and provides a series of commands for manipulating the\npassword store, allowing the user to add, remove, edit and synchronize\npasswords.\n",
-            "mainProgram": "passage",
-            "maintainers": [
-                {
-                    "email": "KAction@disroot.org",
-                    "github": "KAction",
-                    "githubId": 44864956,
-                    "keys": [
-                        {
-                            "fingerprint": "3F87 0A7C A7B4 3731 2F13  6083 749F D4DF A2E9 4236"
-                        }
-                    ],
-                    "name": "Dmitry Bogatov"
-                },
-                {
-                    "email": "maximilian@mbosch.me",
-                    "github": "Ma27",
-                    "githubId": 6025220,
-                    "matrix": "@ma27:nicht-so.sexy",
-                    "name": "Maximilian Bosch"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/03cqpv2b76rijbymjiip5pygawr0njss-source/pkgs/by-name/pa/passage/package.nix",
-                "line": 104
-            },
-            "name": "passage-1.7.4a2",
-            "nonTeamMaintainers": [
-                {
-                    "email": "KAction@disroot.org",
-                    "github": "KAction",
-                    "githubId": 44864956,
-                    "keys": [
-                        {
-                            "fingerprint": "3F87 0A7C A7B4 3731 2F13  6083 749F D4DF A2E9 4236"
-                        }
-                    ],
-                    "name": "Dmitry Bogatov"
-                },
-                {
-                    "email": "maximilian@mbosch.me",
-                    "github": "Ma27",
-                    "githubId": 6025220,
-                    "matrix": "@ma27:nicht-so.sexy",
-                    "name": "Maximilian Bosch"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nagy/nur-packages/blob/HEAD/pkgs/by-name/pa/passage/package.nix#L101",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "passage-1.7.4a2",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "passage",
-        "system": "x86_64-linux",
-        "version": "1.7.4a2",
-        "_attr": "passage-with-otp",
         "_repo": "nagy"
     },
     "nur.repos.nagy.pi-acp": {
@@ -510287,7 +509719,7 @@
             "available": true,
             "broken": false,
             "description": "Pytest plugin that designed for embedded testing",
-            "homepage": "https://pypi.org/project/pytest-embedded/",
+            "homepage": "https://github.com/espressif/pytest-embedded",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -510379,7 +509811,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/python3-packages/pytest-embedded.nix",
                 "line": 40
             },
-            "name": "python3.14-pytest-embedded-1.18.2",
+            "name": "python3.14-pytest-embedded-2.9.3",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -510434,7 +509866,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-pytest-embedded-1.18.2",
+        "name": "python3.14-pytest-embedded-2.9.3",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -510442,7 +509874,7 @@
         },
         "pname": "python3.14-pytest-embedded",
         "system": "x86_64-linux",
-        "version": "1.18.2",
+        "version": "2.9.3",
         "_attr": "python3Packages.pytest-embedded",
         "_repo": "nagy"
     },
@@ -513859,9 +513291,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/w2c2.nix",
-                "line": 41
+                "line": 36
             },
-            "name": "w2c2-0-unstable-2026-08-01",
+            "name": "w2c2-0-unstable-2026-09-21",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -513959,19 +513391,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/by-name/w2c2.nix#L38",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/by-name/w2c2.nix#L33",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "w2c2-0-unstable-2026-08-01",
+        "name": "w2c2-0-unstable-2026-09-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "w2c2",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-08-01",
+        "version": "0-unstable-2026-09-21",
         "_attr": "w2c2",
         "_repo": "nagy"
     },
