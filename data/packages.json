@@ -47866,7 +47866,7 @@
             },
             "mainProgram": "chatgpt",
             "maintainers": [],
-            "name": "chatgpt-26.1013.31256",
+            "name": "chatgpt-26.1013.40934",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -47884,14 +47884,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1013.31256",
+        "name": "chatgpt-26.1013.40934",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1013.31256",
+        "version": "26.1013.40934",
         "_attr": "chatgpt",
         "_repo": "Sittymin"
     },
@@ -246352,7 +246352,7 @@
             ],
             "mainProgram": "cf",
             "maintainers": [],
-            "name": "cf-1.0.0-beta.17",
+            "name": "cf-1.0.0-beta.18",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -246372,14 +246372,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cf-1.0.0-beta.17",
+        "name": "cf-1.0.0-beta.18",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cf",
         "system": "x86_64-linux",
-        "version": "1.0.0-beta.17",
+        "version": "1.0.0-beta.18",
         "_attr": "cf",
         "_repo": "davinci42"
     },
@@ -246719,7 +246719,7 @@
             },
             "mainProgram": "rsshub",
             "maintainers": [],
-            "name": "rsshub-2026.10.15-8432.f23ada8",
+            "name": "rsshub-2026.10.16-8440.e50d306",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -246739,14 +246739,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rsshub-2026.10.15-8432.f23ada8",
+        "name": "rsshub-2026.10.16-8440.e50d306",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rsshub",
         "system": "x86_64-linux",
-        "version": "2026.10.15-8432.f23ada8",
+        "version": "2026.10.16-8440.e50d306",
         "_attr": "rsshub",
         "_repo": "davinci42"
     },
@@ -287966,7 +287966,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.2",
+            "name": "opencode-1.19.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -288008,14 +288008,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.2",
+        "name": "opencode-1.19.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.2",
+        "version": "1.19.3",
         "_attr": "opencode",
         "_repo": "falconprogrammer"
     },
@@ -288068,7 +288068,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.2",
+            "name": "opencode-1.19.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -288110,14 +288110,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.2",
+        "name": "opencode-1.19.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.2",
+        "version": "1.19.3",
         "_attr": "opencode-sst",
         "_repo": "falconprogrammer"
     },
@@ -396658,7 +396658,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/steipete/CodexBar/releases/tag/v0.76.0",
+            "changelog": "https://github.com/steipete/CodexBar/releases/tag/v0.77.0",
             "description": "CLI for AI coding-provider usage and spending",
             "homepage": "https://github.com/steipete/CodexBar",
             "identifiers": {
@@ -396710,7 +396710,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/codexbar-cli/default.nix",
                 "line": 49
             },
-            "name": "codexbar-cli-0.76.0",
+            "name": "codexbar-cli-0.77.0",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -396732,14 +396732,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "codexbar-cli-0.76.0",
+        "name": "codexbar-cli-0.77.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "codexbar-cli",
         "system": "x86_64-linux",
-        "version": "0.76.0",
+        "version": "0.77.0",
         "_attr": "codexbar-cli",
         "_repo": "lmdevv"
     },
@@ -518897,7 +518897,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cl/clash-nyanpasu/package.nix",
                 "line": 221
             },
-            "name": "clash-nyanpasu-2.0.0-rc.2-unstable-2026-10-16",
+            "name": "clash-nyanpasu-2.0.0-rc.2-unstable-2026-10-17",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -518966,14 +518966,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clash-nyanpasu-2.0.0-rc.2-unstable-2026-10-16",
+        "name": "clash-nyanpasu-2.0.0-rc.2-unstable-2026-10-17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clash-nyanpasu",
         "system": "x86_64-linux",
-        "version": "2.0.0-rc.2-unstable-2026-10-16",
+        "version": "2.0.0-rc.2-unstable-2026-10-17",
         "_attr": "clash-nyanpasu",
         "_repo": "moraxyc"
     },
@@ -520933,7 +520933,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ma/mautrix-telegram/package.nix",
                 "line": 38
             },
-            "name": "mautrix-telegram-0.2609.0",
+            "name": "mautrix-telegram-0.2610.0",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -520988,14 +520988,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mautrix-telegram-0.2609.0",
+        "name": "mautrix-telegram-0.2610.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mautrix-telegram",
         "system": "x86_64-linux",
-        "version": "0.2609.0",
+        "version": "0.2610.0",
         "_attr": "mautrix-telegram",
         "_repo": "moraxyc"
     },
@@ -521266,7 +521266,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-10-16",
+            "name": "meta-rules-dat-2026-10-17",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -521289,7 +521289,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-10-16",
+        "name": "meta-rules-dat-2026-10-17",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -521301,7 +521301,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-10-16",
+        "version": "2026-10-17",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -523288,7 +523288,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-10-15",
+            "name": "sing-rules-geo-2026-10-16",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -523303,7 +523303,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-10-15",
+        "name": "sing-rules-geo-2026-10-16",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -523313,7 +523313,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-10-15",
+        "version": "2026-10-16",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -523592,7 +523592,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-10-15",
+            "name": "v2ray-rules-dat-2026-10-16",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -523607,7 +523607,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-10-15",
+        "name": "v2ray-rules-dat-2026-10-16",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -523615,7 +523615,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-10-15",
+        "version": "2026-10-16",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
@@ -759587,7 +759587,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh/default.nix#L133",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh/default.nix#L160",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1144812,7 +1144812,7 @@
             "longDescription": "Beeper is a universal chat app. With Beeper, you can send\nand receive messages to friends, family and colleagues on\nmany different chat networks.\n",
             "mainProgram": "beeper",
             "maintainers": [],
-            "name": "beeper-4.3.176",
+            "name": "beeper-4.3.209",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1144836,14 +1144836,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-4.3.176",
+        "name": "beeper-4.3.209",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper",
         "system": "x86_64-linux",
-        "version": "4.3.176",
+        "version": "4.3.209",
         "_attr": "beeper",
         "_repo": "ymstnt"
     },
