@@ -5973,7 +5973,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "ai-robots-txt-2.0",
+            "name": "ai-robots-txt-2.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -5988,14 +5988,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ai-robots-txt-2.0",
+        "name": "ai-robots-txt-2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ai-robots-txt",
         "system": "x86_64-linux",
-        "version": "2.0",
+        "version": "2.1",
         "_attr": "ai-robots-txt",
         "_repo": "AndrewKvalheim"
     },
@@ -205563,6 +205563,90 @@
         "_attr": "mnamer-rs",
         "_repo": "davinci42"
     },
+    "nur.repos.davinci42.pebrel": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "GPU-accelerated terminal and SSH workspace",
+            "homepage": "https://github.com/Kuddev/pebrel",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pebrel",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pebrel",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "pebrel",
+            "maintainers": [],
+            "name": "pebrel-2.2.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/pebrel/default.nix#L58",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pebrel-2.2.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pebrel",
+        "system": "x86_64-linux",
+        "version": "2.2.2",
+        "_attr": "pebrel",
+        "_repo": "davinci42"
+    },
     "nur.repos.davinci42.rsshub": {
         "meta": {
             "available": true,
@@ -326533,7 +326617,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "pi-web-access-0.41.0",
+            "name": "pi-web-access-0.42.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -326595,14 +326679,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.41.0",
+        "name": "pi-web-access-0.42.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.41.0",
+        "version": "0.42.0",
         "_attr": "pi-web-access",
         "_repo": "josh"
     },
@@ -326873,7 +326957,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "ponytail-5.3.1",
+            "name": "ponytail-5.3.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -326935,14 +327019,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ponytail-5.3.1",
+        "name": "ponytail-5.3.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ponytail",
         "system": "x86_64-linux",
-        "version": "5.3.1",
+        "version": "5.3.2",
         "_attr": "ponytail",
         "_repo": "josh"
     },
@@ -357031,7 +357115,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/bongocat-wayland/default.nix",
                 "line": 53
             },
-            "name": "wayland-bongocat-2.0.2",
+            "name": "wayland-bongocat-2.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -357074,14 +357158,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wayland-bongocat-2.0.2",
+        "name": "wayland-bongocat-2.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wayland-bongocat",
         "system": "x86_64-linux",
-        "version": "2.0.2",
+        "version": "2.1.0",
         "_attr": "bongocat-wayland",
         "_repo": "lonerOrz"
     },
@@ -357596,7 +357680,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fabric/default.nix",
                 "line": 77
             },
-            "name": "python3.14-fabric-0-unstable-20261016-285439dfc",
+            "name": "python3.14-fabric-0-unstable-20261017-285439dfc",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -357646,7 +357730,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-fabric-0-unstable-20261016-285439dfc",
+        "name": "python3.14-fabric-0-unstable-20261017-285439dfc",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -357654,7 +357738,7 @@
         },
         "pname": "python3.14-fabric",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261016-285439dfc",
+        "version": "0-unstable-20261017-285439dfc",
         "_attr": "fabric",
         "_repo": "lonerOrz"
     },
@@ -358015,7 +358099,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fluxer/default.nix",
                 "line": 105
             },
-            "name": "fluxer-2026.1015.210832",
+            "name": "fluxer-2026.1017.35252",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -358042,14 +358126,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-2026.1015.210832",
+        "name": "fluxer-2026.1017.35252",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer",
         "system": "x86_64-linux",
-        "version": "2026.1015.210832",
+        "version": "2026.1017.35252",
         "_attr": "fluxer",
         "_repo": "lonerOrz"
     },
@@ -359211,7 +359295,7 @@
             },
             "mainProgram": "linux-wallpaperengine",
             "maintainers": [],
-            "name": "linux-wallpaperengine-0-unstable-2026-10-16",
+            "name": "linux-wallpaperengine-0-unstable-2026-10-17",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -359252,14 +359336,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-wallpaperengine-0-unstable-2026-10-16",
+        "name": "linux-wallpaperengine-0-unstable-2026-10-17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linux-wallpaperengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-16",
+        "version": "0-unstable-2026-10-17",
         "_attr": "linux-wallpaperengine",
         "_repo": "lonerOrz"
     },
@@ -360083,7 +360167,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia/default.nix",
                 "line": 149
             },
-            "name": "noctalia-0-unstable-20261016-eeea6ff75",
+            "name": "noctalia-0-unstable-20261017-398212290",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -360126,14 +360210,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-0-unstable-20261016-eeea6ff75",
+        "name": "noctalia-0-unstable-20261017-398212290",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "noctalia",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261016-eeea6ff75",
+        "version": "0-unstable-20261017-398212290",
         "_attr": "noctalia",
         "_repo": "lonerOrz"
     },
@@ -360197,7 +360281,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia-qs/default.nix",
                 "line": 99
             },
-            "name": "noctalia-qs-0-unstable-20261016-606adedbf",
+            "name": "noctalia-qs-0-unstable-20261017-606adedbf",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -360240,7 +360324,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-qs-0-unstable-20261016-606adedbf",
+        "name": "noctalia-qs-0-unstable-20261017-606adedbf",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -360248,7 +360332,7 @@
         },
         "pname": "noctalia-qs",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261016-606adedbf",
+        "version": "0-unstable-20261017-606adedbf",
         "_attr": "noctalia-qs",
         "_repo": "lonerOrz"
     },
@@ -360511,7 +360595,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/orca/default.nix",
                 "line": 55
             },
-            "name": "orca-1.4.227",
+            "name": "orca-1.4.229",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -360537,14 +360621,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.227",
+        "name": "orca-1.4.229",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.227",
+        "version": "1.4.229",
         "_attr": "orca",
         "_repo": "lonerOrz"
     },
@@ -362016,7 +362100,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/tuios/default.nix",
                 "line": 50
             },
-            "name": "tuios-0.10.0",
+            "name": "tuios-0.10.1",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -362060,14 +362144,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tuios-0.10.0",
+        "name": "tuios-0.10.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tuios",
         "system": "x86_64-linux",
-        "version": "0.10.0",
+        "version": "0.10.1",
         "_attr": "tuios",
         "_repo": "lonerOrz"
     },
@@ -378355,6 +378439,108 @@
         "system": "x86_64-linux",
         "version": "0.163.0",
         "_attr": "codex-bin",
+        "_repo": "merrkry"
+    },
+    "nur.repos.merrkry.deepseek-harness": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.2",
+            "description": "Agent harness with an everything-is-a-plugin architecture",
+            "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "deepseek-harness",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "deepseek-harness",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "dsh",
+            "maintainers": [
+                {
+                    "email": "merrkry@tsubasa.moe",
+                    "github": "merrkry",
+                    "githubId": 124278440,
+                    "name": "merrkry"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/deepseek-harness/default.nix",
+                "line": 189
+            },
+            "name": "deepseek-harness-0.2.1-rc.2",
+            "nonTeamMaintainers": [
+                {
+                    "email": "merrkry@tsubasa.moe",
+                    "github": "merrkry",
+                    "githubId": 124278440,
+                    "name": "merrkry"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/merrkry/pkgs/deepseek-harness/default.nix#L185",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "deepseek-harness-0.2.1-rc.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "deepseek-harness",
+        "system": "x86_64-linux",
+        "version": "0.2.1-rc.2",
+        "_attr": "deepseek-harness",
         "_repo": "merrkry"
     },
     "nur.repos.merrkry.delta": {
