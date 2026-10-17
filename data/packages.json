@@ -205367,7 +205367,7 @@
                 "aarch64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/changedetection-io/default.nix#L162",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/changedetection-io/default.nix#L163",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -205561,90 +205561,6 @@
         "system": "x86_64-linux",
         "version": "3.0.0-dev5",
         "_attr": "mnamer-rs",
-        "_repo": "davinci42"
-    },
-    "nur.repos.davinci42.pebrel": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "GPU-accelerated terminal and SSH workspace",
-            "homepage": "https://github.com/Kuddev/pebrel",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "pebrel",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "pebrel",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "mainProgram": "pebrel",
-            "maintainers": [],
-            "name": "pebrel-2.2.2",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/pebrel/default.nix#L58",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "pebrel-2.2.2",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "pebrel",
-        "system": "x86_64-linux",
-        "version": "2.2.2",
-        "_attr": "pebrel",
         "_repo": "davinci42"
     },
     "nur.repos.davinci42.rsshub": {
@@ -211416,12 +211332,16 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dima/pkgs/scp-cb/default.nix#L95",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dima/pkgs/scp-cb/default.nix#L96",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
+            },
+            "sourceProvenance": {
+                "isSource": false,
+                "shortName": "binaryNativeCode"
             },
             "unfree": true,
             "unsupported": false
@@ -290905,6 +290825,113 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "nix-reaper",
+        "_repo": "ibuysausage"
+    },
+    "nur.repos.ibuysausage.surf": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple web browser based on WebKitGTK",
+            "homepage": "https://surf.suckless.org",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "surf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "surf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "surf is a simple web browser based on WebKitGTK. It is able to display\nwebsites and follow links. It supports the XEmbed protocol which makes it\npossible to embed it in another application. Furthermore, one can point\nsurf to another URI by setting its XProperties.\n",
+            "mainProgram": "surf",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ibuysausage/pkgs/surf/default.nix",
+                "line": 89
+            },
+            "name": "surf-2.1-unstable-2025-04-19",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ibuysausage/pkgs/surf/default.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "surf-2.1-unstable-2025-04-19",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "surf",
+        "system": "x86_64-linux",
+        "version": "2.1-unstable-2025-04-19",
+        "_attr": "surf",
         "_repo": "ibuysausage"
     },
     "nur.repos.ibuysausage.waifufetch": {
