@@ -85285,78 +85285,6 @@
         "_attr": "spot",
         "_repo": "alarsyo"
     },
-    "nur.repos.alejo7797.audio-switch": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Shell script to switch between available audio outputs",
-            "homepage": "https://codeberg.org/alejo7797/nix-expressions",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "audio-switch",
-            "maintainers": [],
-            "name": "audio-switch",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/alejo7797/pkgs/shell-scripts/default.nix#L13",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "audio-switch",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "audio-switch",
-        "system": "x86_64-linux",
-        "version": "",
-        "_attr": "audio-switch",
-        "_repo": "alejo7797"
-    },
     "nur.repos.alejo7797.dev-manager-desktop": {
         "meta": {
             "available": true,
@@ -86242,78 +86170,6 @@
         "system": "x86_64-linux",
         "version": "7.4.1",
         "_attr": "regina-normal",
-        "_repo": "alejo7797"
-    },
-    "nur.repos.alejo7797.round-corners": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Shell script to round off an image's corners",
-            "homepage": "https://codeberg.org/alejo7797/nix-expressions",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "round-corners",
-            "maintainers": [],
-            "name": "round-corners",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/alejo7797/pkgs/shell-scripts/default.nix#L28",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "round-corners",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "round-corners",
-        "system": "x86_64-linux",
-        "version": "",
-        "_attr": "round-corners",
         "_repo": "alejo7797"
     },
     "nur.repos.alejo7797.sage": {
@@ -167718,7 +167574,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/WordPress/gutenberg/blob/refs/tags/v24.1.0/changelog.txt",
+            "changelog": "https://github.com/WordPress/gutenberg/blob/refs/tags/v24.2.0/changelog.txt",
             "description": "The Block Editor project for WordPress and beyond.",
             "homepage": "https://github.com/WordPress/gutenberg",
             "identifiers": {
@@ -167779,9 +167635,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/gutenberg/package.nix",
-                "line": 60
+                "line": 63
             },
-            "name": "gutenberg-24.1.0",
+            "name": "gutenberg-24.2.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -167880,19 +167736,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/gutenberg/package.nix#L56",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/gutenberg/package.nix#L59",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "gutenberg-24.1.0",
+        "name": "gutenberg-24.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gutenberg",
         "system": "x86_64-linux",
-        "version": "24.1.0",
+        "version": "24.2.0",
         "_attr": "_bartPackages.gutenberg",
         "_repo": "bartoostveen"
     },
@@ -935259,7 +935115,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/alger-music-player/default.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/alger-music-player/default.nix#L42",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -937625,7 +937481,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/yanhekt-autoslides/default.nix#L138",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/yanhekt-autoslides/default.nix#L140",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1099618,7 +1099474,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/pleroma/default.nix",
-                "line": 114
+                "line": 115
             },
             "name": "pleroma-2.10.2",
             "nonTeamMaintainers": [
@@ -1099679,7 +1099535,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/pleroma/default.nix#L111",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/pleroma/default.nix#L112",
             "problems": {},
             "unfree": false,
             "unsupported": false
