@@ -322950,6 +322950,83 @@
         "_attr": "aperture-cli",
         "_repo": "josh"
     },
+    "nur.repos.josh.apple-reminders-server": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Apple Reminders server with GraphQL, MCP, and metrics",
+            "homepage": "https://github.com/josh/apple-reminders-server",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "apple-reminders-server",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "apple-reminders-server",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "apple-reminders-server",
+            "maintainers": [],
+            "name": "apple-reminders-server-0-unstable-2026-10-18",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/josh/pkgs/josh/apple-reminders-server.nix#L53",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "apple-reminders-server-0-unstable-2026-10-18",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "apple-reminders-server",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-18",
+        "_attr": "apple-reminders-server",
+        "_repo": "josh"
+    },
     "nur.repos.josh.ceph-dashboards": {
         "meta": {
             "available": true,
@@ -325575,83 +325652,6 @@
         "system": "x86_64-linux",
         "version": "20.2.4",
         "_attr": "librados",
-        "_repo": "josh"
-    },
-    "nur.repos.josh.macos-reminders-server": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "macOS Reminders server with GraphQL, MCP, and metrics",
-            "homepage": "https://github.com/josh/macos-reminders-server",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "macos-reminders-server",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "macos-reminders-server",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "reminders-swift",
-            "maintainers": [],
-            "name": "macos-reminders-server-0-unstable-2026-10-18",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/josh/pkgs/josh/macos-reminders-server.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "macos-reminders-server-0-unstable-2026-10-18",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "macos-reminders-server",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-18",
-        "_attr": "macos-reminders-server",
         "_repo": "josh"
     },
     "nur.repos.josh.meat": {
