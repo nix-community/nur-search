@@ -286859,7 +286859,7 @@
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "xpilot",
+                    "product": "xpilot-unwrapped",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -286873,7 +286873,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "xpilot",
+                        "product": "xpilot-unwrapped",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -286895,7 +286895,12 @@
             },
             "mainProgram": "xpilot",
             "maintainers": [],
-            "name": "xpilot-4.0.0-beta.9",
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/nix/store/0islhr2y63dadqn260crzzkhx2cyyv2h-source/pkgs/stdenv/generic/check-meta.nix",
+                "line": 526
+            },
+            "name": "xpilot-unwrapped-4.0.0-beta.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -286903,7 +286908,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/herver/pkgs/xpilot/default.nix#L112",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/herver/pkgs/xpilot/default.nix#L114",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -286928,90 +286933,6 @@
         "system": "x86_64-linux",
         "version": "4.0.0-beta.9",
         "_attr": "xpilot",
-        "_repo": "herver"
-    },
-    "nur.repos.herver.xpilot-installer": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "xPilot installer for VATSIM, packaged to run the CSL (Bluebell) model-set installer on NixOS",
-            "downloadPage": "https://xpilot.app",
-            "homepage": "https://xpilot.app",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "xpilot-installer",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "xpilot-installer",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "mainProgram": "xpilot-installer",
-            "maintainers": [],
-            "name": "xpilot-installer-4.0.0-beta.6",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/herver/pkgs/xpilot-installer/default.nix#L116",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "xpilot-installer-4.0.0-beta.6",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "xpilot-installer",
-        "system": "x86_64-linux",
-        "version": "4.0.0-beta.6",
-        "_attr": "xpilot-installer",
         "_repo": "herver"
     },
     "nur.repos.herver.xpilot-plugin": {
