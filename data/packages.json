@@ -367389,6 +367389,93 @@
         "_attr": "fungi",
         "_repo": "lxl66566"
     },
+    "nur.repos.lxl66566.galgamemanager": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Manage and sync your galgames",
+            "homepage": "https://github.com/lxl66566/GalgameManager",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "galgamemanager",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "galgamemanager",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "GalgameManager",
+            "maintainers": [
+                "lxl66566"
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/pkgs/galgamemanager/default.nix",
+                "line": 142
+            },
+            "name": "galgamemanager-1.4.0",
+            "nonTeamMaintainers": [
+                "lxl66566"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/pkgs/galgamemanager/default.nix#L139",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "galgamemanager-1.4.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "galgamemanager",
+        "system": "x86_64-linux",
+        "version": "1.4.0",
+        "_attr": "galgamemanager",
+        "_repo": "lxl66566"
+    },
     "nur.repos.lxl66566.git-simple-encrypt": {
         "meta": {
             "available": true,
@@ -700578,7 +700665,7 @@
             ],
             "mainProgram": "artcraft-launcher",
             "maintainers": [],
-            "name": "artcraft-launcher-0.4.1",
+            "name": "artcraft-launcher-0.5.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -700603,14 +700690,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artcraft-launcher-0.4.1",
+        "name": "artcraft-launcher-0.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artcraft-launcher",
         "system": "x86_64-linux",
-        "version": "0.4.1",
+        "version": "0.5.1",
         "_attr": "artcraft-launcher",
         "_repo": "quriosity"
     },
@@ -700685,7 +700772,7 @@
             ],
             "mainProgram": "cadcraft",
             "maintainers": [],
-            "name": "cadcraft-0.7.0",
+            "name": "cadcraft-0.8.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -700710,14 +700797,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cadcraft-0.7.0",
+        "name": "cadcraft-0.8.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cadcraft",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "_attr": "cadcraft",
         "_repo": "quriosity"
     },
@@ -700792,7 +700879,7 @@
             ],
             "mainProgram": "deckcraft",
             "maintainers": [],
-            "name": "deckcraft-0.7.0",
+            "name": "deckcraft-0.8.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -700817,14 +700904,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deckcraft-0.7.0",
+        "name": "deckcraft-0.8.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deckcraft",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "_attr": "deckcraft",
         "_repo": "quriosity"
     },
@@ -700899,7 +700986,7 @@
             ],
             "mainProgram": "designcraft",
             "maintainers": [],
-            "name": "designcraft-0.8.0",
+            "name": "designcraft-0.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -700924,14 +701011,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "designcraft-0.8.0",
+        "name": "designcraft-0.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "designcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "_attr": "designcraft",
         "_repo": "quriosity"
     },
@@ -701188,7 +701275,7 @@
             ],
             "mainProgram": "effectcraft",
             "maintainers": [],
-            "name": "effectcraft-0.10.0",
+            "name": "effectcraft-0.11.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -701213,14 +701300,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-0.10.0",
+        "name": "effectcraft-0.11.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft",
         "system": "x86_64-linux",
-        "version": "0.10.0",
+        "version": "0.11.1",
         "_attr": "effectcraft",
         "_repo": "quriosity"
     },
@@ -701295,7 +701382,7 @@
             ],
             "mainProgram": "figcraft",
             "maintainers": [],
-            "name": "figcraft-0.6.0",
+            "name": "figcraft-0.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -701320,14 +701407,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "figcraft-0.6.0",
+        "name": "figcraft-0.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "figcraft",
         "system": "x86_64-linux",
-        "version": "0.6.0",
+        "version": "0.7.0",
         "_attr": "figcraft",
         "_repo": "quriosity"
     },
@@ -701402,7 +701489,7 @@
             ],
             "mainProgram": "filmcraft",
             "maintainers": [],
-            "name": "filmcraft-0.8.0",
+            "name": "filmcraft-0.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -701427,14 +701514,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "filmcraft-0.8.0",
+        "name": "filmcraft-0.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "filmcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "_attr": "filmcraft",
         "_repo": "quriosity"
     },
@@ -701509,7 +701596,7 @@
             ],
             "mainProgram": "gridcraft",
             "maintainers": [],
-            "name": "gridcraft-0.7.0",
+            "name": "gridcraft-0.8.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -701534,14 +701621,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gridcraft-0.7.0",
+        "name": "gridcraft-0.8.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gridcraft",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "_attr": "gridcraft",
         "_repo": "quriosity"
     },
@@ -701782,7 +701869,7 @@
             ],
             "mainProgram": "lightcraft",
             "maintainers": [],
-            "name": "lightcraft-0.8.0",
+            "name": "lightcraft-0.9.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -701807,14 +701894,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lightcraft-0.8.0",
+        "name": "lightcraft-0.9.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lightcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.9.1",
         "_attr": "lightcraft",
         "_repo": "quriosity"
     },
@@ -702167,7 +702254,7 @@
             ],
             "mainProgram": "pdfcraft",
             "maintainers": [],
-            "name": "pdfcraft-0.8.0",
+            "name": "pdfcraft-0.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -702192,14 +702279,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-0.8.0",
+        "name": "pdfcraft-0.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "_attr": "pdfcraft",
         "_repo": "quriosity"
     },
@@ -702274,7 +702361,7 @@
             ],
             "mainProgram": "photocraft",
             "maintainers": [],
-            "name": "photocraft-0.9.0",
+            "name": "photocraft-0.10.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -702299,14 +702386,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "photocraft-0.9.0",
+        "name": "photocraft-0.10.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photocraft",
         "system": "x86_64-linux",
-        "version": "0.9.0",
+        "version": "0.10.0",
         "_attr": "photocraft",
         "_repo": "quriosity"
     },
@@ -702357,7 +702444,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "proton-cachyos-11.0-20261005",
+            "name": "proton-cachyos-11.0-20261014",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -702382,7 +702469,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-cachyos-11.0-20261005",
+        "name": "proton-cachyos-11.0-20261014",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -702390,7 +702477,7 @@
         },
         "pname": "proton-cachyos",
         "system": "x86_64-linux",
-        "version": "11.0-20261005",
+        "version": "11.0-20261014",
         "_attr": "proton-cachyos",
         "_repo": "quriosity"
     },
@@ -702441,7 +702528,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "proton-cachyos-11.0-20261005",
+            "name": "proton-cachyos-11.0-20261014",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -702466,7 +702553,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-cachyos-11.0-20261005",
+        "name": "proton-cachyos-11.0-20261014",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -702474,7 +702561,7 @@
         },
         "pname": "proton-cachyos",
         "system": "x86_64-linux",
-        "version": "11.0-20261005",
+        "version": "11.0-20261014",
         "_attr": "proton-cachyos-v3",
         "_repo": "quriosity"
     },
@@ -702799,7 +702886,7 @@
             ],
             "mainProgram": "soundcraft",
             "maintainers": [],
-            "name": "soundcraft-0.7.0",
+            "name": "soundcraft-0.8.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -702824,14 +702911,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "soundcraft-0.7.0",
+        "name": "soundcraft-0.8.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "soundcraft",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "_attr": "soundcraft",
         "_repo": "quriosity"
     },
@@ -702989,7 +703076,7 @@
             ],
             "mainProgram": "vectorcraft",
             "maintainers": [],
-            "name": "vectorcraft-0.12.0",
+            "name": "vectorcraft-0.13.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -703014,14 +703101,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vectorcraft-0.12.0",
+        "name": "vectorcraft-0.13.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vectorcraft",
         "system": "x86_64-linux",
-        "version": "0.12.0",
+        "version": "0.13.1",
         "_attr": "vectorcraft",
         "_repo": "quriosity"
     },
@@ -703195,7 +703282,7 @@
             ],
             "mainProgram": "wordcraft",
             "maintainers": [],
-            "name": "wordcraft-0.7.0",
+            "name": "wordcraft-0.8.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -703220,14 +703307,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wordcraft-0.7.0",
+        "name": "wordcraft-0.8.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wordcraft",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "_attr": "wordcraft",
         "_repo": "quriosity"
     },
@@ -718022,7 +718109,7 @@
             },
             "mainProgram": "computer-use-linux",
             "maintainers": [],
-            "name": "computer-use-linux-0.7.15",
+            "name": "computer-use-linux-0.7.20",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -718041,14 +718128,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "computer-use-linux-0.7.15",
+        "name": "computer-use-linux-0.7.20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "computer-use-linux",
         "system": "x86_64-linux",
-        "version": "0.7.15",
+        "version": "0.7.20",
         "_attr": "computer-use-linux",
         "_repo": "ryan4yin"
     },
@@ -718100,7 +718187,7 @@
             },
             "mainProgram": "cua-driver",
             "maintainers": [],
-            "name": "cua-driver-0.34.1",
+            "name": "cua-driver-0.36.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -718118,14 +718205,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cua-driver-0.34.1",
+        "name": "cua-driver-0.36.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cua-driver",
         "system": "x86_64-linux",
-        "version": "0.34.1",
+        "version": "0.36.0",
         "_attr": "cua-driver",
         "_repo": "ryan4yin"
     },
@@ -718296,20 +718383,20 @@
         "_attr": "dsh",
         "_repo": "ryan4yin"
     },
-    "nur.repos.ryan4yin.dsh-nushell-only": {
+    "nur.repos.ryan4yin.dsh-nu": {
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/ryan4yin/dsh-nushell-only/commits/develop",
+            "changelog": "https://github.com/ryan4yin/dsh-nu/releases",
             "description": "Nushell-only shell executor, dialect guard, and teaching layer for dsh",
-            "homepage": "https://github.com/ryan4yin/dsh-nushell-only",
+            "homepage": "https://github.com/ryan4yin/dsh-nu",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "dsh-nushell-only",
+                    "product": "dsh-nu",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -718323,7 +718410,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "dsh-nushell-only",
+                        "product": "dsh-nu",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -718344,7 +718431,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "dsh-nushell-only-0.4.1",
+            "name": "dsh-nu-0.2.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -718430,7 +718517,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh-nushell-only/default.nix#L50",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh-nu/default.nix#L60",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -718440,15 +718527,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-nushell-only-0.4.1",
+        "name": "dsh-nu-0.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "dsh-nushell-only",
+        "pname": "dsh-nu",
         "system": "x86_64-linux",
-        "version": "0.4.1",
-        "_attr": "dsh-nushell-only",
+        "version": "0.2.0",
+        "_attr": "dsh-nu",
         "_repo": "ryan4yin"
     },
     "nur.repos.ryan4yin.rime-data-flypy": {
