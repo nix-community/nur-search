@@ -932659,7 +932659,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "githubstarsmanager-server-0.8.6",
+            "name": "githubstarsmanager-server-0.8.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -932687,19 +932687,19 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/slaier/modules/githubstarsmanager/package.nix#L47",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/slaier/modules/githubstarsmanager/package.nix#L35",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "githubstarsmanager-server-0.8.6",
+        "name": "githubstarsmanager-server-0.8.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "githubstarsmanager-server",
         "system": "x86_64-linux",
-        "version": "0.8.6",
+        "version": "0.8.7",
         "_attr": "githubstarsmanager",
         "_repo": "slaier"
     },
@@ -932822,6 +932822,127 @@
         "system": "x86_64-linux",
         "version": "0.1.0",
         "_attr": "mediaplayer",
+        "_repo": "slaier"
+    },
+    "nur.repos.slaier.promptbox": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "A CLI tool for managing and executing LLM prompt templates",
+            "homepage": "https://github.com/dimfeld/promptbox",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "promptbox",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "promptbox",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "promptbox",
+            "maintainers": [],
+            "name": "promptbox-0.3.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/slaier/modules/ai/promptbox/package.nix#L30",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "promptbox-0.3.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "promptbox",
+        "system": "x86_64-linux",
+        "version": "0.3.1",
+        "_attr": "promptbox",
         "_repo": "slaier"
     },
     "nur.repos.slaier.pw-duck": {
