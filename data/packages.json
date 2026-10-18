@@ -169745,7 +169745,7 @@
     },
     "nur.repos.bartoostveen._bartPackages.sable": {
         "meta": {
-            "available": true,
+            "available": false,
             "broken": false,
             "changelog": "https://github.com/SableClient/Sable/blob/v1.22.11/CHANGELOG.md",
             "description": "An almost stable Matrix client",
@@ -169779,7 +169779,10 @@
                     "purls": []
                 }
             },
-            "insecure": false,
+            "insecure": true,
+            "knownVulnerabilities": [
+                "Sable is not maintained upstream anymore. Sable (v1) got superseded by Sable Next (v2).\nSable Next is almost a drop-in replacement.\n\n- `sable-desktop`   got replaced by `sable-next-desktop`\n- `sable-unwrapped` got replaced by `sable-next-unwrapped`\n- `sable`           got replaced by `sable-next`\n\nConsider switching to these packages instead. At the time of writing (2026-10-18),\nthere are no known security vulnerabilities, but given the nature of the JavaScript\necosystem, this package not being maintained anymore should be urgent enough to switch.\n"
+            ],
             "license": {
                 "deprecated": false,
                 "free": true,
@@ -170333,7 +170336,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/sable-next-desktop/package.nix",
-                "line": 500
+                "line": 559
             },
             "name": "sable-next-desktop-2.0.3",
             "nonTeamMaintainers": [
@@ -170393,7 +170396,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-desktop/package.nix#L496",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-desktop/package.nix#L555",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -170592,7 +170595,7 @@
     },
     "nur.repos.bartoostveen._bartPackages.sable-unwrapped": {
         "meta": {
-            "available": true,
+            "available": false,
             "broken": false,
             "changelog": "https://github.com/SableClient/Sable/blob/v1.22.11/CHANGELOG.md",
             "description": "An almost stable Matrix client",
@@ -170626,7 +170629,10 @@
                     "purls": []
                 }
             },
-            "insecure": false,
+            "insecure": true,
+            "knownVulnerabilities": [
+                "Sable is not maintained upstream anymore. Sable (v1) got superseded by Sable Next (v2).\nSable Next is almost a drop-in replacement.\n\n- `sable-desktop`   got replaced by `sable-next-desktop`\n- `sable-unwrapped` got replaced by `sable-next-unwrapped`\n- `sable`           got replaced by `sable-next`\n\nConsider switching to these packages instead. At the time of writing (2026-10-18),\nthere are no known security vulnerabilities, but given the nature of the JavaScript\necosystem, this package not being maintained anymore should be urgent enough to switch.\n"
+            ],
             "license": {
                 "deprecated": false,
                 "free": true,
