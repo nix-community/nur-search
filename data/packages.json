@@ -64816,7 +64816,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "teldrive-2.0.6",
+            "name": "teldrive-2.0.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -64834,14 +64834,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "teldrive-2.0.6",
+        "name": "teldrive-2.0.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "teldrive",
         "system": "x86_64-linux",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "_attr": "teldrive",
         "_repo": "XiaoXioe"
     },
@@ -325575,6 +325575,112 @@
         "system": "x86_64-linux",
         "version": "20.2.4",
         "_attr": "librados",
+        "_repo": "josh"
+    },
+    "nur.repos.josh.meat": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Abridge a code diff into a reading diff using an LLM",
+            "homepage": "https://github.com/boldsoftware/meat",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "meat",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "meat",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "meat",
+            "maintainers": [],
+            "name": "meat-0-unstable-2026-08-03",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/josh/pkgs/boldsoftware/meat.nix#L42",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "meat-0-unstable-2026-08-03",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "meat",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-08-03",
+        "_attr": "meat",
         "_repo": "josh"
     },
     "nur.repos.josh.mqtt2nats": {
@@ -718082,7 +718188,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh/default.nix#L160",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh/default.nix#L159",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -718111,6 +718217,161 @@
         "system": "x86_64-linux",
         "version": "0.2.1-rc.2",
         "_attr": "dsh",
+        "_repo": "ryan4yin"
+    },
+    "nur.repos.ryan4yin.dsh-nushell-only": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/ryan4yin/dsh-nushell-only/commits/develop",
+            "description": "Nushell-only shell executor, dialect guard, and teaching layer for dsh",
+            "homepage": "https://github.com/ryan4yin/dsh-nushell-only",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dsh-nushell-only",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dsh-nushell-only",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "dsh-nushell-only-0.4.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh-nushell-only/default.nix#L50",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "dsh-nushell-only-0.4.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dsh-nushell-only",
+        "system": "x86_64-linux",
+        "version": "0.4.1",
+        "_attr": "dsh-nushell-only",
         "_repo": "ryan4yin"
     },
     "nur.repos.ryan4yin.rime-data-flypy": {
