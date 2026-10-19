@@ -22835,6 +22835,106 @@
         "_attr": "mochi-desktop",
         "_repo": "Ev357"
     },
+    "nur.repos.Ev357.mpvpaper-stop": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Automatic stop feature for mpvpaper animated wallpapers implemented via a background process",
+            "homepage": "https://github.com/pvtoari/mpvpaper-stop",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mpvpaper-stop",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mpvpaper-stop",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "mpvpaper-stop",
+            "maintainers": [],
+            "name": "mpvpaper-stop-0-unstable-2025-09-01",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Ev357/pkgs/mpvpaper-stop/default.nix#L35",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mpvpaper-stop-0-unstable-2025-09-01",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mpvpaper-stop",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2025-09-01",
+        "_attr": "mpvpaper-stop",
+        "_repo": "Ev357"
+    },
     "nur.repos.Ev357.obsidian-excalidraw-plugin": {
         "meta": {
             "available": true,
@@ -49477,26 +49577,30 @@
                 }
             },
             "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU Affero General Public License v3.0 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "agpl3Plus",
-                    "spdxId": "AGPL-3.0-or-later",
-                    "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": false,
-                    "fullName": "Unfree",
-                    "licenseType": "simple",
-                    "redistributable": false,
-                    "shortName": "unfree"
-                }
-            ],
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "GNU Affero General Public License v3.0 or later",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "agpl3Plus",
+                        "spdxId": "AGPL-3.0-or-later",
+                        "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": false,
+                        "fullName": "Unfree",
+                        "licenseType": "simple",
+                        "redistributable": false,
+                        "shortName": "unfree"
+                    }
+                ],
+                "operator": "AND"
+            },
             "mainProgram": "browsertrix-crawl",
             "maintainers": [],
             "name": "browsertrix-crawler-1.14.0",
@@ -53414,9 +53518,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/mxc/package.nix",
-                "line": 275
+                "line": 293
             },
-            "name": "mxc-1.0.0",
+            "name": "mxc-1.0.1",
             "nonTeamMaintainers": [
                 {
                     "email": "skye@soss.website",
@@ -53433,19 +53537,19 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/mxc/package.nix#L254",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/mxc/package.nix#L272",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "mxc-1.0.0",
+        "name": "mxc-1.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mxc",
         "system": "x86_64-linux",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "_attr": "mxc",
         "_repo": "Skyb0rg007"
     },
@@ -58671,14 +58775,14 @@
     },
     "nur.repos.Skyb0rg007.systemd-btf": {
         "meta": {
-            "available": true,
+            "available": false,
             "badPlatforms": [
                 {
                     "isStatic": true,
                     "parsed": {}
                 }
             ],
-            "broken": false,
+            "broken": true,
             "description": "System and service manager for Linux",
             "homepage": "https://systemd.io",
             "identifiers": {
@@ -58945,7 +59049,12 @@
             ],
             "position": "https://github.com/Skyb0rg007/packages/blob/HEAD/pkgs/os-specific/linux/systemd/default.nix#L893",
             "priority": 10,
-            "problems": {},
+            "problems": {
+                "broken": {
+                    "kind": "broken",
+                    "message": "This package is broken."
+                }
+            },
             "teams": [
                 {
                     "enableFeatureFreezePing": true,
@@ -987598,7 +987707,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/MichaelKinsy/PiG/releases/tag/v0.4.1",
+            "changelog": "https://github.com/MichaelKinsy/PiG/releases/tag/v0.5.0",
             "description": "Pi coding agent rebuilt in Go as a single native binary",
             "homepage": "https://pi-in-go.dev/",
             "identifiers": {
@@ -987648,7 +987757,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/uriotv/pkgs/pig/default.nix",
                 "line": 37
             },
-            "name": "pig-0.4.1",
+            "name": "pig-0.5.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -987710,14 +987819,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pig-0.4.1",
+        "name": "pig-0.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pig",
         "system": "x86_64-linux",
-        "version": "0.4.1",
+        "version": "0.5.0",
         "_attr": "pig",
         "_repo": "uriotv"
     },
