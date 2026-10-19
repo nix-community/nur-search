@@ -4377,7 +4377,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/rpcs3-git/default.nix",
                 "line": 197
             },
-            "name": "rpcs3-git-0.0.43-unstable-2026-10-18",
+            "name": "rpcs3-git-0.0.43-unstable-2026-10-19",
             "nonTeamMaintainers": [
                 {
                     "github": "Adamekka",
@@ -4397,14 +4397,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "rpcs3-git-0.0.43-unstable-2026-10-18",
+        "name": "rpcs3-git-0.0.43-unstable-2026-10-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3-git",
         "system": "x86_64-linux",
-        "version": "0.0.43-unstable-2026-10-18",
+        "version": "0.0.43-unstable-2026-10-19",
         "_attr": "rpcs3-git",
         "_repo": "Adamekka"
     },
@@ -102583,6 +102583,654 @@
         "_attr": "rpcs3-bin",
         "_repo": "arch-fan"
     },
+    "nur.repos.arielherself.agentreach": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/arielherself/agentreach/blob/ad95ab593aa045e8a7e1abaaeaeb84ca54036a18/CHANGELOG.md",
+            "description": "Point your coding agent at any box you can SSH into, without installing the agent on the server",
+            "homepage": "https://github.com/arielherself/agentreach",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "agentreach",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "agentreach",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "reach",
+            "maintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/arielherself/pkgs/agentreach/default.nix",
+                "line": 90
+            },
+            "name": "agentreach-0.8.0-unstable-2026-10-11",
+            "nonTeamMaintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/arielherself/pkgs/agentreach/default.nix#L85",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "agentreach-0.8.0-unstable-2026-10-11",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "agentreach",
+        "system": "x86_64-linux",
+        "version": "0.8.0-unstable-2026-10-11",
+        "_attr": "agentreach",
+        "_repo": "arielherself"
+    },
+    "nur.repos.arielherself.gameshelf": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "TUI game launcher for Windows games on Linux via umu-launcher and Proton",
+            "homepage": "https://github.com/arielherself/gameshelf",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gameshelf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gameshelf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "gameshelf",
+            "maintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/arielherself/pkgs/gameshelf/default.nix",
+                "line": 37
+            },
+            "name": "gameshelf-0.1.0-unstable-2026-10-11",
+            "nonTeamMaintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/arielherself/pkgs/gameshelf/default.nix#L33",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gameshelf-0.1.0-unstable-2026-10-11",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gameshelf",
+        "system": "x86_64-linux",
+        "version": "0.1.0-unstable-2026-10-11",
+        "_attr": "gameshelf",
+        "_repo": "arielherself"
+    },
+    "nur.repos.arielherself.mesence": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Multi-system emulator for NES, SNES, Game Boy (Advance), PC Engine, SMS/Game Gear and WonderSwan",
+            "homepage": "https://github.com/nesdev-org/MesenCE",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mesence",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mesence",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "MesenCE is the community edition of Mesen, maintained by nesdev.org, with\nan extensive debugger for every system it emulates. This builds the\nlatest master; nixpkgs' `mesen` is the last release.\n",
+            "mainProgram": "Mesen",
+            "maintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/arielherself/pkgs/mesence/default.nix",
+                "line": 155
+            },
+            "name": "mesence-2.2.1-unstable-2026-10-07",
+            "nonTeamMaintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/arielherself/pkgs/mesence/default.nix#L146",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mesence-2.2.1-unstable-2026-10-07",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mesence",
+        "system": "x86_64-linux",
+        "version": "2.2.1-unstable-2026-10-07",
+        "_attr": "mesence",
+        "_repo": "arielherself"
+    },
+    "nur.repos.arielherself.rplayhub": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/rPlayAI/rPlayHub/releases/tag/linux-v0.1.3",
+            "description": "iPhone screen mirroring and control over USB, a Device Hub for Linux",
+            "homepage": "https://github.com/rPlayAI/rPlayHub",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rplayhub",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rplayhub",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v2.1 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl21Plus",
+                    "spdxId": "LGPL-2.1-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "SIL Open Font License 1.1",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "ofl",
+                    "spdxId": "OFL-1.1",
+                    "url": "https://spdx.org/licenses/OFL-1.1.html"
+                }
+            ],
+            "longDescription": "Mirrors an iPhone (iOS 27 or later, Developer Mode on) over USB with the\nCoreDevice protocol. `rplayhub` is the GUI, `rplayhub-engine` talks to the\nphone, and `rplayhub-fetch-ddi` downloads Apple's Developer Disk Image\nonce. The engine needs a running usbmuxd (`services.usbmuxd.enable` on\nNixOS).\n",
+            "mainProgram": "rplayhub",
+            "maintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/arielherself/pkgs/rplayhub/default.nix",
+                "line": 172
+            },
+            "name": "rplayhub-0.1.3",
+            "nonTeamMaintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/arielherself/pkgs/rplayhub/default.nix#L156",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rplayhub-0.1.3",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rplayhub",
+        "system": "x86_64-linux",
+        "version": "0.1.3",
+        "_attr": "rplayhub",
+        "_repo": "arielherself"
+    },
+    "nur.repos.arielherself.tokscale": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/junhoyeo/tokscale/releases/tag/v4.20.0",
+            "description": "Track token usage across AI coding agents from your terminal",
+            "downloadPage": "https://github.com/junhoyeo/tokscale",
+            "homepage": "https://tokscale.ai",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tokscale",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tokscale",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "tokscale",
+            "maintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/arielherself/pkgs/tokscale/default.nix",
+                "line": 56
+            },
+            "name": "tokscale-4.20.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "arielherself",
+                    "githubId": 107245128,
+                    "name": "arielherself"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/arielherself/pkgs/tokscale/default.nix#L50",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tokscale-4.20.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tokscale",
+        "system": "x86_64-linux",
+        "version": "4.20.0",
+        "_attr": "tokscale",
+        "_repo": "arielherself"
+    },
     "nur.repos.armaria.armaria": {
         "meta": {
             "available": true,
@@ -197589,7 +198237,7 @@
             },
             "mainProgram": "Aiursoft.Tracer",
             "maintainers": [],
-            "name": "aiursoft-tracer-0-unstable-2026-10-17",
+            "name": "aiursoft-tracer-0-unstable-2026-10-19",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -197608,14 +198256,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "aiursoft-tracer-0-unstable-2026-10-17",
+        "name": "aiursoft-tracer-0-unstable-2026-10-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "aiursoft-tracer",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-17",
+        "version": "0-unstable-2026-10-19",
         "_attr": "aiursoft-tracer",
         "_repo": "codgician"
     },
@@ -199125,7 +199773,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/can1357/oh-my-pi/blob/v18.12.1/packages/coding-agent/CHANGELOG.md",
+            "changelog": "https://github.com/can1357/oh-my-pi/blob/v18.12.2/packages/coding-agent/CHANGELOG.md",
             "description": "AI coding agent for the terminal with hash-anchored edits, LSP, DAP, Python, browser, and subagents",
             "homepage": "https://github.com/can1357/oh-my-pi",
             "identifiers": {
@@ -199182,7 +199830,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/oh-my-pi-bin/default.nix",
                 "line": 167
             },
-            "name": "oh-my-pi-bin-18.12.1",
+            "name": "oh-my-pi-bin-18.12.2",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -199211,14 +199859,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oh-my-pi-bin-18.12.1",
+        "name": "oh-my-pi-bin-18.12.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oh-my-pi-bin",
         "system": "x86_64-linux",
-        "version": "18.12.1",
+        "version": "18.12.2",
         "_attr": "oh-my-pi-bin",
         "_repo": "codgician"
     },
@@ -248478,6 +249126,94 @@
         "_attr": "mos",
         "_repo": "fanbb2333"
     },
+    "nur.repos.fclairamb.solidping": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/fclairamb/solidping/releases/tag/v0.40.0",
+            "description": "Self-hosted uptime and synthetic monitoring with status pages, incidents and alerting",
+            "downloadPage": "https://github.com/fclairamb/solidping/releases",
+            "homepage": "https://www.solidping.io",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "solidping",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "solidping",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "solidping",
+            "maintainers": [],
+            "name": "solidping-0.40.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/fclairamb/pkgs/solidping/default.nix#L69",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "solidping-0.40.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "solidping",
+        "system": "x86_64-linux",
+        "version": "0.40.0",
+        "_attr": "solidping",
+        "_repo": "fclairamb"
+    },
     "nur.repos.fius.drinklist-cli": {
         "meta": {
             "available": true,
@@ -285393,6 +286129,121 @@
         "_attr": "hiddify",
         "_repo": "guoard"
     },
+    "nur.repos.heizeisaburou.uxsm": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/heizeisaburou/uxsm/releases/tag/v0.1.0",
+            "description": "X11 session manager for systemd --user, the X11 counterpart of uwsm",
+            "homepage": "https://github.com/heizeisaburou/uxsm",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "uxsm",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "uxsm",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "uxsm",
+            "maintainers": [
+                {
+                    "email": "heizeisaburou@gmail.com",
+                    "github": "heizeisaburou",
+                    "githubId": 243756430,
+                    "name": "\u5e73\u57ce\u4e09\u90ce"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/heizeisaburou/pkgs/uxsm/default.nix",
+                "line": 72
+            },
+            "name": "uxsm-0.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "heizeisaburou@gmail.com",
+                    "github": "heizeisaburou",
+                    "githubId": 243756430,
+                    "name": "\u5e73\u57ce\u4e09\u90ce"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/heizeisaburou/pkgs/uxsm/default.nix#L68",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "uxsm-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "uxsm",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "uxsm",
+        "_repo": "heizeisaburou"
+    },
     "nur.repos.henriquekh.beat-detector": {
         "meta": {
             "available": true,
@@ -290409,6 +291260,171 @@
         "version": "0.1.7",
         "_attr": "yaskkserv2",
         "_repo": "hol1kgmg"
+    },
+    "nur.repos.hsctech.blobl_lsp": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Language server for Bento's Bloblang mapping language",
+            "homepage": "https://codeberg.org/hsctech/blobl_lsp",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "blobl_lsp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "blobl_lsp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "blobl_lsp",
+            "maintainers": [
+                {
+                    "email": "henrik@hsctech.eu",
+                    "name": "hsctech"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hsctech/pkgs/blobl_lsp/default.nix",
+                "line": 36
+            },
+            "name": "blobl_lsp-0.7.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "henrik@hsctech.eu",
+                    "name": "hsctech"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hsctech/pkgs/blobl_lsp/default.nix#L33",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "blobl_lsp-0.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "blobl_lsp",
+        "system": "x86_64-linux",
+        "version": "0.7.0",
+        "_attr": "blobl_lsp",
+        "_repo": "hsctech"
     },
     "nur.repos.iamanaws.bitbucket-cli": {
         "meta": {
@@ -315469,6 +316485,174 @@
         "version": "",
         "_attr": "vagrant-vmware-utility",
         "_repo": "jeffguorg"
+    },
+    "nur.repos.jeremymeadows.appimagetool": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Generate AppImages from existing AppDirs",
+            "downloadPage": "https://github.com/AppImage/appimagetool/releases",
+            "homepage": "https://github.com/AppImage/appimagetool",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "appimagetool",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "appimagetool",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "appimagetool",
+            "maintainers": [],
+            "name": "appimagetool-1.9.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/jeremymeadows/pkgs/appimagetool/default.nix#L32",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "appimagetool-1.9.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "appimagetool",
+        "system": "x86_64-linux",
+        "version": "1.9.1",
+        "_attr": "appimagetool",
+        "_repo": "jeremymeadows"
+    },
+    "nur.repos.jeremymeadows.zen-browser": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The browser for a calmer internet",
+            "downloadPage": "https://github.com/zen-browser/desktop/releases/latest/",
+            "homepage": "https://zen-browser.app/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zen",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zen",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "mainProgram": "zen",
+            "maintainers": [],
+            "name": "zen-1.23.2b",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/jeremymeadows/pkgs/zen-browser/default.nix#L43",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "zen-1.23.2b",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "zen",
+        "system": "x86_64-linux",
+        "version": "1.23.2b",
+        "_attr": "zen-browser",
+        "_repo": "jeremymeadows"
     },
     "nur.repos.jerrita.kubeedge": {
         "meta": {
@@ -348408,6 +349592,1014 @@
         "_attr": "universal-ctags-pcre2",
         "_repo": "lightquantum"
     },
+    "nur.repos.lihaoze123.cloudflare-cli": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Official CLI for the Cloudflare API and Workers projects",
+            "homepage": "https://github.com/cloudflare/cf",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cloudflare-cli",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cloudflare-cli",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "cf",
+            "maintainers": [],
+            "name": "cloudflare-cli-1.0.0-beta.17",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/cloudflare-cli/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cloudflare-cli-1.0.0-beta.17",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cloudflare-cli",
+        "system": "x86_64-linux",
+        "version": "1.0.0-beta.17",
+        "_attr": "cloudflare-cli",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.dbx": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "DBX database management tool (official prebuilt AppImage)",
+            "homepage": "https://github.com/t8y2/dbx",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dbx",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dbx",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "dbx",
+            "maintainers": [],
+            "name": "dbx-0.6.43",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/dbx/default.nix#L28",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "dbx-0.6.43",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dbx",
+        "system": "x86_64-linux",
+        "version": "0.6.43",
+        "_attr": "dbx",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.fcitx5-vinput-lite": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Voice input addon for Fcitx5 without local ASR",
+            "homepage": "https://github.com/xifan2333/fcitx5-vinput",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "fcitx5-vinput-lite",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "fcitx5-vinput-lite",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "vinput",
+            "maintainers": [],
+            "name": "fcitx5-vinput-lite-2.4.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/fcitx5-vinput-lite/default.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fcitx5-vinput-lite-2.4.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fcitx5-vinput-lite",
+        "system": "x86_64-linux",
+        "version": "2.4.1",
+        "_attr": "fcitx5-vinput-lite",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.fcitx5-vinput-lite-upstream": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Voice input addon for Fcitx5 without local ASR",
+            "homepage": "https://github.com/xifan2333/fcitx5-vinput",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "fcitx5-vinput-lite",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "fcitx5-vinput-lite",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "vinput",
+            "maintainers": [],
+            "name": "fcitx5-vinput-lite-2.4.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/fcitx5-vinput-lite/default.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fcitx5-vinput-lite-2.4.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fcitx5-vinput-lite",
+        "system": "x86_64-linux",
+        "version": "2.4.1",
+        "_attr": "fcitx5-vinput-lite-upstream",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.honk": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "honk transparent proxy with native API and embedded doona beta.20",
+            "homepage": "https://github.com/Glassyiris/honk",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "honk-core",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "honk-core",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "honk-core",
+            "maintainers": [],
+            "name": "honk-core-debug.2026.10.12.native-api.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/honk/default.nix#L21",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "honk-core-debug.2026.10.12.native-api.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "honk-core-debug.2026.10.12.native-api.1",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "honk",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.oseasy-helper": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CLI for OsEasy classroom video broadcasts and file reception",
+            "homepage": "https://github.com/lihaoze123/oseasy-helper",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "oseasy-helper",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "oseasy-helper",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "oseasy-helper",
+            "maintainers": [],
+            "name": "oseasy-helper-0.1.0-unstable-2026-10-15",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/oseasy-helper/default.nix#L32",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "oseasy-helper-0.1.0-unstable-2026-10-15",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "oseasy-helper",
+        "system": "x86_64-linux",
+        "version": "0.1.0-unstable-2026-10-15",
+        "_attr": "oseasy-helper",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.try": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fresh directories for every vibe (tobi/try)",
+            "homepage": "https://github.com/tobi/try",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "try",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "try",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "try",
+            "maintainers": [],
+            "name": "try-1.10.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/try/default.nix#L29",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "try-1.10.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "try",
+        "system": "x86_64-linux",
+        "version": "1.10.1",
+        "_attr": "try",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.vscode": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://code.visualstudio.com/updates/v1_140",
+            "description": "Code editor developed by Microsoft",
+            "downloadPage": "https://code.visualstudio.com/Updates",
+            "homepage": "https://code.visualstudio.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vscode",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vscode",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "Code editor developed by Microsoft. It includes support for debugging,\nembedded Git control, syntax highlighting, intelligent code completion,\nsnippets, and code refactoring. It is also customizable, so users can\nchange the editor's theme, keyboard shortcuts, and preferences\n",
+            "mainProgram": "code",
+            "maintainers": [
+                {
+                    "email": "edmund.wu@protonmail.com",
+                    "github": "eadwu",
+                    "githubId": 22758444,
+                    "name": "Edmund Wu"
+                },
+                {
+                    "email": "rjl931189261@126.com",
+                    "github": "bobby285271",
+                    "githubId": 20080233,
+                    "matrix": "@bobby285271:matrix.org",
+                    "name": "Bobby Rong"
+                },
+                {
+                    "email": "masumrezarock100@gmail.com",
+                    "github": "johnrtitor",
+                    "githubId": 50095635,
+                    "name": "Masum Reza"
+                },
+                {
+                    "email": "jean-francois.labonte@brightonlabs.ai",
+                    "github": "JeffLabonte",
+                    "githubId": 9425955,
+                    "name": "Jean-Fran\u00e7ois Labont\u00e9"
+                },
+                {
+                    "email": "git@wetrustinprize.com",
+                    "github": "wetrustinprize",
+                    "githubId": 38386927,
+                    "name": "Peterson 'Prize' Adami Candido"
+                },
+                {
+                    "github": "oenu",
+                    "githubId": 51684443,
+                    "name": "Adam Newton-Blows"
+                },
+                {
+                    "email": "brandon@emergence.ltd",
+                    "github": "yuannan",
+                    "githubId": 8006928,
+                    "name": "Yuannan (Brandon) Lin"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/0islhr2y63dadqn260crzzkhx2cyyv2h-source/pkgs/applications/editors/vscode/vscode.nix",
+                "line": 118
+            },
+            "name": "vscode-1.140.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "edmund.wu@protonmail.com",
+                    "github": "eadwu",
+                    "githubId": 22758444,
+                    "name": "Edmund Wu"
+                },
+                {
+                    "email": "rjl931189261@126.com",
+                    "github": "bobby285271",
+                    "githubId": 20080233,
+                    "matrix": "@bobby285271:matrix.org",
+                    "name": "Bobby Rong"
+                },
+                {
+                    "email": "masumrezarock100@gmail.com",
+                    "github": "johnrtitor",
+                    "githubId": 50095635,
+                    "name": "Masum Reza"
+                },
+                {
+                    "email": "jean-francois.labonte@brightonlabs.ai",
+                    "github": "JeffLabonte",
+                    "githubId": 9425955,
+                    "name": "Jean-Fran\u00e7ois Labont\u00e9"
+                },
+                {
+                    "email": "git@wetrustinprize.com",
+                    "github": "wetrustinprize",
+                    "githubId": 38386927,
+                    "name": "Peterson 'Prize' Adami Candido"
+                },
+                {
+                    "github": "oenu",
+                    "githubId": 51684443,
+                    "name": "Adam Newton-Blows"
+                },
+                {
+                    "email": "brandon@emergence.ltd",
+                    "github": "yuannan",
+                    "githubId": 8006928,
+                    "name": "Yuannan (Brandon) Lin"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux"
+            ],
+            "position": "https://github.com/lihaoze123/nur-packages/blob/HEAD/pkgs/applications/editors/vscode/vscode.nix#L104",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "vscode-with-extensions-1.140.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vscode-with-extensions",
+        "system": "x86_64-linux",
+        "version": "1.140.0",
+        "_attr": "vscode",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.vtype-linux": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "\u5fae\u4fe1\u62fc\u97f3 Fcitx5 \u63d2\u4ef6\uff08\u5f15\u64ce\u548c\u8bcd\u5e93\u9700\u53e6\u884c\u4e0b\u8f7d\u5230\u7528\u6237\u76ee\u5f55\uff09",
+            "homepage": "https://github.com/zhl-HFUT/vtype-linux",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vtype-linux",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vtype-linux",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [],
+            "name": "vtype-linux-0-unstable-2026-10-16",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/vtype-linux/default.nix#L182",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vtype-linux-0-unstable-2026-10-16",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vtype-linux",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-16",
+        "_attr": "vtype-linux",
+        "_repo": "lihaoze123"
+    },
+    "nur.repos.lihaoze123.wxc": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "\u5fae\u4fe1\u8f93\u5165\u6cd5\u8bbe\u5907\u5173\u8054\u4e0e\u526a\u8d34\u677f\u547d\u4ee4\u884c\u5ba2\u6237\u7aef\uff08\u4e0a\u6e38\u9884\u7f16\u8bd1\u5305\uff09",
+            "homepage": "https://github.com/mkdir700/wx-ime-sdk",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "wxc",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "wxc",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "wxc",
+            "maintainers": [],
+            "name": "wxc-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/wxc/default.nix#L29",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "wxc-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "wxc",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "wxc",
+        "_repo": "lihaoze123"
+    },
     "nur.repos.lillycham.akyuu": {
         "meta": {
             "available": true,
@@ -350935,7 +353127,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/libva-v4l2/default.nix",
-                "line": 39
+                "line": 42
             },
             "name": "libva-v4l2-74b336a42f1771de49d40fe0daddf0b9b7b6ca40",
             "nonTeamMaintainers": [
@@ -350953,7 +353145,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/linyinfeng/pkgs/libva-v4l2/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/linyinfeng/pkgs/libva-v4l2/default.nix#L35",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372196,6 +374388,118 @@
         "version": "15042023",
         "_attr": "vpk_fuse",
         "_repo": "materus"
+    },
+    "nur.repos.matheusbrunheroto.gorace": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "HTTP race condition testing tool",
+            "homepage": "https://github.com/MatheusBrunheroto/gorace",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gorace",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gorace",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "gorace",
+            "maintainers": [],
+            "name": "gorace-1.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/matheusbrunheroto/pkgs/gorace.nix#L34",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gorace-1.0.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gorace",
+        "system": "x86_64-linux",
+        "version": "1.0.0",
+        "_attr": "gorace",
+        "_repo": "matheusbrunheroto"
     },
     "nur.repos.mattrobenolt.benchstat": {
         "meta": {
@@ -476542,6 +478846,606 @@
         "_attr": "zw3d",
         "_repo": "mio"
     },
+    "nur.repos.mirdukkkkk.firefox-addons.indicatetls": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Displays negotiated SSL/TLS protocol version and additional security information in the address bar",
+            "homepage": "https://github.com/jannispinter/indicatetls",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [],
+            "mozPermissions": [
+                "tabs",
+                "webNavigation",
+                "webRequest",
+                "webRequestBlocking",
+                "http://*/*",
+                "https://*/*"
+            ],
+            "name": "indicatetls-0.4.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L12",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "indicatetls-0.4.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "indicatetls",
+        "system": "x86_64-linux",
+        "version": "0.4.0",
+        "_attr": "firefox-addons.indicatetls",
+        "_repo": "mirdukkkkk"
+    },
+    "nur.repos.mirdukkkkk.firefox-addons.preact-devtools": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Only works with Preact 10.1.0 upwards\n\nDebugging tools for Preact. This extension allows you to inspect the component hierarchy and change properties on the fly.",
+            "homepage": "https://github.com/preactjs/preact-devtools",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "mozPermissions": [
+                "scripting",
+                "storage",
+                "devtools",
+                "<all_urls>"
+            ],
+            "name": "preact-devtools-5.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L34",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "preact-devtools-5.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "preact-devtools",
+        "system": "x86_64-linux",
+        "version": "5.1.0",
+        "_attr": "firefox-addons.preact-devtools",
+        "_repo": "mirdukkkkk"
+    },
+    "nur.repos.mirdukkkkk.firefox-addons.resourceoverride": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An extension to help you gain full control of any website by redirecting traffic, replacing, editing, or inserting new content.",
+            "homepage": "https://github.com/kylepaulsen/ResourceOverride",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "mozPermissions": [
+                "webRequest",
+                "webRequestBlocking",
+                "<all_urls>",
+                "tabs",
+                "devtools",
+                "*://*/*"
+            ],
+            "name": "resourceoverride-1.3.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L49",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "resourceoverride-1.3.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "resourceoverride",
+        "system": "x86_64-linux",
+        "version": "1.3.2",
+        "_attr": "firefox-addons.resourceoverride",
+        "_repo": "mirdukkkkk"
+    },
+    "nur.repos.mirdukkkkk.molten": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/pixelate-it/molten/releases/tag/v0.2.0",
+            "description": "Protobuf-based stream format for recording and replaying collaborative pixel canvases",
+            "homepage": "https://github.com/pixelate-it/molten",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "molten",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "molten",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "mainProgram": "molten",
+            "maintainers": [],
+            "name": "molten-0.2.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/molten/default.nix#L40",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "molten-0.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "molten",
+        "system": "x86_64-linux",
+        "version": "0.2.0",
+        "_attr": "molten",
+        "_repo": "mirdukkkkk"
+    },
     "nur.repos.misuzu.cheap-switch-exporter": {
         "meta": {
             "available": true,
@@ -523383,6 +526287,853 @@
         "_attr": "legionlinuxtui-git",
         "_repo": "nooneknowspeter"
     },
+    "nur.repos.nosugarcoffee.agent-access": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open protocol, CLI, and SDK to provide agents with credentials without exposing their entire vault (official prebuilt release)",
+            "homepage": "https://github.com/bitwarden/agent-access",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "agent-access",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "agent-access",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "aac",
+            "maintainers": [],
+            "name": "agent-access-0.11.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/agent-access/package.nix#L38",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "agent-access-0.11.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "agent-access",
+        "system": "x86_64-linux",
+        "version": "0.11.0",
+        "_attr": "agent-access",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.albert": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://github.com/albertlauncher/albert/blob/refs/tags/v35.1.0/CHANGELOG.md",
+            "description": "Fast and flexible keyboard launcher",
+            "homepage": "https://albertlauncher.github.io",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "albert",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "albert",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "Albert is a desktop agnostic launcher. Its goals are usability and beauty,\nperformance and extensibility. It is written in C++ and based on the Qt\nframework.\n",
+            "mainProgram": "albert",
+            "maintainers": [
+                {
+                    "email": "fedi.jamoussi@protonmail.ch",
+                    "github": "eljamm",
+                    "githubId": 83901271,
+                    "name": "Fedi Jamoussi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/0islhr2y63dadqn260crzzkhx2cyyv2h-source/pkgs/by-name/al/albert/package.nix",
+                "line": 83
+            },
+            "name": "albert-35.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "fedi.jamoussi@protonmail.ch",
+                    "github": "eljamm",
+                    "githubId": 83901271,
+                    "name": "Fedi Jamoussi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/NoSugarCoffee/nur-packages/blob/HEAD/pkgs/by-name/al/albert/package.nix#L73",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "albert-35.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "albert",
+        "system": "x86_64-linux",
+        "version": "35.1.0",
+        "_attr": "albert",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.cida": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Translate and polish text anywhere on macOS with an LLM of your choice",
+            "homepage": "https://github.com/Xuanwo/cida",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cida",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cida",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [],
+            "name": "cida-1.5.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/cida/package.nix#L40",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cida-1.5.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cida",
+        "system": "x86_64-linux",
+        "version": "1.5.1",
+        "_attr": "cida",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.clash-verge-rev": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Clash Meta GUI (official prebuilt macOS app)",
+            "homepage": "https://www.clashverge.dev/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "clash-verge-rev",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "clash-verge-rev",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [],
+            "name": "clash-verge-rev-2.5.8",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/clash-verge-rev/package.nix#L38",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "clash-verge-rev-2.5.8",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "clash-verge-rev",
+        "system": "x86_64-linux",
+        "version": "2.5.8",
+        "_attr": "clash-verge-rev",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.digup": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Search files on your Mac by their content with on-device embeddings",
+            "homepage": "https://github.com/ARahim3/DigUp",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "digup",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "digup",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "digup-0.6.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/digup/package.nix#L40",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "digup-0.6.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "digup",
+        "system": "x86_64-linux",
+        "version": "0.6.1",
+        "_attr": "digup",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.ego-lite": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Chromium-based browser that shares your logged-in state with AI agents, plus its ego-browser automation CLI (official prebuilt macOS app)",
+            "homepage": "https://lite.ego.app/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ego-lite",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ego-lite",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "ego-browser",
+            "maintainers": [],
+            "name": "ego-lite-0.6.0.12",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/ego-lite/package.nix#L84",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ego-lite-0.6.0.12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ego-lite",
+        "system": "x86_64-linux",
+        "version": "0.6.0.12",
+        "_attr": "ego-lite",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.jetbrains-air": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "JetBrains Air, an agentic development environment (official prebuilt macOS app)",
+            "homepage": "https://air.dev/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jetbrains-air",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jetbrains-air",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [],
+            "name": "jetbrains-air-262.1037.6",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/jetbrains-air/package.nix#L54",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "jetbrains-air-262.1037.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jetbrains-air",
+        "system": "x86_64-linux",
+        "version": "262.1037.6",
+        "_attr": "jetbrains-air",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.obs-studio": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Live streaming and screen recording studio (official prebuilt macOS app)",
+            "homepage": "https://obsproject.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "obs-studio",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "obs-studio",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [],
+            "name": "obs-studio-32.2.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/obs-studio/package.nix#L43",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "obs-studio-32.2.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "obs-studio",
+        "system": "x86_64-linux",
+        "version": "32.2.2",
+        "_attr": "obs-studio",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.pulsar": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Community-led hyperhackable text editor (official prebuilt macOS app)",
+            "homepage": "https://pulsar-edit.dev/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pulsar",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pulsar",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "pulsar-1.132.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/pulsar/package.nix#L52",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pulsar-1.132.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pulsar",
+        "system": "x86_64-linux",
+        "version": "1.132.1",
+        "_attr": "pulsar",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.scroll-reverser": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/pilotmoon/Scroll-Reverser/releases/tag/v1.9",
+            "description": "Tool to reverse the direction of scrolling",
+            "homepage": "https://pilotmoon.com/scrollreverser/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "scroll-reverser",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "scroll-reverser",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "corey@zx.dev",
+                    "github": "stackptr",
+                    "githubId": 4542907,
+                    "name": "Corey Johns"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/0islhr2y63dadqn260crzzkhx2cyyv2h-source/pkgs/by-name/sc/scroll-reverser/package.nix",
+                "line": 44
+            },
+            "name": "scroll-reverser-1.9",
+            "nonTeamMaintainers": [
+                {
+                    "email": "corey@zx.dev",
+                    "github": "stackptr",
+                    "githubId": 4542907,
+                    "name": "Corey Johns"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/NoSugarCoffee/nur-packages/blob/HEAD/pkgs/by-name/sc/scroll-reverser/package.nix#L40",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "scroll-reverser-1.9",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "scroll-reverser",
+        "system": "x86_64-linux",
+        "version": "1.9",
+        "_attr": "scroll-reverser",
+        "_repo": "nosugarcoffee"
+    },
     "nur.repos.nousefreak.projecthelper": {
         "meta": {
             "available": true,
@@ -533329,6 +537080,92 @@
         "version": "1.5.2",
         "_attr": "firefly-iii-data-importer",
         "_repo": "phandox"
+    },
+    "nur.repos.pokanop.nostromo": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CLI to manage aliases through simple commands to add and remove scoped aliases and substitutions.",
+            "homepage": "https://nostromo.sh",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nostromo",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nostromo",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "nostromo-0.14.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/pokanop/pkgs/nostromo/default.nix#L47",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nostromo-0.14.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nostromo",
+        "system": "x86_64-linux",
+        "version": "0.14.2",
+        "_attr": "nostromo",
+        "_repo": "pokanop"
     },
     "nur.repos.pq.runway": {
         "meta": {
@@ -829495,6 +833332,274 @@
         "_attr": "kiot",
         "_repo": "sebrut"
     },
+    "nur.repos.sectui.operations": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/sectui/operations/releases/tag/v0.1.2",
+            "description": "CyberChef-like data transformations from the terminal",
+            "homepage": "https://github.com/sectui/operations",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "operations",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "operations",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "ops",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sectui/pkgs/operations/default.nix",
+                "line": 28
+            },
+            "name": "operations-0.1.2",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sectui/pkgs/operations/default.nix#L23",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "operations-0.1.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "operations",
+        "system": "x86_64-linux",
+        "version": "0.1.2",
+        "_attr": "operations",
+        "_repo": "sectui"
+    },
+    "nur.repos.sectui.subdomain-finder": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/sectui/subdomain-finder/releases/tag/v0.1.0",
+            "description": "Passive subdomain enumeration from public sources",
+            "homepage": "https://github.com/sectui/subdomain-finder",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "subdomain-finder",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "subdomain-finder",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "subdomain-finder",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sectui/pkgs/subdomain-finder/default.nix",
+                "line": 28
+            },
+            "name": "subdomain-finder-0.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sectui/pkgs/subdomain-finder/default.nix#L23",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "subdomain-finder-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "subdomain-finder",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "subdomain-finder",
+        "_repo": "sectui"
+    },
     "nur.repos.sedlund.deploy-rs": {
         "meta": {
             "available": true,
@@ -950598,7 +954703,7 @@
             },
             "mainProgram": "ccpocket-bridge",
             "maintainers": [],
-            "name": "ccpocket-bridge-1.88.5",
+            "name": "ccpocket-bridge-1.89.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -950639,14 +954744,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ccpocket-bridge-1.88.5",
+        "name": "ccpocket-bridge-1.89.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ccpocket-bridge",
         "system": "x86_64-linux",
-        "version": "1.88.5",
+        "version": "1.89.0",
         "_attr": "ccpocket-bridge",
         "_repo": "tnmt"
     },
@@ -974613,7 +978718,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.32",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.34",
             "description": "Proxy server providing OpenAI-compatible APIs for CLI models",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -974658,7 +978763,7 @@
             },
             "mainProgram": "cli-proxy-api",
             "maintainers": [],
-            "name": "cliproxyapi-8.0.32",
+            "name": "cliproxyapi-8.0.34",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -974720,14 +978825,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.32",
+        "name": "cliproxyapi-8.0.34",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.32",
+        "version": "8.0.34",
         "_attr": "cliproxyapi",
         "_repo": "trev"
     },
@@ -978710,7 +982815,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.167.1",
+            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.169.0",
             "description": "Cross-platform dependency automation, with patches for nix",
             "homepage": "https://github.com/renovatebot/renovate",
             "identifiers": {
@@ -978755,7 +982860,7 @@
             },
             "mainProgram": "renovate",
             "maintainers": [],
-            "name": "renovate-44.167.1",
+            "name": "renovate-44.169.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -978793,14 +982898,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "renovate-44.167.1",
+        "name": "renovate-44.169.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "renovate",
         "system": "x86_64-linux",
-        "version": "44.167.1",
+        "version": "44.169.0",
         "_attr": "renovate",
         "_repo": "trev"
     },
