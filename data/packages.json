@@ -23131,8 +23131,8 @@
     },
     "nur.repos.Ev357.obsidian-git": {
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "changelog": "https://github.com/Vinzent03/obsidian-git/releases/tag/2.42.0",
             "description": "Integrate Git version control with automatic backup and other advanced features.",
             "homepage": "https://github.com/Vinzent03/obsidian-git",
@@ -23184,10 +23184,6 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Ev357/pkgs/obsidian-git/default.nix#L59",
             "problems": {
-                "broken": {
-                    "kind": "broken",
-                    "message": "This package is broken."
-                },
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
