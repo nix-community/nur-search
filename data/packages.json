@@ -49768,7 +49768,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/buildgrid/package.nix",
                 "line": 65
             },
-            "name": "buildgrid-0.8.15",
+            "name": "buildgrid-0.8.17",
             "nonTeamMaintainers": [
                 {
                     "email": "skye@soss.website",
@@ -49813,7 +49813,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "buildgrid-0.8.15",
+        "name": "buildgrid-0.8.17",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -49821,7 +49821,7 @@
         },
         "pname": "buildgrid",
         "system": "x86_64-linux",
-        "version": "0.8.15",
+        "version": "0.8.17",
         "_attr": "buildgrid",
         "_repo": "Skyb0rg007"
     },
@@ -50361,7 +50361,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/cdash/package.nix",
                 "line": 92
             },
-            "name": "cdash-5.4.0",
+            "name": "cdash-5.5.0",
             "nonTeamMaintainers": [
                 {
                     "email": "skye@soss.website",
@@ -50387,14 +50387,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cdash-5.4.0",
+        "name": "cdash-5.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cdash",
         "system": "x86_64-linux",
-        "version": "5.4.0",
+        "version": "5.5.0",
         "_attr": "cdash",
         "_repo": "Skyb0rg007"
     },
@@ -53188,7 +53188,7 @@
             },
             "mainProgram": "mkosi",
             "maintainers": [],
-            "name": "mkosi-HEAD-27.1-unstable-2026-10-09",
+            "name": "mkosi-HEAD-27.1-unstable-2026-10-16",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out",
@@ -53230,7 +53230,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mkosi-HEAD-27.1-unstable-2026-10-09",
+        "name": "mkosi-HEAD-27.1-unstable-2026-10-16",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -53239,7 +53239,7 @@
         },
         "pname": "mkosi-HEAD",
         "system": "x86_64-linux",
-        "version": "27.1-unstable-2026-10-09",
+        "version": "27.1-unstable-2026-10-16",
         "_attr": "mkosi-HEAD",
         "_repo": "Skyb0rg007"
     },
@@ -58411,7 +58411,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/sequin/package.nix",
                 "line": 76
             },
-            "name": "sequin-0-unstable-2026-10-08",
+            "name": "sequin-0-unstable-2026-10-19",
             "nonTeamMaintainers": [
                 {
                     "email": "skye@soss.website",
@@ -58433,14 +58433,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sequin-0-unstable-2026-10-08",
+        "name": "sequin-0-unstable-2026-10-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sequin",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-08",
+        "version": "0-unstable-2026-10-19",
         "_attr": "sequin",
         "_repo": "Skyb0rg007"
     },
@@ -483750,6 +483750,116 @@
         "system": "x86_64-linux",
         "version": "26200.6584.250915-1905",
         "_attr": "windows-fonts",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.yaqmc": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/YAQMC/YAQMC/releases/tag/v0.1.1",
+            "description": "Unofficial QQ Music client with a native Rust playback core",
+            "homepage": "https://github.com/YAQMC/YAQMC",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "yaqmc",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "yaqmc",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Affero General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "agpl3Only",
+                    "spdxId": "AGPL-3.0-only",
+                    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+                }
+            ],
+            "mainProgram": "yaqmc",
+            "maintainers": [],
+            "name": "yaqmc-0.1.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/ya/yaqmc/package.nix#L154",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "yaqmc-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "yaqmc",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "yaqmc",
         "_repo": "moraxyc"
     },
     "nur.repos.moredhel.emacs": {
@@ -983111,320 +983221,6 @@
         "system": "x86_64-linux",
         "version": "2077-2.0.1-unstable-2026-02-28",
         "_attr": "cybergrub2077",
-        "_repo": "uriotv"
-    },
-    "nur.repos.uriotv.linux-cachyos-bore-x86_64-v3": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [],
-            "broken": false,
-            "description": "Linux CachyOS Kernel",
-            "homepage": "https://www.kernel.org/",
-            "identifiers": {
-                "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "o",
-                    "product": "linux_kernel",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*",
-                    "update": "*",
-                    "vendor": "linux",
-                    "version": "7.2.11"
-                },
-                "possibleCPEs": [
-                    {
-                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
-                        "cpeParts": {
-                            "edition": "*",
-                            "language": "*",
-                            "other": "*",
-                            "part": "o",
-                            "product": "linux_kernel",
-                            "sw_edition": "*",
-                            "target_hw": "*",
-                            "target_sw": "*",
-                            "update": "*",
-                            "vendor": "linux",
-                            "version": "7.2.11"
-                        }
-                    }
-                ],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "o",
-                        "product": "linux_kernel",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*",
-                        "update": "*",
-                        "vendor": "linux",
-                        "version": "7.2.11"
-                    },
-                    "possibleCPEs": [
-                        {
-                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
-                            "cpeParts": {
-                                "edition": "*",
-                                "language": "*",
-                                "other": "*",
-                                "part": "o",
-                                "product": "linux_kernel",
-                                "sw_edition": "*",
-                                "target_hw": "*",
-                                "target_sw": "*",
-                                "update": "*",
-                                "vendor": "linux",
-                                "version": "7.2.11"
-                            }
-                        }
-                    ],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "aseipp@pobox.com",
-                    "github": "thoughtpolice",
-                    "githubId": 3416,
-                    "name": "Austin Seipp"
-                },
-                {
-                    "email": "hi@alyssa.is",
-                    "github": "alyssais",
-                    "githubId": 2768870,
-                    "keys": [
-                        {
-                            "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
-                        }
-                    ],
-                    "matrix": "@qyliss:fairydust.space",
-                    "name": "Alyssa Ross"
-                },
-                {
-                    "email": "me@0upti.me",
-                    "github": "K900",
-                    "githubId": 386765,
-                    "matrix": "@k900:0upti.me",
-                    "name": "Ilya K."
-                },
-                {
-                    "email": "maximilian@mbosch.me",
-                    "github": "Ma27",
-                    "githubId": 6025220,
-                    "matrix": "@ma27:nicht-so.sexy",
-                    "name": "Maximilian Bosch"
-                },
-                {
-                    "github": "zowoq",
-                    "githubId": 59103226,
-                    "name": "zowoq"
-                },
-                {
-                    "email": "balsoft75@gmail.com",
-                    "github": "balsoft",
-                    "githubId": 18467667,
-                    "name": "Alexander Bantyev"
-                },
-                {
-                    "email": "andreas@rammhold.de",
-                    "github": "andir",
-                    "githubId": 638836,
-                    "name": "Andreas Rammhold"
-                },
-                {
-                    "email": "pyrox@pyrox.dev",
-                    "github": "pyrox0",
-                    "githubId": 35778371,
-                    "keys": [
-                        {
-                            "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
-                        }
-                    ],
-                    "matrix": "@pyrox:pyrox.dev",
-                    "name": "Pyrox"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/nix/store/0islhr2y63dadqn260crzzkhx2cyyv2h-source/pkgs/os-specific/linux/kernel/build.nix",
-                "line": 580
-            },
-            "name": "linux-cachyos-bore-x86_64-v3-7.2.11",
-            "nonTeamMaintainers": [
-                {
-                    "email": "aseipp@pobox.com",
-                    "github": "thoughtpolice",
-                    "githubId": 3416,
-                    "name": "Austin Seipp"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/pkgs/linux-cachyos-bore-x86_64-v3/upstream/kernel-cachyos/mkCachyKernel.nix#L174",
-            "problems": {},
-            "teams": [
-                {
-                    "github": "linux-kernel",
-                    "githubId": 13371617,
-                    "githubMaintainers": [
-                        {
-                            "email": "hi@alyssa.is",
-                            "github": "alyssais",
-                            "githubId": 2768870,
-                            "keys": [
-                                {
-                                    "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
-                                }
-                            ],
-                            "matrix": "@qyliss:fairydust.space",
-                            "name": "Alyssa Ross"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "hi@alyssa.is",
-                            "github": "alyssais",
-                            "githubId": 2768870,
-                            "keys": [
-                                {
-                                    "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
-                                }
-                            ],
-                            "matrix": "@qyliss:fairydust.space",
-                            "name": "Alyssa Ross"
-                        },
-                        {
-                            "email": "me@0upti.me",
-                            "github": "K900",
-                            "githubId": 386765,
-                            "matrix": "@k900:0upti.me",
-                            "name": "Ilya K."
-                        },
-                        {
-                            "email": "maximilian@mbosch.me",
-                            "github": "Ma27",
-                            "githubId": 6025220,
-                            "matrix": "@ma27:nicht-so.sexy",
-                            "name": "Maximilian Bosch"
-                        },
-                        {
-                            "github": "zowoq",
-                            "githubId": 59103226,
-                            "name": "zowoq"
-                        }
-                    ],
-                    "scope": "Maintain the Linux kernel",
-                    "shortName": "Linux kernel"
-                },
-                {
-                    "github": "security-review",
-                    "githubId": 16430758,
-                    "githubMaintainers": [
-                        {
-                            "email": "balsoft75@gmail.com",
-                            "github": "balsoft",
-                            "githubId": 18467667,
-                            "name": "Alexander Bantyev"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "balsoft75@gmail.com",
-                            "github": "balsoft",
-                            "githubId": 18467667,
-                            "name": "Alexander Bantyev"
-                        },
-                        {
-                            "email": "andreas@rammhold.de",
-                            "github": "andir",
-                            "githubId": 638836,
-                            "name": "Andreas Rammhold"
-                        },
-                        {
-                            "email": "pyrox@pyrox.dev",
-                            "github": "pyrox0",
-                            "githubId": 35778371,
-                            "keys": [
-                                {
-                                    "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
-                                }
-                            ],
-                            "matrix": "@pyrox:pyrox.dev",
-                            "name": "Pyrox"
-                        }
-                    ],
-                    "scope": "Reviews changes to core packages for Nixpkgs security vulnerabilities: https://github.com/NixOS/nixpkgs/issues/494349",
-                    "shortName": "Security review"
-                }
-            ],
-            "teamsPosition": {
-                "column": 7,
-                "file": "/nix/store/0islhr2y63dadqn260crzzkhx2cyyv2h-source/pkgs/os-specific/linux/kernel/build.nix",
-                "line": 581
-            },
-            "timeout": 14400,
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "linux-cachyos-bore-x86_64-v3-7.2.11",
-        "outputName": "out",
-        "outputs": {
-            "dev": null,
-            "modules": null,
-            "out": null
-        },
-        "pname": "linux-cachyos-bore-x86_64-v3",
-        "system": "x86_64-linux",
-        "version": "7.2.11",
-        "_attr": "linux-cachyos-bore-x86_64-v3",
         "_repo": "uriotv"
     },
     "nur.repos.uriotv.nmssaveeditor": {
