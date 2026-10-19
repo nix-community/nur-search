@@ -183357,7 +183357,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/daed-next-git/default.nix",
                 "line": 169
             },
-            "name": "daed-next-git-0-unstable-2026-10-17",
+            "name": "daed-next-git-0-unstable-2026-10-18",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -183396,14 +183396,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "daed-next-git-0-unstable-2026-10-17",
+        "name": "daed-next-git-0-unstable-2026-10-18",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "daed-next-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-17",
+        "version": "0-unstable-2026-10-18",
         "_attr": "daed-next-git",
         "_repo": "ccicnce113424"
     },
@@ -372672,6 +372672,166 @@
         "system": "x86_64-linux",
         "version": "2.8.3",
         "_attr": "qmd",
+        "_repo": "mattrobenolt"
+    },
+    "nur.repos.mattrobenolt.skills-ref": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Reference library and CLI for Agent Skills",
+            "homepage": "https://github.com/agentskills/agentskills/tree/main/skills-ref",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "skills-ref",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "skills-ref",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "skills-ref",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mattrobenolt/pkgs/skills-ref/package.nix",
+                "line": 41
+            },
+            "name": "skills-ref-0.1.0-unstable-2026-08-09",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mattrobenolt/pkgs/skills-ref/package.nix#L38",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "skills-ref-0.1.0-unstable-2026-08-09",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "skills-ref",
+        "system": "x86_64-linux",
+        "version": "0.1.0-unstable-2026-08-09",
+        "_attr": "skills-ref",
         "_repo": "mattrobenolt"
     },
     "nur.repos.mattrobenolt.tracy": {
@@ -936844,6 +937004,94 @@
         "_attr": "r-maple-mono-nf-cn",
         "_repo": "so1ve"
     },
+    "nur.repos.so1ve.rea": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Reverse engineering CLI and MCP server for AI agents",
+            "homepage": "https://github.com/morluto/rea",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rea",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rea",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "rea",
+            "maintainers": [],
+            "name": "rea-6.7.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/rea/default.nix#L65",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rea-6.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rea",
+        "system": "x86_64-linux",
+        "version": "6.7.0",
+        "_attr": "rea",
+        "_repo": "so1ve"
+    },
     "nur.repos.so1ve.rime-lmdg": {
         "meta": {
             "available": true,
@@ -936891,7 +937139,7 @@
                 "url": "https://spdx.org/licenses/CC-BY-4.0.html"
             },
             "maintainers": [],
-            "name": "rime-lmdg-0-unstable-2026-10-13",
+            "name": "rime-lmdg-0-unstable-2026-10-17",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -936993,14 +937241,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-lmdg-0-unstable-2026-10-13",
+        "name": "rime-lmdg-0-unstable-2026-10-17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-lmdg",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-13",
+        "version": "0-unstable-2026-10-17",
         "_attr": "rime-lmdg",
         "_repo": "so1ve"
     },
@@ -937008,7 +937256,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/amzxyz/rime-wanxiang/releases/tag/v18.1.4",
+            "changelog": "https://github.com/amzxyz/rime-wanxiang/releases/tag/v18.1.5",
             "description": "Wanxiang Pinyin schemas and dictionaries for Rime",
             "homepage": "https://github.com/amzxyz/rime-wanxiang",
             "identifiers": {
@@ -937052,7 +937300,7 @@
                 "url": "https://spdx.org/licenses/CC-BY-4.0.html"
             },
             "maintainers": [],
-            "name": "rime-wanxiang-18.1.4",
+            "name": "rime-wanxiang-18.1.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -937148,14 +937396,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-wanxiang-18.1.4",
+        "name": "rime-wanxiang-18.1.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-wanxiang",
         "system": "x86_64-linux",
-        "version": "18.1.4",
+        "version": "18.1.5",
         "_attr": "rime-wanxiang",
         "_repo": "so1ve"
     },
