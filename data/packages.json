@@ -104416,7 +104416,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/avycado13/pkgs/anylinuxfs-gui/default.nix",
-                "line": 35
+                "line": 34
             },
             "name": "anylinuxfs-gui-0.7.2",
             "nonTeamMaintainers": [],
@@ -104426,7 +104426,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/avycado13/pkgs/anylinuxfs-gui/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/avycado13/pkgs/anylinuxfs-gui/default.nix#L31",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -104529,7 +104529,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/avycado13/pkgs/brew2nur/default.nix",
-                "line": 37
+                "line": 42
             },
             "name": "brew2nur-0.1.0",
             "nonTeamMaintainers": [],
@@ -104583,7 +104583,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/avycado13/pkgs/brew2nur/default.nix#L35",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/avycado13/pkgs/brew2nur/default.nix#L40",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -104602,6 +104602,86 @@
         "system": "x86_64-linux",
         "version": "0.1.0",
         "_attr": "brew2nur",
+        "_repo": "avycado13"
+    },
+    "nur.repos.avycado13.fx": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tiny, open, native coding agent",
+            "homepage": "https://fx.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "fx",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "fx",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "fx",
+            "maintainers": [],
+            "name": "fx-0.0.14",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/avycado13/pkgs/fx/default.nix#L51",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fx-0.0.14",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fx",
+        "system": "x86_64-linux",
+        "version": "0.0.14",
+        "_attr": "fx",
         "_repo": "avycado13"
     },
     "nur.repos.avycado13.gitcredits": {
@@ -201857,7 +201937,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Gentleman-Programming/engram/releases/tag/v3.3.2",
+            "changelog": "https://github.com/Gentleman-Programming/engram/releases/tag/v3.4.0",
             "description": "Persistent memory system for AI coding agents",
             "homepage": "https://github.com/Gentleman-Programming/engram",
             "identifiers": {
@@ -201915,7 +201995,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/congee/pkgs/engram/default.nix",
                 "line": 41
             },
-            "name": "engram-3.3.2",
+            "name": "engram-3.4.0",
             "nonTeamMaintainers": [
                 {
                     "email": "changshengwu@pm.me",
@@ -201965,14 +202045,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "engram-3.3.2",
+        "name": "engram-3.4.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "engram",
         "system": "x86_64-linux",
-        "version": "3.3.2",
+        "version": "3.4.0",
         "_attr": "engram",
         "_repo": "congee"
     },
@@ -479109,6 +479189,172 @@
         "system": "x86_64-linux",
         "version": "0.4.0",
         "_attr": "firefox-addons.indicatetls",
+        "_repo": "mirdukkkkk"
+    },
+    "nur.repos.mirdukkkkk.firefox-addons.media-harvest": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Download videos and images from twitter or TweetDeck with only one click.",
+            "homepage": "https://github.com/EltonChou/TwitterMediaHarvest",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [],
+            "mozPermissions": [
+                "downloads",
+                "cookies",
+                "storage",
+                "notifications",
+                "unlimitedStorage",
+                "alarms",
+                "*://twitter.com/*",
+                "*://mobile.twitter.com/*",
+                "*://api.twitter.com/*",
+                "*://tweetdeck.twitter.com/*",
+                "*://x.com/*",
+                "*://*.x.com/*"
+            ],
+            "name": "media-harvest-4.5.7",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/media-harvest.nix#L16",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "media-harvest-4.5.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "media-harvest",
+        "system": "x86_64-linux",
+        "version": "4.5.7",
+        "_attr": "firefox-addons.media-harvest",
         "_repo": "mirdukkkkk"
     },
     "nur.repos.mirdukkkkk.firefox-addons.preact-devtools": {
@@ -987703,7 +987949,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/MichaelKinsy/PiG/releases/tag/v0.5.0",
+            "changelog": "https://github.com/MichaelKinsy/PiG/releases/tag/v0.5.1",
             "description": "Pi coding agent rebuilt in Go as a single native binary",
             "homepage": "https://pi-in-go.dev/",
             "identifiers": {
@@ -987753,7 +987999,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/uriotv/pkgs/pig/default.nix",
                 "line": 37
             },
-            "name": "pig-0.5.0",
+            "name": "pig-0.5.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -987815,14 +988061,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pig-0.5.0",
+        "name": "pig-0.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pig",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "_attr": "pig",
         "_repo": "uriotv"
     },
