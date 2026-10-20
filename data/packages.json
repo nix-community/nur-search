@@ -68054,7 +68054,7 @@
                 "file": "/nix/store/88r5p1wfmmhapm6cjhi20l7ip3h907kj-source/pkgs/by-name/nu/nu_scripts/package.nix",
                 "line": 41
             },
-            "name": "nu_scripts-0-unstable-2026-10-19",
+            "name": "nu_scripts-0-unstable-2026-10-20",
             "nonTeamMaintainers": [
                 {
                     "email": "kiran@ostrolenk.co.uk",
@@ -68123,14 +68123,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nu_scripts-0-unstable-2026-10-19",
+        "name": "nu_scripts-0-unstable-2026-10-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nu_scripts",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-19",
+        "version": "0-unstable-2026-10-20",
         "_attr": "nu_scripts_git",
         "_repo": "abszero"
     },
@@ -969060,7 +969060,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/ghostex/default.nix",
                 "line": 185
             },
-            "name": "ghostex-10.27.0",
+            "name": "ghostex-10.28.0",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -969088,14 +969088,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghostex-10.27.0",
+        "name": "ghostex-10.28.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghostex",
         "system": "x86_64-linux",
-        "version": "10.27.0",
+        "version": "10.28.0",
         "_attr": "ghostex",
         "_repo": "toyvo"
     },
@@ -970812,7 +970812,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.3-206",
+            "name": "papermc-26.3-207",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -970843,14 +970843,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.3-206",
+        "name": "papermc-26.3-207",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.3-206",
+        "version": "26.3-207",
         "_attr": "papermc",
         "_repo": "toyvo"
     },
@@ -1123859,6 +1123859,100 @@
         "_attr": "python3Packages.zhconv-rs",
         "_repo": "zhyiheihei"
     },
+    "nur.repos.zhyiheihei.qingjian": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/qingjian-team/qingjian/releases/tag/v0.2.1",
+            "description": "Qingjian pinyin input method with translation hints for language learners",
+            "homepage": "https://qingjian.app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "qingjian",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "qingjian",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "qingjian-linux-server",
+            "maintainers": [
+                {
+                    "github": "zhyiheihei",
+                    "name": "zhyiheihei"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/qingjian/default.nix",
+                "line": 52
+            },
+            "name": "qingjian-0.2.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "zhyiheihei",
+                    "name": "zhyiheihei"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zhyiheihei/pkgs/uncategorized/qingjian/default.nix#L48",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "qingjian-0.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "qingjian",
+        "system": "x86_64-linux",
+        "version": "0.2.1",
+        "_attr": "qingjian",
+        "_repo": "zhyiheihei"
+    },
     "nur.repos.zhyiheihei.sublinkpro": {
         "meta": {
             "available": true,
@@ -1125685,6 +1125779,100 @@
         "system": "x86_64-linux",
         "version": "4.27.1",
         "_attr": "uncategorized.nexus-media-web",
+        "_repo": "zhyiheihei"
+    },
+    "nur.repos.zhyiheihei.uncategorized.qingjian": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/qingjian-team/qingjian/releases/tag/v0.2.1",
+            "description": "Qingjian pinyin input method with translation hints for language learners",
+            "homepage": "https://qingjian.app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "qingjian",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "qingjian",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "qingjian-linux-server",
+            "maintainers": [
+                {
+                    "github": "zhyiheihei",
+                    "name": "zhyiheihei"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/qingjian/default.nix",
+                "line": 52
+            },
+            "name": "qingjian-0.2.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "zhyiheihei",
+                    "name": "zhyiheihei"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zhyiheihei/pkgs/uncategorized/qingjian/default.nix#L48",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "qingjian-0.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "qingjian",
+        "system": "x86_64-linux",
+        "version": "0.2.1",
+        "_attr": "uncategorized.qingjian",
         "_repo": "zhyiheihei"
     },
     "nur.repos.zhyiheihei.uncategorized.sublinkpro": {
