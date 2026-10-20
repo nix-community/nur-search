@@ -280573,7 +280573,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "shopware-cli-0.19.1",
+            "name": "shopware-cli-0.19.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -280600,14 +280600,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "shopware-cli-0.19.1",
+        "name": "shopware-cli-0.19.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "shopware-cli",
         "system": "x86_64-linux",
-        "version": "0.19.1",
+        "version": "0.19.2",
         "_attr": "shopware-cli",
         "_repo": "friendsofshopware"
     },
@@ -376169,7 +376169,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mattrobenolt/pkgs/hunk/package.nix",
                 "line": 67
             },
-            "name": "hunk-0.23.0",
+            "name": "hunk-0.24.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -376196,14 +376196,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hunk-0.23.0",
+        "name": "hunk-0.24.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hunk",
         "system": "x86_64-linux",
-        "version": "0.23.0",
+        "version": "0.24.0",
         "_attr": "hunk",
         "_repo": "mattrobenolt"
     },
@@ -978693,6 +978693,43 @@
         "system": "x86_64-linux",
         "version": "26.2-2633",
         "_attr": "purpur-26_2",
+        "_repo": "toyvo"
+    },
+    "nur.repos.toyvo.repo-maintainer": {
+        "meta": {
+            "description": "Durable Forgejo repo maintainer: polls CI, reruns infra cancels, opens fix PRs",
+            "homepage": "https://git.toyvo.dev/toyvo/nixcfg",
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "repo-maintainer",
+            "maintainers": [
+                {
+                    "email": "Collin@Diekvoss.com",
+                    "github": "ToyVo",
+                    "githubId": 5168912,
+                    "matrix": "@toyvo:matrix.org",
+                    "name": "Collin Diekvoss"
+                }
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/toyvo"
+        },
+        "name": "repo-maintainer",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "repo-maintainer",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "repo-maintainer",
         "_repo": "toyvo"
     },
     "nur.repos.toyvo.setup-sops": {
