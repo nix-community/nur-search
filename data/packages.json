@@ -307237,6 +307237,190 @@
         "_attr": "termbin",
         "_repo": "ilya-fedin"
     },
+    "nur.repos.ilya-fedin.ttf-croscore": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Font files available from Google Fonts",
+            "homepage": "https://fonts.google.com",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "google-fonts",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "google-fonts",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "SIL Open Font License 1.1",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "ofl",
+                    "spdxId": "OFL-1.1",
+                    "url": "https://spdx.org/licenses/OFL-1.1.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Ubuntu Font License 1.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "ufl",
+                    "spdxId": "Ubuntu-font-1.0",
+                    "url": "https://spdx.org/licenses/Ubuntu-font-1.0.html"
+                }
+            ],
+            "maintainers": [],
+            "name": "google-fonts-0-unstable-2026-03-13",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/ilya-fedin/nur-repository/blob/HEAD/pkgs/by-name/go/google-fonts/package.nix#L73",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "google-fonts-0-unstable-2026-03-13",
+        "outputName": "out",
+        "outputs": {
+            "adobeBlank": null,
+            "out": null
+        },
+        "pname": "google-fonts",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-03-13",
+        "_attr": "ttf-croscore",
+        "_repo": "ilya-fedin"
+    },
     "nur.repos.infgotoinf.UnifontExMono": {
         "meta": {
             "available": true,
@@ -382244,7 +382428,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/DeterminateSystems/nix-src/releases/tag/v3.23.2",
+            "changelog": "https://github.com/DeterminateSystems/nix-src/releases/tag/v3.23.3",
             "description": "Nix package manager for teams of any size",
             "homepage": "https://github.com/DeterminateSystems/nix-src",
             "identifiers": {
@@ -382299,10 +382483,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/nix/store/rlfzaqa6hcl93jgkc8g2k4b5r831v08d-source/packaging/everything.nix",
+                "file": "/nix/store/4nms3n1sl4rrqwy04iiffqxff4qk8by3-source/packaging/everything.nix",
                 "line": 235
             },
-            "name": "determinate-nix-3.23.2",
+            "name": "determinate-nix-3.23.3",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -382339,7 +382523,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "determinate-nix-3.23.2",
+        "name": "determinate-nix-3.23.3",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -382350,7 +382534,7 @@
         },
         "pname": "determinate-nix",
         "system": "x86_64-linux",
-        "version": "3.23.2",
+        "version": "3.23.3",
         "_attr": "determinate-nix",
         "_repo": "merrkry"
     },
@@ -988487,12 +988671,12 @@
             "license": {
                 "deprecated": false,
                 "free": true,
-                "fullName": "MIT License",
+                "fullName": "The Unlicense",
                 "licenseType": "simple",
                 "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "shortName": "unlicense",
+                "spdxId": "Unlicense",
+                "url": "https://spdx.org/licenses/Unlicense.html"
             },
             "maintainers": [],
             "name": "cyber-grub-2077-2.0.1-unstable-2026-02-28",
