@@ -29128,7 +29128,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Greep/pkgs/feishin-dev/default.nix",
                 "line": 147
             },
-            "name": "feishin-1.17.0-unstable-2026-10-18",
+            "name": "feishin-1.17.0-unstable-2026-10-20",
             "nonTeamMaintainers": [
                 {
                     "email": "greep@greep.fr",
@@ -29198,14 +29198,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "feishin-1.17.0-unstable-2026-10-18",
+        "name": "feishin-1.17.0-unstable-2026-10-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "feishin",
         "system": "x86_64-linux",
-        "version": "1.17.0-unstable-2026-10-18",
+        "version": "1.17.0-unstable-2026-10-20",
         "_attr": "feishin-dev",
         "_repo": "Greep"
     },
@@ -383106,7 +383106,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.1-nightly.20261018.3285",
+            "changelog": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.1-nightly.20261018.3335",
             "description": "Web interface for coding agents",
             "homepage": "https://github.com/pingdotgg/t3code",
             "identifiers": {
@@ -383163,7 +383163,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/t3code-bin/unwrapped.nix",
                 "line": 65
             },
-            "name": "t3code-bin-unwrapped-0.1.1-nightly.20261018.3285",
+            "name": "t3code-bin-unwrapped-0.1.1-nightly.20261018.3335",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -383189,14 +383189,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "t3code-bin-0.1.1-nightly.20261018.3285",
+        "name": "t3code-bin-0.1.1-nightly.20261018.3335",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "t3code-bin",
         "system": "x86_64-linux",
-        "version": "0.1.1-nightly.20261018.3285",
+        "version": "0.1.1-nightly.20261018.3335",
         "_attr": "t3code-nightly-bin",
         "_repo": "merrkry"
     },
@@ -480044,7 +480044,7 @@
     },
     "nur.repos.mirdukkkkk.firefox-addons.flagfox": {
         "meta": {
-            "available": false,
+            "available": true,
             "broken": false,
             "description": "Displays a country flag depicting the location of the current website's server and provides a multitude of tools such as site safety checks, whois, translation, similar sites, validation, URL shortening, and more...",
             "homepage": "https://flagfox.wordpress.com/",
@@ -480076,12 +480076,6 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "Flagfox License",
-                "shortName": "flagfox",
-                "url": "https://addons.mozilla.org/en-US/firefox/addon/flagfox/license/"
-            },
             "maintainers": [],
             "mozPermissions": [
                 "storage",
@@ -480189,7 +480183,7 @@
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
             },
-            "unfree": true,
+            "unfree": false,
             "unsupported": false
         },
         "name": "flagfox-6.2.6",
@@ -480342,7 +480336,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L59",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L53",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -480672,7 +480666,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L81",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L75",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -480830,7 +480824,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L107",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L101",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -480990,7 +480984,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L122",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L116",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481150,7 +481144,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L144",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L138",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481310,7 +481304,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L166",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L160",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481487,7 +481481,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L188",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/firefox-addons/generated.nix#L182",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -835516,6 +835510,140 @@
         "version": "1b516256825214540192fe45de2a86018a05301b",
         "_attr": "kiot",
         "_repo": "sebrut"
+    },
+    "nur.repos.sectui.cheatmd": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/cheatmd-dev/cheatmd/releases/tag/v1.0.0",
+            "description": "Executable Markdown cheatsheets",
+            "homepage": "https://github.com/cheatmd-dev/cheatmd",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cheatmd",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cheatmd",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "cheatmd",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sectui/pkgs/cheatmd/default.nix",
+                "line": 44
+            },
+            "name": "cheatmd-1.0.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sectui/pkgs/cheatmd/default.nix#L39",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cheatmd-1.0.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cheatmd",
+        "system": "x86_64-linux",
+        "version": "1.0.0",
+        "_attr": "cheatmd",
+        "_repo": "sectui"
     },
     "nur.repos.sectui.operations": {
         "meta": {
