@@ -102393,7 +102393,7 @@
             },
             "mainProgram": "chat-on-steroids",
             "maintainers": [],
-            "name": "chat-on-steroids-2.1.41",
+            "name": "chat-on-steroids-2.1.43",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -102417,14 +102417,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "chat-on-steroids-2.1.41",
+        "name": "chat-on-steroids-2.1.43",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chat-on-steroids",
         "system": "x86_64-linux",
-        "version": "2.1.41",
+        "version": "2.1.43",
         "_attr": "chat-on-steroids",
         "_repo": "arch-fan"
     },
@@ -102530,7 +102530,7 @@
             },
             "mainProgram": "limusic",
             "maintainers": [],
-            "name": "limusic-1.2.0",
+            "name": "limusic-1.3.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -102554,14 +102554,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "limusic-1.2.0",
+        "name": "limusic-1.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "limusic",
         "system": "x86_64-linux",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "_attr": "limusic",
         "_repo": "arch-fan"
     },
@@ -102690,7 +102690,7 @@
             },
             "mainProgram": "rpcs3",
             "maintainers": [],
-            "name": "rpcs3-0.0.43-20336",
+            "name": "rpcs3-0.0.43-20355",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -102714,14 +102714,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rpcs3-0.0.43-20336",
+        "name": "rpcs3-0.0.43-20355",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3",
         "system": "x86_64-linux",
-        "version": "0.0.43-20336",
+        "version": "0.0.43-20355",
         "_attr": "rpcs3-bin",
         "_repo": "arch-fan"
     },
@@ -186377,6 +186377,128 @@
         "system": "x86_64-linux",
         "version": "2026.10.15.native-api.1",
         "_attr": "honk-core",
+        "_repo": "ccicnce113424"
+    },
+    "nur.repos.ccicnce113424.honk-tool": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "CLI toolbox for honk: subscription checks, datapath diagnostics and geo database search",
+            "homepage": "https://github.com/Glassyiris/honk",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "honk-tool",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "honk-tool",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "honk-tool",
+            "maintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/honk-tool/package.nix",
+                "line": 68
+            },
+            "name": "honk-tool-2026.10.15.native-api.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ccicnce113424/pkgs/honk-tool/package.nix#L65",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "honk-tool-2026.10.15.native-api.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "honk-tool",
+        "system": "x86_64-linux",
+        "version": "2026.10.15.native-api.1",
+        "_attr": "honk-tool",
         "_repo": "ccicnce113424"
     },
     "nur.repos.ccicnce113424.jj-lsp": {
@@ -325211,7 +325333,7 @@
             },
             "mainProgram": "apple-reminders-server",
             "maintainers": [],
-            "name": "apple-reminders-server-0-unstable-2026-10-20",
+            "name": "apple-reminders-server-0-unstable-2026-10-21",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -325229,14 +325351,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "apple-reminders-server-0-unstable-2026-10-20",
+        "name": "apple-reminders-server-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "apple-reminders-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "apple-reminders-server",
         "_repo": "josh"
     },
@@ -327205,7 +327327,7 @@
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [],
-            "name": "iterm2-shell-integration-0-unstable-2026-10-12",
+            "name": "iterm2-shell-integration-0-unstable-2026-10-20",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -327223,14 +327345,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "iterm2-shell-integration-0-unstable-2026-10-12",
+        "name": "iterm2-shell-integration-0-unstable-2026-10-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "iterm2-shell-integration",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-12",
+        "version": "0-unstable-2026-10-20",
         "_attr": "iterm2-shell-integration",
         "_repo": "josh"
     },
@@ -360960,7 +361082,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/dgop/default.nix",
                 "line": 40
             },
-            "name": "dgop-1.6.2",
+            "name": "dgop-2.0.0",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -361003,14 +361125,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dgop-1.6.2",
+        "name": "dgop-2.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dgop",
         "system": "x86_64-linux",
-        "version": "1.6.2",
+        "version": "2.0.0",
         "_attr": "dgop",
         "_repo": "lonerOrz"
     },
@@ -361312,7 +361434,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fabric/default.nix",
                 "line": 77
             },
-            "name": "python3.14-fabric-0-unstable-20261019-285439dfc",
+            "name": "python3.14-fabric-0-unstable-20261020-285439dfc",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -361362,7 +361484,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-fabric-0-unstable-20261019-285439dfc",
+        "name": "python3.14-fabric-0-unstable-20261020-285439dfc",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -361370,7 +361492,7 @@
         },
         "pname": "python3.14-fabric",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261019-285439dfc",
+        "version": "0-unstable-20261020-285439dfc",
         "_attr": "fabric",
         "_repo": "lonerOrz"
     },
@@ -362927,7 +363049,7 @@
             },
             "mainProgram": "linux-wallpaperengine",
             "maintainers": [],
-            "name": "linux-wallpaperengine-0-unstable-2026-10-19",
+            "name": "linux-wallpaperengine-0-unstable-2026-10-20",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -362968,14 +363090,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-wallpaperengine-0-unstable-2026-10-19",
+        "name": "linux-wallpaperengine-0-unstable-2026-10-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linux-wallpaperengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-19",
+        "version": "0-unstable-2026-10-20",
         "_attr": "linux-wallpaperengine",
         "_repo": "lonerOrz"
     },
@@ -363401,7 +363523,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/niri-git/default.nix",
                 "line": 156
             },
-            "name": "niri-git-26.04-unstable-2026-10-19",
+            "name": "niri-git-26.04-unstable-2026-10-20",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -363439,7 +363561,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "niri-git-26.04-unstable-2026-10-19",
+        "name": "niri-git-26.04-unstable-2026-10-20",
         "outputName": "out",
         "outputs": {
             "doc": null,
@@ -363447,7 +363569,7 @@
         },
         "pname": "niri-git",
         "system": "x86_64-linux",
-        "version": "26.04-unstable-2026-10-19",
+        "version": "26.04-unstable-2026-10-20",
         "_attr": "niri-git",
         "_repo": "lonerOrz"
     },
@@ -363799,7 +363921,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia/default.nix",
                 "line": 149
             },
-            "name": "noctalia-0-unstable-20261019-d9bcdc437",
+            "name": "noctalia-0-unstable-20261020-1d64fc340",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -363842,14 +363964,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-0-unstable-20261019-d9bcdc437",
+        "name": "noctalia-0-unstable-20261020-1d64fc340",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "noctalia",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261019-d9bcdc437",
+        "version": "0-unstable-20261020-1d64fc340",
         "_attr": "noctalia",
         "_repo": "lonerOrz"
     },
@@ -363913,7 +364035,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia-qs/default.nix",
                 "line": 99
             },
-            "name": "noctalia-qs-0-unstable-20261019-606adedbf",
+            "name": "noctalia-qs-0-unstable-20261020-606adedbf",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -363956,7 +364078,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-qs-0-unstable-20261019-606adedbf",
+        "name": "noctalia-qs-0-unstable-20261020-606adedbf",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -363964,7 +364086,7 @@
         },
         "pname": "noctalia-qs",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261019-606adedbf",
+        "version": "0-unstable-20261020-606adedbf",
         "_attr": "noctalia-qs",
         "_repo": "lonerOrz"
     },
@@ -364227,7 +364349,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/orca/default.nix",
                 "line": 55
             },
-            "name": "orca-1.4.230",
+            "name": "orca-1.4.233",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -364253,14 +364375,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.230",
+        "name": "orca-1.4.233",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.230",
+        "version": "1.4.233",
         "_attr": "orca",
         "_repo": "lonerOrz"
     },
@@ -364710,7 +364832,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/postman-gpui/default.nix",
                 "line": 56
             },
-            "name": "postman-gpui-0.1.0-unstable-2026-10-19",
+            "name": "postman-gpui-0.1.1-unstable-2026-10-20",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -364767,14 +364889,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "postman-gpui-0.1.0-unstable-2026-10-19",
+        "name": "postman-gpui-0.1.1-unstable-2026-10-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "postman-gpui",
         "system": "x86_64-linux",
-        "version": "0.1.0-unstable-2026-10-19",
+        "version": "0.1.1-unstable-2026-10-20",
         "_attr": "postman-gpui",
         "_repo": "lonerOrz"
     },
@@ -952729,7 +952851,7 @@
                 "url": "https://spdx.org/licenses/CC-BY-4.0.html"
             },
             "maintainers": [],
-            "name": "rime-lmdg-0-unstable-2026-10-17",
+            "name": "rime-lmdg-0-unstable-2026-10-19",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -952831,14 +952953,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-lmdg-0-unstable-2026-10-17",
+        "name": "rime-lmdg-0-unstable-2026-10-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-lmdg",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-17",
+        "version": "0-unstable-2026-10-19",
         "_attr": "rime-lmdg",
         "_repo": "so1ve"
     },
@@ -952846,7 +952968,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/amzxyz/rime-wanxiang/releases/tag/v18.1.6",
+            "changelog": "https://github.com/amzxyz/rime-wanxiang/releases/tag/v18.1.7",
             "description": "Wanxiang Pinyin schemas and dictionaries for Rime",
             "homepage": "https://github.com/amzxyz/rime-wanxiang",
             "identifiers": {
@@ -952890,7 +953012,7 @@
                 "url": "https://spdx.org/licenses/CC-BY-4.0.html"
             },
             "maintainers": [],
-            "name": "rime-wanxiang-18.1.6",
+            "name": "rime-wanxiang-18.1.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -952986,14 +953108,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-wanxiang-18.1.6",
+        "name": "rime-wanxiang-18.1.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-wanxiang",
         "system": "x86_64-linux",
-        "version": "18.1.6",
+        "version": "18.1.7",
         "_attr": "rime-wanxiang",
         "_repo": "so1ve"
     },
