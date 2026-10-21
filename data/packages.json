@@ -91084,6 +91084,112 @@
         "_attr": "ducker",
         "_repo": "anas"
     },
+    "nur.repos.anas.eprofiler-tui": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "eBPF profiler flamegraph based TUI",
+            "homepage": "https://github.com/rogercoll/eprofiler-tui",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "eprofiler-tui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "eprofiler-tui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "eprofiler-tui",
+            "maintainers": [],
+            "name": "eprofiler-tui-0.3.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anas/pkgs/eprofiler-tui/default.nix#L50",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "eprofiler-tui-0.3.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "eprofiler-tui",
+        "system": "x86_64-linux",
+        "version": "0.3.0",
+        "_attr": "eprofiler-tui",
+        "_repo": "anas"
+    },
     "nur.repos.anas.example-package": {
         "meta": {
             "available": true,
@@ -206130,7 +206236,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "dagger-0.21.10",
+            "name": "dagger-0.21.11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -206158,14 +206264,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dagger-0.21.10",
+        "name": "dagger-0.21.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dagger",
         "system": "x86_64-linux",
-        "version": "0.21.10",
+        "version": "0.21.11",
         "_attr": "dagger",
         "_repo": "dagger"
     },
@@ -977580,7 +977686,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/ghostex/default.nix",
                 "line": 185
             },
-            "name": "ghostex-10.28.0",
+            "name": "ghostex-10.29.0",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -977608,14 +977714,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghostex-10.28.0",
+        "name": "ghostex-10.29.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghostex",
         "system": "x86_64-linux",
-        "version": "10.28.0",
+        "version": "10.29.0",
         "_attr": "ghostex",
         "_repo": "toyvo"
     },
@@ -979332,7 +979438,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.3-207",
+            "name": "papermc-26.3-211",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -979363,14 +979469,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.3-207",
+        "name": "papermc-26.3-211",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.3-207",
+        "version": "26.3-211",
         "_attr": "papermc",
         "_repo": "toyvo"
     },
@@ -984074,7 +984180,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/purpurServers/derivation.nix",
                 "line": 58
             },
-            "name": "purpur-26.3-2652",
+            "name": "purpur-26.3-2653",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -984105,14 +984211,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "purpur-26.3-2652",
+        "name": "purpur-26.3-2653",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "purpur",
         "system": "x86_64-linux",
-        "version": "26.3-2652",
+        "version": "26.3-2653",
         "_attr": "purpur",
         "_repo": "toyvo"
     },
