@@ -47386,6 +47386,63 @@
         "_attr": "msvcRust",
         "_repo": "RossSmyth"
     },
+    "nur.repos.RossSmyth.nothing-is-beautiful": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nothing-is-beautiful",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nothing-is-beautiful",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "mainProgram": "nothing-is-beautiful",
+            "maintainers": [],
+            "name": "nothing-is-beautiful-1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/RossSmyth/nothing-is-beautiful/default.nix#L8",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nothing-is-beautiful-1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nothing-is-beautiful",
+        "system": "x86_64-linux",
+        "version": "1.0",
+        "_attr": "nothing-is-beautiful",
+        "_repo": "RossSmyth"
+    },
     "nur.repos.RossSmyth.oblivion2666demo": {
         "meta": {
             "available": true,
@@ -58806,414 +58863,6 @@
         "_attr": "subplot",
         "_repo": "Skyb0rg007"
     },
-    "nur.repos.Skyb0rg007.systemd-btf": {
-        "meta": {
-            "available": false,
-            "badPlatforms": [
-                {
-                    "isStatic": true,
-                    "parsed": {}
-                }
-            ],
-            "broken": true,
-            "description": "System and service manager for Linux",
-            "homepage": "https://systemd.io",
-            "identifiers": {
-                "cpe": "cpe:2.3:a:systemd_project:systemd:262:*:*:*:*:*:*:*",
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "systemd",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*",
-                    "update": "*",
-                    "vendor": "systemd_project",
-                    "version": "262"
-                },
-                "possibleCPEs": [
-                    {
-                        "cpe": "cpe:2.3:a:systemd_project:systemd:262:*:*:*:*:*:*:*",
-                        "cpeParts": {
-                            "edition": "*",
-                            "language": "*",
-                            "other": "*",
-                            "part": "a",
-                            "product": "systemd",
-                            "sw_edition": "*",
-                            "target_hw": "*",
-                            "target_sw": "*",
-                            "update": "*",
-                            "vendor": "systemd_project",
-                            "version": "262"
-                        }
-                    }
-                ],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpe": "cpe:2.3:a:systemd_project:systemd:262:*:*:*:*:*:*:*",
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "systemd",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*",
-                        "update": "*",
-                        "vendor": "systemd_project",
-                        "version": "262"
-                    },
-                    "possibleCPEs": [
-                        {
-                            "cpe": "cpe:2.3:a:systemd_project:systemd:262:*:*:*:*:*:*:*",
-                            "cpeParts": {
-                                "edition": "*",
-                                "language": "*",
-                                "other": "*",
-                                "part": "a",
-                                "product": "systemd",
-                                "sw_edition": "*",
-                                "target_hw": "*",
-                                "target_sw": "*",
-                                "update": "*",
-                                "vendor": "systemd_project",
-                                "version": "262"
-                            }
-                        }
-                    ],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "BSD 2-clause \"Simplified\" License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "bsd2",
-                    "spdxId": "BSD-2-Clause",
-                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "bsd3",
-                    "spdxId": "BSD-3-Clause",
-                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Creative Commons Zero v1.0 Universal",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "cc0",
-                    "spdxId": "CC0-1.0",
-                    "url": "https://spdx.org/licenses/CC0-1.0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU Lesser General Public License v2.1 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "lgpl21Plus",
-                    "spdxId": "LGPL-2.1-or-later",
-                    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU Library General Public License v2 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "lgpl2Plus",
-                    "spdxId": "LGPL-2.0-or-later",
-                    "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT No Attribution",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit0",
-                    "spdxId": "MIT-0",
-                    "url": "https://spdx.org/licenses/MIT-0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "SIL Open Font License 1.1",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "ofl",
-                    "spdxId": "OFL-1.1",
-                    "url": "https://spdx.org/licenses/OFL-1.1.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Public Domain",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "publicDomain"
-                }
-            ],
-            "longDescription": "systemd is a suite of basic building blocks for a Linux system. It\nprovides a system and service manager that runs as PID 1 and starts the\nrest of the system. systemd provides aggressive parallelization\ncapabilities, uses socket and D-Bus activation for starting services,\noffers on-demand starting of daemons, keeps track of processes using Linux\ncontrol groups, maintains mount and automount points, and implements an\nelaborate transactional dependency-based service control logic. systemd\nsupports SysV and LSB init scripts and works as a replacement for\nsysvinit. Other parts include a logging daemon, utilities to control basic\nsystem configuration like the hostname, date, locale, maintain a list of\nlogged-in users and running containers and virtual machines, system\naccounts, runtime directories and settings, and daemons to manage simple\nnetwork configuration, network time synchronization, log forwarding, and\nname resolution.\n",
-            "maintainers": [
-                {
-                    "email": "flokli@flokli.de",
-                    "github": "flokli",
-                    "githubId": 183879,
-                    "name": "Florian Klink"
-                },
-                {
-                    "email": "nikstur@outlook.com",
-                    "github": "nikstur",
-                    "githubId": 61635709,
-                    "name": "nikstur"
-                },
-                {
-                    "email": "elvishjerricco@gmail.com",
-                    "github": "ElvishJerricco",
-                    "githubId": 1365692,
-                    "matrix": "@elvishjerricco:matrix.org",
-                    "name": "Will Fancher"
-                },
-                {
-                    "email": "grimmauld@grimmauld.de",
-                    "github": "GrimmTheShrimp",
-                    "githubId": 49513131,
-                    "matrix": "@grimmauld:m.grimmauld.de",
-                    "name": "S\u00f6ren Bender"
-                },
-                {
-                    "email": "aaron@fosslib.net",
-                    "github": "aanderse",
-                    "githubId": 7755101,
-                    "matrix": "@aanderse:nixos.dev",
-                    "name": "Aaron Andersen"
-                },
-                {
-                    "email": "arian.vanputten@gmail.com",
-                    "github": "arianvp",
-                    "githubId": 628387,
-                    "name": "Arian van Putten"
-                },
-                {
-                    "email": "balsoft75@gmail.com",
-                    "github": "balsoft",
-                    "githubId": 18467667,
-                    "name": "Alexander Bantyev"
-                },
-                {
-                    "email": "andreas@rammhold.de",
-                    "github": "andir",
-                    "githubId": 638836,
-                    "name": "Andreas Rammhold"
-                },
-                {
-                    "email": "pyrox@pyrox.dev",
-                    "github": "pyrox0",
-                    "githubId": 35778371,
-                    "keys": [
-                        {
-                            "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
-                        }
-                    ],
-                    "matrix": "@pyrox:pyrox.dev",
-                    "name": "Pyrox"
-                }
-            ],
-            "name": "systemd-btf-262",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "pkgConfigModules": [
-                "libsystemd",
-                "libudev",
-                "systemd",
-                "udev"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "x86_64-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/Skyb0rg007/packages/blob/HEAD/pkgs/os-specific/linux/systemd/default.nix#L883",
-            "priority": 10,
-            "problems": {
-                "broken": {
-                    "kind": "broken",
-                    "message": "This package is broken."
-                }
-            },
-            "teams": [
-                {
-                    "enableFeatureFreezePing": true,
-                    "github": "systemd",
-                    "githubId": 3894007,
-                    "githubMaintainers": [
-                        {
-                            "email": "flokli@flokli.de",
-                            "github": "flokli",
-                            "githubId": 183879,
-                            "name": "Florian Klink"
-                        },
-                        {
-                            "email": "nikstur@outlook.com",
-                            "github": "nikstur",
-                            "githubId": 61635709,
-                            "name": "nikstur"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "flokli@flokli.de",
-                            "github": "flokli",
-                            "githubId": 183879,
-                            "name": "Florian Klink"
-                        },
-                        {
-                            "email": "nikstur@outlook.com",
-                            "github": "nikstur",
-                            "githubId": 61635709,
-                            "name": "nikstur"
-                        },
-                        {
-                            "email": "elvishjerricco@gmail.com",
-                            "github": "ElvishJerricco",
-                            "githubId": 1365692,
-                            "matrix": "@elvishjerricco:matrix.org",
-                            "name": "Will Fancher"
-                        },
-                        {
-                            "email": "grimmauld@grimmauld.de",
-                            "github": "GrimmTheShrimp",
-                            "githubId": 49513131,
-                            "matrix": "@grimmauld:m.grimmauld.de",
-                            "name": "S\u00f6ren Bender"
-                        },
-                        {
-                            "email": "aaron@fosslib.net",
-                            "github": "aanderse",
-                            "githubId": 7755101,
-                            "matrix": "@aanderse:nixos.dev",
-                            "name": "Aaron Andersen"
-                        },
-                        {
-                            "email": "arian.vanputten@gmail.com",
-                            "github": "arianvp",
-                            "githubId": 628387,
-                            "name": "Arian van Putten"
-                        }
-                    ],
-                    "scope": "Maintain systemd for NixOS",
-                    "shortName": "systemd"
-                },
-                {
-                    "github": "security-review",
-                    "githubId": 16430758,
-                    "githubMaintainers": [
-                        {
-                            "email": "balsoft75@gmail.com",
-                            "github": "balsoft",
-                            "githubId": 18467667,
-                            "name": "Alexander Bantyev"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "balsoft75@gmail.com",
-                            "github": "balsoft",
-                            "githubId": 18467667,
-                            "name": "Alexander Bantyev"
-                        },
-                        {
-                            "email": "andreas@rammhold.de",
-                            "github": "andir",
-                            "githubId": 638836,
-                            "name": "Andreas Rammhold"
-                        },
-                        {
-                            "email": "pyrox@pyrox.dev",
-                            "github": "pyrox0",
-                            "githubId": 35778371,
-                            "keys": [
-                                {
-                                    "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
-                                }
-                            ],
-                            "matrix": "@pyrox:pyrox.dev",
-                            "name": "Pyrox"
-                        }
-                    ],
-                    "scope": "Reviews changes to core packages for Nixpkgs security vulnerabilities: https://github.com/NixOS/nixpkgs/issues/494349",
-                    "shortName": "Security review"
-                }
-            ],
-            "teamsPosition": {
-                "column": 5,
-                "file": "/nix/store/fkrgkr1glraxczxx0i9gm9zqjd118i2p-source/pkgs/os-specific/linux/systemd/default.nix",
-                "line": 912
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "systemd-btf-262",
-        "outputName": "out",
-        "outputs": {
-            "debug": null,
-            "dev": null,
-            "man": null,
-            "out": null
-        },
-        "pname": "systemd-btf",
-        "system": "x86_64-linux",
-        "version": "262",
-        "_attr": "systemd-btf",
-        "_repo": "Skyb0rg007"
-    },
     "nur.repos.Skyb0rg007.tcl9Packages.tcl-syslog": {
         "meta": {
             "available": true,
@@ -64926,7 +64575,7 @@
             },
             "mainProgram": "ghost-downloader-3",
             "maintainers": [],
-            "name": "ghost-downloader-3-4.4.3",
+            "name": "ghost-downloader-3-4.4.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -64974,14 +64623,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghost-downloader-3-4.4.3",
+        "name": "ghost-downloader-3-4.4.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghost-downloader",
         "system": "x86_64-linux",
-        "version": "3-4.4.3",
+        "version": "3-4.4.4",
         "_attr": "ghost-downloader-3",
         "_repo": "XiaoXioe"
     },
@@ -65115,7 +64764,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "teldrive-2.0.7",
+            "name": "teldrive-2.0.8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -65133,14 +64782,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "teldrive-2.0.7",
+        "name": "teldrive-2.0.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "teldrive",
         "system": "x86_64-linux",
-        "version": "2.0.7",
+        "version": "2.0.8",
         "_attr": "teldrive",
         "_repo": "XiaoXioe"
     },
@@ -753297,14 +752946,12 @@
                 "*://*.californiatimes.com/*",
                 "*://*.cedscdn.it/*",
                 "*://*.cedsdigital.it/*",
-                "*://*.cloudfunctions.net/*",
                 "*://*.coxohio.com/*",
                 "*://*.danzz.ch/*",
                 "*://*.emol.cl/*",
                 "*://*.epochbase.com/*",
                 "*://*.flip-pay.com/*",
                 "*://*.gjirafa.tech/*",
-                "*://*.glanacion.com/*",
                 "*://*.go.com/*",
                 "*://*.hadrianpaywall.com/*",
                 "*://*.ith9ueyuhu.it/*",
@@ -753330,7 +752977,7 @@
                 "*://gitflic.ru/*",
                 "*://*/*"
             ],
-            "name": "bypass-paywalls-clean-4.4.7.2",
+            "name": "bypass-paywalls-clean-4.4.7.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -753426,14 +753073,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bypass-paywalls-clean-4.4.7.2",
+        "name": "bypass-paywalls-clean-4.4.7.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bypass-paywalls-clean",
         "system": "x86_64-linux",
-        "version": "4.4.7.2",
+        "version": "4.4.7.6",
         "_attr": "firefox-addons.bypass-paywalls-clean",
         "_repo": "rycee"
     },
@@ -761200,7 +760847,7 @@
                 "*://*.steamcommunity.com/profiles/*",
                 "*://*.csfloat.com/*"
             ],
-            "name": "csgofloat-5.18.0",
+            "name": "csgofloat-5.19.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761296,14 +760943,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "csgofloat-5.18.0",
+        "name": "csgofloat-5.19.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "csgofloat",
         "system": "x86_64-linux",
-        "version": "5.18.0",
+        "version": "5.19.1",
         "_attr": "firefox-addons.csgofloat",
         "_repo": "rycee"
     },
@@ -764493,7 +764140,7 @@
                 "contextMenus",
                 "<all_urls>"
             ],
-            "name": "dictionaries-9.0.0",
+            "name": "dictionaries-9.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -764589,14 +764236,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dictionaries-9.0.0",
+        "name": "dictionaries-9.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dictionaries",
         "system": "x86_64-linux",
-        "version": "9.0.0",
+        "version": "9.1.0",
         "_attr": "firefox-addons.dictionaries",
         "_repo": "rycee"
     },
@@ -783674,7 +783321,7 @@
                 "storage",
                 "*://*.instagram.com/*"
             ],
-            "name": "instagram-video-control-1.9.3",
+            "name": "instagram-video-control-1.9.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -783770,14 +783417,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "instagram-video-control-1.9.3",
+        "name": "instagram-video-control-1.9.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "instagram-video-control",
         "system": "x86_64-linux",
-        "version": "1.9.3",
+        "version": "1.9.4",
         "_attr": "firefox-addons.instagram-video-control",
         "_repo": "rycee"
     },
@@ -784644,7 +784291,7 @@
                 "<all_urls>",
                 "notifications"
             ],
-            "name": "javascript-restrictor-0.24.6",
+            "name": "javascript-restrictor-0.24.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -784740,14 +784387,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "javascript-restrictor-0.24.6",
+        "name": "javascript-restrictor-0.24.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "javascript-restrictor",
         "system": "x86_64-linux",
-        "version": "0.24.6",
+        "version": "0.24.7",
         "_attr": "firefox-addons.javascript-restrictor",
         "_repo": "rycee"
     },
@@ -785581,7 +785228,7 @@
                 "storage",
                 "contextMenus"
             ],
-            "name": "kagi-search-0.7.6",
+            "name": "kagi-search-0.7.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -785677,14 +785324,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kagi-search-0.7.6",
+        "name": "kagi-search-0.7.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kagi-search",
         "system": "x86_64-linux",
-        "version": "0.7.6",
+        "version": "0.7.7",
         "_attr": "firefox-addons.kagi-search",
         "_repo": "rycee"
     },
@@ -786552,6 +786199,7 @@
                 "webNavigation",
                 "scripting",
                 "declarativeNetRequestWithHostAccess",
+                "publicSuffix",
                 "clipboardWrite",
                 "http://*/*",
                 "https://*/*",
@@ -786566,7 +786214,7 @@
                 "https://keepersecurity.jp/vault/*",
                 "https://govcloud.keepersecurity.us/vault/*"
             ],
-            "name": "keeper-password-manager-18.1.1",
+            "name": "keeper-password-manager-18.2.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -786662,14 +786310,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "keeper-password-manager-18.1.1",
+        "name": "keeper-password-manager-18.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "keeper-password-manager",
         "system": "x86_64-linux",
-        "version": "18.1.1",
+        "version": "18.2.0",
         "_attr": "firefox-addons.keeper-password-manager",
         "_repo": "rycee"
     },
@@ -786812,7 +786460,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6501",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6502",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -786965,7 +786613,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6523",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6524",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -787129,7 +786777,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6538",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6539",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -787294,7 +786942,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6564",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6565",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -787463,7 +787111,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6600",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6601",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -787625,7 +787273,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6640",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6641",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -788352,7 +788000,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6664",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L6665",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -788508,7 +788156,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7252",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7253",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -788663,7 +788311,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7271",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7272",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -788823,7 +788471,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7286",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7287",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -788888,13 +788536,12 @@
             "mozPermissions": [
                 "storage",
                 "alarms",
-                "webRequest",
                 "webNavigation",
                 "http://*/*",
                 "https://*/*",
                 "file://*/*"
             ],
-            "name": "libkey-nomad-1.59.0",
+            "name": "libkey-nomad-1.60.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -788980,7 +788627,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7308",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L7309",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -788990,14 +788637,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "libkey-nomad-1.59.0",
+        "name": "libkey-nomad-1.60.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "libkey-nomad",
         "system": "x86_64-linux",
-        "version": "1.59.0",
+        "version": "1.60.0",
         "_attr": "firefox-addons.libkey-nomad",
         "_repo": "rycee"
     },
@@ -795202,7 +794849,7 @@
                 "alarms",
                 "idle"
             ],
-            "name": "momentumdash-2.27.6",
+            "name": "momentumdash-2.27.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -795298,14 +794945,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "momentumdash-2.27.6",
+        "name": "momentumdash-2.27.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "momentumdash",
         "system": "x86_64-linux",
-        "version": "2.27.6",
+        "version": "2.27.9",
         "_attr": "firefox-addons.momentumdash",
         "_repo": "rycee"
     },
@@ -801046,7 +800693,7 @@
                 "webRequestBlocking",
                 "webNavigation"
             ],
-            "name": "okta-browser-plugin-6.48.0",
+            "name": "okta-browser-plugin-6.49.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -801142,14 +800789,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "okta-browser-plugin-6.48.0",
+        "name": "okta-browser-plugin-6.49.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "okta-browser-plugin",
         "system": "x86_64-linux",
-        "version": "6.48.0",
+        "version": "6.49.0",
         "_attr": "firefox-addons.okta-browser-plugin",
         "_repo": "rycee"
     },
@@ -803904,7 +803551,7 @@
                 "alarms",
                 "cookies"
             ],
-            "name": "passbolt-5.16.0",
+            "name": "passbolt-5.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -804000,14 +803647,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "passbolt-5.16.0",
+        "name": "passbolt-5.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "passbolt",
         "system": "x86_64-linux",
-        "version": "5.16.0",
+        "version": "5.17.0",
         "_attr": "firefox-addons.passbolt",
         "_repo": "rycee"
     },
@@ -806279,7 +805926,7 @@
                 "storage",
                 "unlimitedStorage"
             ],
-            "name": "print-friendly-pdf-7.2.11",
+            "name": "print-friendly-pdf-7.3.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -806375,14 +806022,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "print-friendly-pdf-7.2.11",
+        "name": "print-friendly-pdf-7.3.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "print-friendly-pdf",
         "system": "x86_64-linux",
-        "version": "7.2.11",
+        "version": "7.3.3",
         "_attr": "firefox-addons.print-friendly-pdf",
         "_repo": "rycee"
     },
@@ -813782,7 +813429,7 @@
                 "devtools",
                 "<all_urls>"
             ],
-            "name": "reduxdevtools-3.2.10",
+            "name": "reduxdevtools-3.2.12",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -813878,14 +813525,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "reduxdevtools-3.2.10",
+        "name": "reduxdevtools-3.2.12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "reduxdevtools",
         "system": "x86_64-linux",
-        "version": "3.2.10",
+        "version": "3.2.12",
         "_attr": "firefox-addons.reduxdevtools",
         "_repo": "rycee"
     },
@@ -822553,7 +822200,7 @@
                 "<all_urls>",
                 "https://userstyles.org/*"
             ],
-            "name": "stylus-2.4.16",
+            "name": "stylus-2.4.17",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -822649,14 +822296,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "stylus-2.4.16",
+        "name": "stylus-2.4.17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "stylus",
         "system": "x86_64-linux",
-        "version": "2.4.16",
+        "version": "2.4.17",
         "_attr": "firefox-addons.stylus",
         "_repo": "rycee"
     },
@@ -827669,7 +827316,7 @@
                 "storage",
                 "unlimitedStorage"
             ],
-            "name": "toggl-button-time-tracker-4.11.22",
+            "name": "toggl-button-time-tracker-4.11.23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -827765,14 +827412,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "toggl-button-time-tracker-4.11.22",
+        "name": "toggl-button-time-tracker-4.11.23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "toggl-button-time-tracker",
         "system": "x86_64-linux",
-        "version": "4.11.22",
+        "version": "4.11.23",
         "_attr": "firefox-addons.toggl-button-time-tracker",
         "_repo": "rycee"
     },
@@ -834080,7 +833727,7 @@
                 "*://www.youtube.com/*",
                 "*://m.youtube.com/*"
             ],
-            "name": "untrap-for-youtube-12.1",
+            "name": "untrap-for-youtube-12.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -834176,14 +833823,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "untrap-for-youtube-12.1",
+        "name": "untrap-for-youtube-12.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "untrap-for-youtube",
         "system": "x86_64-linux",
-        "version": "12.1",
+        "version": "12.3",
         "_attr": "firefox-addons.untrap-for-youtube",
         "_repo": "rycee"
     },
@@ -834393,7 +834040,7 @@
                 "tabs",
                 "webNavigation"
             ],
-            "name": "uppity-2.3.1",
+            "name": "uppity-2.3.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -834489,14 +834136,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "uppity-2.3.1",
+        "name": "uppity-2.3.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "uppity",
         "system": "x86_64-linux",
-        "version": "2.3.1",
+        "version": "2.3.2",
         "_attr": "firefox-addons.uppity",
         "_repo": "rycee"
     },
@@ -835158,7 +834805,7 @@
                 "https://staging.v2ex.com/go/*",
                 "https://global.v2ex.co/go/*"
             ],
-            "name": "v2ex-polish-2.4.47",
+            "name": "v2ex-polish-2.5.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -835254,14 +834901,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ex-polish-2.4.47",
+        "name": "v2ex-polish-2.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "v2ex-polish",
         "system": "x86_64-linux",
-        "version": "2.4.47",
+        "version": "2.5.0",
         "_attr": "firefox-addons.v2ex-polish",
         "_repo": "rycee"
     },
@@ -1114175,9 +1113822,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/cocoa-way/default.nix",
-                "line": 57
+                "line": 70
             },
-            "name": "cocoa-way-2.1.0",
+            "name": "cocoa-way-2.1.1",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1114192,19 +1113839,19 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/cocoa-way/default.nix#L54",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/cocoa-way/default.nix#L67",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "cocoa-way-2.1.0",
+        "name": "cocoa-way-2.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cocoa-way",
         "system": "x86_64-linux",
-        "version": "2.1.0",
+        "version": "2.1.1",
         "_attr": "cocoa-way",
         "_repo": "xyenon"
     },
@@ -1115036,7 +1114683,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1296",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1306",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1115091,9 +1114738,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
-                "line": 188
+                "line": 190
             },
-            "name": "magpie-0.1.1296",
+            "name": "magpie-0.1.1306",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1115132,19 +1114779,19 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/magpie/default.nix#L184",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/magpie/default.nix#L186",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1296",
+        "name": "magpie-0.1.1306",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1296",
+        "version": "0.1.1306",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
