@@ -498441,6 +498441,115 @@
         "_attr": "cpa-plugin-antigravity-coding-filter",
         "_repo": "mzwing"
     },
+    "nur.repos.mzwing.docker-systemctl-replacement": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/gdraheim/docker-systemctl-replacement/blob/v1.7.1097/RELEASENOTES.md",
+            "description": "Run systemd units without systemd, as systemctl and init inside containers",
+            "homepage": "https://github.com/gdraheim/docker-systemctl-replacement",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "docker-systemctl-replacement",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "docker-systemctl-replacement",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "European Union Public License 1.2",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "eupl12",
+                "spdxId": "EUPL-1.2",
+                "url": "https://spdx.org/licenses/EUPL-1.2.html"
+            },
+            "mainProgram": "systemctl3",
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/docker-systemctl-replacement/default.nix",
+                "line": 36
+            },
+            "name": "docker-systemctl-replacement-1.7.1097",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/docker-systemctl-replacement/default.nix#L31",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "docker-systemctl-replacement-1.7.1097",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "docker-systemctl-replacement",
+        "system": "x86_64-linux",
+        "version": "1.7.1097",
+        "_attr": "docker-systemctl-replacement",
+        "_repo": "mzwing"
+    },
     "nur.repos.mzwing.getopts-fish": {
         "meta": {
             "available": true,
@@ -1124819,7 +1124928,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/lightnovel-crawler.nix#L220",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/lightnovel-crawler.nix#L229",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
