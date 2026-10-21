@@ -18980,103 +18980,6 @@
         "_attr": "berkeley-mono-trial",
         "_repo": "DzmingLi"
     },
-    "nur.repos.DzmingLi.blueprint-mcp": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "MCP server for browser automation using real browser profiles",
-            "homepage": "https://github.com/railsblueprint/blueprint-mcp",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "blueprint-mcp",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "blueprint-mcp",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "mainProgram": "blueprint-mcp",
-            "maintainers": [],
-            "name": "blueprint-mcp-1.9.22",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "sh4-linux",
-                "microblazeel-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/blueprint-mcp/default.nix#L70",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "blueprint-mcp-1.9.22",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "blueprint-mcp",
-        "system": "x86_64-linux",
-        "version": "1.9.22",
-        "_attr": "blueprint-mcp",
-        "_repo": "DzmingLi"
-    },
     "nur.repos.DzmingLi.bodoni-lt-book": {
         "meta": {
             "available": false,
@@ -19436,7 +19339,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/cstar-toolchain/default.nix#L207",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/cstar-toolchain/default.nix#L220",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -19893,83 +19796,6 @@
         "_attr": "hust-network-login",
         "_repo": "DzmingLi"
     },
-    "nur.repos.DzmingLi.hyperhle-fork": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Experimental high-level emulator for 32-bit iOS apps",
-            "homepage": "https://github.com/KlugKlugTG/HyperHLE-Fork",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "hyperhle-fork",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "hyperhle-fork",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Mozilla Public License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
-            },
-            "mainProgram": "hyperhle-fork",
-            "maintainers": [],
-            "name": "hyperhle-fork-1.2.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/hyperhle-fork/default.nix#L32",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "hyperhle-fork-1.2.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "hyperhle-fork",
-        "system": "x86_64-linux",
-        "version": "1.2.0",
-        "_attr": "hyperhle-fork",
-        "_repo": "DzmingLi"
-    },
     "nur.repos.DzmingLi.niri-empty": {
         "meta": {
             "available": true,
@@ -20188,7 +20014,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/quarkpantool/default.nix#L58",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/quarkpantool/default.nix#L61",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -20309,7 +20135,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/racket-langserver/default.nix#L70",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/racket-langserver/default.nix#L82",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -20733,7 +20559,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/DzmingLi/pkgs/waydroid-script/default.nix",
-                "line": 71
+                "line": 81
             },
             "name": "waydroid-script-0-unstable-2025-08-31",
             "nonTeamMaintainers": [
@@ -20778,7 +20604,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/waydroid-script/default.nix#L67",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/waydroid-script/default.nix#L77",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -20850,7 +20676,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/wechat/linux.nix#L60",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/wechat/linux.nix#L76",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -21155,7 +20981,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/zju-connect/default.nix#L46",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/DzmingLi/pkgs/zju-connect/default.nix#L49",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -381615,111 +381441,6 @@
         "version": "0.5.3",
         "_attr": "traffic",
         "_repo": "meain"
-    },
-    "nur.repos.merrkry.cf": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/cloudflare/cf/releases/tag/cf@1.0.0-beta.18",
-            "description": "Agentic CLI for the entire Cloudflare API",
-            "homepage": "https://github.com/cloudflare/cf",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "cf",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "cf",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "mainProgram": "cf",
-            "maintainers": [
-                {
-                    "email": "merrkry@tsubasa.moe",
-                    "github": "merrkry",
-                    "githubId": 124278440,
-                    "name": "merrkry"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/cf/default.nix",
-                "line": 116
-            },
-            "name": "cf-1.0.0-beta.18",
-            "nonTeamMaintainers": [
-                {
-                    "email": "merrkry@tsubasa.moe",
-                    "github": "merrkry",
-                    "githubId": 124278440,
-                    "name": "merrkry"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/merrkry/pkgs/cf/default.nix#L109",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "cf-1.0.0-beta.18",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "cf",
-        "system": "x86_64-linux",
-        "version": "1.0.0-beta.18",
-        "_attr": "cf",
-        "_repo": "merrkry"
     },
     "nur.repos.merrkry.codex-bin": {
         "meta": {
