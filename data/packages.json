@@ -1022036,7 +1022036,7 @@
     },
     "nur.repos.xddxdd.lantianCustomized.materialgram": {
         "meta": {
-            "available": false,
+            "available": true,
             "broken": false,
             "changelog": "https://github.com/kukuruzka165/materialgram/releases/tag/v7.0.5.1",
             "description": "Telegram Desktop fork with material icons and some improvements (Without anti-features)",
@@ -1022070,10 +1022070,8 @@
                     "purls": []
                 }
             },
-            "insecure": true,
-            "knownVulnerabilities": [
-                "CVE-2026-107181: Telegram Desktop before 7.2.9 IPC Record Injection File Exfiltration via interpret: Scheme"
-            ],
+            "insecure": false,
+            "knownVulnerabilities": [],
             "license": {
                 "deprecated": false,
                 "free": true,
@@ -1022105,7 +1022103,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/lantian-customized/materialgram/default.nix",
-                "line": 20
+                "line": 26
             },
             "name": "materialgram-unwrapped-7.0.5.1",
             "nonTeamMaintainers": [
@@ -1022208,7 +1022206,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/materialgram/default.nix#L19",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/materialgram/default.nix#L25",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1112524,7 +1112522,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/kazv/default.nix",
                 "line": 103
             },
-            "name": "kazv-0.7.0-unstable-2026-10-15",
+            "name": "kazv-0.7.0-unstable-2026-10-22",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1112567,14 +1112565,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kazv-0.7.0-unstable-2026-10-15",
+        "name": "kazv-0.7.0-unstable-2026-10-22",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kazv",
         "system": "x86_64-linux",
-        "version": "0.7.0-unstable-2026-10-15",
+        "version": "0.7.0-unstable-2026-10-22",
         "_attr": "kazv",
         "_repo": "xyenon"
     },
@@ -1112649,7 +1112647,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/lazyrsync/default.nix",
                 "line": 37
             },
-            "name": "lazyrsync-0.3.0",
+            "name": "lazyrsync-0.4.0",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1112706,14 +1112704,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lazyrsync-0.3.0",
+        "name": "lazyrsync-0.4.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lazyrsync",
         "system": "x86_64-linux",
-        "version": "0.3.0",
+        "version": "0.4.0",
         "_attr": "lazyrsync",
         "_repo": "xyenon"
     },
@@ -1113174,7 +1113172,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1319",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1323",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1113231,7 +1113229,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 190
             },
-            "name": "magpie-0.1.1319",
+            "name": "magpie-0.1.1323",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1113275,14 +1113273,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1319",
+        "name": "magpie-0.1.1323",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1319",
+        "version": "0.1.1323",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
