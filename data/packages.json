@@ -449491,7 +449491,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/an/android-translation-layer/package.nix",
                 "line": 102
             },
-            "name": "android-translation-layer-0-unstable-2026-10-16",
+            "name": "android-translation-layer-0-unstable-2026-10-19",
             "nonTeamMaintainers": [
                 {
                     "email": "onny@project-insanity.org",
@@ -449589,14 +449589,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "android-translation-layer-0-unstable-2026-10-16",
+        "name": "android-translation-layer-0-unstable-2026-10-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "android-translation-layer",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-16",
+        "version": "0-unstable-2026-10-19",
         "_attr": "android-translation-layer",
         "_repo": "mio"
     },
@@ -449660,7 +449660,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/an/android-translation-layer/package.nix",
                 "line": 102
             },
-            "name": "android-translation-layer-patched-0-unstable-2026-10-16",
+            "name": "android-translation-layer-patched-0-unstable-2026-10-19",
             "nonTeamMaintainers": [
                 {
                     "email": "onny@project-insanity.org",
@@ -449758,14 +449758,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "android-translation-layer-patched-0-unstable-2026-10-16",
+        "name": "android-translation-layer-patched-0-unstable-2026-10-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "android-translation-layer-patched",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-16",
+        "version": "0-unstable-2026-10-19",
         "_attr": "android-translation-layer_patched",
         "_repo": "mio"
     },
@@ -450813,155 +450813,6 @@
         "system": "x86_64-linux",
         "version": "0.41.0",
         "_attr": "artcraft",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.audacity4": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/audacity/audacity/releases",
-            "description": "Sound editor with graphical UI",
-            "homepage": "https://www.audacityteam.org",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "audacity",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "audacity",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU General Public License v2.0 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "gpl2Plus",
-                    "spdxId": "GPL-2.0-or-later",
-                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-                },
-                {
-                    "deprecated": true,
-                    "free": true,
-                    "fullName": "GNU General Public License v3.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "gpl3",
-                    "spdxId": "GPL-3.0",
-                    "url": "https://spdx.org/licenses/GPL-3.0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Creative Commons Attribution 3.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "cc-by-30",
-                    "spdxId": "CC-BY-3.0",
-                    "url": "https://spdx.org/licenses/CC-BY-3.0.html"
-                }
-            ],
-            "mainProgram": "audacity",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/pkgs/audacity4/package.nix",
-                "line": 574
-            },
-            "name": "audacity-4.0.0-beta-2",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/audacity4/package.nix#L561",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "audacity-4.0.0-beta-2",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "audacity",
-        "system": "x86_64-linux",
-        "version": "4.0.0-beta-2",
-        "_attr": "audacity4",
         "_repo": "mio"
     },
     "nur.repos.mio.audio-equalizer-firefox": {
@@ -454968,7 +454819,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/cl/clice/package.nix",
                 "line": 159
             },
-            "name": "clice-0.1.2026101706",
+            "name": "clice-0.1.2026101907",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -454996,14 +454847,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clice-0.1.2026101706",
+        "name": "clice-0.1.2026101907",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clice",
         "system": "x86_64-linux",
-        "version": "0.1.2026101706",
+        "version": "0.1.2026101907",
         "_attr": "clice",
         "_repo": "mio"
     },
@@ -460969,7 +460820,7 @@
             },
             "mainProgram": "gpgui-helper",
             "maintainers": [],
-            "name": "globalprotect-openconnect-3.0.6",
+            "name": "globalprotect-openconnect-3.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -461005,14 +460856,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "globalprotect-openconnect-3.0.6",
+        "name": "globalprotect-openconnect-3.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "globalprotect-openconnect",
         "system": "x86_64-linux",
-        "version": "3.0.6",
+        "version": "3.1.0",
         "_attr": "globalprotect-openconnect",
         "_repo": "mio"
     },
@@ -463613,7 +463464,7 @@
             },
             "mainProgram": "losslesscut",
             "maintainers": [],
-            "name": "losslesscut-3.69.0",
+            "name": "losslesscut-3.70.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -463654,14 +463505,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "losslesscut-3.69.0",
+        "name": "losslesscut-3.70.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "losslesscut",
         "system": "x86_64-linux",
-        "version": "3.69.0",
+        "version": "3.70.1",
         "_attr": "losslesscut",
         "_repo": "mio"
     },
@@ -470182,7 +470033,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/pe/penguin-mail/package.nix",
                 "line": 46
             },
-            "name": "penguin-mail-1.0.9",
+            "name": "penguin-mail-1.0.10",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -470237,14 +470088,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "penguin-mail-1.0.9",
+        "name": "penguin-mail-1.0.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "penguin-mail",
         "system": "x86_64-linux",
-        "version": "1.0.9",
+        "version": "1.0.10",
         "_attr": "penguin-mail",
         "_repo": "mio"
     },
@@ -472989,7 +472840,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/se/sem-cli/package.nix",
                 "line": 63
             },
-            "name": "sem-cli-0.27.0",
+            "name": "sem-cli-0.28.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -473044,14 +472895,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sem-cli-0.27.0",
+        "name": "sem-cli-0.28.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sem-cli",
         "system": "x86_64-linux",
-        "version": "0.27.0",
+        "version": "0.28.1",
         "_attr": "sem-cli",
         "_repo": "mio"
     },
@@ -476302,7 +476153,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "user-agent-switcher-firefox-1.4.109",
+            "name": "user-agent-switcher-firefox-1.4.110",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -476398,14 +476249,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "user-agent-switcher-firefox-1.4.109",
+        "name": "user-agent-switcher-firefox-1.4.110",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "user-agent-switcher-firefox",
         "system": "x86_64-linux",
-        "version": "1.4.109",
+        "version": "1.4.110",
         "_attr": "user-agent-switcher-firefox",
         "_repo": "mio"
     },
@@ -1113203,7 +1113054,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/cocoa-way/default.nix",
                 "line": 70
             },
-            "name": "cocoa-way-2.1.1",
+            "name": "cocoa-way-2.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1113223,14 +1113074,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cocoa-way-2.1.1",
+        "name": "cocoa-way-2.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cocoa-way",
         "system": "x86_64-linux",
-        "version": "2.1.1",
+        "version": "2.1.2",
         "_attr": "cocoa-way",
         "_repo": "xyenon"
     },
@@ -1114062,7 +1113913,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1316",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1318",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1114119,7 +1113970,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 190
             },
-            "name": "magpie-0.1.1316",
+            "name": "magpie-0.1.1318",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1114163,14 +1114014,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1316",
+        "name": "magpie-0.1.1318",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1316",
+        "version": "0.1.1318",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
