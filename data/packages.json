@@ -68158,7 +68158,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/v2/v2ray-rules-dat/package.nix",
                 "line": 69
             },
-            "name": "v2ray-rules-dat-202610202206",
+            "name": "v2ray-rules-dat-202610212206",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -68263,7 +68263,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-202610202206",
+        "name": "v2ray-rules-dat-202610212206",
         "outputName": "out",
         "outputs": {
             "geoip": null,
@@ -68272,7 +68272,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "202610202206",
+        "version": "202610212206",
         "_attr": "v2ray-rules-dat",
         "_repo": "abszero"
     },
@@ -326885,7 +326885,7 @@
             },
             "mainProgram": "imdb-trakt-sync",
             "maintainers": [],
-            "name": "imdb-trakt-sync-0.3.0",
+            "name": "imdb-trakt-sync-0.3.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -326981,7 +326981,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "imdb-trakt-sync-0.3.0",
+        "name": "imdb-trakt-sync-0.3.1",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -326989,7 +326989,7 @@
         },
         "pname": "imdb-trakt-sync",
         "system": "x86_64-linux",
-        "version": "0.3.0",
+        "version": "0.3.1",
         "_attr": "imdb-trakt-sync",
         "_repo": "josh"
     },
@@ -328411,7 +328411,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "pi-web-access-0.43.0",
+            "name": "pi-web-access-0.44.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -328473,14 +328473,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.43.0",
+        "name": "pi-web-access-0.44.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.43.0",
+        "version": "0.44.0",
         "_attr": "pi-web-access",
         "_repo": "josh"
     },
@@ -329892,7 +329892,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-20",
+            "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-21",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -329988,14 +329988,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-20",
+        "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rfmoz-grafana-dashboards",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "rfmoz-grafana-dashboards",
         "_repo": "josh"
     },
@@ -946356,6 +946356,91 @@
         "_attr": "oh-dsh-bin",
         "_repo": "silicalet"
     },
+    "nur.repos.silicalet.qrypt-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/yinzhenyu-su/qrypt/releases/tag/v0.5.5",
+            "description": "Cloud drive CLI and FUSE filesystem with rclone-compatible encryption",
+            "homepage": "https://github.com/yinzhenyu-su/qrypt",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "qrypt-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "qrypt-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "qrypt",
+            "maintainers": [],
+            "name": "qrypt-bin-0.5.5",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/tools/qrypt/binary.nix#L93",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "qrypt-bin-0.5.5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "qrypt-bin",
+        "system": "x86_64-linux",
+        "version": "0.5.5",
+        "_attr": "qrypt-bin",
+        "_repo": "silicalet"
+    },
     "nur.repos.silicalet.quarkpan": {
         "meta": {
             "available": true,
@@ -1008416,7 +1008501,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.3.1",
+            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.3.2",
             "description": "High-performance AI gateway with unified OpenAI-compatible API",
             "homepage": "https://github.com/maximhq/bifrost",
             "identifiers": {
@@ -1008481,7 +1008566,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/bifrost/default.nix",
                 "line": 55
             },
-            "name": "bifrost-2.3.1",
+            "name": "bifrost-2.3.2",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1008538,14 +1008623,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bifrost-2.3.1",
+        "name": "bifrost-2.3.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bifrost",
         "system": "x86_64-linux",
-        "version": "2.3.1",
+        "version": "2.3.2",
         "_attr": "bifrost",
         "_repo": "xddxdd"
     },
@@ -1010306,7 +1010391,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.36",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.38",
             "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1010371,7 +1010456,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/cliproxyapi/default.nix",
                 "line": 32
             },
-            "name": "cliproxyapi-8.0.36",
+            "name": "cliproxyapi-8.0.38",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1010422,14 +1010507,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.36",
+        "name": "cliproxyapi-8.0.38",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.36",
+        "version": "8.0.38",
         "_attr": "cliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1013159,7 +1013244,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.47",
+            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.50",
             "description": "Desktop GUI for managing CLIProxyAPI and configuring AI agent clients",
             "homepage": "https://github.com/router-for-me/EasyCLIProxyAPI",
             "identifiers": {
@@ -1013224,7 +1013309,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/easycliproxyapi/default.nix",
                 "line": 129
             },
-            "name": "easycliproxyapi-0.3.47",
+            "name": "easycliproxyapi-0.3.50",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1013270,14 +1013355,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "easycliproxyapi-0.3.47",
+        "name": "easycliproxyapi-0.3.50",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "easycliproxyapi",
         "system": "x86_64-linux",
-        "version": "0.3.47",
+        "version": "0.3.50",
         "_attr": "easycliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1015893,7 +1015978,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/funasr/default.nix",
                 "line": 93
             },
-            "name": "python3.14-funasr-1.4.16-unstable-2026-10-20",
+            "name": "python3.14-funasr-1.4.16-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1015951,7 +1016036,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-funasr-1.4.16-unstable-2026-10-20",
+        "name": "python3.14-funasr-1.4.16-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1015959,7 +1016044,7 @@
         },
         "pname": "python3.14-funasr",
         "system": "x86_64-linux",
-        "version": "1.4.16-unstable-2026-10-20",
+        "version": "1.4.16-unstable-2026-10-21",
         "_attr": "funasr",
         "_repo": "xddxdd"
     },
@@ -1018076,7 +1018161,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1018148,14 +1018233,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "ik-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1018227,7 +1018312,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1018299,14 +1018384,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "ik-llama-cpp-avx",
         "_repo": "xddxdd"
     },
@@ -1018378,7 +1018463,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1018450,14 +1018535,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "ik-llama-cpp-avx2",
         "_repo": "xddxdd"
     },
@@ -1018532,7 +1018617,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1018604,14 +1018689,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "ik-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1024411,7 +1024496,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-08",
+            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-21",
             "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
             "homepage": "https://openquantumsafe.org",
             "identifiers": {
@@ -1024477,7 +1024562,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/liboqs/unstable.nix",
                 "line": 53
             },
-            "name": "liboqs-0-unstable-2026-10-08",
+            "name": "liboqs-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1024502,14 +1024587,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "liboqs-0-unstable-2026-10-08",
+        "name": "liboqs-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "liboqs",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-08",
+        "version": "0-unstable-2026-10-21",
         "_attr": "liboqs-unstable",
         "_repo": "xddxdd"
     },
@@ -1025482,7 +1025567,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/mages-bin/default.nix",
                 "line": 41
             },
-            "name": "mages-bin-5.1.6",
+            "name": "mages-bin-5.2.3",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1025517,14 +1025602,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mages-bin-5.1.6",
+        "name": "mages-bin-5.2.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mages-bin",
         "system": "x86_64-linux",
-        "version": "5.1.6",
+        "version": "5.2.3",
         "_attr": "mages-bin",
         "_repo": "xddxdd"
     },
@@ -1068827,7 +1068912,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/openssl-oqs-provider/default.nix",
                 "line": 62
             },
-            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-19",
+            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1068852,14 +1068937,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-19",
+        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "openssl-oqs-provider",
         "system": "x86_64-linux",
-        "version": "0.12.0-unstable-2026-10-19",
+        "version": "0.12.0-unstable-2026-10-21",
         "_attr": "openssl-oqs-provider",
         "_repo": "xddxdd"
     },
@@ -1072972,7 +1073057,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/funasr/default.nix",
                 "line": 93
             },
-            "name": "python3.14-funasr-1.4.16-unstable-2026-10-20",
+            "name": "python3.14-funasr-1.4.16-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1073030,7 +1073115,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-funasr-1.4.16-unstable-2026-10-20",
+        "name": "python3.14-funasr-1.4.16-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1073038,7 +1073123,7 @@
         },
         "pname": "python3.14-funasr",
         "system": "x86_64-linux",
-        "version": "1.4.16-unstable-2026-10-20",
+        "version": "1.4.16-unstable-2026-10-21",
         "_attr": "python3Packages.funasr",
         "_repo": "xddxdd"
     },
@@ -1077609,7 +1077694,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/qsp-lib/default.nix",
                 "line": 39
             },
-            "name": "qsp-lib-5.9.5-unstable-2026-10-20",
+            "name": "qsp-lib-5.9.5-unstable-2026-10-22",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1077634,14 +1077719,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qsp-lib-5.9.5-unstable-2026-10-20",
+        "name": "qsp-lib-5.9.5-unstable-2026-10-22",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qsp-lib",
         "system": "x86_64-linux",
-        "version": "5.9.5-unstable-2026-10-20",
+        "version": "5.9.5-unstable-2026-10-22",
         "_attr": "qsp-lib",
         "_repo": "xddxdd"
     },
@@ -1078278,7 +1078363,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/resin/default.nix",
                 "line": 77
             },
-            "name": "resin-1.2.0",
+            "name": "resin-1.3.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1078335,14 +1078420,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "resin-1.2.0",
+        "name": "resin-1.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "resin",
         "system": "x86_64-linux",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "_attr": "resin",
         "_repo": "xddxdd"
     },
@@ -1081056,7 +1081141,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
                 "line": 155
             },
-            "name": "strata-0.2.1.4",
+            "name": "strata-0.2.2",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1081107,14 +1081192,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "strata-0.2.1.4",
+        "name": "strata-0.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "strata",
         "system": "x86_64-linux",
-        "version": "0.2.1.4",
+        "version": "0.2.2",
         "_attr": "strata",
         "_repo": "xddxdd"
     },
@@ -1084340,7 +1084425,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.3.1",
+            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.3.2",
             "description": "High-performance AI gateway with unified OpenAI-compatible API",
             "homepage": "https://github.com/maximhq/bifrost",
             "identifiers": {
@@ -1084405,7 +1084490,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/bifrost/default.nix",
                 "line": 55
             },
-            "name": "bifrost-2.3.1",
+            "name": "bifrost-2.3.2",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1084462,14 +1084547,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bifrost-2.3.1",
+        "name": "bifrost-2.3.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bifrost",
         "system": "x86_64-linux",
-        "version": "2.3.1",
+        "version": "2.3.2",
         "_attr": "uncategorized.bifrost",
         "_repo": "xddxdd"
     },
@@ -1086057,7 +1086142,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.36",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.38",
             "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1086122,7 +1086207,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/cliproxyapi/default.nix",
                 "line": 32
             },
-            "name": "cliproxyapi-8.0.36",
+            "name": "cliproxyapi-8.0.38",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1086173,14 +1086258,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.36",
+        "name": "cliproxyapi-8.0.38",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.36",
+        "version": "8.0.38",
         "_attr": "uncategorized.cliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1087340,7 +1087425,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.47",
+            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.50",
             "description": "Desktop GUI for managing CLIProxyAPI and configuring AI agent clients",
             "homepage": "https://github.com/router-for-me/EasyCLIProxyAPI",
             "identifiers": {
@@ -1087405,7 +1087490,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/easycliproxyapi/default.nix",
                 "line": 129
             },
-            "name": "easycliproxyapi-0.3.47",
+            "name": "easycliproxyapi-0.3.50",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1087451,14 +1087536,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "easycliproxyapi-0.3.47",
+        "name": "easycliproxyapi-0.3.50",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "easycliproxyapi",
         "system": "x86_64-linux",
-        "version": "0.3.47",
+        "version": "0.3.50",
         "_attr": "uncategorized.easycliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1091675,7 +1091760,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1091747,14 +1091832,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "uncategorized.ik-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1091826,7 +1091911,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1091898,14 +1091983,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "uncategorized.ik-llama-cpp-avx",
         "_repo": "xddxdd"
     },
@@ -1091977,7 +1092062,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1092049,14 +1092134,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "uncategorized.ik-llama-cpp-avx2",
         "_repo": "xddxdd"
     },
@@ -1092131,7 +1092216,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-20",
+            "name": "ik-llama-cpp-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1092203,14 +1092288,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-20",
+        "name": "ik-llama-cpp-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-21",
         "_attr": "uncategorized.ik-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1093693,7 +1093778,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-08",
+            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-21",
             "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
             "homepage": "https://openquantumsafe.org",
             "identifiers": {
@@ -1093759,7 +1093844,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/liboqs/unstable.nix",
                 "line": 53
             },
-            "name": "liboqs-0-unstable-2026-10-08",
+            "name": "liboqs-0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1093784,14 +1093869,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "liboqs-0-unstable-2026-10-08",
+        "name": "liboqs-0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "liboqs",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-08",
+        "version": "0-unstable-2026-10-21",
         "_attr": "uncategorized.liboqs-unstable",
         "_repo": "xddxdd"
     },
@@ -1094592,7 +1094677,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/mages-bin/default.nix",
                 "line": 41
             },
-            "name": "mages-bin-5.1.6",
+            "name": "mages-bin-5.2.3",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1094627,14 +1094712,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mages-bin-5.1.6",
+        "name": "mages-bin-5.2.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mages-bin",
         "system": "x86_64-linux",
-        "version": "5.1.6",
+        "version": "5.2.3",
         "_attr": "uncategorized.mages-bin",
         "_repo": "xddxdd"
     },
@@ -1097549,7 +1097634,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/openssl-oqs-provider/default.nix",
                 "line": 62
             },
-            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-19",
+            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1097574,14 +1097659,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-19",
+        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "openssl-oqs-provider",
         "system": "x86_64-linux",
-        "version": "0.12.0-unstable-2026-10-19",
+        "version": "0.12.0-unstable-2026-10-21",
         "_attr": "uncategorized.openssl-oqs-provider",
         "_repo": "xddxdd"
     },
@@ -1100010,7 +1100095,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/qsp-lib/default.nix",
                 "line": 39
             },
-            "name": "qsp-lib-5.9.5-unstable-2026-10-20",
+            "name": "qsp-lib-5.9.5-unstable-2026-10-22",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1100035,14 +1100120,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qsp-lib-5.9.5-unstable-2026-10-20",
+        "name": "qsp-lib-5.9.5-unstable-2026-10-22",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qsp-lib",
         "system": "x86_64-linux",
-        "version": "5.9.5-unstable-2026-10-20",
+        "version": "5.9.5-unstable-2026-10-22",
         "_attr": "uncategorized.qsp-lib",
         "_repo": "xddxdd"
     },
@@ -1100425,7 +1100510,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/resin/default.nix",
                 "line": 77
             },
-            "name": "resin-1.2.0",
+            "name": "resin-1.3.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1100482,14 +1100567,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "resin-1.2.0",
+        "name": "resin-1.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "resin",
         "system": "x86_64-linux",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "_attr": "uncategorized.resin",
         "_repo": "xddxdd"
     },
@@ -1102338,7 +1102423,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
                 "line": 155
             },
-            "name": "strata-0.2.1.4",
+            "name": "strata-0.2.2",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1102389,14 +1102474,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "strata-0.2.1.4",
+        "name": "strata-0.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "strata",
         "system": "x86_64-linux",
-        "version": "0.2.1.4",
+        "version": "0.2.2",
         "_attr": "uncategorized.strata",
         "_repo": "xddxdd"
     },
@@ -1103813,7 +1103898,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/uni-api/default.nix",
                 "line": 27
             },
-            "name": "uni-api-1.7.276-unstable-2026-10-19",
+            "name": "uni-api-1.7.276-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1103878,14 +1103963,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "uni-api-1.7.276-unstable-2026-10-19",
+        "name": "uni-api-1.7.276-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "uni-api",
         "system": "x86_64-linux",
-        "version": "1.7.276-unstable-2026-10-19",
+        "version": "1.7.276-unstable-2026-10-21",
         "_attr": "uncategorized.uni-api",
         "_repo": "xddxdd"
     },
@@ -1105924,7 +1106009,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/uni-api/default.nix",
                 "line": 27
             },
-            "name": "uni-api-1.7.276-unstable-2026-10-19",
+            "name": "uni-api-1.7.276-unstable-2026-10-21",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1105989,14 +1106074,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "uni-api-1.7.276-unstable-2026-10-19",
+        "name": "uni-api-1.7.276-unstable-2026-10-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "uni-api",
         "system": "x86_64-linux",
-        "version": "1.7.276-unstable-2026-10-19",
+        "version": "1.7.276-unstable-2026-10-21",
         "_attr": "uni-api",
         "_repo": "xddxdd"
     },
@@ -1129747,7 +1129832,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/monosans/pyromark/releases/tag/v0.10.1",
+            "changelog": "https://github.com/monosans/pyromark/releases/tag/v0.10.2",
             "description": "Blazingly fast Markdown parser",
             "homepage": "https://github.com/monosans/pyromark",
             "identifiers": {
@@ -1129834,7 +1129919,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/python-packages/pyromark/default.nix",
                 "line": 35
             },
-            "name": "python3.14-pyromark-0.10.1",
+            "name": "python3.14-pyromark-0.10.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1129896,7 +1129981,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-pyromark-0.10.1",
+        "name": "python3.14-pyromark-0.10.2",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1129904,7 +1129989,7 @@
         },
         "pname": "python3.14-pyromark",
         "system": "x86_64-linux",
-        "version": "0.10.1",
+        "version": "0.10.2",
         "_attr": "pyromark",
         "_repo": "zhyiheihei"
     },
@@ -1130882,7 +1130967,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/monosans/pyromark/releases/tag/v0.10.1",
+            "changelog": "https://github.com/monosans/pyromark/releases/tag/v0.10.2",
             "description": "Blazingly fast Markdown parser",
             "homepage": "https://github.com/monosans/pyromark",
             "identifiers": {
@@ -1130969,7 +1131054,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/python-packages/pyromark/default.nix",
                 "line": 35
             },
-            "name": "python3.14-pyromark-0.10.1",
+            "name": "python3.14-pyromark-0.10.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1131031,7 +1131116,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-pyromark-0.10.1",
+        "name": "python3.14-pyromark-0.10.2",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1131039,7 +1131124,7 @@
         },
         "pname": "python3.14-pyromark",
         "system": "x86_64-linux",
-        "version": "0.10.1",
+        "version": "0.10.2",
         "_attr": "python3Packages.pyromark",
         "_repo": "zhyiheihei"
     },
