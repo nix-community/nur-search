@@ -339840,6 +339840,174 @@
         "_attr": "blobl_lsp",
         "_repo": "hsctech"
     },
+    "nur.repos.hsctech.helix-blobl": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://codeberg.org/hsctech/helix/src/branch/master/CHANGELOG.md",
+            "description": "Post-modern modal text editor (hsctech fork with Bloblang support)",
+            "homepage": "https://codeberg.org/hsctech/helix",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "helix",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "helix",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "mainProgram": "hx",
+            "maintainers": [
+                {
+                    "email": "henrik@hsctech.eu",
+                    "name": "hsctech"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/nix/store/fkrgkr1glraxczxx0i9gm9zqjd118i2p-source/pkgs/by-name/he/helix/package.nix",
+                "line": 156
+            },
+            "name": "helix-25.07.1-unstable-2026-10-16",
+            "nonTeamMaintainers": [
+                {
+                    "email": "henrik@hsctech.eu",
+                    "name": "hsctech"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://codeberg.org/hsctech/nur-packagespkgs/by-name/he/helix/package.nix#L151",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "helix-25.07.1-unstable-2026-10-16",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "helix",
+        "system": "x86_64-linux",
+        "version": "25.07.1-unstable-2026-10-16",
+        "_attr": "helix-blobl",
+        "_repo": "hsctech"
+    },
+    "nur.repos.hsctech.tree-sitter-bloblang": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tree-sitter grammar for Bento's Bloblang mapping language",
+            "homepage": "https://codeberg.org/hsctech/blobl_sitter",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tree-sitter-bloblang",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tree-sitter-bloblang",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "henrik@hsctech.eu",
+                    "name": "hsctech"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hsctech/pkgs/tree-sitter-bloblang/default.nix",
+                "line": 27
+            },
+            "name": "tree-sitter-bloblang-0.2.4",
+            "nonTeamMaintainers": [
+                {
+                    "email": "henrik@hsctech.eu",
+                    "name": "hsctech"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hsctech/pkgs/tree-sitter-bloblang/default.nix#L24",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tree-sitter-bloblang-0.2.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tree-sitter-bloblang",
+        "system": "x86_64-linux",
+        "version": "0.2.4",
+        "_attr": "tree-sitter-bloblang",
+        "_repo": "hsctech"
+    },
     "nur.repos.iamanaws.bitbucket-cli": {
         "meta": {
             "available": true,
