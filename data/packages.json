@@ -333225,6 +333225,4246 @@
         "_attr": "wsl-notify-send",
         "_repo": "hetav21"
     },
+    "nur.repos.hexadecimalDinosaur.android-unpinner": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/mitmproxy/android-unpinner/releases/tag/202107.1047",
+            "description": "Remove Certificate Pinning from APKs",
+            "homepage": "https://github.com/mitmproxy/android-unpinner",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "android-unpinner",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "android-unpinner",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "android-unpinner",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/android-unpinner/default.nix",
+                "line": 43
+            },
+            "name": "python3.14-android-unpinner-202107.1047",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/android-unpinner/default.nix#L39",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-android-unpinner-202107.1047",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-android-unpinner",
+        "system": "x86_64-linux",
+        "version": "202107.1047",
+        "_attr": "android-unpinner",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.endcord": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/sparklost/endcord/releases/tag/1.4.1",
+            "description": "Feature rich Discord TUI client",
+            "homepage": "https://github.com/sparklost/endcord",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "endcord",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "endcord",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "endcord",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/endcord/default.nix",
+                "line": 141
+            },
+            "name": "endcord-1.4.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/endcord/default.nix#L137",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "endcord-1.4.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "endcord",
+        "system": "x86_64-linux",
+        "version": "1.4.1",
+        "_attr": "endcord",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.fzf-tab-completion": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tab completion using fzf",
+            "homepage": "https://github.com/lincheney/fzf-tab-completion",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "fzf-tab-completion",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "fzf-tab-completion",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/fzf-tab-completion/default.nix",
+                "line": 49
+            },
+            "name": "fzf-tab-completion-2025-01-20",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/fzf-tab-completion/default.nix#L46",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fzf-tab-completion-2025-01-20",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fzf-tab-completion",
+        "system": "x86_64-linux",
+        "version": "2025-01-20",
+        "_attr": "fzf-tab-completion",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.jetbrains-fleet": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://www.jetbrains.com/help/fleet/1.48/release-notes-fleet.html",
+            "description": "More Than a Code Editor",
+            "homepage": "https://www.jetbrains.com/fleet/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jetbrains-fleet",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jetbrains-fleet",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "Fleet is a code editor designed for simplicity, combining a clean UI, AI capabilities, and an essential set of built-in features for most major languages.",
+            "mainProgram": "fleet",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/jetbrains-fleet/default.nix",
+                "line": 100
+            },
+            "name": "jetbrains-fleet-1.48.261",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/jetbrains-fleet/default.nix#L95",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "jetbrains-fleet-1.48.261",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jetbrains-fleet",
+        "system": "x86_64-linux",
+        "version": "1.48.261",
+        "_attr": "jetbrains-fleet",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.davey": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Snazzah/davey/releases/tag/py-0.1.5",
+            "description": "Discord DAVE implementation in Rust",
+            "homepage": "https://github.com/Snazzah/davey",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "davey",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "davey",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/davey/default.nix",
+                "line": 43
+            },
+            "name": "python3.13-davey-0.1.5",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/davey/default.nix#L39",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-davey-0.1.5",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-davey",
+        "system": "x86_64-linux",
+        "version": "0.1.5",
+        "_attr": "python313Packages.davey",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.dearpygui": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/hoffstadt/DearPyGui/releases/tag/v2.0.0",
+            "description": "A fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies",
+            "homepage": "https://github.com/hoffstadt/DearPyGui",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dearpygui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dearpygui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/dearpygui/default.nix",
+                "line": 53
+            },
+            "name": "python3.13-dearpygui-2.0.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/dearpygui/default.nix#L49",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-dearpygui-2.0.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-dearpygui",
+        "system": "x86_64-linux",
+        "version": "2.0.0",
+        "_attr": "python313Packages.dearpygui",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.django-colorfield": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/fabiocaccamo/django-colorfield/blob/main/CHANGELOG.md",
+            "description": "Color field for Django models with a nice color-picker in the admin",
+            "homepage": "https://github.com/fabiocaccamo/django-colorfield",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "django-colorfield",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "django-colorfield",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/django-colorfield/default.nix",
+                "line": 54
+            },
+            "name": "python3.13-django-colorfield-0.14.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/django-colorfield/default.nix#L50",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-django-colorfield-0.14.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-django-colorfield",
+        "system": "x86_64-linux",
+        "version": "0.14.0",
+        "_attr": "python313Packages.django-colorfield",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.doc2dash": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/hynek/doc2dash/blob/main/CHANGELOG.md",
+            "description": "Convert docs to the docset format",
+            "homepage": "https://doc2dash.hynek.me/en/stable/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "doc2dash",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "doc2dash",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/doc2dash/default.nix",
+                "line": 66
+            },
+            "name": "python3.13-doc2dash-3.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/doc2dash/default.nix#L62",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-doc2dash-3.1.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-doc2dash",
+        "system": "x86_64-linux",
+        "version": "3.1.0",
+        "_attr": "python313Packages.doc2dash",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.flask-apscheduler": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/viniciuschiele/flask-apscheduler/releases/tag/1.13.1",
+            "description": "Adds APScheduler support to Flask",
+            "homepage": "https://github.com/viniciuschiele/flask-apscheduler",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "flask-apscheduler",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "flask-apscheduler",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/flask-apscheduler/default.nix",
+                "line": 46
+            },
+            "name": "python3.13-flask-apscheduler-1.13.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/flask-apscheduler/default.nix#L42",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-flask-apscheduler-1.13.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-flask-apscheduler",
+        "system": "x86_64-linux",
+        "version": "1.13.1",
+        "_attr": "python313Packages.flask-apscheduler",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.lib3to6": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/mbarkhau/lib3to6/releases/tag/v202107.1047",
+            "description": "Build universally compatible python packages from a substantial subset of Python 3.8",
+            "homepage": "https://github.com/mbarkhau/lib3to6",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lib3to6",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lib3to6",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "lib3to6",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/lib3to6/default.nix",
+                "line": 54
+            },
+            "name": "python3.13-lib3to6-202107.1047",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/lib3to6/default.nix#L50",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-lib3to6-202107.1047",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-lib3to6",
+        "system": "x86_64-linux",
+        "version": "202107.1047",
+        "_attr": "python313Packages.lib3to6",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.markdown-katex": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/mbarkhau/markdown-katex/releases/tag/v202406.1035",
+            "description": "Adds KaTeX support for Python Markdown",
+            "homepage": "https://github.com/mbarkhau/markdown-katex",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "markdown-katex",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "markdown-katex",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/markdown-katex/default.nix",
+                "line": 67
+            },
+            "name": "python3.13-markdown-katex-202406.1035",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/markdown-katex/default.nix#L63",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-markdown-katex-202406.1035",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-markdown-katex",
+        "system": "x86_64-linux",
+        "version": "202406.1035",
+        "_attr": "python313Packages.markdown-katex",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.protobuf-inspector": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/mildsunrise/protobuf-inspector/releases/tag/v0.2.0",
+            "description": "Tool to reverse-engineer Protocol Buffers with unknown definition",
+            "homepage": "https://github.com/mildsunrise/protobuf-inspector",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "protobuf-inspector",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "protobuf-inspector",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "ISC License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/protobuf-inspector/default.nix",
+                "line": 35
+            },
+            "name": "python3.13-protobuf-inspector-0.2.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/protobuf-inspector/default.nix#L31",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-protobuf-inspector-0.2.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-protobuf-inspector",
+        "system": "x86_64-linux",
+        "version": "0.2.0",
+        "_attr": "python313Packages.protobuf-inspector",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.pyinstxtractor-ng": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/pyinstxtractor/pyinstxtractor-ng/releases/tag/2026.07.03",
+            "description": "Tool to extract the contents of a Pyinstaller generated executable file",
+            "homepage": "https://github.com/pyinstxtractor/pyinstxtractor-ng/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pyinstxtractor-ng",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pyinstxtractor-ng",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "pyinstxtractor-ng",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/pyinstxtractor-ng/default.nix",
+                "line": 44
+            },
+            "name": "python3.13-pyinstxtractor-ng-2026.07.03",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/pyinstxtractor-ng/default.nix#L40",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-pyinstxtractor-ng-2026.07.03",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-pyinstxtractor-ng",
+        "system": "x86_64-linux",
+        "version": "2026.07.03",
+        "_attr": "python313Packages.pyinstxtractor-ng",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.pylingual": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Python decompiler for modern Python versions.",
+            "homepage": "https://github.com/syssec-utd/pylingual",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pylingual",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pylingual",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "pylingual",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/pylingual/default.nix",
+                "line": 83
+            },
+            "name": "python3.13-pylingual-0.1.0+unstable.2025.08.05",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/pylingual/default.nix#L80",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-pylingual-0.1.0+unstable.2025.08.05",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-pylingual",
+        "system": "x86_64-linux",
+        "version": "0.1.0+unstable.2025.08.05",
+        "_attr": "python313Packages.pylingual",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.python313Packages.xdis": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/rocky/python-xdis/releases/tag/6.3.0",
+            "description": "Python cross-version byte-code disassembler and marshal routines",
+            "homepage": "https://github.com/rocky/python-xdis",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "xdis",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "xdis",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "onny@project-insanity.org",
+                    "github": "onny",
+                    "githubId": 757752,
+                    "name": "Jonas Heinrich"
+                },
+                {
+                    "email": "melvyn2@dnsense.pub",
+                    "github": "melvyn2",
+                    "githubId": 9157412,
+                    "keys": [
+                        {
+                            "fingerprint": "232B 9F00 2153 CA86 849C  9224 25A2 B728 0CE3 AFF6"
+                        }
+                    ],
+                    "name": "melvyn"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/fkrgkr1glraxczxx0i9gm9zqjd118i2p-source/pkgs/development/python-modules/xdis/default.nix",
+                "line": 79
+            },
+            "name": "python3.13-xdis-6.3.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "onny@project-insanity.org",
+                    "github": "onny",
+                    "githubId": 757752,
+                    "name": "Jonas Heinrich"
+                },
+                {
+                    "email": "melvyn2@dnsense.pub",
+                    "github": "melvyn2",
+                    "githubId": 9157412,
+                    "keys": [
+                        {
+                            "fingerprint": "232B 9F00 2153 CA86 849C  9224 25A2 B728 0CE3 AFF6"
+                        }
+                    ],
+                    "name": "melvyn"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/hexadecimalDinosaur/nur/blob/HEAD/pkgs/development/python-modules/xdis/default.nix#L75",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.13-xdis-6.3.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.13-xdis",
+        "system": "x86_64-linux",
+        "version": "6.3.0",
+        "_attr": "python313Packages.xdis",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.all": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (All)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-all",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-all",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-all-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-all-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-all",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.all",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.default": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.default",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.japanese": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (Japanese)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-japanese",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-japanese",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-japanese-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-japanese-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-japanese",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.japanese",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.korean": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (Korean)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-korean",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-korean",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-korean-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-korean-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-korean",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.korean",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.other": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (Other)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-other",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-other",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-other-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-other-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-other",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.other",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.sea": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (Southeast Asian)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-sea",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-sea",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-sea-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-sea-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-sea",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.sea",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.thai": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (Thai)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-thai",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-thai",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-thai-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-thai-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-thai",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.thai",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.zh-cn": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (Simplified Chinese)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-zh-cn",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-zh-cn",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-zh-cn-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-zh-cn-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-zh-cn",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.zh-cn",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.ttf-ms-win11.zh-tw": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Windows 11 TrueType fonts (Traditional Chinese)",
+            "homepage": "https://learn.microsoft.com/en-us/typography/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ttf-ms-win11-zh-tw",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ttf-ms-win11-zh-tw",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix",
+                "line": 50
+            },
+            "name": "ttf-ms-win11-zh-tw-10.0.26100.1742",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/ttf-ms-win11/package.nix#L48",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "ttf-ms-win11-zh-tw-10.0.26100.1742",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ttf-ms-win11-zh-tw",
+        "system": "x86_64-linux",
+        "version": "10.0.26100.1742",
+        "_attr": "ttf-ms-win11.zh-tw",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.tulip": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Network analysis tool for Attack Defence CTF",
+            "homepage": "https://github.com/OpenAttackDefenseTools/tulip/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tulip",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tulip",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "tulip-api",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/tulip/default.nix",
+                "line": 26
+            },
+            "name": "tulip-1.0.1-2025.07.03.unstable",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/tulip/default.nix#L23",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tulip-1.0.1-2025.07.03.unstable",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tulip",
+        "system": "x86_64-linux",
+        "version": "1.0.1-2025.07.03.unstable",
+        "_attr": "tulip",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.tulip-api": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Network analysis tool for Attack Defence CTF",
+            "homepage": "https://github.com/OpenAttackDefenseTools/tulip/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tulip-api",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tulip-api",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "tulip-api",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/tulip-api/default.nix",
+                "line": 53
+            },
+            "name": "tulip-api-1.0.1-2025.07.03.unstable",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/tulip-api/default.nix#L50",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tulip-api-1.0.1-2025.07.03.unstable",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tulip-api",
+        "system": "x86_64-linux",
+        "version": "1.0.1-2025.07.03.unstable",
+        "_attr": "tulip-api",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.tulip-assembler": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Network analysis tool for Attack Defence CTF",
+            "homepage": "https://github.com/OpenAttackDefenseTools/tulip/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tulip-assembler",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tulip-assembler",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "tulip-assembler",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/tulip-assembler/default.nix",
+                "line": 52
+            },
+            "name": "tulip-assembler-1.0.1-2025.07.03.unstable",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/tulip-assembler/default.nix#L49",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tulip-assembler-1.0.1-2025.07.03.unstable",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tulip-assembler",
+        "system": "x86_64-linux",
+        "version": "1.0.1-2025.07.03.unstable",
+        "_attr": "tulip-assembler",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.tulip-enricher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Network analysis tool for Attack Defence CTF",
+            "homepage": "https://github.com/OpenAttackDefenseTools/tulip/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tulip-enricher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tulip-enricher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "tulip-enricher",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/tulip-enricher/default.nix",
+                "line": 38
+            },
+            "name": "tulip-enricher-1.0.1-2025.07.03.unstable",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/tulip-enricher/default.nix#L35",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tulip-enricher-1.0.1-2025.07.03.unstable",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tulip-enricher",
+        "system": "x86_64-linux",
+        "version": "1.0.1-2025.07.03.unstable",
+        "_attr": "tulip-enricher",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.tulip-flagids": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Network analysis tool for Attack Defence CTF",
+            "homepage": "https://github.com/OpenAttackDefenseTools/tulip/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tulip-flagids",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tulip-flagids",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "tulip-flagids",
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/tulip-flagids/default.nix",
+                "line": 47
+            },
+            "name": "tulip-flagids-1.0.1-2025.07.03.unstable",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/tulip-flagids/default.nix#L44",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tulip-flagids-1.0.1-2025.07.03.unstable",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tulip-flagids",
+        "system": "x86_64-linux",
+        "version": "1.0.1-2025.07.03.unstable",
+        "_attr": "tulip-flagids",
+        "_repo": "hexadecimalDinosaur"
+    },
+    "nur.repos.hexadecimalDinosaur.tulip-frontend": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Network analysis tool for Attack Defence CTF",
+            "homepage": "https://github.com/OpenAttackDefenseTools/tulip/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tulip-frontend",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tulip-frontend",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/hexadecimalDinosaur/pkgs/tulip-frontend/default.nix",
+                "line": 68
+            },
+            "name": "tulip-frontend-1.0.1-2025.07.03.unstable",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@ivyfanchiang.ca",
+                    "github": "hexadecimalDinosaur",
+                    "githubId": 36890802,
+                    "name": "Ivy Fan-Chiang"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hexadecimalDinosaur/pkgs/tulip-frontend/default.nix#L65",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tulip-frontend-1.0.1-2025.07.03.unstable",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tulip-frontend",
+        "system": "x86_64-linux",
+        "version": "1.0.1-2025.07.03.unstable",
+        "_attr": "tulip-frontend",
+        "_repo": "hexadecimalDinosaur"
+    },
     "nur.repos.hhr2020.celechron": {
         "meta": {
             "available": true,
@@ -1036206,7 +1040446,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.177.0",
+            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.181.0",
             "description": "Cross-platform dependency automation, with patches for nix",
             "homepage": "https://github.com/renovatebot/renovate",
             "identifiers": {
@@ -1036251,7 +1040491,7 @@
             },
             "mainProgram": "renovate",
             "maintainers": [],
-            "name": "renovate-44.177.0",
+            "name": "renovate-44.181.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1036289,14 +1040529,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "renovate-44.177.0",
+        "name": "renovate-44.181.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "renovate",
         "system": "x86_64-linux",
-        "version": "44.177.0",
+        "version": "44.181.0",
         "_attr": "renovate",
         "_repo": "trev"
     },
