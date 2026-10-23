@@ -291825,7 +291825,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.3",
+            "name": "opencode-1.19.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -291867,14 +291867,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.3",
+        "name": "opencode-1.19.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.3",
+        "version": "1.19.4",
         "_attr": "opencode",
         "_repo": "falconprogrammer"
     },
@@ -291927,7 +291927,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.3",
+            "name": "opencode-1.19.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -291969,14 +291969,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.3",
+        "name": "opencode-1.19.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.3",
+        "version": "1.19.4",
         "_attr": "opencode-sst",
         "_repo": "falconprogrammer"
     },
@@ -413282,7 +413282,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/pkgs/galgamemanager/default.nix",
                 "line": 142
             },
-            "name": "galgamemanager-1.4.0",
+            "name": "galgamemanager-1.4.1",
             "nonTeamMaintainers": [
                 "lxl66566"
             ],
@@ -413303,14 +413303,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "galgamemanager-1.4.0",
+        "name": "galgamemanager-1.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "galgamemanager",
         "system": "x86_64-linux",
-        "version": "1.4.0",
+        "version": "1.4.1",
         "_attr": "galgamemanager",
         "_repo": "lxl66566"
     },
@@ -521531,6 +521531,127 @@
         "version": "2026.0.1.0",
         "_attr": "zw3d",
         "_repo": "mio"
+    },
+    "nur.repos.mirdukkkkk.beefetch": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Neofetch clone written in Go with the ability to display \ud83d\udc1d",
+            "homepage": "https://github.com/mirdukkkkk/beefetch",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "beefetch",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "beefetch",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "beefetch",
+            "maintainers": [],
+            "name": "beefetch-2.0.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/beefetch/default.nix#L30",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "beefetch-2.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "beefetch",
+        "system": "x86_64-linux",
+        "version": "2.0.1",
+        "_attr": "beefetch",
+        "_repo": "mirdukkkkk"
     },
     "nur.repos.mirdukkkkk.firefox-addons.cookie-editor": {
         "meta": {
@@ -898924,7 +899045,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "python3.14-shirok1/lumi_curtain-0.2.1",
+            "name": "python3.14-shirok1/lumi_curtain-0.3.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -898965,14 +899086,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-shirok1-lumi_curtain-0.2.1",
+        "name": "python3.14-shirok1-lumi_curtain-0.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "python3.14-shirok1-lumi_curtain",
         "system": "x86_64-linux",
-        "version": "0.2.1",
+        "version": "0.3.0",
         "_attr": "hass-lumi-curtain",
         "_repo": "shirok1"
     },
@@ -1050118,7 +1050239,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/x71c9/pkgs/tempesta/default.nix",
                 "line": 43
             },
-            "name": "tempesta-0.4.4",
+            "name": "tempesta-0.4.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1050155,14 +1050276,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tempesta-0.4.4",
+        "name": "tempesta-0.4.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tempesta",
         "system": "x86_64-linux",
-        "version": "0.4.4",
+        "version": "0.4.5",
         "_attr": "tempesta",
         "_repo": "x71c9"
     },
