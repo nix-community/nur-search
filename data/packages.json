@@ -324049,6 +324049,101 @@
         "_attr": "yaagl-zzz-os",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.yapfast": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Native Discord client that stays light on memory",
+            "homepage": "https://github.com/yapfast/yapfast",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "yapfast",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "yapfast",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "yapfast",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/yapfast/default.nix",
+                "line": 19
+            },
+            "name": "yapfast-0.2.0-nightly.20261022.3",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/yapfast/default.nix#L16",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "yapfast-0.2.0-nightly.20261022.3",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "yapfast",
+        "system": "x86_64-linux",
+        "version": "0.2.0-nightly.20261022.3",
+        "_attr": "yapfast",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.zed-editor": {
         "meta": {
             "available": true,
@@ -324209,6 +324304,98 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "zed-editor",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.zeiger": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Fast, free, no-nonsense image viewer",
+            "homepage": "https://zeigerviewer.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zeiger",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zeiger",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/zeiger/default.nix",
+                "line": 20
+            },
+            "name": "zeiger-0.2.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/zeiger/default.nix#L18",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "zeiger-0.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "zeiger",
+        "system": "x86_64-linux",
+        "version": "0.2.0",
+        "_attr": "zeiger",
         "_repo": "forkprince"
     },
     "nur.repos.fractuscontext.example-package": {
@@ -578986,113 +579173,6 @@
         "_attr": "error-pages",
         "_repo": "pedorich-n"
     },
-    "nur.repos.pedorich-n.mcp-searxng": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/ihor-sokoliuk/mcp-searxng/releases/tag/v2.6.0",
-            "description": "MCP Server for SearXNG",
-            "homepage": "https://github.com/ihor-sokoliuk/mcp-searxng",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "mcp-searxng",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "mcp-searxng",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "mcp-searxng",
-            "maintainers": [],
-            "name": "mcp-searxng-2.6.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/pedorich-n/pkgs/mcp-searxng/package.nix#L32",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "mcp-searxng-2.6.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "mcp-searxng",
-        "system": "x86_64-linux",
-        "version": "2.6.0",
-        "_attr": "mcp-searxng",
-        "_repo": "pedorich-n"
-    },
     "nur.repos.pedorich-n.rustic-exporter": {
         "meta": {
             "available": true,
@@ -579394,7 +579474,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/pedorich-n/pkgs/safebucket_main/package.nix#L45",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/pedorich-n/pkgs/safebucket_main/package.nix#L44",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
