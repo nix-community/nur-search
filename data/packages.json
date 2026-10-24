@@ -374777,7 +374777,7 @@
             },
             "mainProgram": "nix-rados-cache",
             "maintainers": [],
-            "name": "nix-rados-cache-0-unstable-2026-10-22",
+            "name": "nix-rados-cache-0-unstable-2026-10-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -374796,14 +374796,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nix-rados-cache-0-unstable-2026-10-22",
+        "name": "nix-rados-cache-0-unstable-2026-10-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nix-rados-cache",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-10-24",
         "_attr": "nix-rados-cache",
         "_repo": "josh"
     },
@@ -376524,7 +376524,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-23",
+            "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -376620,14 +376620,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-23",
+        "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rfmoz-grafana-dashboards",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-23",
+        "version": "0-unstable-2026-10-24",
         "_attr": "rfmoz-grafana-dashboards",
         "_repo": "josh"
     },
@@ -376987,7 +376987,7 @@
             },
             "mainProgram": "sops-install-secrets",
             "maintainers": [],
-            "name": "sops-install-secrets-assets-unstable-2026-10-22",
+            "name": "sops-install-secrets-assets-unstable-2026-10-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -377029,14 +377029,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sops-install-secrets-assets-unstable-2026-10-22",
+        "name": "sops-install-secrets-assets-unstable-2026-10-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sops-install-secrets-assets-unstable",
         "system": "x86_64-linux",
-        "version": "2026-10-22",
+        "version": "2026-10-24",
         "_attr": "sops-install-secrets",
         "_repo": "josh"
     },
@@ -1067509,6 +1067509,112 @@
         "_attr": "gost-engine",
         "_repo": "xddxdd"
     },
+    "nur.repos.xddxdd.gpu-unlock": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Early-boot Ampere GPU floating-point instruction rate unlock",
+            "homepage": "https://github.com/Zagitta/gpu-unlock",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gpu-unlock",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gpu-unlock",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/gpu-unlock/default.nix",
+                "line": 54
+            },
+            "name": "gpu-unlock-0-unstable-2026-10-24",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/kernel-modules/gpu-unlock/default.nix#L51",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gpu-unlock-0-unstable-2026-10-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gpu-unlock",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-24",
+        "_attr": "gpu-unlock",
+        "_repo": "xddxdd"
+    },
     "nur.repos.xddxdd.grasscutter": {
         "meta": {
             "available": true,
@@ -1071285,6 +1071391,112 @@
         "system": "x86_64-linux",
         "version": "0.1.0-6.18.57",
         "_attr": "kernel-modules.emperors-scepter",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.kernel-modules.gpu-unlock": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Early-boot Ampere GPU floating-point instruction rate unlock",
+            "homepage": "https://github.com/Zagitta/gpu-unlock",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gpu-unlock",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gpu-unlock",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/gpu-unlock/default.nix",
+                "line": 54
+            },
+            "name": "gpu-unlock-0-unstable-2026-10-24",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/kernel-modules/gpu-unlock/default.nix#L51",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gpu-unlock-0-unstable-2026-10-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gpu-unlock",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-24",
+        "_attr": "kernel-modules.gpu-unlock",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.kernel-modules.i915-sriov": {
@@ -1132016,7 +1132228,7 @@
                 }
             ],
             "maintainersPosition": {
-                "column": 5,
+                "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
                 "line": 158
             },
@@ -1132071,12 +1132283,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "strata-0.2.3.1",
+        "name": "strata-runtime-0.2.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "strata",
+        "pname": "strata-runtime",
         "system": "x86_64-linux",
         "version": "0.2.3.1",
         "_attr": "strata",
@@ -1153298,7 +1153510,7 @@
                 }
             ],
             "maintainersPosition": {
-                "column": 5,
+                "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
                 "line": 158
             },
@@ -1153353,12 +1153565,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "strata-0.2.3.1",
+        "name": "strata-runtime-0.2.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "strata",
+        "pname": "strata-runtime",
         "system": "x86_64-linux",
         "version": "0.2.3.1",
         "_attr": "uncategorized.strata",
