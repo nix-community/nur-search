@@ -929491,6 +929491,152 @@
         "_attr": "dtree",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.duckdb-httpfs": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "DuckDB HTTPFS extension",
+            "homepage": "https://github.com/duckdb/duckdb-httpfs",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "duckdb-httpfs",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "duckdb-httpfs",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@disroot.org",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5"
+                        }
+                    ],
+                    "matrix": "@sikmir:matrix.org",
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/du/duckdb-httpfs/package.nix",
+                "line": 43
+            },
+            "name": "duckdb-httpfs-0-unstable-2026-10-19",
+            "nonTeamMaintainers": [
+                {
+                    "email": "sikmir@disroot.org",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5"
+                        }
+                    ],
+                    "matrix": "@sikmir:matrix.org",
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/du/duckdb-httpfs/package.nix#L40",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "duckdb-httpfs-0-unstable-2026-10-19",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "duckdb-httpfs",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-19",
+        "_attr": "duckdb-httpfs",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.dump1090_rs": {
         "meta": {
             "available": false,
@@ -930562,7 +930708,7 @@
         "_attr": "elevation-server",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.embox-aarch64": {
+    "nur.repos.sikmir.embox": {
         "meta": {
             "available": true,
             "broken": false,
@@ -930574,7 +930720,7 @@
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "embox-aarch64-qemu",
+                    "product": "embox-x86-qemu",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -930588,7 +930734,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "embox-aarch64-qemu",
+                        "product": "embox-x86-qemu",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -930625,10 +930771,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/embedded/embox/default.nix",
-                "line": 115
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/em/embox/package.nix",
+                "line": 117
             },
-            "name": "embox-aarch64-qemu-0.7.2",
+            "name": "embox-x86-qemu-0.7.3",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -930693,7 +930839,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/embedded/embox/default.nix#L112",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/em/embox/package.nix#L114",
             "problems": {},
             "skip": {
                 "ci": true
@@ -930701,14 +930847,164 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "embox-aarch64-qemu-0.7.2",
+        "name": "embox-x86-qemu-0.7.3",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "embox-x86-qemu",
+        "system": "x86_64-linux",
+        "version": "0.7.3",
+        "_attr": "embox",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.embox-aarch64": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modular and configurable OS for embedded applications",
+            "homepage": "http://embox.github.io/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "embox-aarch64-qemu",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "embox-aarch64-qemu",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "mainProgram": "embox",
+            "maintainers": [
+                {
+                    "email": "sikmir@disroot.org",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5"
+                        }
+                    ],
+                    "matrix": "@sikmir:matrix.org",
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/em/embox/package.nix",
+                "line": 117
+            },
+            "name": "embox-aarch64-qemu-0.7.3",
+            "nonTeamMaintainers": [
+                {
+                    "email": "sikmir@disroot.org",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5"
+                        }
+                    ],
+                    "matrix": "@sikmir:matrix.org",
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/em/embox/package.nix#L114",
+            "problems": {},
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "embox-aarch64-qemu-0.7.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "embox-aarch64-qemu",
         "system": "x86_64-linux",
-        "version": "0.7.2",
+        "version": "0.7.3",
         "_attr": "embox-aarch64",
         "_repo": "sikmir"
     },
@@ -930775,10 +931071,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/embedded/embox/default.nix",
-                "line": 115
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/em/embox/package.nix",
+                "line": 117
             },
-            "name": "embox-arm-qemu-0.7.2",
+            "name": "embox-arm-qemu-0.7.3",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -930843,7 +931139,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/embedded/embox/default.nix#L112",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/em/embox/package.nix#L114",
             "problems": {},
             "skip": {
                 "ci": true
@@ -930851,14 +931147,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "embox-arm-qemu-0.7.2",
+        "name": "embox-arm-qemu-0.7.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "embox-arm-qemu",
         "system": "x86_64-linux",
-        "version": "0.7.2",
+        "version": "0.7.3",
         "_attr": "embox-arm",
         "_repo": "sikmir"
     },
@@ -930925,10 +931221,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/embedded/embox/default.nix",
-                "line": 115
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/em/embox/package.nix",
+                "line": 117
             },
-            "name": "embox-ppc-qemu-0.7.2",
+            "name": "embox-ppc-qemu-0.7.3",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -930993,7 +931289,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/embedded/embox/default.nix#L112",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/em/embox/package.nix#L114",
             "problems": {},
             "skip": {
                 "ci": true
@@ -931001,14 +931297,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "embox-ppc-qemu-0.7.2",
+        "name": "embox-ppc-qemu-0.7.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "embox-ppc-qemu",
         "system": "x86_64-linux",
-        "version": "0.7.2",
+        "version": "0.7.3",
         "_attr": "embox-ppc",
         "_repo": "sikmir"
     },
@@ -931075,10 +931371,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/embedded/embox/default.nix",
-                "line": 115
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/em/embox/package.nix",
+                "line": 117
             },
-            "name": "embox-riscv64-qemu-0.7.2",
+            "name": "embox-riscv64-qemu-0.7.3",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -931143,7 +931439,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/embedded/embox/default.nix#L112",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/em/embox/package.nix#L114",
             "problems": {},
             "skip": {
                 "ci": true
@@ -931151,165 +931447,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "embox-riscv64-qemu-0.7.2",
+        "name": "embox-riscv64-qemu-0.7.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "embox-riscv64-qemu",
         "system": "x86_64-linux",
-        "version": "0.7.2",
+        "version": "0.7.3",
         "_attr": "embox-riscv64",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.embox-x86": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Modular and configurable OS for embedded applications",
-            "homepage": "http://embox.github.io/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "embox-x86-qemu",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "embox-x86-qemu",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "BSD 2-clause \"Simplified\" License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "bsd2",
-                "spdxId": "BSD-2-Clause",
-                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
-            },
-            "mainProgram": "embox",
-            "maintainers": [
-                {
-                    "email": "sikmir@disroot.org",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5"
-                        }
-                    ],
-                    "matrix": "@sikmir:matrix.org",
-                    "name": "Nikolay Korotkiy"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/embedded/embox/default.nix",
-                "line": 115
-            },
-            "name": "embox-x86-qemu-0.7.2",
-            "nonTeamMaintainers": [
-                {
-                    "email": "sikmir@disroot.org",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5"
-                        }
-                    ],
-                    "matrix": "@sikmir:matrix.org",
-                    "name": "Nikolay Korotkiy"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/embedded/embox/default.nix#L112",
-            "problems": {},
-            "skip": {
-                "ci": true
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "embox-x86-qemu-0.7.2",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "embox-x86-qemu",
-        "system": "x86_64-linux",
-        "version": "0.7.2",
-        "_attr": "embox-x86",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.estampa": {
@@ -957264,7 +957410,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/mq/mqtt-cli/package.nix",
                 "line": 42
             },
-            "name": "mqtt-cli-4.56.0",
+            "name": "mqtt-cli-4.56.1",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -957303,14 +957449,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mqtt-cli-4.56.0",
+        "name": "mqtt-cli-4.56.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mqtt-cli",
         "system": "x86_64-linux",
-        "version": "4.56.0",
+        "version": "4.56.1",
         "_attr": "mqtt-cli",
         "_repo": "sikmir"
     },
