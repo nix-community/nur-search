@@ -497468,7 +497468,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 344
+                "line": 349
             },
             "name": "archivetune-unwrapped-15.1.0",
             "nonTeamMaintainers": [
@@ -497488,7 +497488,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L341",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L346",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -502579,7 +502579,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Cutefish desktop: Wayland session, shell and applications",
+            "description": "Wayland session, shell and applications for the Cutefish desktop",
             "homepage": "https://cutefish.org/",
             "identifiers": {
                 "cpeParts": {
@@ -502609,16 +502609,43 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd3",
+                    "spdxId": "BSD-3-Clause",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v2.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl2Plus",
+                    "spdxId": "GPL-2.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "free": true,
+                    "fullName": "Unsplash License",
+                    "url": "https://unsplash.com/license"
+                }
+            ],
             "maintainers": [],
             "name": "cutefish-1.0-unstable-2026-10-24",
             "nonTeamMaintainers": [],
@@ -502876,7 +502903,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Cutefish Wayland compositor, shell and lock screen",
+            "description": "Wayland compositor, shell and lock screen for the Cutefish desktop",
             "homepage": "https://cutefish.org/",
             "identifiers": {
                 "cpeParts": {
@@ -502976,7 +503003,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Cutefish session, system services, polkit agent and screen recorder",
+            "description": "Session, system services, polkit agent and screen recorder for the Cutefish desktop",
             "homepage": "https://cutefish.org/",
             "identifiers": {
                 "cpeParts": {
@@ -503076,7 +503103,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Cutefish display manager. The desktop session also logs in through SDDM, GDM or LightDM",
+            "description": "Display manager for the Cutefish desktop",
             "homepage": "https://cutefish.org/",
             "identifiers": {
                 "cpeParts": {
@@ -503118,6 +503145,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "longDescription": "The Wayland session also logs in through SDDM, GDM or LightDM.\nservices.desktopManager.cutefish does not enable this display manager.\n",
             "mainProgram": "cutefish-dm",
             "maintainers": [],
             "name": "cutefish-dm-1.0-unstable-2026-10-22",
@@ -503375,7 +503403,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Cutefish icon theme, based on Colloid",
+            "description": "Icon theme for the Cutefish desktop, based on Colloid",
             "homepage": "https://cutefish.org/",
             "identifiers": {
                 "cpeParts": {
@@ -527594,7 +527622,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "xdg-desktop-portal backend for the Cutefish desktop",
+            "description": "XDG desktop portal backend for the Cutefish desktop",
             "homepage": "https://cutefish.org/",
             "identifiers": {
                 "cpeParts": {
@@ -527636,7 +527664,6 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "mainProgram": "xdg-desktop-portal-cutefish",
             "maintainers": [],
             "name": "xdg-desktop-portal-cutefish-1.0-unstable-2026-10-20",
             "nonTeamMaintainers": [],
