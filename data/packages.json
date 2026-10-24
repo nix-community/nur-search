@@ -8111,7 +8111,7 @@
                 "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
             },
             "maintainers": [],
-            "name": "josm-plugin-build-env-19613-36512",
+            "name": "josm-plugin-build-env-19613-36514",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -8121,14 +8121,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "josm-plugin-build-env-19613-36512",
+        "name": "josm-plugin-build-env-19613-36514",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "josm-plugin-build-env",
         "system": "x86_64-linux",
-        "version": "19613-36512",
+        "version": "19613-36514",
         "_attr": "josm-plugin-build-env",
         "_repo": "AndrewKvalheim"
     },
@@ -268066,7 +268066,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "fishplugin-tide-7.1.2",
+            "name": "fishplugin-tide-7.2.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -268081,14 +268081,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fishplugin-tide-7.1.2",
+        "name": "fishplugin-tide-7.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fishplugin-tide",
         "system": "x86_64-linux",
-        "version": "7.1.2",
+        "version": "7.2.0",
         "_attr": "tide",
         "_repo": "duncannah"
     },
@@ -275760,7 +275760,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/etu/pkgs/dms-shell-plugins/dank-actions.nix",
                 "line": 31
             },
-            "name": "dms-dank-actions-0-unstable-2026-10-20",
+            "name": "dms-dank-actions-0-unstable-2026-10-23",
             "nonTeamMaintainers": [
                 {
                     "email": "elis@hirwing.se",
@@ -275864,14 +275864,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dms-dank-actions-0-unstable-2026-10-20",
+        "name": "dms-dank-actions-0-unstable-2026-10-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dms-dank-actions",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-10-23",
         "_attr": "dmsShellPlugins.dankActions",
         "_repo": "etu"
     },
@@ -339030,7 +339030,7 @@
             },
             "mainProgram": "gitcrawl",
             "maintainers": [],
-            "name": "gitcrawl-0.15.1",
+            "name": "gitcrawl-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -339077,14 +339077,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gitcrawl-0.15.1",
+        "name": "gitcrawl-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gitcrawl",
         "system": "x86_64-linux",
-        "version": "0.15.1",
+        "version": "0.16.0",
         "_attr": "gitcrawl",
         "_repo": "hol1kgmg"
     },
@@ -405685,7 +405685,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/code-cursor/default.nix",
                 "line": 93
             },
-            "name": "cursor-3.27.6",
+            "name": "cursor-3.27.12",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -405710,14 +405710,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "cursor-3.27.6",
+        "name": "cursor-3.27.12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cursor",
         "system": "x86_64-linux",
-        "version": "3.27.6",
+        "version": "3.27.12",
         "_attr": "code-cursor",
         "_repo": "lmdevv"
     },
@@ -502575,130 +502575,6 @@
         "_attr": "cua",
         "_repo": "mio"
     },
-    "nur.repos.mio.cutefish": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Wayland session, shell and applications for the Cutefish desktop",
-            "homepage": "https://cutefish.org/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "bsd3",
-                    "spdxId": "BSD-3-Clause",
-                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU General Public License v2.0 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "gpl2Plus",
-                    "spdxId": "GPL-2.0-or-later",
-                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU General Public License v3.0 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "gpl3Plus",
-                    "spdxId": "GPL-3.0-or-later",
-                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-                },
-                {
-                    "free": true,
-                    "fullName": "Unsplash License",
-                    "url": "https://unsplash.com/license"
-                }
-            ],
-            "maintainers": [],
-            "name": "cutefish-1.0-unstable-2026-10-24",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish/package.nix#L48",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "cutefish-1.0-unstable-2026-10-24",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "cutefish",
-        "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-10-24",
-        "_attr": "cutefish",
-        "_repo": "mio"
-    },
     "nur.repos.mio.cutefish-calculator": {
         "meta": {
             "available": true,
@@ -502778,7 +502654,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-calculator/package.nix#L39",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-calculator/package.nix#L9",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -502878,7 +502754,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-calendar/package.nix#L47",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-calendar/package.nix#L20",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -502978,7 +502854,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-compositor/package.nix#L108",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-compositor/package.nix#L82",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503078,7 +502954,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-core/package.nix#L101",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-core/package.nix#L75",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503179,7 +503055,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-dm/package.nix#L60",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-dm/package.nix#L34",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503279,7 +503155,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-filemanager/package.nix#L67",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-filemanager/package.nix#L40",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503378,7 +503254,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-framework/package.nix#L55",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-framework/package.nix#L28",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503477,7 +503353,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-icons/package.nix#L40",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-icons/package.nix#L22",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503576,7 +503452,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-qt-plugins/package.nix#L72",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-qt-plugins/package.nix#L52",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503676,7 +503552,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-settings/package.nix#L79",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-settings/package.nix#L52",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503776,7 +503652,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-system-monitor/package.nix#L49",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-system-monitor/package.nix#L22",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503898,7 +503774,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-terminal/package.nix#L52",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-terminal/package.nix#L26",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -503998,7 +503874,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-text-editor/package.nix#L45",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-text-editor/package.nix#L18",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -504097,7 +503973,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-toolkit/package.nix#L117",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-toolkit/package.nix#L97",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -504197,7 +504073,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-video-player/package.nix#L50",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-video-player/package.nix#L24",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -504291,7 +504167,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-wallpapers/package.nix#L42",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-wallpapers/package.nix#L19",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -527696,7 +527572,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/xd/xdg-desktop-portal-cutefish/package.nix#L57",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/xd/xdg-desktop-portal-cutefish/package.nix#L31",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -532369,7 +532245,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cl/clash-nyanpasu/package.nix",
                 "line": 221
             },
-            "name": "clash-nyanpasu-2.0.0-rc.2-unstable-2026-10-22",
+            "name": "clash-nyanpasu-2.0.0-rc.3-unstable-2026-10-24",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -532438,14 +532314,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clash-nyanpasu-2.0.0-rc.2-unstable-2026-10-22",
+        "name": "clash-nyanpasu-2.0.0-rc.3-unstable-2026-10-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clash-nyanpasu",
         "system": "x86_64-linux",
-        "version": "2.0.0-rc.2-unstable-2026-10-22",
+        "version": "2.0.0-rc.3-unstable-2026-10-24",
         "_attr": "clash-nyanpasu",
         "_repo": "moraxyc"
     },
@@ -532515,7 +532391,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 54
             },
-            "name": "cpa-usage-keeper-2.0.0-unstable-2026-10-22",
+            "name": "cpa-usage-keeper-2.0.1-unstable-2026-10-24",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -532570,14 +532446,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.0.0-unstable-2026-10-22",
+        "name": "cpa-usage-keeper-2.0.1-unstable-2026-10-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.0.0-unstable-2026-10-22",
+        "version": "2.0.1-unstable-2026-10-24",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -534124,7 +534000,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "loyalsoldier-geoip-2026-10-22",
+            "name": "loyalsoldier-geoip-2026-10-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -534139,7 +534015,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "loyalsoldier-geoip-2026-10-22",
+        "name": "loyalsoldier-geoip-2026-10-23",
         "outputName": "out",
         "outputs": {
             "clash": null,
@@ -534155,7 +534031,7 @@
         },
         "pname": "loyalsoldier-geoip",
         "system": "x86_64-linux",
-        "version": "2026-10-22",
+        "version": "2026-10-23",
         "_attr": "loyalsoldier-geoip",
         "_repo": "moraxyc"
     },
@@ -534738,7 +534614,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-10-22",
+            "name": "meta-rules-dat-2026-10-24",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -534761,7 +534637,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-10-22",
+        "name": "meta-rules-dat-2026-10-24",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -534773,7 +534649,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-10-22",
+        "version": "2026-10-24",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -535415,7 +535291,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ni/nipaplay-reload/package.nix",
                 "line": 23
             },
-            "name": "nipaplay-reload-1.11.9",
+            "name": "nipaplay-reload-1.11.10",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -535448,14 +535324,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nipaplay-reload-1.11.9",
+        "name": "nipaplay-reload-1.11.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nipaplay-reload",
         "system": "x86_64-linux",
-        "version": "1.11.9",
+        "version": "1.11.10",
         "_attr": "nipaplay-reload",
         "_repo": "moraxyc"
     },
@@ -535590,7 +535466,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ny/nyanpasu-service/package.nix",
                 "line": 36
             },
-            "name": "nyanpasu-service-2.0.1-unstable-2026-10-21",
+            "name": "nyanpasu-service-2.0.1-unstable-2026-10-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -535649,14 +535525,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nyanpasu-service-2.0.1-unstable-2026-10-21",
+        "name": "nyanpasu-service-2.0.1-unstable-2026-10-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nyanpasu-service",
         "system": "x86_64-linux",
-        "version": "2.0.1-unstable-2026-10-21",
+        "version": "2.0.1-unstable-2026-10-23",
         "_attr": "nyanpasu-service",
         "_repo": "moraxyc"
     },
@@ -536760,7 +536636,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-10-21",
+            "name": "sing-rules-geo-2026-10-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -536775,7 +536651,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-10-21",
+        "name": "sing-rules-geo-2026-10-23",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -536785,7 +536661,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-10-21",
+        "version": "2026-10-23",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -537064,7 +536940,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-10-21",
+            "name": "v2ray-rules-dat-2026-10-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -537079,7 +536955,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-10-21",
+        "name": "v2ray-rules-dat-2026-10-23",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -537087,7 +536963,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-10-21",
+        "version": "2026-10-23",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
@@ -537300,7 +537176,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/wh/whois42d-ng/package.nix",
                 "line": 53
             },
-            "name": "whois42d-ng-2.1.1-unstable-2026-10-22",
+            "name": "whois42d-ng-2.1.1-unstable-2026-10-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -537363,14 +537239,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "whois42d-ng-2.1.1-unstable-2026-10-22",
+        "name": "whois42d-ng-2.1.1-unstable-2026-10-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "whois42d-ng",
         "system": "x86_64-linux",
-        "version": "2.1.1-unstable-2026-10-22",
+        "version": "2.1.1-unstable-2026-10-23",
         "_attr": "whois42d-ng",
         "_repo": "moraxyc"
     },
@@ -999090,7 +998966,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix",
-                "line": 126
+                "line": 143
             },
             "name": "caddy-sn0wm1x-2.11.7",
             "nonTeamMaintainers": [
@@ -999142,7 +999018,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix#L119",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix#L136",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1057128,7 +1057004,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "This NUR has a binary cache. Use the following settings to access it:\n\nnix.settings.substituters = [ \"https://cache.lantian.pub/lantian\" ];\nnix.settings.trusted-public-keys = [ \"cache.lantian.pub:WVGO7vsRMSEN+h7Lp7kv6SAmrkEXgUGbbXm7jMDjBuQ=\" ];\n\nOr, use variables from this repository in case I change them:\n\nnix.settings.substituters = [ nur.repos.xddxdd._meta.url ];\nnix.settings.trusted-public-keys = [ nur.repos.xddxdd._meta.publicKey ];\n",
+            "description": "This NUR has a binary cache. Use the following settings to access it:\n\nnix.settings.substituters = [ \"https://cache.lantian.pub/lantian\" ];\nnix.settings.trusted-public-keys = [ \"lantian:WVGO7vsRMSEN+h7Lp7kv6SAmrkEXgUGbbXm7jMDjBuQ=\" ];\n\nOr, use variables from this repository in case I change them:\n\nnix.settings.substituters = [ nur.repos.xddxdd._meta.url ];\nnix.settings.trusted-public-keys = [ nur.repos.xddxdd._meta.publicKey ];\n",
             "homepage": "https://github.com/xddxdd/nur-packages",
             "identifiers": {
                 "cpeParts": {
