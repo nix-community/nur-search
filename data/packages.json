@@ -358398,12 +358398,12 @@
         "meta": {
             "available": true,
             "badPlatforms": [],
-            "branch": "7.1",
+            "branch": "7.2",
             "broken": false,
             "description": "Sunlight Kernel. Built with custom settings and new features built to provide a stable, responsive and smooth desktop experience",
             "homepage": "https://www.kernel.org/",
             "identifiers": {
-                "cpe": "cpe:2.3:o:linux:linux_kernel:7.1.5:*:*:*:*:*:*:*",
+                "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
@@ -358415,11 +358415,11 @@
                     "target_sw": "*",
                     "update": "*",
                     "vendor": "linux",
-                    "version": "7.1.5"
+                    "version": "7.2.11"
                 },
                 "possibleCPEs": [
                     {
-                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.1.5:*:*:*:*:*:*:*",
+                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
                         "cpeParts": {
                             "edition": "*",
                             "language": "*",
@@ -358431,14 +358431,14 @@
                             "target_sw": "*",
                             "update": "*",
                             "vendor": "linux",
-                            "version": "7.1.5"
+                            "version": "7.2.11"
                         }
                     }
                 ],
                 "purlParts": {},
                 "purls": [],
                 "v1": {
-                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.1.5:*:*:*:*:*:*:*",
+                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
                     "cpeParts": {
                         "edition": "*",
                         "language": "*",
@@ -358450,11 +358450,11 @@
                         "target_sw": "*",
                         "update": "*",
                         "vendor": "linux",
-                        "version": "7.1.5"
+                        "version": "7.2.11"
                     },
                     "possibleCPEs": [
                         {
-                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.1.5:*:*:*:*:*:*:*",
+                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.2.11:*:*:*:*:*:*:*",
                             "cpeParts": {
                                 "edition": "*",
                                 "language": "*",
@@ -358466,7 +358466,7 @@
                                 "target_sw": "*",
                                 "update": "*",
                                 "vendor": "linux",
-                                "version": "7.1.5"
+                                "version": "7.2.11"
                             }
                         }
                     ],
@@ -358552,7 +358552,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ionutnechita/pkgs/sunlight-kernels/default.nix",
                 "line": 116
             },
-            "name": "linux-sunlight-7.1.5",
+            "name": "linux-sunlight-7.2.11",
             "nonTeamMaintainers": [
                 {
                     "email": "ionut_n2001@yahoo.com",
@@ -358696,7 +358696,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-sunlight-7.1.5",
+        "name": "linux-sunlight-7.2.11",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -358705,7 +358705,7 @@
         },
         "pname": "linux-sunlight",
         "system": "x86_64-linux",
-        "version": "7.1.5",
+        "version": "7.2.11",
         "_attr": "linux_sunlight_stable",
         "_repo": "ionutnechita"
     },
@@ -1039053,7 +1039053,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+            "changelog": "https://github.com/duckdb/duckdb/releases/tag/v2.0.0",
             "description": "Embeddable SQL OLAP Database Management System",
             "homepage": "https://duckdb.org/",
             "identifiers": {
@@ -1039108,9 +1039108,9 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/trev/packages/duckdb/default.nix",
-                "line": 556
+                "line": 602
             },
-            "name": "duckdb-1.5.6",
+            "name": "duckdb-2.0.0",
             "nonTeamMaintainers": [
                 {
                     "email": "me@trev.xyz",
@@ -1039203,12 +1039203,12 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/duckdb/default.nix#L552",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/duckdb/default.nix#L598",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "duckdb-1.5.6",
+        "name": "duckdb-2.0.0",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -1039217,7 +1039217,7 @@
         },
         "pname": "duckdb",
         "system": "x86_64-linux",
-        "version": "1.5.6",
+        "version": "2.0.0",
         "_attr": "duckdb",
         "_repo": "trev"
     },
