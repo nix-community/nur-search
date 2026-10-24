@@ -81919,7 +81919,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/hypruse/default.nix#L63",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/hypruse/default.nix#L65",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -199129,7 +199129,7 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix",
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/default.nix",
                 "line": 85
             },
             "name": "twintaillauncher-unwrapped-2.5.2",
@@ -199170,137 +199170,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix#L82",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "twintaillauncher-2.5.2",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "twintaillauncher",
-        "system": "x86_64-linux",
-        "version": "2.5.2",
-        "_attr": "twintaillauncher",
-        "_repo": "claymorwan"
-    },
-    "nur.repos.claymorwan.twintaillauncher-unwrapped": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "A multi-platform launcher for your anime games.",
-            "homepage": "twintaillauncher.app",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "twintaillauncher-unwrapped",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "twintaillauncher-unwrapped",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "twintaillauncher",
-            "maintainers": [
-                {
-                    "email": "claymorwan@fembois.dev",
-                    "github": "claymorwan",
-                    "githubId": 86072589,
-                    "keys": [
-                        {
-                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
-                        }
-                    ],
-                    "name": "claymorwan"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix",
-                "line": 85
-            },
-            "name": "twintaillauncher-unwrapped-2.5.2",
-            "nonTeamMaintainers": [
-                {
-                    "email": "claymorwan@fembois.dev",
-                    "github": "claymorwan",
-                    "githubId": 86072589,
-                    "keys": [
-                        {
-                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
-                        }
-                    ],
-                    "name": "claymorwan"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix#L82",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/twintaillauncher/default.nix#L82",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -199313,7 +199183,7 @@
         "pname": "twintaillauncher-unwrapped",
         "system": "x86_64-linux",
         "version": "2.5.2",
-        "_attr": "twintaillauncher-unwrapped",
+        "_attr": "twintaillauncher",
         "_repo": "claymorwan"
     },
     "nur.repos.claymorwan.utmt-cli": {
