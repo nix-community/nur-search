@@ -768288,6 +768288,111 @@
         "_attr": "melgeekhive",
         "_repo": "prince213"
     },
+    "nur.repos.prince213.mirroir-mcp": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/jfarcand/mirroir-mcp/releases/tag/v0.40.1",
+            "description": "MCP server for controlling a real iPhone via macOS iPhone Mirroring",
+            "downloadPage": "https://github.com/jfarcand/mirroir-mcp/releases",
+            "homepage": "https://mirroir.dev/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mirroir-mcp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mirroir-mcp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "mirroir-mcp",
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/mi/mirroir-mcp/package.nix",
+                "line": 52
+            },
+            "name": "mirroir-mcp-0.40.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/mi/mirroir-mcp/package.nix#L47",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mirroir-mcp-0.40.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mirroir-mcp",
+        "system": "x86_64-linux",
+        "version": "0.40.1",
+        "_attr": "mirroir-mcp",
+        "_repo": "prince213"
+    },
     "nur.repos.prince213.naiveproxy": {
         "meta": {
             "available": true,
