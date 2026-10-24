@@ -480764,7 +480764,7 @@
     },
     "nur.repos.milahu.python3Packages.selenium-driverless": {
         "meta": {
-            "available": false,
+            "available": true,
             "broken": false,
             "description": "Undetected Selenium without usage of chromedriver",
             "homepage": "https://github.com/ttlns/Selenium-Driverless",
@@ -480833,19 +480833,19 @@
             ],
             "license": {
                 "deprecated": false,
-                "free": false,
-                "fullName": "Creative Commons Attribution Non Commercial Share Alike 4.0",
+                "free": true,
+                "fullName": "MIT License",
                 "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "cc-by-nc-sa-40",
-                "spdxId": "CC-BY-NC-SA-4.0",
-                "url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html"
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/milahu/pkgs/python3/pkgs/selenium-driverless/selenium-driverless.nix",
-                "line": 79
+                "line": 84
             },
             "name": "python3.14-selenium-driverless-1.9.4",
             "nonTeamMaintainers": [],
@@ -480885,14 +480885,14 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/milahu/pkgs/python3/pkgs/selenium-driverless/selenium-driverless.nix#L76",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/milahu/pkgs/python3/pkgs/selenium-driverless/selenium-driverless.nix#L80",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
             },
-            "unfree": true,
+            "unfree": false,
             "unsupported": false
         },
         "name": "python3.14-selenium-driverless-1.9.4",
@@ -504410,7 +504410,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
                 "line": 246
             },
-            "name": "darling-0.1.20260608",
+            "name": "darling-0.1.20260608-unstable-2026-09-06",
             "nonTeamMaintainers": [
                 {
                     "email": "hello@zhaofeng.li",
@@ -504431,7 +504431,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "darling-0.1.20260608",
+        "name": "darling-0.1.20260608-unstable-2026-09-06",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -504439,8 +504439,103 @@
         },
         "pname": "darling",
         "system": "x86_64-linux",
-        "version": "0.1.20260608",
+        "version": "0.1.20260608-unstable-2026-09-06",
         "_attr": "darling",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.darling_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/darlinghq/darling/releases",
+            "description": "Darling with open pull requests for Clang, DESTDIR installs, semaphores, and host paths",
+            "homepage": "https://www.darlinghq.org",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "darling_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "darling_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "darling",
+            "maintainers": [
+                {
+                    "email": "hello@zhaofeng.li",
+                    "github": "zhaofengli",
+                    "githubId": 2189609,
+                    "matrix": "@zhaofeng:zhaofeng.li",
+                    "name": "Zhaofeng Li"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
+                "line": 246
+            },
+            "name": "darling_patched-0.1.20260608-unstable-2026-09-06",
+            "nonTeamMaintainers": [
+                {
+                    "email": "hello@zhaofeng.li",
+                    "github": "zhaofengli",
+                    "githubId": 2189609,
+                    "matrix": "@zhaofeng:zhaofeng.li",
+                    "name": "Zhaofeng Li"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling_patched/package.nix#L163",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "darling_patched-0.1.20260608-unstable-2026-09-06",
+        "outputName": "out",
+        "outputs": {
+            "out": null,
+            "sdk": null
+        },
+        "pname": "darling_patched",
+        "system": "x86_64-linux",
+        "version": "0.1.20260608-unstable-2026-09-06",
+        "_attr": "darling_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.datalog": {
