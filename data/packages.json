@@ -74976,7 +74976,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-10-22",
+            "name": "albedo-git-0-unstable-2026-10-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -75038,14 +75038,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-10-22",
+        "name": "albedo-git-0-unstable-2026-10-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-10-24",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -81556,7 +81556,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-22",
+            "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -81597,14 +81597,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-22",
+        "name": "gruvbox-plus-icons-6.6.0-unstable-2026-10-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gruvbox-plus-icons",
         "system": "x86_64-linux",
-        "version": "6.6.0-unstable-2026-10-22",
+        "version": "6.6.0-unstable-2026-10-23",
         "_attr": "gruvbox-plus-icons",
         "_repo": "adam0"
     },
@@ -332086,7 +332086,7 @@
             },
             "mainProgram": "stratos",
             "maintainers": [],
-            "name": "stratos-2.24.0",
+            "name": "stratos-2.25.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -332111,14 +332111,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "stratos-2.24.0",
+        "name": "stratos-2.25.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "stratos",
         "system": "x86_64-linux",
-        "version": "2.24.0",
+        "version": "2.25.0",
         "_attr": "stratos",
         "_repo": "herver"
     },
@@ -502242,7 +502242,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/co/comaps/package.nix",
-                "line": 193
+                "line": 215
             },
             "name": "comaps-2026.08.31-14",
             "nonTeamMaintainers": [
@@ -502304,7 +502304,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/co/comaps/package.nix#L187",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/co/comaps/package.nix#L209",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -776842,61 +776842,41 @@
             },
             "mainProgram": "md2",
             "maintainers": [],
-            "name": "md2-0.4.0",
+            "name": "md2-0.10.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "aarch64-darwin",
-                "x86_64-linux",
                 "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
+                "x86_64-darwin",
+                "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rapatao/pkgs/md2/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rapatao/pkgs/md2/default.nix#L45",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
             },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
             "unfree": false,
             "unsupported": false
         },
-        "name": "md2-0.4.0",
+        "name": "md2-0.10.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "md2",
         "system": "x86_64-linux",
-        "version": "0.4.0",
+        "version": "0.10.1",
         "_attr": "md2",
         "_repo": "rapatao"
     },
