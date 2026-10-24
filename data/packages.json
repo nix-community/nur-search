@@ -30023,7 +30023,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/GriefNorth/pkgs/ps5upload/default.nix",
                 "line": 97
             },
-            "name": "ps5upload-7.1.2",
+            "name": "ps5upload-7.1.19",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -30048,14 +30048,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ps5upload-7.1.2",
+        "name": "ps5upload-7.1.19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ps5upload",
         "system": "x86_64-linux",
-        "version": "7.1.2",
+        "version": "7.1.19",
         "_attr": "ps5upload",
         "_repo": "GriefNorth"
     },
@@ -30217,7 +30217,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/GriefNorth/pkgs/throne/default.nix",
                 "line": 165
             },
-            "name": "throne-1.4.0-beta.3",
+            "name": "throne-1.4.0-beta.4",
             "nonTeamMaintainers": [
                 {
                     "github": "TomaSajt",
@@ -30271,14 +30271,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "throne-1.4.0-beta.3",
+        "name": "throne-1.4.0-beta.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "throne",
         "system": "x86_64-linux",
-        "version": "1.4.0-beta.3",
+        "version": "1.4.0-beta.4",
         "_attr": "throne",
         "_repo": "GriefNorth"
     },
@@ -30330,7 +30330,7 @@
             },
             "mainProgram": "torrserver",
             "maintainers": [],
-            "name": "torrserver-MatriX.147",
+            "name": "torrserver-MatriX.147.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -30351,12 +30351,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "torrserver-MatriX.147",
+        "name": "torrserver-MatriX.147.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "torrserver-MatriX.147",
+        "pname": "torrserver-MatriX.147.1",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "torrserver",
@@ -87131,7 +87131,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/antigravity-tools-bin/default.nix",
                 "line": 91
             },
-            "name": "antigravity-tools-bin-4.9.9-beta.9",
+            "name": "antigravity-tools-bin-5.0.0-beta.2",
             "nonTeamMaintainers": [
                 "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
             ],
@@ -87152,14 +87152,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "antigravity-tools-bin-4.9.9-beta.9",
+        "name": "antigravity-tools-bin-5.0.0-beta.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity-tools-bin",
         "system": "x86_64-linux",
-        "version": "4.9.9-beta.9",
+        "version": "5.0.0-beta.2",
         "_attr": "antigravity-tools-bin",
         "_repo": "ahmet-cetinkaya"
     },
@@ -87516,7 +87516,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/zed-preview-bin/default.nix",
                 "line": 104
             },
-            "name": "zed-preview-bin-1.26.1-pre",
+            "name": "zed-preview-bin-1.26.2-pre",
             "nonTeamMaintainers": [
                 "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
             ],
@@ -87538,14 +87538,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zed-preview-bin-1.26.1-pre",
+        "name": "zed-preview-bin-1.26.2-pre",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "zed-preview-bin",
         "system": "x86_64-linux",
-        "version": "1.26.1-pre",
+        "version": "1.26.2-pre",
         "_attr": "zed-preview-bin",
         "_repo": "ahmet-cetinkaya"
     },
@@ -406434,7 +406434,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/plannotator/default.nix",
                 "line": 86
             },
-            "name": "plannotator-0.28.27",
+            "name": "plannotator-0.28.30",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -406458,14 +406458,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "plannotator-0.28.27",
+        "name": "plannotator-0.28.30",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "plannotator",
         "system": "x86_64-linux",
-        "version": "0.28.27",
+        "version": "0.28.30",
         "_attr": "plannotator",
         "_repo": "lmdevv"
     },
@@ -502178,6 +502178,146 @@
         "system": "x86_64-linux",
         "version": "0.1.2026102307",
         "_attr": "clice",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.comaps": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://codeberg.org/comaps/comaps/releases/tag/v2026.08.31-14",
+            "description": "Community-led fork of Organic Maps",
+            "donationPage": "https://comaps.app/donate",
+            "downloadPage": "https://comaps.app/download",
+            "homepage": "https://comaps.app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "comaps",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "comaps",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "CoMaps",
+            "maintainers": [
+                {
+                    "email": "git@ryand.ca",
+                    "github": "ryand56",
+                    "githubId": 22267679,
+                    "matrix": "@ryan:ryand.ca",
+                    "name": "Ryan Omasta"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/co/comaps/package.nix",
+                "line": 193
+            },
+            "name": "comaps-2026.08.31-14",
+            "nonTeamMaintainers": [
+                {
+                    "email": "git@ryand.ca",
+                    "github": "ryand56",
+                    "githubId": 22267679,
+                    "matrix": "@ryan:ryand.ca",
+                    "name": "Ryan Omasta"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/co/comaps/package.nix#L187",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "comaps-2026.08.31-14",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "comaps",
+        "system": "x86_64-linux",
+        "version": "2026.08.31-14",
+        "_attr": "comaps",
         "_repo": "mio"
     },
     "nur.repos.mio.compositor": {
