@@ -504690,7 +504690,7 @@
             "available": true,
             "broken": false,
             "changelog": "https://github.com/darlinghq/darling/releases",
-            "description": "Darling with open pull requests for Clang, DESTDIR installs, semaphores, host paths, and framework stubs",
+            "description": "Darling with open pull requests for Clang, DESTDIR installs, semaphores, host paths, framework stubs, and AppKit on X11",
             "homepage": "https://www.darlinghq.org",
             "identifiers": {
                 "cpeParts": {
@@ -504763,7 +504763,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling_patched/package.nix#L184",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling_patched/package.nix#L248",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -508613,6 +508613,89 @@
         "system": "x86_64-linux",
         "version": "7.3.3",
         "_attr": "forkgram-desktop_patched",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.freebuff": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free AI coding agent CLI (Freebuff)",
+            "homepage": "https://freebuff.com",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "freebuff",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "freebuff",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "freebuff",
+            "maintainers": [],
+            "name": "freebuff-0.2.34-unstable-2026-10-24",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fr/freebuff/package.nix#L147",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "freebuff-0.2.34-unstable-2026-10-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "freebuff",
+        "system": "x86_64-linux",
+        "version": "0.2.34-unstable-2026-10-24",
+        "_attr": "freebuff",
         "_repo": "mio"
     },
     "nur.repos.mio.freesmlauncher": {
@@ -516184,7 +516267,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ne/newpipe/package.nix",
-                "line": 158
+                "line": 167
             },
             "name": "newpipe-0.29.1",
             "nonTeamMaintainers": [],
@@ -516218,7 +516301,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ne/newpipe/package.nix#L154",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ne/newpipe/package.nix#L163",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
