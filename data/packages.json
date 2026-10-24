@@ -1055291,7 +1055291,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "This NUR has a binary cache. Use the following settings to access it:\n\nnix.settings.substituters = [ \"https://attic.xuyh0120.win/lantian\" ];\nnix.settings.trusted-public-keys = [ \"lantian:EeAUQ+W+6r7EtwnmYjeVwx5kOGEBpjlBfPlzGlTNvHc=\" ];\n\nOr, use variables from this repository in case I change them:\n\nnix.settings.substituters = [ nur.repos.xddxdd._meta.url ];\nnix.settings.trusted-public-keys = [ nur.repos.xddxdd._meta.publicKey ];\n",
+            "description": "This NUR has a binary cache. Use the following settings to access it:\n\nnix.settings.substituters = [ \"https://cache.lantian.pub/lantian\" ];\nnix.settings.trusted-public-keys = [ \"cache.lantian.pub:WVGO7vsRMSEN+h7Lp7kv6SAmrkEXgUGbbXm7jMDjBuQ=\" ];\n\nOr, use variables from this repository in case I change them:\n\nnix.settings.substituters = [ nur.repos.xddxdd._meta.url ];\nnix.settings.trusted-public-keys = [ nur.repos.xddxdd._meta.publicKey ];\n",
             "homepage": "https://github.com/xddxdd/nur-packages",
             "identifiers": {
                 "cpeParts": {
