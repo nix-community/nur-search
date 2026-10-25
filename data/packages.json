@@ -343713,6 +343713,726 @@
         "_attr": "ttf-croscore",
         "_repo": "ilya-fedin"
     },
+    "nur.repos.ilyasturki.atmosphere": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.12.1",
+            "description": "Customized firmware for the Nintendo Switch",
+            "homepage": "https://github.com/Atmosphere-NX/Atmosphere",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "atmosphere",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "atmosphere",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "SD card payload, not a Linux program: the archive unpacks to the card root\nand fusee.bin is injected over USB. Nothing lands in $out/bin.\n",
+            "maintainers": [],
+            "name": "atmosphere-1.12.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilyasturki/pkgs/atmosphere/package.nix#L41",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "atmosphere-1.12.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "atmosphere",
+        "system": "x86_64-linux",
+        "version": "1.12.1",
+        "_attr": "atmosphere",
+        "_repo": "ilyasturki"
+    },
+    "nur.repos.ilyasturki.citron-neo": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/citron-neo/emulator/commits/main",
+            "description": "Citron NEO: Nintendo Switch emulator, continuation of the Citron fork of yuzu",
+            "homepage": "https://citron-neo.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "citron-neo",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "citron-neo",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "citron",
+            "maintainers": [],
+            "name": "citron-neo-0-unstable-2026-10-24",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilyasturki/pkgs/citron-neo/package.nix#L208",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "citron-neo-0-unstable-2026-10-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "citron-neo",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-24",
+        "_attr": "citron-neo",
+        "_repo": "ilyasturki"
+    },
+    "nur.repos.ilyasturki.hekate": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/CTCaer/hekate/releases/tag/v6.5.4",
+            "description": "GUI based Nintendo Switch bootloader",
+            "homepage": "https://github.com/CTCaer/hekate",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "hekate",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "hekate",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "SD card payload, not a Linux program: bootloader/ unpacks to the card root\nand hekate_ctcaer_*.bin is injected over USB. Nothing lands in $out/bin.\n",
+            "maintainers": [],
+            "name": "hekate-6.5.4",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilyasturki/pkgs/hekate/package.nix#L35",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "hekate-6.5.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "hekate",
+        "system": "x86_64-linux",
+        "version": "6.5.4",
+        "_attr": "hekate",
+        "_repo": "ilyasturki"
+    },
+    "nur.repos.ilyasturki.nx-optimizer": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Mod manager installing MaxLastBreath's UltraCam dynamic-FPS, resolution and free-camera mods for Switch games",
+            "homepage": "https://www.nxoptimizer.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nx-optimizer",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nx-optimizer",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Creative Commons Attribution Non Commercial 2.0 Generic",
+                "spdxId": "CC-BY-NC-2.0",
+                "url": "https://creativecommons.org/licenses/by-nc/2.0/"
+            },
+            "mainProgram": "nx-optimizer",
+            "maintainers": [],
+            "name": "nx-optimizer-3.3.0-unstable-2026-10-16",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilyasturki/pkgs/nx-optimizer/package.nix#L168",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "nx-optimizer-3.3.0-unstable-2026-10-16",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nx-optimizer",
+        "system": "x86_64-linux",
+        "version": "3.3.0-unstable-2026-10-16",
+        "_attr": "nx-optimizer",
+        "_repo": "ilyasturki"
+    },
+    "nur.repos.ilyasturki.panda3ds": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "HLE Nintendo 3DS emulator",
+            "homepage": "https://github.com/wheremyfoodat/Panda3DS",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "panda3ds",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "panda3ds",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "Alber",
+            "maintainers": [],
+            "name": "panda3ds-0.9-unstable-2026-10-04",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilyasturki/pkgs/panda3ds/package.nix#L106",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "panda3ds-0.9-unstable-2026-10-04",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "panda3ds",
+        "system": "x86_64-linux",
+        "version": "0.9-unstable-2026-10-04",
+        "_attr": "panda3ds",
+        "_repo": "ilyasturki"
+    },
+    "nur.repos.ilyasturki.pcsx2": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/PCSX2/pcsx2/releases/tag/v2.8.2",
+            "description": "Playstation 2 emulator",
+            "homepage": "https://pcsx2.net",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pcsx2",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pcsx2",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                }
+            ],
+            "mainProgram": "pcsx2-qt",
+            "maintainers": [],
+            "name": "pcsx2-2.8.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilyasturki/pkgs/pcsx2/package.nix#L159",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pcsx2-2.8.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pcsx2",
+        "system": "x86_64-linux",
+        "version": "2.8.2",
+        "_attr": "pcsx2",
+        "_repo": "ilyasturki"
+    },
+    "nur.repos.ilyasturki.ryujinx-canary": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://git.ryujinx.app/Ryubing/Canary/releases/tag/1.3.351",
+            "description": "Ryubing canary builds: Nintendo Switch emulator, community fork of Ryujinx",
+            "homepage": "https://ryujinx.app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ryujinx-canary",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ryujinx-canary",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "Ryujinx",
+            "maintainers": [],
+            "name": "ryujinx-canary-1.3.351",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilyasturki/pkgs/ryujinx-canary/package.nix#L128",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ryujinx-canary-1.3.351",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ryujinx-canary",
+        "system": "x86_64-linux",
+        "version": "1.3.351",
+        "_attr": "ryujinx-canary",
+        "_repo": "ilyasturki"
+    },
     "nur.repos.infgotoinf.UnifontExMono": {
         "meta": {
             "available": true,
@@ -364314,7 +365034,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-24",
+            "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -364410,14 +365130,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-24",
+        "name": "rfmoz-grafana-dashboards-0-unstable-2026-10-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rfmoz-grafana-dashboards",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-24",
+        "version": "0-unstable-2026-10-25",
         "_attr": "rfmoz-grafana-dashboards",
         "_repo": "josh"
     },
@@ -406317,7 +407037,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
                 "line": 91
             },
-            "name": "nextppp-v0.2.0",
+            "name": "nextppp-v0.3.0-alpha.1",
             "nonTeamMaintainers": [
                 "lxl66566"
             ],
@@ -406332,12 +407052,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nextppp-v0.2.0",
+        "name": "nextppp-v0.3.0-alpha.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "nextppp-v0.2.0",
+        "pname": "nextppp-v0.3.0-alpha.1",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "nextppp",
@@ -761041,7 +761761,7 @@
             ],
             "mainProgram": "artcraft-launcher",
             "maintainers": [],
-            "name": "artcraft-launcher-0.7.0",
+            "name": "artcraft-launcher-0.8.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761066,14 +761786,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artcraft-launcher-0.7.0",
+        "name": "artcraft-launcher-0.8.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artcraft-launcher",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.8.1",
         "_attr": "artcraft-launcher",
         "_repo": "quriosity"
     },
@@ -761148,7 +761868,7 @@
             ],
             "mainProgram": "cadcraft",
             "maintainers": [],
-            "name": "cadcraft-0.12.0",
+            "name": "cadcraft-0.13.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761173,14 +761893,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cadcraft-0.12.0",
+        "name": "cadcraft-0.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cadcraft",
         "system": "x86_64-linux",
-        "version": "0.12.0",
+        "version": "0.13.0",
         "_attr": "cadcraft",
         "_repo": "quriosity"
     },
@@ -761651,7 +762371,7 @@
             ],
             "mainProgram": "effectcraft",
             "maintainers": [],
-            "name": "effectcraft-0.16.0",
+            "name": "effectcraft-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761676,14 +762396,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-0.16.0",
+        "name": "effectcraft-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft",
         "system": "x86_64-linux",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "_attr": "effectcraft",
         "_repo": "quriosity"
     },
@@ -761758,7 +762478,7 @@
             ],
             "mainProgram": "figcraft",
             "maintainers": [],
-            "name": "figcraft-0.10.0",
+            "name": "figcraft-0.11.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761783,14 +762503,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "figcraft-0.10.0",
+        "name": "figcraft-0.11.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "figcraft",
         "system": "x86_64-linux",
-        "version": "0.10.0",
+        "version": "0.11.2",
         "_attr": "figcraft",
         "_repo": "quriosity"
     },
@@ -762528,7 +763248,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/olauncher/default.nix#L77",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/olauncher/default.nix#L90",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -762691,7 +763411,7 @@
             },
             "mainProgram": "opennow",
             "maintainers": [],
-            "name": "opennow-0.5.5",
+            "name": "opennow-1.0.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -762699,7 +763419,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/opennow/default.nix#L41",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/opennow/default.nix#L43",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -762715,14 +763435,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opennow-0.5.5",
+        "name": "opennow-1.0.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opennow",
         "system": "x86_64-linux",
-        "version": "0.5.5",
+        "version": "1.0.3",
         "_attr": "opennow",
         "_repo": "quriosity"
     },
@@ -762904,7 +763624,7 @@
             ],
             "mainProgram": "photocraft",
             "maintainers": [],
-            "name": "photocraft-0.15.1",
+            "name": "photocraft-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -762929,14 +763649,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "photocraft-0.15.1",
+        "name": "photocraft-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photocraft",
         "system": "x86_64-linux",
-        "version": "0.15.1",
+        "version": "0.16.0",
         "_attr": "photocraft",
         "_repo": "quriosity"
     },
@@ -1164056,6 +1164776,118 @@
         "version": "",
         "_attr": "vimPlugins.vim-crystal",
         "_repo": "zeratax"
+    },
+    "nur.repos.zerokaze420.lazycat-cloud-client": {
+        "meta": {
+            "available": false,
+            "badPlatforms": [
+                "aarch64-linux"
+            ],
+            "broken": false,
+            "description": "LazyCat Cloud desktop client \u2014 a micro-server platform for personal cloud services",
+            "homepage": "https://lazycat.cloud",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lazycat-cloud-client",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lazycat-cloud-client",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "lzc-client-desktop",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zerokaze420/pkgs/lazycat-cloud-client/default.nix",
+                "line": 386
+            },
+            "name": "lazycat-cloud-client-2.0.30",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerokaze420/pkgs/lazycat-cloud-client/default.nix#L379",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "lazycat-cloud-client-2.0.30",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lazycat-cloud-client",
+        "system": "x86_64-linux",
+        "version": "2.0.30",
+        "_attr": "lazycat-cloud-client",
+        "_repo": "zerokaze420"
     },
     "nur.repos.zerozawa.JMComic-qt": {
         "meta": {
