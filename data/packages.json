@@ -36176,6 +36176,1071 @@
         "_attr": "wechat-latest",
         "_repo": "MiyakoMeow"
     },
+    "nur.repos.Nick1296.ariang-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modern web frontend making aria2 easier to use (built from bin files)",
+            "homepage": "http://ariang.mayswind.net/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ariang",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ariang",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "ariang-1.3.14",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/ariang-bin/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ariang-1.3.14",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ariang",
+        "system": "x86_64-linux",
+        "version": "1.3.14",
+        "_attr": "ariang-bin",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.doomemacs-icons": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A proposed doom Emacs icon",
+            "homepage": "https://github.com/jaidetree/doom-icon",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "doomemacs-icons",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "doomemacs-icons",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Creative Commons Zero v1.0 Universal",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "cc0",
+                "spdxId": "CC0-1.0",
+                "url": "https://spdx.org/licenses/CC0-1.0.html"
+            },
+            "maintainers": [],
+            "name": "doomemacs-icons-2023-03-10",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/doomemacs-icons/default.nix#L45",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "doomemacs-icons-2023-03-10",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "doomemacs-icons",
+        "system": "x86_64-linux",
+        "version": "2023-03-10",
+        "_attr": "doomemacs-icons",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.mouse-tiler": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The fastest, simplest tiler for KDE Plasma 6+ that gives you full freedom at your fingertip. No need to remember dozens of keyboard shortcuts or be limited by a fixed tile layout.",
+            "homepage": "https://github.com/rxappdev/MouseTiler",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mouse-tiler",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mouse-tiler",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "free": true,
+                "fullName": "GNU General Public License v3.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Nick1296/pkgs/mouse-tiler/default.nix",
+                "line": 53
+            },
+            "name": "mouse-tiler-6.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/mouse-tiler/default.nix#L50",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mouse-tiler-6.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mouse-tiler",
+        "system": "x86_64-linux",
+        "version": "6.5.0",
+        "_attr": "mouse-tiler",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.pixel-flasher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Pixel\u2122 phone flashing GUI utility with features. ",
+            "homepage": "https://github.com/badabing2005/PixelFlasher/tree/main",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pixelflasher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pixelflasher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": true,
+                "free": true,
+                "fullName": "GNU General Public License v3.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "maintainers": [],
+            "name": "PixelFlasher-v9.1.1.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/pixel-flasher/default.nix#L87",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "PixelFlasher-v9.1.1.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "PixelFlasher-v9.1.1.2",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "pixel-flasher",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.rffmpeg": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "rffmpeg: remote SSH FFmpeg wrapper tool",
+            "homepage": "https://github.com/joshuaboniface/rffmpeg",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rffmpeg",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rffmpeg",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": true,
+                "free": true,
+                "fullName": "GNU General Public License v3.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "maintainers": [],
+            "name": "rffmpeg-v20251103",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/rffmpeg/default.nix#L48",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rffmpeg-v20251103",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rffmpeg-v20251103",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "rffmpeg",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.tangent": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A clean and powerful open source notes app for Mac, Windows, and Linux",
+            "homepage": "https://www.tangentnotes.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tangent",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tangent",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "Tangent",
+            "maintainers": [],
+            "name": "Tangent-0.12.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/tangent/default.nix#L20",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "Tangent-0.12.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "Tangent",
+        "system": "x86_64-linux",
+        "version": "0.12.1",
+        "_attr": "tangent",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.vivado-2017-4": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "mainProgram": "vivado2017.4",
+            "maintainers": [],
+            "name": "vivado2017.4",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/vivado/2017.4.nix#L83",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vivado2017.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vivado2017.4",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "vivado-2017-4",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.vivado-2017-4-1": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "mainProgram": "vivado2017.4.1",
+            "maintainers": [],
+            "name": "vivado2017.4.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/vivado/2017.4.1.nix#L200",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vivado2017.4.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vivado2017.4.1",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "vivado-2017-4-1",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.vivado-2019-2": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "mainProgram": "vivado2019.2",
+            "maintainers": [],
+            "name": "vivado2019.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/vivado/2019.2.nix#L120",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vivado2019.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vivado2019.2",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "vivado-2019-2",
+        "_repo": "Nick1296"
+    },
+    "nur.repos.Nick1296.vivado-2019-2-1": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "mainProgram": "vivado2019.2.1",
+            "maintainers": [],
+            "name": "vivado2019.2.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Nick1296/pkgs/vivado/2019.2.1.nix#L162",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vivado2019.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vivado2019.2.1",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "vivado-2019-2-1",
+        "_repo": "Nick1296"
+    },
     "nur.repos.NicoWeio.crpropa": {
         "meta": {
             "available": true,
@@ -895380,6 +896445,223 @@
         "version": "0.3.5-unstable",
         "_attr": "zuyan9-ha-cuk-ble",
         "_repo": "shirok1"
+    },
+    "nur.repos.signalridge.clinvk": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Unified AI CLI wrapper for multiple backends (Claude, Codex, Gemini)",
+            "homepage": "https://github.com/signalridge/clinvoker",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "clinvk",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "clinvk",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "clinvk",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/signalridge/pkgs/clinvk/default.nix",
+                "line": 31
+            },
+            "name": "clinvk-0.1.0-alpha",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/signalridge/pkgs/clinvk/default.nix#L28",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "clinvk-0.1.0-alpha",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "clinvk",
+        "system": "x86_64-linux",
+        "version": "0.1.0-alpha",
+        "_attr": "clinvk",
+        "_repo": "signalridge"
+    },
+    "nur.repos.signalridge.sing-box": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "sing-box with local dependency patches",
+            "homepage": "https://github.com/SagerNet/sing-box",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sing-box",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sing-box",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "sing-box",
+            "maintainers": [],
+            "name": "sing-box-1.14.4",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/signalridge/pkgs/sing-box/default.nix#L84",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sing-box-1.14.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sing-box",
+        "system": "x86_64-linux",
+        "version": "1.14.4",
+        "_attr": "sing-box",
+        "_repo": "signalridge"
     },
     "nur.repos.sigprof.awesome": {
         "meta": {
