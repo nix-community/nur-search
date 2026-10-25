@@ -60401,6 +60401,177 @@
         "_attr": "radicle-ci-ambient",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.raven": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Runs Windows applications on Linux without a virtual machine",
+            "homepage": "https://useraven.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "raven",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "raven",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "GNU General Public License v2.0 or later",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "gpl2Plus",
+                        "spdxId": "GPL-2.0-or-later",
+                        "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "GNU Lesser General Public License v2.1 or later",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "lgpl21Plus",
+                        "spdxId": "LGPL-2.1-or-later",
+                        "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "BSD 2-clause \"Simplified\" License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "bsd2",
+                        "spdxId": "BSD-2-Clause",
+                        "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Unicode License v3",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "unicode-30",
+                        "spdxId": "Unicode-3.0",
+                        "url": "https://spdx.org/licenses/Unicode-3.0.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "zlib License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "zlib",
+                        "spdxId": "Zlib",
+                        "url": "https://spdx.org/licenses/Zlib.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "PNG Reference Library version 2",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "libpng2",
+                        "spdxId": "libpng-2.0",
+                        "url": "https://spdx.org/licenses/libpng-2.0.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Independent JPEG Group License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "ijg",
+                        "spdxId": "IJG",
+                        "url": "https://spdx.org/licenses/IJG.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "libtiff License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "libtiff",
+                        "spdxId": "libtiff",
+                        "url": "https://spdx.org/licenses/libtiff.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Public Domain",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "publicDomain"
+                    }
+                ],
+                "operator": "AND"
+            },
+            "mainProgram": "raven",
+            "maintainers": [],
+            "name": "raven-0-unstable-2026-10-24",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/raven/package.nix#L188",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "raven-0-unstable-2026-10-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "raven",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-24",
+        "_attr": "raven",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.reddio": {
         "meta": {
             "available": true,
