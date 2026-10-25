@@ -85223,7 +85223,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/af-nur/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1013.40934",
+            "name": "chatgpt-26.1021.22027",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -85248,14 +85248,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1013.40934",
+        "name": "chatgpt-26.1021.22027",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1013.40934",
+        "version": "26.1021.22027",
         "_attr": "chatgpt",
         "_repo": "af-nur"
     },
@@ -85310,7 +85310,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/af-nur/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1013.40934",
+            "name": "chatgpt-26.1021.22027",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -85335,14 +85335,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-wayland-26.1013.40934",
+        "name": "chatgpt-wayland-26.1021.22027",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt-wayland",
         "system": "x86_64-linux",
-        "version": "26.1013.40934",
+        "version": "26.1021.22027",
         "_attr": "chatgpt-wayland",
         "_repo": "af-nur"
     },
@@ -86026,7 +86026,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.5",
+            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.6",
             "description": "Pixiv auxiliary tool, built from source",
             "homepage": "https://github.com/txperl/PixivBiu",
             "identifiers": {
@@ -86071,7 +86071,7 @@
             },
             "mainProgram": "pixivbiu",
             "maintainers": [],
-            "name": "pixivbiu-3.1.5",
+            "name": "pixivbiu-3.1.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -86112,14 +86112,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pixivbiu-3.1.5",
+        "name": "pixivbiu-3.1.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pixivbiu",
         "system": "x86_64-linux",
-        "version": "3.1.5",
+        "version": "3.1.6",
         "_attr": "pixivbiu",
         "_repo": "af-nur"
     },
@@ -86127,7 +86127,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.5",
+            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.6",
             "description": "Pixiv auxiliary tool, prebuilt binary release",
             "homepage": "https://github.com/txperl/PixivBiu",
             "identifiers": {
@@ -86172,7 +86172,7 @@
             },
             "mainProgram": "pixivbiu",
             "maintainers": [],
-            "name": "pixivbiu-bin-3.1.5",
+            "name": "pixivbiu-bin-3.1.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -86197,14 +86197,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pixivbiu-bin-3.1.5",
+        "name": "pixivbiu-bin-3.1.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pixivbiu-bin",
         "system": "x86_64-linux",
-        "version": "3.1.5",
+        "version": "3.1.6",
         "_attr": "pixivbiu-bin",
         "_repo": "af-nur"
     },
@@ -86357,7 +86357,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/SHORiN-KiWATA/linuxqq-wayland-fix/releases/tag/v0.2.21",
+            "changelog": "https://github.com/SHORiN-KiWATA/linuxqq-wayland-fix/releases/tag/v0.2.24",
             "description": "LinuxQQ Wayland fix launcher and LD_PRELOAD shims, from the upstream prebuilt release",
             "homepage": "https://github.com/SHORiN-KiWATA/linuxqq-wayland-fix",
             "identifiers": {
@@ -86403,7 +86403,7 @@
             "longDescription": "The upstream prebuilt release of linuxqq-wayland-fix: launcher, the four\ncompiled LD_PRELOAD shims, the desktop entry (\"QQ\uff08Wayland\u4fee\u590d\u7248\uff09\") and the\ndocs, extracted from the release Debian package and patched to run from\nthe Nix store. It is the prebuilt counterpart of `qq-wayland-fix-launcher`,\nwhich compiles the same launcher and shims from the tracked git revision;\nupstream publishes no release containing a patched QQ, so this package\nships no `qq` wrapper either.\n\nQQ itself is not part of the release and must be installed separately:\nQQ_WAYLAND_FIX_QQ is seeded with the packaged `qq` wrapper and can still\nbe overridden, otherwise the launcher falls back to a `linuxqq` command in\nPATH and /opt/QQ/qq. The launcher carries the same NixOS adaptations as the\nsource package: the interactive bash, the PATH of helper tools, the\npipewire/libva/opengl-driver library paths, the EGL/Vulkan hints and the\nstore-side QQ paths. QQ_WAYLAND_FIX_QQ_ROOT overrides the installed QQ\nroot used by diagnostics; newer launchers still prefer a running QQ's\nexecutable and resources. Upstream publishes no aarch64 asset, so this\npackage is x86_64-linux only.\n",
             "mainProgram": "linuxqq-wayland-fix",
             "maintainers": [],
-            "name": "linuxqq-wayland-fix-bin-0.2.21",
+            "name": "linuxqq-wayland-fix-bin-0.2.24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -86427,14 +86427,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linuxqq-wayland-fix-bin-0.2.21",
+        "name": "linuxqq-wayland-fix-bin-0.2.24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linuxqq-wayland-fix-bin",
         "system": "x86_64-linux",
-        "version": "0.2.21",
+        "version": "0.2.24",
         "_attr": "qq-wayland-fix-bin",
         "_repo": "af-nur"
     },
@@ -86487,7 +86487,7 @@
             "longDescription": "Ships the upstream launcher and desktop entry (\"QQ\uff08Wayland\u4fee\u590d\u7248\uff09\") to\ninject the fix into a separately installed QQ -- the `qq` package, a\ndistro linuxqq or an AppImage -- instead of replacing QQ's own launcher\nas the `qq-wayland-fix` package does. QQ is located through the\ndocumented QQ_WAYLAND_FIX_QQ override (seeded with the packaged `qq`\nwrapper, still overridable), then a `linuxqq` command in PATH, then\n/opt/QQ/qq; the four LD_PRELOAD shims are shared with `qq-wayland-fix`.\n\nThe launcher keeps the upstream tools: `--doctor` checks the environment\nand whether the running QQ still matches the shims, `--version`, the\nQQ_WAYLAND_FIX_ANGLE backend switch (auto/vulkan/swiftshader/off) and the\nQQ_*_DISABLE troubleshooting switches. It logs to\n$XDG_RUNTIME_DIR/linuxqq-wayland-fix.log and preserves QQ crash records\nunder ~/.cache/linuxqq-wayland-fix/crash. The installed script carries the\nNixOS adaptations upstream's packaging needs: the interactive bash, the\nPATH of helper tools, the pipewire/libva/opengl-driver library paths, the\nEGL/Vulkan hints and the store-side QQ paths. QQ_WAYLAND_FIX_QQ_ROOT\noverrides the installed QQ root used by diagnostics; newer launchers\nstill prefer the executable and resources of a running QQ process.\n",
             "mainProgram": "linuxqq-wayland-fix",
             "maintainers": [],
-            "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-11",
+            "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -86506,14 +86506,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-11",
+        "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linuxqq-wayland-fix-launcher",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-11",
+        "version": "0-unstable-2026-10-23",
         "_attr": "qq-wayland-fix-launcher",
         "_repo": "af-nur"
     },
@@ -260026,7 +260026,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dslt/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1013.40934",
+            "name": "chatgpt-26.1021.22027",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -260051,14 +260051,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1013.40934",
+        "name": "chatgpt-26.1021.22027",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1013.40934",
+        "version": "26.1021.22027",
         "_attr": "chatgpt",
         "_repo": "dslt"
     },
@@ -260113,7 +260113,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dslt/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1013.40934",
+            "name": "chatgpt-26.1021.22027",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -260138,14 +260138,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-wayland-26.1013.40934",
+        "name": "chatgpt-wayland-26.1021.22027",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt-wayland",
         "system": "x86_64-linux",
-        "version": "26.1013.40934",
+        "version": "26.1021.22027",
         "_attr": "chatgpt-wayland",
         "_repo": "dslt"
     },
@@ -260829,7 +260829,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.5",
+            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.6",
             "description": "Pixiv auxiliary tool, built from source",
             "homepage": "https://github.com/txperl/PixivBiu",
             "identifiers": {
@@ -260874,7 +260874,7 @@
             },
             "mainProgram": "pixivbiu",
             "maintainers": [],
-            "name": "pixivbiu-3.1.5",
+            "name": "pixivbiu-3.1.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -260915,14 +260915,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pixivbiu-3.1.5",
+        "name": "pixivbiu-3.1.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pixivbiu",
         "system": "x86_64-linux",
-        "version": "3.1.5",
+        "version": "3.1.6",
         "_attr": "pixivbiu",
         "_repo": "dslt"
     },
@@ -260930,7 +260930,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.5",
+            "changelog": "https://github.com/txperl/PixivBiu/releases/tag/v3.1.6",
             "description": "Pixiv auxiliary tool, prebuilt binary release",
             "homepage": "https://github.com/txperl/PixivBiu",
             "identifiers": {
@@ -260975,7 +260975,7 @@
             },
             "mainProgram": "pixivbiu",
             "maintainers": [],
-            "name": "pixivbiu-bin-3.1.5",
+            "name": "pixivbiu-bin-3.1.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -261000,14 +261000,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pixivbiu-bin-3.1.5",
+        "name": "pixivbiu-bin-3.1.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pixivbiu-bin",
         "system": "x86_64-linux",
-        "version": "3.1.5",
+        "version": "3.1.6",
         "_attr": "pixivbiu-bin",
         "_repo": "dslt"
     },
@@ -261160,7 +261160,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/SHORiN-KiWATA/linuxqq-wayland-fix/releases/tag/v0.2.21",
+            "changelog": "https://github.com/SHORiN-KiWATA/linuxqq-wayland-fix/releases/tag/v0.2.24",
             "description": "LinuxQQ Wayland fix launcher and LD_PRELOAD shims, from the upstream prebuilt release",
             "homepage": "https://github.com/SHORiN-KiWATA/linuxqq-wayland-fix",
             "identifiers": {
@@ -261206,7 +261206,7 @@
             "longDescription": "The upstream prebuilt release of linuxqq-wayland-fix: launcher, the four\ncompiled LD_PRELOAD shims, the desktop entry (\"QQ\uff08Wayland\u4fee\u590d\u7248\uff09\") and the\ndocs, extracted from the release Debian package and patched to run from\nthe Nix store. It is the prebuilt counterpart of `qq-wayland-fix-launcher`,\nwhich compiles the same launcher and shims from the tracked git revision;\nupstream publishes no release containing a patched QQ, so this package\nships no `qq` wrapper either.\n\nQQ itself is not part of the release and must be installed separately:\nQQ_WAYLAND_FIX_QQ is seeded with the packaged `qq` wrapper and can still\nbe overridden, otherwise the launcher falls back to a `linuxqq` command in\nPATH and /opt/QQ/qq. The launcher carries the same NixOS adaptations as the\nsource package: the interactive bash, the PATH of helper tools, the\npipewire/libva/opengl-driver library paths, the EGL/Vulkan hints and the\nstore-side QQ paths. QQ_WAYLAND_FIX_QQ_ROOT overrides the installed QQ\nroot used by diagnostics; newer launchers still prefer a running QQ's\nexecutable and resources. Upstream publishes no aarch64 asset, so this\npackage is x86_64-linux only.\n",
             "mainProgram": "linuxqq-wayland-fix",
             "maintainers": [],
-            "name": "linuxqq-wayland-fix-bin-0.2.21",
+            "name": "linuxqq-wayland-fix-bin-0.2.24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -261230,14 +261230,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linuxqq-wayland-fix-bin-0.2.21",
+        "name": "linuxqq-wayland-fix-bin-0.2.24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linuxqq-wayland-fix-bin",
         "system": "x86_64-linux",
-        "version": "0.2.21",
+        "version": "0.2.24",
         "_attr": "qq-wayland-fix-bin",
         "_repo": "dslt"
     },
@@ -261290,7 +261290,7 @@
             "longDescription": "Ships the upstream launcher and desktop entry (\"QQ\uff08Wayland\u4fee\u590d\u7248\uff09\") to\ninject the fix into a separately installed QQ -- the `qq` package, a\ndistro linuxqq or an AppImage -- instead of replacing QQ's own launcher\nas the `qq-wayland-fix` package does. QQ is located through the\ndocumented QQ_WAYLAND_FIX_QQ override (seeded with the packaged `qq`\nwrapper, still overridable), then a `linuxqq` command in PATH, then\n/opt/QQ/qq; the four LD_PRELOAD shims are shared with `qq-wayland-fix`.\n\nThe launcher keeps the upstream tools: `--doctor` checks the environment\nand whether the running QQ still matches the shims, `--version`, the\nQQ_WAYLAND_FIX_ANGLE backend switch (auto/vulkan/swiftshader/off) and the\nQQ_*_DISABLE troubleshooting switches. It logs to\n$XDG_RUNTIME_DIR/linuxqq-wayland-fix.log and preserves QQ crash records\nunder ~/.cache/linuxqq-wayland-fix/crash. The installed script carries the\nNixOS adaptations upstream's packaging needs: the interactive bash, the\nPATH of helper tools, the pipewire/libva/opengl-driver library paths, the\nEGL/Vulkan hints and the store-side QQ paths. QQ_WAYLAND_FIX_QQ_ROOT\noverrides the installed QQ root used by diagnostics; newer launchers\nstill prefer the executable and resources of a running QQ process.\n",
             "mainProgram": "linuxqq-wayland-fix",
             "maintainers": [],
-            "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-11",
+            "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -261309,14 +261309,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-11",
+        "name": "linuxqq-wayland-fix-launcher-0-unstable-2026-10-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linuxqq-wayland-fix-launcher",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-11",
+        "version": "0-unstable-2026-10-23",
         "_attr": "qq-wayland-fix-launcher",
         "_repo": "dslt"
     },
@@ -281364,7 +281364,7 @@
             },
             "mainProgram": "betterbird",
             "maintainers": [],
-            "name": "betterbird-153.2.0esr-bb8",
+            "name": "betterbird-153.5.0esr-bb11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -281388,14 +281388,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "betterbird-153.2.0esr-bb8",
+        "name": "betterbird-153.5.0esr-bb11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "betterbird",
         "system": "x86_64-linux",
-        "version": "153.2.0esr-bb8",
+        "version": "153.5.0esr-bb11",
         "_attr": "betterbird",
         "_repo": "foolnotion"
     },
@@ -1061454,6 +1061454,16 @@
                     "shortName": "bsd2",
                     "spdxId": "BSD-2-Clause",
                     "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
                 }
             ],
             "mainProgram": "nginx",
@@ -1061476,7 +1061486,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/lantian-customized/nginx/default.nix",
-                "line": 84
+                "line": 94
             },
             "name": "nginx-lantian-1.31.7",
             "nonTeamMaintainers": [
@@ -1061579,7 +1061589,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/nginx/default.nix#L83",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/nginx/default.nix#L93",
             "problems": {},
             "unfree": true,
             "unsupported": false
