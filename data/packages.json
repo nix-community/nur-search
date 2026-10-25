@@ -60403,7 +60403,7 @@
     },
     "nur.repos.Skyb0rg007.raven": {
         "meta": {
-            "available": false,
+            "available": true,
             "broken": false,
             "description": "Runs Windows applications on Linux without a virtual machine",
             "homepage": "https://useraven.org/",
@@ -60557,15 +60557,6 @@
                         "shortName": "isc-veillard",
                         "spdxId": "ISC-Veillard",
                         "url": "https://spdx.org/licenses/ISC-Veillard.html"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": false,
-                        "fullName": "Microsoft Windows Best Fit code page data",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "microsoft-bestfit",
-                        "url": "https://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WindowsBestFit/readme.txt"
                     }
                 ],
                 "operator": "AND"
@@ -60587,7 +60578,7 @@
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
             },
-            "unfree": true,
+            "unfree": false,
             "unsupported": false
         },
         "name": "raven-0-unstable-2026-10-24",
@@ -833062,7 +833053,7 @@
                 "https://*.oned.net/*",
                 "https://*.archive.org/*"
             ],
-            "name": "nekocap-1.24.0",
+            "name": "nekocap-1.25.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -833158,14 +833149,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nekocap-1.24.0",
+        "name": "nekocap-1.25.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nekocap",
         "system": "x86_64-linux",
-        "version": "1.24.0",
+        "version": "1.25.0",
         "_attr": "firefox-addons.nekocap",
         "_repo": "rycee"
     },
@@ -882500,7 +882491,7 @@
                 "downloads",
                 "management"
             ],
-            "name": "cardbook-106.9",
+            "name": "cardbook-107.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882596,14 +882587,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cardbook-106.9",
+        "name": "cardbook-107.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cardbook",
         "system": "x86_64-linux",
-        "version": "106.9",
+        "version": "107.2",
         "_attr": "thunderbird-addons.cardbook",
         "_repo": "rycee"
     },
@@ -884391,7 +884382,7 @@
                 "storage",
                 "tabs"
             ],
-            "name": "quickfilters-6.13.4",
+            "name": "quickfilters-6.14",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884487,14 +884478,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "quickfilters-6.13.4",
+        "name": "quickfilters-6.14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "quickfilters",
         "system": "x86_64-linux",
-        "version": "6.13.4",
+        "version": "6.14",
         "_attr": "thunderbird-addons.quickfilters",
         "_repo": "rycee"
     },
