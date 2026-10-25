@@ -201167,7 +201167,7 @@
             },
             "mainProgram": "Aiursoft.Tracer",
             "maintainers": [],
-            "name": "aiursoft-tracer-0-unstable-2026-10-19",
+            "name": "aiursoft-tracer-0-unstable-2026-10-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -201186,14 +201186,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "aiursoft-tracer-0-unstable-2026-10-19",
+        "name": "aiursoft-tracer-0-unstable-2026-10-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "aiursoft-tracer",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-19",
+        "version": "0-unstable-2026-10-25",
         "_attr": "aiursoft-tracer",
         "_repo": "codgician"
     },
@@ -202647,7 +202647,7 @@
                 "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
             },
             "maintainers": [],
-            "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-03",
+            "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -202688,14 +202688,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-03",
+        "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "networkmanager-gpclient",
         "system": "x86_64-linux",
-        "version": "1.5.0-unstable-2026-10-03",
+        "version": "1.5.0-unstable-2026-10-24",
         "_attr": "networkmanager-gpclient",
         "_repo": "codgician"
     },
@@ -202980,7 +202980,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/redrix-ec/default.nix",
                 "line": 126
             },
-            "name": "redrix-ec-2.0.30093-gbe53e578",
+            "name": "redrix-ec-2.0.30135-gcadf1838",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -203007,14 +203007,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "redrix-ec-2.0.30093-gbe53e578",
+        "name": "redrix-ec-2.0.30135-gcadf1838",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "redrix-ec",
         "system": "x86_64-linux",
-        "version": "2.0.30093-gbe53e578",
+        "version": "2.0.30135-gcadf1838",
         "_attr": "redrix-ec",
         "_repo": "codgician"
     },
@@ -203423,7 +203423,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/microsoft/secureboot_objects/releases/tag/v1.7.0-signed",
+            "changelog": "https://github.com/microsoft/secureboot_objects/releases/tag/v1.7.1-signed",
             "description": "Secure Boot objects recommended by Microsoft",
             "homepage": "https://github.com/microsoft/secureboot_objects",
             "identifiers": {
@@ -203479,7 +203479,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/secureboot-objects/default.nix",
                 "line": 84
             },
-            "name": "secureboot-objects-1.7.0",
+            "name": "secureboot-objects-1.7.1",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -203528,14 +203528,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "secureboot-objects-1.7.0",
+        "name": "secureboot-objects-1.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "secureboot-objects",
         "system": "x86_64-linux",
-        "version": "1.7.0",
+        "version": "1.7.1",
         "_attr": "secureboot-objects",
         "_repo": "codgician"
     },
@@ -298887,7 +298887,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/folder-preview-pro/default.nix",
                 "line": 20
             },
-            "name": "folder-preview-pro-f326e33c1e8a9fa32e3fce91f5527c803b794ccb0d43ea0115e424a132a7318f",
+            "name": "folder-preview-pro-20261025153852",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -298912,14 +298912,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "folder-preview-pro-f326e33c1e8a9fa32e3fce91f5527c803b794ccb0d43ea0115e424a132a7318f",
+        "name": "folder-preview-pro-20261025153852",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "folder-preview-pro-f326e33c1e8a9fa32e3fce91f5527c803b794ccb0d43ea0115e424a132a7318f",
+        "pname": "folder-preview-pro",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "20261025153852",
         "_attr": "folder-preview-pro",
         "_repo": "forkprince"
     },
@@ -327401,19 +327401,8 @@
     "nur.repos.ibuysausage.nix-reaper": {
         "meta": {
             "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
             "broken": false,
-            "description": "Deep-clean a NixOS system: generations, boot entries, GC roots, and non-Nix bloat",
+            "description": "Clean old Nix generations, garbage, caches and more",
             "homepage": "https://github.com/ibuysausage/nix-reaper",
             "identifiers": {
                 "cpeParts": {
@@ -327457,33 +327446,38 @@
             },
             "mainProgram": "nix-reaper",
             "maintainers": [],
-            "name": "nix-reaper-9bd9b9c",
+            "name": "nix-reaper-441bea3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
+                "x86_64-linux",
                 "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
                 "armv6l-linux",
+                "armv7a-linux",
                 "armv7l-linux",
                 "i686-linux",
                 "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
                 "powerpc-linux",
                 "powerpc64-linux",
                 "powerpc64le-linux",
+                "riscv32-linux",
                 "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
+                "s390-linux",
+                "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ibuysausage/pkgs/nix-reaper/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ibuysausage/pkgs/nix-reaper/default.nix#L30",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -327493,14 +327487,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nix-reaper-9bd9b9c",
+        "name": "nix-reaper-441bea3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nix-reaper",
         "system": "x86_64-linux",
-        "version": "9bd9b9c",
+        "version": "441bea3",
         "_attr": "nix-reaper",
         "_repo": "ibuysausage"
     },
@@ -529720,7 +529714,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mrene/pkgs/narwal-ha/package.nix",
                 "line": 47
             },
-            "name": "python3.14-sjmotew/narwal-1.0.0-unstable-2026-05-30",
+            "name": "python3.14-sjmotew/narwal-1.0.11",
             "nonTeamMaintainers": [
                 {
                     "email": "mathieu.rene@gmail.com",
@@ -529818,14 +529812,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-sjmotew-narwal-1.0.0-unstable-2026-05-30",
+        "name": "python3.14-sjmotew-narwal-1.0.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "python3.14-sjmotew-narwal",
         "system": "x86_64-linux",
-        "version": "1.0.0-unstable-2026-05-30",
+        "version": "1.0.11",
         "_attr": "narwal-ha",
         "_repo": "mrene"
     },
@@ -530147,6 +530141,126 @@
         "_attr": "pyspinel",
         "_repo": "mrene"
     },
+    "nur.repos.mrene.region-to-share": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Draw and share a region of your screen in video calls",
+            "homepage": "https://github.com/solarpush/region-to-share",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "region-to-share",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "region-to-share",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "region-to-share",
+            "maintainers": [
+                {
+                    "email": "mathieu.rene@gmail.com",
+                    "github": "mrene",
+                    "githubId": 254443,
+                    "name": "Mathieu Rene"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mrene/pkgs/region-to-share/package.nix",
+                "line": 95
+            },
+            "name": "region-to-share-2.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mathieu.rene@gmail.com",
+                    "github": "mrene",
+                    "githubId": 254443,
+                    "name": "Mathieu Rene"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mrene/pkgs/region-to-share/package.nix#L92",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "region-to-share-2.1.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "region-to-share",
+        "system": "x86_64-linux",
+        "version": "2.1.1",
+        "_attr": "region-to-share",
+        "_repo": "mrene"
+    },
     "nur.repos.mrene.resterm": {
         "meta": {
             "available": true,
@@ -530330,6 +530444,127 @@
         "system": "x86_64-linux",
         "version": "06-05",
         "_attr": "rx-tools",
+        "_repo": "mrene"
+    },
+    "nur.repos.mrene.sagemcom-fast-exporter": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/hairyhenderson/sagemcom_fast_exporter/blob/refs/tags/v0.5.1/CHANGELOG.md",
+            "description": "Prometheus exporter for Sagemcom F@st fibre hubs",
+            "homepage": "https://github.com/hairyhenderson/sagemcom_fast_exporter",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sagemcom-fast-exporter",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sagemcom-fast-exporter",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "sagemcom_fast_exporter",
+            "maintainers": [
+                {
+                    "email": "mathieu.rene@gmail.com",
+                    "github": "mrene",
+                    "githubId": 254443,
+                    "name": "Mathieu Rene"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mrene/pkgs/sagemcom-fast-exporter/package.nix",
+                "line": 36
+            },
+            "name": "sagemcom-fast-exporter-0.5.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mathieu.rene@gmail.com",
+                    "github": "mrene",
+                    "githubId": 254443,
+                    "name": "Mathieu Rene"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mrene/pkgs/sagemcom-fast-exporter/package.nix#L32",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sagemcom-fast-exporter-0.5.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sagemcom-fast-exporter",
+        "system": "x86_64-linux",
+        "version": "0.5.1",
+        "_attr": "sagemcom-fast-exporter",
         "_repo": "mrene"
     },
     "nur.repos.mrene.synp": {
@@ -759739,7 +759974,7 @@
             ],
             "mainProgram": "artcraft-launcher",
             "maintainers": [],
-            "name": "artcraft-launcher-0.5.1",
+            "name": "artcraft-launcher-0.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -759764,14 +759999,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artcraft-launcher-0.5.1",
+        "name": "artcraft-launcher-0.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artcraft-launcher",
         "system": "x86_64-linux",
-        "version": "0.5.1",
+        "version": "0.7.0",
         "_attr": "artcraft-launcher",
         "_repo": "quriosity"
     },
@@ -759846,7 +760081,7 @@
             ],
             "mainProgram": "cadcraft",
             "maintainers": [],
-            "name": "cadcraft-0.8.0",
+            "name": "cadcraft-0.12.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -759871,14 +760106,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cadcraft-0.8.0",
+        "name": "cadcraft-0.12.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cadcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.12.0",
         "_attr": "cadcraft",
         "_repo": "quriosity"
     },
@@ -759953,7 +760188,7 @@
             ],
             "mainProgram": "deckcraft",
             "maintainers": [],
-            "name": "deckcraft-0.8.0",
+            "name": "deckcraft-0.11.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -759978,14 +760213,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deckcraft-0.8.0",
+        "name": "deckcraft-0.11.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deckcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.11.1",
         "_attr": "deckcraft",
         "_repo": "quriosity"
     },
@@ -760060,7 +760295,7 @@
             ],
             "mainProgram": "designcraft",
             "maintainers": [],
-            "name": "designcraft-0.9.0",
+            "name": "designcraft-0.13.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -760085,14 +760320,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "designcraft-0.9.0",
+        "name": "designcraft-0.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "designcraft",
         "system": "x86_64-linux",
-        "version": "0.9.0",
+        "version": "0.13.0",
         "_attr": "designcraft",
         "_repo": "quriosity"
     },
@@ -760349,7 +760584,7 @@
             ],
             "mainProgram": "effectcraft",
             "maintainers": [],
-            "name": "effectcraft-0.11.1",
+            "name": "effectcraft-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -760374,14 +760609,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-0.11.1",
+        "name": "effectcraft-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft",
         "system": "x86_64-linux",
-        "version": "0.11.1",
+        "version": "0.16.0",
         "_attr": "effectcraft",
         "_repo": "quriosity"
     },
@@ -760456,7 +760691,7 @@
             ],
             "mainProgram": "figcraft",
             "maintainers": [],
-            "name": "figcraft-0.7.0",
+            "name": "figcraft-0.10.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -760481,14 +760716,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "figcraft-0.7.0",
+        "name": "figcraft-0.10.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "figcraft",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.10.0",
         "_attr": "figcraft",
         "_repo": "quriosity"
     },
@@ -760563,7 +760798,7 @@
             ],
             "mainProgram": "filmcraft",
             "maintainers": [],
-            "name": "filmcraft-0.9.0",
+            "name": "filmcraft-0.13.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -760588,15 +760823,99 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "filmcraft-0.9.0",
+        "name": "filmcraft-0.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "filmcraft",
         "system": "x86_64-linux",
-        "version": "0.9.0",
+        "version": "0.13.0",
         "_attr": "filmcraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.ge-proton": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Compatibility tool for Steam Play based on Wine and additional components.\n\n(This package is intended for use in the `programs.steam.extraCompatPackages` option only.)\n",
+            "homepage": "https://github.com/GloriousEggroll/proton-ge-custom",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ge-proton",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ge-proton",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [],
+            "name": "ge-proton-GE-Proton11-11",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/ge-proton/default.nix#L74",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ge-proton-GE-Proton11-11",
+        "outputName": "out",
+        "outputs": {
+            "out": null,
+            "steamcompattool": null
+        },
+        "pname": "ge-proton-GE-Proton11",
+        "system": "x86_64-linux",
+        "version": "11",
+        "_attr": "ge-proton",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.gridcraft": {
@@ -760670,7 +760989,7 @@
             ],
             "mainProgram": "gridcraft",
             "maintainers": [],
-            "name": "gridcraft-0.8.0",
+            "name": "gridcraft-0.12.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -760695,14 +761014,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gridcraft-0.8.0",
+        "name": "gridcraft-0.12.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gridcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.12.1",
         "_attr": "gridcraft",
         "_repo": "quriosity"
     },
@@ -760943,7 +761262,7 @@
             ],
             "mainProgram": "lightcraft",
             "maintainers": [],
-            "name": "lightcraft-0.9.1",
+            "name": "lightcraft-0.14.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -760968,14 +761287,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lightcraft-0.9.1",
+        "name": "lightcraft-0.14.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lightcraft",
         "system": "x86_64-linux",
-        "version": "0.9.1",
+        "version": "0.14.0",
         "_attr": "lightcraft",
         "_repo": "quriosity"
     },
@@ -761411,7 +761730,7 @@
             ],
             "mainProgram": "pdfcraft",
             "maintainers": [],
-            "name": "pdfcraft-0.9.0",
+            "name": "pdfcraft-0.14.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761436,14 +761755,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-0.9.0",
+        "name": "pdfcraft-0.14.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft",
         "system": "x86_64-linux",
-        "version": "0.9.0",
+        "version": "0.14.0",
         "_attr": "pdfcraft",
         "_repo": "quriosity"
     },
@@ -761518,7 +761837,7 @@
             ],
             "mainProgram": "photocraft",
             "maintainers": [],
-            "name": "photocraft-0.10.0",
+            "name": "photocraft-0.15.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761543,14 +761862,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "photocraft-0.10.0",
+        "name": "photocraft-0.15.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photocraft",
         "system": "x86_64-linux",
-        "version": "0.10.0",
+        "version": "0.15.1",
         "_attr": "photocraft",
         "_repo": "quriosity"
     },
@@ -761601,7 +761920,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "proton-cachyos-11.0-20261014",
+            "name": "proton-cachyos-cachyos-11.0-20261015-slr",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761610,7 +761929,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-cachyos/default.nix#L82",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-cachyos/default.nix#L94",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -761626,15 +761945,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-cachyos-11.0-20261014",
+        "name": "proton-cachyos-cachyos-11.0-20261015-slr",
         "outputName": "out",
         "outputs": {
             "out": null,
             "steamcompattool": null
         },
-        "pname": "proton-cachyos",
+        "pname": "proton-cachyos-cachyos",
         "system": "x86_64-linux",
-        "version": "11.0-20261014",
+        "version": "11.0-20261015-slr",
         "_attr": "proton-cachyos",
         "_repo": "quriosity"
     },
@@ -761685,7 +762004,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "proton-cachyos-11.0-20261014",
+            "name": "proton-cachyos-cachyos-11.0-20261015-slr",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761694,7 +762013,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-cachyos/default.nix#L82",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-cachyos/default.nix#L94",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -761710,100 +762029,16 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-cachyos-11.0-20261014",
+        "name": "proton-cachyos-cachyos-11.0-20261015-slr",
         "outputName": "out",
         "outputs": {
             "out": null,
             "steamcompattool": null
         },
-        "pname": "proton-cachyos",
+        "pname": "proton-cachyos-cachyos",
         "system": "x86_64-linux",
-        "version": "11.0-20261014",
+        "version": "11.0-20261015-slr",
         "_attr": "proton-cachyos-v3",
-        "_repo": "quriosity"
-    },
-    "nur.repos.quriosity.proton-ge": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Compatibility tool for Steam Play based on Wine and additional components.\n\n(This package is intended for use in the `programs.steam.extraCompatPackages` option only.)\n",
-            "homepage": "https://github.com/GloriousEggroll/proton-ge-custom",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "ge-proton",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "ge-proton",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [],
-            "name": "ge-proton-GE-Proton11-10",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/ge-proton/default.nix#L64",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "ge-proton-GE-Proton11-10",
-        "outputName": "out",
-        "outputs": {
-            "out": null,
-            "steamcompattool": null
-        },
-        "pname": "ge-proton-GE-Proton11",
-        "system": "x86_64-linux",
-        "version": "10",
-        "_attr": "proton-ge",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.proton-wineland": {
@@ -761853,7 +762088,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "proton-wineland-11.0-20261015",
+            "name": "proton-wineland-11.0-20261024",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761861,7 +762096,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-wineland/default.nix#L74",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-wineland/default.nix#L89",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -761877,7 +762112,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-wineland-11.0-20261015",
+        "name": "proton-wineland-11.0-20261024",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -761885,7 +762120,7 @@
         },
         "pname": "proton-wineland",
         "system": "x86_64-linux",
-        "version": "11.0-20261015",
+        "version": "11.0-20261024",
         "_attr": "proton-wineland",
         "_repo": "quriosity"
     },
@@ -761936,7 +762171,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "proton-wineland-11.0-20261015",
+            "name": "proton-wineland-11.0-20261024",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -761944,7 +762179,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-wineland/default.nix#L74",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/compat-tools/proton-wineland/default.nix#L89",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -761960,7 +762195,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-wineland-11.0-20261015",
+        "name": "proton-wineland-11.0-20261024",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -761968,7 +762203,7 @@
         },
         "pname": "proton-wineland",
         "system": "x86_64-linux",
-        "version": "11.0-20261015",
+        "version": "11.0-20261024",
         "_attr": "proton-wineland-v3",
         "_repo": "quriosity"
     },
@@ -762043,7 +762278,7 @@
             ],
             "mainProgram": "soundcraft",
             "maintainers": [],
-            "name": "soundcraft-0.8.0",
+            "name": "soundcraft-0.13.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -762068,14 +762303,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "soundcraft-0.8.0",
+        "name": "soundcraft-0.13.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "soundcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.13.1",
         "_attr": "soundcraft",
         "_repo": "quriosity"
     },
@@ -762233,7 +762468,7 @@
             ],
             "mainProgram": "vectorcraft",
             "maintainers": [],
-            "name": "vectorcraft-0.13.1",
+            "name": "vectorcraft-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -762258,14 +762493,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vectorcraft-0.13.1",
+        "name": "vectorcraft-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vectorcraft",
         "system": "x86_64-linux",
-        "version": "0.13.1",
+        "version": "0.17.0",
         "_attr": "vectorcraft",
         "_repo": "quriosity"
     },
@@ -762439,7 +762674,7 @@
             ],
             "mainProgram": "wordcraft",
             "maintainers": [],
-            "name": "wordcraft-0.8.0",
+            "name": "wordcraft-0.11.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -762464,14 +762699,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wordcraft-0.8.0",
+        "name": "wordcraft-0.11.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wordcraft",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.11.0",
         "_attr": "wordcraft",
         "_repo": "quriosity"
     },
@@ -762523,7 +762758,7 @@
             },
             "mainProgram": "zen-browser",
             "maintainers": [],
-            "name": "zen-browser-1.23.2b",
+            "name": "zen-browser-1.23.4b",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -762547,14 +762782,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zen-browser-1.23.2b",
+        "name": "zen-browser-1.23.4b",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "zen-browser",
         "system": "x86_64-linux",
-        "version": "1.23.2b",
+        "version": "1.23.4b",
         "_attr": "zen-browser",
         "_repo": "quriosity"
     },
@@ -762606,7 +762841,7 @@
             },
             "mainProgram": "zen-browser-twilight",
             "maintainers": [],
-            "name": "zen-browser-twilight-1.24t",
+            "name": "zen-browser-twilight-1.23.4b",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -762630,14 +762865,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zen-browser-twilight-1.24t",
+        "name": "zen-browser-twilight-1.23.4b",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "zen-browser-twilight",
         "system": "x86_64-linux",
-        "version": "1.24t",
+        "version": "1.23.4b",
         "_attr": "zen-twilight",
         "_repo": "quriosity"
     },
@@ -1009375,7 +1009610,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-26.3-0.19.5-1.1.2",
+            "name": "fabric-26.3-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1009406,14 +1009641,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-26.3-0.19.5-1.1.2",
+        "name": "fabric-26.3-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "26.3-0.19.5-1.1.2",
+        "version": "26.3-0.20.1-1.1.2",
         "_attr": "fabric",
         "_repo": "toyvo"
     },
@@ -1009479,7 +1009714,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.14-0.19.5-1.1.2",
+            "name": "fabric-1.14-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1009510,14 +1009745,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.14-0.19.5-1.1.2",
+        "name": "fabric-1.14-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.14-0.19.5-1.1.2",
+        "version": "1.14-0.20.1-1.1.2",
         "_attr": "fabric-1_14",
         "_repo": "toyvo"
     },
@@ -1009583,7 +1009818,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.14.1-0.19.5-1.1.2",
+            "name": "fabric-1.14.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1009614,14 +1009849,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.14.1-0.19.5-1.1.2",
+        "name": "fabric-1.14.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.14.1-0.19.5-1.1.2",
+        "version": "1.14.1-0.20.1-1.1.2",
         "_attr": "fabric-1_14_1",
         "_repo": "toyvo"
     },
@@ -1009687,7 +1009922,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.14.2-0.19.5-1.1.2",
+            "name": "fabric-1.14.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1009718,14 +1009953,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.14.2-0.19.5-1.1.2",
+        "name": "fabric-1.14.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.14.2-0.19.5-1.1.2",
+        "version": "1.14.2-0.20.1-1.1.2",
         "_attr": "fabric-1_14_2",
         "_repo": "toyvo"
     },
@@ -1009791,7 +1010026,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.14.3-0.19.5-1.1.2",
+            "name": "fabric-1.14.3-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1009822,14 +1010057,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.14.3-0.19.5-1.1.2",
+        "name": "fabric-1.14.3-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.14.3-0.19.5-1.1.2",
+        "version": "1.14.3-0.20.1-1.1.2",
         "_attr": "fabric-1_14_3",
         "_repo": "toyvo"
     },
@@ -1009895,7 +1010130,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.14.4-0.19.5-1.1.2",
+            "name": "fabric-1.14.4-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1009926,14 +1010161,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.14.4-0.19.5-1.1.2",
+        "name": "fabric-1.14.4-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.14.4-0.19.5-1.1.2",
+        "version": "1.14.4-0.20.1-1.1.2",
         "_attr": "fabric-1_14_4",
         "_repo": "toyvo"
     },
@@ -1009999,7 +1010234,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.15-0.19.5-1.1.2",
+            "name": "fabric-1.15-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010030,14 +1010265,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.15-0.19.5-1.1.2",
+        "name": "fabric-1.15-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.15-0.19.5-1.1.2",
+        "version": "1.15-0.20.1-1.1.2",
         "_attr": "fabric-1_15",
         "_repo": "toyvo"
     },
@@ -1010103,7 +1010338,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.15.1-0.19.5-1.1.2",
+            "name": "fabric-1.15.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010134,14 +1010369,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.15.1-0.19.5-1.1.2",
+        "name": "fabric-1.15.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.15.1-0.19.5-1.1.2",
+        "version": "1.15.1-0.20.1-1.1.2",
         "_attr": "fabric-1_15_1",
         "_repo": "toyvo"
     },
@@ -1010207,7 +1010442,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.15.2-0.19.5-1.1.2",
+            "name": "fabric-1.15.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010238,14 +1010473,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.15.2-0.19.5-1.1.2",
+        "name": "fabric-1.15.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.15.2-0.19.5-1.1.2",
+        "version": "1.15.2-0.20.1-1.1.2",
         "_attr": "fabric-1_15_2",
         "_repo": "toyvo"
     },
@@ -1010311,7 +1010546,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.16-0.19.5-1.1.2",
+            "name": "fabric-1.16-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010342,14 +1010577,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.16-0.19.5-1.1.2",
+        "name": "fabric-1.16-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.16-0.19.5-1.1.2",
+        "version": "1.16-0.20.1-1.1.2",
         "_attr": "fabric-1_16",
         "_repo": "toyvo"
     },
@@ -1010415,7 +1010650,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.16.1-0.19.5-1.1.2",
+            "name": "fabric-1.16.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010446,14 +1010681,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.16.1-0.19.5-1.1.2",
+        "name": "fabric-1.16.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.16.1-0.19.5-1.1.2",
+        "version": "1.16.1-0.20.1-1.1.2",
         "_attr": "fabric-1_16_1",
         "_repo": "toyvo"
     },
@@ -1010519,7 +1010754,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.16.2-0.19.5-1.1.2",
+            "name": "fabric-1.16.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010550,14 +1010785,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.16.2-0.19.5-1.1.2",
+        "name": "fabric-1.16.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.16.2-0.19.5-1.1.2",
+        "version": "1.16.2-0.20.1-1.1.2",
         "_attr": "fabric-1_16_2",
         "_repo": "toyvo"
     },
@@ -1010623,7 +1010858,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.16.3-0.19.5-1.1.2",
+            "name": "fabric-1.16.3-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010654,14 +1010889,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.16.3-0.19.5-1.1.2",
+        "name": "fabric-1.16.3-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.16.3-0.19.5-1.1.2",
+        "version": "1.16.3-0.20.1-1.1.2",
         "_attr": "fabric-1_16_3",
         "_repo": "toyvo"
     },
@@ -1010727,7 +1010962,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.16.4-0.19.5-1.1.2",
+            "name": "fabric-1.16.4-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010758,14 +1010993,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.16.4-0.19.5-1.1.2",
+        "name": "fabric-1.16.4-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.16.4-0.19.5-1.1.2",
+        "version": "1.16.4-0.20.1-1.1.2",
         "_attr": "fabric-1_16_4",
         "_repo": "toyvo"
     },
@@ -1010831,7 +1011066,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.16.5-0.19.5-1.1.2",
+            "name": "fabric-1.16.5-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010862,14 +1011097,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.16.5-0.19.5-1.1.2",
+        "name": "fabric-1.16.5-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.16.5-0.19.5-1.1.2",
+        "version": "1.16.5-0.20.1-1.1.2",
         "_attr": "fabric-1_16_5",
         "_repo": "toyvo"
     },
@@ -1010935,7 +1011170,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.17-0.19.5-1.1.2",
+            "name": "fabric-1.17-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1010968,14 +1011203,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.17-0.19.5-1.1.2",
+        "name": "fabric-1.17-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.17-0.19.5-1.1.2",
+        "version": "1.17-0.20.1-1.1.2",
         "_attr": "fabric-1_17",
         "_repo": "toyvo"
     },
@@ -1011041,7 +1011276,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.17.1-0.19.5-1.1.2",
+            "name": "fabric-1.17.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011074,14 +1011309,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.17.1-0.19.5-1.1.2",
+        "name": "fabric-1.17.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.17.1-0.19.5-1.1.2",
+        "version": "1.17.1-0.20.1-1.1.2",
         "_attr": "fabric-1_17_1",
         "_repo": "toyvo"
     },
@@ -1011147,7 +1011382,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.18-0.19.5-1.1.2",
+            "name": "fabric-1.18-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011180,14 +1011415,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.18-0.19.5-1.1.2",
+        "name": "fabric-1.18-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.18-0.19.5-1.1.2",
+        "version": "1.18-0.20.1-1.1.2",
         "_attr": "fabric-1_18",
         "_repo": "toyvo"
     },
@@ -1011253,7 +1011488,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.18.1-0.19.5-1.1.2",
+            "name": "fabric-1.18.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011286,14 +1011521,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.18.1-0.19.5-1.1.2",
+        "name": "fabric-1.18.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.18.1-0.19.5-1.1.2",
+        "version": "1.18.1-0.20.1-1.1.2",
         "_attr": "fabric-1_18_1",
         "_repo": "toyvo"
     },
@@ -1011359,7 +1011594,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.18.2-0.19.5-1.1.2",
+            "name": "fabric-1.18.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011392,14 +1011627,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.18.2-0.19.5-1.1.2",
+        "name": "fabric-1.18.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.18.2-0.19.5-1.1.2",
+        "version": "1.18.2-0.20.1-1.1.2",
         "_attr": "fabric-1_18_2",
         "_repo": "toyvo"
     },
@@ -1011465,7 +1011700,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.19-0.19.5-1.1.2",
+            "name": "fabric-1.19-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011498,14 +1011733,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.19-0.19.5-1.1.2",
+        "name": "fabric-1.19-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.19-0.19.5-1.1.2",
+        "version": "1.19-0.20.1-1.1.2",
         "_attr": "fabric-1_19",
         "_repo": "toyvo"
     },
@@ -1011571,7 +1011806,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.19.1-0.19.5-1.1.2",
+            "name": "fabric-1.19.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011604,14 +1011839,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.19.1-0.19.5-1.1.2",
+        "name": "fabric-1.19.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.19.1-0.19.5-1.1.2",
+        "version": "1.19.1-0.20.1-1.1.2",
         "_attr": "fabric-1_19_1",
         "_repo": "toyvo"
     },
@@ -1011677,7 +1011912,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.19.2-0.19.5-1.1.2",
+            "name": "fabric-1.19.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011710,14 +1011945,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.19.2-0.19.5-1.1.2",
+        "name": "fabric-1.19.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.19.2-0.19.5-1.1.2",
+        "version": "1.19.2-0.20.1-1.1.2",
         "_attr": "fabric-1_19_2",
         "_repo": "toyvo"
     },
@@ -1011783,7 +1012018,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.19.3-0.19.5-1.1.2",
+            "name": "fabric-1.19.3-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011816,14 +1012051,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.19.3-0.19.5-1.1.2",
+        "name": "fabric-1.19.3-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.19.3-0.19.5-1.1.2",
+        "version": "1.19.3-0.20.1-1.1.2",
         "_attr": "fabric-1_19_3",
         "_repo": "toyvo"
     },
@@ -1011889,7 +1012124,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.19.4-0.19.5-1.1.2",
+            "name": "fabric-1.19.4-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1011922,14 +1012157,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.19.4-0.19.5-1.1.2",
+        "name": "fabric-1.19.4-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.19.4-0.19.5-1.1.2",
+        "version": "1.19.4-0.20.1-1.1.2",
         "_attr": "fabric-1_19_4",
         "_repo": "toyvo"
     },
@@ -1011995,7 +1012230,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.20-0.19.5-1.1.2",
+            "name": "fabric-1.20-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012028,14 +1012263,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.20-0.19.5-1.1.2",
+        "name": "fabric-1.20-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.20-0.19.5-1.1.2",
+        "version": "1.20-0.20.1-1.1.2",
         "_attr": "fabric-1_20",
         "_repo": "toyvo"
     },
@@ -1012101,7 +1012336,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.20.1-0.19.5-1.1.2",
+            "name": "fabric-1.20.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012134,14 +1012369,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.20.1-0.19.5-1.1.2",
+        "name": "fabric-1.20.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.20.1-0.19.5-1.1.2",
+        "version": "1.20.1-0.20.1-1.1.2",
         "_attr": "fabric-1_20_1",
         "_repo": "toyvo"
     },
@@ -1012207,7 +1012442,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.20.2-0.19.5-1.1.2",
+            "name": "fabric-1.20.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012240,14 +1012475,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.20.2-0.19.5-1.1.2",
+        "name": "fabric-1.20.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.20.2-0.19.5-1.1.2",
+        "version": "1.20.2-0.20.1-1.1.2",
         "_attr": "fabric-1_20_2",
         "_repo": "toyvo"
     },
@@ -1012313,7 +1012548,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.20.3-0.19.5-1.1.2",
+            "name": "fabric-1.20.3-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012346,14 +1012581,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.20.3-0.19.5-1.1.2",
+        "name": "fabric-1.20.3-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.20.3-0.19.5-1.1.2",
+        "version": "1.20.3-0.20.1-1.1.2",
         "_attr": "fabric-1_20_3",
         "_repo": "toyvo"
     },
@@ -1012419,7 +1012654,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.20.4-0.19.5-1.1.2",
+            "name": "fabric-1.20.4-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012452,14 +1012687,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.20.4-0.19.5-1.1.2",
+        "name": "fabric-1.20.4-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.20.4-0.19.5-1.1.2",
+        "version": "1.20.4-0.20.1-1.1.2",
         "_attr": "fabric-1_20_4",
         "_repo": "toyvo"
     },
@@ -1012525,7 +1012760,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.20.5-0.19.5-1.1.2",
+            "name": "fabric-1.20.5-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012556,14 +1012791,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.20.5-0.19.5-1.1.2",
+        "name": "fabric-1.20.5-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.20.5-0.19.5-1.1.2",
+        "version": "1.20.5-0.20.1-1.1.2",
         "_attr": "fabric-1_20_5",
         "_repo": "toyvo"
     },
@@ -1012629,7 +1012864,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.20.6-0.19.5-1.1.2",
+            "name": "fabric-1.20.6-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012660,14 +1012895,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.20.6-0.19.5-1.1.2",
+        "name": "fabric-1.20.6-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.20.6-0.19.5-1.1.2",
+        "version": "1.20.6-0.20.1-1.1.2",
         "_attr": "fabric-1_20_6",
         "_repo": "toyvo"
     },
@@ -1012733,7 +1012968,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21-0.19.5-1.1.2",
+            "name": "fabric-1.21-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012764,14 +1012999,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21-0.19.5-1.1.2",
+        "name": "fabric-1.21-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21-0.19.5-1.1.2",
+        "version": "1.21-0.20.1-1.1.2",
         "_attr": "fabric-1_21",
         "_repo": "toyvo"
     },
@@ -1012837,7 +1013072,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.1-0.19.5-1.1.2",
+            "name": "fabric-1.21.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012868,14 +1013103,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.1-0.19.5-1.1.2",
+        "name": "fabric-1.21.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.1-0.19.5-1.1.2",
+        "version": "1.21.1-0.20.1-1.1.2",
         "_attr": "fabric-1_21_1",
         "_repo": "toyvo"
     },
@@ -1012941,7 +1013176,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.10-0.19.5-1.1.2",
+            "name": "fabric-1.21.10-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1012972,14 +1013207,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.10-0.19.5-1.1.2",
+        "name": "fabric-1.21.10-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.10-0.19.5-1.1.2",
+        "version": "1.21.10-0.20.1-1.1.2",
         "_attr": "fabric-1_21_10",
         "_repo": "toyvo"
     },
@@ -1013045,7 +1013280,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.11-0.19.5-1.1.2",
+            "name": "fabric-1.21.11-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013076,14 +1013311,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.11-0.19.5-1.1.2",
+        "name": "fabric-1.21.11-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.11-0.19.5-1.1.2",
+        "version": "1.21.11-0.20.1-1.1.2",
         "_attr": "fabric-1_21_11",
         "_repo": "toyvo"
     },
@@ -1013149,7 +1013384,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.2-0.19.5-1.1.2",
+            "name": "fabric-1.21.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013180,14 +1013415,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.2-0.19.5-1.1.2",
+        "name": "fabric-1.21.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.2-0.19.5-1.1.2",
+        "version": "1.21.2-0.20.1-1.1.2",
         "_attr": "fabric-1_21_2",
         "_repo": "toyvo"
     },
@@ -1013253,7 +1013488,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.3-0.19.5-1.1.2",
+            "name": "fabric-1.21.3-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013284,14 +1013519,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.3-0.19.5-1.1.2",
+        "name": "fabric-1.21.3-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.3-0.19.5-1.1.2",
+        "version": "1.21.3-0.20.1-1.1.2",
         "_attr": "fabric-1_21_3",
         "_repo": "toyvo"
     },
@@ -1013357,7 +1013592,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.4-0.19.5-1.1.2",
+            "name": "fabric-1.21.4-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013388,14 +1013623,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.4-0.19.5-1.1.2",
+        "name": "fabric-1.21.4-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.4-0.19.5-1.1.2",
+        "version": "1.21.4-0.20.1-1.1.2",
         "_attr": "fabric-1_21_4",
         "_repo": "toyvo"
     },
@@ -1013461,7 +1013696,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.5-0.19.5-1.1.2",
+            "name": "fabric-1.21.5-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013492,14 +1013727,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.5-0.19.5-1.1.2",
+        "name": "fabric-1.21.5-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.5-0.19.5-1.1.2",
+        "version": "1.21.5-0.20.1-1.1.2",
         "_attr": "fabric-1_21_5",
         "_repo": "toyvo"
     },
@@ -1013565,7 +1013800,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.6-0.19.5-1.1.2",
+            "name": "fabric-1.21.6-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013596,14 +1013831,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.6-0.19.5-1.1.2",
+        "name": "fabric-1.21.6-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.6-0.19.5-1.1.2",
+        "version": "1.21.6-0.20.1-1.1.2",
         "_attr": "fabric-1_21_6",
         "_repo": "toyvo"
     },
@@ -1013669,7 +1013904,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.7-0.19.5-1.1.2",
+            "name": "fabric-1.21.7-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013700,14 +1013935,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.7-0.19.5-1.1.2",
+        "name": "fabric-1.21.7-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.7-0.19.5-1.1.2",
+        "version": "1.21.7-0.20.1-1.1.2",
         "_attr": "fabric-1_21_7",
         "_repo": "toyvo"
     },
@@ -1013773,7 +1014008,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.8-0.19.5-1.1.2",
+            "name": "fabric-1.21.8-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013804,14 +1014039,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.8-0.19.5-1.1.2",
+        "name": "fabric-1.21.8-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.8-0.19.5-1.1.2",
+        "version": "1.21.8-0.20.1-1.1.2",
         "_attr": "fabric-1_21_8",
         "_repo": "toyvo"
     },
@@ -1013877,7 +1014112,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-1.21.9-0.19.5-1.1.2",
+            "name": "fabric-1.21.9-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1013908,14 +1014143,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-1.21.9-0.19.5-1.1.2",
+        "name": "fabric-1.21.9-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "1.21.9-0.19.5-1.1.2",
+        "version": "1.21.9-0.20.1-1.1.2",
         "_attr": "fabric-1_21_9",
         "_repo": "toyvo"
     },
@@ -1013981,7 +1014216,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-26.1-0.19.5-1.1.2",
+            "name": "fabric-26.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1014012,14 +1014247,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-26.1-0.19.5-1.1.2",
+        "name": "fabric-26.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "26.1-0.19.5-1.1.2",
+        "version": "26.1-0.20.1-1.1.2",
         "_attr": "fabric-26_1",
         "_repo": "toyvo"
     },
@@ -1014085,7 +1014320,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-26.1.1-0.19.5-1.1.2",
+            "name": "fabric-26.1.1-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1014116,14 +1014351,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-26.1.1-0.19.5-1.1.2",
+        "name": "fabric-26.1.1-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "26.1.1-0.19.5-1.1.2",
+        "version": "26.1.1-0.20.1-1.1.2",
         "_attr": "fabric-26_1_1",
         "_repo": "toyvo"
     },
@@ -1014189,7 +1014424,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-26.1.2-0.19.5-1.1.2",
+            "name": "fabric-26.1.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1014220,14 +1014455,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-26.1.2-0.19.5-1.1.2",
+        "name": "fabric-26.1.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "26.1.2-0.19.5-1.1.2",
+        "version": "26.1.2-0.20.1-1.1.2",
         "_attr": "fabric-26_1_2",
         "_repo": "toyvo"
     },
@@ -1014293,7 +1014528,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/fabricServers/derivation.nix",
                 "line": 65
             },
-            "name": "fabric-26.2-0.19.5-1.1.2",
+            "name": "fabric-26.2-0.20.1-1.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1014324,14 +1014559,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-26.2-0.19.5-1.1.2",
+        "name": "fabric-26.2-0.20.1-1.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric",
         "system": "x86_64-linux",
-        "version": "26.2-0.19.5-1.1.2",
+        "version": "26.2-0.20.1-1.1.2",
         "_attr": "fabric-26_2",
         "_repo": "toyvo"
     },
@@ -1015262,7 +1015497,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/neoforgeServers/derivation.nix",
                 "line": 59
             },
-            "name": "neoforge-1.21.1-21.1.264",
+            "name": "neoforge-1.21.1-21.1.265",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1015293,14 +1015528,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "neoforge-1.21.1-21.1.264",
+        "name": "neoforge-1.21.1-21.1.265",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "neoforge",
         "system": "x86_64-linux",
-        "version": "1.21.1-21.1.264",
+        "version": "1.21.1-21.1.265",
         "_attr": "neoforge-1_21_1",
         "_repo": "toyvo"
     },
@@ -1015929,7 +1016164,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/odysseus/derivation.nix",
-                "line": 151
+                "line": 158
             },
             "name": "odysseus-2026.8.18",
             "nonTeamMaintainers": [
@@ -1015971,7 +1016206,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/toyvo/pkgs/odysseus/derivation.nix#L139",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/toyvo/pkgs/odysseus/derivation.nix#L146",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1016048,7 +1016283,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.3-211",
+            "name": "papermc-26.3-223",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1016079,14 +1016314,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.3-211",
+        "name": "papermc-26.3-223",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.3-211",
+        "version": "26.3-223",
         "_attr": "papermc",
         "_repo": "toyvo"
     },
@@ -1020518,7 +1020753,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.2-134",
+            "name": "papermc-26.2-135",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1020549,14 +1020784,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.2-134",
+        "name": "papermc-26.2-135",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.2-134",
+        "version": "26.2-135",
         "_attr": "papermc-26_2",
         "_repo": "toyvo"
     },
@@ -1020790,7 +1021025,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/purpurServers/derivation.nix",
                 "line": 58
             },
-            "name": "purpur-26.3-2653",
+            "name": "purpur-26.3-2654",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1020821,14 +1021056,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "purpur-26.3-2653",
+        "name": "purpur-26.3-2654",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "purpur",
         "system": "x86_64-linux",
-        "version": "26.3-2653",
+        "version": "26.3-2654",
         "_attr": "purpur",
         "_repo": "toyvo"
     },
