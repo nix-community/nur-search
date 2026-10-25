@@ -67760,7 +67760,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "teldrive-2.0.10",
+            "name": "teldrive-2.0.11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -67778,14 +67778,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "teldrive-2.0.10",
+        "name": "teldrive-2.0.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "teldrive",
         "system": "x86_64-linux",
-        "version": "2.0.10",
+        "version": "2.0.11",
         "_attr": "teldrive",
         "_repo": "XiaoXioe"
     },
@@ -192303,16 +192303,38 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
-            },
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Affero General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "agpl3Only",
+                    "spdxId": "AGPL-3.0-only",
+                    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Only",
+                    "spdxId": "GPL-3.0-only",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v2.1 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl21Plus",
+                    "spdxId": "LGPL-2.1-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                }
+            ],
             "mainProgram": "SPlayer-Next",
             "maintainers": [
                 {
@@ -192326,7 +192348,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/splayer-next-dev/package.nix",
-                "line": 199
+                "line": 203
             },
             "name": "splayer-next-1.2.0",
             "nonTeamMaintainers": [
@@ -192430,16 +192452,38 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
-            },
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Affero General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "agpl3Only",
+                    "spdxId": "AGPL-3.0-only",
+                    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Only",
+                    "spdxId": "GPL-3.0-only",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v2.1 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl21Plus",
+                    "spdxId": "LGPL-2.1-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                }
+            ],
             "mainProgram": "SPlayer-Next",
             "maintainers": [
                 {
@@ -192453,7 +192497,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/splayer-next-dev/package.nix",
-                "line": 199
+                "line": 203
             },
             "name": "splayer-next-dev-1.2.0-unstable-2026-10-24",
             "nonTeamMaintainers": [
@@ -325849,7 +325893,7 @@
             },
             "mainProgram": "markserv",
             "maintainers": [],
-            "name": "markserv-1.17.4",
+            "name": "markserv-1.21.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -325887,14 +325931,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "markserv-1.17.4",
+        "name": "markserv-1.21.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "markserv",
         "system": "x86_64-linux",
-        "version": "1.17.4",
+        "version": "1.21.1",
         "_attr": "markserv",
         "_repo": "hol1kgmg"
     },
@@ -325947,7 +325991,7 @@
             },
             "mainProgram": "openscreen",
             "maintainers": [],
-            "name": "openscreen-for-mac-1.11.0",
+            "name": "openscreen-for-mac-2.1.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -325975,14 +326019,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "openscreen-for-mac-1.11.0",
+        "name": "openscreen-for-mac-2.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "openscreen-for-mac",
         "system": "x86_64-linux",
-        "version": "1.11.0",
+        "version": "2.1.2",
         "_attr": "openscreen-for-mac",
         "_repo": "hol1kgmg"
     },
@@ -359285,6 +359329,113 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-04-30",
         "_attr": "ghostty-theme-icons",
+        "_repo": "josh"
+    },
+    "nur.repos.josh.gitea-cli": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://gitea.com/gitea/cli/releases/tag/v0.1.0",
+            "description": "Command-line interface for Gitea",
+            "homepage": "https://gitea.com/gitea/cli",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gitea-cli",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gitea-cli",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "gt",
+            "maintainers": [],
+            "name": "gitea-cli-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/josh/pkgs/gitea/gitea-cli.nix#L78",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gitea-cli-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gitea-cli",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "gitea-cli",
         "_repo": "josh"
     },
     "nur.repos.josh.golink": {
