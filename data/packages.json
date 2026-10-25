@@ -60403,7 +60403,7 @@
     },
     "nur.repos.Skyb0rg007.raven": {
         "meta": {
-            "available": true,
+            "available": false,
             "broken": false,
             "description": "Runs Windows applications on Linux without a virtual machine",
             "homepage": "https://useraven.org/",
@@ -60533,10 +60533,39 @@
                     {
                         "deprecated": false,
                         "free": true,
+                        "fullName": "X11 License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "x11",
+                        "spdxId": "X11",
+                        "url": "https://spdx.org/licenses/X11.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
                         "fullName": "Public Domain",
                         "licenseType": "simple",
                         "redistributable": true,
                         "shortName": "publicDomain"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "ISC Veillard variant",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "isc-veillard",
+                        "spdxId": "ISC-Veillard",
+                        "url": "https://spdx.org/licenses/ISC-Veillard.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": false,
+                        "fullName": "Microsoft Windows Best Fit code page data",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "microsoft-bestfit",
+                        "url": "https://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WindowsBestFit/readme.txt"
                     }
                 ],
                 "operator": "AND"
@@ -60558,7 +60587,7 @@
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
             },
-            "unfree": false,
+            "unfree": true,
             "unsupported": false
         },
         "name": "raven-0-unstable-2026-10-24",
@@ -198905,7 +198934,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/fabric-cli/default.nix",
                 "line": 38
             },
-            "name": "fabric-cli-0-unstable-2026-08-26",
+            "name": "fabric-cli-0-unstable-2025-08-24",
             "nonTeamMaintainers": [
                 {
                     "email": "claymorwan@fembois.dev",
@@ -198959,14 +198988,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fabric-cli-0-unstable-2026-08-26",
+        "name": "fabric-cli-0-unstable-2025-08-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fabric-cli",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-08-26",
+        "version": "0-unstable-2025-08-24",
         "_attr": "fabric-cli",
         "_repo": "claymorwan"
     },
@@ -199158,7 +199187,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/shimelinux/default.nix",
                 "line": 87
             },
-            "name": "shimelinux-1.4.0",
+            "name": "shimelinux-1.4.1",
             "nonTeamMaintainers": [
                 {
                     "email": "claymorwan@fembois.dev",
@@ -199216,14 +199245,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "shimelinux-1.4.0",
+        "name": "shimelinux-1.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "shimelinux",
         "system": "x86_64-linux",
-        "version": "1.4.0",
+        "version": "1.4.1",
         "_attr": "shimelinux",
         "_repo": "claymorwan"
     },
@@ -199300,7 +199329,7 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/default.nix",
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix",
                 "line": 85
             },
             "name": "twintaillauncher-unwrapped-2.5.2",
@@ -199341,7 +199370,137 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/twintaillauncher/default.nix#L82",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix#L82",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "twintaillauncher-2.5.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "twintaillauncher",
+        "system": "x86_64-linux",
+        "version": "2.5.2",
+        "_attr": "twintaillauncher",
+        "_repo": "claymorwan"
+    },
+    "nur.repos.claymorwan.twintaillauncher-unwrapped": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "A multi-platform launcher for your anime games.",
+            "homepage": "twintaillauncher.app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "twintaillauncher-unwrapped",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "twintaillauncher-unwrapped",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "twintaillauncher",
+            "maintainers": [
+                {
+                    "email": "claymorwan@fembois.dev",
+                    "github": "claymorwan",
+                    "githubId": 86072589,
+                    "keys": [
+                        {
+                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
+                        }
+                    ],
+                    "name": "claymorwan"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix",
+                "line": 85
+            },
+            "name": "twintaillauncher-unwrapped-2.5.2",
+            "nonTeamMaintainers": [
+                {
+                    "email": "claymorwan@fembois.dev",
+                    "github": "claymorwan",
+                    "githubId": 86072589,
+                    "keys": [
+                        {
+                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
+                        }
+                    ],
+                    "name": "claymorwan"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix#L82",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -199354,7 +199513,7 @@
         "pname": "twintaillauncher-unwrapped",
         "system": "x86_64-linux",
         "version": "2.5.2",
-        "_attr": "twintaillauncher",
+        "_attr": "twintaillauncher-unwrapped",
         "_repo": "claymorwan"
     },
     "nur.repos.claymorwan.utmt-cli": {
@@ -755495,7 +755654,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-claude-code-ui/package.nix",
                 "line": 39
             },
-            "name": "pi-claude-code-ui-1.0.90",
+            "name": "pi-claude-code-ui-1.0.92",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -755541,14 +755700,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-claude-code-ui-1.0.90",
+        "name": "pi-claude-code-ui-1.0.92",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-claude-code-ui",
         "system": "x86_64-linux",
-        "version": "1.0.90",
+        "version": "1.0.92",
         "_attr": "pi-claude-code-ui",
         "_repo": "prince213"
     },
@@ -755905,7 +756064,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nicobailon/pi-subagents/blob/v0.81.0/CHANGELOG.md",
+            "changelog": "https://github.com/nicobailon/pi-subagents/blob/v0.82.0/CHANGELOG.md",
             "description": "Pi extension for async subagent delegation with truncation, artifacts, and session sharing",
             "downloadPage": "https://github.com/nicobailon/pi-subagents/releases",
             "homepage": "https://github.com/nicobailon/pi-subagents",
@@ -755968,7 +756127,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-subagents/package.nix",
                 "line": 42
             },
-            "name": "pi-subagents-0.81.0",
+            "name": "pi-subagents-0.82.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -756014,14 +756173,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-subagents-0.81.0",
+        "name": "pi-subagents-0.82.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-subagents",
         "system": "x86_64-linux",
-        "version": "0.81.0",
+        "version": "0.82.0",
         "_attr": "pi-subagents",
         "_repo": "prince213"
     },
