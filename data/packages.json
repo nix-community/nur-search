@@ -61508,12 +61508,32 @@
                     {
                         "deprecated": false,
                         "free": true,
+                        "fullName": "GNU General Public License v3.0 or later",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "gpl3Plus",
+                        "spdxId": "GPL-3.0-or-later",
+                        "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
                         "fullName": "MIT License",
                         "licenseType": "simple",
                         "redistributable": true,
                         "shortName": "mit",
                         "spdxId": "MIT",
                         "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "GNU General Public License v2.0 only",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "gpl2Only",
+                        "spdxId": "GPL-2.0-only",
+                        "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                     },
                     {
                         "deprecated": false,
@@ -61628,7 +61648,7 @@
             },
             "mainProgram": "raven",
             "maintainers": [],
-            "name": "raven-0-unstable-2026-10-24",
+            "name": "raven-0-unstable-2026-10-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -61636,7 +61656,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/raven/package.nix#L215",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/raven/package.nix#L236",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -61646,14 +61666,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "raven-0-unstable-2026-10-24",
+        "name": "raven-0-unstable-2026-10-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "raven",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-24",
+        "version": "0-unstable-2026-10-25",
         "_attr": "raven",
         "_repo": "Skyb0rg007"
     },
@@ -763444,6 +763464,89 @@
         "system": "x86_64-linux",
         "version": "1.0.3",
         "_attr": "opennow",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.paintdotjs": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "cross-platform raster graphics editor written in JavaScript",
+            "homepage": "https://github.com/LabyStudio/paintdotjs",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "paintdotjs",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "paintdotjs",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "paintdotjs",
+            "maintainers": [],
+            "name": "paintdotjs-2.4.5",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/paintdotjs/default.nix#L42",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "paintdotjs-2.4.5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "paintdotjs",
+        "system": "x86_64-linux",
+        "version": "2.4.5",
+        "_attr": "paintdotjs",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.pdfcraft": {
