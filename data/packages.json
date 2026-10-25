@@ -101284,6 +101284,107 @@
         "_attr": "swpui",
         "_repo": "anas"
     },
+    "nur.repos.anas.toaster": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/StopBanning/toaster/releases/tag/v0.4.11",
+            "description": "Hears whatever is playing and writes it out as live Strudel code, with visuals",
+            "homepage": "https://github.com/StopBanning/toaster",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "toaster",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "toaster",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "toaster",
+            "maintainers": [],
+            "name": "toaster-0.4.11",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anas/pkgs/toaster/default.nix#L49",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "toaster-0.4.11",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "toaster",
+        "system": "x86_64-linux",
+        "version": "0.4.11",
+        "_attr": "toaster",
+        "_repo": "anas"
+    },
     "nur.repos.anas.tokei-pie": {
         "meta": {
             "available": true,
@@ -101502,7 +101603,7 @@
             },
             "mainProgram": "typepper",
             "maintainers": [],
-            "name": "typepper-0.2.0",
+            "name": "typepper-0.5.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -101553,14 +101654,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "typepper-0.2.0",
+        "name": "typepper-0.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "typepper",
         "system": "x86_64-linux",
-        "version": "0.2.0",
+        "version": "0.5.0",
         "_attr": "typepper",
         "_repo": "anas"
     },
@@ -534970,7 +535071,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.3",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.6",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -535024,7 +535125,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 42
             },
-            "name": "cnb-cli-1.18.3",
+            "name": "cnb-cli-1.18.6",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -535043,14 +535144,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.18.3",
+        "name": "cnb-cli-1.18.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.18.3",
+        "version": "1.18.6",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -536082,7 +536183,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/lmfpd/default.nix",
                 "line": 55
             },
-            "name": "lmfpd-0.0.1792852997176",
+            "name": "lmfpd-0.0.1792923245260",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -536101,14 +536202,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lmfpd-0.0.1792852997176",
+        "name": "lmfpd-0.0.1792923245260",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lmfpd",
         "system": "x86_64-linux",
-        "version": "0.0.1792852997176",
+        "version": "0.0.1792923245260",
         "_attr": "lmfpd",
         "_repo": "mzwing"
     },
@@ -536116,7 +536217,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.20",
+            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.22",
             "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit",
             "homepage": "https://github.com/cortexkit/magic-context",
             "identifiers": {
@@ -536170,7 +536271,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
                 "line": 83
             },
-            "name": "magic-context-0.49.20",
+            "name": "magic-context-0.49.22",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -536189,14 +536290,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magic-context-0.49.20",
+        "name": "magic-context-0.49.22",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magic-context",
         "system": "x86_64-linux",
-        "version": "0.49.20",
+        "version": "0.49.22",
         "_attr": "magic-context",
         "_repo": "mzwing"
     },
