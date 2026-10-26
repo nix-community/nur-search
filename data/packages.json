@@ -253116,7 +253116,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "cli-proxy-api-8.0.33",
+            "name": "cli-proxy-api-8.0.43",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -253157,14 +253157,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cli-proxy-api-8.0.33",
+        "name": "cli-proxy-api-8.0.43",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cli-proxy-api",
         "system": "x86_64-linux",
-        "version": "8.0.33",
+        "version": "8.0.43",
         "_attr": "cli-proxy-api",
         "_repo": "definfo"
     },
@@ -253227,7 +253227,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/definfo/pkgs/dnsmasq-china-list_smartdns/default.nix",
                 "line": 42
             },
-            "name": "dnsmasq-china-list-0-unstable-2026-10-16",
+            "name": "dnsmasq-china-list-0-unstable-2026-10-23",
             "nonTeamMaintainers": [
                 {
                     "email": "hjsdbb1@gmail.com",
@@ -253325,14 +253325,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dnsmasq-china-list-0-unstable-2026-10-16",
+        "name": "dnsmasq-china-list-0-unstable-2026-10-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dnsmasq-china-list",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-16",
+        "version": "0-unstable-2026-10-23",
         "_attr": "dnsmasq-china-list_smartdns",
         "_repo": "definfo"
     },
@@ -253563,7 +253563,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/definfo/pkgs/sarasa-term-sc-nerd/default.nix",
                 "line": 64
             },
-            "name": "sarasa-term-sc-nerd-4.0.0",
+            "name": "sarasa-term-sc-nerd-2.3.1",
             "nonTeamMaintainers": [
                 {
                     "email": "hjsdbb1@gmail.com",
@@ -253661,14 +253661,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sarasa-term-sc-nerd-4.0.0",
+        "name": "sarasa-term-sc-nerd-2.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sarasa-term-sc-nerd",
         "system": "x86_64-linux",
-        "version": "4.0.0",
+        "version": "2.3.1",
         "_attr": "sarasa-term-sc-nerd",
         "_repo": "definfo"
     },
@@ -572354,6 +572354,68 @@
         "_attr": "bkworm",
         "_repo": "oluceps"
     },
+    "nur.repos.oluceps.caddy-realm": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Please invoke this with flake input, not avaliable with nur.repos.me.*",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "caddy-realm",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "caddy-realm",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "caddy-realm-0.0.301-redirect",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/oluceps/default.nix#L16",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "caddy-realm-0.0.301-redirect",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "caddy-realm",
+        "system": "x86_64-linux",
+        "version": "0.0.301-redirect",
+        "_attr": "caddy-realm",
+        "_repo": "oluceps"
+    },
     "nur.repos.oluceps.canokey-manager": {
         "meta": {
             "available": true,
@@ -572724,6 +572786,68 @@
         "system": "x86_64-linux",
         "version": "0.0.301-redirect",
         "_attr": "dpms-off",
+        "_repo": "oluceps"
+    },
+    "nur.repos.oluceps.envoy-realm": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Please invoke this with flake input, not avaliable with nur.repos.me.*",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "envoy-realm",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "envoy-realm",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "envoy-realm-0.0.301-redirect",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/oluceps/default.nix#L16",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "envoy-realm-0.0.301-redirect",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "envoy-realm",
+        "system": "x86_64-linux",
+        "version": "0.0.301-redirect",
+        "_attr": "envoy-realm",
         "_repo": "oluceps"
     },
     "nur.repos.oluceps.geo": {
@@ -574770,68 +574894,6 @@
         "system": "x86_64-linux",
         "version": "0.0.301-redirect",
         "_attr": "prettier-plugin-latex",
-        "_repo": "oluceps"
-    },
-    "nur.repos.oluceps.realm": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Please invoke this with flake input, not avaliable with nur.repos.me.*",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "realm",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "realm",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "maintainers": [],
-            "name": "realm-0.0.301-redirect",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/oluceps/default.nix#L16",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "realm-0.0.301-redirect",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "realm",
-        "system": "x86_64-linux",
-        "version": "0.0.301-redirect",
-        "_attr": "realm",
         "_repo": "oluceps"
     },
     "nur.repos.oluceps.restls": {
