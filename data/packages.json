@@ -316175,6 +316175,114 @@
         "_attr": "dmenu-wpctl",
         "_repo": "iamanaws"
     },
+    "nur.repos.iamanaws.proton-meet-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "End-to-end encrypted video conferencing client",
+            "downloadPage": "https://proton.me/meet/download",
+            "homepage": "https://proton.me/meet",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "proton-meet-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "proton-meet-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "proton-meet",
+            "maintainers": [
+                {
+                    "email": "iamanaws@httpd.dev",
+                    "github": "iamanaws",
+                    "githubId": 78835633,
+                    "keys": [
+                        {
+                            "fingerprint": "CF10 DCBB 9318 BE1D 6040  4222 272C 61AB 190D ED28"
+                        }
+                    ],
+                    "name": "Angel J"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/iamanaws/pkgs/proton-meet-bin/package.nix",
+                "line": 59
+            },
+            "name": "proton-meet-bin-1.0.14",
+            "nonTeamMaintainers": [
+                {
+                    "email": "iamanaws@httpd.dev",
+                    "github": "iamanaws",
+                    "githubId": 78835633,
+                    "keys": [
+                        {
+                            "fingerprint": "CF10 DCBB 9318 BE1D 6040  4222 272C 61AB 190D ED28"
+                        }
+                    ],
+                    "name": "Angel J"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/iamanaws/pkgs/proton-meet-bin/package.nix#L55",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "proton-meet-bin-1.0.14",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "proton-meet-bin",
+        "system": "x86_64-linux",
+        "version": "1.0.14",
+        "_attr": "proton-meet-bin",
+        "_repo": "iamanaws"
+    },
     "nur.repos.ianmurphy1.commafeed": {
         "meta": {
             "available": true,
@@ -993398,6 +993506,198 @@
         "system": "x86_64-linux",
         "version": "1.0.1",
         "_attr": "bln-mcp-server",
+        "_repo": "theluckystrike"
+    },
+    "nur.repos.theluckystrike.followcheck": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/theluckystrike/followcheck/releases/tag/v0.1.0",
+            "description": "Decide whether an outbound link on a page is really followable and really crawlable",
+            "downloadPage": "https://github.com/theluckystrike/followcheck",
+            "homepage": "https://handsofflinks.com/dofollow-nofollow-checker/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "followcheck",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "followcheck",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "followcheck fetches a page and reports whether a link to a given target is\nactually followable and crawlable, instead of assuming it from an HTTP 200.\nIt checks six independent failure modes: the anchor missing from the served\nHTML, rel=nofollow/ugc/sponsored on the anchor, a robots meta tag, an\nX-Robots-Tag response header, a robots.txt disallow on the path, and a body\nthat varies by Accept header. A 403, 503 or challenge body is reported as\nUNVERIFIED-BOT-WALLED rather than as a negative verdict. The CLI exits 0\nonly on DOFOLLOW, so it can gate CI. Standard library only.\n",
+            "mainProgram": "followcheck",
+            "maintainers": [],
+            "name": "followcheck-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/theluckystrike/pkgs/followcheck/default.nix#L31",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "followcheck-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "followcheck",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "followcheck",
         "_repo": "theluckystrike"
     },
     "nur.repos.therobot2105.vivado-2020_1": {
