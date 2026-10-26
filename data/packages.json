@@ -4377,7 +4377,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/rpcs3-git/default.nix",
                 "line": 197
             },
-            "name": "rpcs3-git-0.0.43-unstable-2026-10-25",
+            "name": "rpcs3-git-0.0.43-unstable-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "github": "Adamekka",
@@ -4397,14 +4397,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "rpcs3-git-0.0.43-unstable-2026-10-25",
+        "name": "rpcs3-git-0.0.43-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3-git",
         "system": "x86_64-linux",
-        "version": "0.0.43-unstable-2026-10-25",
+        "version": "0.0.43-unstable-2026-10-26",
         "_attr": "rpcs3-git",
         "_repo": "Adamekka"
     },
@@ -31024,6 +31024,143 @@
         "system": "x86_64-linux",
         "version": "1.2.1",
         "_attr": "ai-toolbox",
+        "_repo": "MCSeekeri"
+    },
+    "nur.repos.MCSeekeri.artmatic": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Web-native open-source editing software for algorithmic art and glitch art",
+            "homepage": "https://github.com/OxygenNine/artmatic",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "artmatic",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "artmatic",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Artmatic is a web-native video editor aimed at algorithmic and glitch art.\nIt ships a timeline, keyframe curves, cellular-automaton and fractal\ngenerators, glitch effects, gl-transitions, typography compositing, audio\nwith BPM detection, and MP4/PNG/GIF export. This package wraps the bundled\nweb app in an Electron shell so it runs as a desktop application with\nlocal file access.\n",
+            "mainProgram": "artmatic",
+            "maintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/MCSeekeri/pkgs/artmatic/default.nix",
+                "line": 165
+            },
+            "name": "artmatic-0.3.0-unstable-2026-10-26",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/MCSeekeri/pkgs/artmatic/default.nix#L151",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "artmatic-0.3.0-unstable-2026-10-26",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "artmatic",
+        "system": "x86_64-linux",
+        "version": "0.3.0-unstable-2026-10-26",
+        "_attr": "artmatic",
         "_repo": "MCSeekeri"
     },
     "nur.repos.MCSeekeri.cc-switch": {
@@ -202222,7 +202359,7 @@
             },
             "mainProgram": "Aiursoft.Tracer",
             "maintainers": [],
-            "name": "aiursoft-tracer-0-unstable-2026-10-25",
+            "name": "aiursoft-tracer-0-unstable-2026-10-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -202241,14 +202378,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "aiursoft-tracer-0-unstable-2026-10-25",
+        "name": "aiursoft-tracer-0-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "aiursoft-tracer",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-25",
+        "version": "0-unstable-2026-10-26",
         "_attr": "aiursoft-tracer",
         "_repo": "codgician"
     },
@@ -203954,7 +204091,7 @@
                 "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
             },
             "maintainers": [],
-            "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-24",
+            "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -203995,14 +204132,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-24",
+        "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "networkmanager-gpclient",
         "system": "x86_64-linux",
-        "version": "1.5.0-unstable-2026-10-24",
+        "version": "1.5.0-unstable-2026-10-26",
         "_attr": "networkmanager-gpclient",
         "_repo": "codgician"
     },
@@ -1019205,7 +1019342,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.37",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.44",
             "description": "Proxy server providing OpenAI-compatible APIs for CLI models",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1019250,7 +1019387,7 @@
             },
             "mainProgram": "cli-proxy-api",
             "maintainers": [],
-            "name": "cliproxyapi-8.0.37",
+            "name": "cliproxyapi-8.0.44",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1019312,14 +1019449,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.37",
+        "name": "cliproxyapi-8.0.44",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.37",
+        "version": "8.0.44",
         "_attr": "cliproxyapi",
         "_repo": "trev"
     },
@@ -1023302,7 +1023439,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.181.5",
+            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.184.1",
             "description": "Cross-platform dependency automation, with patches for nix",
             "homepage": "https://github.com/renovatebot/renovate",
             "identifiers": {
@@ -1023347,7 +1023484,7 @@
             },
             "mainProgram": "renovate",
             "maintainers": [],
-            "name": "renovate-44.181.5",
+            "name": "renovate-44.184.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1023385,14 +1023522,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "renovate-44.181.5",
+        "name": "renovate-44.184.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "renovate",
         "system": "x86_64-linux",
-        "version": "44.181.5",
+        "version": "44.184.1",
         "_attr": "renovate",
         "_repo": "trev"
     },
