@@ -21549,7 +21549,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.1247",
+            "name": "magpie-0.1.1580",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -21567,14 +21567,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1247",
+        "name": "magpie-0.1.1580",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1247",
+        "version": "0.1.1580",
         "_attr": "magpie",
         "_repo": "Emin017"
     },
@@ -88407,7 +88407,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/antigravity-tools-bin/default.nix",
                 "line": 91
             },
-            "name": "antigravity-tools-bin-5.0.0",
+            "name": "antigravity-tools-bin-5.0.1-beta.1",
             "nonTeamMaintainers": [
                 "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
             ],
@@ -88428,14 +88428,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "antigravity-tools-bin-5.0.0",
+        "name": "antigravity-tools-bin-5.0.1-beta.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity-tools-bin",
         "system": "x86_64-linux",
-        "version": "5.0.0",
+        "version": "5.0.1-beta.1",
         "_attr": "antigravity-tools-bin",
         "_repo": "ahmet-cetinkaya"
     },
@@ -202980,6 +202980,258 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-09-19",
         "_attr": "gddr6",
+        "_repo": "codgician"
+    },
+    "nur.repos.codgician.gpu-unlock": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Linux module enabling the SM speed-select override on RTX 4090 and selected Ada GPUs before the NVIDIA driver loads",
+            "homepage": "https://github.com/JustAResearcher/gpu-unlock-ada",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gpu-unlock",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gpu-unlock",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "codgician@outlook.com",
+                    "github": "codgician",
+                    "githubId": 15964984,
+                    "name": "codgician"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/gpu-unlock/default.nix",
+                "line": 47
+            },
+            "name": "gpu-unlock-1.1.1-unstable-2026-10-24",
+            "nonTeamMaintainers": [
+                {
+                    "email": "codgician@outlook.com",
+                    "github": "codgician",
+                    "githubId": 15964984,
+                    "name": "codgician"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/codgician/pkgs/gpu-unlock/default.nix#L44",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gpu-unlock-1.1.1-unstable-2026-10-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gpu-unlock",
+        "system": "x86_64-linux",
+        "version": "1.1.1-unstable-2026-10-24",
+        "_attr": "gpu-unlock",
+        "_repo": "codgician"
+    },
+    "nur.repos.codgician.gpu-unlock-firmware": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Firmware assets for gpu-unlock, generated from the pinned NVIDIA 610.43.03 driver",
+            "homepage": "https://github.com/JustAResearcher/gpu-unlock-ada",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gpu-unlock-firmware",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gpu-unlock-firmware",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Unfree redistributable firmware",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "unfreeRedistributableFirmware"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v2.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl2Only",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "codgician@outlook.com",
+                    "github": "codgician",
+                    "githubId": 15964984,
+                    "name": "codgician"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/gpu-unlock-firmware/default.nix",
+                "line": 74
+            },
+            "name": "gpu-unlock-firmware-1.1.1-unstable-2026-10-24",
+            "nonTeamMaintainers": [
+                {
+                    "email": "codgician@outlook.com",
+                    "github": "codgician",
+                    "githubId": 15964984,
+                    "name": "codgician"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/codgician/pkgs/gpu-unlock-firmware/default.nix#L68",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryFirmware"
+                },
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gpu-unlock-firmware-1.1.1-unstable-2026-10-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gpu-unlock-firmware",
+        "system": "x86_64-linux",
+        "version": "1.1.1-unstable-2026-10-24",
+        "_attr": "gpu-unlock-firmware",
         "_repo": "codgician"
     },
     "nur.repos.codgician.intune-portal": {
@@ -523596,7 +523848,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cl/clash-nyanpasu/package.nix",
                 "line": 221
             },
-            "name": "clash-nyanpasu-2.0.0-rc.3-unstable-2026-10-25",
+            "name": "clash-nyanpasu-2.0.0-rc.3-unstable-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -523665,14 +523917,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clash-nyanpasu-2.0.0-rc.3-unstable-2026-10-25",
+        "name": "clash-nyanpasu-2.0.0-rc.3-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clash-nyanpasu",
         "system": "x86_64-linux",
-        "version": "2.0.0-rc.3-unstable-2026-10-25",
+        "version": "2.0.0-rc.3-unstable-2026-10-26",
         "_attr": "clash-nyanpasu",
         "_repo": "moraxyc"
     },
@@ -523742,7 +523994,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 54
             },
-            "name": "cpa-usage-keeper-2.0.1-unstable-2026-10-25",
+            "name": "cpa-usage-keeper-2.0.1-unstable-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -523797,14 +524049,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.0.1-unstable-2026-10-25",
+        "name": "cpa-usage-keeper-2.0.1-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.0.1-unstable-2026-10-25",
+        "version": "2.0.1-unstable-2026-10-26",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -526122,7 +526374,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-10-25",
+            "name": "meta-rules-dat-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -526145,7 +526397,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-10-25",
+        "name": "meta-rules-dat-2026-10-26",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -526157,7 +526409,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-10-25",
+        "version": "2026-10-26",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -528684,7 +528936,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/wh/whois42d-ng/package.nix",
                 "line": 53
             },
-            "name": "whois42d-ng-2.1.1-unstable-2026-10-23",
+            "name": "whois42d-ng-2.1.1-unstable-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -528747,14 +528999,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "whois42d-ng-2.1.1-unstable-2026-10-23",
+        "name": "whois42d-ng-2.1.1-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "whois42d-ng",
         "system": "x86_64-linux",
-        "version": "2.1.1-unstable-2026-10-23",
+        "version": "2.1.1-unstable-2026-10-26",
         "_attr": "whois42d-ng",
         "_repo": "moraxyc"
     },
@@ -528940,7 +529192,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/YAQMC/YAQMC/releases/tag/v0.1.1-unstable-2026-10-18",
+            "changelog": "https://github.com/YAQMC/YAQMC/releases/tag/v0.1.1-unstable-2026-10-26",
             "description": "Unofficial QQ Music client with a native Rust playback core",
             "homepage": "https://github.com/YAQMC/YAQMC",
             "identifiers": {
@@ -528997,7 +529249,7 @@
             ],
             "mainProgram": "yaqmc",
             "maintainers": [],
-            "name": "yaqmc-0.1.1-unstable-2026-10-18",
+            "name": "yaqmc-0.1.1-unstable-2026-10-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -529035,14 +529287,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "yaqmc-0.1.1-unstable-2026-10-18",
+        "name": "yaqmc-0.1.1-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "yaqmc",
         "system": "x86_64-linux",
-        "version": "0.1.1-unstable-2026-10-18",
+        "version": "0.1.1-unstable-2026-10-26",
         "_attr": "yaqmc",
         "_repo": "moraxyc"
     },
@@ -573346,6 +573598,68 @@
         "_attr": "guix-run",
         "_repo": "oluceps"
     },
+    "nur.repos.oluceps.helix-fcitx-focus": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Please invoke this with flake input, not avaliable with nur.repos.me.*",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "helix-fcitx-focus",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "helix-fcitx-focus",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "helix-fcitx-focus-0.0.301-redirect",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/oluceps/default.nix#L16",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "helix-fcitx-focus-0.0.301-redirect",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "helix-fcitx-focus",
+        "system": "x86_64-linux",
+        "version": "0.0.301-redirect",
+        "_attr": "helix-fcitx-focus",
+        "_repo": "oluceps"
+    },
     "nur.repos.oluceps.jlink-udev-rules": {
         "meta": {
             "available": true,
@@ -580442,6 +580756,182 @@
         "system": "x86_64-linux",
         "version": "1.1.2",
         "_attr": "kodama",
+        "_repo": "prince213"
+    },
+    "nur.repos.prince213.ksh93": {
+        "meta": {
+            "available": true,
+            "branch": "1.0",
+            "broken": false,
+            "changelog": "https://github.com/ksh93/ksh/blob/1.0/NEWS",
+            "description": "93u+m fork of the KornShell",
+            "downloadPage": "https://github.com/ksh93/ksh/releases",
+            "homepage": "https://github.com/ksh93/ksh",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ksh93",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ksh93",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Eclipse Public License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "epl20",
+                        "spdxId": "EPL-2.0",
+                        "url": "https://spdx.org/licenses/EPL-2.0.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Eclipse Public License 1.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "epl10",
+                        "spdxId": "EPL-1.0",
+                        "url": "https://spdx.org/licenses/EPL-1.0.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "bsd3",
+                        "spdxId": "BSD-3-Clause",
+                        "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                    }
+                ],
+                "operator": "AND"
+            },
+            "mainProgram": "ksh",
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/ks/ksh93/package.nix",
+                "line": 93
+            },
+            "name": "ksh93-1.0.10-unstable-2026-10-22",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/ks/ksh93/package.nix#L81",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ksh93-1.0.10-unstable-2026-10-22",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ksh93",
+        "system": "x86_64-linux",
+        "version": "1.0.10-unstable-2026-10-22",
+        "_attr": "ksh93",
         "_repo": "prince213"
     },
     "nur.repos.prince213.latentminds-pi-quotas": {
