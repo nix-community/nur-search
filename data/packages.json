@@ -7061,7 +7061,7 @@
             },
             "mainProgram": "dmarc-report-notifier",
             "maintainers": [],
-            "name": "dmarc-report-notifier-1.1.17",
+            "name": "dmarc-report-notifier-1.1.18",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -7109,7 +7109,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dmarc-report-notifier-1.1.17",
+        "name": "dmarc-report-notifier-1.1.18",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -7117,7 +7117,7 @@
         },
         "pname": "dmarc-report-notifier",
         "system": "x86_64-linux",
-        "version": "1.1.17",
+        "version": "1.1.18",
         "_attr": "dmarc-report-notifier",
         "_repo": "AndrewKvalheim"
     },
@@ -1055098,6 +1055098,122 @@
         "_attr": "imewlconverter",
         "_repo": "xddxdd"
     },
+    "nur.repos.xddxdd.invisible-firefox-bin": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://github.com/feder-cr/firefox_antidetect_patch/releases",
+            "description": "Anti-fingerprinting Firefox, packaged from upstream prebuilt Linux binaries",
+            "homepage": "https://github.com/feder-cr/firefox_antidetect_patch",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "invisible-firefox-bin-unwrapped",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "invisible-firefox-bin-unwrapped",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Firefox Terms of Use",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "firefox",
+                "url": "https://www.mozilla.org/about/legal/terms/firefox/"
+            },
+            "mainProgram": "firefox",
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/invisible-firefox-bin/default.nix",
+                "line": 130
+            },
+            "name": "invisible-firefox-bin-unwrapped-151.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/invisible-firefox-bin/default.nix#L115",
+            "priority": 4,
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "invisible-firefox-bin-151.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "invisible-firefox-bin",
+        "system": "x86_64-linux",
+        "version": "151.0",
+        "_attr": "invisible-firefox-bin",
+        "_repo": "xddxdd"
+    },
     "nur.repos.xddxdd.invisible-firefox-unwrapped": {
         "meta": {
             "available": true,
@@ -1128791,6 +1128907,122 @@
         "system": "x86_64-linux",
         "version": "3.6.0",
         "_attr": "uncategorized.imewlconverter",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.uncategorized.invisible-firefox-bin": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://github.com/feder-cr/firefox_antidetect_patch/releases",
+            "description": "Anti-fingerprinting Firefox, packaged from upstream prebuilt Linux binaries",
+            "homepage": "https://github.com/feder-cr/firefox_antidetect_patch",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "invisible-firefox-bin-unwrapped",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "invisible-firefox-bin-unwrapped",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Firefox Terms of Use",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "firefox",
+                "url": "https://www.mozilla.org/about/legal/terms/firefox/"
+            },
+            "mainProgram": "firefox",
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/invisible-firefox-bin/default.nix",
+                "line": 130
+            },
+            "name": "invisible-firefox-bin-unwrapped-151.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/invisible-firefox-bin/default.nix#L115",
+            "priority": 4,
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "invisible-firefox-bin-151.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "invisible-firefox-bin",
+        "system": "x86_64-linux",
+        "version": "151.0",
+        "_attr": "uncategorized.invisible-firefox-bin",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.uncategorized.invisible-firefox-unwrapped": {
