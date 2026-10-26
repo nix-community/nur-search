@@ -420001,7 +420001,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/DeterminateSystems/nix-src/releases/tag/v3.24.0",
+            "changelog": "https://github.com/DeterminateSystems/nix-src/releases/tag/v3.24.1",
             "description": "Nix package manager for teams of any size",
             "homepage": "https://github.com/DeterminateSystems/nix-src",
             "identifiers": {
@@ -420056,10 +420056,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/nix/store/1msmyw386r3mw2x1zvswdhh7z2qkfmhf-source/packaging/everything.nix",
+                "file": "/nix/store/mv57vd8mpvrw3m3hhnm3n0d8rn979cgy-source/packaging/everything.nix",
                 "line": 235
             },
-            "name": "determinate-nix-3.24.0",
+            "name": "determinate-nix-3.24.1",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -420091,12 +420091,12 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/merrkry/pkgs/determinate-nix/default.nix#L95",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/merrkry/pkgs/determinate-nix/default.nix#L92",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "determinate-nix-3.24.0",
+        "name": "determinate-nix-3.24.1",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -420107,7 +420107,7 @@
         },
         "pname": "determinate-nix",
         "system": "x86_64-linux",
-        "version": "3.24.0",
+        "version": "3.24.1",
         "_attr": "determinate-nix",
         "_repo": "merrkry"
     },
@@ -488671,7 +488671,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 349
+                "line": 356
             },
             "name": "archivetune-unwrapped-15.1.0",
             "nonTeamMaintainers": [
@@ -488691,7 +488691,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L346",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L353",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -900122,6 +900122,124 @@
         "system": "x86_64-linux",
         "version": "1.14.4",
         "_attr": "sing-box",
+        "_repo": "signalridge"
+    },
+    "nur.repos.signalridge.sing-box-openconnect-auth": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Connect an external cookie authenticator to sing-box OpenConnect",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "sing-box-openconnect-auth",
+            "maintainers": [],
+            "name": "sing-box-openconnect-auth",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/signalridge/pkgs/sing-box-openconnect-auth/default.nix#L9",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sing-box-openconnect-auth",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sing-box-openconnect-auth",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "sing-box-openconnect-auth",
         "_repo": "signalridge"
     },
     "nur.repos.sigprof.awesome": {
