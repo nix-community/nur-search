@@ -12168,7 +12168,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://glide-browser.app/changelog#0.1.64a",
+            "changelog": "https://glide-browser.app/changelog#0.1.65a",
             "description": "Extensible and keyboard-focused web browser built on Firefox",
             "downloadPage": "https://glide-browser.app/#download",
             "homepage": "https://glide-browser.app/",
@@ -12220,7 +12220,7 @@
                 "file": "/nix/store/zqznszbq59yjk0cm3ray4pfyglaps6qb-source/pkgs/stdenv/generic/check-meta.nix",
                 "line": 527
             },
-            "name": "glide-browser-unwrapped-0.1.64a",
+            "name": "glide-browser-unwrapped-0.1.65a",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -12283,14 +12283,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "glide-0.1.64a",
+        "name": "glide-0.1.65a",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "glide",
         "system": "x86_64-linux",
-        "version": "0.1.64a",
+        "version": "0.1.65a",
         "_attr": "glide-browser",
         "_repo": "Communix"
     },
@@ -12298,7 +12298,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://glide-browser.app/changelog#0.1.64a",
+            "changelog": "https://glide-browser.app/changelog#0.1.65a",
             "description": "Extensible and keyboard-focused web browser built on Firefox",
             "downloadPage": "https://glide-browser.app/#download",
             "homepage": "https://glide-browser.app/",
@@ -12344,7 +12344,7 @@
             },
             "mainProgram": "glide",
             "maintainers": [],
-            "name": "glide-browser-unwrapped-0.1.64a",
+            "name": "glide-browser-unwrapped-0.1.65a",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -12406,7 +12406,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "glide-browser-unwrapped-0.1.64a",
+        "name": "glide-browser-unwrapped-0.1.65a",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -12414,7 +12414,7 @@
         },
         "pname": "glide-browser-unwrapped",
         "system": "x86_64-linux",
-        "version": "0.1.64a",
+        "version": "0.1.65a",
         "_attr": "glide-browser-unwrapped",
         "_repo": "Communix"
     },
@@ -85727,6 +85727,160 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-10-22",
         "_attr": "yaziPlugins.spot-video",
+        "_repo": "adam0"
+    },
+    "nur.repos.adam0.yaziPlugins.supaline": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Configurable linemode columns for Yazi",
+            "homepage": "https://github.com/yohkuri/supaline.yazi",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "supaline.yazi",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "supaline.yazi",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "supaline.yazi-0-unstable-2026-10-21",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/yazi-plugins/default.nix#L65",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "supaline.yazi-0-unstable-2026-10-21",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "supaline.yazi",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-21",
+        "_attr": "yaziPlugins.supaline",
         "_repo": "adam0"
     },
     "nur.repos.adam0.yaziPlugins.tv": {
