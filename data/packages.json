@@ -316175,6 +316175,108 @@
         "_attr": "dmenu-wpctl",
         "_repo": "iamanaws"
     },
+    "nur.repos.iamanaws.proton-meet": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "End-to-end encrypted video conferencing client",
+            "downloadPage": "https://proton.me/meet/download",
+            "homepage": "https://proton.me/meet",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "proton-meet",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "proton-meet",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "proton-meet",
+            "maintainers": [
+                {
+                    "email": "iamanaws@httpd.dev",
+                    "github": "iamanaws",
+                    "githubId": 78835633,
+                    "keys": [
+                        {
+                            "fingerprint": "CF10 DCBB 9318 BE1D 6040  4222 272C 61AB 190D ED28"
+                        }
+                    ],
+                    "name": "Angel J"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/iamanaws/pkgs/proton-meet/package.nix",
+                "line": 179
+            },
+            "name": "proton-meet-1.0.14",
+            "nonTeamMaintainers": [
+                {
+                    "email": "iamanaws@httpd.dev",
+                    "github": "iamanaws",
+                    "githubId": 78835633,
+                    "keys": [
+                        {
+                            "fingerprint": "CF10 DCBB 9318 BE1D 6040  4222 272C 61AB 190D ED28"
+                        }
+                    ],
+                    "name": "Angel J"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/iamanaws/pkgs/proton-meet/package.nix#L175",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "proton-meet-1.0.14",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "proton-meet",
+        "system": "x86_64-linux",
+        "version": "1.0.14",
+        "_attr": "proton-meet",
+        "_repo": "iamanaws"
+    },
     "nur.repos.iamanaws.proton-meet-bin": {
         "meta": {
             "available": true,
@@ -352343,7 +352445,7 @@
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [],
-            "name": "iterm2-shell-integration-0-unstable-2026-10-21",
+            "name": "iterm2-shell-integration-0-unstable-2026-10-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -352361,14 +352463,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "iterm2-shell-integration-0-unstable-2026-10-21",
+        "name": "iterm2-shell-integration-0-unstable-2026-10-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "iterm2-shell-integration",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-21",
+        "version": "0-unstable-2026-10-25",
         "_attr": "iterm2-shell-integration",
         "_repo": "josh"
     },
@@ -353714,7 +353816,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "pi-web-access-0.44.0",
+            "name": "pi-web-access-0.45.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -353776,14 +353878,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.44.0",
+        "name": "pi-web-access-0.45.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.44.0",
+        "version": "0.45.0",
         "_attr": "pi-web-access",
         "_repo": "josh"
     },
@@ -356466,7 +356568,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "terraform-provider-unifi-0.59.0",
+            "name": "terraform-provider-unifi-0.60.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -356513,14 +356615,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "terraform-provider-unifi-0.59.0",
+        "name": "terraform-provider-unifi-0.60.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "terraform-provider-unifi",
         "system": "x86_64-linux",
-        "version": "0.59.0",
+        "version": "0.60.0",
         "_attr": "terraform-provider-unifi",
         "_repo": "josh"
     },
@@ -528231,7 +528333,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/kelivo/default.nix",
-                "line": 128
+                "line": 114
             },
             "name": "kelivo-1.3.2",
             "nonTeamMaintainers": [
@@ -528246,7 +528348,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/kelivo/default.nix#L118",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/kelivo/default.nix#L104",
             "problems": {},
             "sourceProvenance": [
                 {
