@@ -203041,7 +203041,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/gpu-unlock/default.nix",
                 "line": 47
             },
-            "name": "gpu-unlock-1.1.1-unstable-2026-10-24",
+            "name": "gpu-unlock-1.1.1-unstable-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -203090,14 +203090,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gpu-unlock-1.1.1-unstable-2026-10-24",
+        "name": "gpu-unlock-1.1.1-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gpu-unlock",
         "system": "x86_64-linux",
-        "version": "1.1.1-unstable-2026-10-24",
+        "version": "1.1.1-unstable-2026-10-26",
         "_attr": "gpu-unlock",
         "_repo": "codgician"
     },
@@ -203170,7 +203170,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/gpu-unlock-firmware/default.nix",
                 "line": 74
             },
-            "name": "gpu-unlock-firmware-1.1.1-unstable-2026-10-24",
+            "name": "gpu-unlock-firmware-1.1.1-unstable-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -203223,14 +203223,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gpu-unlock-firmware-1.1.1-unstable-2026-10-24",
+        "name": "gpu-unlock-firmware-1.1.1-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gpu-unlock-firmware",
         "system": "x86_64-linux",
-        "version": "1.1.1-unstable-2026-10-24",
+        "version": "1.1.1-unstable-2026-10-26",
         "_attr": "gpu-unlock-firmware",
         "_repo": "codgician"
     },
@@ -307548,7 +307548,7 @@
             },
             "mainProgram": "stratos",
             "maintainers": [],
-            "name": "stratos-2.25.0",
+            "name": "stratos-2.26.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -307573,14 +307573,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "stratos-2.25.0",
+        "name": "stratos-2.26.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "stratos",
         "system": "x86_64-linux",
-        "version": "2.25.0",
+        "version": "2.26.0",
         "_attr": "stratos",
         "_repo": "herver"
     },
@@ -561159,6 +561159,130 @@
         "system": "x86_64-linux",
         "version": "0.0.301-redirect",
         "_attr": "helix-fcitx-focus",
+        "_repo": "oluceps"
+    },
+    "nur.repos.oluceps.helix-file-watcher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Please invoke this with flake input, not avaliable with nur.repos.me.*",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "helix-file-watcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "helix-file-watcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "helix-file-watcher-0.0.301-redirect",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/oluceps/default.nix#L16",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "helix-file-watcher-0.0.301-redirect",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "helix-file-watcher",
+        "system": "x86_64-linux",
+        "version": "0.0.301-redirect",
+        "_attr": "helix-file-watcher",
+        "_repo": "oluceps"
+    },
+    "nur.repos.oluceps.helix-oil": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Please invoke this with flake input, not avaliable with nur.repos.me.*",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "helix-oil",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "helix-oil",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "helix-oil-0.0.301-redirect",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/oluceps/default.nix#L16",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "helix-oil-0.0.301-redirect",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "helix-oil",
+        "system": "x86_64-linux",
+        "version": "0.0.301-redirect",
+        "_attr": "helix-oil",
         "_repo": "oluceps"
     },
     "nur.repos.oluceps.jlink-udev-rules": {
