@@ -95415,60 +95415,6 @@
         "_attr": "eprofiler-tui",
         "_repo": "anas"
     },
-    "nur.repos.anas.example-package": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "maintainers": [],
-            "name": "example-package-1.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anas/pkgs/example-package/default.nix#L5",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "example-package-1.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "example-package",
-        "system": "x86_64-linux",
-        "version": "1.0",
-        "_attr": "example-package",
-        "_repo": "anas"
-    },
     "nur.repos.anas.firefox-addons.auto-tab-discard": {
         "meta": {
             "available": true,
@@ -102373,7 +102319,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/StopBanning/toaster/releases/tag/v0.4.17",
+            "changelog": "https://github.com/StopBanning/toaster/releases/tag/v0.4.19",
             "description": "Hears whatever is playing and writes it out as live Strudel code, with visuals",
             "homepage": "https://github.com/StopBanning/toaster",
             "identifiers": {
@@ -102417,9 +102363,38 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "mainProgram": "toaster",
-            "maintainers": [],
-            "name": "toaster-0.4.17",
-            "nonTeamMaintainers": [],
+            "maintainers": [
+                {
+                    "email": "anas.elgarhy.dev@gmail.com",
+                    "github": "0x61nas",
+                    "githubId": 44965145,
+                    "keys": [
+                        {
+                            "fingerprint": "E10B D192 9231 08C7 3C35 7EC3 83E0 3DC6 F383 4086"
+                        }
+                    ],
+                    "name": "Anas Elgarhy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anas/pkgs/toaster/default.nix",
+                "line": 54
+            },
+            "name": "toaster-0.4.19",
+            "nonTeamMaintainers": [
+                {
+                    "email": "anas.elgarhy.dev@gmail.com",
+                    "github": "0x61nas",
+                    "githubId": 44965145,
+                    "keys": [
+                        {
+                            "fingerprint": "E10B D192 9231 08C7 3C35 7EC3 83E0 3DC6 F383 4086"
+                        }
+                    ],
+                    "name": "Anas Elgarhy"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
@@ -102450,23 +102425,18 @@
                 "s390x-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anas/pkgs/toaster/default.nix#L49",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "toaster-0.4.17",
+        "name": "toaster-0.4.19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "toaster",
         "system": "x86_64-linux",
-        "version": "0.4.17",
+        "version": "0.4.19",
         "_attr": "toaster",
         "_repo": "anas"
     },
