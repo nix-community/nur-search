@@ -307534,7 +307534,7 @@
             },
             "mainProgram": "ibkr-gateway",
             "maintainers": [],
-            "name": "ibkr-gateway-10.51.1d",
+            "name": "ibkr-gateway-10.51.1e",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -307558,14 +307558,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ibkr-gateway-10.51.1d",
+        "name": "ibkr-gateway-10.51.1e",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ibkr-gateway",
         "system": "x86_64-linux",
-        "version": "10.51.1d",
+        "version": "10.51.1e",
         "_attr": "ibkr-gateway",
         "_repo": "herver"
     },
@@ -307616,7 +307616,7 @@
             },
             "mainProgram": "ibkr-tws",
             "maintainers": [],
-            "name": "ibkr-tws-10.51.1d",
+            "name": "ibkr-tws-10.51.1e",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -307640,14 +307640,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ibkr-tws-10.51.1d",
+        "name": "ibkr-tws-10.51.1e",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ibkr-tws",
         "system": "x86_64-linux",
-        "version": "10.51.1d",
+        "version": "10.51.1e",
         "_attr": "ibkr-tws",
         "_repo": "herver"
     },
@@ -481299,7 +481299,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/clice-io/clice/releases/tag/v0.1.2026102407",
+            "changelog": "https://github.com/clice-io/clice/releases/tag/v0.1.2026102507",
             "description": "Next-generation C++ language server built on LLVM/Clang",
             "homepage": "https://github.com/clice-io/clice",
             "identifiers": {
@@ -481345,19 +481345,20 @@
             "mainProgram": "clice",
             "maintainers": [],
             "maintainersPosition": {
-                "column": 5,
+                "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/cl/clice/package.nix",
-                "line": 160
+                "line": 262
             },
-            "name": "clice-0.1.2026102407",
+            "name": "clice-0.1.2026102507",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
-                "x86_64-linux"
+                "x86_64-linux",
+                "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cl/clice/package.nix#L156",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cl/clice/package.nix#L258",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481377,14 +481378,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clice-0.1.2026102407",
+        "name": "clice-0.1.2026102507",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clice",
         "system": "x86_64-linux",
-        "version": "0.1.2026102407",
+        "version": "0.1.2026102507",
         "_attr": "clice",
         "_repo": "mio"
     },
@@ -481576,7 +481577,7 @@
             },
             "mainProgram": "Compositor",
             "maintainers": [],
-            "name": "compositor-1.5.3",
+            "name": "compositor-1.5.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -481584,7 +481585,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/co/compositor/package.nix#L127",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/co/compositor/package.nix#L131",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481600,14 +481601,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.5.3",
+        "name": "compositor-1.5.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.5.3",
+        "version": "1.5.9",
         "_attr": "compositor",
         "_repo": "mio"
     },
@@ -487871,7 +487872,7 @@
             },
             "mainProgram": "freebuff",
             "maintainers": [],
-            "name": "freebuff-0.2.34-unstable-2026-10-24",
+            "name": "freebuff-0.2.34-unstable-2026-10-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -487896,14 +487897,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "freebuff-0.2.34-unstable-2026-10-24",
+        "name": "freebuff-0.2.34-unstable-2026-10-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "freebuff",
         "system": "x86_64-linux",
-        "version": "0.2.34-unstable-2026-10-24",
+        "version": "0.2.34-unstable-2026-10-25",
         "_attr": "freebuff",
         "_repo": "mio"
     },
@@ -487955,7 +487956,7 @@
             },
             "mainProgram": "freebuff",
             "maintainers": [],
-            "name": "freebuff-patched-0.2.34-unstable-2026-10-24",
+            "name": "freebuff-patched-0.2.34-unstable-2026-10-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -487980,14 +487981,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "freebuff-patched-0.2.34-unstable-2026-10-24",
+        "name": "freebuff-patched-0.2.34-unstable-2026-10-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "freebuff-patched",
         "system": "x86_64-linux",
-        "version": "0.2.34-unstable-2026-10-24",
+        "version": "0.2.34-unstable-2026-10-25",
         "_attr": "freebuff_patched",
         "_repo": "mio"
     },
@@ -488240,7 +488241,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://gitlab.futo.org/futo-notes/futo-notes/-/releases/v1.9.2-1",
+            "changelog": "https://gitlab.futo.org/futo-notes/futo-notes/-/releases/v1.9.2",
             "description": "Voice-first, private note taking application",
             "homepage": "https://gitlab.futo.org/futo-notes/futo-notes",
             "identifiers": {
@@ -488283,7 +488284,7 @@
             },
             "mainProgram": "futo-notes",
             "maintainers": [],
-            "name": "futo-notes-1.9.2-1",
+            "name": "futo-notes-1.9.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -488320,14 +488321,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "futo-notes-1.9.2-1",
+        "name": "futo-notes-1.9.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "futo-notes",
         "system": "x86_64-linux",
-        "version": "1.9.2-1",
+        "version": "1.9.2",
         "_attr": "futo-notes",
         "_repo": "mio"
     },
@@ -498263,12 +498264,12 @@
             },
             "mainProgram": "PCL.Frontend.Avalonia",
             "maintainers": [],
-            "name": "pcl-me-1.0.0-beta.5",
+            "name": "pcl-me-1.0.0-beta.7-unstable-2026-10-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pc/pcl-me/package.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pc/pcl-me/package.nix#L85",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -498278,14 +498279,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pcl-me-1.0.0-beta.5",
+        "name": "pcl-me-1.0.0-beta.7-unstable-2026-10-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pcl-me",
         "system": "x86_64-linux",
-        "version": "1.0.0-beta.5",
+        "version": "1.0.0-beta.7-unstable-2026-10-25",
         "_attr": "pcl-me",
         "_repo": "mio"
     },
@@ -504700,7 +504701,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "user-agent-switcher-firefox-1.4.110",
+            "name": "user-agent-switcher-firefox-1.4.111",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -504796,14 +504797,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "user-agent-switcher-firefox-1.4.110",
+        "name": "user-agent-switcher-firefox-1.4.111",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "user-agent-switcher-firefox",
         "system": "x86_64-linux",
-        "version": "1.4.110",
+        "version": "1.4.111",
         "_attr": "user-agent-switcher-firefox",
         "_repo": "mio"
     },
@@ -505272,7 +505273,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/violentmonkey/violentmonkey/releases/tag/v2.49.5",
+            "changelog": "https://github.com/violentmonkey/violentmonkey/releases/tag/v2.49.6",
             "description": "Violentmonkey provides userscripts support for browsers",
             "homepage": "https://violentmonkey.github.io/",
             "identifiers": {
@@ -505321,7 +505322,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/vi/violentmonkey/package.nix",
                 "line": 53
             },
-            "name": "violentmonkey-2.49.5",
+            "name": "violentmonkey-2.49.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -505417,14 +505418,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "violentmonkey-2.49.5",
+        "name": "violentmonkey-2.49.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "violentmonkey",
         "system": "x86_64-linux",
-        "version": "2.49.5",
+        "version": "2.49.6",
         "_attr": "violentmonkey",
         "_repo": "mio"
     },
