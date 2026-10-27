@@ -1005087,7 +1005087,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.3-223",
+            "name": "papermc-26.3-226",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1005118,14 +1005118,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.3-223",
+        "name": "papermc-26.3-226",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.3-223",
+        "version": "26.3-226",
         "_attr": "papermc",
         "_repo": "toyvo"
     },
@@ -1155355,7 +1155355,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Use this repository as a flake input or overlay:\n\n{\n  inputs.zhyi-packages.url = \"github:zhyiheihei/zhyi-packages\";\n}\n\nBinary cache:\n\n{\n  nix.settings.substituters = [ \"https://cache.zhyi.xin/zhyi\" ];\n  nix.settings.trusted-public-keys = [ \"lantian:Pi7qMC8lIOrR8cTh4vfcRuSL/z+Bh5BAFYlEo/mbq2U=\" ];\n}\n",
+            "description": "Use this repository as a flake input or overlay:\n\n{\n  inputs.zhyi-packages.url = \"github:zhyiheihei/zhyi-packages\";\n}\n\nBinary cache:\n\n{\n  nix.settings.substituters = [ \"https://cache.zhyi.xin/zhyi\" ];\n  nix.settings.trusted-public-keys = [ \"zhyi:Pi7qMC8lIOrR8cTh4vfcRuSL/z+Bh5BAFYlEo/mbq2U=\" ];\n}\n",
             "homepage": "https://github.com/zhyiheihei/zhyi-packages",
             "identifiers": {
                 "cpeParts": {
@@ -1159547,6 +1159547,103 @@
         "_attr": "qingjian",
         "_repo": "zhyiheihei"
     },
+    "nur.repos.zhyiheihei.rtkbt": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Realtek Bluetooth UART attach tool and RTL8852BS firmware",
+            "homepage": "https://github.com/radxa/rtkbt",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rtkbt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rtkbt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Unfree redistributable firmware",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "unfreeRedistributableFirmware"
+            },
+            "maintainers": [],
+            "name": "rtkbt-2022-06-07",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zhyiheihei/pkgs/uncategorized/rtkbt/default.nix#L39",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rtkbt-2022-06-07",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rtkbt",
+        "system": "x86_64-linux",
+        "version": "2022-06-07",
+        "_attr": "rtkbt",
+        "_repo": "zhyiheihei"
+    },
     "nur.repos.zhyiheihei.sublinkpro": {
         "meta": {
             "available": true,
@@ -1161467,6 +1161564,103 @@
         "system": "x86_64-linux",
         "version": "0.3.1",
         "_attr": "uncategorized.qingjian",
+        "_repo": "zhyiheihei"
+    },
+    "nur.repos.zhyiheihei.uncategorized.rtkbt": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Realtek Bluetooth UART attach tool and RTL8852BS firmware",
+            "homepage": "https://github.com/radxa/rtkbt",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rtkbt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rtkbt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Unfree redistributable firmware",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "unfreeRedistributableFirmware"
+            },
+            "maintainers": [],
+            "name": "rtkbt-2022-06-07",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zhyiheihei/pkgs/uncategorized/rtkbt/default.nix#L39",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rtkbt-2022-06-07",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rtkbt",
+        "system": "x86_64-linux",
+        "version": "2022-06-07",
+        "_attr": "uncategorized.rtkbt",
         "_repo": "zhyiheihei"
     },
     "nur.repos.zhyiheihei.uncategorized.sublinkpro": {
