@@ -197999,6 +197999,170 @@
         "_attr": "coveralls",
         "_repo": "chrjabs"
     },
+    "nur.repos.chrjabs.cykhash": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Cython wrapper for khash",
+            "homepage": "https://github.com/realead/cykhash",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cykhash",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cykhash",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "contact@christophjabs.info",
+                    "github": "chrjabs",
+                    "githubId": 98587286,
+                    "keys": [
+                        {
+                            "fingerprint": "47D6 1FEB CD86 F3EC D2E3  D68A 83D0 74F3 48B2 FD9D"
+                        }
+                    ],
+                    "name": "Christoph Jabs"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/chrjabs/pkgs/cykhash/default.nix",
+                "line": 60
+            },
+            "name": "python3.14-cykhash-2.0.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "contact@christophjabs.info",
+                    "github": "chrjabs",
+                    "githubId": 98587286,
+                    "keys": [
+                        {
+                            "fingerprint": "47D6 1FEB CD86 F3EC D2E3  D68A 83D0 74F3 48B2 FD9D"
+                        }
+                    ],
+                    "name": "Christoph Jabs"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/chrjabs/pkgs/cykhash/default.nix#L57",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-cykhash-2.0.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-cykhash",
+        "system": "x86_64-linux",
+        "version": "2.0.1",
+        "_attr": "cykhash",
+        "_repo": "chrjabs"
+    },
     "nur.repos.chrjabs.dblp-tools": {
         "meta": {
             "available": true,
@@ -384725,7 +384889,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/steipete/CodexBar/releases/tag/v0.81.0",
+            "changelog": "https://github.com/steipete/CodexBar/releases/tag/v0.82.0",
             "description": "CLI for AI coding-provider usage and spending",
             "homepage": "https://github.com/steipete/CodexBar",
             "identifiers": {
@@ -384777,7 +384941,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/codexbar-cli/default.nix",
                 "line": 49
             },
-            "name": "codexbar-cli-0.81.0",
+            "name": "codexbar-cli-0.82.0",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -384799,14 +384963,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "codexbar-cli-0.81.0",
+        "name": "codexbar-cli-0.82.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "codexbar-cli",
         "system": "x86_64-linux",
-        "version": "0.81.0",
+        "version": "0.82.0",
         "_attr": "codexbar-cli",
         "_repo": "lmdevv"
     },
