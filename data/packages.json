@@ -203696,133 +203696,6 @@
         "_attr": "linux-entra-bridge",
         "_repo": "codgician"
     },
-    "nur.repos.codgician.litellm-rust": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Minimal Rust gateway built for coding agents (LiteLLM-compatible)",
-            "homepage": "https://github.com/LiteLLM-Labs/litellm-rust",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "litellm-rust",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "litellm-rust",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "lite",
-            "maintainers": [
-                {
-                    "email": "codgician@outlook.com",
-                    "github": "codgician",
-                    "githubId": 15964984,
-                    "name": "codgician"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/litellm-rust/default.nix",
-                "line": 39
-            },
-            "name": "litellm-rust-0-unstable-2026-06-25",
-            "nonTeamMaintainers": [
-                {
-                    "email": "codgician@outlook.com",
-                    "github": "codgician",
-                    "githubId": 15964984,
-                    "name": "codgician"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/codgician/pkgs/litellm-rust/default.nix#L34",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "litellm-rust-0-unstable-2026-06-25",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "litellm-rust",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2026-06-25",
-        "_attr": "litellm-rust",
-        "_repo": "codgician"
-    },
     "nur.repos.codgician.mkcreds": {
         "meta": {
             "available": true,
@@ -384723,7 +384596,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/code-cursor/default.nix",
                 "line": 93
             },
-            "name": "cursor-3.27.12",
+            "name": "cursor-3.27.14",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -384748,14 +384621,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "cursor-3.27.12",
+        "name": "cursor-3.27.14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cursor",
         "system": "x86_64-linux",
-        "version": "3.27.12",
+        "version": "3.27.14",
         "_attr": "code-cursor",
         "_repo": "lmdevv"
     },
@@ -562508,7 +562381,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/ks/ksh93/package.nix",
                 "line": 93
             },
-            "name": "ksh93-1.0.10-unstable-2026-10-22",
+            "name": "ksh93-1.0.10-unstable-2026-10-27",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -562578,14 +562451,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ksh93-1.0.10-unstable-2026-10-22",
+        "name": "ksh93-1.0.10-unstable-2026-10-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ksh93",
         "system": "x86_64-linux",
-        "version": "1.0.10-unstable-2026-10-22",
+        "version": "1.0.10-unstable-2026-10-27",
         "_attr": "ksh93",
         "_repo": "prince213"
     },
@@ -741911,7 +741784,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/narumiruna/pi-extensions/blob/@narumitw/pi-usage@0.68.1/packages/pi-usage/CHANGELOG.md",
+            "changelog": "https://github.com/narumiruna/pi-extensions/blob/@narumitw/pi-usage@0.68.3/packages/pi-usage/CHANGELOG.md",
             "description": "Pi extension that shows current-account usage and DeepSeek API balance for supported providers",
             "downloadPage": "https://github.com/narumiruna/pi-extensions/releases",
             "homepage": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-usage",
@@ -741974,7 +741847,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/na/narumitw-pi-usage/package.nix",
                 "line": 48
             },
-            "name": "narumitw-pi-usage-0.68.1",
+            "name": "narumitw-pi-usage-0.68.3",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -742020,14 +741893,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "narumitw-pi-usage-0.68.1",
+        "name": "narumitw-pi-usage-0.68.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "narumitw-pi-usage",
         "system": "x86_64-linux",
-        "version": "0.68.1",
+        "version": "0.68.3",
         "_attr": "narumitw-pi-usage",
         "_repo": "prince213"
     },
@@ -742345,7 +742218,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-claude-code-ui/package.nix",
                 "line": 39
             },
-            "name": "pi-claude-code-ui-1.0.99",
+            "name": "pi-claude-code-ui-1.0.102",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -742391,14 +742264,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-claude-code-ui-1.0.99",
+        "name": "pi-claude-code-ui-1.0.102",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-claude-code-ui",
         "system": "x86_64-linux",
-        "version": "1.0.99",
+        "version": "1.0.102",
         "_attr": "pi-claude-code-ui",
         "_repo": "prince213"
     },
@@ -742631,7 +742504,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Sarrius/pi-multi-account/blob/v1.26.0/CHANGELOG.md",
+            "changelog": "https://github.com/Sarrius/pi-multi-account/blob/v1.27.0/CHANGELOG.md",
             "description": "Automatic multi-account failover and rotation for the Pi coding agent",
             "downloadPage": "https://github.com/Sarrius/pi-multi-account/releases",
             "homepage": "https://github.com/Sarrius/pi-multi-account",
@@ -742694,7 +742567,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-multi-account/package.nix",
                 "line": 38
             },
-            "name": "pi-multi-account-1.26.0",
+            "name": "pi-multi-account-1.27.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -742740,14 +742613,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-multi-account-1.26.0",
+        "name": "pi-multi-account-1.27.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-multi-account",
         "system": "x86_64-linux",
-        "version": "1.26.0",
+        "version": "1.27.0",
         "_attr": "pi-multi-account",
         "_repo": "prince213"
     },
@@ -744604,7 +744477,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/tmustier/pi-extensions/blob/usage-extension/v0.9.5/usage-extension/CHANGELOG.md",
+            "changelog": "https://github.com/tmustier/pi-extensions/blob/usage-extension/v0.10.0/usage-extension/CHANGELOG.md",
             "description": "Usage statistics dashboard for Pi sessions",
             "downloadPage": "https://github.com/tmustier/pi-extensions/releases",
             "homepage": "https://github.com/tmustier/pi-extensions/tree/main/usage-extension",
@@ -744667,7 +744540,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/tm/tmustier-pi-usage-extension/package.nix",
                 "line": 35
             },
-            "name": "tmustier-pi-usage-extension-0.9.5",
+            "name": "tmustier-pi-usage-extension-0.10.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -744690,14 +744563,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tmustier-pi-usage-extension-0.9.5",
+        "name": "tmustier-pi-usage-extension-0.10.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tmustier-pi-usage-extension",
         "system": "x86_64-linux",
-        "version": "0.9.5",
+        "version": "0.10.0",
         "_attr": "tmustier-pi-usage-extension",
         "_repo": "prince213"
     },
@@ -1023331,7 +1023204,7 @@
             },
             "mainProgram": "upnote",
             "maintainers": [],
-            "name": "upnote-9.22.8",
+            "name": "upnote-9.22.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1023355,14 +1023228,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "upnote-9.22.8",
+        "name": "upnote-9.22.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "upnote",
         "system": "x86_64-linux",
-        "version": "9.22.8",
+        "version": "9.22.9",
         "_attr": "upnote",
         "_repo": "unstable-code"
     },
