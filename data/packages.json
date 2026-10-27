@@ -106980,7 +106980,7 @@
             },
             "mainProgram": "rpcs3",
             "maintainers": [],
-            "name": "rpcs3-0.0.43-20402",
+            "name": "rpcs3-0.0.43-20410",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -107004,14 +107004,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rpcs3-0.0.43-20402",
+        "name": "rpcs3-0.0.43-20410",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3",
         "system": "x86_64-linux",
-        "version": "0.0.43-20402",
+        "version": "0.0.43-20410",
         "_attr": "rpcs3-bin",
         "_repo": "arch-fan"
     },
@@ -484684,7 +484684,7 @@
             },
             "mainProgram": "degrees-of-lewdity",
             "maintainers": [],
-            "name": "degrees-of-lewdity-0.5.12.13",
+            "name": "degrees-of-lewdity-0.5.13.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -484732,14 +484732,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "degrees-of-lewdity-0.5.12.13",
+        "name": "degrees-of-lewdity-0.5.13.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "degrees-of-lewdity",
         "system": "x86_64-linux",
-        "version": "0.5.12.13",
+        "version": "0.5.13.6",
         "_attr": "degrees-of-lewdity",
         "_repo": "mio"
     },
@@ -974648,6 +974648,200 @@
         "_attr": "amber-lsp",
         "_repo": "silicalet"
     },
+    "nur.repos.silicalet.artcraft-launcher-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/craft-launcher/releases/tag/v0.8.1",
+            "description": "Launcher for the ArtCraft creative application suite",
+            "homepage": "https://github.com/storytold/craft-launcher",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "artcraft-launcher-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "artcraft-launcher-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "artcraft-launcher",
+            "maintainers": [],
+            "name": "artcraft-launcher-bin-0.8.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "artcraft-launcher-bin-0.8.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "artcraft-launcher-bin",
+        "system": "x86_64-linux",
+        "version": "0.8.1",
+        "_attr": "artcraft-launcher-bin",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.cadcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/cadcraft/releases/tag/v0.13.0",
+            "description": "Native computer-aided design and drafting application",
+            "homepage": "https://github.com/storytold/cadcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cadcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cadcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "cadcraft",
+            "maintainers": [],
+            "name": "cadcraft-bin-0.13.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cadcraft-bin-0.13.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cadcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.13.0",
+        "_attr": "cadcraft-bin",
+        "_repo": "silicalet"
+    },
     "nur.repos.silicalet.cangjie": {
         "meta": {
             "available": true,
@@ -974985,6 +975179,287 @@
         "_attr": "code996",
         "_repo": "silicalet"
     },
+    "nur.repos.silicalet.craft-suite-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The thirteen ArtCraft creative applications and their launcher",
+            "homepage": "https://getartcraft.com/apps",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "maintainers": [],
+            "name": "craft-suite-bin",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/default.nix#L18",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "craft-suite-bin",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "craft-suite-bin",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "craft-suite-bin",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.deckcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/deckcraft/releases/tag/v0.11.1",
+            "description": "Native presentation and slide editor",
+            "homepage": "https://github.com/storytold/deckcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "deckcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "deckcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "deckcraft",
+            "maintainers": [],
+            "name": "deckcraft-bin-0.11.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "deckcraft-bin-0.11.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "deckcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.11.1",
+        "_attr": "deckcraft-bin",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.designcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/designcraft/releases/tag/v0.13.0",
+            "description": "Native page layout and desktop publishing application",
+            "homepage": "https://github.com/storytold/designcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "designcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "designcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "designcraft",
+            "maintainers": [],
+            "name": "designcraft-bin-0.13.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "designcraft-bin-0.13.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "designcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.13.0",
+        "_attr": "designcraft-bin",
+        "_repo": "silicalet"
+    },
     "nur.repos.silicalet.dnspick": {
         "meta": {
             "available": true,
@@ -975105,6 +975580,297 @@
         "system": "x86_64-linux",
         "version": "2.3.1",
         "_attr": "dnspick",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.effectcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/effectcraft/releases/tag/v0.17.0",
+            "description": "Native motion graphics and visual effects editor",
+            "homepage": "https://github.com/storytold/effectcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "effectcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "effectcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "effectcraft",
+            "maintainers": [],
+            "name": "effectcraft-bin-0.17.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "effectcraft-bin-0.17.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "effectcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.17.0",
+        "_attr": "effectcraft-bin",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.figcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/figcraft/releases/tag/v0.11.2",
+            "description": "Native interface design and prototyping application",
+            "homepage": "https://github.com/storytold/figcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "figcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "figcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "figcraft",
+            "maintainers": [],
+            "name": "figcraft-bin-0.11.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "figcraft-bin-0.11.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "figcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.11.2",
+        "_attr": "figcraft-bin",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.filmcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/filmcraft/releases/tag/v0.13.0",
+            "description": "Native video editor with timeline editing and color grading",
+            "homepage": "https://github.com/storytold/filmcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "filmcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "filmcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "filmcraft",
+            "maintainers": [],
+            "name": "filmcraft-bin-0.13.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "filmcraft-bin-0.13.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "filmcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.13.0",
+        "_attr": "filmcraft-bin",
         "_repo": "silicalet"
     },
     "nur.repos.silicalet.folia-major-bin": {
@@ -975273,6 +976039,103 @@
         "system": "x86_64-linux",
         "version": "3-4.4.5",
         "_attr": "ghost-downloader-3",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.gridcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/gridcraft/releases/tag/v0.12.1",
+            "description": "Native spreadsheet and data analysis application",
+            "homepage": "https://github.com/storytold/gridcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gridcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gridcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "gridcraft",
+            "maintainers": [],
+            "name": "gridcraft-bin-0.12.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gridcraft-bin-0.12.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gridcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.12.1",
+        "_attr": "gridcraft-bin",
         "_repo": "silicalet"
     },
     "nur.repos.silicalet.ipgw": {
@@ -975585,6 +976448,103 @@
         "system": "x86_64-linux",
         "version": "1.5.0",
         "_attr": "kuake-cli",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.lightcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/lightcraft/releases/tag/v0.14.0",
+            "description": "Native photo library and raw image developer",
+            "homepage": "https://github.com/storytold/lightcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lightcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lightcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "lightcraft",
+            "maintainers": [],
+            "name": "lightcraft-bin-0.14.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "lightcraft-bin-0.14.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lightcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.14.0",
+        "_attr": "lightcraft-bin",
         "_repo": "silicalet"
     },
     "nur.repos.silicalet.meatshell": {
@@ -976384,6 +977344,200 @@
         "_attr": "oh-dsh-bin",
         "_repo": "silicalet"
     },
+    "nur.repos.silicalet.pdfcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/pdfcraft/releases/tag/v0.14.0",
+            "description": "Native PDF reader and document workbench",
+            "homepage": "https://github.com/storytold/pdfcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pdfcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pdfcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "pdfcraft",
+            "maintainers": [],
+            "name": "pdfcraft-bin-0.14.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pdfcraft-bin-0.14.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pdfcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.14.0",
+        "_attr": "pdfcraft-bin",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.photocraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/photocraft/releases/tag/v0.16.0",
+            "description": "Native layered image editor",
+            "homepage": "https://github.com/storytold/photocraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "photocraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "photocraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "photocraft",
+            "maintainers": [],
+            "name": "photocraft-bin-0.16.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "photocraft-bin-0.16.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "photocraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.16.0",
+        "_attr": "photocraft-bin",
+        "_repo": "silicalet"
+    },
     "nur.repos.silicalet.qrypt-bin": {
         "meta": {
             "available": true,
@@ -976847,6 +978001,103 @@
         "_attr": "seekey",
         "_repo": "silicalet"
     },
+    "nur.repos.silicalet.soundcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/soundcraft/releases/tag/v0.13.1",
+            "description": "Native digital audio workstation",
+            "homepage": "https://github.com/storytold/soundcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "soundcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "soundcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "soundcraft",
+            "maintainers": [],
+            "name": "soundcraft-bin-0.13.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "soundcraft-bin-0.13.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "soundcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.13.1",
+        "_attr": "soundcraft-bin",
+        "_repo": "silicalet"
+    },
     "nur.repos.silicalet.uipro-cli": {
         "meta": {
             "available": true,
@@ -977003,6 +978254,103 @@
         "_attr": "uipro-cli",
         "_repo": "silicalet"
     },
+    "nur.repos.silicalet.vectorcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/vectorcraft/releases/tag/v0.17.0",
+            "description": "Native vector illustration editor",
+            "homepage": "https://github.com/storytold/vectorcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vectorcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vectorcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "vectorcraft",
+            "maintainers": [],
+            "name": "vectorcraft-bin-0.17.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vectorcraft-bin-0.17.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vectorcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.17.0",
+        "_attr": "vectorcraft-bin",
+        "_repo": "silicalet"
+    },
     "nur.repos.silicalet.winpodx-bin": {
         "meta": {
             "available": true,
@@ -977085,6 +978433,103 @@
         "system": "x86_64-linux",
         "version": "0.12.1",
         "_attr": "winpodx-bin",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.wordcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/storytold/wordcraft/releases/tag/v0.11.0",
+            "description": "Native word processor",
+            "homepage": "https://github.com/storytold/wordcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "wordcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "wordcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "wordcraft",
+            "maintainers": [],
+            "name": "wordcraft-bin-0.11.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/apps/craft-suite/binary.nix#L90",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "wordcraft-bin-0.11.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "wordcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.11.0",
+        "_attr": "wordcraft-bin",
         "_repo": "silicalet"
     },
     "nur.repos.silicalet.zlib-cli": {
@@ -981923,7 +983368,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Chevey339/kelivo/releases/tag/v1.3.1",
+            "changelog": "https://github.com/Chevey339/kelivo/releases/tag/v1.3.2",
             "description": "A Flutter LLM chat client",
             "homepage": "https://github.com/Chevey339/kelivo",
             "identifiers": {
@@ -981968,7 +983413,7 @@
             },
             "mainProgram": "kelivo",
             "maintainers": [],
-            "name": "kelivo-1.3.1",
+            "name": "kelivo-1.3.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -981992,14 +983437,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kelivo-1.3.1",
+        "name": "kelivo-1.3.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kelivo",
         "system": "x86_64-linux",
-        "version": "1.3.1",
+        "version": "1.3.2",
         "_attr": "kelivo",
         "_repo": "so1ve"
     },
