@@ -62267,6 +62267,84 @@
         "_attr": "run0-wrappers",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.rune": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Compiler and runtime for Standard ML '97",
+            "homepage": "https://github.com/ruudkoot/rune",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rune",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rune",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Creative Commons Zero v1.0 Universal",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "cc0",
+                "spdxId": "CC0-1.0",
+                "url": "https://spdx.org/licenses/CC0-1.0.html"
+            },
+            "mainProgram": "rune",
+            "maintainers": [],
+            "name": "rune-0.1-unstable-2026-10-26",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/rune/package.nix#L109",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rune-0.1-unstable-2026-10-26",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rune",
+        "system": "x86_64-linux",
+        "version": "0.1-unstable-2026-10-26",
+        "_attr": "rune",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.rust-keylime": {
         "meta": {
             "available": true,
@@ -175684,7 +175762,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://git.sable.moe/SableClient/sable-next/src/tag/v2.1.6/CHANGELOG.md",
+            "changelog": "https://git.sable.moe/SableClient/sable-next/src/tag/v2.2.0/CHANGELOG.md",
             "description": "Sable rewrite in Rust and Svelte. An almost stable Matrix client",
             "homepage": "https://git.sable.moe/SableClient/sable-next",
             "identifiers": {
@@ -175744,9 +175822,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix",
-                "line": 103
+                "line": 111
             },
-            "name": "sable-next-unwrapped-2.1.6",
+            "name": "sable-next-unwrapped-2.2.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -175845,19 +175923,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L99",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L107",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "sable-next-2.1.6",
+        "name": "sable-next-2.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sable-next",
         "system": "x86_64-linux",
-        "version": "2.1.6",
+        "version": "2.2.0",
         "_attr": "_bartPackages.sable-next",
         "_repo": "bartoostveen"
     },
@@ -175876,7 +175954,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://git.sable.moe/SableClient/sable-next/src/tag/v2.1.6/CHANGELOG.md",
+            "changelog": "https://git.sable.moe/SableClient/sable-next/src/tag/v2.2.0/CHANGELOG.md",
             "description": "Sable rewrite in Rust and Svelte. An almost stable Matrix client",
             "homepage": "https://git.sable.moe/SableClient/sable-next",
             "identifiers": {
@@ -175937,9 +176015,9 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/sable-next-desktop/package.nix",
-                "line": 151
+                "line": 152
             },
-            "name": "sable-next-desktop-2.1.6",
+            "name": "sable-next-desktop-2.2.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -175997,19 +176075,19 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-desktop/package.nix#L147",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-desktop/package.nix#L148",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "sable-next-desktop-2.1.6",
+        "name": "sable-next-desktop-2.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sable-next-desktop",
         "system": "x86_64-linux",
-        "version": "2.1.6",
+        "version": "2.2.0",
         "_attr": "_bartPackages.sable-next-desktop",
         "_repo": "bartoostveen"
     },
@@ -176017,7 +176095,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://git.sable.moe/SableClient/sable-next/src/tag/v2.1.6/CHANGELOG.md",
+            "changelog": "https://git.sable.moe/SableClient/sable-next/src/tag/v2.2.0/CHANGELOG.md",
             "description": "Sable rewrite in Rust and Svelte. An almost stable Matrix client",
             "homepage": "https://git.sable.moe/SableClient/sable-next",
             "identifiers": {
@@ -176077,9 +176155,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix",
-                "line": 103
+                "line": 111
             },
-            "name": "sable-next-unwrapped-2.1.6",
+            "name": "sable-next-unwrapped-2.2.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -176178,19 +176256,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L99",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L107",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "sable-next-unwrapped-2.1.6",
+        "name": "sable-next-unwrapped-2.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sable-next-unwrapped",
         "system": "x86_64-linux",
-        "version": "2.1.6",
+        "version": "2.2.0",
         "_attr": "_bartPackages.sable-next-unwrapped",
         "_repo": "bartoostveen"
     },
@@ -315900,6 +315978,80 @@
         "system": "x86_64-linux",
         "version": "2.1.2",
         "_attr": "openscreen-for-mac",
+        "_repo": "hol1kgmg"
+    },
+    "nur.repos.hol1kgmg.portless": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Replace port numbers with stable, named .localhost URLs",
+            "homepage": "https://github.com/vercel-labs/portless",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "portless",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "portless",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "portless",
+            "maintainers": [],
+            "name": "portless-0.15.12",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/hol1kgmg/pkgs/portless/default.nix#L35",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "portless-0.15.12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "portless",
+        "system": "x86_64-linux",
+        "version": "0.15.12",
+        "_attr": "portless",
         "_repo": "hol1kgmg"
     },
     "nur.repos.hol1kgmg.spec-kit": {
