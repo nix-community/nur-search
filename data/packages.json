@@ -542929,7 +542929,7 @@
             },
             "mainProgram": "proton-pass",
             "maintainers": [],
-            "name": "proton-pass-1.42.0",
+            "name": "proton-pass-1.43.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -542955,14 +542955,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-pass-1.42.0",
+        "name": "proton-pass-1.43.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "proton-pass",
         "system": "x86_64-linux",
-        "version": "1.42.0",
+        "version": "1.43.0",
         "_attr": "proton-pass",
         "_repo": "nanamiiiii"
     },
@@ -1155042,7 +1155042,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Use this repository as a flake input or overlay:\n\n{\n  inputs.zhyi-packages.url = \"github:zhyiheihei/zhyi-packages\";\n}\n\nBinary cache:\n\n{\n  nix.settings.substituters = [ \"https://attic.zhyi.xin/lantian\" ];\n  nix.settings.trusted-public-keys = [ \"lantian:Pi7qMC8lIOrR8cTh4vfcRuSL/z+Bh5BAFYlEo/mbq2U=\" ];\n}\n",
+            "description": "Use this repository as a flake input or overlay:\n\n{\n  inputs.zhyi-packages.url = \"github:zhyiheihei/zhyi-packages\";\n}\n\nBinary cache:\n\n{\n  nix.settings.substituters = [ \"https://cache.zhyi.xin/zhyi\" ];\n  nix.settings.trusted-public-keys = [ \"lantian:Pi7qMC8lIOrR8cTh4vfcRuSL/z+Bh5BAFYlEo/mbq2U=\" ];\n}\n",
             "homepage": "https://github.com/zhyiheihei/zhyi-packages",
             "identifiers": {
                 "cpeParts": {
