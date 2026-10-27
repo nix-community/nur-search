@@ -351211,7 +351211,7 @@
             },
             "mainProgram": "ceph-mgr-endpoint-controller",
             "maintainers": [],
-            "name": "ceph-mgr-endpoint-controller-0.7.5",
+            "name": "ceph-mgr-endpoint-controller-0.7.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -351230,14 +351230,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ceph-mgr-endpoint-controller-0.7.5",
+        "name": "ceph-mgr-endpoint-controller-0.7.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ceph-mgr-endpoint-controller",
         "system": "x86_64-linux",
-        "version": "0.7.5",
+        "version": "0.7.6",
         "_attr": "ceph-mgr-endpoint-controller",
         "_repo": "josh"
     },
@@ -353456,7 +353456,7 @@
             },
             "mainProgram": "kube-ups-taint",
             "maintainers": [],
-            "name": "kube-ups-taint-0.1.1",
+            "name": "kube-ups-taint-0.1.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -353497,14 +353497,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kube-ups-taint-0.1.1",
+        "name": "kube-ups-taint-0.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kube-ups-taint",
         "system": "x86_64-linux",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "_attr": "kube-ups-taint",
         "_repo": "josh"
     },
@@ -354040,7 +354040,7 @@
             },
             "mainProgram": "nats-static",
             "maintainers": [],
-            "name": "nats-static-0.0.7",
+            "name": "nats-static-0.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -354087,14 +354087,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nats-static-0.0.7",
+        "name": "nats-static-0.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nats-static",
         "system": "x86_64-linux",
-        "version": "0.0.7",
+        "version": "0.1.0",
         "_attr": "nats-static",
         "_repo": "josh"
     },
@@ -356356,7 +356356,7 @@
             },
             "mainProgram": "sops-install-secrets",
             "maintainers": [],
-            "name": "sops-install-secrets-assets-unstable-2026-10-24",
+            "name": "sops-install-secrets-assets-unstable-2026-10-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -356398,14 +356398,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sops-install-secrets-assets-unstable-2026-10-24",
+        "name": "sops-install-secrets-assets-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sops-install-secrets-assets-unstable",
         "system": "x86_64-linux",
-        "version": "2026-10-24",
+        "version": "2026-10-26",
         "_attr": "sops-install-secrets",
         "_repo": "josh"
     },
@@ -357578,7 +357578,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "tmuxplugin-tmux-powerkit-7.6.0",
+            "name": "tmuxplugin-tmux-powerkit-7.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -357640,14 +357640,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tmuxplugin-tmux-powerkit-7.6.0",
+        "name": "tmuxplugin-tmux-powerkit-7.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tmuxplugin-tmux-powerkit",
         "system": "x86_64-linux",
-        "version": "7.6.0",
+        "version": "7.7.0",
         "_attr": "tmux-powerkit",
         "_repo": "josh"
     },
@@ -750945,6 +750945,88 @@
         "system": "x86_64-linux",
         "version": "0.10.2",
         "_attr": "md2",
+        "_repo": "rapatao"
+    },
+    "nur.repos.rapatao.virtual-display": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Mirror a resizable screen region into a shareable window",
+            "homepage": "https://github.com/rapatao/virtual-display",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "virtual-display",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "virtual-display",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [],
+            "name": "virtual-display-0.7.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rapatao/pkgs/virtual-display/default.nix#L30",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "virtual-display-0.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "virtual-display",
+        "system": "x86_64-linux",
+        "version": "0.7.0",
+        "_attr": "virtual-display",
         "_repo": "rapatao"
     },
     "nur.repos.rconan.U6143_ssd1306": {
