@@ -189060,9 +189060,9 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/SpikeHD/Dorion/releases/tag/v6.13.0-unstable-2026-10-22",
+            "changelog": "https://github.com/SpikeHD/Dorion/releases",
             "description": "Tiny alternative Discord client",
-            "downloadPage": "https://github.com/SpikeHD/Dorion/releases/tag/v6.13.0-unstable-2026-10-22",
+            "downloadPage": "https://github.com/SpikeHD/Dorion/releases",
             "homepage": "https://spikehd.github.io/projects/dorion/",
             "identifiers": {
                 "cpeParts": {
@@ -189137,10 +189137,10 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/dorion-git/package.nix",
-                "line": 201
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/dorion-git/default.nix",
+                "line": 229
             },
-            "name": "dorion-git-6.13.0-unstable-2026-10-22",
+            "name": "dorion-git-6.14.0-unstable-2026-10-26",
             "nonTeamMaintainers": [
                 {
                     "email": "nyanbinary@keemail.me",
@@ -189174,10 +189174,6 @@
                 "out"
             ],
             "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
                 "aarch64-linux",
                 "armv6l-linux",
                 "armv7l-linux",
@@ -189189,13 +189185,6 @@
                 "riscv64-linux",
                 "s390x-linux",
                 "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
                 "armv5tel-linux",
                 "armv7a-linux",
                 "m68k-linux",
@@ -189203,13 +189192,9 @@
                 "mips64-linux",
                 "mipsel-linux",
                 "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "x86_64-redox"
+                "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ccicnce113424/pkgs/dorion-git/package.nix#L192",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ccicnce113424/pkgs/dorion-git/default.nix#L220",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -189220,14 +189205,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dorion-git-6.13.0-unstable-2026-10-22",
+        "name": "dorion-git-6.14.0-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dorion-git",
         "system": "x86_64-linux",
-        "version": "6.13.0-unstable-2026-10-22",
+        "version": "6.14.0-unstable-2026-10-26",
         "_attr": "dorion-git",
         "_repo": "ccicnce113424"
     },
@@ -298585,6 +298570,7 @@
             ],
             "platforms": [
                 "aarch64-darwin",
+                "aarch64-linux",
                 "x86_64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/waterfox-bin/default.nix#L57",
@@ -782400,7 +782386,7 @@
                 "*://gitflic.ru/*",
                 "*://*/*"
             ],
-            "name": "bypass-paywalls-clean-4.4.8.0",
+            "name": "bypass-paywalls-clean-4.4.8.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -782496,14 +782482,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bypass-paywalls-clean-4.4.8.0",
+        "name": "bypass-paywalls-clean-4.4.8.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bypass-paywalls-clean",
         "system": "x86_64-linux",
-        "version": "4.4.8.0",
+        "version": "4.4.8.1",
         "_attr": "firefox-addons.bypass-paywalls-clean",
         "_repo": "rycee"
     },
@@ -791506,7 +791492,7 @@
             },
             "maintainers": [],
             "mozPermissions": [],
-            "name": "danish-language-pack-160.0.20261022.150451",
+            "name": "danish-language-pack-160.0.20261026.160927",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -791602,14 +791588,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "danish-language-pack-160.0.20261022.150451",
+        "name": "danish-language-pack-160.0.20261026.160927",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "danish-language-pack",
         "system": "x86_64-linux",
-        "version": "160.0.20261022.150451",
+        "version": "160.0.20261026.160927",
         "_attr": "firefox-addons.danish-language-pack",
         "_repo": "rycee"
     },
@@ -792613,7 +792599,7 @@
                 "webRequestBlocking",
                 "https://check.dashlane.com/*"
             ],
-            "name": "dashlane-6.2643.0",
+            "name": "dashlane-6.2644.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -792709,14 +792695,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "dashlane-6.2643.0",
+        "name": "dashlane-6.2644.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dashlane",
         "system": "x86_64-linux",
-        "version": "6.2643.0",
+        "version": "6.2644.0",
         "_attr": "firefox-addons.dashlane",
         "_repo": "rycee"
     },
@@ -793245,7 +793231,7 @@
             },
             "maintainers": [],
             "mozPermissions": [],
-            "name": "deutsch-de-language-pack-160.0.20261022.150451",
+            "name": "deutsch-de-language-pack-160.0.20261026.160927",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -793341,14 +793327,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deutsch-de-language-pack-160.0.20261022.150451",
+        "name": "deutsch-de-language-pack-160.0.20261026.160927",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deutsch-de-language-pack",
         "system": "x86_64-linux",
-        "version": "160.0.20261022.150451",
+        "version": "160.0.20261026.160927",
         "_attr": "firefox-addons.deutsch-de-language-pack",
         "_repo": "rycee"
     },
@@ -802994,7 +802980,7 @@
             },
             "maintainers": [],
             "mozPermissions": [],
-            "name": "french-language-pack-160.0.20261022.150451",
+            "name": "french-language-pack-160.0.20261026.160927",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -803090,14 +803076,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "french-language-pack-160.0.20261022.150451",
+        "name": "french-language-pack-160.0.20261026.160927",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "french-language-pack",
         "system": "x86_64-linux",
-        "version": "160.0.20261022.150451",
+        "version": "160.0.20261026.160927",
         "_attr": "firefox-addons.french-language-pack",
         "_repo": "rycee"
     },
@@ -803459,7 +803445,7 @@
             },
             "maintainers": [],
             "mozPermissions": [],
-            "name": "gaidhlig-language-pack-160.0.20261022.150451",
+            "name": "gaidhlig-language-pack-160.0.20261026.160927",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -803555,14 +803541,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gaidhlig-language-pack-160.0.20261022.150451",
+        "name": "gaidhlig-language-pack-160.0.20261026.160927",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gaidhlig-language-pack",
         "system": "x86_64-linux",
-        "version": "160.0.20261022.150451",
+        "version": "160.0.20261026.160927",
         "_attr": "firefox-addons.gaidhlig-language-pack",
         "_repo": "rycee"
     },
@@ -811648,7 +811634,7 @@
                 "unlimitedStorage",
                 "https://www.youtube.com/*"
             ],
-            "name": "improved-tube-4.2081",
+            "name": "improved-tube-4.2400",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -811744,14 +811730,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "improved-tube-4.2081",
+        "name": "improved-tube-4.2400",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "improved-tube",
         "system": "x86_64-linux",
-        "version": "4.2081",
+        "version": "4.2400",
         "_attr": "firefox-addons.improved-tube",
         "_repo": "rycee"
     },
@@ -818288,7 +818274,7 @@
                 "*://lichess.dev/*",
                 "*://testy.lichess.dev/*"
             ],
-            "name": "lichess-tools-by-siderite-2.5.3",
+            "name": "lichess-tools-by-siderite-2.5.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -818384,14 +818370,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lichess-tools-by-siderite-2.5.3",
+        "name": "lichess-tools-by-siderite-2.5.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lichess-tools-by-siderite",
         "system": "x86_64-linux",
-        "version": "2.5.3",
+        "version": "2.5.5",
         "_attr": "firefox-addons.lichess-tools-by-siderite",
         "_repo": "rycee"
     },
@@ -832974,7 +832960,7 @@
                 "alarms",
                 "cookies"
             ],
-            "name": "passbolt-5.17.0",
+            "name": "passbolt-5.17.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -833070,14 +833056,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "passbolt-5.17.0",
+        "name": "passbolt-5.17.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "passbolt",
         "system": "x86_64-linux",
-        "version": "5.17.0",
+        "version": "5.17.1",
         "_attr": "firefox-addons.passbolt",
         "_repo": "rycee"
     },
@@ -836884,7 +836870,7 @@
                 "https://docs.google.com/document/*",
                 "<all_urls>"
             ],
-            "name": "private-grammar-checker-harper-2.13.0",
+            "name": "private-grammar-checker-harper-3.0.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -836980,14 +836966,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "private-grammar-checker-harper-2.13.0",
+        "name": "private-grammar-checker-harper-3.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "private-grammar-checker-harper",
         "system": "x86_64-linux",
-        "version": "2.13.0",
+        "version": "3.0.0",
         "_attr": "firefox-addons.private-grammar-checker-harper",
         "_repo": "rycee"
     },
@@ -840686,11 +840672,13 @@
                 "identity",
                 "storage",
                 "https://translate.google.com/",
+                "https://*.ttstool.com/*",
                 "https://piper.ttstool.com/",
                 "https://supertonic.ttstool.com/",
+                "https://pocket.ttstool.com/",
                 "https://nghitts.ttstool.com/*"
             ],
-            "name": "read-aloud-1.83.2",
+            "name": "read-aloud-1.84.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -840786,14 +840774,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "read-aloud-1.83.2",
+        "name": "read-aloud-1.84.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "read-aloud",
         "system": "x86_64-linux",
-        "version": "1.83.2",
+        "version": "1.84.0",
         "_attr": "firefox-addons.read-aloud",
         "_repo": "rycee"
     },
@@ -840932,7 +840920,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11447",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11449",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -841091,7 +841079,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11462",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11464",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -841249,7 +841237,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11483",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11485",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -841406,7 +841394,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11498",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11500",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -841621,7 +841609,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11526",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11528",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -841783,7 +841771,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11603",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11605",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -841939,7 +841927,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11627",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11629",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -842101,7 +842089,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11642",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11644",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -842267,7 +842255,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11666",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11668",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -842421,7 +842409,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11693",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11695",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -842771,7 +842759,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11708",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11710",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -842933,7 +842921,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11920",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11922",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -843093,7 +843081,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11944",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11946",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -843168,7 +843156,7 @@
                 "https://github.com/*",
                 "https://gist.github.com/*"
             ],
-            "name": "refined-github-26.10.20",
+            "name": "refined-github-26.10.26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -843254,7 +843242,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11966",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11968",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -843264,14 +843252,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "refined-github-26.10.20",
+        "name": "refined-github-26.10.26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "refined-github",
         "system": "x86_64-linux",
-        "version": "26.10.20",
+        "version": "26.10.26",
         "_attr": "firefox-addons.refined-github",
         "_repo": "rycee"
     },
@@ -843409,7 +843397,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11988",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L11990",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -843566,7 +843554,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12006",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12008",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -843724,7 +843712,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12024",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12026",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -843880,7 +843868,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12045",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12047",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -844041,7 +844029,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12060",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12062",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -844200,7 +844188,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12083",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12085",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -844358,7 +844346,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12104",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12106",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -844517,7 +844505,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12124",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12126",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -844680,7 +844668,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12145",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12147",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -844858,7 +844846,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12170",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12172",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -845018,7 +845006,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12210",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12212",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -845178,7 +845166,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12232",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12234",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -845342,7 +845330,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12262",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12264",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -845408,7 +845396,7 @@
             },
             "maintainers": [],
             "mozPermissions": [],
-            "name": "scots-language-pack-160.0.20261022.150451",
+            "name": "scots-language-pack-160.0.20261026.160927",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -845494,7 +845482,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12288",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12290",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -845504,14 +845492,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "scots-language-pack-160.0.20261022.150451",
+        "name": "scots-language-pack-160.0.20261026.160927",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "scots-language-pack",
         "system": "x86_64-linux",
-        "version": "160.0.20261022.150451",
+        "version": "160.0.20261026.160927",
         "_attr": "firefox-addons.scots-language-pack",
         "_repo": "rycee"
     },
@@ -845658,7 +845646,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12303",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12305",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -845822,7 +845810,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12329",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12331",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -845976,7 +845964,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12355",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12357",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -846144,7 +846132,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12375",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12377",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -846302,7 +846290,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12405",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12407",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -846453,7 +846441,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12425",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12427",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -846615,7 +846603,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12445",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12447",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -846922,7 +846910,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12468",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12470",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -847155,7 +847143,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12483",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12485",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -847315,7 +847303,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12578",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12580",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -847482,7 +847470,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12600",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12602",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -847645,7 +847633,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12629",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12631",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -847811,7 +847799,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12654",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12656",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -847963,7 +847951,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12681",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12683",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -848122,7 +848110,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12696",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12698",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -848290,7 +848278,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12717",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12719",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -848449,7 +848437,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12747",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12749",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -848610,7 +848598,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12768",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12770",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -848677,7 +848665,7 @@
                 "declarativeNetRequestWithHostAccess",
                 "https://mail.google.com/*"
             ],
-            "name": "simplifygmail-3.4.11",
+            "name": "simplifygmail-3.4.12",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -848763,7 +848751,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12791",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12793",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -848773,14 +848761,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "simplifygmail-3.4.11",
+        "name": "simplifygmail-3.4.12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "simplifygmail",
         "system": "x86_64-linux",
-        "version": "3.4.11",
+        "version": "3.4.12",
         "_attr": "firefox-addons.simplifygmail",
         "_repo": "rycee"
     },
@@ -848923,7 +848911,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12815",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12817",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -849083,7 +849071,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12836",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12838",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -849243,7 +849231,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12859",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12861",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -849408,7 +849396,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12881",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12883",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -849569,7 +849557,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12908",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12910",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -849724,7 +849712,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12931",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12933",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -849876,7 +849864,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12945",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12947",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -850024,7 +850012,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12959",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12961",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -850176,7 +850164,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12978",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12980",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -850358,7 +850346,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12993",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12995",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -850507,7 +850495,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13036",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13038",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -850667,7 +850655,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13057",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13059",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -850826,7 +850814,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13079",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13081",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -850984,7 +850972,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13099",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13101",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -851188,7 +851176,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13120",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13122",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -851384,7 +851372,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13186",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13188",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -851541,7 +851529,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13244",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13246",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -851704,7 +851692,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13259",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13261",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -851868,7 +851856,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13284",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13286",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -852024,7 +852012,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13310",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13312",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -852180,7 +852168,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13324",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13326",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -852348,7 +852336,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13352",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13354",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -852500,7 +852488,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13381",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13383",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -852662,7 +852650,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13396",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13398",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -852827,7 +852815,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13420",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13422",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -852982,7 +852970,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13447",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13449",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -853059,7 +853047,7 @@
                 "offscreen",
                 "declarativeNetRequestWithHostAccess"
             ],
-            "name": "tab-reloader-0.6.8",
+            "name": "tab-reloader-0.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -853145,7 +853133,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13462",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13464",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -853155,14 +853143,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tab-reloader-0.6.8",
+        "name": "tab-reloader-0.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tab-reloader",
         "system": "x86_64-linux",
-        "version": "0.6.8",
+        "version": "0.7.0",
         "_attr": "firefox-addons.tab-reloader",
         "_repo": "rycee"
     },
@@ -853304,7 +853292,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13486",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13488",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -853466,7 +853454,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13508",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13510",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -853631,7 +853619,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13532",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13534",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -853787,7 +853775,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13559",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13561",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -853945,7 +853933,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13573",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13575",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -854112,7 +854100,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13588",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13590",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -854269,7 +854257,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13617",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13619",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -854429,7 +854417,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13632",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13634",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -854594,7 +854582,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13654",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13656",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -854752,7 +854740,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13690",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13692",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -854915,7 +854903,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13710",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13712",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -855078,7 +855066,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13735",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13737",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -855237,7 +855225,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13759",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13761",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -855394,7 +855382,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13780",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13782",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -855552,7 +855540,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13795",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13797",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -855726,7 +855714,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13814",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13816",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -855889,7 +855877,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13860",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13862",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -856045,7 +856033,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13894",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13896",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -856188,7 +856176,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13909",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13911",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -856345,7 +856333,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13923",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13925",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -856502,7 +856490,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13951",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13953",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -856659,7 +856647,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13966",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13968",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -856824,7 +856812,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13981",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L13983",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -856986,7 +856974,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14008",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14010",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -857138,7 +857126,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14031",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14033",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -857295,7 +857283,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14046",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14048",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -857454,7 +857442,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14061",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14063",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -857619,7 +857607,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14082",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14084",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -857778,7 +857766,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14109",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14111",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -857939,7 +857927,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14139",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14141",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -858105,7 +858093,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14162",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14164",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -858260,7 +858248,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14189",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14191",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -858419,7 +858407,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14204",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14206",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -858577,7 +858565,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14224",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14226",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -858733,7 +858721,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14244",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14246",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -858804,7 +858792,7 @@
                 "tabs",
                 "<all_urls>"
             ],
-            "name": "transparent-zen-0.9.4",
+            "name": "transparent-zen-0.9.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -858890,7 +858878,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14258",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14260",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -858900,14 +858888,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "transparent-zen-0.9.4",
+        "name": "transparent-zen-0.9.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "transparent-zen",
         "system": "x86_64-linux",
-        "version": "0.9.4",
+        "version": "0.9.5",
         "_attr": "firefox-addons.transparent-zen",
         "_repo": "rycee"
     },
@@ -859052,7 +859040,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14273",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14275",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -859230,7 +859218,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14306",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14308",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -859537,7 +859525,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14345",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14347",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -859693,7 +859681,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14359",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14361",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -859848,7 +859836,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14373",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14375",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -860003,7 +859991,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14387",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14389",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -860161,7 +860149,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14402",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14404",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -860317,7 +860305,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14416",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14418",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -860474,7 +860462,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14431",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14433",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -860629,7 +860617,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14446",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14448",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -860787,7 +860775,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14461",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14463",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -860943,7 +860931,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14481",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14483",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -861098,7 +861086,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14507",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14509",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -861256,7 +861244,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14534",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14536",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -861423,7 +861411,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14548",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14550",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -861777,7 +861765,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14578",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14580",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -861954,7 +861942,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14794",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14796",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -862131,7 +862119,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14794",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14796",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -862290,7 +862278,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14833",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14835",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -862595,7 +862583,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14854",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14856",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -862760,7 +862748,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14869",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14871",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -862833,7 +862821,7 @@
                 "storage",
                 "theme"
             ],
-            "name": "undoclosetabbutton-8.1.0",
+            "name": "undoclosetabbutton-8.1.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -862919,7 +862907,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14896",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14898",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -862929,14 +862917,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "undoclosetabbutton-8.1.0",
+        "name": "undoclosetabbutton-8.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "undoclosetabbutton",
         "system": "x86_64-linux",
-        "version": "8.1.0",
+        "version": "8.1.1",
         "_attr": "firefox-addons.undoclosetabbutton",
         "_repo": "rycee"
     },
@@ -863083,7 +863071,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14911",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14913",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -863240,7 +863228,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14937",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14939",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -863397,7 +863385,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14952",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14954",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -863553,7 +863541,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14980",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14982",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -863710,7 +863698,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14995",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L14997",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -863869,7 +863857,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15010",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15012",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -864024,7 +864012,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15030",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15032",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -864178,7 +864166,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15044",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15046",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -864389,7 +864377,7 @@
                 "https://staging.v2ex.com/go/*",
                 "https://global.v2ex.co/go/*"
             ],
-            "name": "v2ex-polish-2.5.2",
+            "name": "v2ex-polish-2.5.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -864475,7 +864463,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15058",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15060",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -864485,14 +864473,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ex-polish-2.5.2",
+        "name": "v2ex-polish-2.5.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "v2ex-polish",
         "system": "x86_64-linux",
-        "version": "2.5.2",
+        "version": "2.5.3",
         "_attr": "firefox-addons.v2ex-polish",
         "_repo": "rycee"
     },
@@ -864633,7 +864621,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15218",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15220",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -864821,7 +864809,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15233",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15235",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -864976,7 +864964,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15291",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15293",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -865134,7 +865122,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15318",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15320",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -865476,7 +865464,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15333",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15335",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -865639,7 +865627,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15537",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15539",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -865807,7 +865795,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15562",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15564",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -865971,7 +865959,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15592",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15594",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -866049,7 +866037,7 @@
                 "contextMenus",
                 "cookies"
             ],
-            "name": "violentmonkey-2.49.0",
+            "name": "violentmonkey-2.50.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -866135,7 +866123,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15618",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15620",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -866145,14 +866133,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "violentmonkey-2.49.0",
+        "name": "violentmonkey-2.50.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "violentmonkey",
         "system": "x86_64-linux",
-        "version": "2.49.0",
+        "version": "2.50.0",
         "_attr": "firefox-addons.violentmonkey",
         "_repo": "rycee"
     },
@@ -866293,7 +866281,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15644",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15646",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -866449,7 +866437,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15659",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15661",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -866609,7 +866597,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15674",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15676",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -866771,7 +866759,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15705",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15707",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -866929,7 +866917,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15729",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15731",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -867085,7 +867073,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15744",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15746",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -867251,7 +867239,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15771",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15773",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -867404,7 +867392,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15798",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15800",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -867571,7 +867559,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15823",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15825",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -867739,7 +867727,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15852",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15854",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -867902,7 +867890,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15882",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15884",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -868063,7 +868051,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15907",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15909",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -868220,7 +868208,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15929",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15931",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -868379,7 +868367,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15944",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15946",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -868727,7 +868715,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15965",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L15967",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -868874,7 +868862,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16175",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16177",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -869033,7 +869021,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16189",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16191",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -869258,7 +869246,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16210",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16212",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -869419,7 +869407,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16297",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16299",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -869575,7 +869563,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16320",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16322",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -869742,7 +869730,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16337",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16339",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -869894,7 +869882,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16367",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16369",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -870067,7 +870055,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16387",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16389",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -870220,7 +870208,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16422",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16424",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -870383,7 +870371,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16437",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16439",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -870539,7 +870527,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16462",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16464",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -870695,7 +870683,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16477",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16479",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -870853,7 +870841,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16492",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16494",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -871011,7 +870999,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16507",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16509",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -871082,7 +871070,7 @@
                 "scripting",
                 "*://*.youtube.com/*"
             ],
-            "name": "ycs-continued-1.10.3",
+            "name": "ycs-continued-1.10.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -871168,7 +871156,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16527",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16529",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -871178,14 +871166,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ycs-continued-1.10.3",
+        "name": "ycs-continued-1.10.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ycs-continued",
         "system": "x86_64-linux",
-        "version": "1.10.3",
+        "version": "1.10.4",
         "_attr": "firefox-addons.ycs-continued",
         "_repo": "rycee"
     },
@@ -871331,7 +871319,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16542",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16544",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -871488,7 +871476,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16566",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16568",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -871645,7 +871633,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16586",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16588",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -871805,7 +871793,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16601",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16603",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -871958,7 +871946,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16623",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16625",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -872120,7 +872108,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16647",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16649",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -872277,7 +872265,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16671",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16673",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -872423,7 +872411,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16689",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16691",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -872579,7 +872567,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16707",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16709",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -872733,7 +872721,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16725",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16727",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -872889,7 +872877,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16749",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16751",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -873047,7 +873035,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16764",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16766",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -873203,7 +873191,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16783",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16785",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -873354,7 +873342,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16802",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16804",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -873511,7 +873499,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16824",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16826",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -873671,7 +873659,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16842",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16844",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -873828,7 +873816,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16865",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16867",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -873988,7 +873976,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16880",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16882",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -874149,7 +874137,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16901",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16903",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -874303,7 +874291,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16924",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16926",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -874458,7 +874446,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16939",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16941",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -874615,7 +874603,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16954",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16956",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -874775,7 +874763,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16969",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16971",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -874937,7 +874925,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16990",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L16992",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -875095,7 +875083,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L17015",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L17017",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -875401,7 +875389,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L17034",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L17036",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -877988,7 +877976,7 @@
             },
             "maintainers": [],
             "mozPermissions": [],
-            "name": "tb-langpack-de-159.0.20261021.153708",
+            "name": "tb-langpack-de-160.0.20261023.210410",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -878084,14 +878072,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tb-langpack-de-159.0.20261021.153708",
+        "name": "tb-langpack-de-160.0.20261023.210410",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tb-langpack-de",
         "system": "x86_64-linux",
-        "version": "159.0.20261021.153708",
+        "version": "160.0.20261023.210410",
         "_attr": "thunderbird-addons.tb-langpack-de",
         "_repo": "rycee"
     },
