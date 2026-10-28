@@ -508976,8 +508976,19 @@
     "nur.repos.mirdukkkkk.beefetch": {
         "meta": {
             "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
             "broken": false,
-            "description": "Neofetch clone written in Go with the ability to display \ud83d\udc1d",
+            "description": "Neofetch clone written in Rust with the ability to display \ud83d\udc1d",
             "homepage": "https://github.com/mirdukkkkk/beefetch",
             "identifiers": {
                 "cpeParts": {
@@ -509021,59 +509032,33 @@
             },
             "mainProgram": "beefetch",
             "maintainers": [],
-            "name": "beefetch-2.0.1",
+            "name": "beefetch-3.0.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
                 "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
                 "armv6l-linux",
-                "armv7a-linux",
                 "armv7l-linux",
                 "i686-linux",
                 "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
                 "powerpc-linux",
                 "powerpc64-linux",
                 "powerpc64le-linux",
-                "riscv32-linux",
                 "riscv64-linux",
-                "s390-linux",
                 "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/beefetch/default.nix#L30",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mirdukkkkk/pkgs/beefetch/default.nix#L35",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -509083,14 +509068,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "beefetch-2.0.1",
+        "name": "beefetch-3.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beefetch",
         "system": "x86_64-linux",
-        "version": "2.0.1",
+        "version": "3.0.0",
         "_attr": "beefetch",
         "_repo": "mirdukkkkk"
     },
