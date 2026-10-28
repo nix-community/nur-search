@@ -376089,6 +376089,119 @@
         "_attr": "universal-ctags-pcre2",
         "_repo": "lightquantum"
     },
+    "nur.repos.lihaoze123.cisco-packet-tracer-6-zh": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Cisco Packet Tracer 6.3 with Simplified Chinese translation and optional offline login patch",
+            "homepage": "https://www.netacad.com/courses/packet-tracer",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cisco-packet-tracer-6-zh",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cisco-packet-tracer-6-zh",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": false,
+                    "fullName": "Unfree",
+                    "licenseType": "simple",
+                    "redistributable": false,
+                    "shortName": "unfree"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "OpenSSL License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "openssl",
+                    "spdxId": "OpenSSL",
+                    "url": "https://spdx.org/licenses/OpenSSL.html"
+                }
+            ],
+            "mainProgram": "packettracer6-zh",
+            "maintainers": [],
+            "name": "cisco-packet-tracer-6-zh-6.3.0.0008",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lihaoze123/pkgs/cisco-packet-tracer-6-zh/default.nix#L158",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "cisco-packet-tracer-6-zh-6.3.0.0008",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cisco-packet-tracer",
+        "system": "x86_64-linux",
+        "version": "6-zh-6.3.0.0008",
+        "_attr": "cisco-packet-tracer-6-zh",
+        "_repo": "lihaoze123"
+    },
     "nur.repos.lihaoze123.cisco-packet-tracer-zh": {
         "meta": {
             "available": false,
