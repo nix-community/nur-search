@@ -21549,7 +21549,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.1580",
+            "name": "magpie-0.1.1794",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -21557,7 +21557,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Emin017/pkgs/magpie/default.nix#L46",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Emin017/pkgs/magpie/default.nix#L69",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -21567,14 +21567,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1580",
+        "name": "magpie-0.1.1794",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1580",
+        "version": "0.1.1794",
         "_attr": "magpie",
         "_repo": "Emin017"
     },
@@ -107454,7 +107454,7 @@
             },
             "mainProgram": "rpcs3",
             "maintainers": [],
-            "name": "rpcs3-0.0.43-20410",
+            "name": "rpcs3-0.0.43-20412",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -107478,14 +107478,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rpcs3-0.0.43-20410",
+        "name": "rpcs3-0.0.43-20412",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3",
         "system": "x86_64-linux",
-        "version": "0.0.43-20410",
+        "version": "0.0.43-20412",
         "_attr": "rpcs3-bin",
         "_repo": "arch-fan"
     },
@@ -488599,90 +488599,6 @@
         "system": "x86_64-linux",
         "version": "0.2.34-unstable-2026-10-25",
         "_attr": "freebuff",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.freebuff_patched": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Free AI coding agent CLI (Freebuff) without on-screen ad creatives",
-            "homepage": "https://freebuff.com",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "freebuff-patched",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "freebuff-patched",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "mainProgram": "freebuff",
-            "maintainers": [],
-            "name": "freebuff-patched-0.2.34-unstable-2026-10-25",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fr/freebuff_patched/package.nix#L30",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "freebuff-patched-0.2.34-unstable-2026-10-25",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "freebuff-patched",
-        "system": "x86_64-linux",
-        "version": "0.2.34-unstable-2026-10-25",
-        "_attr": "freebuff_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.freesmlauncher": {
@@ -978464,7 +978380,7 @@
                 "url": "https://spdx.org/licenses/CC-BY-4.0.html"
             },
             "maintainers": [],
-            "name": "rime-lmdg-0-unstable-2026-10-19",
+            "name": "rime-lmdg-0-unstable-2026-10-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -978566,14 +978482,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-lmdg-0-unstable-2026-10-19",
+        "name": "rime-lmdg-0-unstable-2026-10-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-lmdg",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-19",
+        "version": "0-unstable-2026-10-26",
         "_attr": "rime-lmdg",
         "_repo": "so1ve"
     },
@@ -978907,7 +978823,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/Supreeeme/xwayland-satellite/commits/43e91dc6be074d1a88583082b2fcb0829ac36c16",
+            "changelog": "https://github.com/Supreeeme/xwayland-satellite/commits/45b912c6fbcbbc9bc22148c865e95a449d3b5c0e",
             "description": "Xwayland outside your Wayland compositor",
             "homepage": "https://github.com/Supreeeme/xwayland-satellite",
             "identifiers": {
@@ -978984,7 +978900,7 @@
                 "file": "/nix/store/18x118c69rbcbnl59jv4s8xizz71s96w-source/pkgs/by-name/xw/xwayland-satellite/package.nix",
                 "line": 77
             },
-            "name": "xwayland-satellite-0.8.2-unstable-2026-10-25",
+            "name": "xwayland-satellite-0.8.2-unstable-2026-10-27",
             "nonTeamMaintainers": [
                 {
                     "email": "j.sztavi@pm.me",
@@ -979042,7 +978958,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xwayland-satellite-0.8.2-unstable-2026-10-25",
+        "name": "xwayland-satellite-0.8.2-unstable-2026-10-27",
         "outputName": "out",
         "outputs": {
             "man": null,
@@ -979050,7 +978966,7 @@
         },
         "pname": "xwayland-satellite",
         "system": "x86_64-linux",
-        "version": "0.8.2-unstable-2026-10-25",
+        "version": "0.8.2-unstable-2026-10-27",
         "_attr": "xwayland-satellite",
         "_repo": "so1ve"
     },
@@ -1141495,7 +1141411,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1749",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.1791",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1141550,9 +1141466,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
-                "line": 192
+                "line": 194
             },
-            "name": "magpie-0.1.1749",
+            "name": "magpie-0.1.1791",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1141591,19 +1141507,19 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/magpie/default.nix#L188",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/magpie/default.nix#L190",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1749",
+        "name": "magpie-0.1.1791",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1749",
+        "version": "0.1.1791",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
