@@ -177280,7 +177280,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/venator/package.nix",
                 "line": 108
             },
-            "name": "venator-0.1.0a4-unstable-2026-10-27",
+            "name": "venator-0.1.0a4-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -177384,14 +177384,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "venator-0.1.0a4-unstable-2026-10-27",
+        "name": "venator-0.1.0a4-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "venator",
         "system": "x86_64-linux",
-        "version": "0.1.0a4-unstable-2026-10-27",
+        "version": "0.1.0a4-unstable-2026-10-28",
         "_attr": "_bartPackages.venator",
         "_repo": "bartoostveen"
     },
@@ -528439,6 +528439,106 @@
         "_attr": "bakamusic",
         "_repo": "mzwing"
     },
+    "nur.repos.mzwing.caddy-naive": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/caddyserver/caddy/releases/tag/v2.11.7",
+            "description": "Caddy with the forwardproxy fork that serves NaiveProxy (2.11.7-naive2), patched as its releases are",
+            "homepage": "https://github.com/klzgrad/forwardproxy",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "caddy-naive",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "caddy-naive",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                }
+            ],
+            "mainProgram": "caddy",
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 9,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/caddy-naive/default.nix",
+                "line": 80
+            },
+            "name": "caddy-naive-2.11.7",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/caddy-naive/default.nix#L73",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "caddy-naive-2.11.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "caddy-naive",
+        "system": "x86_64-linux",
+        "version": "2.11.7",
+        "_attr": "caddy-naive",
+        "_repo": "mzwing"
+    },
     "nur.repos.mzwing.clash2sing-box": {
         "meta": {
             "available": true,
@@ -528496,7 +528596,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/clash2sing-box/default.nix",
                 "line": 81
             },
-            "name": "clash2sing-box-0-unstable-2026-09-26",
+            "name": "clash2sing-box-0-unstable-2026-10-27",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -528515,14 +528615,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clash2sing-box-0-unstable-2026-09-26",
+        "name": "clash2sing-box-0-unstable-2026-10-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clash2sing-box",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-09-26",
+        "version": "0-unstable-2026-10-27",
         "_attr": "clash2sing-box",
         "_repo": "mzwing"
     },
@@ -528970,7 +529070,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.24",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.31",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -529024,7 +529124,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 42
             },
-            "name": "cnb-cli-1.18.24",
+            "name": "cnb-cli-1.18.31",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -529043,14 +529143,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.18.24",
+        "name": "cnb-cli-1.18.31",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.18.24",
+        "version": "1.18.31",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -530082,7 +530182,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/lmfpd/default.nix",
                 "line": 55
             },
-            "name": "lmfpd-0.0.1793077668415",
+            "name": "lmfpd-0.0.1793148819406",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -530101,14 +530201,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lmfpd-0.0.1793077668415",
+        "name": "lmfpd-0.0.1793148819406",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lmfpd",
         "system": "x86_64-linux",
-        "version": "0.0.1793077668415",
+        "version": "0.0.1793148819406",
         "_attr": "lmfpd",
         "_repo": "mzwing"
     },
@@ -530116,7 +530216,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.25",
+            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.27",
             "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit",
             "homepage": "https://github.com/cortexkit/magic-context",
             "identifiers": {
@@ -530170,7 +530270,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
                 "line": 83
             },
-            "name": "magic-context-0.49.25",
+            "name": "magic-context-0.49.27",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -530189,14 +530289,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magic-context-0.49.25",
+        "name": "magic-context-0.49.27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magic-context",
         "system": "x86_64-linux",
-        "version": "0.49.25",
+        "version": "0.49.27",
         "_attr": "magic-context",
         "_repo": "mzwing"
     },
