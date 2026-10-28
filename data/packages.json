@@ -758600,7 +758600,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "maintainers": [],
-            "name": "virtual-display-0.8.0",
+            "name": "virtual-display-0.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -758624,14 +758624,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "virtual-display-0.8.0",
+        "name": "virtual-display-0.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "virtual-display",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "_attr": "virtual-display",
         "_repo": "rapatao"
     },
@@ -1031784,83 +1031784,6 @@
         "_attr": "wshowlyrics-unstable",
         "_repo": "unstable-code"
     },
-    "nur.repos.uriotv.bbport": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Native Linux port of Bloodborne (PS4, v1.09); requires your own game dump",
-            "homepage": "https://github.com/deadinside28/bloodborne_pc",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "bbport",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "bbport",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "mainProgram": "bbport",
-            "maintainers": [],
-            "name": "bbport-0.6",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/pkgs/bbport/default.nix#L291",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "bbport-0.6",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "bbport",
-        "system": "x86_64-linux",
-        "version": "0.6",
-        "_attr": "bbport",
-        "_repo": "uriotv"
-    },
     "nur.repos.uriotv.cybergrub2077": {
         "meta": {
             "available": true,
@@ -1031958,6 +1031881,83 @@
         "system": "x86_64-linux",
         "version": "2077-2.0.1-unstable-2026-02-28",
         "_attr": "cybergrub2077",
+        "_repo": "uriotv"
+    },
+    "nur.repos.uriotv.lantern-engine": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Source-built Lantern Engine by Awaken (modified Nix build); requires your own game dump",
+            "homepage": "https://github.com/Awakenchan/LanternEngine",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lantern-engine",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lantern-engine",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU GPL v3 or later, with upstream NOTICE section 7 terms",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://github.com/Awakenchan/LanternEngine/blob/v0.9.37/NOTICE"
+            },
+            "mainProgram": "lantern-engine",
+            "maintainers": [],
+            "name": "lantern-engine-0.9.37",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/pkgs/lantern-engine/default.nix#L59",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "lantern-engine-0.9.37",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lantern-engine",
+        "system": "x86_64-linux",
+        "version": "0.9.37",
+        "_attr": "lantern-engine",
         "_repo": "uriotv"
     },
     "nur.repos.uriotv.linux-cachyos-bore-x86_64-v3": {
