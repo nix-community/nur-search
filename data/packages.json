@@ -54718,7 +54718,33 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/nolibc/package.nix#L30",
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/nolibc/package.nix#L73",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -189779,7 +189805,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/dorion-git/default.nix",
                 "line": 229
             },
-            "name": "dorion-git-7.0.0-unstable-2026-10-26",
+            "name": "dorion-git-7.0.1-unstable-2026-10-27",
             "nonTeamMaintainers": [
                 {
                     "email": "nyanbinary@keemail.me",
@@ -189844,14 +189870,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dorion-git-7.0.0-unstable-2026-10-26",
+        "name": "dorion-git-7.0.1-unstable-2026-10-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dorion-git",
         "system": "x86_64-linux",
-        "version": "7.0.0-unstable-2026-10-26",
+        "version": "7.0.1-unstable-2026-10-27",
         "_attr": "dorion-git",
         "_repo": "ccicnce113424"
     },
