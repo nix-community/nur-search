@@ -88976,7 +88976,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/antigravity-tools-bin/default.nix",
                 "line": 91
             },
-            "name": "antigravity-tools-bin-5.0.1-beta.3",
+            "name": "antigravity-tools-bin-5.0.1-beta.7",
             "nonTeamMaintainers": [
                 "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
             ],
@@ -88997,14 +88997,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "antigravity-tools-bin-5.0.1-beta.3",
+        "name": "antigravity-tools-bin-5.0.1-beta.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity-tools-bin",
         "system": "x86_64-linux",
-        "version": "5.0.1-beta.3",
+        "version": "5.0.1-beta.7",
         "_attr": "antigravity-tools-bin",
         "_repo": "ahmet-cetinkaya"
     },
@@ -386402,7 +386402,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/plannotator/default.nix",
                 "line": 86
             },
-            "name": "plannotator-0.28.32",
+            "name": "plannotator-0.28.35",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -386426,14 +386426,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "plannotator-0.28.32",
+        "name": "plannotator-0.28.35",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "plannotator",
         "system": "x86_64-linux",
-        "version": "0.28.32",
+        "version": "0.28.35",
         "_attr": "plannotator",
         "_repo": "lmdevv"
     },
@@ -486969,12 +486969,12 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/FFmpeg/FFmpeg/blob/n9.0.1/Changelog",
+            "changelog": "https://github.com/FFmpeg/FFmpeg/blob/n9.0.2/Changelog",
             "description": "Complete, cross-platform solution to record, convert and stream audio and video",
             "donationPage": "https://ffmpeg.org/donations.html",
             "homepage": "https://www.ffmpeg.org/",
             "identifiers": {
-                "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.1:*:*:*:*:*:*:*",
+                "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
@@ -486986,11 +486986,11 @@
                     "target_sw": "*",
                     "update": "*",
                     "vendor": "ffmpeg",
-                    "version": "9.0.1"
+                    "version": "9.0.2"
                 },
                 "possibleCPEs": [
                     {
-                        "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.1:*:*:*:*:*:*:*",
+                        "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
                         "cpeParts": {
                             "edition": "*",
                             "language": "*",
@@ -487002,14 +487002,14 @@
                             "target_sw": "*",
                             "update": "*",
                             "vendor": "ffmpeg",
-                            "version": "9.0.1"
+                            "version": "9.0.2"
                         }
                     }
                 ],
                 "purlParts": {},
                 "purls": [],
                 "v1": {
-                    "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.1:*:*:*:*:*:*:*",
+                    "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
                     "cpeParts": {
                         "edition": "*",
                         "language": "*",
@@ -487021,11 +487021,11 @@
                         "target_sw": "*",
                         "update": "*",
                         "vendor": "ffmpeg",
-                        "version": "9.0.1"
+                        "version": "9.0.2"
                     },
                     "possibleCPEs": [
                         {
-                            "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.1:*:*:*:*:*:*:*",
+                            "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
                             "cpeParts": {
                                 "edition": "*",
                                 "language": "*",
@@ -487037,7 +487037,7 @@
                                 "target_sw": "*",
                                 "update": "*",
                                 "vendor": "ffmpeg",
-                                "version": "9.0.1"
+                                "version": "9.0.2"
                             }
                         }
                     ],
@@ -487113,9 +487113,9 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/pkgs/ffmpeg/generic.nix",
-                "line": 1111
+                "line": 1140
             },
-            "name": "ffmpeg-9.0.1",
+            "name": "ffmpeg-9.0.2",
             "nonTeamMaintainers": [
                 {
                     "email": "nixpkgs@mail.atemu.net",
@@ -487231,12 +487231,12 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/ffmpeg/generic.nix#L1078",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/ffmpeg/generic.nix#L1107",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "ffmpeg-9.0.1",
+        "name": "ffmpeg-9.0.2",
         "outputName": "bin",
         "outputs": {
             "bin": null,
@@ -487249,7 +487249,7 @@
         },
         "pname": "ffmpeg",
         "system": "x86_64-linux",
-        "version": "9.0.1",
+        "version": "9.0.2",
         "_attr": "ffmpeg_9",
         "_repo": "mio"
     },
