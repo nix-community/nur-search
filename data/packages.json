@@ -49048,7 +49048,7 @@
             },
             "mainProgram": "chatgpt",
             "maintainers": [],
-            "name": "chatgpt-26.1021.22027",
+            "name": "chatgpt-26.1023.51421",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -49066,14 +49066,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1021.22027",
+        "name": "chatgpt-26.1023.51421",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1021.22027",
+        "version": "26.1023.51421",
         "_attr": "chatgpt",
         "_repo": "Sittymin"
     },
@@ -280872,7 +280872,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.4",
+            "name": "opencode-1.19.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -280914,14 +280914,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.4",
+        "name": "opencode-1.19.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.4",
+        "version": "1.19.5",
         "_attr": "opencode",
         "_repo": "falconprogrammer"
     },
@@ -280974,7 +280974,7 @@
             "longDescription": "OpenCode is an AI coding agent built for the terminal.\n\nNIXOS COMPATIBILITY: OpenCode downloads TUI binaries at runtime that use\ngeneric Linux dynamic linkers (/lib64/ld-linux-x86-64.so.2) which don't\nexist on NixOS. This package includes automatic patching to fix the\ndynamic linker paths for NixOS compatibility.\n\nUSAGE OPTIONS:\n- Run 'opencode' - includes automatic NixOS patching\n- Or manually patch cache: $(nix-build -A opencode-sst)/share/opencode/patch-opencode-cache.sh\n\nThe package provides Node.js 24.21.0 to avoid downloading issues.\n",
             "mainProgram": "opencode",
             "maintainers": [],
-            "name": "opencode-1.19.4",
+            "name": "opencode-1.19.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -281016,14 +281016,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-1.19.4",
+        "name": "opencode-1.19.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode",
         "system": "x86_64-linux",
-        "version": "1.19.4",
+        "version": "1.19.5",
         "_attr": "opencode-sst",
         "_repo": "falconprogrammer"
     },
@@ -408806,7 +408806,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+            "changelog": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
             "description": "Lightweight coding agent that runs in your terminal",
             "homepage": "https://github.com/openai/codex",
             "identifiers": {
@@ -408863,7 +408863,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/codex-bin/default.nix",
                 "line": 69
             },
-            "name": "codex-bin-0.164.0",
+            "name": "codex-bin-0.165.0",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -408889,14 +408889,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "codex-bin-0.164.0",
+        "name": "codex-bin-0.165.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "codex-bin",
         "system": "x86_64-linux",
-        "version": "0.164.0",
+        "version": "0.165.0",
         "_attr": "codex-bin",
         "_repo": "merrkry"
     },
@@ -409006,7 +409006,7 @@
         "meta": {
             "available": false,
             "broken": false,
-            "changelog": "https://github.com/zed-industries/delta-nix/releases/tag/v0.21.0",
+            "changelog": "https://github.com/zed-industries/delta-nix/releases/tag/v0.22.0",
             "description": "AI coding assistant",
             "homepage": "https://delta.dev",
             "identifiers": {
@@ -409061,7 +409061,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/delta/default.nix",
                 "line": 51
             },
-            "name": "delta-0.21.0",
+            "name": "delta-0.22.0",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -409088,14 +409088,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "delta-0.21.0",
+        "name": "delta-0.22.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "delta",
         "system": "x86_64-linux",
-        "version": "0.21.0",
+        "version": "0.22.0",
         "_attr": "delta",
         "_repo": "merrkry"
     },
@@ -512867,7 +512867,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cl/clash-nyanpasu/package.nix",
                 "line": 221
             },
-            "name": "clash-nyanpasu-2.0.0-unstable-2026-10-27",
+            "name": "clash-nyanpasu-2.0.0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -512936,14 +512936,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clash-nyanpasu-2.0.0-unstable-2026-10-27",
+        "name": "clash-nyanpasu-2.0.0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clash-nyanpasu",
         "system": "x86_64-linux",
-        "version": "2.0.0-unstable-2026-10-27",
+        "version": "2.0.0-unstable-2026-10-28",
         "_attr": "clash-nyanpasu",
         "_repo": "moraxyc"
     },
@@ -513013,7 +513013,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 54
             },
-            "name": "cpa-usage-keeper-2.0.2-unstable-2026-10-27",
+            "name": "cpa-usage-keeper-2.0.2-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -513068,14 +513068,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.0.2-unstable-2026-10-27",
+        "name": "cpa-usage-keeper-2.0.2-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.0.2-unstable-2026-10-27",
+        "version": "2.0.2-unstable-2026-10-28",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -515171,7 +515171,7 @@
                 "shortName": "unfree"
             },
             "maintainers": [],
-            "name": "maxmind-geolite2-2026.10.25",
+            "name": "maxmind-geolite2-2026.10.28",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -515186,14 +515186,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "maxmind-geolite2-2026.10.25",
+        "name": "maxmind-geolite2-2026.10.28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "maxmind-geolite2",
         "system": "x86_64-linux",
-        "version": "2026.10.25",
+        "version": "2026.10.28",
         "_attr": "maxmind-geolite2",
         "_repo": "moraxyc"
     },
@@ -515393,7 +515393,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-10-27",
+            "name": "meta-rules-dat-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -515416,7 +515416,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-10-27",
+        "name": "meta-rules-dat-2026-10-28",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -515428,7 +515428,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-10-27",
+        "version": "2026-10-28",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -516419,7 +516419,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/grinev/opencode-telegram-bot/releases/tag/v0.26.5",
+            "changelog": "https://github.com/grinev/opencode-telegram-bot/releases/tag/v0.26.6",
             "description": "OpenCode mobile client via Telegram",
             "homepage": "https://github.com/grinev/opencode-telegram-bot",
             "identifiers": {
@@ -516482,7 +516482,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/op/opencode-telegram-bot/package.nix",
                 "line": 47
             },
-            "name": "opencode-telegram-bot-0.26.5",
+            "name": "opencode-telegram-bot-0.26.6",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -516528,14 +516528,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-telegram-bot-0.26.5",
+        "name": "opencode-telegram-bot-0.26.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode-telegram-bot",
         "system": "x86_64-linux",
-        "version": "0.26.5",
+        "version": "0.26.6",
         "_attr": "opencode-telegram-bot",
         "_repo": "moraxyc"
     },
@@ -516848,7 +516848,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-subagents/package.nix",
                 "line": 37
             },
-            "name": "pi-subagents-0.83.0",
+            "name": "pi-subagents-0.83.1",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -516894,14 +516894,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-subagents-0.83.0",
+        "name": "pi-subagents-0.83.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-subagents",
         "system": "x86_64-linux",
-        "version": "0.83.0",
+        "version": "0.83.1",
         "_attr": "pi-subagents",
         "_repo": "moraxyc"
     },
@@ -517880,7 +517880,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-10-26",
+            "name": "sing-rules-geo-2026-10-27",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -517895,7 +517895,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-10-26",
+        "name": "sing-rules-geo-2026-10-27",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -517905,7 +517905,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-10-26",
+        "version": "2026-10-27",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -518184,7 +518184,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-10-26",
+            "name": "v2ray-rules-dat-2026-10-27",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -518199,7 +518199,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-10-26",
+        "name": "v2ray-rules-dat-2026-10-27",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -518207,7 +518207,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-10-26",
+        "version": "2026-10-27",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
@@ -518676,7 +518676,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/YAQMC/YAQMC/releases/tag/v0.1.1-unstable-2026-10-26",
+            "changelog": "https://github.com/YAQMC/YAQMC/releases/tag/v0.1.1-unstable-2026-10-27",
             "description": "Unofficial QQ Music client with a native Rust playback core",
             "homepage": "https://github.com/YAQMC/YAQMC",
             "identifiers": {
@@ -518733,7 +518733,7 @@
             ],
             "mainProgram": "yaqmc",
             "maintainers": [],
-            "name": "yaqmc-0.1.1-unstable-2026-10-26",
+            "name": "yaqmc-0.1.1-unstable-2026-10-27",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -518771,14 +518771,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "yaqmc-0.1.1-unstable-2026-10-26",
+        "name": "yaqmc-0.1.1-unstable-2026-10-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "yaqmc",
         "system": "x86_64-linux",
-        "version": "0.1.1-unstable-2026-10-26",
+        "version": "0.1.1-unstable-2026-10-27",
         "_attr": "yaqmc",
         "_repo": "moraxyc"
     },
