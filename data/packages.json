@@ -67115,7 +67115,7 @@
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "nix-manipulator",
+                    "product": "nima",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -67129,7 +67129,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "nix-manipulator",
+                        "product": "nima",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -67184,7 +67184,7 @@
             },
             "mainProgram": "nima",
             "maintainers": [],
-            "name": "python3.14-nix-manipulator-unstable-2026-03-03",
+            "name": "python3.14-nima-unstable-2026-03-03",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -67232,13 +67232,13 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-nix-manipulator-unstable-2026-03-03",
+        "name": "python3.14-nima-unstable-2026-03-03",
         "outputName": "out",
         "outputs": {
             "dist": null,
             "out": null
         },
-        "pname": "python3.14-nix-manipulator-unstable",
+        "pname": "python3.14-nima-unstable",
         "system": "x86_64-linux",
         "version": "2026-03-03",
         "_attr": "nima",
@@ -69007,6 +69007,79 @@
         "system": "x86_64-linux",
         "version": "8.1.1",
         "_attr": "zoteroAddons.zotero-scipdf",
+        "_repo": "Vortriz"
+    },
+    "nur.repos.Vortriz.zoteroAddons.zotlit": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Bring your Zotero library into Obsidian. Create literature notes, insert citations, and annotate PDFs without leaving your vault.",
+            "homepage": "https://github.com/aidenlx/zotlit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zotlit",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zotlit",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "maintainers": [],
+            "name": "ZotLit-2.1.4",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/zoteroAddons/zotlit/package.nix#L18",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ZotLit-2.1.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ZotLit",
+        "system": "x86_64-linux",
+        "version": "2.1.4",
+        "_attr": "zoteroAddons.zotlit",
         "_repo": "Vortriz"
     },
     "nur.repos.Vortriz.zoteroAddons.zotmoov": {
@@ -201983,7 +202056,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/shimelinux/default.nix",
                 "line": 87
             },
-            "name": "shimelinux-1.4.1",
+            "name": "shimelinux-1.4.2",
             "nonTeamMaintainers": [
                 {
                     "email": "claymorwan@fembois.dev",
@@ -202041,14 +202114,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "shimelinux-1.4.1",
+        "name": "shimelinux-1.4.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "shimelinux",
         "system": "x86_64-linux",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "_attr": "shimelinux",
         "_repo": "claymorwan"
     },
@@ -556480,7 +556553,7 @@
             },
             "mainProgram": "icebath",
             "maintainers": [],
-            "name": "icebath-1.0.9",
+            "name": "icebath-1.0.10",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -556507,14 +556580,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "icebath-1.0.9",
+        "name": "icebath-1.0.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "icebath",
         "system": "x86_64-linux",
-        "version": "1.0.9",
+        "version": "1.0.10",
         "_attr": "icebath",
         "_repo": "nickheyer"
     },
