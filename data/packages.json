@@ -31005,151 +31005,6 @@
         "_attr": "whitesur-kde",
         "_repo": "LuisChDev"
     },
-    "nur.repos.MCSeekeri.ai-toolbox": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/coulsontl/ai-toolbox/releases/tag/v1.2.1",
-            "description": "Personal AI Toolbox \u2014 manage AI coding assistant configurations in one place",
-            "homepage": "https://github.com/coulsontl/ai-toolbox",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "ai-toolbox",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "ai-toolbox",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "longDescription": "AI Toolbox is a cross-platform desktop app that helps developers manage\nconfigurations for various AI coding assistants. It supports OpenCode,\nClaude Code, Codex CLI, Oh-My-OpenCode, MCP servers, Skills, and more,\nwith a visual interface, system tray quick-switching, WSL sync, and data\nbackup/restore.\n",
-            "mainProgram": "ai-toolbox",
-            "maintainers": [
-                {
-                    "email": "mcseekeri@outlook.com",
-                    "github": "mcseekeri",
-                    "githubId": 20928094,
-                    "keys": [
-                        {
-                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
-                        },
-                        {
-                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
-                        }
-                    ],
-                    "name": "MCSeekeri"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/MCSeekeri/pkgs/ai-toolbox/default.nix",
-                "line": 103
-            },
-            "name": "ai-toolbox-1.2.1",
-            "nonTeamMaintainers": [
-                {
-                    "email": "mcseekeri@outlook.com",
-                    "github": "mcseekeri",
-                    "githubId": 20928094,
-                    "keys": [
-                        {
-                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
-                        },
-                        {
-                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
-                        }
-                    ],
-                    "name": "MCSeekeri"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/MCSeekeri/pkgs/ai-toolbox/default.nix#L89",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "ai-toolbox-1.2.1",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "ai-toolbox",
-        "system": "x86_64-linux",
-        "version": "1.2.1",
-        "_attr": "ai-toolbox",
-        "_repo": "MCSeekeri"
-    },
     "nur.repos.MCSeekeri.artmatic": {
         "meta": {
             "available": true,
@@ -31286,151 +31141,6 @@
         "system": "x86_64-linux",
         "version": "0.3.0-unstable-2026-10-27",
         "_attr": "artmatic",
-        "_repo": "MCSeekeri"
-    },
-    "nur.repos.MCSeekeri.cc-switch": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.20",
-            "description": "All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw and Gemini CLI",
-            "homepage": "https://github.com/farion1231/cc-switch",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "cc-switch",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "cc-switch",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "longDescription": "CC-Switch is a cross-platform desktop application that provides a unified\ninterface for multiple AI coding assistants including Claude Code, Codex,\nOpenCode, openclaw and Gemini CLI.\n",
-            "mainProgram": "cc-switch",
-            "maintainers": [
-                {
-                    "email": "mcseekeri@outlook.com",
-                    "github": "mcseekeri",
-                    "githubId": 20928094,
-                    "keys": [
-                        {
-                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
-                        },
-                        {
-                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
-                        }
-                    ],
-                    "name": "MCSeekeri"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/MCSeekeri/pkgs/cc-switch/default.nix",
-                "line": 109
-            },
-            "name": "cc-switch-4.0.20",
-            "nonTeamMaintainers": [
-                {
-                    "email": "mcseekeri@outlook.com",
-                    "github": "mcseekeri",
-                    "githubId": 20928094,
-                    "keys": [
-                        {
-                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
-                        },
-                        {
-                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
-                        }
-                    ],
-                    "name": "MCSeekeri"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/MCSeekeri/pkgs/cc-switch/default.nix#L97",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "cc-switch-4.0.20",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "cc-switch",
-        "system": "x86_64-linux",
-        "version": "4.0.20",
-        "_attr": "cc-switch",
         "_repo": "MCSeekeri"
     },
     "nur.repos.MCSeekeri.edrawmax": {
@@ -70715,7 +70425,7 @@
             },
             "mainProgram": "stagelint",
             "maintainers": [],
-            "name": "stagelint-0.2.1",
+            "name": "stagelint-0.2.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -70742,14 +70452,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "stagelint-0.2.1",
+        "name": "stagelint-0.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "stagelint",
         "system": "x86_64-linux",
-        "version": "0.2.1",
+        "version": "0.2.2",
         "_attr": "stagelint",
         "_repo": "abemedia"
     },
@@ -205722,7 +205432,7 @@
                 "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
             },
             "maintainers": [],
-            "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-26",
+            "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-28",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -205763,14 +205473,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-26",
+        "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "networkmanager-gpclient",
         "system": "x86_64-linux",
-        "version": "1.5.0-unstable-2026-10-26",
+        "version": "1.5.0-unstable-2026-10-28",
         "_attr": "networkmanager-gpclient",
         "_repo": "codgician"
     },
@@ -205944,7 +205654,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/can1357/oh-my-pi/blob/v18.13.1/packages/coding-agent/CHANGELOG.md",
+            "changelog": "https://github.com/can1357/oh-my-pi/blob/v18.13.3/packages/coding-agent/CHANGELOG.md",
             "description": "AI coding agent for the terminal with hash-anchored edits, LSP, DAP, Python, browser, and subagents",
             "homepage": "https://github.com/can1357/oh-my-pi",
             "identifiers": {
@@ -206001,7 +205711,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/oh-my-pi-bin/default.nix",
                 "line": 167
             },
-            "name": "oh-my-pi-bin-18.13.1",
+            "name": "oh-my-pi-bin-18.13.3",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -206030,14 +205740,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oh-my-pi-bin-18.13.1",
+        "name": "oh-my-pi-bin-18.13.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oh-my-pi-bin",
         "system": "x86_64-linux",
-        "version": "18.13.1",
+        "version": "18.13.3",
         "_attr": "oh-my-pi-bin",
         "_repo": "codgician"
     },
@@ -206221,7 +205931,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/redrix-ec/default.nix",
                 "line": 126
             },
-            "name": "redrix-ec-2.0.30135-gcadf1838",
+            "name": "redrix-ec-2.0.30136-gefc949dd",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -206248,14 +205958,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "redrix-ec-2.0.30135-gcadf1838",
+        "name": "redrix-ec-2.0.30136-gefc949dd",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "redrix-ec",
         "system": "x86_64-linux",
-        "version": "2.0.30135-gcadf1838",
+        "version": "2.0.30136-gefc949dd",
         "_attr": "redrix-ec",
         "_repo": "codgician"
     },
@@ -309680,7 +309390,7 @@
             },
             "mainProgram": "ibkr-desktop",
             "maintainers": [],
-            "name": "ibkr-desktop-3.6h",
+            "name": "ibkr-desktop-4.0d",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -309704,14 +309414,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ibkr-desktop-3.6h",
+        "name": "ibkr-desktop-4.0d",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ibkr-desktop",
         "system": "x86_64-linux",
-        "version": "3.6h",
+        "version": "4.0d",
         "_attr": "ibkr-desktop",
         "_repo": "herver"
     },
@@ -416907,10 +416617,10 @@
     },
     "nur.repos.milahu.binarize-pdf": {
         "meta": {
-            "available": false,
+            "available": true,
             "broken": false,
-            "description": "Convert PDF to black and white using adaptive thresholding",
-            "homepage": "https://github.com/rahimnathwani/binarize-pdf",
+            "description": "convert ugly gray-on-yellow PDF files to pretty black-on-white PDF files",
+            "homepage": "https://github.com/milahu/binarize-pdf",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -416976,20 +416686,22 @@
             ],
             "license": {
                 "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
+                "free": true,
+                "fullName": "MIT License",
                 "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
             },
             "mainProgram": "binarize-pdf",
             "maintainers": [],
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/milahu/pkgs/development/python-modules/binarize-pdf/default.nix",
-                "line": 58
+                "line": 44
             },
-            "name": "python3.14-binarize-pdf-0.1.0",
+            "name": "binarize-pdf-0.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -417075,23 +416787,23 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/milahu/pkgs/development/python-modules/binarize-pdf/default.nix#L53",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/milahu/pkgs/development/python-modules/binarize-pdf/default.nix#L41",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
                 }
             },
-            "unfree": true,
+            "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-binarize-pdf-0.1.0",
+        "name": "binarize-pdf-0.1.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
             "out": null
         },
-        "pname": "python3.14-binarize-pdf",
+        "pname": "binarize-pdf",
         "system": "x86_64-linux",
         "version": "0.1.0",
         "_attr": "binarize-pdf",
