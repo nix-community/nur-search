@@ -410602,7 +410602,7 @@
         "meta": {
             "available": false,
             "broken": false,
-            "changelog": "https://github.com/zed-industries/delta-nix/releases/tag/v0.22.0",
+            "changelog": "https://github.com/zed-industries/delta-nix/releases/tag/v0.23.0",
             "description": "AI coding assistant",
             "homepage": "https://delta.dev",
             "identifiers": {
@@ -410657,7 +410657,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/delta/default.nix",
                 "line": 51
             },
-            "name": "delta-0.22.0",
+            "name": "delta-0.23.0",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -410684,14 +410684,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "delta-0.22.0",
+        "name": "delta-0.23.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "delta",
         "system": "x86_64-linux",
-        "version": "0.22.0",
+        "version": "0.23.0",
         "_attr": "delta",
         "_repo": "merrkry"
     },
@@ -1155751,7 +1155751,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A minimal image viewer",
+            "description": "A minimal wayland native image viewer",
             "homepage": "https://github.com/yashsio/aether",
             "identifiers": {
                 "cpeParts": {
@@ -1155795,21 +1155795,14 @@
             },
             "mainProgram": "aether",
             "maintainers": [],
-            "name": "aether-0.4.1",
+            "name": "aether-0.5.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux",
-                "aarch64-darwin",
                 "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
                 "arc-linux",
                 "armv5tel-linux",
                 "armv6l-linux",
@@ -1155831,23 +1155824,9 @@
                 "riscv32-linux",
                 "riscv64-linux",
                 "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
+                "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/yashsio/pkgs/aether/default.nix#L37",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/yashsio/pkgs/aether/default.nix#L38",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1155857,14 +1155836,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "aether-0.4.1",
+        "name": "aether-0.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "aether",
         "system": "x86_64-linux",
-        "version": "0.4.1",
+        "version": "0.5.0",
         "_attr": "aether",
         "_repo": "yashsio"
     },
