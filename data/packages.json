@@ -61340,6 +61340,7 @@
             "available": true,
             "broken": false,
             "description": "TUF-based software distribution toolchain",
+            "homepage": "https://github.com/amutable/quarry",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -61394,7 +61395,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/quarry/package.nix",
-                "line": 92
+                "line": 93
             },
             "name": "quarry-0-unstable-2026-10-25",
             "nonTeamMaintainers": [
@@ -62577,6 +62578,123 @@
         "system": "x86_64-linux",
         "version": "0.5.0",
         "_attr": "run0-wrappers",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.run0edit": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/HastD/run0edit/blob/v0.7.0/CHANGELOG.md",
+            "description": "Allow a permitted user to edit a file as root using run0",
+            "homepage": "https://github.com/HastD/run0edit",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "run0edit",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "run0edit",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR"
+            },
+            "mainProgram": "run0edit",
+            "maintainers": [],
+            "name": "run0edit-0.7.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/run0edit/package.nix#L79",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "run0edit-0.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "run0edit",
+        "system": "x86_64-linux",
+        "version": "0.7.0",
+        "_attr": "run0edit",
         "_repo": "Skyb0rg007"
     },
     "nur.repos.Skyb0rg007.rune": {
