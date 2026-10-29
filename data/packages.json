@@ -51981,6 +51981,103 @@
         "_attr": "debspawn",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.dell-command-monitor": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Dell Command | Monitor hardware monitoring agent",
+            "homepage": "https://www.dell.com/support/kbdoc/en-us/000177080/dell-command-monitor",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dell-command-monitor",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dell-command-monitor",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "OMI providers exposing Dell client system inventory, monitoring and\nalerting over CIM. Upstream registers them with\n`omireg -n root/dcim/sysman lib/libDellSysMgmtProv.so` (and\n`libDellSysMgmtAlertProv.so`).\n",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/dell-command-monitor/package.nix",
+                "line": 67
+            },
+            "name": "dell-command-monitor-10.13.0-26",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/dell-command-monitor/package.nix#L56",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "dell-command-monitor-10.13.0-26",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dell-command-monitor",
+        "system": "x86_64-linux",
+        "version": "10.13.0-26",
+        "_attr": "dell-command-monitor",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.dgit": {
         "meta": {
             "available": true,
@@ -195640,7 +195737,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/waywallen-display-bin/default.nix",
                 "line": 39
             },
-            "name": "waywallen-display-0.4.3",
+            "name": "waywallen-display-0.4.4",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -195667,14 +195764,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "waywallen-display-0.4.3",
+        "name": "waywallen-display-0.4.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "waywallen-display",
         "system": "x86_64-linux",
-        "version": "0.4.3",
+        "version": "0.4.4",
         "_attr": "waywallen-display-bin",
         "_repo": "ccicnce113424"
     },
@@ -485755,9 +485852,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
-                "line": 250
+                "line": 265
             },
-            "name": "darling-0.1.20260608-unstable-2026-09-06",
+            "name": "darling-0.1.20260608-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "hello@zhaofeng.li",
@@ -485773,12 +485870,12 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling/package.nix#L246",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling/package.nix#L261",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "darling-0.1.20260608-unstable-2026-09-06",
+        "name": "darling-0.1.20260608-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -485786,7 +485883,7 @@
         },
         "pname": "darling",
         "system": "x86_64-linux",
-        "version": "0.1.20260608-unstable-2026-09-06",
+        "version": "0.1.20260608-unstable-2026-10-28",
         "_attr": "darling",
         "_repo": "mio"
     },
@@ -485850,9 +485947,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
-                "line": 250
+                "line": 265
             },
-            "name": "darling_patched-0.1.20260608-unstable-2026-09-06",
+            "name": "darling_patched-0.1.20260608-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "hello@zhaofeng.li",
@@ -485868,12 +485965,12 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling_patched/package.nix#L248",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling_patched/package.nix#L243",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "darling_patched-0.1.20260608-unstable-2026-09-06",
+        "name": "darling_patched-0.1.20260608-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -485881,7 +485978,7 @@
         },
         "pname": "darling_patched",
         "system": "x86_64-linux",
-        "version": "0.1.20260608-unstable-2026-09-06",
+        "version": "0.1.20260608-unstable-2026-10-28",
         "_attr": "darling_patched",
         "_repo": "mio"
     },
@@ -489768,7 +489865,7 @@
             },
             "mainProgram": "freebuff",
             "maintainers": [],
-            "name": "freebuff-0.2.34-unstable-2026-10-28",
+            "name": "freebuff-1.0.679-unstable-2026-10-29",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -489777,7 +489874,7 @@
                 "x86_64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fr/freebuff/package.nix#L162",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fr/freebuff/package.nix#L176",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -489793,14 +489890,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "freebuff-0.2.34-unstable-2026-10-28",
+        "name": "freebuff-1.0.679-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "freebuff",
         "system": "x86_64-linux",
-        "version": "0.2.34-unstable-2026-10-28",
+        "version": "1.0.679-unstable-2026-10-29",
         "_attr": "freebuff",
         "_repo": "mio"
     },
@@ -493827,7 +493924,7 @@
             },
             "mainProgram": "losslesscut",
             "maintainers": [],
-            "name": "losslesscut-3.70.1",
+            "name": "losslesscut-3.70.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -493858,7 +493955,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/lo/losslesscut/package.nix#L97",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/lo/losslesscut/package.nix#L107",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -493868,14 +493965,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "losslesscut-3.70.1",
+        "name": "losslesscut-3.70.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "losslesscut",
         "system": "x86_64-linux",
-        "version": "3.70.1",
+        "version": "3.70.2",
         "_attr": "losslesscut",
         "_repo": "mio"
     },
@@ -500076,12 +500173,12 @@
             },
             "mainProgram": "PCL.Frontend.Avalonia",
             "maintainers": [],
-            "name": "pcl-me-1.0.0-beta.7-unstable-2026-10-26",
+            "name": "pcl-me-1.0.0-beta.7-unstable-2026-10-28",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pc/pcl-me/package.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pc/pcl-me/package.nix#L99",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -500091,14 +500188,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pcl-me-1.0.0-beta.7-unstable-2026-10-26",
+        "name": "pcl-me-1.0.0-beta.7-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pcl-me",
         "system": "x86_64-linux",
-        "version": "1.0.0-beta.7-unstable-2026-10-26",
+        "version": "1.0.0-beta.7-unstable-2026-10-28",
         "_attr": "pcl-me",
         "_repo": "mio"
     },
@@ -500391,9 +500488,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/pe/penguin-mail/package.nix",
-                "line": 46
+                "line": 56
             },
-            "name": "penguin-mail-1.0.10",
+            "name": "penguin-mail-1.0.11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -500438,7 +500535,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pe/penguin-mail/package.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pe/penguin-mail/package.nix#L53",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -500448,14 +500545,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "penguin-mail-1.0.10",
+        "name": "penguin-mail-1.0.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "penguin-mail",
         "system": "x86_64-linux",
-        "version": "1.0.10",
+        "version": "1.0.11",
         "_attr": "penguin-mail",
         "_repo": "mio"
     },
@@ -505095,7 +505192,7 @@
             },
             "mainProgram": "terminal-browser",
             "maintainers": [],
-            "name": "terminal-browser-0.13.4",
+            "name": "terminal-browser-0.15.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -505127,7 +505224,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/te/terminal-browser/package.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/te/terminal-browser/package.nix#L90",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -505137,14 +505234,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "terminal-browser-0.13.4",
+        "name": "terminal-browser-0.15.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "terminal-browser",
         "system": "x86_64-linux",
-        "version": "0.13.4",
+        "version": "0.15.1",
         "_attr": "terminal-browser",
         "_repo": "mio"
     },
