@@ -30147,7 +30147,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/GriefNorth/pkgs/ps5upload/default.nix",
                 "line": 97
             },
-            "name": "ps5upload-8.6.1",
+            "name": "ps5upload-8.10.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -30172,14 +30172,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ps5upload-8.6.1",
+        "name": "ps5upload-8.10.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ps5upload",
         "system": "x86_64-linux",
-        "version": "8.6.1",
+        "version": "8.10.0",
         "_attr": "ps5upload",
         "_repo": "GriefNorth"
     },
@@ -69640,7 +69640,7 @@
             },
             "mainProgram": "ghost-downloader-3",
             "maintainers": [],
-            "name": "ghost-downloader-3-4.4.5",
+            "name": "ghost-downloader-3-4.4.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -69688,14 +69688,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghost-downloader-3-4.4.5",
+        "name": "ghost-downloader-3-4.4.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghost-downloader",
         "system": "x86_64-linux",
-        "version": "3-4.4.5",
+        "version": "3-4.4.6",
         "_attr": "ghost-downloader-3",
         "_repo": "XiaoXioe"
     },
@@ -556287,7 +556287,7 @@
             },
             "mainProgram": "icebath",
             "maintainers": [],
-            "name": "icebath-1.0.5",
+            "name": "icebath-1.0.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -556314,14 +556314,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "icebath-1.0.5",
+        "name": "icebath-1.0.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "icebath",
         "system": "x86_64-linux",
-        "version": "1.0.5",
+        "version": "1.0.7",
         "_attr": "icebath",
         "_repo": "nickheyer"
     },
@@ -1055586,7 +1055586,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/invisible-firefox-bin/default.nix",
-                "line": 130
+                "line": 138
             },
             "name": "invisible-firefox-bin-unwrapped-151.0",
             "nonTeamMaintainers": [
@@ -1129102,7 +1129102,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/invisible-firefox-bin/default.nix",
-                "line": 130
+                "line": 138
             },
             "name": "invisible-firefox-bin-unwrapped-151.0",
             "nonTeamMaintainers": [
@@ -1141360,6 +1141360,97 @@
         "_attr": "uncategorized.vgpu-unlock-rs",
         "_repo": "xddxdd"
     },
+    "nur.repos.xddxdd.uncategorized.vivado": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "AMD Vivado ML Standard design suite",
+            "homepage": "https://www.amd.com/en/products/software/fpga-and-adaptive-socs/vivado.html",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vivado",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vivado",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "vivado",
+            "maintainers": [
+                {
+                    "github": "xddxdd",
+                    "name": "Xiaodong Dong"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/vivado/wrapper.nix",
+                "line": 131
+            },
+            "name": "vivado-2025.2.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "xddxdd",
+                    "name": "Xiaodong Dong"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/vivado/wrapper.nix#L127",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "vivado-2025.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vivado",
+        "system": "x86_64-linux",
+        "version": "2025.2.1",
+        "_attr": "uncategorized.vivado",
+        "_repo": "xddxdd"
+    },
     "nur.repos.xddxdd.uncategorized.vk-hdr-layer": {
         "meta": {
             "available": true,
@@ -1143469,6 +1143560,97 @@
         "system": "x86_64-linux",
         "version": "2.5.0",
         "_attr": "vgpu-unlock-rs",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.vivado": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "AMD Vivado ML Standard design suite",
+            "homepage": "https://www.amd.com/en/products/software/fpga-and-adaptive-socs/vivado.html",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vivado",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vivado",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "vivado",
+            "maintainers": [
+                {
+                    "github": "xddxdd",
+                    "name": "Xiaodong Dong"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/vivado/wrapper.nix",
+                "line": 131
+            },
+            "name": "vivado-2025.2.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "xddxdd",
+                    "name": "Xiaodong Dong"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/vivado/wrapper.nix#L127",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "vivado-2025.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vivado",
+        "system": "x86_64-linux",
+        "version": "2025.2.1",
+        "_attr": "vivado",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.vk-hdr-layer": {
