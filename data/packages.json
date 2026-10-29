@@ -559399,6 +559399,92 @@
         "_attr": "clash-verge-rev",
         "_repo": "nosugarcoffee"
     },
+    "nur.repos.nosugarcoffee.cua-driver": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Computer-use MCP server and CLI (official signed release)",
+            "homepage": "https://github.com/trycua/cua",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cua-driver",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cua-driver",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "cua-driver",
+            "maintainers": [],
+            "name": "cua-driver-0.38.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/cua-driver/package.nix#L151",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cua-driver-0.38.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cua-driver",
+        "system": "x86_64-linux",
+        "version": "0.38.0",
+        "_attr": "cua-driver",
+        "_repo": "nosugarcoffee"
+    },
     "nur.repos.nosugarcoffee.digup": {
         "meta": {
             "available": true,
@@ -773794,7 +773880,7 @@
             },
             "mainProgram": "dsh",
             "maintainers": [],
-            "name": "dsh-0.2.1-rc.2",
+            "name": "dsh-0.2.2-alpha.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -773880,7 +773966,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh/default.nix#L159",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ryan4yin/pkgs/dsh/default.nix#L162",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -773900,14 +773986,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-0.2.1-rc.2",
+        "name": "dsh-0.2.2-alpha.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dsh",
         "system": "x86_64-linux",
-        "version": "0.2.1-rc.2",
+        "version": "0.2.2-alpha.2",
         "_attr": "dsh",
         "_repo": "ryan4yin"
     },
