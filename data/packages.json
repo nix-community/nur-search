@@ -254130,6 +254130,91 @@
         "_attr": "fluxdown-server",
         "_repo": "davinci42"
     },
+    "nur.repos.davinci42.magpie": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Local AI model gateway and agent configuration manager",
+            "homepage": "https://github.com/yetone/magpie",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "magpie",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "magpie",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "magpie",
+            "maintainers": [],
+            "name": "magpie-0.1.2034",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/magpie/default.nix#L69",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "magpie-0.1.2034",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "magpie",
+        "system": "x86_64-linux",
+        "version": "0.1.2034",
+        "_attr": "magpie",
+        "_repo": "davinci42"
+    },
     "nur.repos.davinci42.mnamer-rs": {
         "meta": {
             "available": true,
@@ -387952,7 +388037,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/dmno-dev/varlock/releases/tag/varlock@1.23.0",
+            "changelog": "https://github.com/dmno-dev/varlock/releases/tag/varlock@1.24.0",
             "description": "AI-safe .env files with schemas, validation, and secret redaction",
             "homepage": "https://varlock.dev",
             "identifiers": {
@@ -388005,7 +388090,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/varlock/default.nix",
                 "line": 102
             },
-            "name": "varlock-1.23.0",
+            "name": "varlock-1.24.0",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -388029,14 +388114,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "varlock-1.23.0",
+        "name": "varlock-1.24.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "varlock",
         "system": "x86_64-linux",
-        "version": "1.23.0",
+        "version": "1.24.0",
         "_attr": "varlock",
         "_repo": "lmdevv"
     },
@@ -399763,7 +399848,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
                 "line": 91
             },
-            "name": "git-simple-encrypt-v3.1.1",
+            "name": "git-simple-encrypt-v3.1.2",
             "nonTeamMaintainers": [
                 "lxl66566"
             ],
@@ -399778,12 +399863,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "git-simple-encrypt-v3.1.1",
+        "name": "git-simple-encrypt-v3.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "git-simple-encrypt-v3.1.1",
+        "pname": "git-simple-encrypt-v3.1.2",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "git-simple-encrypt",
@@ -520659,13 +520744,15 @@
         "meta": {
             "available": true,
             "broken": false,
+            "description": "Tools for accessing a floppy drive at the raw flux level",
+            "homepage": "https://github.com/keirf/greaseweazle",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "greazeweazel",
+                    "product": "greaseweazle",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -520679,7 +520766,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "greazeweazel",
+                        "product": "greaseweazle",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -520722,9 +520809,39 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "maintainers": [],
-            "name": "greazeweazel-1.22",
-            "nonTeamMaintainers": [],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "The Unlicense",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "unlicense",
+                "spdxId": "Unlicense",
+                "url": "https://spdx.org/licenses/Unlicense.html"
+            },
+            "mainProgram": "greaseweazle",
+            "maintainers": [
+                {
+                    "email": "matt@croughan.sh",
+                    "github": "MatthewCroughan",
+                    "githubId": 26458780,
+                    "name": "Matthew Croughan"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/18x118c69rbcbnl59jv4s8xizz71s96w-source/pkgs/by-name/gr/greaseweazle/package.nix",
+                "line": 40
+            },
+            "name": "greaseweazle-1.23",
+            "nonTeamMaintainers": [
+                {
+                    "email": "matt@croughan.sh",
+                    "github": "MatthewCroughan",
+                    "githubId": 26458780,
+                    "name": "Matthew Croughan"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
@@ -520761,20 +520878,20 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moredread/pkgs/greaseweazel/default.nix#L5",
+            "position": "https://github.com/Moredread/nur-packages/blob/HEAD/pkgs/by-name/gr/greaseweazle/package.nix#L37",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "greazeweazel-1.22",
+        "name": "greaseweazle-1.23",
         "outputName": "out",
         "outputs": {
             "dist": null,
             "out": null
         },
-        "pname": "greazeweazel",
+        "pname": "greaseweazle",
         "system": "x86_64-linux",
-        "version": "1.22",
+        "version": "1.23",
         "_attr": "greaseweazel",
         "_repo": "moredread"
     },
@@ -520827,7 +520944,7 @@
             "longDescription": "The HxC Floppy Emulator toolkit provides tools to import, convert, analyze,\nand manipulate floppy disk images. It supports many formats and includes both\na GUI application (hxcfloppyemulator) and command-line tool (hxcfe).\n",
             "mainProgram": "hxcfloppyemulator",
             "maintainers": [],
-            "name": "hxcfloppyemulator-unstable-2025-07-13",
+            "name": "hxcfloppyemulator-unstable-2026-10-19",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -520868,14 +520985,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hxcfloppyemulator-unstable-2025-07-13",
+        "name": "hxcfloppyemulator-unstable-2026-10-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hxcfloppyemulator-unstable",
         "system": "x86_64-linux",
-        "version": "2025-07-13",
+        "version": "2026-10-19",
         "_attr": "hxcfloppyemulator",
         "_repo": "moredread"
     },
@@ -520883,8 +521000,8 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Warning: experimental package, might change at any time. Math-inspired programmatic 2&3D CAD, also known as extopenscad",
-            "homepage": "http://kalli1.faikvm.com/ImplicitCAD/Stable",
+            "description": "Math-inspired programmatic 2D & 3D CAD system, also known as extopenscad",
+            "homepage": "http://implicitcad.org/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -520918,15 +521035,16 @@
             "license": {
                 "deprecated": false,
                 "free": true,
-                "fullName": "GNU Affero General Public License v3.0 only",
+                "fullName": "GNU Affero General Public License v3.0 or later",
                 "licenseType": "simple",
                 "redistributable": true,
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
             },
+            "mainProgram": "extopenscad",
             "maintainers": [],
-            "name": "implicitcad-8827fb0a",
+            "name": "implicitcad-afd5f77f",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -521012,7 +521130,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moredread/pkgs/implicitcad/default.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moredread/pkgs/implicitcad/default.nix#L33",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -521022,15 +521140,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "implicitcad-8827fb0a",
+        "name": "implicitcad-afd5f77f",
         "outputName": "out",
         "outputs": {
             "doc": null,
             "out": null
         },
-        "pname": "implicitcad",
+        "pname": "implicitcad-afd5f77f",
         "system": "x86_64-linux",
-        "version": "8827fb0a",
+        "version": "",
         "_attr": "implicitcad",
         "_repo": "moredread"
     },
@@ -521038,7 +521156,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Prereleases: An open source note taking and to-do application with synchronisation capabilities",
+            "description": "Open source note taking and to-do application with synchronisation capabilities",
             "homepage": "https://joplinapp.org",
             "identifiers": {
                 "cpeParts": {
@@ -521073,53 +521191,80 @@
             "license": {
                 "deprecated": false,
                 "free": true,
-                "fullName": "MIT License",
+                "fullName": "GNU Affero General Public License v3.0 or later",
                 "licenseType": "simple",
                 "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
             },
             "longDescription": "Joplin is a free, open source note taking and to-do application, which can\nhandle a large number of notes organised into notebooks. The notes are\nsearchable, can be copied, tagged and modified either from the\napplications directly or from your own text editor. The notes are in\nMarkdown format.\n",
             "mainProgram": "joplin-desktop",
-            "maintainers": [],
+            "maintainers": [
+                {
+                    "email": "me@fugi.dev",
+                    "github": "fugidev",
+                    "githubId": 21362942,
+                    "name": "Fugi"
+                }
+            ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moredread/pkgs/joplin-desktop/default.nix",
-                "line": 43
+                "file": "/nix/store/18x118c69rbcbnl59jv4s8xizz71s96w-source/pkgs/by-name/jo/joplin-desktop/package.nix",
+                "line": 254
             },
-            "name": "joplin-desktop-3.4.5",
-            "nonTeamMaintainers": [],
+            "name": "joplin-desktop-3.7.21",
+            "nonTeamMaintainers": [
+                {
+                    "email": "me@fugi.dev",
+                    "github": "fugidev",
+                    "githubId": 21362942,
+                    "name": "Fugi"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
-                "x86_64-linux"
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moredread/pkgs/joplin-desktop/default.nix#L33",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
+            "position": "https://github.com/Moredread/nur-packages/blob/HEAD/pkgs/by-name/jo/joplin-desktop/package.nix#L243",
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "joplin-desktop-3.4.5",
+        "name": "joplin-desktop-3.7.21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "joplin-desktop",
         "system": "x86_64-linux",
-        "version": "3.4.5",
+        "version": "3.7.21",
         "_attr": "joplin-desktop",
         "_repo": "moredread"
     },
@@ -521206,9 +521351,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moredread/pkgs/mididings/default.nix",
-                "line": 67
+                "line": 66
             },
-            "name": "python3.14-mididings-unstable-20250818",
+            "name": "python3.14-mididings-20260601",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -521239,7 +521384,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moredread/pkgs/mididings/default.nix#L64",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moredread/pkgs/mididings/default.nix#L63",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -521249,15 +521394,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-mididings-unstable-20250818",
+        "name": "python3.14-mididings-20260601",
         "outputName": "out",
         "outputs": {
             "dist": null,
             "out": null
         },
-        "pname": "python3.14-mididings-unstable",
+        "pname": "python3.14-mididings",
         "system": "x86_64-linux",
-        "version": "20250818",
+        "version": "20260601",
         "_attr": "mididings",
         "_repo": "moredread"
     },
@@ -572338,7 +572483,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/ks/ksh93/package.nix",
                 "line": 93
             },
-            "name": "ksh93-1.0.10-unstable-2026-10-27",
+            "name": "ksh93-1.0.10-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -572408,14 +572553,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ksh93-1.0.10-unstable-2026-10-27",
+        "name": "ksh93-1.0.10-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ksh93",
         "system": "x86_64-linux",
-        "version": "1.0.10-unstable-2026-10-27",
+        "version": "1.0.10-unstable-2026-10-29",
         "_attr": "ksh93",
         "_repo": "prince213"
     },
@@ -751606,7 +751751,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/narumiruna/pi-extensions/blob/@narumitw/pi-usage@0.68.3/packages/pi-usage/CHANGELOG.md",
+            "changelog": "https://github.com/narumiruna/pi-extensions/blob/@narumitw/pi-usage@0.68.4/packages/pi-usage/CHANGELOG.md",
             "description": "Pi extension that shows current-account usage and DeepSeek API balance for supported providers",
             "downloadPage": "https://github.com/narumiruna/pi-extensions/releases",
             "homepage": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-usage",
@@ -751669,7 +751814,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/na/narumitw-pi-usage/package.nix",
                 "line": 48
             },
-            "name": "narumitw-pi-usage-0.68.3",
+            "name": "narumitw-pi-usage-0.68.4",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -751715,14 +751860,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "narumitw-pi-usage-0.68.3",
+        "name": "narumitw-pi-usage-0.68.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "narumitw-pi-usage",
         "system": "x86_64-linux",
-        "version": "0.68.3",
+        "version": "0.68.4",
         "_attr": "narumitw-pi-usage",
         "_repo": "prince213"
     },
@@ -752450,7 +752595,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nicobailon/pi-subagents/blob/v0.83.1/CHANGELOG.md",
+            "changelog": "https://github.com/nicobailon/pi-subagents/blob/v0.84.0/CHANGELOG.md",
             "description": "Pi extension for async subagent delegation with truncation, artifacts, and session sharing",
             "downloadPage": "https://github.com/nicobailon/pi-subagents/releases",
             "homepage": "https://github.com/nicobailon/pi-subagents",
@@ -752513,7 +752658,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-subagents/package.nix",
                 "line": 42
             },
-            "name": "pi-subagents-0.83.1",
+            "name": "pi-subagents-0.84.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -752559,14 +752704,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-subagents-0.83.1",
+        "name": "pi-subagents-0.84.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-subagents",
         "system": "x86_64-linux",
-        "version": "0.83.1",
+        "version": "0.84.0",
         "_attr": "pi-subagents",
         "_repo": "prince213"
     },
@@ -752674,7 +752819,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.45.0/CHANGELOG.md",
+            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.46.0/CHANGELOG.md",
             "description": "Web search and content extraction extension for Pi coding agent",
             "downloadPage": "https://github.com/nicobailon/pi-web-access/releases",
             "homepage": "https://github.com/nicobailon/pi-web-access",
@@ -752737,7 +752882,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-web-access/package.nix",
                 "line": 33
             },
-            "name": "pi-web-access-0.45.0",
+            "name": "pi-web-access-0.46.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -752783,14 +752928,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.45.0",
+        "name": "pi-web-access-0.46.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.45.0",
+        "version": "0.46.0",
         "_attr": "pi-web-access",
         "_repo": "prince213"
     },
@@ -754299,7 +754444,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/tmustier/pi-extensions/blob/usage-extension/v0.10.0/usage-extension/CHANGELOG.md",
+            "changelog": "https://github.com/tmustier/pi-extensions/blob/usage-extension/v0.10.1/usage-extension/CHANGELOG.md",
             "description": "Usage statistics dashboard for Pi sessions",
             "downloadPage": "https://github.com/tmustier/pi-extensions/releases",
             "homepage": "https://github.com/tmustier/pi-extensions/tree/main/usage-extension",
@@ -754362,7 +754507,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/tm/tmustier-pi-usage-extension/package.nix",
                 "line": 35
             },
-            "name": "tmustier-pi-usage-extension-0.10.0",
+            "name": "tmustier-pi-usage-extension-0.10.1",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -754385,14 +754530,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tmustier-pi-usage-extension-0.10.0",
+        "name": "tmustier-pi-usage-extension-0.10.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tmustier-pi-usage-extension",
         "system": "x86_64-linux",
-        "version": "0.10.0",
+        "version": "0.10.1",
         "_attr": "tmustier-pi-usage-extension",
         "_repo": "prince213"
     },
