@@ -287383,6 +287383,125 @@
         "_attr": "openrct2",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.opentubex": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Highly customizable, open-source YouTube client with privacy in mind",
+            "homepage": "https://opentubex.org",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "opentubex",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "opentubex",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "mainProgram": "opentubex",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/opentubex/default.nix",
+                "line": 60
+            },
+            "name": "opentubex-0.37.1-beta",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/opentubex/default.nix#L56",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "opentubex-0.37.1-beta",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "opentubex",
+        "system": "x86_64-linux",
+        "version": "0.37.1-beta",
+        "_attr": "opentubex",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.orb": {
         "meta": {
             "available": true,
@@ -1020203,7 +1020322,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/trev/packages/duckdb/default.nix",
-                "line": 603
+                "line": 623
             },
             "name": "duckdb-2.0.0",
             "nonTeamMaintainers": [
@@ -1020298,7 +1020417,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/duckdb/default.nix#L599",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/duckdb/default.nix#L619",
             "problems": {},
             "unfree": false,
             "unsupported": false
