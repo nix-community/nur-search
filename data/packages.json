@@ -30147,7 +30147,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/GriefNorth/pkgs/ps5upload/default.nix",
                 "line": 97
             },
-            "name": "ps5upload-9.4.1",
+            "name": "ps5upload-9.5.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -30172,14 +30172,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ps5upload-9.4.1",
+        "name": "ps5upload-9.5.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ps5upload",
         "system": "x86_64-linux",
-        "version": "9.4.1",
+        "version": "9.5.3",
         "_attr": "ps5upload",
         "_repo": "GriefNorth"
     },
@@ -87235,7 +87235,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/af-nur/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1021.22027",
+            "name": "chatgpt-26.1027.30824",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -87260,14 +87260,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1021.22027",
+        "name": "chatgpt-26.1027.30824",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1021.22027",
+        "version": "26.1027.30824",
         "_attr": "chatgpt",
         "_repo": "af-nur"
     },
@@ -87322,7 +87322,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/af-nur/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1021.22027",
+            "name": "chatgpt-26.1027.30824",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -87347,14 +87347,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-wayland-26.1021.22027",
+        "name": "chatgpt-wayland-26.1027.30824",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt-wayland",
         "system": "x86_64-linux",
-        "version": "26.1021.22027",
+        "version": "26.1027.30824",
         "_attr": "chatgpt-wayland",
         "_repo": "af-nur"
     },
@@ -258120,7 +258120,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dslt/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1021.22027",
+            "name": "chatgpt-26.1027.30824",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -258145,14 +258145,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1021.22027",
+        "name": "chatgpt-26.1027.30824",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1021.22027",
+        "version": "26.1027.30824",
         "_attr": "chatgpt",
         "_repo": "dslt"
     },
@@ -258207,7 +258207,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dslt/pkgs/chatgpt/default.nix",
                 "line": 106
             },
-            "name": "chatgpt-26.1021.22027",
+            "name": "chatgpt-26.1027.30824",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -258232,14 +258232,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-wayland-26.1021.22027",
+        "name": "chatgpt-wayland-26.1027.30824",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt-wayland",
         "system": "x86_64-linux",
-        "version": "26.1021.22027",
+        "version": "26.1027.30824",
         "_attr": "chatgpt-wayland",
         "_repo": "dslt"
     },
@@ -280920,8 +280920,8 @@
                 "out"
             ],
             "platforms": [
-                "aarch64-linux",
-                "aarch64-darwin"
+                "aarch64-darwin",
+                "aarch64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/armsx2/default.nix#L13",
             "problems": {},
@@ -283172,6 +283172,102 @@
         "system": "x86_64-linux",
         "version": "0.18.0",
         "_attr": "effectcraft",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.elixiroffice": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open source office suite for users used to MS Office",
+            "homepage": "https://github.com/leag1234/ElixirOffice",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "elixiroffice",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "elixiroffice",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "mainProgram": "elixiroffice",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/elixiroffice/default.nix",
+                "line": 16
+            },
+            "name": "elixiroffice-0.6.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/elixiroffice/default.nix#L14",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "elixiroffice-0.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "elixiroffice",
+        "system": "x86_64-linux",
+        "version": "0.6.0",
+        "_attr": "elixiroffice",
         "_repo": "forkprince"
     },
     "nur.repos.forkprince.equibop": {
@@ -286022,8 +286118,8 @@
                 "out"
             ],
             "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin"
+                "aarch64-darwin",
+                "x86_64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/hytale/default.nix#L97",
             "problems": {},
@@ -289659,7 +289755,6 @@
             ],
             "platforms": [
                 "aarch64-darwin",
-                "x86_64-darwin",
                 "x86_64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/osu-tachyon/default.nix#L36",
@@ -1153523,7 +1153618,7 @@
             "longDescription": "Beeper is a universal chat app. With Beeper, you can send\nand receive messages to friends, family and colleagues on\nmany different chat networks.\n",
             "mainProgram": "beeper",
             "maintainers": [],
-            "name": "beeper-4.3.229",
+            "name": "beeper-4.3.264",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1153547,14 +1153642,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-4.3.229",
+        "name": "beeper-4.3.264",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper",
         "system": "x86_64-linux",
-        "version": "4.3.229",
+        "version": "4.3.264",
         "_attr": "beeper",
         "_repo": "ymstnt"
     },
