@@ -188927,6 +188927,1400 @@
         "_attr": "zhuque",
         "_repo": "ccicnce113424"
     },
+    "nur.repos.charmbracelet.charm": {
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "The Charm Tool and Library \ud83c\udf1f (deprecated: will be removed July 2026)",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "charm",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "charm",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "charm-0.12.6",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/charm/default.nix#L49",
+            "problems": {
+                "broken": {
+                    "kind": "broken",
+                    "message": "This package is broken."
+                },
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "charm-0.12.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "charm",
+        "system": "x86_64-linux",
+        "version": "0.12.6",
+        "_attr": "charm",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.charmtone": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A command line tool for rendering the CharmTone color palette.",
+            "homepage": "https://charm.land/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "charmtone",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "charmtone",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [],
+            "name": "charmtone-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/charmtone/default.nix#L57",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "charmtone-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "charmtone",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "charmtone",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.confettysh": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Confetty over SSH",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "confettysh",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "confettysh",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "confettysh-1.1.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/confettysh/default.nix#L55",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "confettysh-1.1.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "confettysh",
+        "system": "x86_64-linux",
+        "version": "1.1.2",
+        "_attr": "confettysh",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.crush": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal.",
+            "homepage": "https://charm.sh/crush",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "crush",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "crush",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Functional Source License, Version 1.1, MIT Future License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "fsl11Mit",
+                "spdxId": "FSL-1.1-MIT",
+                "url": "https://spdx.org/licenses/FSL-1.1-MIT.html"
+            },
+            "maintainers": [],
+            "name": "crush-0.99.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/crush/default.nix#L59",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "crush-0.99.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "crush",
+        "system": "x86_64-linux",
+        "version": "0.99.0",
+        "_attr": "crush",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.freeze": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Generate images of code and terminal output.",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "freeze",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "freeze",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "freeze-0.2.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/freeze/default.nix#L55",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "freeze-0.2.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "freeze",
+        "system": "x86_64-linux",
+        "version": "0.2.2",
+        "_attr": "freeze",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.glow": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Render markdown on the CLI, with pizzazz!",
+            "homepage": "https://charm.land/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "glow",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "glow",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "glow-3.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/glow/default.nix#L57",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "glow-3.0.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "glow",
+        "system": "x86_64-linux",
+        "version": "3.0.0",
+        "_attr": "glow",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.gum": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A tool for glamorous shell scripts",
+            "homepage": "https://charm.land/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gum",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gum",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "gum-2.0.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/gum/default.nix#L62",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gum-2.0.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gum",
+        "system": "x86_64-linux",
+        "version": "2.0.2",
+        "_attr": "gum",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.markscribe": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Your personal markdown scribe with template-engine and Git(Hub) & RSS powers",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "markscribe",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "markscribe",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "markscribe-0.8.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/markscribe/default.nix#L55",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "markscribe-0.8.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "markscribe",
+        "system": "x86_64-linux",
+        "version": "0.8.1",
+        "_attr": "markscribe",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.melt": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Backup and restore Ed25519 SSH keys with seed words",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "melt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "melt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "melt-0.6.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/melt/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "melt-0.6.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "melt",
+        "system": "x86_64-linux",
+        "version": "0.6.2",
+        "_attr": "melt",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.mods": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AI on the command line",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mods",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mods",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "mods-1.8.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/mods/default.nix#L57",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mods-1.8.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mods",
+        "system": "x86_64-linux",
+        "version": "1.8.1",
+        "_attr": "mods",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.pop": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Send emails from your terminal. \ud83d\udcec",
+            "homepage": "https://charm.land/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pop",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pop",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "pop-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/pop/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pop-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pop",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "pop",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.sequin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Human-readable ANSI sequences.",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sequin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sequin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "sequin-0.3.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/sequin/default.nix#L55",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sequin-0.3.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sequin",
+        "system": "x86_64-linux",
+        "version": "0.3.1",
+        "_attr": "sequin",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.skate": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A personal key value store \ud83d\udefc",
+            "homepage": "https://charm.land/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "skate",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "skate",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "skate-1.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/skate/default.nix#L57",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "skate-1.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "skate",
+        "system": "x86_64-linux",
+        "version": "1.1.0",
+        "_attr": "skate",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.soft-serve": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A tasty, self-hostable Git server for the command line\ud83c\udf66",
+            "homepage": "https://charm.land/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "soft-serve",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "soft-serve",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "soft-serve-0.12.4",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/soft-serve/default.nix#L59",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "soft-serve-0.12.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "soft-serve",
+        "system": "x86_64-linux",
+        "version": "0.12.4",
+        "_attr": "soft-serve",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.vhs": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A tool for recording terminal GIFs",
+            "homepage": "https://charm.land/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vhs",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vhs",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "vhs-0.12.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/vhs/default.nix#L64",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vhs-0.12.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vhs",
+        "system": "x86_64-linux",
+        "version": "0.12.1",
+        "_attr": "vhs",
+        "_repo": "charmbracelet"
+    },
+    "nur.repos.charmbracelet.wishlist": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The SSH directory",
+            "homepage": "https://charm.sh/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "wishlist",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "wishlist",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "wishlist-0.15.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/charmbracelet/pkgs/wishlist/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "wishlist-0.15.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "wishlist",
+        "system": "x86_64-linux",
+        "version": "0.15.2",
+        "_attr": "wishlist",
+        "_repo": "charmbracelet"
+    },
     "nur.repos.chekist32.datamodeler": {
         "meta": {
             "available": false,
@@ -512106,6 +513500,138 @@
         "_attr": "opencode-telegram-bot",
         "_repo": "moraxyc"
     },
+    "nur.repos.moraxyc.pi-ast-sgrep": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Native structural, graph, and semantic code search for the Pi coding agent",
+            "homepage": "https://github.com/AdityaVG13/ast-sgrep/tree/main/packages/pi/extension",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pi-ast-sgrep",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pi-ast-sgrep",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-ast-sgrep/package.nix",
+                "line": 77
+            },
+            "name": "pi-ast-sgrep-2.6.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-ast-sgrep/package.nix#L74",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pi-ast-sgrep-2.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pi-ast-sgrep",
+        "system": "x86_64-linux",
+        "version": "2.6.0",
+        "_attr": "pi-ast-sgrep",
+        "_repo": "moraxyc"
+    },
     "nur.repos.moraxyc.pi-cliproxyapi-provider": {
         "meta": {
             "available": true,
@@ -551283,7 +552809,7 @@
             },
             "mainProgram": "icebath",
             "maintainers": [],
-            "name": "icebath-1.0.10",
+            "name": "icebath-1.0.11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -551310,14 +552836,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "icebath-1.0.10",
+        "name": "icebath-1.0.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "icebath",
         "system": "x86_64-linux",
-        "version": "1.0.10",
+        "version": "1.0.11",
         "_attr": "icebath",
         "_repo": "nickheyer"
     },
