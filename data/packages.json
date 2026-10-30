@@ -533887,6 +533887,60 @@
         "_attr": "mqziti",
         "_repo": "nagy"
     },
+    "nur.repos.nagy.my-build-env": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "my-build-env",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/by-name/my-build-env.nix#L163",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "my-build-env",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "my-build-env",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "my-build-env",
+        "_repo": "nagy"
+    },
     "nur.repos.nagy.nanoid-cli": {
         "meta": {
             "available": true,
@@ -1038296,7 +1038350,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/beellama-cpp/default.nix",
                 "line": 115
             },
-            "name": "beellama-cpp-0.4.8",
+            "name": "beellama-cpp-0.4.9",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1038368,14 +1038422,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "beellama-cpp-0.4.8",
+        "name": "beellama-cpp-0.4.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beellama-cpp",
         "system": "x86_64-linux",
-        "version": "0.4.8",
+        "version": "0.4.9",
         "_attr": "beellama-cpp",
         "_repo": "xddxdd"
     },
@@ -1038450,7 +1038504,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/beellama-cpp/default.nix",
                 "line": 115
             },
-            "name": "beellama-cpp-0.4.8",
+            "name": "beellama-cpp-0.4.9",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1038522,14 +1038576,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "beellama-cpp-0.4.8",
+        "name": "beellama-cpp-0.4.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beellama-cpp",
         "system": "x86_64-linux",
-        "version": "0.4.8",
+        "version": "0.4.9",
         "_attr": "beellama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1038537,7 +1038591,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.3.2",
+            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.4.0",
             "description": "High-performance AI gateway with unified OpenAI-compatible API",
             "homepage": "https://github.com/maximhq/bifrost",
             "identifiers": {
@@ -1038602,7 +1038656,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/bifrost/default.nix",
                 "line": 55
             },
-            "name": "bifrost-2.3.2",
+            "name": "bifrost-2.4.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1038659,14 +1038713,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bifrost-2.3.2",
+        "name": "bifrost-2.4.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bifrost",
         "system": "x86_64-linux",
-        "version": "2.3.2",
+        "version": "2.4.0",
         "_attr": "bifrost",
         "_repo": "xddxdd"
     },
@@ -1038788,7 +1038842,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/HanabishiRecca/bin-cpuflags-x86/releases/tag/v1.0.9",
+            "changelog": "https://github.com/HanabishiRecca/bin-cpuflags-x86/releases/tag/v1.0.10",
             "description": "Small CLI tool to detect CPU flags (instruction sets) of X86 binaries",
             "homepage": "https://github.com/HanabishiRecca/bin-cpuflags-x86",
             "identifiers": {
@@ -1038853,7 +1038907,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/bin-cpuflags-x86/default.nix",
                 "line": 27
             },
-            "name": "bin-cpuflags-x86-1.0.9",
+            "name": "bin-cpuflags-x86-1.0.10",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1038918,14 +1038972,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bin-cpuflags-x86-1.0.9",
+        "name": "bin-cpuflags-x86-1.0.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bin-cpuflags-x86",
         "system": "x86_64-linux",
-        "version": "1.0.9",
+        "version": "1.0.10",
         "_attr": "bin-cpuflags-x86",
         "_repo": "xddxdd"
     },
@@ -1040427,7 +1040481,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.45",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.47",
             "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1040492,7 +1040546,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/cliproxyapi/default.nix",
                 "line": 32
             },
-            "name": "cliproxyapi-8.0.45",
+            "name": "cliproxyapi-8.0.47",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1040543,14 +1040597,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.45",
+        "name": "cliproxyapi-8.0.47",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.45",
+        "version": "8.0.47",
         "_attr": "cliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1043280,7 +1043334,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.55",
+            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.59-ui-polish.1",
             "description": "Desktop GUI for managing CLIProxyAPI and configuring AI agent clients",
             "homepage": "https://github.com/router-for-me/EasyCLIProxyAPI",
             "identifiers": {
@@ -1043345,7 +1043399,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/easycliproxyapi/default.nix",
                 "line": 129
             },
-            "name": "easycliproxyapi-0.3.55",
+            "name": "easycliproxyapi-0.3.59-ui-polish.1",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1043391,14 +1043445,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "easycliproxyapi-0.3.55",
+        "name": "easycliproxyapi-0.3.59-ui-polish.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "easycliproxyapi",
         "system": "x86_64-linux",
-        "version": "0.3.55",
+        "version": "0.3.59-ui-polish.1",
         "_attr": "easycliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1046014,7 +1046068,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/funasr/default.nix",
                 "line": 93
             },
-            "name": "python3.14-funasr-1.4.16-unstable-2026-10-27",
+            "name": "python3.14-funasr-1.4.17-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1046072,7 +1046126,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-funasr-1.4.16-unstable-2026-10-27",
+        "name": "python3.14-funasr-1.4.17-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1046080,7 +1046134,7 @@
         },
         "pname": "python3.14-funasr",
         "system": "x86_64-linux",
-        "version": "1.4.16-unstable-2026-10-27",
+        "version": "1.4.17-unstable-2026-10-29",
         "_attr": "funasr",
         "_repo": "xddxdd"
     },
@@ -1046151,7 +1046205,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/geolite2/default.nix",
                 "line": 45
             },
-            "name": "geolite2-2026.10.25",
+            "name": "geolite2-2026.10.28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1046176,14 +1046230,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "geolite2-2026.10.25",
+        "name": "geolite2-2026.10.28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "geolite2",
         "system": "x86_64-linux",
-        "version": "2026.10.25",
+        "version": "2026.10.28",
         "_attr": "geolite2",
         "_repo": "xddxdd"
     },
@@ -1046713,7 +1046767,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/gpu-unlock/default.nix",
                 "line": 41
             },
-            "name": "gpu-unlock-unraid-unstable-2026-10-27",
+            "name": "gpu-unlock-unraid-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1046741,14 +1046795,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gpu-unlock-unraid-unstable-2026-10-27",
+        "name": "gpu-unlock-unraid-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gpu-unlock-unraid-unstable",
         "system": "x86_64-linux",
-        "version": "2026-10-27",
+        "version": "2026-10-28",
         "_attr": "gpu-unlock",
         "_repo": "xddxdd"
     },
@@ -1048065,7 +1048119,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/i915-sriov/default.nix",
                 "line": 41
             },
-            "name": "i915-sriov-2026.09.16-unstable-2026-10-02",
+            "name": "i915-sriov-2026.10.28-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1048093,14 +1048147,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "i915-sriov-2026.09.16-unstable-2026-10-02",
+        "name": "i915-sriov-2026.10.28-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "i915-sriov",
         "system": "x86_64-linux",
-        "version": "2026.09.16-unstable-2026-10-02",
+        "version": "2026.10.28-unstable-2026-10-28",
         "_attr": "i915-sriov",
         "_repo": "xddxdd"
     },
@@ -1048303,7 +1048357,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1048375,14 +1048429,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "ik-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1048454,7 +1048508,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1048526,14 +1048580,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "ik-llama-cpp-avx",
         "_repo": "xddxdd"
     },
@@ -1048605,7 +1048659,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1048677,14 +1048731,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "ik-llama-cpp-avx2",
         "_repo": "xddxdd"
     },
@@ -1048759,7 +1048813,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1048831,14 +1048885,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "ik-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1050713,7 +1050767,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/gpu-unlock/default.nix",
                 "line": 41
             },
-            "name": "gpu-unlock-unraid-unstable-2026-10-27",
+            "name": "gpu-unlock-unraid-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1050741,14 +1050795,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gpu-unlock-unraid-unstable-2026-10-27",
+        "name": "gpu-unlock-unraid-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gpu-unlock-unraid-unstable",
         "system": "x86_64-linux",
-        "version": "2026-10-27",
+        "version": "2026-10-28",
         "_attr": "kernel-modules.gpu-unlock",
         "_repo": "xddxdd"
     },
@@ -1050819,7 +1050873,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/i915-sriov/default.nix",
                 "line": 41
             },
-            "name": "i915-sriov-2026.09.16-unstable-2026-10-02",
+            "name": "i915-sriov-2026.10.28-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1050847,14 +1050901,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "i915-sriov-2026.09.16-unstable-2026-10-02",
+        "name": "i915-sriov-2026.10.28-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "i915-sriov",
         "system": "x86_64-linux",
-        "version": "2026.09.16-unstable-2026-10-02",
+        "version": "2026.10.28-unstable-2026-10-28",
         "_attr": "kernel-modules.i915-sriov",
         "_repo": "xddxdd"
     },
@@ -1051587,7 +1051641,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-27",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-28",
             "description": "Sipwise media proxy for Kamailio (kernel module)",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1051651,7 +1051705,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/xt_rtpengine/default.nix",
                 "line": 54
             },
-            "name": "xt_rtpengine-0-unstable-2026-10-27",
+            "name": "xt_rtpengine-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1051702,14 +1051756,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xt_rtpengine-0-unstable-2026-10-27",
+        "name": "xt_rtpengine-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "xt_rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-28",
         "_attr": "kernel-modules.xt_rtpengine",
         "_repo": "xddxdd"
     },
@@ -1054868,7 +1054922,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-27",
+            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-29",
             "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
             "homepage": "https://openquantumsafe.org",
             "identifiers": {
@@ -1054934,7 +1054988,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/liboqs/unstable.nix",
                 "line": 53
             },
-            "name": "liboqs-0-unstable-2026-10-27",
+            "name": "liboqs-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1054959,14 +1055013,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "liboqs-0-unstable-2026-10-27",
+        "name": "liboqs-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "liboqs",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "liboqs-unstable",
         "_repo": "xddxdd"
     },
@@ -1055939,7 +1055993,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/mages-bin/default.nix",
                 "line": 41
             },
-            "name": "mages-bin-5.2.7",
+            "name": "mages-bin-5.2.8",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1055974,14 +1056028,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mages-bin-5.2.7",
+        "name": "mages-bin-5.2.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mages-bin",
         "system": "x86_64-linux",
-        "version": "5.2.7",
+        "version": "5.2.8",
         "_attr": "mages-bin",
         "_repo": "xddxdd"
     },
@@ -1056837,7 +1056891,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/modelscope/modelscope_hub/releases/tag/0.5.1",
+            "changelog": "https://github.com/modelscope/modelscope_hub/releases/tag/0.6.0",
             "description": "Official Python client to connect with ModelScope Hub",
             "homepage": "https://github.com/modelscope/modelscope_hub",
             "identifiers": {
@@ -1056937,7 +1056991,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/modelscope-hub/default.nix",
                 "line": 42
             },
-            "name": "python3.14-modelscope-hub-0.5.1",
+            "name": "python3.14-modelscope-hub-0.6.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1056995,7 +1057049,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-modelscope-hub-0.5.1",
+        "name": "python3.14-modelscope-hub-0.6.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1057003,7 +1057057,7 @@
         },
         "pname": "python3.14-modelscope-hub",
         "system": "x86_64-linux",
-        "version": "0.5.1",
+        "version": "0.6.0",
         "_attr": "modelscope-hub",
         "_repo": "xddxdd"
     },
@@ -1059950,7 +1060004,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/oidc-tester-app/default.nix",
                 "line": 27
             },
-            "name": "oidc-tester-app-0-unstable-2026-10-27",
+            "name": "oidc-tester-app-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1060007,14 +1060061,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oidc-tester-app-0-unstable-2026-10-27",
+        "name": "oidc-tester-app-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oidc-tester-app",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-28",
         "_attr": "oidc-tester-app",
         "_repo": "xddxdd"
     },
@@ -1098971,7 +1099025,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/openssl-oqs-provider/default.nix",
                 "line": 62
             },
-            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-25",
+            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1098996,14 +1099050,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-25",
+        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "openssl-oqs-provider",
         "system": "x86_64-linux",
-        "version": "0.12.0-unstable-2026-10-25",
+        "version": "0.12.0-unstable-2026-10-29",
         "_attr": "openssl-oqs-provider",
         "_repo": "xddxdd"
     },
@@ -1099392,7 +1099446,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Ghost-chu/PeerBanHelper/releases/tag/9.5.1",
+            "changelog": "https://github.com/Ghost-chu/PeerBanHelper/releases/tag/9.5.3",
             "description": "Automatically bans unwanted, leeching, and anomalous BT clients, with support for custom rules for qBittorrent and Transmission",
             "homepage": "https://github.com/Ghost-chu/PeerBanHelper",
             "identifiers": {
@@ -1099457,7 +1099511,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/peerbanhelper/default.nix",
                 "line": 41
             },
-            "name": "peerbanhelper-9.5.1",
+            "name": "peerbanhelper-9.5.3",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1099482,14 +1099536,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "peerbanhelper-9.5.1",
+        "name": "peerbanhelper-9.5.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "peerbanhelper",
         "system": "x86_64-linux",
-        "version": "9.5.1",
+        "version": "9.5.3",
         "_attr": "peerbanhelper",
         "_repo": "xddxdd"
     },
@@ -1099768,7 +1099822,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/pi-web/default.nix",
                 "line": 55
             },
-            "name": "pi-web-0.12.2",
+            "name": "pi-web-0.13.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1099819,14 +1099873,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-0.12.2",
+        "name": "pi-web-0.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web",
         "system": "x86_64-linux",
-        "version": "0.12.2",
+        "version": "0.13.0",
         "_attr": "pi-web",
         "_repo": "xddxdd"
     },
@@ -1100464,7 +1100518,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/prismml-llama-cpp/default.nix",
                 "line": 120
             },
-            "name": "prismml-llama-cpp-b10826-c9c34bc",
+            "name": "prismml-llama-cpp-b10831-9d9efea",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1100536,14 +1100590,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "prismml-llama-cpp-b10826-c9c34bc",
+        "name": "prismml-llama-cpp-b10831-9d9efea",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "prismml-llama-cpp-b10826-c9c34bc",
+        "pname": "prismml-llama-cpp-b10831",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "9d9efea",
         "_attr": "prismml-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1100618,7 +1100672,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/prismml-llama-cpp/default.nix",
                 "line": 120
             },
-            "name": "prismml-llama-cpp-b10826-c9c34bc",
+            "name": "prismml-llama-cpp-b10831-9d9efea",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1100690,14 +1100744,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "prismml-llama-cpp-b10826-c9c34bc",
+        "name": "prismml-llama-cpp-b10831-9d9efea",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "prismml-llama-cpp-b10826-c9c34bc",
+        "pname": "prismml-llama-cpp-b10831",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "9d9efea",
         "_attr": "prismml-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1101077,7 +1101131,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/pyhss/default.nix",
                 "line": 87
             },
-            "name": "pyhss-2.0.1-unstable-2026-10-27",
+            "name": "pyhss-2.0.1-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1101102,14 +1101156,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pyhss-2.0.1-unstable-2026-10-27",
+        "name": "pyhss-2.0.1-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pyhss",
         "system": "x86_64-linux",
-        "version": "2.0.1-unstable-2026-10-27",
+        "version": "2.0.1-unstable-2026-10-28",
         "_attr": "pyhss",
         "_repo": "xddxdd"
     },
@@ -1103116,7 +1103170,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/funasr/default.nix",
                 "line": 93
             },
-            "name": "python3.14-funasr-1.4.16-unstable-2026-10-27",
+            "name": "python3.14-funasr-1.4.17-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1103174,7 +1103228,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-funasr-1.4.16-unstable-2026-10-27",
+        "name": "python3.14-funasr-1.4.17-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1103182,7 +1103236,7 @@
         },
         "pname": "python3.14-funasr",
         "system": "x86_64-linux",
-        "version": "1.4.16-unstable-2026-10-27",
+        "version": "1.4.17-unstable-2026-10-29",
         "_attr": "python3Packages.funasr",
         "_repo": "xddxdd"
     },
@@ -1104057,7 +1104111,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/modelscope/modelscope_hub/releases/tag/0.5.1",
+            "changelog": "https://github.com/modelscope/modelscope_hub/releases/tag/0.6.0",
             "description": "Official Python client to connect with ModelScope Hub",
             "homepage": "https://github.com/modelscope/modelscope_hub",
             "identifiers": {
@@ -1104157,7 +1104211,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/modelscope-hub/default.nix",
                 "line": 42
             },
-            "name": "python3.14-modelscope-hub-0.5.1",
+            "name": "python3.14-modelscope-hub-0.6.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1104215,7 +1104269,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-modelscope-hub-0.5.1",
+        "name": "python3.14-modelscope-hub-0.6.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1104223,7 +1104277,7 @@
         },
         "pname": "python3.14-modelscope-hub",
         "system": "x86_64-linux",
-        "version": "0.5.1",
+        "version": "0.6.0",
         "_attr": "python3Packages.modelscope-hub",
         "_repo": "xddxdd"
     },
@@ -1108761,7 +1108815,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/rime-dict/default.nix",
                 "line": 32
             },
-            "name": "rime-dict-0-unstable-2026-03-14",
+            "name": "rime-dict-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1108786,14 +1108840,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "rime-dict-0-unstable-2026-03-14",
+        "name": "rime-dict-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-dict",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-03-14",
+        "version": "0-unstable-2026-10-28",
         "_attr": "rime-dict",
         "_repo": "xddxdd"
     },
@@ -1109412,7 +1109466,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-27",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-28",
             "description": "Sipwise media proxy for Kamailio",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1109477,7 +1109531,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/rtpengine/default.nix",
                 "line": 89
             },
-            "name": "rtpengine-0-unstable-2026-10-27",
+            "name": "rtpengine-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1109502,14 +1109556,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rtpengine-0-unstable-2026-10-27",
+        "name": "rtpengine-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-28",
         "_attr": "rtpengine",
         "_repo": "xddxdd"
     },
@@ -1111200,7 +1111254,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
                 "line": 162
             },
-            "name": "strata-0.2.7",
+            "name": "strata-0.2.8",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1111251,14 +1111305,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "strata-runtime-0.2.7",
+        "name": "strata-runtime-0.2.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "strata-runtime",
         "system": "x86_64-linux",
-        "version": "0.2.7",
+        "version": "0.2.8",
         "_attr": "strata",
         "_repo": "xddxdd"
     },
@@ -1114243,7 +1114297,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/beellama-cpp/default.nix",
                 "line": 115
             },
-            "name": "beellama-cpp-0.4.8",
+            "name": "beellama-cpp-0.4.9",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1114315,14 +1114369,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "beellama-cpp-0.4.8",
+        "name": "beellama-cpp-0.4.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beellama-cpp",
         "system": "x86_64-linux",
-        "version": "0.4.8",
+        "version": "0.4.9",
         "_attr": "uncategorized.beellama-cpp",
         "_repo": "xddxdd"
     },
@@ -1114397,7 +1114451,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/beellama-cpp/default.nix",
                 "line": 115
             },
-            "name": "beellama-cpp-0.4.8",
+            "name": "beellama-cpp-0.4.9",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1114469,14 +1114523,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "beellama-cpp-0.4.8",
+        "name": "beellama-cpp-0.4.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beellama-cpp",
         "system": "x86_64-linux",
-        "version": "0.4.8",
+        "version": "0.4.9",
         "_attr": "uncategorized.beellama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1114484,7 +1114538,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.3.2",
+            "changelog": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.4.0",
             "description": "High-performance AI gateway with unified OpenAI-compatible API",
             "homepage": "https://github.com/maximhq/bifrost",
             "identifiers": {
@@ -1114549,7 +1114603,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/bifrost/default.nix",
                 "line": 55
             },
-            "name": "bifrost-2.3.2",
+            "name": "bifrost-2.4.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1114606,14 +1114660,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bifrost-2.3.2",
+        "name": "bifrost-2.4.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bifrost",
         "system": "x86_64-linux",
-        "version": "2.3.2",
+        "version": "2.4.0",
         "_attr": "uncategorized.bifrost",
         "_repo": "xddxdd"
     },
@@ -1114735,7 +1114789,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/HanabishiRecca/bin-cpuflags-x86/releases/tag/v1.0.9",
+            "changelog": "https://github.com/HanabishiRecca/bin-cpuflags-x86/releases/tag/v1.0.10",
             "description": "Small CLI tool to detect CPU flags (instruction sets) of X86 binaries",
             "homepage": "https://github.com/HanabishiRecca/bin-cpuflags-x86",
             "identifiers": {
@@ -1114800,7 +1114854,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/bin-cpuflags-x86/default.nix",
                 "line": 27
             },
-            "name": "bin-cpuflags-x86-1.0.9",
+            "name": "bin-cpuflags-x86-1.0.10",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1114865,14 +1114919,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bin-cpuflags-x86-1.0.9",
+        "name": "bin-cpuflags-x86-1.0.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bin-cpuflags-x86",
         "system": "x86_64-linux",
-        "version": "1.0.9",
+        "version": "1.0.10",
         "_attr": "uncategorized.bin-cpuflags-x86",
         "_repo": "xddxdd"
     },
@@ -1116201,7 +1116255,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.45",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.47",
             "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1116266,7 +1116320,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/cliproxyapi/default.nix",
                 "line": 32
             },
-            "name": "cliproxyapi-8.0.45",
+            "name": "cliproxyapi-8.0.47",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1116317,14 +1116371,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.45",
+        "name": "cliproxyapi-8.0.47",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.45",
+        "version": "8.0.47",
         "_attr": "uncategorized.cliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1117484,7 +1117538,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.55",
+            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.59-ui-polish.1",
             "description": "Desktop GUI for managing CLIProxyAPI and configuring AI agent clients",
             "homepage": "https://github.com/router-for-me/EasyCLIProxyAPI",
             "identifiers": {
@@ -1117549,7 +1117603,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/easycliproxyapi/default.nix",
                 "line": 129
             },
-            "name": "easycliproxyapi-0.3.55",
+            "name": "easycliproxyapi-0.3.59-ui-polish.1",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1117595,14 +1117649,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "easycliproxyapi-0.3.55",
+        "name": "easycliproxyapi-0.3.59-ui-polish.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "easycliproxyapi",
         "system": "x86_64-linux",
-        "version": "0.3.55",
+        "version": "0.3.59-ui-polish.1",
         "_attr": "uncategorized.easycliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1119879,7 +1119933,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/geolite2/default.nix",
                 "line": 45
             },
-            "name": "geolite2-2026.10.25",
+            "name": "geolite2-2026.10.28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1119904,14 +1119958,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "geolite2-2026.10.25",
+        "name": "geolite2-2026.10.28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "geolite2",
         "system": "x86_64-linux",
-        "version": "2026.10.25",
+        "version": "2026.10.28",
         "_attr": "uncategorized.geolite2",
         "_repo": "xddxdd"
     },
@@ -1121819,7 +1121873,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1121891,14 +1121945,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "uncategorized.ik-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1121970,7 +1122024,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1122042,14 +1122096,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "uncategorized.ik-llama-cpp-avx",
         "_repo": "xddxdd"
     },
@@ -1122121,7 +1122175,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1122193,14 +1122247,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "uncategorized.ik-llama-cpp-avx2",
         "_repo": "xddxdd"
     },
@@ -1122275,7 +1122329,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-10-27",
+            "name": "ik-llama-cpp-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1122347,14 +1122401,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-10-27",
+        "name": "ik-llama-cpp-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "uncategorized.ik-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1123953,7 +1124007,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-27",
+            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-10-29",
             "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
             "homepage": "https://openquantumsafe.org",
             "identifiers": {
@@ -1124019,7 +1124073,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/liboqs/unstable.nix",
                 "line": 53
             },
-            "name": "liboqs-0-unstable-2026-10-27",
+            "name": "liboqs-0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1124044,14 +1124098,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "liboqs-0-unstable-2026-10-27",
+        "name": "liboqs-0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "liboqs",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-29",
         "_attr": "uncategorized.liboqs-unstable",
         "_repo": "xddxdd"
     },
@@ -1124852,7 +1124906,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/mages-bin/default.nix",
                 "line": 41
             },
-            "name": "mages-bin-5.2.7",
+            "name": "mages-bin-5.2.8",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1124887,14 +1124941,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mages-bin-5.2.7",
+        "name": "mages-bin-5.2.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mages-bin",
         "system": "x86_64-linux",
-        "version": "5.2.7",
+        "version": "5.2.8",
         "_attr": "uncategorized.mages-bin",
         "_repo": "xddxdd"
     },
@@ -1127148,7 +1127202,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/oidc-tester-app/default.nix",
                 "line": 27
             },
-            "name": "oidc-tester-app-0-unstable-2026-10-27",
+            "name": "oidc-tester-app-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1127205,14 +1127259,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oidc-tester-app-0-unstable-2026-10-27",
+        "name": "oidc-tester-app-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oidc-tester-app",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-28",
         "_attr": "uncategorized.oidc-tester-app",
         "_repo": "xddxdd"
     },
@@ -1127498,7 +1127552,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/openssl-oqs-provider/default.nix",
                 "line": 62
             },
-            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-25",
+            "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1127523,14 +1127577,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-25",
+        "name": "openssl-oqs-provider-0.12.0-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "openssl-oqs-provider",
         "system": "x86_64-linux",
-        "version": "0.12.0-unstable-2026-10-25",
+        "version": "0.12.0-unstable-2026-10-29",
         "_attr": "uncategorized.openssl-oqs-provider",
         "_repo": "xddxdd"
     },
@@ -1127919,7 +1127973,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Ghost-chu/PeerBanHelper/releases/tag/9.5.1",
+            "changelog": "https://github.com/Ghost-chu/PeerBanHelper/releases/tag/9.5.3",
             "description": "Automatically bans unwanted, leeching, and anomalous BT clients, with support for custom rules for qBittorrent and Transmission",
             "homepage": "https://github.com/Ghost-chu/PeerBanHelper",
             "identifiers": {
@@ -1127984,7 +1128038,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/peerbanhelper/default.nix",
                 "line": 41
             },
-            "name": "peerbanhelper-9.5.1",
+            "name": "peerbanhelper-9.5.3",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1128009,14 +1128063,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "peerbanhelper-9.5.1",
+        "name": "peerbanhelper-9.5.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "peerbanhelper",
         "system": "x86_64-linux",
-        "version": "9.5.1",
+        "version": "9.5.3",
         "_attr": "uncategorized.peerbanhelper",
         "_repo": "xddxdd"
     },
@@ -1128295,7 +1128349,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/pi-web/default.nix",
                 "line": 55
             },
-            "name": "pi-web-0.12.2",
+            "name": "pi-web-0.13.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1128346,14 +1128400,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-0.12.2",
+        "name": "pi-web-0.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web",
         "system": "x86_64-linux",
-        "version": "0.12.2",
+        "version": "0.13.0",
         "_attr": "uncategorized.pi-web",
         "_repo": "xddxdd"
     },
@@ -1128991,7 +1129045,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/prismml-llama-cpp/default.nix",
                 "line": 120
             },
-            "name": "prismml-llama-cpp-b10826-c9c34bc",
+            "name": "prismml-llama-cpp-b10831-9d9efea",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1129063,14 +1129117,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "prismml-llama-cpp-b10826-c9c34bc",
+        "name": "prismml-llama-cpp-b10831-9d9efea",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "prismml-llama-cpp-b10826-c9c34bc",
+        "pname": "prismml-llama-cpp-b10831",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "9d9efea",
         "_attr": "uncategorized.prismml-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1129145,7 +1129199,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/prismml-llama-cpp/default.nix",
                 "line": 120
             },
-            "name": "prismml-llama-cpp-b10826-c9c34bc",
+            "name": "prismml-llama-cpp-b10831-9d9efea",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1129217,14 +1129271,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "prismml-llama-cpp-b10826-c9c34bc",
+        "name": "prismml-llama-cpp-b10831-9d9efea",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "prismml-llama-cpp-b10826-c9c34bc",
+        "pname": "prismml-llama-cpp-b10831",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "9d9efea",
         "_attr": "uncategorized.prismml-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1129431,7 +1129485,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/pyhss/default.nix",
                 "line": 87
             },
-            "name": "pyhss-2.0.1-unstable-2026-10-27",
+            "name": "pyhss-2.0.1-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1129456,14 +1129510,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pyhss-2.0.1-unstable-2026-10-27",
+        "name": "pyhss-2.0.1-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pyhss",
         "system": "x86_64-linux",
-        "version": "2.0.1-unstable-2026-10-27",
+        "version": "2.0.1-unstable-2026-10-28",
         "_attr": "uncategorized.pyhss",
         "_repo": "xddxdd"
     },
@@ -1130713,7 +1130767,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/rime-dict/default.nix",
                 "line": 32
             },
-            "name": "rime-dict-0-unstable-2026-03-14",
+            "name": "rime-dict-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1130738,14 +1130792,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "rime-dict-0-unstable-2026-03-14",
+        "name": "rime-dict-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-dict",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-03-14",
+        "version": "0-unstable-2026-10-28",
         "_attr": "uncategorized.rime-dict",
         "_repo": "xddxdd"
     },
@@ -1131191,7 +1131245,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-27",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-28",
             "description": "Sipwise media proxy for Kamailio",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1131256,7 +1131310,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/rtpengine/default.nix",
                 "line": 89
             },
-            "name": "rtpengine-0-unstable-2026-10-27",
+            "name": "rtpengine-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1131281,14 +1131335,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rtpengine-0-unstable-2026-10-27",
+        "name": "rtpengine-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-28",
         "_attr": "uncategorized.rtpengine",
         "_repo": "xddxdd"
     },
@@ -1132287,7 +1132341,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
                 "line": 162
             },
-            "name": "strata-0.2.7",
+            "name": "strata-0.2.8",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1132338,14 +1132392,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "strata-runtime-0.2.7",
+        "name": "strata-runtime-0.2.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "strata-runtime",
         "system": "x86_64-linux",
-        "version": "0.2.7",
+        "version": "0.2.8",
         "_attr": "uncategorized.strata",
         "_repo": "xddxdd"
     },
@@ -1133762,7 +1133816,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/uni-api/default.nix",
                 "line": 27
             },
-            "name": "uni-api-1.7.276-unstable-2026-10-26",
+            "name": "uni-api-1.7.276-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1133827,14 +1133881,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "uni-api-1.7.276-unstable-2026-10-26",
+        "name": "uni-api-1.7.276-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "uni-api",
         "system": "x86_64-linux",
-        "version": "1.7.276-unstable-2026-10-26",
+        "version": "1.7.276-unstable-2026-10-29",
         "_attr": "uncategorized.uni-api",
         "_repo": "xddxdd"
     },
@@ -1135964,7 +1136018,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/uni-api/default.nix",
                 "line": 27
             },
-            "name": "uni-api-1.7.276-unstable-2026-10-26",
+            "name": "uni-api-1.7.276-unstable-2026-10-29",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1136029,14 +1136083,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "uni-api-1.7.276-unstable-2026-10-26",
+        "name": "uni-api-1.7.276-unstable-2026-10-29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "uni-api",
         "system": "x86_64-linux",
-        "version": "1.7.276-unstable-2026-10-26",
+        "version": "1.7.276-unstable-2026-10-29",
         "_attr": "uni-api",
         "_repo": "xddxdd"
     },
@@ -1138439,7 +1138493,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-27",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-10-28",
             "description": "Sipwise media proxy for Kamailio (kernel module)",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1138503,7 +1138557,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/xt_rtpengine/default.nix",
                 "line": 54
             },
-            "name": "xt_rtpengine-0-unstable-2026-10-27",
+            "name": "xt_rtpengine-0-unstable-2026-10-28",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1138554,14 +1138608,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xt_rtpengine-0-unstable-2026-10-27",
+        "name": "xt_rtpengine-0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "xt_rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-28",
         "_attr": "xt_rtpengine",
         "_repo": "xddxdd"
     },
@@ -1159229,7 +1159283,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/linyuan0213/nexus-media/releases/tag/v5.1.0",
+            "changelog": "https://github.com/linyuan0213/nexus-media/releases/tag/v5.2.2",
             "description": "Media library manager with automated downloading, media organization and subscription workflows",
             "homepage": "https://github.com/linyuan0213/nexus-media",
             "identifiers": {
@@ -1159317,7 +1159371,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/nexus-media/default.nix",
                 "line": 228
             },
-            "name": "nexus-media-5.1.0",
+            "name": "nexus-media-5.2.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1159358,7 +1159412,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nexus-media-5.1.0",
+        "name": "nexus-media-5.2.2",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1159366,7 +1159420,7 @@
         },
         "pname": "nexus-media",
         "system": "x86_64-linux",
-        "version": "5.1.0",
+        "version": "5.2.2",
         "_attr": "nexus-media",
         "_repo": "zhyiheihei"
     },
@@ -1159374,7 +1159428,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/linyuan0213/nexus-media-web/releases/tag/v5.1.0",
+            "changelog": "https://github.com/linyuan0213/nexus-media-web/releases/tag/v5.2.2",
             "description": "Vue 3 web frontend for the Nexus Media media library manager",
             "homepage": "https://github.com/linyuan0213/nexus-media-web",
             "identifiers": {
@@ -1159429,7 +1159483,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/nexus-media-web/default.nix",
                 "line": 99
             },
-            "name": "nexus-media-web-5.1.0",
+            "name": "nexus-media-web-5.2.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1159470,14 +1159524,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nexus-media-web-5.1.0",
+        "name": "nexus-media-web-5.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nexus-media-web",
         "system": "x86_64-linux",
-        "version": "5.1.0",
+        "version": "5.2.2",
         "_attr": "nexus-media-web",
         "_repo": "zhyiheihei"
     },
@@ -1163680,7 +1163734,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/linyuan0213/nexus-media/releases/tag/v5.1.0",
+            "changelog": "https://github.com/linyuan0213/nexus-media/releases/tag/v5.2.2",
             "description": "Media library manager with automated downloading, media organization and subscription workflows",
             "homepage": "https://github.com/linyuan0213/nexus-media",
             "identifiers": {
@@ -1163768,7 +1163822,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/nexus-media/default.nix",
                 "line": 228
             },
-            "name": "nexus-media-5.1.0",
+            "name": "nexus-media-5.2.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1163809,7 +1163863,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nexus-media-5.1.0",
+        "name": "nexus-media-5.2.2",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1163817,7 +1163871,7 @@
         },
         "pname": "nexus-media",
         "system": "x86_64-linux",
-        "version": "5.1.0",
+        "version": "5.2.2",
         "_attr": "uncategorized.nexus-media",
         "_repo": "zhyiheihei"
     },
@@ -1163825,7 +1163879,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/linyuan0213/nexus-media-web/releases/tag/v5.1.0",
+            "changelog": "https://github.com/linyuan0213/nexus-media-web/releases/tag/v5.2.2",
             "description": "Vue 3 web frontend for the Nexus Media media library manager",
             "homepage": "https://github.com/linyuan0213/nexus-media-web",
             "identifiers": {
@@ -1163880,7 +1163934,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/nexus-media-web/default.nix",
                 "line": 99
             },
-            "name": "nexus-media-web-5.1.0",
+            "name": "nexus-media-web-5.2.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1163921,14 +1163975,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nexus-media-web-5.1.0",
+        "name": "nexus-media-web-5.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nexus-media-web",
         "system": "x86_64-linux",
-        "version": "5.1.0",
+        "version": "5.2.2",
         "_attr": "uncategorized.nexus-media-web",
         "_repo": "zhyiheihei"
     },
