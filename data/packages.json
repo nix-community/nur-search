@@ -347615,7 +347615,7 @@
             },
             "mainProgram": "apple-reminders-server",
             "maintainers": [],
-            "name": "apple-reminders-server-0-unstable-2026-10-27",
+            "name": "apple-reminders-server-0-unstable-2026-10-30",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -347633,14 +347633,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "apple-reminders-server-0-unstable-2026-10-27",
+        "name": "apple-reminders-server-0-unstable-2026-10-30",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "apple-reminders-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-27",
+        "version": "0-unstable-2026-10-30",
         "_attr": "apple-reminders-server",
         "_repo": "josh"
     },
@@ -473511,7 +473511,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "longDescription": "AirJack scans nearby Wi-Fi networks using CoreWLAN, helps pick a target,\nand orchestrates AirSnare/zizzania plus hcxpcapngtool to capture\nWPA/WPA2/WPA3 handshakes, then converts them for hashcat-based cracking.\nhashcat, hcxtools (hcxpcapngtool), AirSnare and zizzania are provided\nand put on PATH by the wrapper.\n",
+            "longDescription": "AirJack scans nearby Wi-Fi networks using CoreWLAN, helps pick a target,\nand orchestrates AirSnare/zizzania plus hcxpcapngtool to capture\nWPA/WPA2/WPA3 handshakes, then converts them for hashcat-based cracking.\n\nThis build runs the PyObjC bindings, prettytable, pyfiglet and scapy on\nmacOS's own /usr/bin/python3 (CPython 3.9, taken from nixos-24.11), which\nis what lets CoreLocation authorization -- and therefore BSSID reads --\nwork. The dependencies are provided to that interpreter through\nPYTHONPATH, not installed into it. hashcat, hcxtools (hcxpcapngtool),\nAirSnare and zizzania are packaged and put on PATH by the wrapper.\n",
             "mainProgram": "airjack",
             "maintainers": [],
             "name": "airjack-0-unstable-2026-08-19",
@@ -473522,7 +473522,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ai/airjack/package.nix#L126",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ai/airjack/package.nix#L178",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -473541,6 +473541,84 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-08-19",
         "_attr": "airjack",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.airjack_newpy": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "macOS Wi-Fi security testing tool for analyzing WPA/WPA2 network security",
+            "homepage": "https://github.com/rtulke/AirJack",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "airjack-newpy",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "airjack-newpy",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "AirJack scans nearby Wi-Fi networks using CoreWLAN, helps pick a target,\nand orchestrates AirSnare/zizzania plus hcxpcapngtool to capture\nWPA/WPA2/WPA3 handshakes, then converts them for hashcat-based cracking.\nhashcat, hcxtools (hcxpcapngtool), AirSnare and zizzania are provided\nand put on PATH by the wrapper.\n",
+            "mainProgram": "airjack",
+            "maintainers": [],
+            "name": "airjack-newpy-0-unstable-2026-08-19",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ai/airjack_newpy/package.nix#L126",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "airjack-newpy-0-unstable-2026-08-19",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "airjack-newpy",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-08-19",
+        "_attr": "airjack_newpy",
         "_repo": "mio"
     },
     "nur.repos.mio.airsnare": {
