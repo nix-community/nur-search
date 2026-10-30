@@ -195337,109 +195337,6 @@
         "_attr": "twintaillauncher-unwrapped",
         "_repo": "claymorwan"
     },
-    "nur.repos.claymorwan.utmt-cli": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "The most complete tool for modding, decompiling and unpacking Undertale (and other GameMaker games!)",
-            "homepage": "https://github.com/UnderminersTeam/UndertaleModTool",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "utmt-cli",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "utmt-cli",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
-            },
-            "mainProgram": "utmt",
-            "maintainers": [
-                {
-                    "email": "claymorwan@fembois.dev",
-                    "github": "claymorwan",
-                    "githubId": 86072589,
-                    "keys": [
-                        {
-                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
-                        }
-                    ],
-                    "name": "claymorwan"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/utmt-cli/default.nix",
-                "line": 46
-            },
-            "name": "utmt-cli-0.9.2.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "claymorwan@fembois.dev",
-                    "github": "claymorwan",
-                    "githubId": 86072589,
-                    "keys": [
-                        {
-                            "fingerprint": "AA7C 29C3 A26A DB2F 80E5  294D CC5E 1DF0 6FB7 8249"
-                        }
-                    ],
-                    "name": "claymorwan"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "aarch64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/claymorwan/pkgs/utmt-cli/default.nix#L43",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "utmt-cli-0.9.2.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "utmt-cli",
-        "system": "x86_64-linux",
-        "version": "0.9.2.0",
-        "_attr": "utmt-cli",
-        "_repo": "claymorwan"
-    },
     "nur.repos.clefru.beam-wallet": {
         "meta": {
             "available": false,
@@ -335842,7 +335739,7 @@
             },
             "mainProgram": "claude",
             "maintainers": [],
-            "name": "claude-code-bin-2.1.312",
+            "name": "claude-code-bin-2.1.314",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -335863,14 +335760,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "claude-code-bin-2.1.312",
+        "name": "claude-code-bin-2.1.314",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "claude-code-bin",
         "system": "x86_64-linux",
-        "version": "2.1.312",
+        "version": "2.1.314",
         "_attr": "claude-code-bin",
         "_repo": "jeffguorg"
     },
@@ -335889,7 +335786,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://raw.githubusercontent.com/openai/codex/refs/tags/rust-v0.165.0/CHANGELOG.md",
+            "changelog": "https://raw.githubusercontent.com/openai/codex/refs/tags/rust-v0.166.0/CHANGELOG.md",
             "description": "Lightweight coding agent that runs in your terminal",
             "homepage": "https://github.com/openai/codex",
             "identifiers": {
@@ -335934,7 +335831,7 @@
             },
             "mainProgram": "codex",
             "maintainers": [],
-            "name": "codex-0.165.0",
+            "name": "codex-0.166.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -335985,14 +335882,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "codex-0.165.0",
+        "name": "codex-0.166.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "codex",
         "system": "x86_64-linux",
-        "version": "0.165.0",
+        "version": "0.166.0",
         "_attr": "codex",
         "_repo": "jeffguorg"
     },
@@ -336044,7 +335941,7 @@
             },
             "mainProgram": "codex",
             "maintainers": [],
-            "name": "codex-bin-0.165.0",
+            "name": "codex-bin-0.166.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -336065,14 +335962,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "codex-bin-0.165.0",
+        "name": "codex-bin-0.166.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "codex-bin",
         "system": "x86_64-linux",
-        "version": "0.165.0",
+        "version": "0.166.0",
         "_attr": "codex-bin",
         "_repo": "jeffguorg"
     },
@@ -336384,7 +336281,7 @@
             },
             "mainProgram": "dsh",
             "maintainers": [],
-            "name": "dsh-0.2.1-rc.2",
+            "name": "dsh-0.2.1-rc.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -336446,14 +336343,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-0.2.1-rc.2",
+        "name": "dsh-0.2.1-rc.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dsh",
         "system": "x86_64-linux",
-        "version": "0.2.1-rc.2",
+        "version": "0.2.1-rc.5",
         "_attr": "dsh",
         "_repo": "jeffguorg"
     },
@@ -336838,7 +336735,7 @@
             },
             "mainProgram": "kimi",
             "maintainers": [],
-            "name": "kimi-code-2.4.0",
+            "name": "kimi-code-2.4.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -336900,14 +336797,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kimi-code-2.4.0",
+        "name": "kimi-code-2.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kimi-code",
         "system": "x86_64-linux",
-        "version": "2.4.0",
+        "version": "2.4.1",
         "_attr": "kimi-code",
         "_repo": "jeffguorg"
     },
@@ -337047,7 +336944,7 @@
             },
             "mainProgram": "omp",
             "maintainers": [],
-            "name": "oh-my-pi-bin-18.13.3",
+            "name": "oh-my-pi-bin-18.14.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -337068,14 +336965,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oh-my-pi-bin-18.13.3",
+        "name": "oh-my-pi-bin-18.14.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oh-my-pi-bin",
         "system": "x86_64-linux",
-        "version": "18.13.3",
+        "version": "18.14.0",
         "_attr": "oh-my-pi-bin",
         "_repo": "jeffguorg"
     },
@@ -471807,7 +471704,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "longDescription": "AirJack scans nearby Wi-Fi networks using CoreWLAN, helps pick a target,\nand orchestrates AirSnare/zizzania plus hcxpcapngtool to capture\nWPA/WPA2/WPA3 handshakes, then converts them for hashcat-based cracking.\nThe external capture and cracking tools (hashcat, hcxtools, AirSnare or\nzizzania) are not bundled and have to be installed separately.\n",
+            "longDescription": "AirJack scans nearby Wi-Fi networks using CoreWLAN, helps pick a target,\nand orchestrates AirSnare/zizzania plus hcxpcapngtool to capture\nWPA/WPA2/WPA3 handshakes, then converts them for hashcat-based cracking.\nhashcat, hcxtools (hcxpcapngtool), AirSnare and zizzania are provided\nand put on PATH by the wrapper.\n",
             "mainProgram": "airjack",
             "maintainers": [],
             "name": "airjack-0-unstable-2026-08-19",
@@ -471818,7 +471715,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ai/airjack/package.nix#L109",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ai/airjack/package.nix#L126",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -471837,6 +471734,83 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-08-19",
         "_attr": "airjack",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.airsnare": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "WPA/WPA2 handshake capture tool for macOS",
+            "homepage": "https://github.com/rtulke/airsnare",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "airsnare",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "airsnare",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "airsnare",
+            "maintainers": [],
+            "name": "airsnare-0-unstable-2026-07-28",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ai/airsnare/package.nix#L48",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "airsnare-0-unstable-2026-07-28",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "airsnare",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-07-28",
+        "_attr": "airsnare",
         "_repo": "mio"
     },
     "nur.repos.mio.altus": {
@@ -486378,6 +486352,124 @@
         "_attr": "hanga-signal",
         "_repo": "mio"
     },
+    "nur.repos.mio.hcxtools": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/ZerBea/hcxtools/releases/tag/7.1.2",
+            "description": "Tools for capturing wlan traffic and conversion to hashcat and John the Ripper formats",
+            "homepage": "https://github.com/ZerBea/hcxtools",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "hcxtools",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "hcxtools",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "hcxpcapngtool",
+            "maintainers": [
+                {
+                    "email": "dywedir@gra.red",
+                    "github": "dywedir",
+                    "githubId": 399312,
+                    "matrix": "@dywedir:matrix.org",
+                    "name": "Vladyslav M."
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/hc/hcxtools/package.nix",
+                "line": 49
+            },
+            "name": "hcxtools-7.1.2",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dywedir@gra.red",
+                    "github": "dywedir",
+                    "githubId": 399312,
+                    "matrix": "@dywedir:matrix.org",
+                    "name": "Vladyslav M."
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/hc/hcxtools/package.nix#L43",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "hcxtools-7.1.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "hcxtools",
+        "system": "x86_64-linux",
+        "version": "7.1.2",
+        "_attr": "hcxtools",
+        "_repo": "mio"
+    },
     "nur.repos.mio.icloud-for-linux": {
         "meta": {
             "available": true,
@@ -488112,7 +488204,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ma/mac-apk/package.nix#L238",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ma/mac-apk/package.nix#L239",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -504020,6 +504112,127 @@
         "system": "x86_64-linux",
         "version": "1.24b",
         "_attr": "zen-browser",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.zizzania": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "WPA/WPA2 handshake capture tool driven by libpcap",
+            "homepage": "https://github.com/cyrus-and/zizzania",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zizzania",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zizzania",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "zizzania",
+            "maintainers": [],
+            "name": "zizzania-0-unstable-2023-12-09",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/zi/zizzania/package.nix#L57",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "zizzania-0-unstable-2023-12-09",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "zizzania",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2023-12-09",
+        "_attr": "zizzania",
         "_repo": "mio"
     },
     "nur.repos.mio.zsh-sage": {
@@ -877754,7 +877967,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sakuraba07/pkgs/omp/default.nix",
                 "line": 68
             },
-            "name": "omp-18.13.3",
+            "name": "omp-18.14.0",
             "nonTeamMaintainers": [
                 {
                     "github": "sakuraba07",
@@ -877782,14 +877995,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "omp-18.13.3",
+        "name": "omp-18.14.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "omp",
         "system": "x86_64-linux",
-        "version": "18.13.3",
+        "version": "18.14.0",
         "_attr": "omp",
         "_repo": "sakuraba07"
     },
