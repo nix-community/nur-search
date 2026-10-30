@@ -107908,7 +107908,7 @@
             },
             "mainProgram": "rpcs3",
             "maintainers": [],
-            "name": "rpcs3-0.0.43-20415",
+            "name": "rpcs3-0.0.43-20508",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -107932,14 +107932,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rpcs3-0.0.43-20415",
+        "name": "rpcs3-0.0.43-20508",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3",
         "system": "x86_64-linux",
-        "version": "0.0.43-20415",
+        "version": "0.0.43-20508",
         "_attr": "rpcs3-bin",
         "_repo": "arch-fan"
     },
@@ -438789,7 +438789,7 @@
             },
             "mainProgram": "degrees-of-lewdity",
             "maintainers": [],
-            "name": "degrees-of-lewdity-0.5.13.6",
+            "name": "degrees-of-lewdity-0.5.13.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -438837,14 +438837,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "degrees-of-lewdity-0.5.13.6",
+        "name": "degrees-of-lewdity-0.5.13.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "degrees-of-lewdity",
         "system": "x86_64-linux",
-        "version": "0.5.13.6",
+        "version": "0.5.13.7",
         "_attr": "degrees-of-lewdity",
         "_repo": "mio"
     },
@@ -457447,7 +457447,7 @@
             },
             "mainProgram": "terminal-browser",
             "maintainers": [],
-            "name": "terminal-browser-0.15.1",
+            "name": "terminal-browser-0.15.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -457489,14 +457489,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "terminal-browser-0.15.1",
+        "name": "terminal-browser-0.15.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "terminal-browser",
         "system": "x86_64-linux",
-        "version": "0.15.1",
+        "version": "0.15.2",
         "_attr": "terminal-browser",
         "_repo": "mio"
     },
@@ -461853,7 +461853,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://zen-browser.app/release-notes/#1.23.4b",
+            "changelog": "https://zen-browser.app/release-notes/#1.24b",
             "description": "Firefox based browser with a focus on privacy and customization",
             "homepage": "https://zen-browser.app",
             "identifiers": {
@@ -461930,7 +461930,7 @@
                 "line": 193
             },
             "maxSilent": 14400,
-            "name": "zen-browser-unwrapped-1.23.4b",
+            "name": "zen-browser-unwrapped-1.24b",
             "nonTeamMaintainers": [
                 {
                     "email": "me+nix@matthewp.io",
@@ -462013,7 +462013,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zen-browser-unwrapped-1.23.4b",
+        "name": "zen-browser-unwrapped-1.24b",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -462021,7 +462021,7 @@
         },
         "pname": "zen-browser-unwrapped",
         "system": "x86_64-linux",
-        "version": "1.23.4b",
+        "version": "1.24b",
         "_attr": "zen-browser",
         "_repo": "mio"
     },
@@ -510892,6 +510892,171 @@
         "version": "",
         "_attr": "legionlinuxtui-git",
         "_repo": "nooneknowspeter"
+    },
+    "nur.repos.nosugarcoffee._1password-cli": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "1Password command-line tool (official signed release)",
+            "homepage": "https://developer.1password.com/docs/cli/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "1password-cli",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "1password-cli",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "op",
+            "maintainers": [],
+            "name": "1password-cli-2.41.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/_1password-cli/package.nix#L50",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "1password-cli-2.41.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "1password-cli",
+        "system": "x86_64-linux",
+        "version": "2.41.1",
+        "_attr": "_1password-cli",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee._1password-gui": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "1Password password manager desktop app (official notarized release)",
+            "homepage": "https://1password.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "1password-gui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "1password-gui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [],
+            "name": "1password-gui-8.12.42",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/_1password-gui/package.nix#L41",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "1password-gui-8.12.42",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "1password-gui",
+        "system": "x86_64-linux",
+        "version": "8.12.42",
+        "_attr": "_1password-gui",
+        "_repo": "nosugarcoffee"
     },
     "nur.repos.nosugarcoffee.agent-access": {
         "meta": {
@@ -938302,7 +938467,7 @@
             },
             "mainProgram": "dsh",
             "maintainers": [],
-            "name": "deepseek-harness-0.2.1-rc.2",
+            "name": "deepseek-harness-0.2.1-rc.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -938321,14 +938486,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deepseek-harness-0.2.1-rc.2",
+        "name": "deepseek-harness-0.2.1-rc.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deepseek-harness",
         "system": "x86_64-linux",
-        "version": "0.2.1-rc.2",
+        "version": "0.2.1-rc.5",
         "_attr": "deepseek-harness",
         "_repo": "so1ve"
     },
@@ -939020,7 +939185,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.2067",
+            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.2134",
             "description": "One local gateway for the model every coding agent uses",
             "homepage": "https://usemagpie.ai",
             "identifiers": {
@@ -939065,7 +939230,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.2067",
+            "name": "magpie-0.1.2134",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -939090,14 +939255,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.2067",
+        "name": "magpie-0.1.2134",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.2067",
+        "version": "0.1.2134",
         "_attr": "magpie",
         "_repo": "so1ve"
     },
@@ -953069,6 +953234,95 @@
         "system": "x86_64-linux",
         "version": "0.7.0",
         "_attr": "givy",
+        "_repo": "tnmt"
+    },
+    "nur.repos.tnmt.herdr-gpui": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Native GPUI client for an existing local Herdr daemon",
+            "homepage": "https://herdrui.dev",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "herdr-gpui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "herdr-gpui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "herdr-gpui",
+            "maintainers": [],
+            "name": "herdr-gpui-20261028.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tnmt/pkgs/herdr-gpui/default.nix#L89",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "herdr-gpui-20261028.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "herdr-gpui",
+        "system": "x86_64-linux",
+        "version": "20261028.1",
+        "_attr": "herdr-gpui",
         "_repo": "tnmt"
     },
     "nur.repos.tnmt.kagiana": {
