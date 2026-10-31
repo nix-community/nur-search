@@ -526952,7 +526952,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/jarrodwatts/claude-hud/releases/tag/v0.14.0",
+            "changelog": "https://github.com/jarrodwatts/claude-hud/releases/tag/v0.14.1",
             "description": "Real-time statusline HUD for Claude Code",
             "homepage": "https://github.com/jarrodwatts/claude-hud",
             "identifiers": {
@@ -527006,7 +527006,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/claude-hud/default.nix",
                 "line": 79
             },
-            "name": "claude-hud-0.14.0",
+            "name": "claude-hud-0.14.1",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -527025,14 +527025,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "claude-hud-0.14.0",
+        "name": "claude-hud-0.14.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "claude-hud",
         "system": "x86_64-linux",
-        "version": "0.14.0",
+        "version": "0.14.1",
         "_attr": "claude-hud",
         "_repo": "mzwing"
     },
@@ -527304,7 +527304,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.32",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.34",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -527358,7 +527358,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 42
             },
-            "name": "cnb-cli-1.18.32",
+            "name": "cnb-cli-1.18.34",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -527377,14 +527377,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.18.32",
+        "name": "cnb-cli-1.18.34",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.18.32",
+        "version": "1.18.34",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -528260,6 +528260,100 @@
         "_attr": "icalingua++",
         "_repo": "mzwing"
     },
+    "nur.repos.mzwing.jplag": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/jplag/JPlag/releases/tag/v6.3.0",
+            "description": "Detect source code plagiarism and collusion in a set of programs",
+            "homepage": "https://github.com/jplag/JPlag",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jplag",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jplag",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "jplag",
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/jplag/default.nix",
+                "line": 48
+            },
+            "name": "jplag-6.3.0",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/jplag/default.nix#L42",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "jplag-6.3.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jplag",
+        "system": "x86_64-linux",
+        "version": "6.3.0",
+        "_attr": "jplag",
+        "_repo": "mzwing"
+    },
     "nur.repos.mzwing.kelivo": {
         "meta": {
             "available": true,
@@ -528450,7 +528544,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.31",
+            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.33",
             "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit",
             "homepage": "https://github.com/cortexkit/magic-context",
             "identifiers": {
@@ -528504,7 +528598,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
                 "line": 83
             },
-            "name": "magic-context-0.49.31",
+            "name": "magic-context-0.49.33",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -528523,14 +528617,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magic-context-0.49.31",
+        "name": "magic-context-0.49.33",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magic-context",
         "system": "x86_64-linux",
-        "version": "0.49.31",
+        "version": "0.49.33",
         "_attr": "magic-context",
         "_repo": "mzwing"
     },
@@ -528884,6 +528978,93 @@
         "system": "x86_64-linux",
         "version": "0.2.3",
         "_attr": "manboster-rc",
+        "_repo": "mzwing"
+    },
+    "nur.repos.mzwing.obelisk": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Past coding-agent sessions indexed into one SQLite database, queryable by your agent",
+            "homepage": "https://github.com/tommy0103/obelisk",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "obelisk",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "obelisk",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "obelisk",
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/obelisk/default.nix",
+                "line": 45
+            },
+            "name": "obelisk-0.3.1",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/obelisk/default.nix#L41",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "obelisk-0.3.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "obelisk",
+        "system": "x86_64-linux",
+        "version": "0.3.1",
+        "_attr": "obelisk",
         "_repo": "mzwing"
     },
     "nur.repos.mzwing.regionrestrictioncheck": {
@@ -529479,7 +529660,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sinspired/subs-check-pro/releases/tag/v3.5.1",
+            "changelog": "https://github.com/sinspired/subs-check-pro/releases/tag/v3.6.0",
             "description": "High-performance proxy subscription checker: liveness, speed and streaming-unlock tests, encoding the results into node names",
             "homepage": "https://github.com/sinspired/subs-check-pro",
             "identifiers": {
@@ -529533,7 +529714,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/subs-check-pro/default.nix",
                 "line": 58
             },
-            "name": "subs-check-pro-3.5.1",
+            "name": "subs-check-pro-3.6.0",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -529552,14 +529733,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "subs-check-pro-3.5.1",
+        "name": "subs-check-pro-3.6.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "subs-check-pro",
         "system": "x86_64-linux",
-        "version": "3.5.1",
+        "version": "3.6.0",
         "_attr": "subs-check-pro",
         "_repo": "mzwing"
     },
