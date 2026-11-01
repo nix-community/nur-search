@@ -350141,7 +350141,7 @@
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [],
-            "name": "iterm2-shell-integration-0-unstable-2026-10-28",
+            "name": "iterm2-shell-integration-0-unstable-2026-10-31",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -350159,14 +350159,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "iterm2-shell-integration-0-unstable-2026-10-28",
+        "name": "iterm2-shell-integration-0-unstable-2026-10-31",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "iterm2-shell-integration",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-28",
+        "version": "0-unstable-2026-10-31",
         "_attr": "iterm2-shell-integration",
         "_repo": "josh"
     },
@@ -351246,7 +351246,7 @@
             },
             "mainProgram": "nix-rados-cache",
             "maintainers": [],
-            "name": "nix-rados-cache-0-unstable-2026-10-30",
+            "name": "nix-rados-cache-0-unstable-2026-10-31",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -351265,14 +351265,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nix-rados-cache-0-unstable-2026-10-30",
+        "name": "nix-rados-cache-0-unstable-2026-10-31",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nix-rados-cache",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-30",
+        "version": "0-unstable-2026-10-31",
         "_attr": "nix-rados-cache",
         "_repo": "josh"
     },
@@ -502013,7 +502013,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/te/telegram-mac/package.nix#L236",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/te/telegram-mac/package.nix#L251",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1050610,6 +1050610,120 @@
         "_attr": "flashbrowser",
         "_repo": "xddxdd"
     },
+    "nur.repos.xddxdd.folia-major-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Music player with animated lyrics and audio visualization",
+            "homepage": "https://github.com/chthollyphile/folia-major",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "folia-major-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "folia-major-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "folia-major",
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/folia-major-bin/default.nix",
+                "line": 99
+            },
+            "name": "folia-major-bin-0.7.25",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/folia-major-bin/default.nix#L96",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "folia-major-bin-0.7.25",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "folia-major-bin",
+        "system": "x86_64-linux",
+        "version": "0.7.25",
+        "_attr": "folia-major-bin",
+        "_repo": "xddxdd"
+    },
     "nur.repos.xddxdd.fr24feed": {
         "meta": {
             "available": false,
@@ -1124730,6 +1124844,120 @@
         "system": "x86_64-linux",
         "version": "0.81",
         "_attr": "uncategorized.flashbrowser",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.uncategorized.folia-major-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Music player with animated lyrics and audio visualization",
+            "homepage": "https://github.com/chthollyphile/folia-major",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "folia-major-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "folia-major-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "folia-major",
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/folia-major-bin/default.nix",
+                "line": 99
+            },
+            "name": "folia-major-bin-0.7.25",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/folia-major-bin/default.nix#L96",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "folia-major-bin-0.7.25",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "folia-major-bin",
+        "system": "x86_64-linux",
+        "version": "0.7.25",
+        "_attr": "uncategorized.folia-major-bin",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.uncategorized.fr24feed": {
