@@ -4377,7 +4377,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/rpcs3-git/default.nix",
                 "line": 197
             },
-            "name": "rpcs3-git-0.0.43-unstable-2026-11-01",
+            "name": "rpcs3-git-0.0.43-unstable-2026-11-02",
             "nonTeamMaintainers": [
                 {
                     "github": "Adamekka",
@@ -4397,14 +4397,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "rpcs3-git-0.0.43-unstable-2026-11-01",
+        "name": "rpcs3-git-0.0.43-unstable-2026-11-02",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3-git",
         "system": "x86_64-linux",
-        "version": "0.0.43-unstable-2026-11-01",
+        "version": "0.0.43-unstable-2026-11-02",
         "_attr": "rpcs3-git",
         "_repo": "Adamekka"
     },
@@ -8623,80 +8623,6 @@
         "_attr": "minemap",
         "_repo": "AndrewKvalheim"
     },
-    "nur.repos.AndrewKvalheim.nbt-explorer": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Graphical NBT editor for all Minecraft NBT data sources",
-            "homepage": "https://github.com/jaquadro/NBTExplorer",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "nbt-explorer",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "nbt-explorer",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "nbt-explorer",
-            "maintainers": [],
-            "name": "nbt-explorer-2.8.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/AndrewKvalheim/library/nbt-explorer.pkg.nix#L24",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "nbt-explorer-2.8.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "nbt-explorer",
-        "system": "x86_64-linux",
-        "version": "2.8.0",
-        "_attr": "nbt-explorer",
-        "_repo": "AndrewKvalheim"
-    },
     "nur.repos.AndrewKvalheim.office-hours": {
         "meta": {
             "available": true,
@@ -9409,7 +9335,7 @@
             },
             "mainProgram": "udon",
             "maintainers": [],
-            "name": "udon-0.02",
+            "name": "udon-0.03",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -9457,14 +9383,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "udon-0.02",
+        "name": "udon-0.03",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "udon",
         "system": "x86_64-linux",
-        "version": "0.02",
+        "version": "0.03",
         "_attr": "udon",
         "_repo": "AndrewKvalheim"
     },
@@ -349126,7 +349052,7 @@
             },
             "mainProgram": "apple-reminders-server",
             "maintainers": [],
-            "name": "apple-reminders-server-0-unstable-2026-10-31",
+            "name": "apple-reminders-server-0-unstable-2026-11-02",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -349144,14 +349070,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "apple-reminders-server-0-unstable-2026-10-31",
+        "name": "apple-reminders-server-0-unstable-2026-11-02",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "apple-reminders-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-31",
+        "version": "0-unstable-2026-11-02",
         "_attr": "apple-reminders-server",
         "_repo": "josh"
     },
@@ -350359,7 +350285,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://gitea.com/gitea/cli/releases/tag/v0.2.0",
+            "changelog": "https://gitea.com/gitea/cli/releases/tag/v1.0.0",
             "description": "Command-line interface for Gitea",
             "homepage": "https://gitea.com/gitea/cli",
             "identifiers": {
@@ -350404,7 +350330,7 @@
             },
             "mainProgram": "gt",
             "maintainers": [],
-            "name": "gitea-cli-0.2.0",
+            "name": "gitea-cli-1.0.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -350451,14 +350377,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gitea-cli-0.2.0",
+        "name": "gitea-cli-1.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gitea-cli",
         "system": "x86_64-linux",
-        "version": "0.2.0",
+        "version": "1.0.0",
         "_attr": "gitea-cli",
         "_repo": "josh"
     },
@@ -352438,7 +352364,7 @@
             },
             "mainProgram": "neorex",
             "maintainers": [],
-            "name": "neorex-0-unstable-2026-11-01",
+            "name": "neorex-0-unstable-2026-11-02",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -352456,14 +352382,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "neorex-0-unstable-2026-11-01",
+        "name": "neorex-0-unstable-2026-11-02",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "neorex",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-01",
+        "version": "0-unstable-2026-11-02",
         "_attr": "neorex",
         "_repo": "josh"
     },
@@ -353228,7 +353154,7 @@
             },
             "mainProgram": "github_exporter",
             "maintainers": [],
-            "name": "prometheus-github-exporter-1.4.3",
+            "name": "prometheus-github-exporter-1.4.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -353275,14 +353201,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "prometheus-github-exporter-1.4.3",
+        "name": "prometheus-github-exporter-1.4.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "prometheus-github-exporter",
         "system": "x86_64-linux",
-        "version": "1.4.3",
+        "version": "1.4.4",
         "_attr": "prometheus-github-exporter",
         "_repo": "josh"
     },
@@ -355639,7 +355565,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "terraform-provider-unifi-0.64.0",
+            "name": "terraform-provider-unifi-0.65.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -355686,14 +355612,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "terraform-provider-unifi-0.64.0",
+        "name": "terraform-provider-unifi-0.65.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "terraform-provider-unifi",
         "system": "x86_64-linux",
-        "version": "0.64.0",
+        "version": "0.65.0",
         "_attr": "terraform-provider-unifi",
         "_repo": "josh"
     },
@@ -513998,6 +513924,88 @@
         "_attr": "installDistHook",
         "_repo": "moraxyc"
     },
+    "nur.repos.moraxyc.jiufenxuezhang-ielts": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "\u4e5d\u5206\u5b66\u957f\u8003\u96c5\u673a\u8003\u5e73\u53f0",
+            "homepage": "https://www.9fnnn.com",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jiufenxuezhang-ielts",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jiufenxuezhang-ielts",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "jiufenxuezhang-ielts",
+            "maintainers": [],
+            "name": "jiufenxuezhang-ielts-0.9.19-rc.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/ji/jiufenxuezhang-ielts/package.nix#L131",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "jiufenxuezhang-ielts-0.9.19-rc.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jiufenxuezhang-ielts",
+        "system": "x86_64-linux",
+        "version": "0.9.19-rc.2",
+        "_attr": "jiufenxuezhang-ielts",
+        "_repo": "moraxyc"
+    },
     "nur.repos.moraxyc.kook": {
         "meta": {
             "available": false,
@@ -515462,7 +515470,7 @@
             "available": true,
             "broken": false,
             "description": "Modern, cross-platform local video player that supports bullet comments and multiple subtitle formats.",
-            "homepage": "https://github.com/MCDFsteve/NipaPlay-Reload",
+            "homepage": "https://github.com/AimesSoft/NipaPlay-Reload",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -515521,7 +515529,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ni/nipaplay-reload/package.nix",
-                "line": 23
+                "line": 27
             },
             "name": "nipaplay-reload-1.11.11",
             "nonTeamMaintainers": [
@@ -515543,6 +515551,7 @@
             ],
             "platforms": [
                 "x86_64-linux",
+                "aarch64-linux",
                 "aarch64-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/ni/nipaplay-reload/package.nix#L18",
@@ -1043136,9 +1043145,9 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://trev.zip/llc/bumper/releases/tag/v0.35.0",
+            "changelog": "https://trev.zip/llc/bumper/releases/tag/v0.35.1",
             "description": "Git semantic version bumper",
-            "downloadPage": "https://trev.zip/llc/bumper/releases/tag/v0.35.0",
+            "downloadPage": "https://trev.zip/llc/bumper/releases/tag/v0.35.1",
             "homepage": "https://trev.zip/llc/bumper",
             "identifiers": {
                 "cpeParts": {
@@ -1043182,7 +1043191,7 @@
             },
             "mainProgram": "bumper",
             "maintainers": [],
-            "name": "bumper-0.35.0",
+            "name": "bumper-0.35.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1043237,14 +1043246,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bumper-0.35.0",
+        "name": "bumper-0.35.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bumper",
         "system": "x86_64-linux",
-        "version": "0.35.0",
+        "version": "0.35.1",
         "_attr": "bumper",
         "_repo": "trev"
     },
@@ -1049045,7 +1049054,7 @@
             },
             "mainProgram": "hyprland-share-picker",
             "maintainers": [],
-            "name": "xdg-desktop-portal-hyprland-1.4.1-unstable-2026-10-13",
+            "name": "xdg-desktop-portal-hyprland-1.5.0-unstable-2026-10-28",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1049086,14 +1049095,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xdg-desktop-portal-hyprland-1.4.1-unstable-2026-10-13",
+        "name": "xdg-desktop-portal-hyprland-1.5.0-unstable-2026-10-28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "xdg-desktop-portal-hyprland",
         "system": "x86_64-linux",
-        "version": "1.4.1-unstable-2026-10-13",
+        "version": "1.5.0-unstable-2026-10-28",
         "_attr": "xdg-desktop-portal-hyprland",
         "_repo": "trev"
     },
