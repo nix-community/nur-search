@@ -62043,32 +62043,12 @@
                     {
                         "deprecated": false,
                         "free": true,
-                        "fullName": "GNU General Public License v2.0 or later",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "gpl2Plus",
-                        "spdxId": "GPL-2.0-or-later",
-                        "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": true,
                         "fullName": "GNU Lesser General Public License v2.1 or later",
                         "licenseType": "simple",
                         "redistributable": true,
                         "shortName": "lgpl21Plus",
                         "spdxId": "LGPL-2.1-or-later",
                         "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": true,
-                        "fullName": "BSD 2-clause \"Simplified\" License",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "bsd2",
-                        "spdxId": "BSD-2-Clause",
-                        "url": "https://spdx.org/licenses/BSD-2-Clause.html"
                     },
                     {
                         "deprecated": false,
@@ -62141,6 +62121,16 @@
                     {
                         "deprecated": false,
                         "free": true,
+                        "fullName": "SQLite Blessing",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "blessing",
+                        "spdxId": "blessing",
+                        "url": "https://spdx.org/licenses/blessing.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
                         "fullName": "ISC Veillard variant",
                         "licenseType": "simple",
                         "redistributable": true,
@@ -62153,7 +62143,7 @@
             },
             "mainProgram": "raven",
             "maintainers": [],
-            "name": "raven-0-unstable-2026-10-29",
+            "name": "raven-0-unstable-2026-11-02",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -62161,7 +62151,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/raven/package.nix#L201",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/raven/package.nix#L211",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -62171,14 +62161,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "raven-0-unstable-2026-10-29",
+        "name": "raven-0-unstable-2026-11-02",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "raven",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-29",
+        "version": "0-unstable-2026-11-02",
         "_attr": "raven",
         "_repo": "Skyb0rg007"
     },
@@ -376889,7 +376879,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/baibot/default.nix",
                 "line": 27
             },
-            "name": "baibot-v1.30.0",
+            "name": "baibot-v2026.11.02.0",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -376946,12 +376936,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "baibot-v1.30.0",
+        "name": "baibot-v2026.11.02.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "baibot-v1.30.0",
+        "pname": "baibot-v2026.11.02.0",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "baibot",
