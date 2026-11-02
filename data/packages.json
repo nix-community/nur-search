@@ -53393,6 +53393,104 @@
         "_attr": "keylime",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.landlock-sandboxer": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple Landlock sandbox manager",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "landlock-sandboxer",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "landlock-sandboxer",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [],
+            "name": "landlock-sandboxer-7.3.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/landlock-sandboxer/package.nix#L26",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "landlock-sandboxer-7.3.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "landlock-sandboxer",
+        "system": "x86_64-linux",
+        "version": "7.3.1",
+        "_attr": "landlock-sandboxer",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.landlockconfig": {
         "meta": {
             "available": true,
@@ -81633,6 +81731,155 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2025-11-23",
         "_attr": "cpond",
+        "_repo": "adam0"
+    },
+    "nur.repos.adam0.equibop-fixed": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Equicord/Equibop/releases/tag/v3.2.2",
+            "description": "Custom Discord App aiming to give you better performance and improve linux support",
+            "homepage": "https://github.com/Equicord/Equibop",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "equibop",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "equibop",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "equibop",
+            "maintainers": [
+                {
+                    "email": "raf@notashelf.dev",
+                    "github": "NotAShelf",
+                    "githubId": 62766066,
+                    "matrix": "@raf:notashelf.dev",
+                    "name": "NotAShelf"
+                },
+                {
+                    "github": "Rexcrazy804",
+                    "githubId": 37258415,
+                    "name": "Rexiel Scarlet"
+                },
+                {
+                    "email": "nixpkgs@perchun.it",
+                    "github": "PerchunPak",
+                    "githubId": 68118654,
+                    "keys": [
+                        {
+                            "fingerprint": "BBB5 1142 959D 8549 A3D2  F6C5 313F 67D1 EAB7 70F9"
+                        }
+                    ],
+                    "name": "Perchun Pak"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/8mb4s1lm1bcazn9awflmw7bgdhnvcvic-source/pkgs/by-name/eq/equibop/package.nix",
+                "line": 179
+            },
+            "name": "equibop-3.2.2",
+            "nonTeamMaintainers": [
+                {
+                    "email": "raf@notashelf.dev",
+                    "github": "NotAShelf",
+                    "githubId": 62766066,
+                    "matrix": "@raf:notashelf.dev",
+                    "name": "NotAShelf"
+                },
+                {
+                    "github": "Rexcrazy804",
+                    "githubId": 37258415,
+                    "name": "Rexiel Scarlet"
+                },
+                {
+                    "email": "nixpkgs@perchun.it",
+                    "github": "PerchunPak",
+                    "githubId": 68118654,
+                    "keys": [
+                        {
+                            "fingerprint": "BBB5 1142 959D 8549 A3D2  F6C5 313F 67D1 EAB7 70F9"
+                        }
+                    ],
+                    "name": "Perchun Pak"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/adam01110/nur/blob/HEAD/pkgs/by-name/eq/equibop/package.nix#L175",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "equibop-3.2.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "equibop",
+        "system": "x86_64-linux",
+        "version": "3.2.2",
+        "_attr": "equibop-fixed",
         "_repo": "adam0"
     },
     "nur.repos.adam0.excalidash-mcp": {
