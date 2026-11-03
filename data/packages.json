@@ -77028,14 +77028,28 @@
             },
             "insecure": false,
             "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Mozilla Public License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
+                "exception": {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Classpath exception 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "classpathException20",
+                    "spdxId": "Classpath-exception-2.0",
+                    "url": "https://spdx.org/licenses/Classpath-exception-2.0.html"
+                },
+                "license": {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Affero General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "agpl3Only",
+                    "spdxId": "AGPL-3.0-only",
+                    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+                },
+                "licenseType": "exception",
+                "operator": "WITH"
             },
             "mainProgram": "albedo",
             "maintainers": [],
