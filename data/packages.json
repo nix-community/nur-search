@@ -248955,7 +248955,7 @@
             },
             "mainProgram": "fluxdown-agent",
             "maintainers": [],
-            "name": "fluxdown-server-0.6.5",
+            "name": "fluxdown-server-0.6.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -248980,14 +248980,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxdown-server-0.6.5",
+        "name": "fluxdown-server-0.6.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxdown-server",
         "system": "x86_64-linux",
-        "version": "0.6.5",
+        "version": "0.6.6",
         "_attr": "fluxdown-server",
         "_repo": "davinci42"
     },
@@ -529932,7 +529932,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.44",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.18.45",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -529986,7 +529986,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 42
             },
-            "name": "cnb-cli-1.18.44",
+            "name": "cnb-cli-1.18.45",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -530005,14 +530005,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.18.44",
+        "name": "cnb-cli-1.18.45",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.18.44",
+        "version": "1.18.45",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -531138,7 +531138,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/lmfpd/default.nix",
                 "line": 55
             },
-            "name": "lmfpd-0.0.1793148819406",
+            "name": "lmfpd-0.0.1793708131077",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -531157,14 +531157,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lmfpd-0.0.1793148819406",
+        "name": "lmfpd-0.0.1793708131077",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lmfpd",
         "system": "x86_64-linux",
-        "version": "0.0.1793148819406",
+        "version": "0.0.1793708131077",
         "_attr": "lmfpd",
         "_repo": "mzwing"
     },
@@ -755812,89 +755812,6 @@
         "_attr": "dont-take-it-personally-babe",
         "_repo": "qenya"
     },
-    "nur.repos.quriosity.BedrockNix": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Run Minecraft Bedrock seamlessly on Linux",
-            "homepage": "https://github.com/Wyze3306/BedrockOnLinux",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "bedrockonlinux",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "bedrockonlinux",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "BedrockOnLinux",
-            "maintainers": [],
-            "name": "BedrockOnLinux-2.2.10",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/BedrockNix/default.nix#L67",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "BedrockOnLinux-2.2.10",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "BedrockOnLinux",
-        "system": "x86_64-linux",
-        "version": "2.2.10",
-        "_attr": "BedrockNix",
-        "_repo": "quriosity"
-    },
     "nur.repos.quriosity.artcraft-launcher": {
         "meta": {
             "available": true,
@@ -755975,7 +755892,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/artcraft-launcher/default.nix#L73",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/artcraft-launcher/default.nix#L78",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -756000,6 +755917,89 @@
         "system": "x86_64-linux",
         "version": "0.14.0",
         "_attr": "artcraft-launcher",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.bol": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Run Minecraft Bedrock seamlessly on Linux",
+            "homepage": "https://github.com/Wyze3306/BedrockOnLinux",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "bedrockonlinux",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "bedrockonlinux",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "BedrockOnLinux",
+            "maintainers": [],
+            "name": "BedrockOnLinux-2.2.10",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/minecraft/bol/default.nix#L67",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "BedrockOnLinux-2.2.10",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "BedrockOnLinux",
+        "system": "x86_64-linux",
+        "version": "2.2.10",
+        "_attr": "bol",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.cadcraft": {
@@ -756107,6 +756107,87 @@
         "system": "x86_64-linux",
         "version": "0.17.0",
         "_attr": "cadcraft",
+        "_repo": "quriosity"
+    },
+    "nur.repos.quriosity.cinnabar": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Minecraft: Bedrock Edition, rebuilt from scratch in Rust",
+            "homepage": "https://github.com/cinnabar-mc/cinnabar",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cinnabar",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cinnabar",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "cinnabar",
+            "maintainers": [],
+            "name": "cinnabar-0.1.31",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/minecraft/cinnabar/default.nix#L49",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "cinnabar-0.1.31",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cinnabar",
+        "system": "x86_64-linux",
+        "version": "0.1.31",
+        "_attr": "cinnabar",
         "_repo": "quriosity"
     },
     "nur.repos.quriosity.deckcraft": {
@@ -757017,6 +757098,89 @@
         "_attr": "gridcraft",
         "_repo": "quriosity"
     },
+    "nur.repos.quriosity.horizon": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses.",
+            "homepage": "https://github.com/horizon-rust/horizon",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "horizon-launcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "horizon-launcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "horizon-launcher",
+            "maintainers": [],
+            "name": "horizon-launcher-0.2.37",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/minecraft/horizon/default.nix#L64",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "horizon-launcher-0.2.37",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "horizon-launcher",
+        "system": "x86_64-linux",
+        "version": "0.2.37",
+        "_attr": "horizon",
+        "_repo": "quriosity"
+    },
     "nur.repos.quriosity.hyper": {
         "meta": {
             "available": true,
@@ -757560,7 +757724,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/olauncher/default.nix#L90",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/minecraft/olauncher/default.nix#L90",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1044790,7 +1044954,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.52",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.53",
             "description": "Proxy server providing OpenAI-compatible APIs for CLI models",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1044835,7 +1044999,7 @@
             },
             "mainProgram": "cli-proxy-api",
             "maintainers": [],
-            "name": "cliproxyapi-8.0.52",
+            "name": "cliproxyapi-8.0.53",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1044897,14 +1045061,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.52",
+        "name": "cliproxyapi-8.0.53",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.52",
+        "version": "8.0.53",
         "_attr": "cliproxyapi",
         "_repo": "trev"
     },
@@ -1049823,7 +1049987,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "python3.14-uv-build-0.13.6",
+            "name": "python3.14-uv-build-0.13.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1049919,7 +1050083,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-uv-build-0.13.6",
+        "name": "python3.14-uv-build-0.13.7",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1049927,7 +1050091,7 @@
         },
         "pname": "python3.14-uv-build",
         "system": "x86_64-linux",
-        "version": "0.13.6",
+        "version": "0.13.7",
         "_attr": "uv-build-latest",
         "_repo": "trev"
     },
@@ -1182382,7 +1182546,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "fortune-mod-hitokoto-1.0.1340",
+            "name": "fortune-mod-hitokoto-1.0.1365",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1182450,14 +1182614,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fortune-mod-hitokoto-1.0.1340",
+        "name": "fortune-mod-hitokoto-1.0.1365",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fortune-mod-hitokoto",
         "system": "x86_64-linux",
-        "version": "1.0.1340",
+        "version": "1.0.1365",
         "_attr": "fortune-mod-hitokoto",
         "_repo": "zerozawa"
     },
@@ -1182963,7 +1183127,7 @@
             },
             "mainProgram": "mihomo-smart",
             "maintainers": [],
-            "name": "mihomo-smart-0-unstable-ea99c15",
+            "name": "mihomo-smart-0-unstable-77af480",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1183065,14 +1183229,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mihomo-smart-0-unstable-ea99c15",
+        "name": "mihomo-smart-0-unstable-77af480",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mihomo-smart",
         "system": "x86_64-linux",
-        "version": "0-unstable-ea99c15",
+        "version": "0-unstable-77af480",
         "_attr": "mihomo-smart",
         "_repo": "zerozawa"
     },
@@ -1183252,7 +1183416,7 @@
             },
             "mainProgram": "pctx",
             "maintainers": [],
-            "name": "pctx-0.7.7",
+            "name": "pctx-1.0.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1183281,14 +1183445,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pctx-0.7.7",
+        "name": "pctx-1.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pctx",
         "system": "x86_64-linux",
-        "version": "0.7.7",
+        "version": "1.0.0",
         "_attr": "pctx",
         "_repo": "zerozawa"
     },
@@ -1183373,7 +1183537,7 @@
             },
             "mainProgram": "picacg-qt",
             "maintainers": [],
-            "name": "picacg-qt-1.5.5.1",
+            "name": "picacg-qt-1.5.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1183404,7 +1183568,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/picacg-qt.nix#L189",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/picacg-qt.nix#L191",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1183420,14 +1183584,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "picacg-qt-1.5.5.1",
+        "name": "picacg-qt-1.5.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "picacg-qt",
         "system": "x86_64-linux",
-        "version": "1.5.5.1",
+        "version": "1.5.7",
         "_attr": "picacg-qt",
         "_repo": "zerozawa"
     },
@@ -1183487,7 +1183651,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/rea-agents/default.nix#L391",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zerozawa/pkgs/rea-agents/default.nix#L405",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1184737,7 +1184901,7 @@
             },
             "mainProgram": "wakaru",
             "maintainers": [],
-            "name": "wakaru-1.15.0",
+            "name": "wakaru-1.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1184788,14 +1184952,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wakaru-1.15.0",
+        "name": "wakaru-1.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wakaru",
         "system": "x86_64-linux",
-        "version": "1.15.0",
+        "version": "1.16.0",
         "_attr": "wakaru",
         "_repo": "zerozawa"
     },
@@ -1184944,7 +1185108,7 @@
             ],
             "mainProgram": "wechat-web-devtools-linux",
             "maintainers": [],
-            "name": "wechat-web-devtools-linux-0-unstable-3612c4e",
+            "name": "wechat-web-devtools-linux-0-unstable-10b7fca",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1184972,14 +1185136,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wechat-web-devtools-linux-0-unstable-3612c4e",
+        "name": "wechat-web-devtools-linux-0-unstable-10b7fca",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wechat-web-devtools-linux",
         "system": "x86_64-linux",
-        "version": "0-unstable-3612c4e",
+        "version": "0-unstable-10b7fca",
         "_attr": "wechat-web-devtools-linux",
         "_repo": "zerozawa"
     },
