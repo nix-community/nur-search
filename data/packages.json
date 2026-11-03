@@ -52377,6 +52377,177 @@
         "_attr": "filc-pizfix",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.fixen": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Domain-specific language for work-queue algorithms",
+            "homepage": "https://fixen-lang.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "fixen",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "fixen",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "fixen",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 55,
+                "file": "/nix/store/8mb4s1lm1bcazn9awflmw7bgdhnvcvic-source/pkgs/development/haskell-modules/generic-builder.nix",
+                "line": 1105
+            },
+            "name": "fixen-26.7",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/fixen/package.nix#L11",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fixen-26.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fixen",
+        "system": "x86_64-linux",
+        "version": "26.7",
+        "_attr": "fixen",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.flirt": {
         "meta": {
             "available": true,
@@ -187240,7 +187411,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.2.0.1",
+            "changelog": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.2.0.2",
             "description": "Third-party Bilibili client developed in Flutter",
             "homepage": "https://github.com/bggRGjQaUbCoE/PiliPlus",
             "identifiers": {
@@ -187305,7 +187476,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/piliplus/default.nix",
                 "line": 184
             },
-            "name": "piliplus-2.2.0.1",
+            "name": "piliplus-2.2.0.2",
             "nonTeamMaintainers": [
                 {
                     "email": "ulysseszhan@gmail.com",
@@ -187356,7 +187527,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "piliplus-2.2.0.1",
+        "name": "piliplus-2.2.0.2",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -187365,7 +187536,7 @@
         },
         "pname": "piliplus",
         "system": "x86_64-linux",
-        "version": "2.2.0.1",
+        "version": "2.2.0.2",
         "_attr": "piliplus",
         "_repo": "ccicnce113424"
     },
@@ -187429,7 +187600,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/pipewire-bluez5-lhdc-git/default.nix",
                 "line": 139
             },
-            "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-10-30",
+            "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-03",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -187473,14 +187644,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-10-30",
+        "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-03",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pipewire-bluez5-lhdc-git",
         "system": "x86_64-linux",
-        "version": "1.7-unstable-2026-10-30",
+        "version": "1.7-unstable-2026-11-03",
         "_attr": "pipewire-bluez5-lhdc-git",
         "_repo": "ccicnce113424"
     },
@@ -558832,7 +559003,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "maintainers": [],
-            "name": "clash-verge-rev-2.5.9",
+            "name": "clash-verge-rev-2.5.10",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -558857,14 +559028,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clash-verge-rev-2.5.9",
+        "name": "clash-verge-rev-2.5.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clash-verge-rev",
         "system": "x86_64-linux",
-        "version": "2.5.9",
+        "version": "2.5.10",
         "_attr": "clash-verge-rev",
         "_repo": "nosugarcoffee"
     },
@@ -996849,7 +997020,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/craft-launcher/releases/tag/v0.13.0",
+            "changelog": "https://github.com/storytold/craft-launcher/releases/tag/v0.14.0",
             "description": "Launcher for the ArtCraft creative application suite",
             "homepage": "https://github.com/storytold/craft-launcher",
             "identifiers": {
@@ -996906,7 +997077,7 @@
             ],
             "mainProgram": "artcraft-launcher",
             "maintainers": [],
-            "name": "artcraft-launcher-bin-0.13.0",
+            "name": "artcraft-launcher-bin-0.14.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -996931,14 +997102,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artcraft-launcher-bin-0.13.0",
+        "name": "artcraft-launcher-bin-0.14.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artcraft-launcher-bin",
         "system": "x86_64-linux",
-        "version": "0.13.0",
+        "version": "0.14.0",
         "_attr": "artcraft-launcher-bin",
         "_repo": "silicalet"
     },
@@ -996946,7 +997117,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/cadcraft/releases/tag/v0.16.0",
+            "changelog": "https://github.com/storytold/cadcraft/releases/tag/v0.17.0",
             "description": "Native computer-aided design and drafting application",
             "homepage": "https://github.com/storytold/cadcraft",
             "identifiers": {
@@ -997003,7 +997174,7 @@
             ],
             "mainProgram": "cadcraft",
             "maintainers": [],
-            "name": "cadcraft-bin-0.16.0",
+            "name": "cadcraft-bin-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -997028,14 +997199,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cadcraft-bin-0.16.0",
+        "name": "cadcraft-bin-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cadcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "_attr": "cadcraft-bin",
         "_repo": "silicalet"
     },
@@ -997467,7 +997638,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/deckcraft/releases/tag/v0.14.1",
+            "changelog": "https://github.com/storytold/deckcraft/releases/tag/v0.15.0",
             "description": "Native presentation and slide editor",
             "homepage": "https://github.com/storytold/deckcraft",
             "identifiers": {
@@ -997524,7 +997695,7 @@
             ],
             "mainProgram": "deckcraft",
             "maintainers": [],
-            "name": "deckcraft-bin-0.14.1",
+            "name": "deckcraft-bin-0.15.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -997549,14 +997720,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deckcraft-bin-0.14.1",
+        "name": "deckcraft-bin-0.15.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deckcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.14.1",
+        "version": "0.15.0",
         "_attr": "deckcraft-bin",
         "_repo": "silicalet"
     },
@@ -997564,7 +997735,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/designcraft/releases/tag/v0.16.0",
+            "changelog": "https://github.com/storytold/designcraft/releases/tag/v0.17.0",
             "description": "Native page layout and desktop publishing application",
             "homepage": "https://github.com/storytold/designcraft",
             "identifiers": {
@@ -997621,7 +997792,7 @@
             ],
             "mainProgram": "designcraft",
             "maintainers": [],
-            "name": "designcraft-bin-0.16.0",
+            "name": "designcraft-bin-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -997646,14 +997817,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "designcraft-bin-0.16.0",
+        "name": "designcraft-bin-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "designcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "_attr": "designcraft-bin",
         "_repo": "silicalet"
     },
@@ -997783,7 +997954,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/effectcraft/releases/tag/v0.20.0",
+            "changelog": "https://github.com/storytold/effectcraft/releases/tag/v0.21.0",
             "description": "Native motion graphics and visual effects editor",
             "homepage": "https://github.com/storytold/effectcraft",
             "identifiers": {
@@ -997840,7 +998011,7 @@
             ],
             "mainProgram": "effectcraft",
             "maintainers": [],
-            "name": "effectcraft-bin-0.20.0",
+            "name": "effectcraft-bin-0.21.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -997865,14 +998036,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-bin-0.20.0",
+        "name": "effectcraft-bin-0.21.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.20.0",
+        "version": "0.21.0",
         "_attr": "effectcraft-bin",
         "_repo": "silicalet"
     },
@@ -997880,7 +998051,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/figcraft/releases/tag/v0.14.0",
+            "changelog": "https://github.com/storytold/figcraft/releases/tag/v0.15.0",
             "description": "Native interface design and prototyping application",
             "homepage": "https://github.com/storytold/figcraft",
             "identifiers": {
@@ -997937,7 +998108,7 @@
             ],
             "mainProgram": "figcraft",
             "maintainers": [],
-            "name": "figcraft-bin-0.14.0",
+            "name": "figcraft-bin-0.15.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -997962,14 +998133,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "figcraft-bin-0.14.0",
+        "name": "figcraft-bin-0.15.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "figcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.14.0",
+        "version": "0.15.0",
         "_attr": "figcraft-bin",
         "_repo": "silicalet"
     },
@@ -997977,7 +998148,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/filmcraft/releases/tag/v0.16.0",
+            "changelog": "https://github.com/storytold/filmcraft/releases/tag/v0.17.0",
             "description": "Native video editor with timeline editing and color grading",
             "homepage": "https://github.com/storytold/filmcraft",
             "identifiers": {
@@ -998034,7 +998205,7 @@
             ],
             "mainProgram": "filmcraft",
             "maintainers": [],
-            "name": "filmcraft-bin-0.16.0",
+            "name": "filmcraft-bin-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -998059,14 +998230,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "filmcraft-bin-0.16.0",
+        "name": "filmcraft-bin-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "filmcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "_attr": "filmcraft-bin",
         "_repo": "silicalet"
     },
@@ -998242,7 +998413,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/gridcraft/releases/tag/v0.15.0",
+            "changelog": "https://github.com/storytold/gridcraft/releases/tag/v0.16.0",
             "description": "Native spreadsheet and data analysis application",
             "homepage": "https://github.com/storytold/gridcraft",
             "identifiers": {
@@ -998299,7 +998470,7 @@
             ],
             "mainProgram": "gridcraft",
             "maintainers": [],
-            "name": "gridcraft-bin-0.15.0",
+            "name": "gridcraft-bin-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -998324,14 +998495,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gridcraft-bin-0.15.0",
+        "name": "gridcraft-bin-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gridcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.15.0",
+        "version": "0.16.0",
         "_attr": "gridcraft-bin",
         "_repo": "silicalet"
     },
@@ -998651,7 +998822,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/lightcraft/releases/tag/v0.17.0",
+            "changelog": "https://github.com/storytold/lightcraft/releases/tag/v0.18.0",
             "description": "Native photo library and raw image developer",
             "homepage": "https://github.com/storytold/lightcraft",
             "identifiers": {
@@ -998708,7 +998879,7 @@
             ],
             "mainProgram": "lightcraft",
             "maintainers": [],
-            "name": "lightcraft-bin-0.17.0",
+            "name": "lightcraft-bin-0.18.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -998733,14 +998904,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lightcraft-bin-0.17.0",
+        "name": "lightcraft-bin-0.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lightcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.17.0",
+        "version": "0.18.0",
         "_attr": "lightcraft-bin",
         "_repo": "silicalet"
     },
@@ -999545,7 +999716,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/pdfcraft/releases/tag/v0.17.0",
+            "changelog": "https://github.com/storytold/pdfcraft/releases/tag/v0.18.0",
             "description": "Native PDF reader and document workbench",
             "homepage": "https://github.com/storytold/pdfcraft",
             "identifiers": {
@@ -999602,7 +999773,7 @@
             ],
             "mainProgram": "pdfcraft",
             "maintainers": [],
-            "name": "pdfcraft-bin-0.17.0",
+            "name": "pdfcraft-bin-0.18.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -999627,14 +999798,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-bin-0.17.0",
+        "name": "pdfcraft-bin-0.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.17.0",
+        "version": "0.18.0",
         "_attr": "pdfcraft-bin",
         "_repo": "silicalet"
     },
@@ -999642,7 +999813,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/photocraft/releases/tag/v0.19.0",
+            "changelog": "https://github.com/storytold/photocraft/releases/tag/v0.20.1",
             "description": "Native layered image editor",
             "homepage": "https://github.com/storytold/photocraft",
             "identifiers": {
@@ -999699,7 +999870,7 @@
             ],
             "mainProgram": "photocraft",
             "maintainers": [],
-            "name": "photocraft-bin-0.19.0",
+            "name": "photocraft-bin-0.20.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -999724,14 +999895,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "photocraft-bin-0.19.0",
+        "name": "photocraft-bin-0.20.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photocraft-bin",
         "system": "x86_64-linux",
-        "version": "0.19.0",
+        "version": "0.20.1",
         "_attr": "photocraft-bin",
         "_repo": "silicalet"
     },
@@ -1000281,7 +1000452,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/soundcraft/releases/tag/v0.16.0",
+            "changelog": "https://github.com/storytold/soundcraft/releases/tag/v0.17.0",
             "description": "Native digital audio workstation",
             "homepage": "https://github.com/storytold/soundcraft",
             "identifiers": {
@@ -1000338,7 +1000509,7 @@
             ],
             "mainProgram": "soundcraft",
             "maintainers": [],
-            "name": "soundcraft-bin-0.16.0",
+            "name": "soundcraft-bin-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1000363,14 +1000534,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "soundcraft-bin-0.16.0",
+        "name": "soundcraft-bin-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "soundcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "_attr": "soundcraft-bin",
         "_repo": "silicalet"
     },
@@ -1000534,7 +1000705,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/vectorcraft/releases/tag/v0.20.0",
+            "changelog": "https://github.com/storytold/vectorcraft/releases/tag/v0.21.0",
             "description": "Native vector illustration editor",
             "homepage": "https://github.com/storytold/vectorcraft",
             "identifiers": {
@@ -1000591,7 +1000762,7 @@
             ],
             "mainProgram": "vectorcraft",
             "maintainers": [],
-            "name": "vectorcraft-bin-0.20.0",
+            "name": "vectorcraft-bin-0.21.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1000616,14 +1000787,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vectorcraft-bin-0.20.0",
+        "name": "vectorcraft-bin-0.21.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vectorcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.20.0",
+        "version": "0.21.0",
         "_attr": "vectorcraft-bin",
         "_repo": "silicalet"
     },
@@ -1000715,7 +1000886,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/wordcraft/releases/tag/v0.14.0",
+            "changelog": "https://github.com/storytold/wordcraft/releases/tag/v0.15.0",
             "description": "Native word processor",
             "homepage": "https://github.com/storytold/wordcraft",
             "identifiers": {
@@ -1000772,7 +1000943,7 @@
             ],
             "mainProgram": "wordcraft",
             "maintainers": [],
-            "name": "wordcraft-bin-0.14.0",
+            "name": "wordcraft-bin-0.15.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1000797,14 +1000968,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wordcraft-bin-0.14.0",
+        "name": "wordcraft-bin-0.15.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wordcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.14.0",
+        "version": "0.15.0",
         "_attr": "wordcraft-bin",
         "_repo": "silicalet"
     },
