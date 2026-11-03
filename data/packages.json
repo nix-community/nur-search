@@ -4377,7 +4377,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/rpcs3-git/default.nix",
                 "line": 197
             },
-            "name": "rpcs3-git-0.0.43-unstable-2026-11-02",
+            "name": "rpcs3-git-0.0.43-unstable-2026-11-03",
             "nonTeamMaintainers": [
                 {
                     "github": "Adamekka",
@@ -4397,14 +4397,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "rpcs3-git-0.0.43-unstable-2026-11-02",
+        "name": "rpcs3-git-0.0.43-unstable-2026-11-03",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3-git",
         "system": "x86_64-linux",
-        "version": "0.0.43-unstable-2026-11-02",
+        "version": "0.0.43-unstable-2026-11-03",
         "_attr": "rpcs3-git",
         "_repo": "Adamekka"
     },
@@ -30073,7 +30073,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/GriefNorth/pkgs/ps5upload/default.nix",
                 "line": 97
             },
-            "name": "ps5upload-10.7.6",
+            "name": "ps5upload-11.0.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -30098,14 +30098,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ps5upload-10.7.6",
+        "name": "ps5upload-11.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ps5upload",
         "system": "x86_64-linux",
-        "version": "10.7.6",
+        "version": "11.0.0",
         "_attr": "ps5upload",
         "_repo": "GriefNorth"
     },
@@ -248907,6 +248907,119 @@
         "_attr": "dagger",
         "_repo": "dagger"
     },
+    "nur.repos.davinci42.basic-memory": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Local-first Markdown knowledge graph and MCP memory server",
+            "homepage": "https://github.com/basicmachines-co/basic-memory",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "basic-memory",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "basic-memory",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "mainProgram": "basic-memory",
+            "maintainers": [],
+            "name": "basic-memory-1.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/basic-memory/default.nix#L125",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "basic-memory-1.0.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "basic-memory",
+        "system": "x86_64-linux",
+        "version": "1.0.0",
+        "_attr": "basic-memory",
+        "_repo": "davinci42"
+    },
     "nur.repos.davinci42.fluxdown-server": {
         "meta": {
             "available": true,
@@ -254834,7 +254947,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dima/pkgs/scp-cb/default.nix#L96",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dima/pkgs/scp-cb/default.nix#L100",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -352796,7 +352909,7 @@
             },
             "mainProgram": "neorex",
             "maintainers": [],
-            "name": "neorex-0-unstable-2026-11-02",
+            "name": "neorex-0-unstable-2026-11-03",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -352814,14 +352927,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "neorex-0-unstable-2026-11-02",
+        "name": "neorex-0-unstable-2026-11-03",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "neorex",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-03",
         "_attr": "neorex",
         "_repo": "josh"
     },
@@ -529668,7 +529781,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/kaitranntt/CLIProxyAPIPlus/releases/tag/v7.3.12-5",
+            "changelog": "https://github.com/kaitranntt/CLIProxyAPIPlus/releases/tag/v7.3.12-6",
             "description": "CCS-maintained fork of CLIProxyAPIPlus (MIT snapshot, Apr 2026) with daily auto-sync from router-for-me/CLIProxyAPI. See plans for context",
             "homepage": "https://github.com/kaitranntt/CLIProxyAPIPlus",
             "identifiers": {
@@ -529722,7 +529835,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cliproxyapiplus/default.nix",
                 "line": 69
             },
-            "name": "cliproxyapiplus-7.3.12-5",
+            "name": "cliproxyapiplus-7.3.12-6",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -529741,14 +529854,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapiplus-7.3.12-5",
+        "name": "cliproxyapiplus-7.3.12-6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapiplus",
         "system": "x86_64-linux",
-        "version": "7.3.12-5",
+        "version": "7.3.12-6",
         "_attr": "cliproxyapiplus",
         "_repo": "mzwing"
     },
@@ -531224,7 +531337,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
-                "line": 83
+                "line": 47
             },
             "name": "magic-context-0.49.35",
             "nonTeamMaintainers": [
@@ -531240,7 +531353,7 @@
                 "aarch64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/magic-context/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/magic-context/default.nix#L42",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -755892,7 +756005,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/artcraft-launcher/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/artcraft-launcher/default.nix#L131",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -756082,7 +756195,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/cadcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/cadcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -756377,7 +756490,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/designcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/designcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -756666,7 +756779,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/effectcraft/default.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/effectcraft/default.nix#L117",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -756773,7 +756886,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/figcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/figcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -756880,7 +756993,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/filmcraft/default.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/filmcraft/default.nix#L117",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -757071,7 +757184,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/gridcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/gridcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -757427,7 +757540,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/lightcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/lightcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -757534,7 +757647,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/materialcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/materialcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -758085,7 +758198,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/pdfcraft/default.nix#L83",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/pdfcraft/default.nix#L120",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -758192,7 +758305,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/photocraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/photocraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -758633,7 +758746,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/soundcraft/default.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/soundcraft/default.nix#L118",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -758823,7 +758936,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/texturecraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/texturecraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -758930,7 +759043,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/vectorcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/vectorcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -759136,7 +759249,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/wordcraft/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/wordcraft/default.nix#L115",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -884915,7 +885028,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sectui/operations/releases/tag/v0.1.2",
+            "changelog": "https://github.com/sectui/operations/releases/tag/v0.0.1",
             "description": "CyberChef-like data transformations from the terminal",
             "homepage": "https://github.com/sectui/operations",
             "identifiers": {
@@ -884969,9 +885082,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sectui/pkgs/operations/default.nix",
-                "line": 28
+                "line": 50
             },
-            "name": "operations-0.1.2",
+            "name": "operations-0.0.1",
             "nonTeamMaintainers": [
                 {
                     "github": "anotherhadi",
@@ -885029,154 +885142,20 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sectui/pkgs/operations/default.nix#L23",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sectui/pkgs/operations/default.nix#L45",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "operations-0.1.2",
+        "name": "operations-0.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "operations",
         "system": "x86_64-linux",
-        "version": "0.1.2",
+        "version": "0.0.1",
         "_attr": "operations",
-        "_repo": "sectui"
-    },
-    "nur.repos.sectui.subdomain-finder": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/sectui/subdomain-finder/releases/tag/v0.1.0",
-            "description": "Passive subdomain enumeration from public sources",
-            "homepage": "https://github.com/sectui/subdomain-finder",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "subdomain-finder",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "subdomain-finder",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "subdomain-finder",
-            "maintainers": [
-                {
-                    "github": "anotherhadi",
-                    "githubId": 112569860,
-                    "name": "Hadi"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sectui/pkgs/subdomain-finder/default.nix",
-                "line": 28
-            },
-            "name": "subdomain-finder-0.1.0",
-            "nonTeamMaintainers": [
-                {
-                    "github": "anotherhadi",
-                    "githubId": 112569860,
-                    "name": "Hadi"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sectui/pkgs/subdomain-finder/default.nix#L23",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "subdomain-finder-0.1.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "subdomain-finder",
-        "system": "x86_64-linux",
-        "version": "0.1.0",
-        "_attr": "subdomain-finder",
         "_repo": "sectui"
     },
     "nur.repos.sedlund.deploy-rs": {
@@ -1049051,7 +1049030,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.206.0",
+            "changelog": "https://github.com/renovatebot/renovate/releases/tag/44.209.0",
             "description": "Cross-platform dependency automation, with patches for nix",
             "homepage": "https://github.com/renovatebot/renovate",
             "identifiers": {
@@ -1049096,7 +1049075,7 @@
             },
             "mainProgram": "renovate",
             "maintainers": [],
-            "name": "renovate-44.206.0",
+            "name": "renovate-44.209.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1049134,14 +1049113,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "renovate-44.206.0",
+        "name": "renovate-44.209.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "renovate",
         "system": "x86_64-linux",
-        "version": "44.206.0",
+        "version": "44.209.0",
         "_attr": "renovate",
         "_repo": "trev"
     },
@@ -1177186,7 +1177165,7 @@
             "longDescription": "Beeper is a universal chat app. With Beeper, you can send\nand receive messages to friends, family and colleagues on\nmany different chat networks.\n",
             "mainProgram": "beeper",
             "maintainers": [],
-            "name": "beeper-4.3.264",
+            "name": "beeper-4.3.276",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1177210,14 +1177189,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-4.3.264",
+        "name": "beeper-4.3.276",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper",
         "system": "x86_64-linux",
-        "version": "4.3.264",
+        "version": "4.3.276",
         "_attr": "beeper",
         "_repo": "ymstnt"
     },
@@ -1177350,7 +1177329,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "equicord-1.15.14.0",
+            "name": "equicord-1.15.15.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1177391,14 +1177370,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "equicord-1.15.14.0",
+        "name": "equicord-1.15.15.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "equicord",
         "system": "x86_64-linux",
-        "version": "1.15.14.0",
+        "version": "1.15.15.0",
         "_attr": "equicord",
         "_repo": "ymstnt"
     },
