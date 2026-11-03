@@ -244602,7 +244602,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/congee/pkgs/llmster/default.nix",
                 "line": 60
             },
-            "name": "llmster-0.0.25+1",
+            "name": "llmster-0.0.27+1",
             "nonTeamMaintainers": [
                 {
                     "email": "changshengwu@pm.me",
@@ -244629,14 +244629,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "llmster-0.0.25+1",
+        "name": "llmster-0.0.27+1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "llmster",
         "system": "x86_64-linux",
-        "version": "0.0.25+1",
+        "version": "0.0.27+1",
         "_attr": "llmster",
         "_repo": "congee"
     },
@@ -245111,7 +245111,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/wkillerud/some-sass/releases/tag/some-sass-language-server@2.3.8",
+            "changelog": "https://github.com/wkillerud/some-sass/releases/tag/some-sass-language-server@2.3.9",
             "description": "Language server with improved support for SCSS, Sass indented and SassDoc",
             "homepage": "https://github.com/wkillerud/some-sass/tree/main/packages/language-server",
             "identifiers": {
@@ -245169,7 +245169,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/congee/pkgs/some-sass-language-server/default.nix",
                 "line": 38
             },
-            "name": "some-sass-language-server-2.3.8",
+            "name": "some-sass-language-server-2.3.9",
             "nonTeamMaintainers": [
                 {
                     "email": "changshengwu@pm.me",
@@ -245187,14 +245187,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "some-sass-language-server-2.3.8",
+        "name": "some-sass-language-server-2.3.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "some-sass-language-server",
         "system": "x86_64-linux",
-        "version": "2.3.8",
+        "version": "2.3.9",
         "_attr": "some-sass-language-server",
         "_repo": "congee"
     },
@@ -1000559,6 +1000559,82 @@
         "system": "x86_64-linux",
         "version": "6.8.0",
         "_attr": "rea",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.rea-full": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "REA with analysis tools available on PATH",
+            "homepage": "https://github.com/morluto/rea",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "rea",
+            "maintainers": [],
+            "name": "rea-full-6.8.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/tools/rea/full.nix#L24",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rea-full-6.8.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rea-full",
+        "system": "x86_64-linux",
+        "version": "6.8.0",
+        "_attr": "rea-full",
         "_repo": "silicalet"
     },
     "nur.repos.silicalet.seekey": {
