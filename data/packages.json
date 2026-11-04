@@ -166571,7 +166571,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.2.1",
+            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.3.0",
             "description": "Dynamically generate GitHub stats for your READMEs",
             "homepage": "https://github.com/stats-organization/github-stats-extended",
             "identifiers": {
@@ -166632,9 +166632,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix",
-                "line": 108
+                "line": 110
             },
-            "name": "github-readme-stats-extended-unwrapped-2.2.1",
+            "name": "github-readme-stats-extended-unwrapped-2.3.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -166733,19 +166733,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix#L104",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix#L106",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "github-readme-stats-extended-2.2.1",
+        "name": "github-readme-stats-extended-2.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "github-readme-stats-extended",
         "system": "x86_64-linux",
-        "version": "2.2.1",
+        "version": "2.3.0",
         "_attr": "_bartPackages.github-readme-stats-extended",
         "_repo": "bartoostveen"
     },
@@ -166753,7 +166753,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.2.1",
+            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.3.0",
             "description": "Dynamically generate GitHub stats for your READMEs",
             "homepage": "https://github.com/stats-organization/github-stats-extended",
             "identifiers": {
@@ -166814,9 +166814,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix",
-                "line": 108
+                "line": 110
             },
-            "name": "github-readme-stats-extended-unwrapped-2.2.1",
+            "name": "github-readme-stats-extended-unwrapped-2.3.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -166915,19 +166915,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix#L104",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix#L106",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "github-readme-stats-extended-unwrapped-2.2.1",
+        "name": "github-readme-stats-extended-unwrapped-2.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "github-readme-stats-extended-unwrapped",
         "system": "x86_64-linux",
-        "version": "2.2.1",
+        "version": "2.3.0",
         "_attr": "_bartPackages.github-readme-stats-extended-unwrapped",
         "_repo": "bartoostveen"
     },
@@ -506663,83 +506663,6 @@
         "_attr": "web-archives-firefox",
         "_repo": "mio"
     },
-    "nur.repos.mio.wechat_appearance_plugin": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "LD_PRELOAD plugin to make WeChat follow system appearance",
-            "homepage": "https://linux.weixin.qq.com/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "wechat-appearance-plugin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "wechat-appearance-plugin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "wechat-appearance-plugin-1.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/we/wechat_appearance_plugin/package.nix#L36",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "wechat-appearance-plugin-1.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "wechat-appearance-plugin",
-        "system": "x86_64-linux",
-        "version": "1.0",
-        "_attr": "wechat_appearance_plugin",
-        "_repo": "mio"
-    },
     "nur.repos.mio.wechat_bwrap": {
         "meta": {
             "available": false,
@@ -506789,7 +506712,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/we/wechat_bwrap/package.nix",
-                "line": 157
+                "line": 147
             },
             "name": "wechat-universal-bwrap-4.1.13.26",
             "nonTeamMaintainers": [],
@@ -506800,7 +506723,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/we/wechat_bwrap/package.nix#L154",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/we/wechat_bwrap/package.nix#L144",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -506819,82 +506742,6 @@
         "system": "x86_64-linux",
         "version": "4.1.13.26",
         "_attr": "wechat_bwrap",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.wechat_patched": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "WeChat with LD_PRELOAD interceptor to follow system light/dark (portal)",
-            "homepage": "https://linux.weixin.qq.com/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "wechat-patched",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "wechat-patched",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "wechat",
-            "maintainers": [],
-            "name": "wechat-patched-4.1.13.26",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/we/wechat_patched/package.nix#L62",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "wechat-patched-4.1.13.26",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "wechat-patched",
-        "system": "x86_64-linux",
-        "version": "4.1.13.26",
-        "_attr": "wechat_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.wechat_patched_frida": {
