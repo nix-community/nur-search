@@ -248552,6 +248552,249 @@
         "_attr": "dagger",
         "_repo": "dagger"
     },
+    "nur.repos.dartotsu.alpha": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "An Anilist client",
+            "homepage": "https://github.com/aayush2622/Dartotsu",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dartotsu-alpha",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dartotsu-alpha",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "dartotsu-alpha",
+            "maintainers": [],
+            "name": "dartotsu-alpha-bb20cdd",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L229",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "dartotsu-alpha-bb20cdd",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dartotsu-alpha-bb20cdd",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "alpha",
+        "_repo": "dartotsu"
+    },
+    "nur.repos.dartotsu.prerelease": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "An Anilist client",
+            "homepage": "https://github.com/aayush2622/Dartotsu",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dartotsu-prerelease",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dartotsu-prerelease",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "dartotsu-prerelease",
+            "maintainers": [],
+            "name": "dartotsu-prerelease-1.2.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L229",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "dartotsu-prerelease-1.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dartotsu-prerelease",
+        "system": "x86_64-linux",
+        "version": "1.2.0",
+        "_attr": "prerelease",
+        "_repo": "dartotsu"
+    },
+    "nur.repos.dartotsu.stable": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "An Anilist client",
+            "homepage": "https://github.com/aayush2622/Dartotsu",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dartotsu",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dartotsu",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "dartotsu",
+            "maintainers": [],
+            "name": "dartotsu-1.2.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L229",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "dartotsu-1.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dartotsu",
+        "system": "x86_64-linux",
+        "version": "1.2.0",
+        "_attr": "stable",
+        "_repo": "dartotsu"
+    },
     "nur.repos.davinci42.basic-memory": {
         "meta": {
             "available": true,
@@ -278252,6 +278495,247 @@
         "version": "3.4.1",
         "_attr": "mos",
         "_repo": "fanbb2333"
+    },
+    "nur.repos.farbzen.mixedupmh": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Randomizer for Monster Hunter Wilds that rolls monsters and weapons for your hunting party",
+            "homepage": "https://github.com/farbzen/mixedupmh",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mixedupmh",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mixedupmh",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "mumh",
+            "maintainers": [
+                {
+                    "email": "dev@farbzen.de",
+                    "github": "farbzen",
+                    "githubId": 60570640,
+                    "name": "Fabian Meier"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/farbzen/pkgs/mixedupmh/default.nix",
+                "line": 43
+            },
+            "name": "mixedupmh-0.8.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@farbzen.de",
+                    "github": "farbzen",
+                    "githubId": 60570640,
+                    "name": "Fabian Meier"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/farbzen/pkgs/mixedupmh/default.nix#L38",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mixedupmh-0.8.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mixedupmh",
+        "system": "x86_64-linux",
+        "version": "0.8.0",
+        "_attr": "mixedupmh",
+        "_repo": "farbzen"
+    },
+    "nur.repos.farbzen.narf": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/farbzen/narf/blob/v2.1.0/CHANGELOG.md",
+            "description": "NixOS Advanced Rebuild Flake - Rebuilding nix flakes and creating commits",
+            "homepage": "https://github.com/farbzen/narf",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "narf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "narf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "narf",
+            "maintainers": [
+                {
+                    "email": "dev@farbzen.de",
+                    "github": "farbzen",
+                    "githubId": 60570640,
+                    "name": "Fabian Meier"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/farbzen/pkgs/narf/default.nix",
+                "line": 37
+            },
+            "name": "narf-2.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@farbzen.de",
+                    "github": "farbzen",
+                    "githubId": 60570640,
+                    "name": "Fabian Meier"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/farbzen/pkgs/narf/default.nix#L31",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "narf-2.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "narf",
+        "system": "x86_64-linux",
+        "version": "2.1.0",
+        "_attr": "narf",
+        "_repo": "farbzen"
     },
     "nur.repos.fclairamb.solidping": {
         "meta": {
@@ -315825,6 +316309,167 @@
         "version": "",
         "_attr": "waifufetch",
         "_repo": "ibuysausage"
+    },
+    "nur.repos.iedame.jagex-launcher": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Official Jagex Launcher for RuneScape and Old School RuneScape (Linux beta)",
+            "homepage": "https://www.runescape.com/launcher",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jagex-launcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jagex-launcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "jagex-launcher",
+            "maintainers": [],
+            "name": "jagex-launcher-0.1.8",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/iedame/pkgs/jagex-launcher/package.nix#L36",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "jagex-launcher-0.1.8",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jagex-launcher",
+        "system": "x86_64-linux",
+        "version": "0.1.8",
+        "_attr": "jagex-launcher",
+        "_repo": "iedame"
+    },
+    "nur.repos.iedame.openrsc-launcher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free, open-source launcher for various Classic (2001-2004) RSC servers",
+            "homepage": "https://rsc.vet/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "openrsc-launcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "openrsc-launcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "openrsc",
+            "maintainers": [],
+            "name": "openrsc-launcher-5.30.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-linux",
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/iedame/pkgs/openrsc-launcher/package.nix#L57",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "openrsc-launcher-5.30.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "openrsc-launcher",
+        "system": "x86_64-linux",
+        "version": "5.30.0",
+        "_attr": "openrsc-launcher",
+        "_repo": "iedame"
     },
     "nur.repos.ifd3f.argen": {
         "meta": {
@@ -368365,6 +369010,308 @@
         "_attr": "zynaddsubfx-ntk",
         "_repo": "kira-bruneau"
     },
+    "nur.repos.knightfemale.biu": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Bilibili music desktop client",
+            "homepage": "https://github.com/wood3n/biu",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "biu",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "biu",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "PolyForm Noncommercial License 1.0.0",
+                "url": "https://polyformproject.org/licenses/noncommercial/1.0.0"
+            },
+            "mainProgram": "biu",
+            "maintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/knightfemale/outputs/_packages/biu/default.nix",
+                "line": 216
+            },
+            "name": "biu-1.16.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/knightfemale/outputs/_packages/biu/default.nix#L208",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "biu-1.16.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "biu",
+        "system": "x86_64-linux",
+        "version": "1.16.0",
+        "_attr": "biu",
+        "_repo": "knightfemale"
+    },
+    "nur.repos.knightfemale.comfyui-workflow-mcp": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/Silicon-AI-Garden-Ecosystem/comfyui-workflow-mcp/releases/tag/v0.2.0",
+            "description": "A ComfyUI workflow MCP friendly to both humans and agents",
+            "homepage": "https://github.com/Silicon-AI-Garden-Ecosystem/comfyui-workflow-mcp",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "comfyui-workflow-mcp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "comfyui-workflow-mcp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "comfyui-workflow-mcp",
+            "maintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/knightfemale/outputs/_packages/comfyui-workflow-mcp/default.nix",
+                "line": 27
+            },
+            "name": "comfyui-workflow-mcp-0.2.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/knightfemale/outputs/_packages/comfyui-workflow-mcp/default.nix#L23",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "comfyui-workflow-mcp-0.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "comfyui-workflow-mcp",
+        "system": "x86_64-linux",
+        "version": "0.2.0",
+        "_attr": "comfyui-workflow-mcp",
+        "_repo": "knightfemale"
+    },
+    "nur.repos.knightfemale.flake-show-ng": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Show the complete tree of a flake's outputs",
+            "homepage": "https://github.com/nix-config/flake-show-ng",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "flake-show-ng",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "flake-show-ng",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "fsn",
+            "maintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/knightfemale/outputs/_packages/flake-show-ng/default.nix",
+                "line": 39
+            },
+            "name": "flake-show-ng-0.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/knightfemale/outputs/_packages/flake-show-ng/default.nix#L36",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "flake-show-ng-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "flake-show-ng",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "flake-show-ng",
+        "_repo": "knightfemale"
+    },
     "nur.repos.kokakiwi.agree": {
         "meta": {
             "available": false,
@@ -376791,6 +377738,161 @@
         "version": "0.1.0",
         "_attr": "wxc",
         "_repo": "lihaoze123"
+    },
+    "nur.repos.lillian0x.asebi": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Asebi Mincho - Another Japanese font",
+            "downloadPage": "https://metasta.github.io/asebi/",
+            "homepage": "https://metasta.github.io/asebi/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "asebi",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "asebi",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "IPA Font License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "ipa",
+                "spdxId": "IPA",
+                "url": "https://spdx.org/licenses/IPA.html"
+            },
+            "maintainers": [],
+            "name": "asebi-1.011",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillian0x/pkgs/asebi/default.nix#L26",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "asebi-1.011",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "asebi",
+        "system": "x86_64-linux",
+        "version": "1.011",
+        "_attr": "asebi",
+        "_repo": "lillian0x"
     },
     "nur.repos.lillycham.akyuu": {
         "meta": {
@@ -569636,6 +570738,107 @@
         "version": "1.5.2",
         "_attr": "firefly-iii-data-importer",
         "_repo": "phandox"
+    },
+    "nur.repos.phos-org.hyprkbm": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/phos-org/hyprKBM/blob/v0.1.0/CHANGELOG.md",
+            "description": "Keyboard-first keybind manager for Hyprland's Lua config",
+            "homepage": "https://github.com/phos-org/hyprKBM",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "hyprkbm",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "hyprkbm",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "hyprkbm",
+            "maintainers": [],
+            "name": "hyprkbm-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/phos-org/pkgs/hyprkbm/default.nix#L52",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "hyprkbm-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "hyprkbm",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "hyprkbm",
+        "_repo": "phos-org"
     },
     "nur.repos.pokanop.nostromo": {
         "meta": {
