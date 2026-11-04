@@ -266872,7 +266872,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "proton-wineland-11.0-20261024",
+            "name": "proton-wineland-11.0-20261103",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -266896,7 +266896,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-wineland-11.0-20261024",
+        "name": "proton-wineland-11.0-20261103",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -266904,7 +266904,7 @@
         },
         "pname": "proton-wineland",
         "system": "x86_64-linux",
-        "version": "11.0-20261024",
+        "version": "11.0-20261103",
         "_attr": "proton-wineland",
         "_repo": "duncannah"
     },
@@ -326931,6 +326931,127 @@
         "system": "x86_64-linux",
         "version": "1.1.7",
         "_attr": "agent-skills-cli",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.ccd-tools": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Concordium account status reports from CCDExplorer",
+            "homepage": "https://github.com/ijohanne/nur-packages",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ccd-tools",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ccd-tools",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "ccd-status",
+            "maintainers": [],
+            "name": "ccd-tools-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ijohanne/pkgs/ccd-tools/default.nix#L13",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ccd-tools-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ccd-tools",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "ccd-tools",
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened": {
@@ -415794,6 +415915,84 @@
         "_attr": "buster-client-setup",
         "_repo": "milahu"
     },
+    "nur.repos.milahu.camoufox-unwrapped": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Camoufox privacy and automation browser built from source",
+            "homepage": "https://github.com/daijro/camoufox",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "camoufox-unwrapped",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "camoufox-unwrapped",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "mainProgram": "camoufox",
+            "maintainers": [],
+            "name": "camoufox-unwrapped-158.0.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/milahu/pkgs/by-name/ca/camoufox-unwrapped/package.nix#L210",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "camoufox-unwrapped-158.0.1",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "out": null
+        },
+        "pname": "camoufox-unwrapped",
+        "system": "x86_64-linux",
+        "version": "158.0.1",
+        "_attr": "camoufox-unwrapped",
+        "_repo": "milahu"
+    },
     "nur.repos.milahu.caramel": {
         "meta": {
             "available": true,
@@ -475842,9 +476041,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/an/android-translation-layer/package.nix",
-                "line": 131
+                "line": 152
             },
-            "name": "android-translation-layer-0-unstable-2026-10-30",
+            "name": "android-translation-layer-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "onny@project-insanity.org",
@@ -475937,19 +476136,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/an/android-translation-layer/package.nix#L127",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/an/android-translation-layer/package.nix#L148",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "android-translation-layer-0-unstable-2026-10-30",
+        "name": "android-translation-layer-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "android-translation-layer",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-30",
+        "version": "0-unstable-2026-11-04",
         "_attr": "android-translation-layer",
         "_repo": "mio"
     },
@@ -476011,9 +476210,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/an/android-translation-layer/package.nix",
-                "line": 131
+                "line": 152
             },
-            "name": "android-translation-layer-patched-0-unstable-2026-10-30",
+            "name": "android-translation-layer-patched-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "onny@project-insanity.org",
@@ -476106,19 +476305,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/an/android-translation-layer/package.nix#L127",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/an/android-translation-layer/package.nix#L148",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "android-translation-layer-patched-0-unstable-2026-10-30",
+        "name": "android-translation-layer-patched-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "android-translation-layer-patched",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-30",
+        "version": "0-unstable-2026-11-04",
         "_attr": "android-translation-layer_patched",
         "_repo": "mio"
     },
@@ -476911,9 +477110,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/art-standalone/package.nix",
-                "line": 106
+                "line": 125
             },
-            "name": "art-standalone-0-unstable-2026-10-18",
+            "name": "art-standalone-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "onny@project-insanity.org",
@@ -476928,19 +477127,19 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/art-standalone/package.nix#L101",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/art-standalone/package.nix#L120",
             "problems": {},
             "unfree": true,
             "unsupported": false
         },
-        "name": "art-standalone-0-unstable-2026-10-18",
+        "name": "art-standalone-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "art-standalone",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-18",
+        "version": "0-unstable-2026-11-04",
         "_attr": "art-standalone",
         "_repo": "mio"
     },
@@ -477000,9 +477199,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/art-standalone/package.nix",
-                "line": 106
+                "line": 125
             },
-            "name": "art-standalone-patched-0-unstable-2026-10-18",
+            "name": "art-standalone-patched-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "onny@project-insanity.org",
@@ -477046,14 +477245,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "art-standalone-patched-0-unstable-2026-10-18",
+        "name": "art-standalone-patched-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "art-standalone-patched",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-18",
+        "version": "0-unstable-2026-11-04",
         "_attr": "art-standalone-patched",
         "_repo": "mio"
     },
@@ -481123,7 +481322,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/clice-io/clice/releases/tag/v0.1.2026110209",
+            "changelog": "https://github.com/clice-io/clice/releases/tag/v0.1.2026110404",
             "description": "Next-generation C++ language server built on LLVM/Clang",
             "homepage": "https://github.com/clice-io/clice",
             "identifiers": {
@@ -481171,9 +481370,9 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/cl/clice/package.nix",
-                "line": 273
+                "line": 274
             },
-            "name": "clice-0.1.2026110209",
+            "name": "clice-0.1.2026110404",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -481182,7 +481381,7 @@
                 "x86_64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cl/clice/package.nix#L269",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cl/clice/package.nix#L270",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481202,14 +481401,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clice-0.1.2026110209",
+        "name": "clice-0.1.2026110404",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clice",
         "system": "x86_64-linux",
-        "version": "0.1.2026110209",
+        "version": "0.1.2026110404",
         "_attr": "clice",
         "_repo": "mio"
     },
@@ -484554,7 +484753,7 @@
             },
             "mainProgram": "degrees-of-lewdity",
             "maintainers": [],
-            "name": "degrees-of-lewdity-0.5.13.7",
+            "name": "degrees-of-lewdity-0.5.13.8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -484586,7 +484785,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/de/degrees-of-lewdity/package.nix#L133",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/de/degrees-of-lewdity/package.nix#L141",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -484602,14 +484801,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "degrees-of-lewdity-0.5.13.7",
+        "name": "degrees-of-lewdity-0.5.13.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "degrees-of-lewdity",
         "system": "x86_64-linux",
-        "version": "0.5.13.7",
+        "version": "0.5.13.8",
         "_attr": "degrees-of-lewdity",
         "_repo": "mio"
     },
@@ -941747,7 +941946,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/gn/gnsstk/package.nix",
                 "line": 35
             },
-            "name": "gnsstk-15.0.0",
+            "name": "gnsstk-15.3.1",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -941817,14 +942016,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gnsstk-15.0.0",
+        "name": "gnsstk-15.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gnsstk",
         "system": "x86_64-linux",
-        "version": "15.0.0",
+        "version": "15.3.1",
         "_attr": "gnsstk",
         "_repo": "sikmir"
     },
@@ -941893,7 +942092,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/gn/gnsstk-apps/package.nix",
                 "line": 35
             },
-            "name": "gnsstk-apps-14.1.1",
+            "name": "gnsstk-apps-15.1.1",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -941963,14 +942162,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gnsstk-apps-14.1.1",
+        "name": "gnsstk-apps-15.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gnsstk-apps",
         "system": "x86_64-linux",
-        "version": "14.1.1",
+        "version": "15.1.1",
         "_attr": "gnsstk-apps",
         "_repo": "sikmir"
     },
@@ -960639,7 +960838,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/mq/mqtt-cli/package.nix",
                 "line": 42
             },
-            "name": "mqtt-cli-4.56.1",
+            "name": "mqtt-cli-4.57.0",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -960678,14 +960877,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mqtt-cli-4.56.1",
+        "name": "mqtt-cli-4.57.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mqtt-cli",
         "system": "x86_64-linux",
-        "version": "4.56.1",
+        "version": "4.57.0",
         "_attr": "mqtt-cli",
         "_repo": "sikmir"
     },
@@ -977640,7 +977839,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/re/revdiff/package.nix",
                 "line": 40
             },
-            "name": "revdiff-1.13.0",
+            "name": "revdiff-1.14.0",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -977695,14 +977894,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "revdiff-1.13.0",
+        "name": "revdiff-1.14.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "revdiff",
         "system": "x86_64-linux",
-        "version": "1.13.0",
+        "version": "1.14.0",
         "_attr": "revdiff",
         "_repo": "sikmir"
     },
@@ -991331,7 +991530,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/ti/tinyflux/package.nix",
                 "line": 31
             },
-            "name": "tinyflux-1.2.0",
+            "name": "tinyflux-1.3.0",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -991387,7 +991586,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tinyflux-1.2.0",
+        "name": "tinyflux-1.3.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -991395,7 +991594,7 @@
         },
         "pname": "tinyflux",
         "system": "x86_64-linux",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "_attr": "tinyflux",
         "_repo": "sikmir"
     },
@@ -1052879,7 +1053078,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://gitlab.com/gitlab-org/cli/-/releases/v1.127.0",
+            "changelog": "https://gitlab.com/gitlab-org/cli/-/releases/v1.128.0",
             "description": "GitLab CLI tool bringing GitLab to your command line (upstream prebuilt binary)",
             "homepage": "https://gitlab.com/gitlab-org/cli",
             "identifiers": {
@@ -1052924,7 +1053123,7 @@
             },
             "mainProgram": "glab",
             "maintainers": [],
-            "name": "glab-bin-1.127.0",
+            "name": "glab-bin-1.128.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1052948,14 +1053147,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "glab-bin-1.127.0",
+        "name": "glab-bin-1.128.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "glab-bin",
         "system": "x86_64-linux",
-        "version": "1.127.0",
+        "version": "1.128.0",
         "_attr": "glab-bin",
         "_repo": "unstable-code"
     },
@@ -1125750,111 +1125949,6 @@
         "_attr": "openssl-oqs-provider",
         "_repo": "xddxdd"
     },
-    "nur.repos.xddxdd.osdlyrics": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/osdlyrics/osdlyrics/releases/tag/0.6.0",
-            "description": "Standalone lyrics fetcher/displayer (windowed and OSD mode)",
-            "homepage": "https://github.com/osdlyrics/osdlyrics",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "osdlyrics",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "osdlyrics",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "osdlyrics",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/osdlyrics/default.nix",
-                "line": 106
-            },
-            "name": "osdlyrics-0.6.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/osdlyrics/default.nix#L107",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "osdlyrics-0.6.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "osdlyrics",
-        "system": "x86_64-linux",
-        "version": "0.6.0",
-        "_attr": "osdlyrics",
-        "_repo": "xddxdd"
-    },
     "nur.repos.xddxdd.palworld-exporter": {
         "meta": {
             "available": true,
@@ -1135018,112 +1135112,6 @@
         "system": "x86_64-linux",
         "version": "8.057.00",
         "_attr": "r8168",
-        "_repo": "xddxdd"
-    },
-    "nur.repos.xddxdd.red-star-os-rgjanggi": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Rgjanggi game from DPRK Red Star OS 3.0, heavily sandboxed, use at your own risk",
-            "homepage": "https://archive.org/details/RedStarOS",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "red-star-os-rgjanggi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "red-star-os-rgjanggi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "rgjanggi",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/red-star-os-rgjanggi/default.nix",
-                "line": 15
-            },
-            "name": "red-star-os-rgjanggi-3.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "i686-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/red-star-os-rgjanggi/default.nix#L16",
-            "problems": {},
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "red-star-os-rgjanggi-3.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "red-star-os-rgjanggi",
-        "system": "x86_64-linux",
-        "version": "3.0",
-        "_attr": "red-star-os-rgjanggi",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.red-star-os-wallpapers": {
@@ -1154520,111 +1154508,6 @@
         "_attr": "uncategorized.openssl-oqs-provider",
         "_repo": "xddxdd"
     },
-    "nur.repos.xddxdd.uncategorized.osdlyrics": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/osdlyrics/osdlyrics/releases/tag/0.6.0",
-            "description": "Standalone lyrics fetcher/displayer (windowed and OSD mode)",
-            "homepage": "https://github.com/osdlyrics/osdlyrics",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "osdlyrics",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "osdlyrics",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "osdlyrics",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/osdlyrics/default.nix",
-                "line": 106
-            },
-            "name": "osdlyrics-0.6.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/osdlyrics/default.nix#L107",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "osdlyrics-0.6.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "osdlyrics",
-        "system": "x86_64-linux",
-        "version": "0.6.0",
-        "_attr": "uncategorized.osdlyrics",
-        "_repo": "xddxdd"
-    },
     "nur.repos.xddxdd.uncategorized.palworld-exporter": {
         "meta": {
             "available": true,
@@ -1157213,112 +1157096,6 @@
         "system": "x86_64-linux",
         "version": "1.9.1",
         "_attr": "uncategorized.qtwebapp",
-        "_repo": "xddxdd"
-    },
-    "nur.repos.xddxdd.uncategorized.red-star-os-rgjanggi": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Rgjanggi game from DPRK Red Star OS 3.0, heavily sandboxed, use at your own risk",
-            "homepage": "https://archive.org/details/RedStarOS",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "red-star-os-rgjanggi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "red-star-os-rgjanggi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "rgjanggi",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/red-star-os-rgjanggi/default.nix",
-                "line": 15
-            },
-            "name": "red-star-os-rgjanggi-3.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "i686-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/red-star-os-rgjanggi/default.nix#L16",
-            "problems": {},
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "red-star-os-rgjanggi-3.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "red-star-os-rgjanggi",
-        "system": "x86_64-linux",
-        "version": "3.0",
-        "_attr": "uncategorized.red-star-os-rgjanggi",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.uncategorized.red-star-os-wallpapers": {
