@@ -339658,7 +339658,7 @@
             },
             "mainProgram": "claude",
             "maintainers": [],
-            "name": "claude-code-bin-2.1.317",
+            "name": "claude-code-bin-2.1.318",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -339679,14 +339679,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "claude-code-bin-2.1.317",
+        "name": "claude-code-bin-2.1.318",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "claude-code-bin",
         "system": "x86_64-linux",
-        "version": "2.1.317",
+        "version": "2.1.318",
         "_attr": "claude-code-bin",
         "_repo": "jeffguorg"
     },
@@ -340654,7 +340654,7 @@
             },
             "mainProgram": "kimi",
             "maintainers": [],
-            "name": "kimi-code-2.4.1",
+            "name": "kimi-code-2.5.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -340716,14 +340716,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kimi-code-2.4.1",
+        "name": "kimi-code-2.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kimi-code",
         "system": "x86_64-linux",
-        "version": "2.4.1",
+        "version": "2.5.0",
         "_attr": "kimi-code",
         "_repo": "jeffguorg"
     },
@@ -886712,7 +886712,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sakuraba07/pkgs/omp/default.nix",
                 "line": 68
             },
-            "name": "omp-18.15.0",
+            "name": "omp-18.16.0",
             "nonTeamMaintainers": [
                 {
                     "github": "sakuraba07",
@@ -886740,14 +886740,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "omp-18.15.0",
+        "name": "omp-18.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "omp",
         "system": "x86_64-linux",
-        "version": "18.15.0",
+        "version": "18.16.0",
         "_attr": "omp",
         "_repo": "sakuraba07"
     },
@@ -1056708,298 +1056708,6 @@
         "_attr": "lantern-engine",
         "_repo": "uriotv"
     },
-    "nur.repos.uriotv.linux-cachyos-bore-x86_64-v3": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [],
-            "broken": false,
-            "ciBuild": false,
-            "description": "Linux CachyOS BORE kernel for x86-64-v3 (non-LTO)",
-            "homepage": "https://github.com/CachyOS/linux-cachyos",
-            "identifiers": {
-                "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.1:*:*:*:*:*:*:*",
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "o",
-                    "product": "linux_kernel",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*",
-                    "update": "*",
-                    "vendor": "linux",
-                    "version": "7.3.1"
-                },
-                "possibleCPEs": [
-                    {
-                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.1:*:*:*:*:*:*:*",
-                        "cpeParts": {
-                            "edition": "*",
-                            "language": "*",
-                            "other": "*",
-                            "part": "o",
-                            "product": "linux_kernel",
-                            "sw_edition": "*",
-                            "target_hw": "*",
-                            "target_sw": "*",
-                            "update": "*",
-                            "vendor": "linux",
-                            "version": "7.3.1"
-                        }
-                    }
-                ],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.1:*:*:*:*:*:*:*",
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "o",
-                        "product": "linux_kernel",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*",
-                        "update": "*",
-                        "vendor": "linux",
-                        "version": "7.3.1"
-                    },
-                    "possibleCPEs": [
-                        {
-                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.1:*:*:*:*:*:*:*",
-                            "cpeParts": {
-                                "edition": "*",
-                                "language": "*",
-                                "other": "*",
-                                "part": "o",
-                                "product": "linux_kernel",
-                                "sw_edition": "*",
-                                "target_hw": "*",
-                                "target_sw": "*",
-                                "update": "*",
-                                "vendor": "linux",
-                                "version": "7.3.1"
-                            }
-                        }
-                    ],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "aseipp@pobox.com",
-                    "github": "thoughtpolice",
-                    "githubId": 3416,
-                    "name": "Austin Seipp"
-                },
-                {
-                    "email": "hi@alyssa.is",
-                    "github": "alyssais",
-                    "githubId": 2768870,
-                    "keys": [
-                        {
-                            "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
-                        }
-                    ],
-                    "matrix": "@qyliss:fairydust.space",
-                    "name": "Alyssa Ross"
-                },
-                {
-                    "email": "me@0upti.me",
-                    "github": "K900",
-                    "githubId": 386765,
-                    "matrix": "@k900:0upti.me",
-                    "name": "Ilya K."
-                },
-                {
-                    "email": "maximilian@mbosch.me",
-                    "github": "Ma27",
-                    "githubId": 6025220,
-                    "matrix": "@ma27:nicht-so.sexy",
-                    "name": "Maximilian Bosch"
-                },
-                {
-                    "github": "zowoq",
-                    "githubId": 59103226,
-                    "name": "zowoq"
-                },
-                {
-                    "email": "balsoft75@gmail.com",
-                    "github": "balsoft",
-                    "githubId": 18467667,
-                    "name": "Alexander Bantyev"
-                },
-                {
-                    "email": "andreas@rammhold.de",
-                    "github": "andir",
-                    "githubId": 638836,
-                    "name": "Andreas Rammhold"
-                },
-                {
-                    "email": "pyrox@pyrox.dev",
-                    "github": "pyrox0",
-                    "githubId": 35778371,
-                    "keys": [
-                        {
-                            "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
-                        }
-                    ],
-                    "matrix": "@pyrox:pyrox.dev",
-                    "name": "Pyrox"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/nix/store/wa9kz0gcy4wgakdv28p7i4jc7xkcbbky-source/pkgs/os-specific/linux/kernel/build.nix",
-                "line": 613
-            },
-            "name": "linux-cachyos-bore-x86_64-v3-7.3.1",
-            "nonTeamMaintainers": [
-                {
-                    "email": "aseipp@pobox.com",
-                    "github": "thoughtpolice",
-                    "githubId": 3416,
-                    "name": "Austin Seipp"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/cachyos/default.nix#L110",
-            "problems": {},
-            "teams": [
-                {
-                    "github": "linux-kernel",
-                    "githubId": 13371617,
-                    "githubMaintainers": [
-                        {
-                            "email": "hi@alyssa.is",
-                            "github": "alyssais",
-                            "githubId": 2768870,
-                            "keys": [
-                                {
-                                    "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
-                                }
-                            ],
-                            "matrix": "@qyliss:fairydust.space",
-                            "name": "Alyssa Ross"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "hi@alyssa.is",
-                            "github": "alyssais",
-                            "githubId": 2768870,
-                            "keys": [
-                                {
-                                    "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97"
-                                }
-                            ],
-                            "matrix": "@qyliss:fairydust.space",
-                            "name": "Alyssa Ross"
-                        },
-                        {
-                            "email": "me@0upti.me",
-                            "github": "K900",
-                            "githubId": 386765,
-                            "matrix": "@k900:0upti.me",
-                            "name": "Ilya K."
-                        },
-                        {
-                            "email": "maximilian@mbosch.me",
-                            "github": "Ma27",
-                            "githubId": 6025220,
-                            "matrix": "@ma27:nicht-so.sexy",
-                            "name": "Maximilian Bosch"
-                        },
-                        {
-                            "github": "zowoq",
-                            "githubId": 59103226,
-                            "name": "zowoq"
-                        }
-                    ],
-                    "scope": "Maintain the Linux kernel",
-                    "shortName": "Linux kernel"
-                },
-                {
-                    "github": "security-review",
-                    "githubId": 16430758,
-                    "githubMaintainers": [
-                        {
-                            "email": "balsoft75@gmail.com",
-                            "github": "balsoft",
-                            "githubId": 18467667,
-                            "name": "Alexander Bantyev"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "balsoft75@gmail.com",
-                            "github": "balsoft",
-                            "githubId": 18467667,
-                            "name": "Alexander Bantyev"
-                        },
-                        {
-                            "email": "andreas@rammhold.de",
-                            "github": "andir",
-                            "githubId": 638836,
-                            "name": "Andreas Rammhold"
-                        },
-                        {
-                            "email": "pyrox@pyrox.dev",
-                            "github": "pyrox0",
-                            "githubId": 35778371,
-                            "keys": [
-                                {
-                                    "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
-                                }
-                            ],
-                            "matrix": "@pyrox:pyrox.dev",
-                            "name": "Pyrox"
-                        }
-                    ],
-                    "scope": "Reviews changes to core packages for Nixpkgs security vulnerabilities: https://github.com/NixOS/nixpkgs/issues/494349",
-                    "shortName": "Security review"
-                }
-            ],
-            "teamsPosition": {
-                "column": 7,
-                "file": "/nix/store/wa9kz0gcy4wgakdv28p7i4jc7xkcbbky-source/pkgs/os-specific/linux/kernel/build.nix",
-                "line": 614
-            },
-            "timeout": 14400,
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "linux-cachyos-bore-x86_64-v3-7.3.1",
-        "outputName": "out",
-        "outputs": {
-            "dev": null,
-            "modules": null,
-            "out": null
-        },
-        "pname": "linux-cachyos-bore-x86_64-v3",
-        "system": "x86_64-linux",
-        "version": "7.3.1",
-        "_attr": "linux-cachyos-bore-x86_64-v3",
-        "_repo": "uriotv"
-    },
     "nur.repos.uriotv.linux-cachyos-latest-x86_64-v3": {
         "meta": {
             "available": true,
@@ -1057173,7 +1056881,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/cachyos/default.nix#L110",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/cachyos/default.nix#L98",
             "problems": {},
             "teams": [
                 {
