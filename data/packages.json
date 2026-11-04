@@ -65625,107 +65625,6 @@
         "_attr": "oryx",
         "_repo": "VZstless"
     },
-    "nur.repos.VZstless.pingfs": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Stores your data in ICMP ping packets",
-            "homepage": "https://code.kryo.se/pingfs",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "pingfs",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "pingfs",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "ISC License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "isc",
-                "spdxId": "ISC",
-                "url": "https://spdx.org/licenses/ISC.html"
-            },
-            "longDescription": "pingfs is a filesystem where the data is stored only in the Internet itself, \nas ICMP Echo packets (pings) travelling from you to remote servers and back again.\n\nIt is implemented using raw sockets and FUSE, so superuser powers are required.\nLinux is the only intended target OS, portability is not a goal.\nBoth IPv4 and IPv6 remote hosts are supported.\n",
-            "mainProgram": "pingfs",
-            "maintainers": [],
-            "name": "pingfs-0-unstable-2020-05-24",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/VZstless/pkgs/by-name/pi/pingfs/package.nix#L42",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "pingfs-0-unstable-2020-05-24",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "pingfs",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2020-05-24",
-        "_attr": "pingfs",
-        "_repo": "VZstless"
-    },
     "nur.repos.VZstless.runmat": {
         "meta": {
             "available": true,
@@ -281891,7 +281790,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/beeper-nightly/default.nix",
                 "line": 26
             },
-            "name": "beeper-nightly-4.3.276",
+            "name": "beeper-nightly-4.3.279",
             "nonTeamMaintainers": [
                 {
                     "email": "me@joshuadcampbell.com",
@@ -281950,14 +281849,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-nightly-4.3.276",
+        "name": "beeper-nightly-4.3.279",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper-nightly",
         "system": "x86_64-linux",
-        "version": "4.3.276",
+        "version": "4.3.279",
         "_attr": "beeper-nightly",
         "_repo": "forkprince"
     },
@@ -282655,7 +282554,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/capture-studio/default.nix",
                 "line": 17
             },
-            "name": "capture-studio-0.1.50",
+            "name": "capture-studio-0.1.52",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -282704,14 +282603,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "capture-studio-0.1.50",
+        "name": "capture-studio-0.1.52",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "capture-studio",
         "system": "x86_64-linux",
-        "version": "0.1.50",
+        "version": "0.1.52",
         "_attr": "capture-studio",
         "_repo": "forkprince"
     },
@@ -282773,7 +282672,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/clop/default.nix",
                 "line": 26
             },
-            "name": "clop-3.6.6",
+            "name": "clop-3.6.7",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -282798,14 +282697,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clop-3.6.6",
+        "name": "clop-3.6.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clop",
         "system": "x86_64-linux",
-        "version": "3.6.6",
+        "version": "3.6.7",
         "_attr": "clop",
         "_repo": "forkprince"
     },
@@ -282867,7 +282766,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/compositor/default.nix",
                 "line": 20
             },
-            "name": "compositor-1.6.2",
+            "name": "compositor-1.6.3",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -282892,14 +282791,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.6.2",
+        "name": "compositor-1.6.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.6.2",
+        "version": "1.6.3",
         "_attr": "compositor",
         "_repo": "forkprince"
     },
@@ -285296,7 +285195,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-canary-bin/default.nix",
                 "line": 23
             },
-            "name": "fluxer-canary-bin-2026.1101.102914",
+            "name": "fluxer-canary-bin-2026.1103.194246",
             "nonTeamMaintainers": [
                 {
                     "github": "WoutFontaine",
@@ -285350,14 +285249,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-canary-bin-2026.1101.102914",
+        "name": "fluxer-canary-bin-2026.1103.194246",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer-canary-bin",
         "system": "x86_64-linux",
-        "version": "2026.1101.102914",
+        "version": "2026.1103.194246",
         "_attr": "fluxer-canary-bin",
         "_repo": "forkprince"
     },
@@ -285639,7 +285538,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/folio-studio/default.nix",
                 "line": 17
             },
-            "name": "folio-studio-0.1.6",
+            "name": "folio-studio-0.1.7",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -285688,14 +285587,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "folio-studio-0.1.6",
+        "name": "folio-studio-0.1.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "folio-studio",
         "system": "x86_64-linux",
-        "version": "0.1.6",
+        "version": "0.1.7",
         "_attr": "folio-studio",
         "_repo": "forkprince"
     },
@@ -287002,7 +286901,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/horizon/default.nix",
                 "line": 43
             },
-            "name": "horizon-launcher-0.2.37",
+            "name": "horizon-launcher-0.2.40",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -287028,14 +286927,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-launcher-0.2.37",
+        "name": "horizon-launcher-0.2.40",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon-launcher",
         "system": "x86_64-linux",
-        "version": "0.2.37",
+        "version": "0.2.40",
         "_attr": "horizon",
         "_repo": "forkprince"
     },
@@ -291035,7 +290934,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/orca/default.nix",
                 "line": 20
             },
-            "name": "orca-1.4.247",
+            "name": "orca-1.4.248",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -291060,14 +290959,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.247",
+        "name": "orca-1.4.248",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.247",
+        "version": "1.4.248",
         "_attr": "orca",
         "_repo": "forkprince"
     },
@@ -292008,7 +291907,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/pdfcraft/default.nix",
                 "line": 16
             },
-            "name": "pdfcraft-0.18.0",
+            "name": "pdfcraft-0.18.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -292057,14 +291956,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-0.18.0",
+        "name": "pdfcraft-0.18.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft",
         "system": "x86_64-linux",
-        "version": "0.18.0",
+        "version": "0.18.1",
         "_attr": "pdfcraft",
         "_repo": "forkprince"
     },
@@ -292478,7 +292377,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/photon-studio/default.nix",
                 "line": 17
             },
-            "name": "photon-studio-0.1.66",
+            "name": "photon-studio-0.1.67",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -292527,14 +292426,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "photon-studio-0.1.66",
+        "name": "photon-studio-0.1.67",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photon-studio",
         "system": "x86_64-linux",
-        "version": "0.1.66",
+        "version": "0.1.67",
         "_attr": "photon-studio",
         "_repo": "forkprince"
     },
@@ -296301,7 +296200,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/tinywiibackupmanager/default.nix",
                 "line": 18
             },
-            "name": "tinywiibackupmanager-6.1.10",
+            "name": "tinywiibackupmanager-6.1.11",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -296350,14 +296249,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tinywiibackupmanager-6.1.10",
+        "name": "tinywiibackupmanager-6.1.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tinywiibackupmanager",
         "system": "x86_64-linux",
-        "version": "6.1.10",
+        "version": "6.1.11",
         "_attr": "tinywiibackupmanager",
         "_repo": "forkprince"
     },
@@ -296536,7 +296435,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/vector-studio/default.nix",
                 "line": 17
             },
-            "name": "vector-studio-0.1.23",
+            "name": "vector-studio-0.1.24",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -296585,14 +296484,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "vector-studio-0.1.23",
+        "name": "vector-studio-0.1.24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vector-studio",
         "system": "x86_64-linux",
-        "version": "0.1.23",
+        "version": "0.1.24",
         "_attr": "vector-studio",
         "_repo": "forkprince"
     },
@@ -297613,7 +297512,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/wordcraft/default.nix",
                 "line": 16
             },
-            "name": "wordcraft-0.15.0",
+            "name": "wordcraft-0.15.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -297662,14 +297561,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wordcraft-0.15.0",
+        "name": "wordcraft-0.15.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wordcraft",
         "system": "x86_64-linux",
-        "version": "0.15.0",
+        "version": "0.15.1",
         "_attr": "wordcraft",
         "_repo": "forkprince"
     },
@@ -298416,7 +298315,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/yapfast/default.nix",
                 "line": 19
             },
-            "name": "yapfast-0.3.0-nightly.20261027.8",
+            "name": "yapfast-0.3.0-nightly.20261104.9",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -298441,14 +298340,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "yapfast-0.3.0-nightly.20261027.8",
+        "name": "yapfast-0.3.0-nightly.20261104.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "yapfast",
         "system": "x86_64-linux",
-        "version": "0.3.0-nightly.20261027.8",
+        "version": "0.3.0-nightly.20261104.9",
         "_attr": "yapfast",
         "_repo": "forkprince"
     },
