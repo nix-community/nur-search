@@ -187093,7 +187093,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/YUCLing/open-orpheus/releases/tag/v0.19.2-unstable-2026-11-04",
+            "changelog": "https://github.com/YUCLing/open-orpheus/releases/tag/v0.19.2-unstable-2026-11-05",
             "description": "Open-source Netease Cloud Music client",
             "homepage": "https://github.com/YUCLing/open-orpheus",
             "identifiers": {
@@ -187151,7 +187151,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/open-orpheus-dev/package.nix",
                 "line": 203
             },
-            "name": "open-orpheus-dev-0.19.2-unstable-2026-11-04",
+            "name": "open-orpheus-dev-0.19.2-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -187195,14 +187195,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "open-orpheus-dev-0.19.2-unstable-2026-11-04",
+        "name": "open-orpheus-dev-0.19.2-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "open-orpheus-dev",
         "system": "x86_64-linux",
-        "version": "0.19.2-unstable-2026-11-04",
+        "version": "0.19.2-unstable-2026-11-05",
         "_attr": "open-orpheus-dev",
         "_repo": "ccicnce113424"
     },
@@ -188542,7 +188542,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/SPlayer-Dev/SPlayer-Next/releases/tag/v1.2.0-unstable-2026-11-03",
+            "changelog": "https://github.com/SPlayer-Dev/SPlayer-Next/releases/tag/v1.2.0-unstable-2026-11-04",
             "description": "Cross-platform desktop music player with rich lyric support and wide audio format compatibility",
             "homepage": "https://github.com/SPlayer-Dev/SPlayer-Next",
             "identifiers": {
@@ -188622,7 +188622,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/splayer-next-dev/package.nix",
                 "line": 203
             },
-            "name": "splayer-next-dev-1.2.0-unstable-2026-11-03",
+            "name": "splayer-next-dev-1.2.0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -188676,14 +188676,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "splayer-next-dev-1.2.0-unstable-2026-11-03",
+        "name": "splayer-next-dev-1.2.0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "splayer-next-dev",
         "system": "x86_64-linux",
-        "version": "1.2.0-unstable-2026-11-03",
+        "version": "1.2.0-unstable-2026-11-04",
         "_attr": "splayer-next-dev",
         "_repo": "ccicnce113424"
     },
@@ -191812,548 +191812,6 @@
         "version": "2.20.0",
         "_attr": "obsidian-plugins.templater-obsidian",
         "_repo": "chekist32"
-    },
-    "nur.repos.chen.abella-master": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Interactive theorem prover",
-            "homepage": "https://abella-prover.org",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "abella-master",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "abella-master",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "free": true,
-                "fullName": "GNU General Public License v3.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "longDescription": "Abella is an interactive theorem prover based on lambda-tree syntax.\nThis means that Abella is well-suited for reasoning about the meta-theory\nof programming languages and other logical systems which manipulate\nobjects with binding.\n",
-            "mainProgram": "abella",
-            "maintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/chen/pkgs/abella-master/default.nix",
-                "line": 43
-            },
-            "name": "abella-master-2.0.8",
-            "nonTeamMaintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/chen/pkgs/abella-master/default.nix#L33",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "abella-master-2.0.8",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "abella-master",
-        "system": "x86_64-linux",
-        "version": "2.0.8",
-        "_attr": "abella-master",
-        "_repo": "chen"
-    },
-    "nur.repos.chen.abella-modded": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Interactive theorem prover (Modded by JimmyZJX)",
-            "homepage": "https://github.com/JimmyZJX/abella",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "abella-modded",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "abella-modded",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "free": true,
-                "fullName": "GNU General Public License v3.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "longDescription": "Abella is an interactive theorem prover based on lambda-tree syntax.\nThis means that Abella is well-suited for reasoning about the meta-theory\nof programming languages and other logical systems which manipulate\nobjects with binding.\n",
-            "maintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/chen/pkgs/abella-modded/default.nix",
-                "line": 39
-            },
-            "name": "abella-modded-unstable-2021-07-04",
-            "nonTeamMaintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/chen/pkgs/abella-modded/default.nix#L30",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "abella-modded-unstable-2021-07-04",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "abella-modded-unstable",
-        "system": "x86_64-linux",
-        "version": "2021-07-04",
-        "_attr": "abella-modded",
-        "_repo": "chen"
-    },
-    "nur.repos.chen.autosubst-ocaml": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "An OCaml reimplementation of the Autosubst 2 code generator",
-            "homepage": "https://github.com/uds-psl/autosubst-ocaml",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "autosubst-ocaml",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "autosubst-ocaml",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "autosubst",
-            "maintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/chen/pkgs/coqPackages/autosubst-ocaml/default.nix",
-                "line": 44
-            },
-            "name": "coq8.19-autosubst-ocaml-1.1+8.19",
-            "nonTeamMaintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/chen/pkgs/coqPackages/autosubst-ocaml/default.nix#L41",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "coq8.19-autosubst-ocaml-1.1+8.19",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "coq8.19-autosubst-ocaml",
-        "system": "x86_64-linux",
-        "version": "1.1+8.19",
-        "_attr": "autosubst-ocaml",
-        "_repo": "chen"
-    },
-    "nur.repos.chen.ott-sweirich": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A tool for the working semanticist (Stephanie Weirich's fork)",
-            "homepage": "https://github.com/sweirich/ott",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "ott-sweirich",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "ott-sweirich",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "longDescription": "Ott is a tool for writing definitions of programming languages and\ncalculi. It takes as input a definition of a language syntax and\nsemantics, in a concise and readable ASCII notation that is close to\nwhat one would write in informal mathematics. It generates LaTeX to\nbuild a typeset version of the definition, and Coq, HOL, and Isabelle\nversions of the definition. Additionally, it can be run as a filter,\ntaking a LaTeX/Coq/Isabelle/HOL source file with embedded (symbolic)\nterms of the defined language, parsing them and replacing them by\ntarget-system terms.\n",
-            "mainProgram": "ott",
-            "maintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/chen/pkgs/ott-sweirich/default.nix",
-                "line": 46
-            },
-            "name": "ott-sweirich-unstable-2022-04-07",
-            "nonTeamMaintainers": [
-                {
-                    "email": "i@cuichen.cc",
-                    "github": "cu1ch3n",
-                    "githubId": 80438676,
-                    "name": "Chen Cui"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/chen/pkgs/ott-sweirich/default.nix#L31",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "ott-sweirich-unstable-2022-04-07",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "ott-sweirich-unstable",
-        "system": "x86_64-linux",
-        "version": "2022-04-07",
-        "_attr": "ott-sweirich",
-        "_repo": "chen"
     },
     "nur.repos.cherrypiejam.protobuf_2_5_0": {
         "meta": {
@@ -761961,7 +761419,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/photocraft/default.nix#L115",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/photocraft/default.nix#L138",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -777804,7 +777262,7 @@
             },
             "mainProgram": "computer-use-linux",
             "maintainers": [],
-            "name": "computer-use-linux-0.7.36",
+            "name": "computer-use-linux-0.7.37",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -777823,14 +777281,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "computer-use-linux-0.7.36",
+        "name": "computer-use-linux-0.7.37",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "computer-use-linux",
         "system": "x86_64-linux",
-        "version": "0.7.36",
+        "version": "0.7.37",
         "_attr": "computer-use-linux",
         "_repo": "ryan4yin"
     },
@@ -777961,7 +777419,7 @@
             },
             "mainProgram": "dsh",
             "maintainers": [],
-            "name": "dsh-0.2.2-alpha.3",
+            "name": "dsh-0.2.2-rc.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -778067,14 +777525,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-0.2.2-alpha.3",
+        "name": "dsh-0.2.2-rc.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dsh",
         "system": "x86_64-linux",
-        "version": "0.2.2-alpha.3",
+        "version": "0.2.2-rc.1",
         "_attr": "dsh",
         "_repo": "ryan4yin"
     },
@@ -1072759,7 +1072217,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.53",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.55",
             "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1072824,7 +1072282,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/cliproxyapi/default.nix",
                 "line": 32
             },
-            "name": "cliproxyapi-8.0.53",
+            "name": "cliproxyapi-8.0.55",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1072875,14 +1072333,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.53",
+        "name": "cliproxyapi-8.0.55",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.53",
+        "version": "8.0.55",
         "_attr": "cliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1075612,7 +1075070,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.70",
+            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.74",
             "description": "Desktop GUI for managing CLIProxyAPI and configuring AI agent clients",
             "homepage": "https://github.com/router-for-me/EasyCLIProxyAPI",
             "identifiers": {
@@ -1075677,7 +1075135,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/easycliproxyapi/default.nix",
                 "line": 129
             },
-            "name": "easycliproxyapi-0.3.70",
+            "name": "easycliproxyapi-0.3.74",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1075723,14 +1075181,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "easycliproxyapi-0.3.70",
+        "name": "easycliproxyapi-0.3.74",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "easycliproxyapi",
         "system": "x86_64-linux",
-        "version": "0.3.70",
+        "version": "0.3.74",
         "_attr": "easycliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1078460,7 +1077918,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/funasr/default.nix",
                 "line": 93
             },
-            "name": "python3.14-funasr-1.4.21-unstable-2026-11-03",
+            "name": "python3.14-funasr-1.4.21-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1078518,7 +1077976,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-funasr-1.4.21-unstable-2026-11-03",
+        "name": "python3.14-funasr-1.4.21-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1078526,7 +1077984,7 @@
         },
         "pname": "python3.14-funasr",
         "system": "x86_64-linux",
-        "version": "1.4.21-unstable-2026-11-03",
+        "version": "1.4.21-unstable-2026-11-05",
         "_attr": "funasr",
         "_repo": "xddxdd"
     },
@@ -1078597,7 +1078055,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/geolite2/default.nix",
                 "line": 45
             },
-            "name": "geolite2-2026.11.01",
+            "name": "geolite2-2026.11.04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1078622,14 +1078080,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "geolite2-2026.11.01",
+        "name": "geolite2-2026.11.04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "geolite2",
         "system": "x86_64-linux",
-        "version": "2026.11.01",
+        "version": "2026.11.04",
         "_attr": "geolite2",
         "_repo": "xddxdd"
     },
@@ -1080872,7 +1080330,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1080944,14 +1080402,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "ik-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1081023,7 +1080481,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1081095,14 +1080553,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "ik-llama-cpp-avx",
         "_repo": "xddxdd"
     },
@@ -1081174,7 +1080632,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1081246,14 +1080704,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "ik-llama-cpp-avx2",
         "_repo": "xddxdd"
     },
@@ -1081328,7 +1080786,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1081400,14 +1080858,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "ik-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1084278,7 +1083736,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-03",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-04",
             "description": "Sipwise media proxy for Kamailio (kernel module)",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1084342,7 +1083800,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/xt_rtpengine/default.nix",
                 "line": 54
             },
-            "name": "xt_rtpengine-0-unstable-2026-11-03",
+            "name": "xt_rtpengine-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1084393,14 +1083851,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xt_rtpengine-0-unstable-2026-11-03",
+        "name": "xt_rtpengine-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "xt_rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "kernel-modules.xt_rtpengine",
         "_repo": "xddxdd"
     },
@@ -1087405,7 +1086863,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-11-03",
+            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-11-04",
             "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
             "homepage": "https://openquantumsafe.org",
             "identifiers": {
@@ -1087471,7 +1086929,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/liboqs/unstable.nix",
                 "line": 53
             },
-            "name": "liboqs-0-unstable-2026-11-03",
+            "name": "liboqs-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1087496,14 +1086954,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "liboqs-0-unstable-2026-11-03",
+        "name": "liboqs-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "liboqs",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "liboqs-unstable",
         "_repo": "xddxdd"
     },
@@ -1087694,7 +1087152,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/linguaspark-server/default.nix",
                 "line": 45
             },
-            "name": "linguaspark-server-0-unstable-2026-10-22",
+            "name": "linguaspark-server-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1087722,14 +1087180,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linguaspark-server-0-unstable-2026-10-22",
+        "name": "linguaspark-server-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linguaspark-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-11-04",
         "_attr": "linguaspark-server",
         "_repo": "xddxdd"
     },
@@ -1087812,7 +1087270,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/linguaspark-server/default.nix",
                 "line": 45
             },
-            "name": "linguaspark-server-0-unstable-2026-10-22",
+            "name": "linguaspark-server-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1087840,14 +1087298,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linguaspark-server-0-unstable-2026-10-22",
+        "name": "linguaspark-server-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linguaspark-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-11-04",
         "_attr": "linguaspark-server-x86-64-v3",
         "_repo": "xddxdd"
     },
@@ -1088476,7 +1087934,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/mages-bin/default.nix",
                 "line": 41
             },
-            "name": "mages-bin-5.3.9",
+            "name": "mages-bin-5.4.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1088511,14 +1087969,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mages-bin-5.3.9",
+        "name": "mages-bin-5.4.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mages-bin",
         "system": "x86_64-linux",
-        "version": "5.3.9",
+        "version": "5.4.0",
         "_attr": "mages-bin",
         "_repo": "xddxdd"
     },
@@ -1089797,7 +1089255,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/linguaspark-server/default.nix",
                 "line": 45
             },
-            "name": "linguaspark-server-0-unstable-2026-10-22",
+            "name": "linguaspark-server-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1089825,14 +1089283,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linguaspark-server-0-unstable-2026-10-22",
+        "name": "linguaspark-server-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linguaspark-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-11-04",
         "_attr": "mtranservercore-rs",
         "_repo": "xddxdd"
     },
@@ -1117360,228 +1116818,6 @@
         "_attr": "openj9-ibm-semeru.jre-bin-8_0_482_1",
         "_repo": "xddxdd"
     },
-    "nur.repos.xddxdd.openjdk-adoptium.jdk-bin-11": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "OpenJDK binaries built by Eclipse Adoptium",
-            "homepage": "https://adoptium.net/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "openjdk-adoptium-jdk-bin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "openjdk-adoptium-jdk-bin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "mainProgram": "java",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix",
-                "line": 126
-            },
-            "name": "openjdk-adoptium-jdk-bin-11.0.32.1_1_adopt",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv7l-linux",
-                "ppc64le-linux",
-                "s390x-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L128",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "openjdk-adoptium-jdk-bin-11.0.32.1_1_adopt",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "openjdk-adoptium-jdk-bin",
-        "system": "x86_64-linux",
-        "version": "11.0.32.1_1_adopt",
-        "_attr": "openjdk-adoptium.jdk-bin-11",
-        "_repo": "xddxdd"
-    },
-    "nur.repos.xddxdd.openjdk-adoptium.jdk-bin-11_0_17_8": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "OpenJDK binaries built by Eclipse Adoptium",
-            "homepage": "https://adoptium.net/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "openjdk-adoptium-jdk-bin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "openjdk-adoptium-jdk-bin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "mainProgram": "java",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix",
-                "line": 126
-            },
-            "name": "openjdk-adoptium-jdk-bin-11.0.17_8_adopt",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv7l-linux",
-                "ppc64le-linux",
-                "s390x-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L128",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "openjdk-adoptium-jdk-bin-11.0.17_8_adopt",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "openjdk-adoptium-jdk-bin",
-        "system": "x86_64-linux",
-        "version": "11.0.17_8_adopt",
-        "_attr": "openjdk-adoptium.jdk-bin-11_0_17_8",
-        "_repo": "xddxdd"
-    },
     "nur.repos.xddxdd.openjdk-adoptium.jdk-bin-11_0_18_10": {
         "meta": {
             "available": true,
@@ -1122479,116 +1121715,6 @@
         "_attr": "openjdk-adoptium.jdk-bin-18_36",
         "_repo": "xddxdd"
     },
-    "nur.repos.xddxdd.openjdk-adoptium.jdk-bin-8": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "OpenJDK binaries built by Eclipse Adoptium",
-            "homepage": "https://adoptium.net/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "openjdk-adoptium-jdk-bin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "openjdk-adoptium-jdk-bin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "mainProgram": "java",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix",
-                "line": 126
-            },
-            "name": "openjdk-adoptium-jdk-bin-8u504-b01_adopt",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv7l-linux",
-                "ppc64le-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L128",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "openjdk-adoptium-jdk-bin-8u504-b01_adopt",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "openjdk-adoptium-jdk-bin",
-        "system": "x86_64-linux",
-        "version": "8u504-b01_adopt",
-        "_attr": "openjdk-adoptium.jdk-bin-8",
-        "_repo": "xddxdd"
-    },
     "nur.repos.xddxdd.openjdk-adoptium.jdk-bin-8u345_b01": {
         "meta": {
             "available": true,
@@ -1124566,228 +1123692,6 @@
         "system": "x86_64-linux",
         "version": "8u504-b01_adopt",
         "_attr": "openjdk-adoptium.jdk-bin-8u504_b01",
-        "_repo": "xddxdd"
-    },
-    "nur.repos.xddxdd.openjdk-adoptium.jre-bin-11": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "OpenJDK binaries built by Eclipse Adoptium",
-            "homepage": "https://adoptium.net/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "openjdk-adoptium-jre-bin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "openjdk-adoptium-jre-bin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "mainProgram": "java",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix",
-                "line": 126
-            },
-            "name": "openjdk-adoptium-jre-bin-11.0.32.1_1_adopt",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv7l-linux",
-                "ppc64le-linux",
-                "s390x-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L128",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "openjdk-adoptium-jre-bin-11.0.32.1_1_adopt",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "openjdk-adoptium-jre-bin",
-        "system": "x86_64-linux",
-        "version": "11.0.32.1_1_adopt",
-        "_attr": "openjdk-adoptium.jre-bin-11",
-        "_repo": "xddxdd"
-    },
-    "nur.repos.xddxdd.openjdk-adoptium.jre-bin-11_0_17_8": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "OpenJDK binaries built by Eclipse Adoptium",
-            "homepage": "https://adoptium.net/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "openjdk-adoptium-jre-bin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "openjdk-adoptium-jre-bin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "mainProgram": "java",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix",
-                "line": 126
-            },
-            "name": "openjdk-adoptium-jre-bin-11.0.17_8_adopt",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv7l-linux",
-                "ppc64le-linux",
-                "s390x-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L128",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "openjdk-adoptium-jre-bin-11.0.17_8_adopt",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "openjdk-adoptium-jre-bin",
-        "system": "x86_64-linux",
-        "version": "11.0.17_8_adopt",
-        "_attr": "openjdk-adoptium.jre-bin-11_0_17_8",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.openjdk-adoptium.jre-bin-11_0_18_10": {
@@ -1129352,116 +1128256,6 @@
         "system": "x86_64-linux",
         "version": "18.0.2_9_adopt",
         "_attr": "openjdk-adoptium.jre-bin-18_0_2_9",
-        "_repo": "xddxdd"
-    },
-    "nur.repos.xddxdd.openjdk-adoptium.jre-bin-8": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "OpenJDK binaries built by Eclipse Adoptium",
-            "homepage": "https://adoptium.net/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "openjdk-adoptium-jre-bin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "openjdk-adoptium-jre-bin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "mainProgram": "java",
-            "maintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix",
-                "line": 126
-            },
-            "name": "openjdk-adoptium-jre-bin-8u504-b01_adopt",
-            "nonTeamMaintainers": [
-                {
-                    "email": "b980120@hotmail.com",
-                    "github": "xddxdd",
-                    "githubId": 5778879,
-                    "keys": [
-                        {
-                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
-                        },
-                        {
-                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
-                        }
-                    ],
-                    "name": "Yuhui Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv7l-linux",
-                "ppc64le-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/openjdk-adoptium/jdk-linux-base.nix#L128",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "openjdk-adoptium-jre-bin-8u504-b01_adopt",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "openjdk-adoptium-jre-bin",
-        "system": "x86_64-linux",
-        "version": "8u504-b01_adopt",
-        "_attr": "openjdk-adoptium.jre-bin-8",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.openjdk-adoptium.jre-bin-8u345_b01": {
@@ -1135682,7 +1134476,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/python-packages/funasr/default.nix",
                 "line": 93
             },
-            "name": "python3.14-funasr-1.4.21-unstable-2026-11-03",
+            "name": "python3.14-funasr-1.4.21-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1135740,7 +1134534,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-funasr-1.4.21-unstable-2026-11-03",
+        "name": "python3.14-funasr-1.4.21-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1135748,7 +1134542,7 @@
         },
         "pname": "python3.14-funasr",
         "system": "x86_64-linux",
-        "version": "1.4.21-unstable-2026-11-03",
+        "version": "1.4.21-unstable-2026-11-05",
         "_attr": "python3Packages.funasr",
         "_repo": "xddxdd"
     },
@@ -1140319,7 +1139113,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/qsp-lib/default.nix",
                 "line": 39
             },
-            "name": "qsp-lib-5.9.5-unstable-2026-11-01",
+            "name": "qsp-lib-5.9.5-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1140344,14 +1139138,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qsp-lib-5.9.5-unstable-2026-11-01",
+        "name": "qsp-lib-5.9.5-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qsp-lib",
         "system": "x86_64-linux",
-        "version": "5.9.5-unstable-2026-11-01",
+        "version": "5.9.5-unstable-2026-11-05",
         "_attr": "qsp-lib",
         "_repo": "xddxdd"
     },
@@ -1141872,7 +1140666,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-03",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-04",
             "description": "Sipwise media proxy for Kamailio",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1141937,7 +1140731,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/rtpengine/default.nix",
                 "line": 89
             },
-            "name": "rtpengine-0-unstable-2026-11-03",
+            "name": "rtpengine-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1141962,14 +1140756,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rtpengine-0-unstable-2026-11-03",
+        "name": "rtpengine-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "rtpengine",
         "_repo": "xddxdd"
     },
@@ -1148661,7 +1147455,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.53",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.55",
             "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1148726,7 +1147520,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/cliproxyapi/default.nix",
                 "line": 32
             },
-            "name": "cliproxyapi-8.0.53",
+            "name": "cliproxyapi-8.0.55",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1148777,14 +1147571,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.53",
+        "name": "cliproxyapi-8.0.55",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.53",
+        "version": "8.0.55",
         "_attr": "uncategorized.cliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1149944,7 +1148738,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.70",
+            "changelog": "https://github.com/router-for-me/EasyCLIProxyAPI/releases/tag/v0.3.74",
             "description": "Desktop GUI for managing CLIProxyAPI and configuring AI agent clients",
             "homepage": "https://github.com/router-for-me/EasyCLIProxyAPI",
             "identifiers": {
@@ -1150009,7 +1148803,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/easycliproxyapi/default.nix",
                 "line": 129
             },
-            "name": "easycliproxyapi-0.3.70",
+            "name": "easycliproxyapi-0.3.74",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1150055,14 +1148849,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "easycliproxyapi-0.3.70",
+        "name": "easycliproxyapi-0.3.74",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "easycliproxyapi",
         "system": "x86_64-linux",
-        "version": "0.3.70",
+        "version": "0.3.74",
         "_attr": "uncategorized.easycliproxyapi",
         "_repo": "xddxdd"
     },
@@ -1152453,7 +1151247,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/geolite2/default.nix",
                 "line": 45
             },
-            "name": "geolite2-2026.11.01",
+            "name": "geolite2-2026.11.04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1152478,14 +1151272,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "geolite2-2026.11.01",
+        "name": "geolite2-2026.11.04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "geolite2",
         "system": "x86_64-linux",
-        "version": "2026.11.01",
+        "version": "2026.11.04",
         "_attr": "uncategorized.geolite2",
         "_repo": "xddxdd"
     },
@@ -1154393,7 +1153187,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1154465,14 +1153259,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.ik-llama-cpp",
         "_repo": "xddxdd"
     },
@@ -1154544,7 +1153338,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1154616,14 +1153410,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.ik-llama-cpp-avx",
         "_repo": "xddxdd"
     },
@@ -1154695,7 +1153489,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1154767,14 +1153561,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.ik-llama-cpp-avx2",
         "_repo": "xddxdd"
     },
@@ -1154849,7 +1153643,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/ik-llama-cpp/default.nix",
                 "line": 86
             },
-            "name": "ik-llama-cpp-0-unstable-2026-11-03",
+            "name": "ik-llama-cpp-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1154921,14 +1153715,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ik-llama-cpp-0-unstable-2026-11-03",
+        "name": "ik-llama-cpp-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ik-llama-cpp",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.ik-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
@@ -1156526,7 +1155320,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-11-03",
+            "changelog": "https://github.com/open-quantum-safe/liboqs/releases/tag/0-unstable-2026-11-04",
             "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
             "homepage": "https://openquantumsafe.org",
             "identifiers": {
@@ -1156592,7 +1155386,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/liboqs/unstable.nix",
                 "line": 53
             },
-            "name": "liboqs-0-unstable-2026-11-03",
+            "name": "liboqs-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1156617,14 +1155411,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "liboqs-0-unstable-2026-11-03",
+        "name": "liboqs-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "liboqs",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.liboqs-unstable",
         "_repo": "xddxdd"
     },
@@ -1156815,7 +1155609,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/linguaspark-server/default.nix",
                 "line": 45
             },
-            "name": "linguaspark-server-0-unstable-2026-10-22",
+            "name": "linguaspark-server-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1156843,14 +1155637,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linguaspark-server-0-unstable-2026-10-22",
+        "name": "linguaspark-server-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linguaspark-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.linguaspark-server",
         "_repo": "xddxdd"
     },
@@ -1156933,7 +1155727,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/linguaspark-server/default.nix",
                 "line": 45
             },
-            "name": "linguaspark-server-0-unstable-2026-10-22",
+            "name": "linguaspark-server-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1156961,14 +1155755,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linguaspark-server-0-unstable-2026-10-22",
+        "name": "linguaspark-server-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linguaspark-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.linguaspark-server-x86-64-v3",
         "_repo": "xddxdd"
     },
@@ -1157425,7 +1156219,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/mages-bin/default.nix",
                 "line": 41
             },
-            "name": "mages-bin-5.3.9",
+            "name": "mages-bin-5.4.0",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1157460,14 +1156254,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mages-bin-5.3.9",
+        "name": "mages-bin-5.4.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mages-bin",
         "system": "x86_64-linux",
-        "version": "5.3.9",
+        "version": "5.4.0",
         "_attr": "uncategorized.mages-bin",
         "_repo": "xddxdd"
     },
@@ -1158224,7 +1157018,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/linguaspark-server/default.nix",
                 "line": 45
             },
-            "name": "linguaspark-server-0-unstable-2026-10-22",
+            "name": "linguaspark-server-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1158252,14 +1157046,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linguaspark-server-0-unstable-2026-10-22",
+        "name": "linguaspark-server-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linguaspark-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-22",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.mtranservercore-rs",
         "_repo": "xddxdd"
     },
@@ -1162557,7 +1161351,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/qsp-lib/default.nix",
                 "line": 39
             },
-            "name": "qsp-lib-5.9.5-unstable-2026-11-01",
+            "name": "qsp-lib-5.9.5-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1162582,14 +1161376,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qsp-lib-5.9.5-unstable-2026-11-01",
+        "name": "qsp-lib-5.9.5-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qsp-lib",
         "system": "x86_64-linux",
-        "version": "5.9.5-unstable-2026-11-01",
+        "version": "5.9.5-unstable-2026-11-05",
         "_attr": "uncategorized.qsp-lib",
         "_repo": "xddxdd"
     },
@@ -1163683,7 +1162477,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-03",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-04",
             "description": "Sipwise media proxy for Kamailio",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1163748,7 +1162542,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/rtpengine/default.nix",
                 "line": 89
             },
-            "name": "rtpengine-0-unstable-2026-11-03",
+            "name": "rtpengine-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1163773,14 +1162567,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rtpengine-0-unstable-2026-11-03",
+        "name": "rtpengine-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "uncategorized.rtpengine",
         "_repo": "xddxdd"
     },
@@ -1166254,7 +1165048,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/uni-api/default.nix",
                 "line": 27
             },
-            "name": "uni-api-1.7.276-unstable-2026-11-02",
+            "name": "uni-api-1.7.276-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1166319,14 +1165113,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "uni-api-1.7.276-unstable-2026-11-02",
+        "name": "uni-api-1.7.276-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "uni-api",
         "system": "x86_64-linux",
-        "version": "1.7.276-unstable-2026-11-02",
+        "version": "1.7.276-unstable-2026-11-04",
         "_attr": "uncategorized.uni-api",
         "_repo": "xddxdd"
     },
@@ -1168456,7 +1167250,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/uni-api/default.nix",
                 "line": 27
             },
-            "name": "uni-api-1.7.276-unstable-2026-11-02",
+            "name": "uni-api-1.7.276-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1168521,14 +1167315,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "uni-api-1.7.276-unstable-2026-11-02",
+        "name": "uni-api-1.7.276-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "uni-api",
         "system": "x86_64-linux",
-        "version": "1.7.276-unstable-2026-11-02",
+        "version": "1.7.276-unstable-2026-11-04",
         "_attr": "uni-api",
         "_repo": "xddxdd"
     },
@@ -1170931,7 +1169725,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-03",
+            "changelog": "https://github.com/sipwise/rtpengine/releases/tag/v0-unstable-2026-11-04",
             "description": "Sipwise media proxy for Kamailio (kernel module)",
             "homepage": "https://github.com/sipwise/rtpengine",
             "identifiers": {
@@ -1170995,7 +1169789,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/kernel-modules/xt_rtpengine/default.nix",
                 "line": 54
             },
-            "name": "xt_rtpengine-0-unstable-2026-11-03",
+            "name": "xt_rtpengine-0-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "b980120@hotmail.com",
@@ -1171046,14 +1169840,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xt_rtpengine-0-unstable-2026-11-03",
+        "name": "xt_rtpengine-0-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "xt_rtpengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-04",
         "_attr": "xt_rtpengine",
         "_repo": "xddxdd"
     },
