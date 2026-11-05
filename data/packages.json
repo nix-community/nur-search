@@ -50520,7 +50520,7 @@
         "_attr": "browsertrix-crawler",
         "_repo": "Skyb0rg007"
     },
-    "nur.repos.Skyb0rg007.brush": {
+    "nur.repos.Skyb0rg007.brush-HEAD": {
         "meta": {
             "available": true,
             "badPlatforms": [
@@ -50594,7 +50594,7 @@
             ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/brush/package.nix",
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/brush-HEAD/package.nix",
                 "line": 40
             },
             "name": "brush-0.4.0-unstable-2026-11-01",
@@ -50636,7 +50636,7 @@
                 "i686-windows",
                 "x86_64-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/brush/package.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/brush-HEAD/package.nix#L36",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -50649,7 +50649,7 @@
         "pname": "brush",
         "system": "x86_64-linux",
         "version": "0.4.0-unstable-2026-11-01",
-        "_attr": "brush",
+        "_attr": "brush-HEAD",
         "_repo": "Skyb0rg007"
     },
     "nur.repos.Skyb0rg007.buildgrid": {
@@ -306091,7 +306091,7 @@
             },
             "mainProgram": "ibkr-gateway",
             "maintainers": [],
-            "name": "ibkr-gateway-10.51.1e",
+            "name": "ibkr-gateway-10.52.1c",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -306115,14 +306115,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ibkr-gateway-10.51.1e",
+        "name": "ibkr-gateway-10.52.1c",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ibkr-gateway",
         "system": "x86_64-linux",
-        "version": "10.51.1e",
+        "version": "10.52.1c",
         "_attr": "ibkr-gateway",
         "_repo": "herver"
     },
@@ -306173,7 +306173,7 @@
             },
             "mainProgram": "ibkr-tws",
             "maintainers": [],
-            "name": "ibkr-tws-10.51.1e",
+            "name": "ibkr-tws-10.52.1c",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -306197,14 +306197,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ibkr-tws-10.51.1e",
+        "name": "ibkr-tws-10.52.1c",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ibkr-tws",
         "system": "x86_64-linux",
-        "version": "10.51.1e",
+        "version": "10.52.1c",
         "_attr": "ibkr-tws",
         "_repo": "herver"
     },
@@ -307231,7 +307231,7 @@
             },
             "mainProgram": "vatis",
             "maintainers": [],
-            "name": "vatis-4.1.0-beta.22",
+            "name": "vatis-4.1.0-beta.23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -307255,14 +307255,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vatis-4.1.0-beta.22",
+        "name": "vatis-4.1.0-beta.23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vatis",
         "system": "x86_64-linux",
-        "version": "4.1.0-beta.22",
+        "version": "4.1.0-beta.23",
         "_attr": "vatis",
         "_repo": "herver"
     },
@@ -560372,8 +560372,8 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/pilotmoon/Scroll-Reverser/releases/tag/v1.9",
-            "description": "Tool to reverse the direction of scrolling",
+            "changelog": "https://github.com/pilotmoon/Scroll-Reverser/releases/tag/v2.1.1",
+            "description": "Tool to reverse the direction of scrolling (official signed release)",
             "homepage": "https://pilotmoon.com/scrollreverser/",
             "identifiers": {
                 "cpeParts": {
@@ -560415,36 +560415,23 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "maintainers": [
-                {
-                    "email": "corey@zx.dev",
-                    "github": "stackptr",
-                    "githubId": 4542907,
-                    "name": "Corey Johns"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/wa9kz0gcy4wgakdv28p7i4jc7xkcbbky-source/pkgs/by-name/sc/scroll-reverser/package.nix",
-                "line": 44
-            },
-            "name": "scroll-reverser-1.9",
-            "nonTeamMaintainers": [
-                {
-                    "email": "corey@zx.dev",
-                    "github": "stackptr",
-                    "githubId": 4542907,
-                    "name": "Corey Johns"
-                }
-            ],
+            "maintainers": [],
+            "name": "scroll-reverser-2.1.1",
+            "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
-                "aarch64-darwin"
+                "aarch64-darwin",
+                "x86_64-darwin"
             ],
-            "position": "https://github.com/NoSugarCoffee/nur-packages/blob/HEAD/pkgs/by-name/sc/scroll-reverser/package.nix#L40",
-            "problems": {},
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/scroll-reverser/package.nix#L37",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
             "sourceProvenance": [
                 {
                     "isSource": false,
@@ -560454,14 +560441,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "scroll-reverser-1.9",
+        "name": "scroll-reverser-2.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "scroll-reverser",
         "system": "x86_64-linux",
-        "version": "1.9",
+        "version": "2.1.1",
         "_attr": "scroll-reverser",
         "_repo": "nosugarcoffee"
     },
