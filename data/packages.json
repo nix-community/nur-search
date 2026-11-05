@@ -53482,6 +53482,302 @@
         "_attr": "keylime",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.landlock-observability": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Library for observing Landlock",
+            "homepage": "https://github.com/landlock-lsm/landlock-observability",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "landlock-observability",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "landlock-observability",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "licenseType": "compound",
+                        "licenses": [
+                            {
+                                "deprecated": false,
+                                "free": true,
+                                "fullName": "MIT License",
+                                "licenseType": "simple",
+                                "redistributable": true,
+                                "shortName": "mit",
+                                "spdxId": "MIT",
+                                "url": "https://spdx.org/licenses/MIT.html"
+                            },
+                            {
+                                "deprecated": false,
+                                "free": true,
+                                "fullName": "Apache License 2.0",
+                                "licenseType": "simple",
+                                "redistributable": true,
+                                "shortName": "asl20",
+                                "spdxId": "Apache-2.0",
+                                "url": "https://spdx.org/licenses/Apache-2.0.html"
+                            }
+                        ],
+                        "operator": "OR"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "GNU General Public License v2.0 only",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "gpl2Only",
+                        "spdxId": "GPL-2.0-only",
+                        "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                    }
+                ],
+                "operator": "AND"
+            },
+            "mainProgram": "lltop",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/landlock-observability/package.nix",
+                "line": 62
+            },
+            "name": "landlock-observability-0-unstable-2026-10-02",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/landlock-observability/package.nix#L50",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "landlock-observability-0-unstable-2026-10-02",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "landlock-observability",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-02",
+        "_attr": "landlock-observability",
+        "_repo": "Skyb0rg007"
+    },
+    "nur.repos.Skyb0rg007.landlock-policy": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Landlock configuration library",
+            "downloadPage": "https://github.com/landlock-lsm/landlock-policy",
+            "homepage": "https://landlock.io",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "landlock-policy",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "landlock-policy",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR"
+            },
+            "mainProgram": "landlock-policy",
+            "maintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/landlock-policy/package.nix",
+                "line": 103
+            },
+            "name": "landlock-policy-0-unstable-2026-11-03",
+            "nonTeamMaintainers": [
+                {
+                    "email": "skye@soss.website",
+                    "github": "Skyb0rg007",
+                    "githubId": 30806179,
+                    "matrix": "@skyesoss:matrix.org",
+                    "name": "Skye Soss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "pkgConfigModules": [
+                "landlock-policy"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/landlock-policy/package.nix#L93",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "landlock-policy-0-unstable-2026-11-03",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "landlock-policy",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-11-03",
+        "_attr": "landlock-policy",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.landlock-sandboxer": {
         "meta": {
             "available": true,
@@ -53578,148 +53874,6 @@
         "system": "x86_64-linux",
         "version": "7.3.1",
         "_attr": "landlock-sandboxer",
-        "_repo": "Skyb0rg007"
-    },
-    "nur.repos.Skyb0rg007.landlockconfig": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Landlock configuration library",
-            "downloadPage": "https://github.com/landlock-lsm/landlockconfig",
-            "homepage": "https://landlock.io",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "landlockconfig",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "landlockconfig",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "licenseType": "compound",
-                "licenses": [
-                    {
-                        "deprecated": false,
-                        "free": true,
-                        "fullName": "MIT License",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "mit",
-                        "spdxId": "MIT",
-                        "url": "https://spdx.org/licenses/MIT.html"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": true,
-                        "fullName": "Apache License 2.0",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "asl20",
-                        "spdxId": "Apache-2.0",
-                        "url": "https://spdx.org/licenses/Apache-2.0.html"
-                    }
-                ],
-                "operator": "OR"
-            },
-            "mainProgram": "llconfig",
-            "maintainers": [
-                {
-                    "email": "skye@soss.website",
-                    "github": "Skyb0rg007",
-                    "githubId": 30806179,
-                    "matrix": "@skyesoss:matrix.org",
-                    "name": "Skye Soss"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/landlockconfig/package.nix",
-                "line": 100
-            },
-            "name": "landlockconfig-0-unstable-2026-07-22",
-            "nonTeamMaintainers": [
-                {
-                    "email": "skye@soss.website",
-                    "github": "Skyb0rg007",
-                    "githubId": 30806179,
-                    "matrix": "@skyesoss:matrix.org",
-                    "name": "Skye Soss"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "pkgConfigModules": [
-                "landlockconfig"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/landlockconfig/package.nix#L90",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "landlockconfig-0-unstable-2026-07-22",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "landlockconfig",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2026-07-22",
-        "_attr": "landlockconfig",
         "_repo": "Skyb0rg007"
     },
     "nur.repos.Skyb0rg007.landstrip": {
@@ -380424,7 +380578,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/incusos-flasher/default.nix",
                 "line": 49
             },
-            "name": "incusos-flasher-202611032004-unstable-2026-11-02",
+            "name": "incusos-flasher-202611042004-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -380467,14 +380621,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "incusos-flasher-202611032004-unstable-2026-11-02",
+        "name": "incusos-flasher-202611042004-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "incusos-flasher",
         "system": "x86_64-linux",
-        "version": "202611032004-unstable-2026-11-02",
+        "version": "202611042004-unstable-2026-11-04",
         "_attr": "incusos-flasher",
         "_repo": "linyinfeng"
     },
