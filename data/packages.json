@@ -1012003,7 +1012003,7 @@
             },
             "mainProgram": "intellij-server",
             "maintainers": [],
-            "name": "kotlin-lsp-0.0.27",
+            "name": "kotlin-lsp-0.0.86",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1012032,14 +1012032,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "kotlin-lsp-0.0.27",
+        "name": "kotlin-lsp-0.0.86",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kotlin-lsp",
         "system": "x86_64-linux",
-        "version": "0.0.27",
+        "version": "0.0.86",
         "_attr": "kotlin-lsp",
         "_repo": "so1ve"
     },
@@ -1012047,7 +1012047,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.2894",
+            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.3008",
             "description": "One local gateway for the model every coding agent uses",
             "homepage": "https://usemagpie.ai",
             "identifiers": {
@@ -1012092,7 +1012092,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.2894",
+            "name": "magpie-0.1.3008",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1012117,14 +1012117,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.2894",
+        "name": "magpie-0.1.3008",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.2894",
+        "version": "0.1.3008",
         "_attr": "magpie",
         "_repo": "so1ve"
     },
@@ -1012674,6 +1012674,167 @@
         "system": "x86_64-linux",
         "version": "6.8.0",
         "_attr": "rea",
+        "_repo": "so1ve"
+    },
+    "nur.repos.so1ve.rime-frost": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/gaboolic/rime-frost/releases/tag/1.0.4",
+            "description": "White Frost Pinyin schemas, dictionaries, and language model for Rime",
+            "homepage": "https://github.com/gaboolic/rime-frost",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rime-frost",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rime-frost",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [],
+            "name": "rime-frost-1.0.4",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/rime-frost/default.nix#L26",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rime-frost-1.0.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rime-frost",
+        "system": "x86_64-linux",
+        "version": "1.0.4",
+        "_attr": "rime-frost",
         "_repo": "so1ve"
     },
     "nur.repos.so1ve.rime-lmdg": {
@@ -1175394,7 +1175555,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.2946",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3007",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1175451,7 +1175612,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 141
             },
-            "name": "magpie-0.1.2946",
+            "name": "magpie-0.1.3007",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1175495,14 +1175656,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.2946",
+        "name": "magpie-0.1.3007",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.2946",
+        "version": "0.1.3007",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
@@ -1178201,7 +1178362,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "chmod-0-unstable-2026-11-02",
+            "name": "chmod-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178218,15 +1178379,102 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "chmod-0-unstable-2026-11-02",
+        "name": "chmod-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chmod",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.chmod",
+        "_repo": "xyenon"
+    },
+    "nur.repos.xyenon.yaziPlugins.yazi-rs.compress": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Compress one or more selected files within Yazi:",
+            "homepage": "https://github.com/yazi-rs/plugins/tree/main/compress.yazi",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "compress",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "compress",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "i@xyenon.bid",
+                    "github": "XYenon",
+                    "githubId": 20698483,
+                    "name": "XYenon"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 13,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
+                "line": 43
+            },
+            "name": "compress-0-unstable-2026-11-05",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@xyenon.bid",
+                    "github": "XYenon",
+                    "githubId": 20698483,
+                    "name": "XYenon"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix#L40",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "compress-0-unstable-2026-11-05",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "compress",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-11-05",
+        "_attr": "yaziPlugins.yazi-rs.compress",
         "_repo": "xyenon"
     },
     "nur.repos.xyenon.yaziPlugins.yazi-rs.diff": {
@@ -1178288,7 +1178536,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "diff-0-unstable-2026-11-02",
+            "name": "diff-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178305,14 +1178553,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "diff-0-unstable-2026-11-02",
+        "name": "diff-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "diff",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.diff",
         "_repo": "xyenon"
     },
@@ -1178375,7 +1178623,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "full-border-0-unstable-2026-11-02",
+            "name": "full-border-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178392,14 +1178640,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "full-border-0-unstable-2026-11-02",
+        "name": "full-border-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "full-border",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.full-border",
         "_repo": "xyenon"
     },
@@ -1178462,7 +1178710,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "git-0-unstable-2026-11-02",
+            "name": "git-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178479,14 +1178727,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "git-0-unstable-2026-11-02",
+        "name": "git-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.git",
         "_repo": "xyenon"
     },
@@ -1178549,7 +1178797,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "jump-to-char-0-unstable-2026-11-02",
+            "name": "jump-to-char-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178566,14 +1178814,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "jump-to-char-0-unstable-2026-11-02",
+        "name": "jump-to-char-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "jump-to-char",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.jump-to-char",
         "_repo": "xyenon"
     },
@@ -1178636,7 +1178884,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "lsar-0-unstable-2026-11-02",
+            "name": "lsar-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178653,14 +1178901,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lsar-0-unstable-2026-11-02",
+        "name": "lsar-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lsar",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.lsar",
         "_repo": "xyenon"
     },
@@ -1178723,7 +1178971,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "mactag-0-unstable-2026-11-02",
+            "name": "mactag-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178740,14 +1178988,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mactag-0-unstable-2026-11-02",
+        "name": "mactag-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mactag",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.mactag",
         "_repo": "xyenon"
     },
@@ -1178810,7 +1179058,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "mime-ext-0-unstable-2026-11-02",
+            "name": "mime-ext-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178827,14 +1179075,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mime-ext-0-unstable-2026-11-02",
+        "name": "mime-ext-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mime-ext",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.mime-ext",
         "_repo": "xyenon"
     },
@@ -1178897,7 +1179145,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "mount-0-unstable-2026-11-02",
+            "name": "mount-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1178914,14 +1179162,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mount-0-unstable-2026-11-02",
+        "name": "mount-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mount",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.mount",
         "_repo": "xyenon"
     },
@@ -1178984,7 +1179232,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "no-status-0-unstable-2026-11-02",
+            "name": "no-status-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179001,14 +1179249,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "no-status-0-unstable-2026-11-02",
+        "name": "no-status-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "no-status",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.no-status",
         "_repo": "xyenon"
     },
@@ -1179071,7 +1179319,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "piper-0-unstable-2026-11-02",
+            "name": "piper-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179088,14 +1179336,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "piper-0-unstable-2026-11-02",
+        "name": "piper-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "piper",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.piper",
         "_repo": "xyenon"
     },
@@ -1179158,7 +1179406,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "rclone-0-unstable-2026-11-02",
+            "name": "rclone-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179175,14 +1179423,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rclone-0-unstable-2026-11-02",
+        "name": "rclone-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rclone",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.rclone",
         "_repo": "xyenon"
     },
@@ -1179245,7 +1179493,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "smart-enter-0-unstable-2026-11-02",
+            "name": "smart-enter-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179262,14 +1179510,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "smart-enter-0-unstable-2026-11-02",
+        "name": "smart-enter-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "smart-enter",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.smart-enter",
         "_repo": "xyenon"
     },
@@ -1179332,7 +1179580,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "smart-filter-0-unstable-2026-11-02",
+            "name": "smart-filter-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179349,14 +1179597,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "smart-filter-0-unstable-2026-11-02",
+        "name": "smart-filter-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "smart-filter",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.smart-filter",
         "_repo": "xyenon"
     },
@@ -1179419,7 +1179667,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "smart-paste-0-unstable-2026-11-02",
+            "name": "smart-paste-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179436,14 +1179684,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "smart-paste-0-unstable-2026-11-02",
+        "name": "smart-paste-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "smart-paste",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.smart-paste",
         "_repo": "xyenon"
     },
@@ -1179506,7 +1179754,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "term-cwd-0-unstable-2026-11-02",
+            "name": "term-cwd-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179523,14 +1179771,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "term-cwd-0-unstable-2026-11-02",
+        "name": "term-cwd-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "term-cwd",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.term-cwd",
         "_repo": "xyenon"
     },
@@ -1179593,7 +1179841,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "toggle-pane-0-unstable-2026-11-02",
+            "name": "toggle-pane-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179610,14 +1179858,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "toggle-pane-0-unstable-2026-11-02",
+        "name": "toggle-pane-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "toggle-pane",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.toggle-pane",
         "_repo": "xyenon"
     },
@@ -1179680,7 +1179928,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "types-0-unstable-2026-11-02",
+            "name": "types-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179697,14 +1179945,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "types-0-unstable-2026-11-02",
+        "name": "types-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "types",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.types",
         "_repo": "xyenon"
     },
@@ -1179767,7 +1180015,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "vcs-files-0-unstable-2026-11-02",
+            "name": "vcs-files-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179784,14 +1180032,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vcs-files-0-unstable-2026-11-02",
+        "name": "vcs-files-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vcs-files",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.vcs-files",
         "_repo": "xyenon"
     },
@@ -1179854,7 +1180102,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "visual-pivot-0-unstable-2026-11-02",
+            "name": "visual-pivot-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179871,14 +1180119,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "visual-pivot-0-unstable-2026-11-02",
+        "name": "visual-pivot-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "visual-pivot",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.visual-pivot",
         "_repo": "xyenon"
     },
@@ -1179941,7 +1180189,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/yazi/plugins/yazi-rs/default.nix",
                 "line": 43
             },
-            "name": "zoom-0-unstable-2026-11-02",
+            "name": "zoom-0-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179958,14 +1180206,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zoom-0-unstable-2026-11-02",
+        "name": "zoom-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "zoom",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-02",
+        "version": "0-unstable-2026-11-05",
         "_attr": "yaziPlugins.yazi-rs.zoom",
         "_repo": "xyenon"
     },
