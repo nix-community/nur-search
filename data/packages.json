@@ -515117,6 +515117,126 @@
         "_attr": "dae",
         "_repo": "moraxyc"
     },
+    "nur.repos.moraxyc.ddns-go": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple and easy to use DDNS",
+            "homepage": "https://github.com/jeessy2/ddns-go",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ddns-go",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ddns-go",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "ddns-go",
+            "maintainers": [
+                {
+                    "email": "nixos@oluceps.uk",
+                    "github": "oluceps",
+                    "githubId": 35628088,
+                    "name": "oluceps"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/wa9kz0gcy4wgakdv28p7i4jc7xkcbbky-source/pkgs/by-name/dd/ddns-go/package.nix",
+                "line": 31
+            },
+            "name": "ddns-go-6.17.7",
+            "nonTeamMaintainers": [
+                {
+                    "email": "nixos@oluceps.uk",
+                    "github": "oluceps",
+                    "githubId": 35628088,
+                    "name": "oluceps"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/moraxyc/nur-packages/blob/HEAD/pkgs/by-name/dd/ddns-go/package.nix#L29",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ddns-go-6.17.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ddns-go",
+        "system": "x86_64-linux",
+        "version": "6.17.7",
+        "_attr": "ddns-go",
+        "_repo": "moraxyc"
+    },
     "nur.repos.moraxyc.elio": {
         "meta": {
             "available": true,
@@ -561272,6 +561392,87 @@
         "system": "x86_64-linux",
         "version": "0.6.0.12",
         "_attr": "ego-lite",
+        "_repo": "nosugarcoffee"
+    },
+    "nur.repos.nosugarcoffee.heyclicky": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Screen-aware AI assistant that talks you through a task or does it for you",
+            "homepage": "https://www.heyclicky.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "heyclicky",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "heyclicky",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [],
+            "name": "heyclicky-1.1.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nosugarcoffee/pkgs/heyclicky/package.nix#L35",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "heyclicky-1.1.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "heyclicky",
+        "system": "x86_64-linux",
+        "version": "1.1.2",
+        "_attr": "heyclicky",
         "_repo": "nosugarcoffee"
     },
     "nur.repos.nosugarcoffee.jetbrains-air": {
