@@ -377864,6 +377864,127 @@
         "_attr": "hydrus-tagger",
         "_repo": "lillycham"
     },
+    "nur.repos.lillycham.lambdash": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A functional shell with composable environments",
+            "homepage": "https://github.com/lillycham/lambdash",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lambdash",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lambdash",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "lambdash",
+            "maintainers": [],
+            "name": "lambdash-0.1.0.0-unstable-2026-11-05",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillycham/pkgs/lambdash/default.nix#L41",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "lambdash-0.1.0.0-unstable-2026-11-05",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lambdash",
+        "system": "x86_64-linux",
+        "version": "0.1.0.0-unstable-2026-11-05",
+        "_attr": "lambdash",
+        "_repo": "lillycham"
+    },
     "nur.repos.lillycham.nibble": {
         "meta": {
             "available": true,
@@ -386846,7 +386967,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/dgop/default.nix",
                 "line": 40
             },
-            "name": "dgop-2.0.0",
+            "name": "dgop-2.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -386889,14 +387010,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dgop-2.0.0",
+        "name": "dgop-2.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dgop",
         "system": "x86_64-linux",
-        "version": "2.0.0",
+        "version": "2.1.0",
         "_attr": "dgop",
         "_repo": "lonerOrz"
     },
@@ -387198,7 +387319,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fabric/default.nix",
                 "line": 77
             },
-            "name": "python3.14-fabric-0-unstable-20261103-e8162e4ea",
+            "name": "python3.14-fabric-0-unstable-20261105-e8162e4ea",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -387241,7 +387362,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-fabric-0-unstable-20261103-e8162e4ea",
+        "name": "python3.14-fabric-0-unstable-20261105-e8162e4ea",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -387249,7 +387370,7 @@
         },
         "pname": "python3.14-fabric",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261103-e8162e4ea",
+        "version": "0-unstable-20261105-e8162e4ea",
         "_attr": "fabric",
         "_repo": "lonerOrz"
     },
@@ -387656,7 +387777,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fluxer/default.nix",
                 "line": 117
             },
-            "name": "fluxer-2026.1105.1521",
+            "name": "fluxer-2026.1105.215749",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -387683,14 +387804,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-2026.1105.1521",
+        "name": "fluxer-2026.1105.215749",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer",
         "system": "x86_64-linux",
-        "version": "2026.1105.1521",
+        "version": "2026.1105.215749",
         "_attr": "fluxer",
         "_repo": "lonerOrz"
     },
@@ -387754,7 +387875,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/folia-major/default.nix",
                 "line": 148
             },
-            "name": "folia-major-bin-0.7.25",
+            "name": "folia-major-bin-0.7.26",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -387774,14 +387895,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "folia-major-bin-0.7.25",
+        "name": "folia-major-bin-0.7.26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "folia-major-bin",
         "system": "x86_64-linux",
-        "version": "0.7.25",
+        "version": "0.7.26",
         "_attr": "folia-major",
         "_repo": "lonerOrz"
     },
@@ -387949,7 +388070,7 @@
             },
             "mainProgram": "gemini",
             "maintainers": [],
-            "name": "gemini-cli-bin-0.66.0",
+            "name": "gemini-cli-bin-0.67.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -388045,14 +388166,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gemini-cli-bin-0.66.0",
+        "name": "gemini-cli-bin-0.67.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gemini-cli-bin",
         "system": "x86_64-linux",
-        "version": "0.66.0",
+        "version": "0.67.0",
         "_attr": "gemini-cli-bin",
         "_repo": "lonerOrz"
     },
@@ -388328,7 +388449,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/imputnet/helium-linux/releases/tag/0.20.3.1",
+            "changelog": "https://github.com/imputnet/helium-linux/releases/tag/0.21.1.1",
             "description": "Private, fast, and honest web browser based on Chromium",
             "homepage": "https://github.com/imputnet/helium-chromium",
             "identifiers": {
@@ -388385,7 +388506,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/helium/default.nix",
                 "line": 95
             },
-            "name": "helium-0.20.3.1",
+            "name": "helium-0.21.1.1",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -388412,14 +388533,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "helium-0.20.3.1",
+        "name": "helium-0.21.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "helium",
         "system": "x86_64-linux",
-        "version": "0.20.3.1",
+        "version": "0.21.1.1",
         "_attr": "helium",
         "_repo": "lonerOrz"
     },
@@ -388769,7 +388890,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/kazumi/default.nix",
                 "line": 110
             },
-            "name": "kazumi-2.4.2",
+            "name": "kazumi-2.4.3",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -388790,7 +388911,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kazumi-2.4.2",
+        "name": "kazumi-2.4.3",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -388799,7 +388920,7 @@
         },
         "pname": "kazumi",
         "system": "x86_64-linux",
-        "version": "2.4.2",
+        "version": "2.4.3",
         "_attr": "kazumi",
         "_repo": "lonerOrz"
     },
@@ -388852,7 +388973,7 @@
             },
             "mainProgram": "linux-wallpaperengine",
             "maintainers": [],
-            "name": "linux-wallpaperengine-0-unstable-2026-11-03",
+            "name": "linux-wallpaperengine-0-unstable-2026-11-05",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -388893,14 +389014,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-wallpaperengine-0-unstable-2026-11-03",
+        "name": "linux-wallpaperengine-0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linux-wallpaperengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-03",
+        "version": "0-unstable-2026-11-05",
         "_attr": "linux-wallpaperengine",
         "_repo": "lonerOrz"
     },
@@ -389023,7 +389144,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.2881",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3075",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -389080,7 +389201,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/magpie/default.nix",
                 "line": 149
             },
-            "name": "magpie-0.1.2881",
+            "name": "magpie-0.1.3075",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -389124,14 +389245,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.2881",
+        "name": "magpie-0.1.3075",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.2881",
+        "version": "0.1.3075",
         "_attr": "magpie",
         "_repo": "lonerOrz"
     },
@@ -389442,7 +389563,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/niri-git/default.nix",
                 "line": 156
             },
-            "name": "niri-git-26.04-unstable-2026-10-31",
+            "name": "niri-git-26.04-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -389480,7 +389601,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "niri-git-26.04-unstable-2026-10-31",
+        "name": "niri-git-26.04-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "doc": null,
@@ -389488,7 +389609,7 @@
         },
         "pname": "niri-git",
         "system": "x86_64-linux",
-        "version": "26.04-unstable-2026-10-31",
+        "version": "26.04-unstable-2026-11-05",
         "_attr": "niri-git",
         "_repo": "lonerOrz"
     },
@@ -389819,7 +389940,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia/default.nix",
                 "line": 142
             },
-            "name": "noctalia-0-unstable-20261103-67327a7b2",
+            "name": "noctalia-0-unstable-20261105-37b960d3a",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -389862,14 +389983,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-0-unstable-20261103-67327a7b2",
+        "name": "noctalia-0-unstable-20261105-37b960d3a",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "noctalia",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261103-67327a7b2",
+        "version": "0-unstable-20261105-37b960d3a",
         "_attr": "noctalia",
         "_repo": "lonerOrz"
     },
@@ -389933,7 +390054,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia-qs/default.nix",
                 "line": 133
             },
-            "name": "noctalia-qs-0-unstable-20261103-606adedbf",
+            "name": "noctalia-qs-0-unstable-20261105-606adedbf",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -389976,7 +390097,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-qs-0-unstable-20261103-606adedbf",
+        "name": "noctalia-qs-0-unstable-20261105-606adedbf",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -389984,7 +390105,7 @@
         },
         "pname": "noctalia-qs",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261103-606adedbf",
+        "version": "0-unstable-20261105-606adedbf",
         "_attr": "noctalia-qs",
         "_repo": "lonerOrz"
     },
@@ -390247,7 +390368,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/orca/default.nix",
                 "line": 50
             },
-            "name": "orca-1.4.247",
+            "name": "orca-1.4.250",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -390273,14 +390394,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.247",
+        "name": "orca-1.4.250",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.247",
+        "version": "1.4.250",
         "_attr": "orca",
         "_repo": "lonerOrz"
     },
@@ -390826,7 +390947,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/postman-gpui/default.nix",
                 "line": 59
             },
-            "name": "postman-gpui-0.1.2-unstable-2026-10-30",
+            "name": "postman-gpui-0.1.2-unstable-2026-11-05",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -390883,14 +391004,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "postman-gpui-0.1.2-unstable-2026-10-30",
+        "name": "postman-gpui-0.1.2-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "postman-gpui",
         "system": "x86_64-linux",
-        "version": "0.1.2-unstable-2026-10-30",
+        "version": "0.1.2-unstable-2026-11-05",
         "_attr": "postman-gpui",
         "_repo": "lonerOrz"
     },
@@ -391051,7 +391172,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/qwen-code-bin/default.nix",
                 "line": 46
             },
-            "name": "qwen-code-0.26.6",
+            "name": "qwen-code-0.26.8",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -391149,14 +391270,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qwen-code-0.26.6",
+        "name": "qwen-code-0.26.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qwen-code",
         "system": "x86_64-linux",
-        "version": "0.26.6",
+        "version": "0.26.8",
         "_attr": "qwen-code-bin",
         "_repo": "lonerOrz"
     },
