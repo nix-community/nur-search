@@ -21517,7 +21517,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.1794",
+            "name": "magpie-0.1.3143",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -21535,14 +21535,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.1794",
+        "name": "magpie-0.1.3143",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.1794",
+        "version": "0.1.3143",
         "_attr": "magpie",
         "_repo": "Emin017"
     },
@@ -77309,7 +77309,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-11-05",
+            "name": "albedo-git-0-unstable-2026-11-06",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -77371,14 +77371,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-11-05",
+        "name": "albedo-git-0-unstable-2026-11-06",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-05",
+        "version": "0-unstable-2026-11-06",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -84038,7 +84038,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-04",
+            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-05",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -84079,14 +84079,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-04",
+        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-05",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gruvbox-plus-icons",
         "system": "x86_64-linux",
-        "version": "6.7.0-unstable-2026-11-04",
+        "version": "6.7.0-unstable-2026-11-05",
         "_attr": "gruvbox-plus-icons",
         "_repo": "adam0"
     },
@@ -85218,7 +85218,7 @@
             },
             "mainProgram": "tg",
             "maintainers": [],
-            "name": "tg-0.6.0-unstable-2026-11-02",
+            "name": "tg-0.6.0-unstable-2026-11-06",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -85280,14 +85280,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tg-0.6.0-unstable-2026-11-02",
+        "name": "tg-0.6.0-unstable-2026-11-06",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tg",
         "system": "x86_64-linux",
-        "version": "0.6.0-unstable-2026-11-02",
+        "version": "0.6.0-unstable-2026-11-06",
         "_attr": "tg",
         "_repo": "adam0"
     },
@@ -492260,6 +492260,177 @@
         "_attr": "ilo",
         "_repo": "mio"
     },
+    "nur.repos.mio.jadx_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/skylot/jadx/releases/tag/v1.5.6",
+            "description": "Dex to Java decompiler",
+            "homepage": "https://github.com/skylot/jadx",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jadx",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jadx",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Command line and GUI tools for produce Java source code from Android Dex\nand Apk files.\n",
+            "mainProgram": "jadx-gui",
+            "maintainers": [
+                {
+                    "email": "emily+nix@downunderctf.com",
+                    "github": "emilytrau",
+                    "githubId": 13267947,
+                    "name": "Emily Trau"
+                },
+                {
+                    "email": "Misaka13514@gmail.com",
+                    "github": "Misaka13514",
+                    "githubId": 54669781,
+                    "keys": [
+                        {
+                            "fingerprint": "293B 93D8 A471 059F 85D7  16A6 5BA9 2099 D9BE 2DAA"
+                        }
+                    ],
+                    "matrix": "@misaka13514:matrix.org",
+                    "name": "Rine Amakawa"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/wa9kz0gcy4wgakdv28p7i4jc7xkcbbky-source/pkgs/by-name/ja/jadx/package.nix",
+                "line": 115
+            },
+            "name": "jadx-1.5.6",
+            "nonTeamMaintainers": [
+                {
+                    "email": "emily+nix@downunderctf.com",
+                    "github": "emilytrau",
+                    "githubId": 13267947,
+                    "name": "Emily Trau"
+                },
+                {
+                    "email": "Misaka13514@gmail.com",
+                    "github": "Misaka13514",
+                    "githubId": 54669781,
+                    "keys": [
+                        {
+                            "fingerprint": "293B 93D8 A471 059F 85D7  16A6 5BA9 2099 D9BE 2DAA"
+                        }
+                    ],
+                    "matrix": "@misaka13514:matrix.org",
+                    "name": "Rine Amakawa"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ja/jadx/package.nix#L102",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "jadx-1.5.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jadx",
+        "system": "x86_64-linux",
+        "version": "1.5.6",
+        "_attr": "jadx_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.jlcone": {
         "meta": {
             "available": false,
@@ -501898,6 +502069,158 @@
         "_attr": "python27",
         "_repo": "mio"
     },
+    "nur.repos.mio.qbittorrent-enhanced_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/blob/release-5.2.3.10/Changelog",
+            "description": "Unofficial enhanced version of qBittorrent, a BitTorrent client",
+            "homepage": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "qbittorrent-enhanced",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "qbittorrent-enhanced",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "GNU General Public License v2.0 or later",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "gpl2Plus",
+                        "spdxId": "GPL-2.0-or-later",
+                        "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "GNU General Public License v3.0 or later",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "gpl3Plus",
+                        "spdxId": "GPL-3.0-or-later",
+                        "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                    }
+                ],
+                "operator": "AND"
+            },
+            "mainProgram": "qbittorrent",
+            "maintainers": [
+                {
+                    "email": "bytesudoer@gmail.com",
+                    "github": "ByteSudoer",
+                    "githubId": 88513682,
+                    "name": "ByteSudoer"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/wa9kz0gcy4wgakdv28p7i4jc7xkcbbky-source/pkgs/by-name/qb/qbittorrent-enhanced/package.nix",
+                "line": 23
+            },
+            "name": "qbittorrent-enhanced-5.2.3.10",
+            "nonTeamMaintainers": [
+                {
+                    "email": "bytesudoer@gmail.com",
+                    "github": "ByteSudoer",
+                    "githubId": 88513682,
+                    "name": "ByteSudoer"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/qb/qbittorrent-enhanced/package.nix#L20",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "qbittorrent-enhanced-5.2.3.10",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "qbittorrent-enhanced",
+        "system": "x86_64-linux",
+        "version": "5.2.3.10",
+        "_attr": "qbittorrent-enhanced_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.qq_bwrap": {
         "meta": {
             "available": false,
@@ -506921,6 +507244,142 @@
         "system": "x86_64-linux",
         "version": "1.4.113",
         "_attr": "user-agent-switcher-firefox",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.uutils-diffutils_patched": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/uutils/diffutils/releases/tag/v0.6.0",
+            "description": "Drop-in replacement of diffutils in Rust",
+            "homepage": "https://github.com/uutils/diffutils",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "uutils-diffutils",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "uutils-diffutils",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "diffutils",
+            "maintainers": [
+                {
+                    "github": "Defelo",
+                    "githubId": 41747605,
+                    "matrix": "@defelo:matrix.defelo.de",
+                    "name": "Defelo"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/wa9kz0gcy4wgakdv28p7i4jc7xkcbbky-source/pkgs/by-name/uu/uutils-diffutils/package.nix",
+                "line": 50
+            },
+            "name": "uutils-diffutils-0.6.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Defelo",
+                    "githubId": 41747605,
+                    "matrix": "@defelo:matrix.defelo.de",
+                    "name": "Defelo"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/uu/uutils-diffutils/package.nix#L46",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "uutils-diffutils-0.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "uutils-diffutils",
+        "system": "x86_64-linux",
+        "version": "0.6.0",
+        "_attr": "uutils-diffutils_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.versionCheckHomeHook": {
@@ -513503,6 +513962,138 @@
         "system": "x86_64-linux",
         "version": "2.3.3-unstable-2026-02-20",
         "_attr": "aliyundrive-webdav",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.artex": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AI autonomous penetration testing system",
+            "homepage": "https://github.com/BaaRai/ARTEX",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "artex",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "artex",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "artex",
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ar/artex/package.nix",
+                "line": 52
+            },
+            "name": "artex-0-unstable-2026-11-05",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/ar/artex/package.nix#L49",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "artex-0-unstable-2026-11-05",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "artex",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-11-05",
+        "_attr": "artex",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.bark-server": {
