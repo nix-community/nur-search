@@ -55947,6 +55947,118 @@
         "_attr": "pristine-tar",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.provenant": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/getprovenant/provenant/releases/tag/v1.0.17",
+            "description": "Fast Rust scanner for provenance data",
+            "homepage": "https://getprovenant.dev/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "provenant",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "provenant",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "provenant",
+            "maintainers": [],
+            "name": "provenant-1.0.17",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/provenant/package.nix#L71",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "provenant-1.0.17",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "provenant",
+        "system": "x86_64-linux",
+        "version": "1.0.17",
+        "_attr": "provenant",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.python313Packages.audioseal": {
         "meta": {
             "available": true,
@@ -62602,7 +62714,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/rsbinder-tools/package.nix",
-                "line": 63
+                "line": 110
             },
             "name": "rsbinder-tools-0.12.0",
             "nonTeamMaintainers": [
@@ -62638,7 +62750,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/rsbinder-tools/package.nix#L49",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/rsbinder-tools/package.nix#L96",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -62646,6 +62758,7 @@
         "name": "rsbinder-tools-0.12.0",
         "outputName": "out",
         "outputs": {
+            "examples": null,
             "out": null
         },
         "pname": "rsbinder-tools",
@@ -377662,6 +377775,81 @@
         "_attr": "akyuu",
         "_repo": "lillycham"
     },
+    "nur.repos.lillycham.cern-httpd": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tim Berners-Lee's early CERN web servers, ported to modern systems",
+            "homepage": "https://github.com/lillycham/cern-httpd",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cern-httpd",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cern-httpd",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Public Domain",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "publicDomain"
+            },
+            "mainProgram": "cern-httpd",
+            "maintainers": [],
+            "name": "cern-httpd-0.2-unstable-2026-11-05",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillycham/pkgs/cern-httpd/default.nix#L29",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cern-httpd-0.2-unstable-2026-11-05",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cern-httpd",
+        "system": "x86_64-linux",
+        "version": "0.2-unstable-2026-11-05",
+        "_attr": "cern-httpd",
+        "_repo": "lillycham"
+    },
     "nur.repos.lillycham.dq": {
         "meta": {
             "available": true,
@@ -378283,6 +378471,345 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "nibble-mlx-server",
+        "_repo": "lillycham"
+    },
+    "nur.repos.lillycham.shiki": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Small probes that report back, as JSON for a dashboard",
+            "homepage": "https://github.com/lillycham/shiki",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "shiki",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "shiki",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "shiki",
+            "maintainers": [],
+            "name": "shiki-0.1.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillycham/pkgs/shiki/default.nix#L39",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "shiki-0.1.0.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "shiki",
+        "system": "x86_64-linux",
+        "version": "0.1.0.0",
+        "_attr": "shiki",
+        "_repo": "lillycham"
+    },
+    "nur.repos.lillycham.why": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Explain why a file, command or listening port is on this machine",
+            "homepage": "https://github.com/lillycham/why",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "why",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "why",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "why",
+            "maintainers": [],
+            "name": "why-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillycham/pkgs/why/default.nix#L39",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "why-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "why",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "why",
+        "_repo": "lillycham"
+    },
+    "nur.repos.lillycham.worldwideweb": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tim Berners-Lee's first web browser and editor, ported to modern macOS",
+            "homepage": "https://github.com/lillycham/worldwideweb",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "worldwideweb",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "worldwideweb",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "W3C Software Notice and License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "w3c",
+                "spdxId": "W3C",
+                "url": "https://spdx.org/licenses/W3C.html"
+            },
+            "mainProgram": "worldwideweb",
+            "maintainers": [],
+            "name": "worldwideweb-0.16-unstable-2026-11-05",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillycham/pkgs/worldwideweb/default.nix#L54",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "worldwideweb-0.16-unstable-2026-11-05",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "worldwideweb",
+        "system": "x86_64-linux",
+        "version": "0.16-unstable-2026-11-05",
+        "_attr": "worldwideweb",
         "_repo": "lillycham"
     },
     "nur.repos.linyinfeng.activate-dpt": {
@@ -1038924,6 +1039451,143 @@
         "_attr": "fabric-26_2",
         "_repo": "toyvo"
     },
+    "nur.repos.toyvo.infinity-agent-cli": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Terminal client for Infinity coding agents",
+            "homepage": "https://github.com/hydro-project/infinity",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "infinity-agent-cli",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "infinity-agent-cli",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "infinity",
+            "maintainers": [
+                {
+                    "email": "Collin@Diekvoss.com",
+                    "github": "ToyVo",
+                    "githubId": 5168912,
+                    "matrix": "@toyvo:matrix.org",
+                    "name": "Collin Diekvoss"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/infinity-agent-cli/default.nix",
+                "line": 99
+            },
+            "name": "infinity-agent-cli-0.2.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "Collin@Diekvoss.com",
+                    "github": "ToyVo",
+                    "githubId": 5168912,
+                    "matrix": "@toyvo:matrix.org",
+                    "name": "Collin Diekvoss"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/toyvo/pkgs/infinity-agent-cli/default.nix#L96",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "infinity-agent-cli-0.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "infinity-agent-cli",
+        "system": "x86_64-linux",
+        "version": "0.2.0",
+        "_attr": "infinity-agent-cli",
+        "_repo": "toyvo"
+    },
     "nur.repos.toyvo.jellyfin-plugin-ldap-authentication": {
         "meta": {
             "available": true,
@@ -1040637,7 +1041301,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.3-226",
+            "name": "papermc-26.3-242",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1040668,14 +1041332,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.3-226",
+        "name": "papermc-26.3-242",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.3-226",
+        "version": "26.3-242",
         "_attr": "papermc",
         "_repo": "toyvo"
     },
@@ -1045379,7 +1046043,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/purpurServers/derivation.nix",
                 "line": 58
             },
-            "name": "purpur-26.3-2654",
+            "name": "purpur-26.3-2655",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1045410,14 +1046074,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "purpur-26.3-2654",
+        "name": "purpur-26.3-2655",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "purpur",
         "system": "x86_64-linux",
-        "version": "26.3-2654",
+        "version": "26.3-2655",
         "_attr": "purpur",
         "_repo": "toyvo"
     },
