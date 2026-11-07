@@ -538951,6 +538951,184 @@
         "_attr": "emacsPackages.agent-shell-links",
         "_repo": "nagy"
     },
+    "nur.repos.nagy.emacsPackages.color-picker": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Full color picker widget with HSV selector, sliders and favorites",
+            "homepage": "https://github.com/zHaOdANiuu/color-picker.el",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "color-picker",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "color-picker",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/emacs-packages/color-picker.nix",
+                "line": 22
+            },
+            "name": "emacs-color-picker-0.2.0-unstable-2026-09-12",
+            "nonTeamMaintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/emacs-packages/color-picker.nix#L20",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "emacs-color-picker-0.2.0-unstable-2026-09-12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "emacs-color-picker",
+        "system": "x86_64-linux",
+        "version": "0.2.0-unstable-2026-09-12",
+        "_attr": "emacsPackages.color-picker",
+        "_repo": "nagy"
+    },
     "nur.repos.nagy.emacsPackages.elisp-reader": {
         "meta": {
             "available": true,
@@ -540548,6 +540726,184 @@
         "system": "x86_64-linux",
         "version": "0.1-unstable-2026-09-06",
         "_attr": "emacsPackages.poimap",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.emacsPackages.pretty-tables": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Aligned, wrapped display of tables",
+            "homepage": "https://github.com/alberti42/pretty-tables.el",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pretty-tables",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pretty-tables",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/emacs-packages/pretty-tables.nix",
+                "line": 22
+            },
+            "name": "emacs-pretty-tables-0.5.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/emacs-packages/pretty-tables.nix#L20",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "emacs-pretty-tables-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "emacs-pretty-tables",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "emacsPackages.pretty-tables",
         "_repo": "nagy"
     },
     "nur.repos.nagy.emacsPackages.scroll-page-without-moving-point": {
@@ -563821,7 +564177,7 @@
             },
             "mainProgram": "cua-driver",
             "maintainers": [],
-            "name": "cua-driver-0.41.2",
+            "name": "cua-driver-0.41.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -563848,14 +564204,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cua-driver-0.41.2",
+        "name": "cua-driver-0.41.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cua-driver",
         "system": "x86_64-linux",
-        "version": "0.41.2",
+        "version": "0.41.3",
         "_attr": "cua-driver",
         "_repo": "nosugarcoffee"
     },
@@ -1181847,7 +1182203,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3240",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3288",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1181904,7 +1182260,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 141
             },
-            "name": "magpie-0.1.3240",
+            "name": "magpie-0.1.3288",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1181948,14 +1182304,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.3240",
+        "name": "magpie-0.1.3288",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.3240",
+        "version": "0.1.3288",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
