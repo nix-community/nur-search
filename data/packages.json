@@ -249067,7 +249067,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/mnamer-rs/default.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/davinci42/pkgs/mnamer-rs/default.nix#L53",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -946899,8 +946899,8 @@
     },
     "nur.repos.sikmir.geoflow": {
         "meta": {
-            "available": true,
-            "broken": false,
+            "available": false,
+            "broken": true,
             "description": "flowchart tool for geo-spatial data processing",
             "homepage": "https://github.com/geoflow3d/geoflow",
             "identifiers": {
@@ -946982,7 +946982,12 @@
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/ge/geoflow/package.nix#L56",
-            "problems": {},
+            "problems": {
+                "broken": {
+                    "kind": "broken",
+                    "message": "This package is broken."
+                }
+            },
             "unfree": false,
             "unsupported": false
         },
@@ -964235,7 +964240,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/ma/maperitive/package.nix",
                 "line": 43
             },
-            "name": "maperitive-2.4.3",
+            "name": "maperitive-2.5.10",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -964293,14 +964298,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "maperitive-2.4.3",
+        "name": "maperitive-2.5.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "maperitive",
         "system": "x86_64-linux",
-        "version": "2.4.3",
+        "version": "2.5.10",
         "_attr": "maperitive",
         "_repo": "sikmir"
     },
