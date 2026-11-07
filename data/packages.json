@@ -90177,6 +90177,1032 @@
         "_attr": "antigravity-tools-bin",
         "_repo": "ahmet-cetinkaya"
     },
+    "nur.repos.ahmet-cetinkaya.cadcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source CAD application in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/cadcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cadcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cadcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "cadcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "cadcraft-bin-0.18.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cadcraft-bin-0.18.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cadcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.18.0",
+        "_attr": "cadcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.deckcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source presentation tool in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/deckcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "deckcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "deckcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "deckcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "deckcraft-bin-0.16.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "deckcraft-bin-0.16.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "deckcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.16.0",
+        "_attr": "deckcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.designcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source graphic design tool in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/designcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "designcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "designcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "designcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "designcraft-bin-0.18.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "designcraft-bin-0.18.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "designcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.18.0",
+        "_attr": "designcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.dikte-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Local voice dictation with whisper.cpp, built for Turkish and terminal agents",
+            "homepage": "https://github.com/yusufipk/dikte",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dikte",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dikte",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "dikte",
+            "maintainers": [
+                "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/dikte-bin/default.nix",
+                "line": 97
+            },
+            "name": "dikte-2.3.0",
+            "nonTeamMaintainers": [
+                "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/dikte-bin/default.nix#L91",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "dikte-2.3.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dikte",
+        "system": "x86_64-linux",
+        "version": "2.3.0",
+        "_attr": "dikte-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.effectcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source VFX and motion graphics tool in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/effectcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "effectcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "effectcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "effectcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "effectcraft-bin-0.22.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "effectcraft-bin-0.22.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "effectcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.22.0",
+        "_attr": "effectcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.filmcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source non-linear video editor in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/filmcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "filmcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "filmcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "filmcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "filmcraft-bin-0.18.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "filmcraft-bin-0.18.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "filmcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.18.0",
+        "_attr": "filmcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.gridcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source spreadsheet tool in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/gridcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gridcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gridcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "gridcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "gridcraft-bin-0.17.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gridcraft-bin-0.17.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gridcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.17.0",
+        "_attr": "gridcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.lightcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source RAW developer and color grading tool in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/lightcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lightcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lightcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "lightcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "lightcraft-bin-0.19.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "lightcraft-bin-0.19.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lightcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.19.0",
+        "_attr": "lightcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.mempalace": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Give your AI a memory \u2014 mine projects and conversations into a searchable palace",
+            "homepage": "https://github.com/MemPalace/mempalace",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mempalace",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mempalace",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "mempalace",
+            "maintainers": [
+                "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/mempalace/default.nix",
+                "line": 44
+            },
+            "name": "mempalace-3.10.0",
+            "nonTeamMaintainers": [
+                "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/mempalace/default.nix#L41",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mempalace-3.10.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "mempalace",
+        "system": "x86_64-linux",
+        "version": "3.10.0",
+        "_attr": "mempalace",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.munder-difflin-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Agent harness to run an office of your clones",
+            "homepage": "https://munderdiffl.in",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "munder-difflin-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "munder-difflin-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "munder-difflin-bin",
+            "maintainers": [
+                "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/munder-difflin-bin/default.nix",
+                "line": 54
+            },
+            "name": "munder-difflin-bin-0.5.5",
+            "nonTeamMaintainers": [
+                "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/munder-difflin-bin/default.nix#L48",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "munder-difflin-bin-0.5.5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "munder-difflin-bin",
+        "system": "x86_64-linux",
+        "version": "0.5.5",
+        "_attr": "munder-difflin-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
     "nur.repos.ahmet-cetinkaya.openfortigui": {
         "meta": {
             "available": true,
@@ -90367,6 +91393,208 @@
         "_attr": "orca-bin",
         "_repo": "ahmet-cetinkaya"
     },
+    "nur.repos.ahmet-cetinkaya.pdfcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source PDF editor in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/pdfcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pdfcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pdfcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "pdfcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "pdfcraft-bin-0.19.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pdfcraft-bin-0.19.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pdfcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.19.0",
+        "_attr": "pdfcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.photocraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source photo editor written from scratch in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/photocraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "photocraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "photocraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "photocraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "photocraft-bin-0.21.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "photocraft-bin-0.21.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "photocraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.21.0",
+        "_attr": "photocraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
     "nur.repos.ahmet-cetinkaya.prince-bin": {
         "meta": {
             "available": false,
@@ -90420,7 +91648,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/prince-bin/default.nix",
                 "line": 80
             },
-            "name": "prince-bin-16.2",
+            "name": "prince-bin-17",
             "nonTeamMaintainers": [
                 "Ahmet \u00c7etinkaya <contact@ahmetcetinkaya.me>"
             ],
@@ -90442,15 +91670,318 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "prince-bin-16.2",
+        "name": "prince-bin-17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "prince-bin",
         "system": "x86_64-linux",
-        "version": "16.2",
+        "version": "17",
         "_attr": "prince-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.soundcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source audio editor and DAW in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/soundcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "soundcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "soundcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "soundcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "soundcraft-bin-0.18.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "soundcraft-bin-0.18.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "soundcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.18.0",
+        "_attr": "soundcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.vectorcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source vector graphics editor in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/vectorcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vectorcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vectorcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "vectorcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "vectorcraft-bin-0.22.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vectorcraft-bin-0.22.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vectorcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.22.0",
+        "_attr": "vectorcraft-bin",
+        "_repo": "ahmet-cetinkaya"
+    },
+    "nur.repos.ahmet-cetinkaya.wordcraft-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source word processor in pure Rust (prebuilt upstream binary)",
+            "homepage": "https://github.com/storytold/wordcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "wordcraft-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "wordcraft-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "wordcraft",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix",
+                "line": 108
+            },
+            "name": "wordcraft-bin-0.16.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ahmet-cetinkaya/nixos/pkgs/craft-apps/builder.nix#L104",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "wordcraft-bin-0.16.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "wordcraft-bin",
+        "system": "x86_64-linux",
+        "version": "0.16.0",
+        "_attr": "wordcraft-bin",
         "_repo": "ahmet-cetinkaya"
     },
     "nur.repos.ahmet-cetinkaya.zed-preview-bin": {
@@ -113439,7 +114970,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/cade/package.nix",
                 "line": 39
             },
-            "name": "cade-0.1.3-unstable-2026-10-28",
+            "name": "cade-0.1.3-unstable-2026-11-04",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -113493,14 +115024,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cade-0.1.3-unstable-2026-10-28",
+        "name": "cade-0.1.3-unstable-2026-11-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cade",
         "system": "x86_64-linux",
-        "version": "0.1.3-unstable-2026-10-28",
+        "version": "0.1.3-unstable-2026-11-04",
         "_attr": "cade",
         "_repo": "bandithedoge"
     },
@@ -114890,9 +116421,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/crepe-vamp-plugin-bin/package.nix",
-                "line": 42
+                "line": 43
             },
-            "name": "crepe-vamp-plugin-bin-3.0.0",
+            "name": "crepe-vamp-plugin-bin-4.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -114908,7 +116439,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/crepe-vamp-plugin-bin/package.nix#L37",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/crepe-vamp-plugin-bin/package.nix#L38",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -114919,14 +116450,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "crepe-vamp-plugin-bin-3.0.0",
+        "name": "crepe-vamp-plugin-bin-4.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "crepe-vamp-plugin-bin",
         "system": "x86_64-linux",
-        "version": "3.0.0",
+        "version": "4.1.0",
         "_attr": "crepe-vamp-plugin-bin",
         "_repo": "bandithedoge"
     },
@@ -116099,7 +117630,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/element/package.nix",
                 "line": 84
             },
-            "name": "element-1.2.0-unstable-2026-10-29",
+            "name": "element-1.2.0-unstable-2026-11-03",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -116143,14 +117674,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "element-1.2.0-unstable-2026-10-29",
+        "name": "element-1.2.0-unstable-2026-11-03",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "element",
         "system": "x86_64-linux",
-        "version": "1.2.0-unstable-2026-10-29",
+        "version": "1.2.0-unstable-2026-11-03",
         "_attr": "element",
         "_repo": "bandithedoge"
     },
@@ -118401,9 +119932,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/ghidra-mcp/package.nix",
-                "line": 93
+                "line": 98
             },
-            "name": "ghidra-mcp-7.0.0",
+            "name": "ghidra-mcp-7.0.0-unstable-2026-11-06",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -118421,19 +119952,19 @@
                 "aarch64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/ghidra-mcp/package.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/ghidra-mcp/package.nix#L93",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghidra-mcp-7.0.0",
+        "name": "ghidra-mcp-7.0.0-unstable-2026-11-06",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghidra-mcp",
         "system": "x86_64-linux",
-        "version": "7.0.0",
+        "version": "7.0.0-unstable-2026-11-06",
         "_attr": "ghidra-mcp",
         "_repo": "bandithedoge"
     },
@@ -120324,7 +121855,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/helium-bin/package.nix",
                 "line": 135
             },
-            "name": "helium-bin-0.20.3.1",
+            "name": "helium-bin-0.21.1.1",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -120352,14 +121883,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "helium-bin-0.20.3.1",
+        "name": "helium-bin-0.21.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "helium-bin",
         "system": "x86_64-linux",
-        "version": "0.20.3.1",
+        "version": "0.21.1.1",
         "_attr": "helium-bin",
         "_repo": "bandithedoge"
     },
@@ -122327,7 +123858,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/maki/package.nix",
                 "line": 33
             },
-            "name": "maki-0.7.0",
+            "name": "maki-0.7.1",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -122381,14 +123912,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "maki-0.7.0",
+        "name": "maki-0.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "maki",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "_attr": "maki",
         "_repo": "bandithedoge"
     },
@@ -124069,7 +125600,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/npr/package.nix",
                 "line": 31
             },
-            "name": "npr-0-unstable-2026-10-20",
+            "name": "npr-0-unstable-2026-11-03",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -124123,14 +125654,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "npr-0-unstable-2026-10-20",
+        "name": "npr-0-unstable-2026-11-03",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "npr",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-20",
+        "version": "0-unstable-2026-11-03",
         "_attr": "npr",
         "_repo": "bandithedoge"
     },
@@ -129858,7 +131389,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/some-sass-language-server/package.nix",
                 "line": 51
             },
-            "name": "some-sass-language-server-2.3.8",
+            "name": "some-sass-language-server-2.3.9",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -129957,14 +131488,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "some-sass-language-server-2.3.8",
+        "name": "some-sass-language-server-2.3.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "some-sass-language-server",
         "system": "x86_64-linux",
-        "version": "2.3.8",
+        "version": "2.3.9",
         "_attr": "some-sass-language-server",
         "_repo": "bandithedoge"
     },
@@ -151043,7 +152574,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "vimplugin-opencode.nvim-debf0931c2ed98c29d19641f0a316589bbfdf4d1",
+            "name": "vimplugin-opencode.nvim-0dbd52d84e85023742ea999456b8804a987cac43",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -151134,14 +152665,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vimplugin-opencode.nvim-debf0931c2ed98c29d19641f0a316589bbfdf4d1",
+        "name": "vimplugin-opencode.nvim-0dbd52d84e85023742ea999456b8804a987cac43",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "vimplugin-opencode.nvim-debf0931c2ed98c29d19641f0a316589bbfdf4d1",
+        "pname": "vimplugin-opencode.nvim",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "0dbd52d84e85023742ea999456b8804a987cac43",
         "_attr": "vimPlugins.opencode-nvim",
         "_repo": "bandithedoge"
     },
@@ -157036,7 +158567,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "vimplugin-ucw.nvim-170513b83f8b3b22a791d641f78272f116ebf280",
+            "name": "vimplugin-ucw.nvim-765b25cfa6e95b6a9a20df669c64c51a7dc03458",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -157127,14 +158658,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vimplugin-ucw.nvim-170513b83f8b3b22a791d641f78272f116ebf280",
+        "name": "vimplugin-ucw.nvim-765b25cfa6e95b6a9a20df669c64c51a7dc03458",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vimplugin-ucw.nvim",
         "system": "x86_64-linux",
-        "version": "170513b83f8b3b22a791d641f78272f116ebf280",
+        "version": "765b25cfa6e95b6a9a20df669c64c51a7dc03458",
         "_attr": "vimPlugins.ucw-nvim",
         "_repo": "bandithedoge"
     },
@@ -158715,9 +160246,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/whisper-vamp-plugin-bin/package.nix",
-                "line": 52
+                "line": 49
             },
-            "name": "whisper-vamp-plugin-bin-4.0.0",
+            "name": "whisper-vamp-plugin-bin-5.0.0",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -158733,7 +160264,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/whisper-vamp-plugin-bin/package.nix#L47",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/whisper-vamp-plugin-bin/package.nix#L44",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -158744,15 +160275,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "whisper-vamp-plugin-bin-4.0.0",
+        "name": "whisper-vamp-plugin-bin-5.0.0",
         "outputName": "out",
         "outputs": {
-            "lib": null,
             "out": null
         },
         "pname": "whisper-vamp-plugin-bin",
         "system": "x86_64-linux",
-        "version": "4.0.0",
+        "version": "5.0.0",
         "_attr": "whisper-vamp-plugin-bin",
         "_repo": "bandithedoge"
     },
@@ -158817,7 +160347,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/winegui/package.nix",
                 "line": 42
             },
-            "name": "winegui-4.5.1",
+            "name": "winegui-4.5.2",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -158861,14 +160391,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "winegui-4.5.1",
+        "name": "winegui-4.5.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "winegui",
         "system": "x86_64-linux",
-        "version": "4.5.1",
+        "version": "4.5.2",
         "_attr": "winegui",
         "_repo": "bandithedoge"
     },
@@ -161450,7 +162980,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "augment-command.yazi-1bb193e2b89d14f1da712fe1c324f625c63bf3f6",
+            "name": "augment-command.yazi-6e840cfd53e95ba30a35ae2c98131eb1db9a04f8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -161460,14 +162990,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "augment-command.yazi-1bb193e2b89d14f1da712fe1c324f625c63bf3f6",
+        "name": "augment-command.yazi-6e840cfd53e95ba30a35ae2c98131eb1db9a04f8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "augment-command.yazi",
         "system": "x86_64-linux",
-        "version": "1bb193e2b89d14f1da712fe1c324f625c63bf3f6",
+        "version": "6e840cfd53e95ba30a35ae2c98131eb1db9a04f8",
         "_attr": "yaziPlugins.augment-command",
         "_repo": "bandithedoge"
     },
