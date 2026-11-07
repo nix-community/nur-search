@@ -278817,6 +278817,94 @@
         "_attr": "drinklist-cli",
         "_repo": "fius"
     },
+    "nur.repos.fliegendewurst.arzg-sema": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Theme based on semantic code information",
+            "downloadPage": "https://marketplace.visualstudio.com/items?itemName=arzg.sema",
+            "homepage": "https://github.com/arzg/sema",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vscode-extension-arzg-sema",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vscode-extension-arzg-sema",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "arne.keller@posteo.de",
+                    "github": "FliegendeWurst",
+                    "githubId": 12560461,
+                    "name": "Arne Keller"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/fliegendewurst/default.nix",
+                "line": 30
+            },
+            "name": "vscode-extension-arzg-sema-1.12.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "arne.keller@posteo.de",
+                    "github": "FliegendeWurst",
+                    "githubId": 12560461,
+                    "name": "Arne Keller"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/fliegendewurst/default.nix#L26",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vscode-extension-arzg-sema-1.12.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vscode-extension-arzg-sema",
+        "system": "x86_64-linux",
+        "version": "1.12.1",
+        "_attr": "arzg-sema",
+        "_repo": "fliegendewurst"
+    },
     "nur.repos.fliegendewurst.diskgraph": {
         "meta": {
             "available": true,
@@ -279041,6 +279129,200 @@
         "system": "x86_64-linux",
         "version": "2022-02-01",
         "_attr": "freqtop",
+        "_repo": "fliegendewurst"
+    },
+    "nur.repos.fliegendewurst.jerboa-editor": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple command line wrapper around JD Core Java Decompiler project",
+            "homepage": "https://github.com/intoolswetrust/jd-cli",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jerboa-editor",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jerboa-editor",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "majiir@nabaal.net",
+                    "github": "Majiir",
+                    "githubId": 963511,
+                    "name": "Majiir Paktu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/fliegendewurst/pkgs/jerboa-editor/default.nix",
+                "line": 43
+            },
+            "name": "jerboa-editor-2.1.6",
+            "nonTeamMaintainers": [
+                {
+                    "email": "majiir@nabaal.net",
+                    "github": "Majiir",
+                    "githubId": 963511,
+                    "name": "Majiir Paktu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-linux",
+                "x86_64-linux",
+                "aarch64-linux",
+                "armv7l-linux",
+                "armv6l-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/fliegendewurst/pkgs/jerboa-editor/default.nix#L40",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "jerboa-editor-2.1.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jerboa-editor",
+        "system": "x86_64-linux",
+        "version": "2.1.6",
+        "_attr": "jerboa-editor",
+        "_repo": "fliegendewurst"
+    },
+    "nur.repos.fliegendewurst.jerboa-studio": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple command line wrapper around JD Core Java Decompiler project",
+            "homepage": "https://github.com/intoolswetrust/jd-cli",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "jerboa-studio",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "jerboa-studio",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "majiir@nabaal.net",
+                    "github": "Majiir",
+                    "githubId": 963511,
+                    "name": "Majiir Paktu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/fliegendewurst/pkgs/jerboa-studio/default.nix",
+                "line": 90
+            },
+            "name": "jerboa-studio-0-unstable-2025-09-04",
+            "nonTeamMaintainers": [
+                {
+                    "email": "majiir@nabaal.net",
+                    "github": "Majiir",
+                    "githubId": 963511,
+                    "name": "Majiir Paktu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-linux",
+                "x86_64-linux",
+                "aarch64-linux",
+                "armv7l-linux",
+                "armv6l-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/fliegendewurst/pkgs/jerboa-studio/default.nix#L87",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "jerboa-studio-0-unstable-2025-09-04",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "jerboa-studio",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2025-09-04",
+        "_attr": "jerboa-studio",
         "_repo": "fliegendewurst"
     },
     "nur.repos.fliegendewurst.map": {
@@ -378406,6 +378688,161 @@
         "system": "x86_64-linux",
         "version": "0.1.0-unstable-2026-09-24",
         "_attr": "dq",
+        "_repo": "lillycham"
+    },
+    "nur.repos.lillycham.engi": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Archive closed agent sessions: strip, compress, verify, export with age",
+            "homepage": "https://github.com/lillycham/engi",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "engi",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "engi",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "engi",
+            "maintainers": [],
+            "name": "engi-0.1.0.0-unstable-2026-11-07",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lillycham/pkgs/engi/default.nix#L35",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "engi-0.1.0.0-unstable-2026-11-07",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "engi",
+        "system": "x86_64-linux",
+        "version": "0.1.0.0-unstable-2026-11-07",
+        "_attr": "engi",
         "_repo": "lillycham"
     },
     "nur.repos.lillycham.hydrus-tagger": {
@@ -561700,7 +562137,7 @@
             },
             "mainProgram": "cua-driver",
             "maintainers": [],
-            "name": "cua-driver-0.41.1",
+            "name": "cua-driver-0.41.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -561727,14 +562164,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cua-driver-0.41.1",
+        "name": "cua-driver-0.41.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cua-driver",
         "system": "x86_64-linux",
-        "version": "0.41.1",
+        "version": "0.41.2",
         "_attr": "cua-driver",
         "_repo": "nosugarcoffee"
     },
@@ -561947,7 +562384,7 @@
                 "shortName": "unfree"
             },
             "maintainers": [],
-            "name": "heyclicky-1.1.2",
+            "name": "heyclicky-1.1.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -561972,14 +562409,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "heyclicky-1.1.2",
+        "name": "heyclicky-1.1.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "heyclicky",
         "system": "x86_64-linux",
-        "version": "1.1.2",
+        "version": "1.1.3",
         "_attr": "heyclicky",
         "_repo": "nosugarcoffee"
     },
@@ -1005301,7 +1005738,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/craft-launcher/releases/tag/v0.14.1",
+            "changelog": "https://github.com/storytold/craft-launcher/releases/tag/v0.16.0",
             "description": "Launcher for the ArtCraft creative application suite",
             "homepage": "https://github.com/storytold/craft-launcher",
             "identifiers": {
@@ -1005358,7 +1005795,7 @@
             ],
             "mainProgram": "artcraft-launcher",
             "maintainers": [],
-            "name": "artcraft-launcher-bin-0.14.1",
+            "name": "artcraft-launcher-bin-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1005383,14 +1005820,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artcraft-launcher-bin-0.14.1",
+        "name": "artcraft-launcher-bin-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artcraft-launcher-bin",
         "system": "x86_64-linux",
-        "version": "0.14.1",
+        "version": "0.16.0",
         "_attr": "artcraft-launcher-bin",
         "_repo": "silicalet"
     },
@@ -1005398,7 +1005835,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/cadcraft/releases/tag/v0.17.1",
+            "changelog": "https://github.com/storytold/cadcraft/releases/tag/v0.18.0",
             "description": "Native computer-aided design and drafting application",
             "homepage": "https://github.com/storytold/cadcraft",
             "identifiers": {
@@ -1005455,7 +1005892,7 @@
             ],
             "mainProgram": "cadcraft",
             "maintainers": [],
-            "name": "cadcraft-bin-0.17.1",
+            "name": "cadcraft-bin-0.18.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1005480,14 +1005917,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cadcraft-bin-0.17.1",
+        "name": "cadcraft-bin-0.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cadcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.17.1",
+        "version": "0.18.0",
         "_attr": "cadcraft-bin",
         "_repo": "silicalet"
     },
@@ -1005919,7 +1006356,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/deckcraft/releases/tag/v0.15.1",
+            "changelog": "https://github.com/storytold/deckcraft/releases/tag/v0.16.0",
             "description": "Native presentation and slide editor",
             "homepage": "https://github.com/storytold/deckcraft",
             "identifiers": {
@@ -1005976,7 +1006413,7 @@
             ],
             "mainProgram": "deckcraft",
             "maintainers": [],
-            "name": "deckcraft-bin-0.15.1",
+            "name": "deckcraft-bin-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006001,14 +1006438,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deckcraft-bin-0.15.1",
+        "name": "deckcraft-bin-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deckcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.15.1",
+        "version": "0.16.0",
         "_attr": "deckcraft-bin",
         "_repo": "silicalet"
     },
@@ -1006016,7 +1006453,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/designcraft/releases/tag/v0.17.2",
+            "changelog": "https://github.com/storytold/designcraft/releases/tag/v0.18.0",
             "description": "Native page layout and desktop publishing application",
             "homepage": "https://github.com/storytold/designcraft",
             "identifiers": {
@@ -1006073,7 +1006510,7 @@
             ],
             "mainProgram": "designcraft",
             "maintainers": [],
-            "name": "designcraft-bin-0.17.2",
+            "name": "designcraft-bin-0.18.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006098,14 +1006535,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "designcraft-bin-0.17.2",
+        "name": "designcraft-bin-0.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "designcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.17.2",
+        "version": "0.18.0",
         "_attr": "designcraft-bin",
         "_repo": "silicalet"
     },
@@ -1006235,7 +1006672,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/effectcraft/releases/tag/v0.21.1",
+            "changelog": "https://github.com/storytold/effectcraft/releases/tag/v0.22.0",
             "description": "Native motion graphics and visual effects editor",
             "homepage": "https://github.com/storytold/effectcraft",
             "identifiers": {
@@ -1006292,7 +1006729,7 @@
             ],
             "mainProgram": "effectcraft",
             "maintainers": [],
-            "name": "effectcraft-bin-0.21.1",
+            "name": "effectcraft-bin-0.22.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006317,14 +1006754,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-bin-0.21.1",
+        "name": "effectcraft-bin-0.22.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.21.1",
+        "version": "0.22.0",
         "_attr": "effectcraft-bin",
         "_repo": "silicalet"
     },
@@ -1006332,7 +1006769,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/figcraft/releases/tag/v0.15.1",
+            "changelog": "https://github.com/storytold/figcraft/releases/tag/v0.16.0",
             "description": "Native interface design and prototyping application",
             "homepage": "https://github.com/storytold/figcraft",
             "identifiers": {
@@ -1006389,7 +1006826,7 @@
             ],
             "mainProgram": "figcraft",
             "maintainers": [],
-            "name": "figcraft-bin-0.15.1",
+            "name": "figcraft-bin-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006414,14 +1006851,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "figcraft-bin-0.15.1",
+        "name": "figcraft-bin-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "figcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.15.1",
+        "version": "0.16.0",
         "_attr": "figcraft-bin",
         "_repo": "silicalet"
     },
@@ -1006429,7 +1006866,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/filmcraft/releases/tag/v0.17.1",
+            "changelog": "https://github.com/storytold/filmcraft/releases/tag/v0.18.0",
             "description": "Native video editor with timeline editing and color grading",
             "homepage": "https://github.com/storytold/filmcraft",
             "identifiers": {
@@ -1006486,7 +1006923,7 @@
             ],
             "mainProgram": "filmcraft",
             "maintainers": [],
-            "name": "filmcraft-bin-0.17.1",
+            "name": "filmcraft-bin-0.18.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006511,14 +1006948,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "filmcraft-bin-0.17.1",
+        "name": "filmcraft-bin-0.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "filmcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.17.1",
+        "version": "0.18.0",
         "_attr": "filmcraft-bin",
         "_repo": "silicalet"
     },
@@ -1006526,7 +1006963,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/chthollyphile/folia-major/releases/tag/v0.7.26",
+            "changelog": "https://github.com/chthollyphile/folia-major/releases/tag/v0.7.27",
             "description": "Music player with immersive animated lyrics and local and online music support",
             "homepage": "https://github.com/chthollyphile/folia-major",
             "identifiers": {
@@ -1006571,7 +1007008,7 @@
             },
             "mainProgram": "folia-major",
             "maintainers": [],
-            "name": "folia-major-bin-0.7.26",
+            "name": "folia-major-bin-0.7.27",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006595,14 +1007032,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "folia-major-bin-0.7.26",
+        "name": "folia-major-bin-0.7.27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "folia-major-bin",
         "system": "x86_64-linux",
-        "version": "0.7.26",
+        "version": "0.7.27",
         "_attr": "folia-major-bin",
         "_repo": "silicalet"
     },
@@ -1006610,7 +1007047,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.4.7",
+            "changelog": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.5.0",
             "description": "Cross-platform multi-protocol concurrent downloader",
             "homepage": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
             "identifiers": {
@@ -1006655,7 +1007092,7 @@
             },
             "mainProgram": "ghost-downloader-3",
             "maintainers": [],
-            "name": "ghost-downloader-3-4.4.7",
+            "name": "ghost-downloader-3-4.5.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006679,14 +1007116,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghost-downloader-3-4.4.7",
+        "name": "ghost-downloader-3-4.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghost-downloader",
         "system": "x86_64-linux",
-        "version": "3-4.4.7",
+        "version": "3-4.5.0",
         "_attr": "ghost-downloader-3",
         "_repo": "silicalet"
     },
@@ -1006694,7 +1007131,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/gridcraft/releases/tag/v0.16.1",
+            "changelog": "https://github.com/storytold/gridcraft/releases/tag/v0.17.0",
             "description": "Native spreadsheet and data analysis application",
             "homepage": "https://github.com/storytold/gridcraft",
             "identifiers": {
@@ -1006751,7 +1007188,7 @@
             ],
             "mainProgram": "gridcraft",
             "maintainers": [],
-            "name": "gridcraft-bin-0.16.1",
+            "name": "gridcraft-bin-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1006776,14 +1007213,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gridcraft-bin-0.16.1",
+        "name": "gridcraft-bin-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gridcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.16.1",
+        "version": "0.17.0",
         "_attr": "gridcraft-bin",
         "_repo": "silicalet"
     },
@@ -1007103,7 +1007540,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/lightcraft/releases/tag/v0.18.1",
+            "changelog": "https://github.com/storytold/lightcraft/releases/tag/v0.19.0",
             "description": "Native photo library and raw image developer",
             "homepage": "https://github.com/storytold/lightcraft",
             "identifiers": {
@@ -1007160,7 +1007597,7 @@
             ],
             "mainProgram": "lightcraft",
             "maintainers": [],
-            "name": "lightcraft-bin-0.18.1",
+            "name": "lightcraft-bin-0.19.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1007185,14 +1007622,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lightcraft-bin-0.18.1",
+        "name": "lightcraft-bin-0.19.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lightcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.18.1",
+        "version": "0.19.0",
         "_attr": "lightcraft-bin",
         "_repo": "silicalet"
     },
@@ -1007997,7 +1008434,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/pdfcraft/releases/tag/v0.18.2",
+            "changelog": "https://github.com/storytold/pdfcraft/releases/tag/v0.19.0",
             "description": "Native PDF reader and document workbench",
             "homepage": "https://github.com/storytold/pdfcraft",
             "identifiers": {
@@ -1008054,7 +1008491,7 @@
             ],
             "mainProgram": "pdfcraft",
             "maintainers": [],
-            "name": "pdfcraft-bin-0.18.2",
+            "name": "pdfcraft-bin-0.19.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1008079,14 +1008516,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-bin-0.18.2",
+        "name": "pdfcraft-bin-0.19.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.18.2",
+        "version": "0.19.0",
         "_attr": "pdfcraft-bin",
         "_repo": "silicalet"
     },
@@ -1008094,7 +1008531,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/photocraft/releases/tag/v0.20.2",
+            "changelog": "https://github.com/storytold/photocraft/releases/tag/v0.21.0",
             "description": "Native layered image editor",
             "homepage": "https://github.com/storytold/photocraft",
             "identifiers": {
@@ -1008151,7 +1008588,7 @@
             ],
             "mainProgram": "photocraft",
             "maintainers": [],
-            "name": "photocraft-bin-0.20.2",
+            "name": "photocraft-bin-0.21.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1008176,14 +1008613,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "photocraft-bin-0.20.2",
+        "name": "photocraft-bin-0.21.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photocraft-bin",
         "system": "x86_64-linux",
-        "version": "0.20.2",
+        "version": "0.21.0",
         "_attr": "photocraft-bin",
         "_repo": "silicalet"
     },
@@ -1008809,7 +1009246,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/soundcraft/releases/tag/v0.17.1",
+            "changelog": "https://github.com/storytold/soundcraft/releases/tag/v0.18.0",
             "description": "Native digital audio workstation",
             "homepage": "https://github.com/storytold/soundcraft",
             "identifiers": {
@@ -1008866,7 +1009303,7 @@
             ],
             "mainProgram": "soundcraft",
             "maintainers": [],
-            "name": "soundcraft-bin-0.17.1",
+            "name": "soundcraft-bin-0.18.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1008891,14 +1009328,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "soundcraft-bin-0.17.1",
+        "name": "soundcraft-bin-0.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "soundcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.17.1",
+        "version": "0.18.0",
         "_attr": "soundcraft-bin",
         "_repo": "silicalet"
     },
@@ -1009062,7 +1009499,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/vectorcraft/releases/tag/v0.21.1",
+            "changelog": "https://github.com/storytold/vectorcraft/releases/tag/v0.22.0",
             "description": "Native vector illustration editor",
             "homepage": "https://github.com/storytold/vectorcraft",
             "identifiers": {
@@ -1009119,7 +1009556,7 @@
             ],
             "mainProgram": "vectorcraft",
             "maintainers": [],
-            "name": "vectorcraft-bin-0.21.1",
+            "name": "vectorcraft-bin-0.22.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1009144,14 +1009581,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vectorcraft-bin-0.21.1",
+        "name": "vectorcraft-bin-0.22.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vectorcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.21.1",
+        "version": "0.22.0",
         "_attr": "vectorcraft-bin",
         "_repo": "silicalet"
     },
@@ -1009243,7 +1009680,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/wordcraft/releases/tag/v0.15.2",
+            "changelog": "https://github.com/storytold/wordcraft/releases/tag/v0.16.0",
             "description": "Native word processor",
             "homepage": "https://github.com/storytold/wordcraft",
             "identifiers": {
@@ -1009300,7 +1009737,7 @@
             ],
             "mainProgram": "wordcraft",
             "maintainers": [],
-            "name": "wordcraft-bin-0.15.2",
+            "name": "wordcraft-bin-0.16.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1009325,14 +1009762,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wordcraft-bin-0.15.2",
+        "name": "wordcraft-bin-0.16.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wordcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.15.2",
+        "version": "0.16.0",
         "_attr": "wordcraft-bin",
         "_repo": "silicalet"
     },
