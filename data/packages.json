@@ -317887,7 +317887,7 @@
             },
             "mainProgram": "nix-reaper",
             "maintainers": [],
-            "name": "nix-reaper-64c1eae",
+            "name": "nix-reaper-fb8b24f",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -317928,14 +317928,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nix-reaper-64c1eae",
+        "name": "nix-reaper-fb8b24f",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "nix-reaper",
+        "pname": "nix-reaper-fb8b24f",
         "system": "x86_64-linux",
-        "version": "64c1eae",
+        "version": "",
         "_attr": "nix-reaper",
         "_repo": "ibuysausage"
     },
@@ -547502,6 +547502,163 @@
         "_attr": "python3Packages.convcolors",
         "_repo": "nagy"
     },
+    "nur.repos.nagy.python3Packages.dbussy": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Python binding for D-Bus using asyncio",
+            "homepage": "https://gitlab.com/ldo/dbussy",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dbussy",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dbussy",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": true,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v2.1",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl21",
+                "spdxId": "LGPL-2.1",
+                "url": "https://spdx.org/licenses/LGPL-2.1.html"
+            },
+            "maintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/python3-packages/dbussy.nix",
+                "line": 35
+            },
+            "name": "python3.14-dbussy-1.3-unstable-2024-08-30",
+            "nonTeamMaintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/python3-packages/dbussy.nix#L31",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-dbussy-1.3-unstable-2024-08-30",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-dbussy",
+        "system": "x86_64-linux",
+        "version": "1.3-unstable-2024-08-30",
+        "_attr": "python3Packages.dbussy",
+        "_repo": "nagy"
+    },
     "nur.repos.nagy.python3Packages.esp-pylib": {
         "meta": {
             "available": true,
@@ -547979,6 +548136,184 @@
         "system": "x86_64-linux",
         "version": "1.1.5",
         "_attr": "python3Packages.flameshow",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.python3Packages.git-remote-rclone": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Git remote helper for rclone-supported services",
+            "homepage": "https://github.com/datalad/git-remote-rclone",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "git-remote-rclone",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "git-remote-rclone",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/python3-packages/git-remote-rclone.nix",
+                "line": 33
+            },
+            "name": "git-remote-rclone-0.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/python3-packages/git-remote-rclone.nix#L29",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "git-remote-rclone-0.1",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "git-remote-rclone",
+        "system": "x86_64-linux",
+        "version": "0.1",
+        "_attr": "python3Packages.git-remote-rclone",
         "_repo": "nagy"
     },
     "nur.repos.nagy.python3Packages.hierplace": {
@@ -551461,6 +551796,170 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2024-05-07",
         "_attr": "python3Packages.tvdatafeed",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.python3Packages.warctools": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Command line tools and libraries for handling and manipulating WARC files (and HTTP contents)",
+            "homepage": "https://github.com/internetarchive/warctools",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "warctools",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "warctools",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/python3-packages/warctools.nix",
+                "line": 26
+            },
+            "name": "python3.14-warctools-4.10.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "danielnagy@posteo.de",
+                    "github": "nagy",
+                    "githubId": 692274,
+                    "keys": [
+                        {
+                            "fingerprint": "F6AE 2C60 9196 A1BC ECD8  7108 1B8E 8DCB 576F B671"
+                        }
+                    ],
+                    "name": "Daniel Nagy"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/nagy/pkgs/python3-packages/warctools.nix#L24",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-warctools-4.10.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-warctools",
+        "system": "x86_64-linux",
+        "version": "4.10.0",
+        "_attr": "python3Packages.warctools",
         "_repo": "nagy"
     },
     "nur.repos.nagy.python3Packages.xlsx2html": {
@@ -1045594,7 +1046093,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.3-242",
+            "name": "papermc-26.3-244",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1045625,14 +1046124,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.3-242",
+        "name": "papermc-26.3-244",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.3-242",
+        "version": "26.3-244",
         "_attr": "papermc",
         "_repo": "toyvo"
     },
@@ -1050336,7 +1050835,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/purpurServers/derivation.nix",
                 "line": 58
             },
-            "name": "purpur-26.3-2655",
+            "name": "purpur-26.3-2657",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -1050367,14 +1050866,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "purpur-26.3-2655",
+        "name": "purpur-26.3-2657",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "purpur",
         "system": "x86_64-linux",
-        "version": "26.3-2655",
+        "version": "26.3-2657",
         "_attr": "purpur",
         "_repo": "toyvo"
     },
