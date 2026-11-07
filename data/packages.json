@@ -23761,127 +23761,6 @@
         "_attr": "ccc",
         "_repo": "Ex-32"
     },
-    "nur.repos.Ex-32.pokemon-colorscripts": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "CLI utility to print out images of pokemon to terminal",
-            "homepage": "https://gitlab.com/phoneybadger/pokemon-colorscripts",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "pokemon-colorscripts",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "pokemon-colorscripts",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "longDescription": "Prints out colored unicode sprites of pokemon onto your terminal.\nContains almost 900 pokemon from gen 1 to gen 8.\n",
-            "maintainers": [],
-            "name": "pokemon-colorscripts-5802ff67",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Ex-32/pkgs/pokemon-colorscripts/default.nix#L36",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "pokemon-colorscripts-5802ff67",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "pokemon-colorscripts",
-        "system": "x86_64-linux",
-        "version": "5802ff67",
-        "_attr": "pokemon-colorscripts",
-        "_repo": "Ex-32"
-    },
     "nur.repos.Freed-Wu.bash-prompt": {
         "meta": {
             "available": true,
@@ -198420,7 +198299,7 @@
             },
             "mainProgram": "Aiursoft.Tracer",
             "maintainers": [],
-            "name": "aiursoft-tracer-0-unstable-2026-11-06",
+            "name": "aiursoft-tracer-0-unstable-2026-11-07",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -198439,14 +198318,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "aiursoft-tracer-0-unstable-2026-11-06",
+        "name": "aiursoft-tracer-0-unstable-2026-11-07",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "aiursoft-tracer",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-06",
+        "version": "0-unstable-2026-11-07",
         "_attr": "aiursoft-tracer",
         "_repo": "codgician"
     },
@@ -200247,7 +200126,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/can1357/oh-my-pi/blob/v18.17.0/packages/coding-agent/CHANGELOG.md",
+            "changelog": "https://github.com/can1357/oh-my-pi/blob/v18.18.0/packages/coding-agent/CHANGELOG.md",
             "description": "AI coding agent for the terminal with hash-anchored edits, LSP, DAP, Python, browser, and subagents",
             "homepage": "https://github.com/can1357/oh-my-pi",
             "identifiers": {
@@ -200304,7 +200183,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/oh-my-pi-bin/default.nix",
                 "line": 167
             },
-            "name": "oh-my-pi-bin-18.17.0",
+            "name": "oh-my-pi-bin-18.18.0",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -200333,14 +200212,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oh-my-pi-bin-18.17.0",
+        "name": "oh-my-pi-bin-18.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oh-my-pi-bin",
         "system": "x86_64-linux",
-        "version": "18.17.0",
+        "version": "18.18.0",
         "_attr": "oh-my-pi-bin",
         "_repo": "codgician"
     },
@@ -200524,7 +200403,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/redrix-ec/default.nix",
                 "line": 126
             },
-            "name": "redrix-ec-2.0.30151-g01164455",
+            "name": "redrix-ec-2.0.30154-g321c2648",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -200551,14 +200430,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "redrix-ec-2.0.30151-g01164455",
+        "name": "redrix-ec-2.0.30154-g321c2648",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "redrix-ec",
         "system": "x86_64-linux",
-        "version": "2.0.30151-g01164455",
+        "version": "2.0.30154-g321c2648",
         "_attr": "redrix-ec",
         "_repo": "codgician"
     },
@@ -248519,7 +248398,7 @@
             },
             "mainProgram": "dartotsu-alpha",
             "maintainers": [],
-            "name": "dartotsu-alpha-8ad9771",
+            "name": "dartotsu-alpha-a49bb11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -248543,14 +248422,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "dartotsu-alpha-8ad9771",
+        "name": "dartotsu-alpha-a49bb11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "dartotsu-alpha",
+        "pname": "dartotsu-alpha-a49bb11",
         "system": "x86_64-linux",
-        "version": "8ad9771",
+        "version": "",
         "_attr": "alpha",
         "_repo": "dartotsu"
     },
@@ -958939,7 +958818,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/jw/jwskate/package.nix",
-                "line": 39
+                "line": 41
             },
             "name": "python3.14-jwskate-0.12.2",
             "nonTeamMaintainers": [
@@ -958992,7 +958871,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/jw/jwskate/package.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sikmir/pkgs/by-name/jw/jwskate/package.nix#L38",
             "problems": {},
             "unfree": false,
             "unsupported": false
