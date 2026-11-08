@@ -276957,126 +276957,6 @@
         "_attr": "mos",
         "_repo": "fanbb2333"
     },
-    "nur.repos.farbzen.mixedupmh": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Randomizer for Monster Hunter Wilds that rolls monsters and weapons for your hunting party",
-            "homepage": "https://github.com/farbzen/mixedupmh",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "mixedupmh",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "mixedupmh",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "mumh",
-            "maintainers": [
-                {
-                    "email": "dev@farbzen.de",
-                    "github": "farbzen",
-                    "githubId": 60570640,
-                    "name": "Fabian Meier"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/farbzen/pkgs/mixedupmh/default.nix",
-                "line": 43
-            },
-            "name": "mixedupmh-0.8.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "dev@farbzen.de",
-                    "github": "farbzen",
-                    "githubId": 60570640,
-                    "name": "Fabian Meier"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/farbzen/pkgs/mixedupmh/default.nix#L38",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "mixedupmh-0.8.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "mixedupmh",
-        "system": "x86_64-linux",
-        "version": "0.8.0",
-        "_attr": "mixedupmh",
-        "_repo": "farbzen"
-    },
     "nur.repos.farbzen.narf": {
         "meta": {
             "available": true,
@@ -1057439,6 +1057319,288 @@
         "_attr": "cybergrub2077",
         "_repo": "uriotv"
     },
+    "nur.repos.uriotv.deckcraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Presentation editor",
+            "homepage": "https://github.com/storytold/deckcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "deckcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "deckcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR",
+                "redistributable": false
+            },
+            "mainProgram": "deckcraft",
+            "maintainers": [],
+            "name": "deckcraft-0.16.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/artcraft/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "deckcraft-0.16.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "deckcraft",
+        "system": "x86_64-linux",
+        "version": "0.16.0",
+        "_attr": "deckcraft",
+        "_repo": "uriotv"
+    },
+    "nur.repos.uriotv.filmcraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Non-linear video editor",
+            "homepage": "https://github.com/storytold/filmcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "filmcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "filmcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR",
+                "redistributable": false
+            },
+            "mainProgram": "filmcraft",
+            "maintainers": [],
+            "name": "filmcraft-0.18.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/artcraft/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "filmcraft-0.18.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "filmcraft",
+        "system": "x86_64-linux",
+        "version": "0.18.0",
+        "_attr": "filmcraft",
+        "_repo": "uriotv"
+    },
+    "nur.repos.uriotv.gridcraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Spreadsheet editor",
+            "homepage": "https://github.com/storytold/gridcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gridcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gridcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR",
+                "redistributable": false
+            },
+            "mainProgram": "gridcraft",
+            "maintainers": [],
+            "name": "gridcraft-0.17.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/artcraft/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gridcraft-0.17.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gridcraft",
+        "system": "x86_64-linux",
+        "version": "0.17.0",
+        "_attr": "gridcraft",
+        "_repo": "uriotv"
+    },
     "nur.repos.uriotv.lantern-engine": {
         "meta": {
             "available": true,
@@ -1057989,6 +1058151,194 @@
         "_attr": "nmssaveeditor",
         "_repo": "uriotv"
     },
+    "nur.repos.uriotv.pdfcraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "PDF viewer and editor",
+            "homepage": "https://github.com/storytold/pdfcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pdfcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pdfcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR",
+                "redistributable": false
+            },
+            "mainProgram": "pdfcraft",
+            "maintainers": [],
+            "name": "pdfcraft-0.19.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/artcraft/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pdfcraft-0.19.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pdfcraft",
+        "system": "x86_64-linux",
+        "version": "0.19.0",
+        "_attr": "pdfcraft",
+        "_repo": "uriotv"
+    },
+    "nur.repos.uriotv.photocraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Layered image editor",
+            "homepage": "https://github.com/storytold/photocraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "photocraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "photocraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR",
+                "redistributable": false
+            },
+            "mainProgram": "photocraft",
+            "maintainers": [],
+            "name": "photocraft-0.21.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/artcraft/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "photocraft-0.21.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "photocraft",
+        "system": "x86_64-linux",
+        "version": "0.21.0",
+        "_attr": "photocraft",
+        "_repo": "uriotv"
+    },
     "nur.repos.uriotv.pig": {
         "meta": {
             "available": true,
@@ -1058299,6 +1058649,100 @@
         "_attr": "scopebuddy",
         "_repo": "uriotv"
     },
+    "nur.repos.uriotv.soundcraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Digital audio workstation",
+            "homepage": "https://github.com/storytold/soundcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "soundcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "soundcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR",
+                "redistributable": false
+            },
+            "mainProgram": "soundcraft",
+            "maintainers": [],
+            "name": "soundcraft-0.18.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/artcraft/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "soundcraft-0.18.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "soundcraft",
+        "system": "x86_64-linux",
+        "version": "0.18.0",
+        "_attr": "soundcraft",
+        "_repo": "uriotv"
+    },
     "nur.repos.uriotv.storyforge": {
         "meta": {
             "available": true,
@@ -1058403,6 +1058847,100 @@
         "system": "x86_64-linux",
         "version": "2.0.11",
         "_attr": "storyforge",
+        "_repo": "uriotv"
+    },
+    "nur.repos.uriotv.wordcraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Word processor with DOCX and ODT support",
+            "homepage": "https://github.com/storytold/wordcraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "wordcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "wordcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "licenseType": "compound",
+                "licenses": [
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "Apache License 2.0",
+                        "licenseType": "simple",
+                        "redistributable": true,
+                        "shortName": "asl20",
+                        "spdxId": "Apache-2.0",
+                        "url": "https://spdx.org/licenses/Apache-2.0.html"
+                    }
+                ],
+                "operator": "OR",
+                "redistributable": false
+            },
+            "mainProgram": "wordcraft",
+            "maintainers": [],
+            "name": "wordcraft-0.16.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/lib/artcraft/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "wordcraft-0.16.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "wordcraft",
+        "system": "x86_64-linux",
+        "version": "0.16.0",
+        "_attr": "wordcraft",
         "_repo": "uriotv"
     },
     "nur.repos.uriotv.wowup-cf": {
