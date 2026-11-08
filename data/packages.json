@@ -66410,3212 +66410,6 @@
         "_attr": "sourcetrail",
         "_repo": "VZstless"
     },
-    "nur.repos.Vortriz.batteryd": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Simple battery status notification daemon",
-            "homepage": "https://github.com/Naxdy/batteryd",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "batteryd",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "batteryd",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "batteryd",
-            "maintainers": [],
-            "name": "batteryd-unstable-2025-07-04",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "i686-windows",
-                "x86_64-windows",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "riscv32-none",
-                "x86_64-redox",
-                "wasm32-wasip1"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/batteryd/package.nix#L20",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "batteryd-unstable-2025-07-04",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "batteryd-unstable",
-        "system": "x86_64-linux",
-        "version": "2025-07-04",
-        "_attr": "batteryd",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.dl": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A simple command-line tool to download files using `aria2c` and automatically sort them into categorized directories.",
-            "homepage": "https://github.com/Vortriz/dl",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "dl",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "dl",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "dl",
-            "maintainers": [],
-            "name": "dl-unstable-2026-03-19",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/dl/package.nix#L29",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "dl-unstable-2026-03-19",
-        "outputName": "out",
-        "outputs": {
-            "dist": null,
-            "out": null
-        },
-        "pname": "dl-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-03-19",
-        "_attr": "dl",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.doi2bib3": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "DOI/arXiv \u2192 BibTeX command line utility",
-            "homepage": "https://github.com/archisman-panigrahi/doi2bib3",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "doi2bib3",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "doi2bib3",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "doi2bib3",
-            "maintainers": [],
-            "name": "doi2bib3-1.7.1",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/doi2bib3/package.nix#L35",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "doi2bib3-1.7.1",
-        "outputName": "out",
-        "outputs": {
-            "dist": null,
-            "out": null
-        },
-        "pname": "doi2bib3",
-        "system": "x86_64-linux",
-        "version": "1.7.1",
-        "_attr": "doi2bib3",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.dunefetch": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Neofetch + falling sand engine for your terminal",
-            "homepage": "https://github.com/datavorous/dunefetch",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "dunefetch",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "dunefetch",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "dunefetch",
-            "maintainers": [],
-            "name": "dunefetch-unstable-2025-08-12",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/dunefetch/package.nix#L33",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "dunefetch-unstable-2025-08-12",
-        "outputName": "out",
-        "outputs": {
-            "dist": null,
-            "out": null
-        },
-        "pname": "dunefetch-unstable",
-        "system": "x86_64-linux",
-        "version": "2025-08-12",
-        "_attr": "dunefetch",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.fonts.HelveticaNeueCyr": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "helveticaneuecyr",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "helveticaneuecyr",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "maintainers": [],
-            "name": "HelveticaNeueCyr-unstable-2025-11-06",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/fonts/HelveticaNeueCyr/package.nix#L7",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "HelveticaNeueCyr-unstable-2025-11-06",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "HelveticaNeueCyr-unstable",
-        "system": "x86_64-linux",
-        "version": "2025-11-06",
-        "_attr": "fonts.HelveticaNeueCyr",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.fonts.SFMono-Nerd-Font-Ligaturized": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Apple's SFMono font nerd-font patched and ligaturized",
-            "homepage": "https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "sfmono-nerd-font-ligaturized",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "sfmono-nerd-font-ligaturized",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "maintainers": [],
-            "name": "SFMono-Nerd-Font-Ligaturized-unstable-2023-07-01",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/fonts/SFMono-Nerd-Font-Ligaturized/package.nix#L28",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "SFMono-Nerd-Font-Ligaturized-unstable-2023-07-01",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "SFMono-Nerd-Font-Ligaturized-unstable",
-        "system": "x86_64-linux",
-        "version": "2023-07-01",
-        "_attr": "fonts.SFMono-Nerd-Font-Ligaturized",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.fprintd": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "D-Bus daemon that offers libfprint functionality over the D-Bus interprocess communication bus",
-            "homepage": "https://fprint.freedesktop.org/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "fprintd",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "fprintd",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "maintainers": [],
-            "name": "fprintd-1.94.4",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/fprintd/package.nix#L116",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "fprintd-1.94.4",
-        "outputName": "out",
-        "outputs": {
-            "devdoc": null,
-            "out": null
-        },
-        "pname": "fprintd",
-        "system": "x86_64-linux",
-        "version": "1.94.4",
-        "_attr": "fprintd",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.fresh": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/sinelaw/fresh/blob/master/CHANGELOG.md",
-            "description": "Text editor for your terminal: easy, powerful and fast",
-            "homepage": "https://github.com/sinelaw/fresh/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "fresh",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "fresh",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "mainProgram": "fresh",
-            "maintainers": [],
-            "name": "fresh-unstable-2026-11-07",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "i686-windows",
-                "x86_64-windows",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "riscv32-none",
-                "x86_64-redox",
-                "wasm32-wasip1"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/fresh/package.nix#L48",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "fresh-unstable-2026-11-07",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "fresh-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-11-07",
-        "_attr": "fresh",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.goldfish": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "goldfish (`gf`) is a IPC file finder.",
-            "homepage": "https://github.com/sameoldlab/goldfish",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "goldfish",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "goldfish",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Mozilla Public License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
-            },
-            "mainProgram": "goldfish",
-            "maintainers": [],
-            "name": "goldfish-unstable-2026-07-07",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "i686-windows",
-                "x86_64-windows",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "riscv32-none",
-                "x86_64-redox",
-                "wasm32-wasip1"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/goldfish/package.nix#L20",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "goldfish-unstable-2026-07-07",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "goldfish-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-07-07",
-        "_attr": "goldfish",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.libfprint-focaltech-2808-a658-alt": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Focaltech Fingerprint driver for focaltech 0x2808:0xa658",
-            "homepage": "https://github.com/ftfpteams/RTS5811-FT9366-fingerprint-linux-driver-with-VID-2808-and-PID-a658",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "libfprint-focaltech-2808-a658-alt",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "libfprint-focaltech-2808-a658-alt",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "maintainers": [],
-            "name": "libfprint-focaltech-2808-a658-alt-1.94.4",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/libfprint-focaltech-2808-a658-alt/package.nix#L97",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "libfprint-focaltech-2808-a658-alt-1.94.4",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "libfprint-focaltech",
-        "system": "x86_64-linux",
-        "version": "2808-a658-alt-1.94.4",
-        "_attr": "libfprint-focaltech-2808-a658-alt",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.librusty_v8": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "librusty_v8",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "librusty_v8",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "maintainers": [],
-            "name": "librusty_v8-152.2.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/deps/librusty_v8/package.nix#L8",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "librusty_v8-152.2.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "librusty_v8",
-        "system": "x86_64-linux",
-        "version": "152.2.0",
-        "_attr": "librusty_v8",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.nima": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Parse, manipulate, and reconstruct Nix source code with high-level abstractions",
-            "homepage": "https://github.com/Vortriz/nix-manipulator",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "nima",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "nima",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Lesser General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "lgpl3Plus",
-                "spdxId": "LGPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
-            },
-            "mainProgram": "nima",
-            "maintainers": [],
-            "name": "python3.14-nima-unstable-2026-03-03",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/nima/package.nix#L46",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "python3.14-nima-unstable-2026-03-03",
-        "outputName": "out",
-        "outputs": {
-            "dist": null,
-            "out": null
-        },
-        "pname": "python3.14-nima-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-03-03",
-        "_attr": "nima",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.nixos-boot-plymouth-theme": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "nixos-boot-plymouth-theme",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "nixos-boot-plymouth-theme",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "maintainers": [],
-            "name": "nixos-boot-plymouth-theme-unstable-2025-06-20",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/nixos-boot-plymouth-theme/package.nix#L7",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "nixos-boot-plymouth-theme-unstable-2025-06-20",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "nixos-boot-plymouth-theme-unstable",
-        "system": "x86_64-linux",
-        "version": "2025-06-20",
-        "_attr": "nixos-boot-plymouth-theme",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.surge": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Surge is a blazing fast, open-source terminal (TUI) download manager built in Go",
-            "homepage": "https://github.com/surge-downloader/surge",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "surge",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "surge",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "surge",
-            "maintainers": [],
-            "name": "surge-0.8.6",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/surge/package.nix#L34",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "surge-0.8.6",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "surge",
-        "system": "x86_64-linux",
-        "version": "0.8.6",
-        "_attr": "surge",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.typos": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "A Typst-native note-taking system powered by Rust and Tauri with typed metadata, cross-references, backlinks, and knowledge graph visualization",
-            "homepage": "https://github.com/dailydaniel/typos",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "typos",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "typos",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "mainProgram": "notes-app",
-            "maintainers": [],
-            "name": "typos-0.2.5",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "i686-windows",
-                "x86_64-windows",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "riscv32-none",
-                "x86_64-redox",
-                "wasm32-wasip1"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/typos/package.nix#L73",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "typos-0.2.5",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "typos",
-        "system": "x86_64-linux",
-        "version": "0.2.5",
-        "_attr": "typos",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.xdg-desktop-portal-termfilechooser": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "xdg-desktop-portal backend for choosing files with your favorite file chooser",
-            "homepage": "https://github.com/hunkyburrito/xdg-desktop-portal-termfilechooser",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "xdg-desktop-portal-termfilechooser",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "xdg-desktop-portal-termfilechooser",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "xdg-desktop-portal-termfilechooser",
-            "maintainers": [],
-            "name": "xdg-desktop-portal-termfilechooser-unstable-2026-10-24",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/by-name/xdg-desktop-portal-termfilechooser/package.nix#L40",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "xdg-desktop-portal-termfilechooser-unstable-2026-10-24",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "xdg-desktop-portal-termfilechooser-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-10-24",
-        "_attr": "xdg-desktop-portal-termfilechooser",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.bunny": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Bookmarks menu for yazi with persistent and ephemeral bookmarks, fuzzy searching, previous directory, directory from another tab",
-            "homepage": "https://github.com/stelcodes/bunny.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "bunny.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "bunny.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "bunny.yazi-unstable-2026-10-20",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "bunny.yazi-unstable-2026-10-20",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "bunny.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-10-20",
-        "_attr": "yaziPlugins.bunny",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.custom-shell": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Set your custom-shell as default shell in yazi",
-            "homepage": "https://github.com/AnirudhG07/custom-shell.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "custom-shell.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "custom-shell.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "custom-shell.yazi-unstable-2026-08-07",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "custom-shell.yazi-unstable-2026-08-07",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "custom-shell.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-08-07",
-        "_attr": "yaziPlugins.custom-shell",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.enhance-piper": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A wrapper that caches Piper command outputs in RAM for better performance.",
-            "homepage": "https://github.com/boydaihungst/enhance-piper.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "enhance-piper.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "enhance-piper.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "enhance-piper.yazi-unstable-2026-09-08",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "enhance-piper.yazi-unstable-2026-09-08",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "enhance-piper.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-09-08",
-        "_attr": "yaziPlugins.enhance-piper",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.file-extra-metadata": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Replace the default file preview with extra information.",
-            "homepage": "https://github.com/boydaihungst/file-extra-metadata.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "file-extra-metadata.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "file-extra-metadata.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "file-extra-metadata.yazi-unstable-2026-09-08",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "file-extra-metadata.yazi-unstable-2026-09-08",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "file-extra-metadata.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-09-08",
-        "_attr": "yaziPlugins.file-extra-metadata",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.gvfs": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Transparently mount and unmount devices in read/write mode",
-            "homepage": "https://github.com/boydaihungst/gvfs.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "gvfs.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "gvfs.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "gvfs.yazi-unstable-2026-09-08",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "gvfs.yazi-unstable-2026-09-08",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "gvfs.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-09-08",
-        "_attr": "yaziPlugins.gvfs",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.office": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Office documents previewer plugin for Yazi, using libreoffice (compatible with .docx, .xlsx, .pptx, .odt, .ods, .odp; and other file formats supported by the Office Open XML and OpenDocument standards",
-            "homepage": "https://github.com/macydnah/office.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "office.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "office.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "office.yazi-unstable-2025-09-19",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "office.yazi-unstable-2025-09-19",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "office.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2025-09-19",
-        "_attr": "yaziPlugins.office",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.starship": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Starship prompt plugin for yazi",
-            "homepage": "https://github.com/Rolv-Apneseth/starship.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "starship.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "starship.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "starship.yazi-unstable-2026-08-17",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "starship.yazi-unstable-2026-08-17",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "starship.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-08-17",
-        "_attr": "yaziPlugins.starship",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.yaziPlugins.what-size": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A plugin for yazi to calculate the size of current selection or current working directory",
-            "homepage": "https://github.com/pirafrank/what-size.yazi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "what-size.yazi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "what-size.yazi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "what-size.yazi-unstable-2026-09-02",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/Vortriz/nur-packages/blob/HEAD/pkgs/by-name/ya/yazi/plugins/default.nix#L53",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "what-size.yazi-unstable-2026-09-02",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "what-size.yazi-unstable",
-        "system": "x86_64-linux",
-        "version": "2026-09-02",
-        "_attr": "yaziPlugins.what-size",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.zoteroAddons.zotero-better-bibtex": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Make Zotero effective for us LaTeX holdouts",
-            "homepage": "https://github.com/retorquere/zotero-better-bibtex",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "better bibtex for zotero",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "better bibtex for zotero",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [],
-            "name": "Better BibTeX for Zotero-9.0.77",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/zoteroAddons/zotero-better-bibtex/package.nix#L18",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "Better-BibTeX-for-Zotero-9.0.77",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "Better-BibTeX-for-Zotero",
-        "system": "x86_64-linux",
-        "version": "9.0.77",
-        "_attr": "zoteroAddons.zotero-better-bibtex",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.zoteroAddons.zotero-scipdf": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Download PDF from Sci-Hub automatically (For Zotero7)",
-            "homepage": "https://github.com/syt2/zotero-scipdf",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "scipdf for zotero",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "scipdf for zotero",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Plus",
-                "spdxId": "AGPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
-            },
-            "maintainers": [],
-            "name": "SciPDF For Zotero-8.1.1",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/zoteroAddons/zotero-scipdf/package.nix#L18",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "SciPDF-For-Zotero-8.1.1",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "SciPDF-For-Zotero",
-        "system": "x86_64-linux",
-        "version": "8.1.1",
-        "_attr": "zoteroAddons.zotero-scipdf",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.zoteroAddons.zotlit": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Bring your Zotero library into Obsidian. Create literature notes, insert citations, and annotate PDFs without leaving your vault.",
-            "homepage": "https://github.com/aidenlx/zotlit",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "zotlit",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "zotlit",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Plus",
-                "spdxId": "AGPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
-            },
-            "maintainers": [],
-            "name": "ZotLit-2.2.1",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/zoteroAddons/zotlit/package.nix#L18",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "ZotLit-2.2.1",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "ZotLit",
-        "system": "x86_64-linux",
-        "version": "2.2.1",
-        "_attr": "zoteroAddons.zotlit",
-        "_repo": "Vortriz"
-    },
-    "nur.repos.Vortriz.zoteroAddons.zotmoov": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Mooves attachments and links them",
-            "homepage": "https://github.com/wileyyugioh/zotmoov",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "zotmoov",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "zotmoov",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "maintainers": [],
-            "name": "ZotMoov-1.2.34",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Vortriz/pkgs/zoteroAddons/zotmoov/package.nix#L18",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "ZotMoov-1.2.34",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "ZotMoov",
-        "system": "x86_64-linux",
-        "version": "1.2.34",
-        "_attr": "zoteroAddons.zotmoov",
-        "_repo": "Vortriz"
-    },
     "nur.repos.XiaoXioe.binance": {
         "meta": {
             "available": false,
@@ -262600,6 +259394,148 @@
         "_attr": "aporetic-patched",
         "_repo": "dtomvan"
     },
+    "nur.repos.dtomvan.bull": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Minimalist bullet journaling program",
+            "homepage": "https://github.com/gokrazy/bull",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "bull",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "bull",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD Zero Clause License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd0",
+                    "spdxId": "0BSD",
+                    "url": "https://spdx.org/licenses/0BSD.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "mainProgram": "bull",
+            "maintainers": [
+                {
+                    "email": "18gatenmaker6@gmail.com",
+                    "github": "dtomvan",
+                    "githubId": 51440893,
+                    "keys": [
+                        {
+                            "fingerprint": "D044 F07B 8863 B681 26BD  79FE 7A98 4C82 07AD BA51"
+                        }
+                    ],
+                    "name": "Tom van Dijk"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dtomvan/pkgs/bull/package.nix",
+                "line": 48
+            },
+            "name": "bull-0-unstable-2026-08-27",
+            "nonTeamMaintainers": [
+                {
+                    "email": "18gatenmaker6@gmail.com",
+                    "github": "dtomvan",
+                    "githubId": 51440893,
+                    "keys": [
+                        {
+                            "fingerprint": "D044 F07B 8863 B681 26BD  79FE 7A98 4C82 07AD BA51"
+                        }
+                    ],
+                    "name": "Tom van Dijk"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dtomvan/pkgs/bull/package.nix#L42",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "bull-0-unstable-2026-08-27",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "bull",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-08-27",
+        "_attr": "bull",
+        "_repo": "dtomvan"
+    },
     "nur.repos.dtomvan.caldavwarrior": {
         "meta": {
             "available": true,
@@ -267169,6 +264105,131 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-05-23",
         "_attr": "tsodingPackages.zoomer",
+        "_repo": "dtomvan"
+    },
+    "nur.repos.dtomvan.tuios": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Gaurav-Gosain/tuios/releases/tag/v0.12.1",
+            "description": "Terminal window manager",
+            "homepage": "https://github.com/Gaurav-Gosain/tuios",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tuios",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tuios",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "tuios",
+            "maintainers": [
+                {
+                    "email": "18gatenmaker6@gmail.com",
+                    "github": "dtomvan",
+                    "githubId": 51440893,
+                    "keys": [
+                        {
+                            "fingerprint": "D044 F07B 8863 B681 26BD  79FE 7A98 4C82 07AD BA51"
+                        }
+                    ],
+                    "name": "Tom van Dijk"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dtomvan/pkgs/tuios/package.nix",
+                "line": 46
+            },
+            "name": "tuios-0.12.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "18gatenmaker6@gmail.com",
+                    "github": "dtomvan",
+                    "githubId": 51440893,
+                    "keys": [
+                        {
+                            "fingerprint": "D044 F07B 8863 B681 26BD  79FE 7A98 4C82 07AD BA51"
+                        }
+                    ],
+                    "name": "Tom van Dijk"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dtomvan/pkgs/tuios/package.nix#L42",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tuios-0.12.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tuios",
+        "system": "x86_64-linux",
+        "version": "0.12.1",
+        "_attr": "tuios",
         "_repo": "dtomvan"
     },
     "nur.repos.dtomvan.tyck": {
@@ -886866,6 +883927,140 @@
         "system": "x86_64-linux",
         "version": "0.0.2",
         "_attr": "revshell",
+        "_repo": "sectui"
+    },
+    "nur.repos.sectui.spilltea": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/sectui/spilltea/releases/tag/v0.0.1",
+            "description": "TUI intercepting proxy for pentesters and bug bounty hunters, a lightweight terminal-first alternative to Burp Suite and Caido",
+            "homepage": "https://github.com/sectui/spilltea",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "spilltea",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "spilltea",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "spilltea",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sectui/pkgs/spilltea/default.nix",
+                "line": 39
+            },
+            "name": "spilltea-0.0.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sectui/pkgs/spilltea/default.nix#L34",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "spilltea-0.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "spilltea",
+        "system": "x86_64-linux",
+        "version": "0.0.1",
+        "_attr": "spilltea",
         "_repo": "sectui"
     },
     "nur.repos.sectui.steep": {
