@@ -54494,7 +54494,7 @@
             },
             "mainProgram": "mkosi",
             "maintainers": [],
-            "name": "mkosi-HEAD-27.1-unstable-2026-11-02",
+            "name": "mkosi-HEAD-27.1-unstable-2026-11-09",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out",
@@ -54536,7 +54536,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mkosi-HEAD-27.1-unstable-2026-11-02",
+        "name": "mkosi-HEAD-27.1-unstable-2026-11-09",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -54545,7 +54545,7 @@
         },
         "pname": "mkosi-HEAD",
         "system": "x86_64-linux",
-        "version": "27.1-unstable-2026-11-02",
+        "version": "27.1-unstable-2026-11-09",
         "_attr": "mkosi-HEAD",
         "_repo": "Skyb0rg007"
     },
@@ -62217,26 +62217,6 @@
                     {
                         "deprecated": false,
                         "free": true,
-                        "fullName": "GNU General Public License v2.0 only",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "gpl2Only",
-                        "spdxId": "GPL-2.0-only",
-                        "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": true,
-                        "fullName": "GNU Lesser General Public License v2.1 or later",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "lgpl21Plus",
-                        "spdxId": "LGPL-2.1-or-later",
-                        "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": true,
                         "fullName": "Unicode License v3",
                         "licenseType": "simple",
                         "redistributable": true,
@@ -62253,16 +62233,6 @@
                         "shortName": "zlib",
                         "spdxId": "Zlib",
                         "url": "https://spdx.org/licenses/Zlib.html"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": true,
-                        "fullName": "PNG Reference Library version 2",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "libpng2",
-                        "spdxId": "libpng-2.0",
-                        "url": "https://spdx.org/licenses/libpng-2.0.html"
                     },
                     {
                         "deprecated": false,
@@ -62297,14 +62267,6 @@
                     {
                         "deprecated": false,
                         "free": true,
-                        "fullName": "Public Domain",
-                        "licenseType": "simple",
-                        "redistributable": true,
-                        "shortName": "publicDomain"
-                    },
-                    {
-                        "deprecated": false,
-                        "free": true,
                         "fullName": "SQLite Blessing",
                         "licenseType": "simple",
                         "redistributable": true,
@@ -62327,7 +62289,7 @@
             },
             "mainProgram": "raven",
             "maintainers": [],
-            "name": "raven-0-unstable-2026-11-05",
+            "name": "raven-0-unstable-2026-11-09",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -62335,7 +62297,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/raven/package.nix#L211",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/raven/package.nix#L234",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -62345,14 +62307,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "raven-0-unstable-2026-11-05",
+        "name": "raven-0-unstable-2026-11-09",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "raven",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-05",
+        "version": "0-unstable-2026-11-09",
         "_attr": "raven",
         "_repo": "Skyb0rg007"
     },
@@ -62813,7 +62775,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/HastD/run0edit/blob/v0.7.0/CHANGELOG.md",
+            "changelog": "https://github.com/HastD/run0edit/blob/v0.7.1/CHANGELOG.md",
             "description": "Allow a permitted user to edit a file as root using run0",
             "homepage": "https://github.com/HastD/run0edit",
             "identifiers": {
@@ -62874,7 +62836,7 @@
             },
             "mainProgram": "run0edit",
             "maintainers": [],
-            "name": "run0edit-0.7.0",
+            "name": "run0edit-0.7.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -62905,7 +62867,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/run0edit/package.nix#L81",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/run0edit/package.nix#L70",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -62915,14 +62877,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "run0edit-0.7.0",
+        "name": "run0edit-0.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "run0edit",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "_attr": "run0edit",
         "_repo": "Skyb0rg007"
     },
@@ -63458,7 +63420,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/sequin/package.nix",
                 "line": 76
             },
-            "name": "sequin-0-unstable-2026-10-25",
+            "name": "sequin-0-unstable-2026-11-09",
             "nonTeamMaintainers": [
                 {
                     "email": "skye@soss.website",
@@ -63480,14 +63442,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sequin-0-unstable-2026-10-25",
+        "name": "sequin-0-unstable-2026-11-09",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sequin",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-25",
+        "version": "0-unstable-2026-11-09",
         "_attr": "sequin",
         "_repo": "Skyb0rg007"
     },
