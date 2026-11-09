@@ -489321,7 +489321,7 @@
             },
             "mainProgram": "altus",
             "maintainers": [],
-            "name": "altus-5.8.1",
+            "name": "altus-5.8.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -489330,7 +489330,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/al/altus/package.nix#L157",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/al/altus/package.nix#L167",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -489340,14 +489340,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "altus-5.8.1",
+        "name": "altus-5.8.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "altus",
         "system": "x86_64-linux",
-        "version": "5.8.1",
+        "version": "5.8.2",
         "_attr": "altus",
         "_repo": "mio"
     },
@@ -494052,7 +494052,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/chatboxai/chatbox/releases/tag/v1.23.5",
+            "changelog": "https://github.com/chatboxai/chatbox/releases/tag/v1.24.2",
             "description": "Desktop client for ChatGPT, Claude, and other LLMs",
             "homepage": "https://github.com/chatboxai/chatbox",
             "identifiers": {
@@ -494097,7 +494097,7 @@
             },
             "mainProgram": "chatbox",
             "maintainers": [],
-            "name": "chatbox-1.23.5",
+            "name": "chatbox-1.24.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -494127,14 +494127,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "chatbox-1.23.5",
+        "name": "chatbox-1.24.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatbox",
         "system": "x86_64-linux",
-        "version": "1.23.5",
+        "version": "1.24.2",
         "_attr": "chatbox",
         "_repo": "mio"
     },
@@ -494396,6 +494396,140 @@
         "_attr": "chatgpt-pake",
         "_repo": "mio"
     },
+    "nur.repos.mio.chatgpt_patched": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://learn.chatgpt.com/docs/changelog?type=codex-app",
+            "description": "Desktop application for ChatGPT",
+            "homepage": "https://developers.openai.com/codex/app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "chatgpt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "chatgpt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "chatgpt",
+            "maintainers": [
+                {
+                    "email": "dev@wattmto.dev",
+                    "github": "wattmto",
+                    "githubId": 93639059,
+                    "name": "wattmto"
+                },
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                },
+                {
+                    "email": "nix@mdaniels.me",
+                    "github": "mdaniels5757",
+                    "githubId": 8762511,
+                    "name": "Michael Daniels"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/ch/chatgpt/package.nix",
+                "line": 270
+            },
+            "name": "chatgpt-26.1029.61003",
+            "nonTeamMaintainers": [
+                {
+                    "email": "dev@wattmto.dev",
+                    "github": "wattmto",
+                    "githubId": 93639059,
+                    "name": "wattmto"
+                },
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                },
+                {
+                    "email": "nix@mdaniels.me",
+                    "github": "mdaniels5757",
+                    "githubId": 8762511,
+                    "name": "Michael Daniels"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ch/chatgpt/package.nix#L266",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "chatgpt-26.1029.61003",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "chatgpt",
+        "system": "x86_64-linux",
+        "version": "26.1029.61003",
+        "_attr": "chatgpt_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.chipotlai-max": {
         "meta": {
             "available": true,
@@ -494638,7 +494772,7 @@
             },
             "mainProgram": "sh.cider.Cider",
             "maintainers": [],
-            "name": "cider-20261004134140",
+            "name": "cider-20261108001254",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -494669,7 +494803,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/cider/default.nix#L124",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/cider/default.nix#L134",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -494679,14 +494813,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cider-20261004134140",
+        "name": "cider-20261108001254",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cider",
         "system": "x86_64-linux",
-        "version": "20261004134140",
+        "version": "20261108001254",
         "_attr": "cider",
         "_repo": "mio"
     },
@@ -494694,7 +494828,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/clice-io/clice/releases/tag/v0.1.2026110716",
+            "changelog": "https://github.com/clice-io/clice/releases/tag/v0.1.2026110808",
             "description": "Next-generation C++ language server built on LLVM/Clang",
             "homepage": "https://github.com/clice-io/clice",
             "identifiers": {
@@ -494744,7 +494878,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/cl/clice/package.nix",
                 "line": 274
             },
-            "name": "clice-0.1.2026110716",
+            "name": "clice-0.1.2026110808",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -494773,15 +494907,187 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clice-0.1.2026110716",
+        "name": "clice-0.1.2026110808",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clice",
         "system": "x86_64-linux",
-        "version": "0.1.2026110716",
+        "version": "0.1.2026110808",
         "_attr": "clice",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.codex_patched": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://raw.githubusercontent.com/openai/codex/refs/tags/rust-v0.167.0/CHANGELOG.md",
+            "description": "Lightweight coding agent that runs in your terminal",
+            "homepage": "https://github.com/openai/codex",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "codex",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "codex",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "codex",
+            "maintainers": [
+                {
+                    "email": "delafthi@pm.me",
+                    "github": "delafthi",
+                    "githubId": 50531499,
+                    "keys": [
+                        {
+                            "fingerprint": "6DBB 0BB9 AEE6 2C2A 8059  7E1C 0092 6686 9818 63CB"
+                        }
+                    ],
+                    "matrix": "@delafthi:matrix.org",
+                    "name": "Thierry Delafontaine"
+                },
+                {
+                    "email": "jhonyangulof+nixpkgs@gmail.com",
+                    "github": "jeafleohj",
+                    "githubId": 26931381,
+                    "name": "Jhony Elmer Angulo Fabian"
+                },
+                {
+                    "email": "mbourgon@gmail.com",
+                    "github": "malob",
+                    "githubId": 2914269,
+                    "name": "Malo Bourgon"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/co/codex/package.nix",
+                "line": 295
+            },
+            "name": "codex-0.167.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "delafthi@pm.me",
+                    "github": "delafthi",
+                    "githubId": 50531499,
+                    "keys": [
+                        {
+                            "fingerprint": "6DBB 0BB9 AEE6 2C2A 8059  7E1C 0092 6686 9818 63CB"
+                        }
+                    ],
+                    "matrix": "@delafthi:matrix.org",
+                    "name": "Thierry Delafontaine"
+                },
+                {
+                    "email": "jhonyangulof+nixpkgs@gmail.com",
+                    "github": "jeafleohj",
+                    "githubId": 26931381,
+                    "name": "Jhony Elmer Angulo Fabian"
+                },
+                {
+                    "email": "mbourgon@gmail.com",
+                    "github": "malob",
+                    "githubId": 2914269,
+                    "name": "Malo Bourgon"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/co/codex/package.nix#L290",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "codex-0.167.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "codex",
+        "system": "x86_64-linux",
+        "version": "0.167.0",
+        "_attr": "codex_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.codexctl": {
@@ -497410,9 +497716,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
-                "line": 322
+                "line": 325
             },
-            "name": "darling-0.1.20260608-unstable-2026-11-07",
+            "name": "darling-0.1.20260608-unstable-2026-11-08",
             "nonTeamMaintainers": [
                 {
                     "email": "hello@zhaofeng.li",
@@ -497428,12 +497734,12 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling/package.nix#L318",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling/package.nix#L321",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "darling-0.1.20260608-unstable-2026-11-07",
+        "name": "darling-0.1.20260608-unstable-2026-11-08",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -497441,7 +497747,7 @@
         },
         "pname": "darling",
         "system": "x86_64-linux",
-        "version": "0.1.20260608-unstable-2026-11-07",
+        "version": "0.1.20260608-unstable-2026-11-08",
         "_attr": "darling",
         "_repo": "mio"
     },
@@ -497505,9 +497811,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
-                "line": 322
+                "line": 325
             },
-            "name": "darling_patched-0.1.20260608-unstable-2026-11-07",
+            "name": "darling_patched-0.1.20260608-unstable-2026-11-08",
             "nonTeamMaintainers": [
                 {
                     "email": "hello@zhaofeng.li",
@@ -497528,7 +497834,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "darling_patched-0.1.20260608-unstable-2026-11-07",
+        "name": "darling_patched-0.1.20260608-unstable-2026-11-08",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -497536,7 +497842,7 @@
         },
         "pname": "darling_patched",
         "system": "x86_64-linux",
-        "version": "0.1.20260608-unstable-2026-11-07",
+        "version": "0.1.20260608-unstable-2026-11-08",
         "_attr": "darling_patched",
         "_repo": "mio"
     },
@@ -500672,7 +500978,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/floccusaddon/floccus/releases/tag/v5.12.0",
+            "changelog": "https://github.com/floccusaddon/floccus/releases/tag/v5.13.0",
             "description": "floccus bookmarks sync Firefox add-on built from source",
             "homepage": "https://floccus.org",
             "identifiers": {
@@ -500716,7 +501022,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "floccus-firefox-5.12.0",
+            "name": "floccus-firefox-5.13.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -500802,7 +501108,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fl/floccus-firefox/package.nix#L66",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fl/floccus-firefox/package.nix#L75",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -500812,14 +501118,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "floccus-firefox-5.12.0",
+        "name": "floccus-firefox-5.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "floccus-firefox",
         "system": "x86_64-linux",
-        "version": "5.12.0",
+        "version": "5.13.0",
         "_attr": "floccus-firefox",
         "_repo": "mio"
     },
@@ -502803,7 +503109,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/yuezk/GlobalProtect-openconnect/releases/tag/v3.3.0",
+            "changelog": "https://github.com/yuezk/GlobalProtect-openconnect/releases/tag/v3.3.1",
             "description": "A GlobalProtect VPN client (GUI) for Linux, based on OpenConnect",
             "homepage": "https://github.com/yuezk/GlobalProtect-openconnect",
             "identifiers": {
@@ -502848,7 +503154,7 @@
             },
             "mainProgram": "gpgui-helper",
             "maintainers": [],
-            "name": "globalprotect-openconnect-3.3.0",
+            "name": "globalprotect-openconnect-3.3.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -502884,14 +503190,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "globalprotect-openconnect-3.3.0",
+        "name": "globalprotect-openconnect-3.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "globalprotect-openconnect",
         "system": "x86_64-linux",
-        "version": "3.3.0",
+        "version": "3.3.1",
         "_attr": "globalprotect-openconnect",
         "_repo": "mio"
     },
@@ -512362,12 +512668,12 @@
             },
             "mainProgram": "PCL.Frontend.Avalonia",
             "maintainers": [],
-            "name": "pcl-me-1.0.1-unstable-2026-11-06",
+            "name": "pcl-me-1.0.1-unstable-2026-11-08",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pc/pcl-me/package.nix#L99",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pc/pcl-me/package.nix#L118",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -512377,14 +512683,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pcl-me-1.0.1-unstable-2026-11-06",
+        "name": "pcl-me-1.0.1-unstable-2026-11-08",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pcl-me",
         "system": "x86_64-linux",
-        "version": "1.0.1-unstable-2026-11-06",
+        "version": "1.0.1-unstable-2026-11-08",
         "_attr": "pcl-me",
         "_repo": "mio"
     },
@@ -513292,6 +513598,158 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-03-29",
         "_attr": "plasma-overdose-kde-theme",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.polarity_patched": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/polarity-lang/polarity/blob/522f7a7b70608cda6ce3207c81d26bef17b0cdf9/CHANGELOG.md",
+            "description": "Language with Dependent Data and Codata Types",
+            "homepage": "https://polarity-lang.github.io/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "polarity",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "polarity",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "pol",
+            "maintainers": [
+                {
+                    "email": "contact@mangoiv.com",
+                    "github": "mangoiv",
+                    "githubId": 40720523,
+                    "name": "MangoIV"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/po/polarity/package.nix",
+                "line": 31
+            },
+            "name": "polarity-0-unstable-2026-05-20",
+            "nonTeamMaintainers": [
+                {
+                    "email": "contact@mangoiv.com",
+                    "github": "mangoiv",
+                    "githubId": 40720523,
+                    "name": "MangoIV"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/po/polarity/package.nix#L24",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "polarity-0-unstable-2026-05-20",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "polarity",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-05-20",
+        "_attr": "polarity_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.polkit126": {
@@ -514562,6 +515020,152 @@
         "_attr": "rain",
         "_repo": "mio"
     },
+    "nur.repos.mio.rayburst_patched": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/AnInsomniacy/rayburst/releases/tag/v4.1.1",
+            "description": "Desktop download manager for files, torrents and streams",
+            "homepage": "https://github.com/AnInsomniacy/rayburst",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rayburst",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rayburst",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v2.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl2Plus",
+                    "spdxId": "GPL-2.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                }
+            ],
+            "mainProgram": "rayburst",
+            "maintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/ra/rayburst/package.nix",
+                "line": 136
+            },
+            "name": "rayburst-4.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ra/rayburst/package.nix#L123",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rayburst-4.1.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rayburst",
+        "system": "x86_64-linux",
+        "version": "4.1.1",
+        "_attr": "rayburst_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.raycast_macos15": {
         "meta": {
             "available": false,
@@ -515431,6 +516035,171 @@
         "_attr": "rotate-youtube-video-firefox",
         "_repo": "mio"
     },
+    "nur.repos.mio.rustdesk_patched": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                "aarch64-darwin",
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.0",
+            "description": "Virtual / remote desktop infrastructure for everyone! Open source TeamViewer / Citrix alternative",
+            "homepage": "https://rustdesk.com",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rustdesk",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rustdesk",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "rustdesk",
+            "maintainers": [
+                {
+                    "email": "i@ocfox.me",
+                    "github": "ocfox",
+                    "githubId": 47410251,
+                    "keys": [
+                        {
+                            "fingerprint": "939E F8A5 CED8 7F50 5BB5  B2D0 24BC 2738 5F70 234F"
+                        }
+                    ],
+                    "name": "ocfox"
+                },
+                {
+                    "email": "abone9999@gmail.com",
+                    "github": "Leixb",
+                    "githubId": 17183803,
+                    "matrix": "@leix_b:matrix.org",
+                    "name": "Aleix Bon\u00e9"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/ru/rustdesk/package.nix",
+                "line": 151
+            },
+            "name": "rustdesk-1.5.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@ocfox.me",
+                    "github": "ocfox",
+                    "githubId": 47410251,
+                    "keys": [
+                        {
+                            "fingerprint": "939E F8A5 CED8 7F50 5BB5  B2D0 24BC 2738 5F70 234F"
+                        }
+                    ],
+                    "name": "ocfox"
+                },
+                {
+                    "email": "abone9999@gmail.com",
+                    "github": "Leixb",
+                    "githubId": 17183803,
+                    "matrix": "@leix_b:matrix.org",
+                    "name": "Aleix Bon\u00e9"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ru/rustdesk/package.nix#L147",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rustdesk-1.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rustdesk",
+        "system": "x86_64-linux",
+        "version": "1.5.0",
+        "_attr": "rustdesk_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.ryubing": {
         "meta": {
             "available": true,
@@ -515636,7 +516405,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/se/sem-cli/package.nix",
-                "line": 73
+                "line": 75
             },
             "name": "sem-cli-0.29.1",
             "nonTeamMaintainers": [],
@@ -515683,7 +516452,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/se/sem-cli/package.nix#L66",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/se/sem-cli/package.nix#L68",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -515702,6 +516471,148 @@
         "system": "x86_64-linux",
         "version": "0.29.1",
         "_attr": "sem-cli",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.sem-cli_patched": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Semantic version control CLI by Ataraxy Labs",
+            "homepage": "https://github.com/Ataraxy-Labs/sem",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sem-cli",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sem-cli",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "sem",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/se/sem-cli/package.nix",
+                "line": 75
+            },
+            "name": "sem-cli-0.29.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/se/sem-cli/package.nix#L68",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sem-cli-0.29.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sem-cli",
+        "system": "x86_64-linux",
+        "version": "0.29.1",
+        "_attr": "sem-cli_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.septabee": {
@@ -516527,6 +517438,133 @@
         "_attr": "socketw",
         "_repo": "mio"
     },
+    "nur.repos.mio.splayer-next_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/SPlayer-Dev/SPlayer-Next/releases/tag/v1.1.0",
+            "description": "Cross-platform desktop music player with rich lyric support and wide audio format compatibility",
+            "homepage": "https://github.com/SPlayer-Dev/SPlayer-Next",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "splayer-next",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "splayer-next",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "SPlayer-Next",
+            "maintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/sp/splayer-next/package.nix",
+                "line": 206
+            },
+            "name": "splayer-next-1.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/sp/splayer-next/package.nix#L198",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryBytecode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "splayer-next-1.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "splayer-next",
+        "system": "x86_64-linux",
+        "version": "1.1.0",
+        "_attr": "splayer-next_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.sponsorblock-for-youtube-firefox": {
         "meta": {
             "available": true,
@@ -517238,6 +518276,164 @@
         "_attr": "tab-session-manager-firefox",
         "_repo": "mio"
     },
+    "nur.repos.mio.tectonic_patched": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/tectonic-typesetting/tectonic/blob/tectonic@0.17.0/CHANGELOG.md",
+            "description": "TeX/LaTeX engine, wrapped with a compatible biber",
+            "homepage": "https://tectonic-typesetting.github.io/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tectonic",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tectonic",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "tectonic",
+            "maintainers": [
+                {
+                    "email": "me@doronbehar.com",
+                    "github": "doronbehar",
+                    "githubId": 10998835,
+                    "name": "Doron Behar"
+                },
+                {
+                    "email": "bryanlais@gmail.com",
+                    "github": "bryango",
+                    "githubId": 26322692,
+                    "name": "Bryan Lai"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/te/tectonic-unwrapped/package.nix",
+                "line": 129
+            },
+            "name": "tectonic-0.17.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "lukas.werling@gmail.com",
+                    "github": "lluchs",
+                    "githubId": 516527,
+                    "name": "Lukas Werling"
+                },
+                {
+                    "email": "me@doronbehar.com",
+                    "github": "doronbehar",
+                    "githubId": 10998835,
+                    "name": "Doron Behar"
+                },
+                {
+                    "email": "bryanlais@gmail.com",
+                    "github": "bryango",
+                    "githubId": 26322692,
+                    "name": "Bryan Lai"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/te/tectonic/package.nix#L48",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tectonic-wrapped-0.17.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tectonic-wrapped",
+        "system": "x86_64-linux",
+        "version": "0.17.0",
+        "_attr": "tectonic_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.telegram-desktop_682": {
         "meta": {
             "available": true,
@@ -517936,6 +519132,176 @@
         "_attr": "terminal-browser",
         "_repo": "mio"
     },
+    "nur.repos.mio.thonny_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Python IDE for beginners",
+            "homepage": "https://www.thonny.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "thonny",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "thonny",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Thonny is a Python IDE for beginners. It supports different ways\nof stepping through the code, step-by-step expression\nevaluation, detailed visualization of the call stack and a mode\nfor explaining the concepts of references and heap.\n",
+            "mainProgram": "thonny",
+            "maintainers": [
+                {
+                    "email": "zvttt9db@anonaddy.me",
+                    "github": "Holiu618",
+                    "githubId": 165534185,
+                    "name": "Holiu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/th/thonny/package.nix",
+                "line": 93
+            },
+            "name": "thonny-5.0.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "zvttt9db@anonaddy.me",
+                    "github": "Holiu618",
+                    "githubId": 165534185,
+                    "name": "Holiu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/th/thonny/package.nix#L84",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "thonny-5.0.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "thonny",
+        "system": "x86_64-linux",
+        "version": "5.0.0",
+        "_attr": "thonny_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.tlottie": {
         "meta": {
             "available": true,
@@ -518601,7 +519967,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "ublock-origin-firefox-1.75.4",
+            "name": "ublock-origin-firefox-1.76.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -518697,14 +520063,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ublock-origin-firefox-1.75.4",
+        "name": "ublock-origin-firefox-1.76.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ublock-origin-firefox",
         "system": "x86_64-linux",
-        "version": "1.75.4",
+        "version": "1.76.0",
         "_attr": "ublock-origin-firefox",
         "_repo": "mio"
     },
@@ -540847,7 +542213,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/github/gh-actions-lock/releases/tag/v0.4.0",
+            "changelog": "https://github.com/github/gh-actions-lock/releases/tag/v0.4.1",
             "description": "gh CLI extension that generates and verifies the GitHub Actions dependency lockfile",
             "homepage": "https://github.com/github/gh-actions-lock",
             "identifiers": {
@@ -540892,7 +542258,7 @@
             },
             "mainProgram": "gh-actions-lock",
             "maintainers": [],
-            "name": "gh-actions-lock-0.4.0",
+            "name": "gh-actions-lock-0.4.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -540939,14 +542305,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gh-actions-lock-0.4.0",
+        "name": "gh-actions-lock-0.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gh-actions-lock",
         "system": "x86_64-linux",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "_attr": "gh-actions-lock",
         "_repo": "mst-mkt"
     },
@@ -891262,161 +892628,6 @@
         "system": "x86_64-linux",
         "version": "0.990",
         "_attr": "resource-han-rounded",
-        "_repo": "shadowrz"
-    },
-    "nur.repos.shadowrz.rvpacker-ng": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Pack and unpack any RPG Maker VX Ace data files",
-            "homepage": "https://gitlab.com/Darkness9724/rvpacker-ng",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "rvpacker-ng",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "rvpacker-ng",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "rvpacker-ng",
-            "maintainers": [],
-            "name": "rvpacker-ng-1.3.2",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/shadowrz/pkgs/rvpacker-ng/package.nix#L9",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "rvpacker-ng-1.3.2",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "rvpacker-ng",
-        "system": "x86_64-linux",
-        "version": "1.3.2",
-        "_attr": "rvpacker-ng",
         "_repo": "shadowrz"
     },
     "nur.repos.shirok1.asphyxia": {
