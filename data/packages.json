@@ -66195,7 +66195,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/VZstless/pkgs/by-name/ru/runmat/package.nix#L71",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/VZstless/pkgs/by-name/ru/runmat/package.nix#L73",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -317845,195 +317845,6 @@
         "system": "x86_64-linux",
         "version": "1.4.0",
         "_attr": "trackaudio",
-        "_repo": "herver"
-    },
-    "nur.repos.herver.tunnet": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/tunnetio/Tunnet/releases/tag/v0.9.1",
-            "description": "Encrypted peer-to-peer mesh network agent",
-            "downloadPage": "https://github.com/tunnetio/Tunnet/releases",
-            "homepage": "https://tunnet.io",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "tunnet",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "tunnet",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
-            },
-            "longDescription": "Tunnet builds an encrypted overlay network over QUIC (iroh) in which every machine\ngets an internal mesh IP and can reach every other machine. This package ships the\nmesh CLI (tunnet) and the agent daemon (tunnetd).\n\ntunnetd needs root (or CAP_NET_ADMIN) and /dev/net/tun. Do not use\n`tunnet service install` on NixOS: it writes /etc/systemd/system/tunnet.service.\nUse the services.tunnet module from this repository instead. Likewise `tunnet update`\nrewrites its own binary and cannot work from the Nix store; update the package.\n",
-            "mainProgram": "tunnet",
-            "maintainers": [],
-            "name": "tunnet-0.9.1",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/herver/pkgs/tunnet/default.nix#L58",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "tunnet-0.9.1",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "tunnet",
-        "system": "x86_64-linux",
-        "version": "0.9.1",
-        "_attr": "tunnet",
-        "_repo": "herver"
-    },
-    "nur.repos.herver.tunnet-unstable": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Encrypted peer-to-peer mesh network agent (latest upstream commit)",
-            "homepage": "https://tunnet.io",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "tunnet",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "tunnet",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Mozilla Public License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mpl20",
-                    "spdxId": "MPL-2.0",
-                    "url": "https://spdx.org/licenses/MPL-2.0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "longDescription": "Tunnet builds an encrypted overlay network over QUIC (iroh) in which every machine\ngets an internal mesh IP and can reach every other machine. This package ships the\nmesh CLI (tunnet) and the agent daemon (tunnetd).\n\ntunnetd needs root (or CAP_NET_ADMIN) and /dev/net/tun. Do not use\n`tunnet service install` on NixOS: it writes /etc/systemd/system/tunnet.service.\nUse the services.tunnet module from this repository instead. Likewise `tunnet update`\nrewrites its own binary and cannot work from the Nix store; update the package.\n",
-            "mainProgram": "tunnet",
-            "maintainers": [],
-            "name": "tunnet-0.9.1-unstable-2026-09-26",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/herver/pkgs/tunnet-unstable/default.nix#L44",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "tunnet-0.9.1-unstable-2026-09-26",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "tunnet",
-        "system": "x86_64-linux",
-        "version": "0.9.1-unstable-2026-09-26",
-        "_attr": "tunnet-unstable",
         "_repo": "herver"
     },
     "nur.repos.herver.udpxy": {
@@ -694445,7 +694256,7 @@
             },
             "mainProgram": "BedrockOnLinux",
             "maintainers": [],
-            "name": "BedrockOnLinux-2.2.10",
+            "name": "BedrockOnLinux-2.3.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -694453,7 +694264,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/minecraft/bol/default.nix#L67",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/minecraft/bol/default.nix#L75",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -694469,14 +694280,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "BedrockOnLinux-2.2.10",
+        "name": "BedrockOnLinux-2.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "BedrockOnLinux",
         "system": "x86_64-linux",
-        "version": "2.2.10",
+        "version": "2.3.0",
         "_attr": "bol",
         "_repo": "quriosity"
     },
@@ -695624,7 +695435,7 @@
             },
             "mainProgram": "horizon-launcher",
             "maintainers": [],
-            "name": "horizon-launcher-launcher@0.2.54",
+            "name": "horizon-launcher-launcher@0.2.58",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -695648,14 +695459,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-launcher-launcher-0.2.54",
+        "name": "horizon-launcher-launcher-0.2.58",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon-launcher-launcher",
         "system": "x86_64-linux",
-        "version": "0.2.54",
+        "version": "0.2.58",
         "_attr": "horizon",
         "_repo": "quriosity"
     },
@@ -978338,7 +978149,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toyvo/pkgs/papermcServers/derivation.nix",
                 "line": 56
             },
-            "name": "papermc-26.3-244",
+            "name": "papermc-26.3-246",
             "nonTeamMaintainers": [
                 {
                     "email": "Collin@Diekvoss.com",
@@ -978369,14 +978180,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "papermc-26.3-244",
+        "name": "papermc-26.3-246",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "papermc",
         "system": "x86_64-linux",
-        "version": "26.3-244",
+        "version": "26.3-246",
         "_attr": "papermc",
         "_repo": "toyvo"
     },
@@ -988341,7 +988152,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/bumper/default.nix#L46",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/bumper/default.nix#L48",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
