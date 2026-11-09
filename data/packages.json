@@ -81362,7 +81362,7 @@
             },
             "mainProgram": "hypruse",
             "maintainers": [],
-            "name": "hypruse-0.13.0",
+            "name": "hypruse-0.13.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -81403,7 +81403,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hypruse-0.13.0",
+        "name": "hypruse-0.13.1",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -81411,7 +81411,7 @@
         },
         "pname": "hypruse",
         "system": "x86_64-linux",
-        "version": "0.13.0",
+        "version": "0.13.1",
         "_attr": "hypruse",
         "_repo": "adam0"
     },
@@ -82210,7 +82210,7 @@
             },
             "mainProgram": "tg",
             "maintainers": [],
-            "name": "tg-0.6.0-unstable-2026-11-07",
+            "name": "tg-0.6.0-unstable-2026-11-08",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -82272,14 +82272,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tg-0.6.0-unstable-2026-11-07",
+        "name": "tg-0.6.0-unstable-2026-11-08",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tg",
         "system": "x86_64-linux",
-        "version": "0.6.0-unstable-2026-11-07",
+        "version": "0.6.0-unstable-2026-11-08",
         "_attr": "tg",
         "_repo": "adam0"
     },
@@ -511339,6 +511339,167 @@
         "_attr": "openscore",
         "_repo": "mio"
     },
+    "nur.repos.mio.openshot-qt_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free, open-source video editor",
+            "homepage": "http://openshot.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "openshot-qt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "openshot-qt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "OpenShot Video Editor is a free, open-source video editor for Linux.\nOpenShot can take your videos, photos, and music files and help you create\nthe film you have always dreamed of. Easily add sub-titles, transitions,\nand effects, and then export your film to DVD, YouTube, Vimeo, Xbox 360,\nand many other common formats.\n",
+            "mainProgram": "openshot-qt",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/op/openshot-qt/package.nix",
+                "line": 71
+            },
+            "name": "openshot-qt-3.5.1-unstable-2026-07-23",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/op/openshot-qt/package.nix#L61",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "openshot-qt-3.5.1-unstable-2026-07-23",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "openshot-qt",
+        "system": "x86_64-linux",
+        "version": "3.5.1-unstable-2026-07-23",
+        "_attr": "openshot-qt_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.openssh": {
         "meta": {
             "available": true,
@@ -515943,6 +516104,149 @@
         "_attr": "rotate-youtube-video-firefox",
         "_repo": "mio"
     },
+    "nur.repos.mio.rustdesk-flutter_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/rustdesk/rustdesk/releases/1.5.0",
+            "description": "Virtual / remote desktop infrastructure for everyone! Open source TeamViewer / Citrix alternative",
+            "homepage": "https://rustdesk.com",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rustdesk",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rustdesk",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "rustdesk",
+            "maintainers": [
+                {
+                    "email": "janne@hess.ooo",
+                    "github": "dasJ",
+                    "githubId": 4971975,
+                    "matrix": "@janne.hess:helsinki-systems.de",
+                    "name": "Janne He\u00df"
+                },
+                {
+                    "email": "joachim.ernst@helsinki-systems.de",
+                    "github": "helsinki-Jo",
+                    "githubId": 155722885,
+                    "name": "Joachim Ernst"
+                },
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/ru/rustdesk-flutter/package.nix",
+                "line": 260
+            },
+            "name": "rustdesk-1.5.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "janne@hess.ooo",
+                    "github": "dasJ",
+                    "githubId": 4971975,
+                    "matrix": "@janne.hess:helsinki-systems.de",
+                    "name": "Janne He\u00df"
+                },
+                {
+                    "email": "joachim.ernst@helsinki-systems.de",
+                    "github": "helsinki-Jo",
+                    "githubId": 155722885,
+                    "name": "Joachim Ernst"
+                },
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ru/rustdesk-flutter/package.nix#L256",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rustdesk-1.5.0",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "out": null,
+            "pubcache": null
+        },
+        "pname": "rustdesk",
+        "system": "x86_64-linux",
+        "version": "1.5.0",
+        "_attr": "rustdesk-flutter_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.rustdesk_patched": {
         "meta": {
             "available": true,
@@ -517885,6 +518189,120 @@
         "system": "x86_64-linux",
         "version": "2026-08-02",
         "_attr": "stltostp_git",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.stuntrally_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "3D racing game with Sci-Fi elements and own Track Editor",
+            "homepage": "https://cryham.org/stuntrally/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "stuntrally",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "stuntrally",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "stuntrally3",
+            "maintainers": [
+                {
+                    "email": "mail@pascal-wittmann.de",
+                    "github": "pSub",
+                    "githubId": 83842,
+                    "name": "Pascal Wittmann"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/st/stuntrally/package.nix",
+                "line": 120
+            },
+            "name": "stuntrally-3.3",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mail@pascal-wittmann.de",
+                    "github": "pSub",
+                    "githubId": 83842,
+                    "name": "Pascal Wittmann"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/st/stuntrally/package.nix#L116",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "stuntrally-3.3",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "stuntrally",
+        "system": "x86_64-linux",
+        "version": "3.3",
+        "_attr": "stuntrally_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.tab-session-manager-firefox": {
@@ -1001882,7 +1002300,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/craft-launcher/releases/tag/v0.16.0",
+            "changelog": "https://github.com/storytold/craft-launcher/releases/tag/v0.17.0",
             "description": "Launcher for the ArtCraft creative application suite",
             "homepage": "https://github.com/storytold/craft-launcher",
             "identifiers": {
@@ -1001939,7 +1002357,7 @@
             ],
             "mainProgram": "artcraft-launcher",
             "maintainers": [],
-            "name": "artcraft-launcher-bin-0.16.0",
+            "name": "artcraft-launcher-bin-0.17.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1001964,14 +1002382,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artcraft-launcher-bin-0.16.0",
+        "name": "artcraft-launcher-bin-0.17.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artcraft-launcher-bin",
         "system": "x86_64-linux",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "_attr": "artcraft-launcher-bin",
         "_repo": "silicalet"
     },
@@ -1003191,7 +1003609,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.5.0",
+            "changelog": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.5.1",
             "description": "Cross-platform multi-protocol concurrent downloader",
             "homepage": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
             "identifiers": {
@@ -1003236,7 +1003654,7 @@
             },
             "mainProgram": "ghost-downloader-3",
             "maintainers": [],
-            "name": "ghost-downloader-3-4.5.0",
+            "name": "ghost-downloader-3-4.5.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1003260,14 +1003678,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghost-downloader-3-4.5.0",
+        "name": "ghost-downloader-3-4.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghost-downloader",
         "system": "x86_64-linux",
-        "version": "3-4.5.0",
+        "version": "3-4.5.1",
         "_attr": "ghost-downloader-3",
         "_repo": "silicalet"
     },
@@ -1003275,7 +1003693,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/gridcraft/releases/tag/v0.17.0",
+            "changelog": "https://github.com/storytold/gridcraft/releases/tag/v0.18.0",
             "description": "Native spreadsheet and data analysis application",
             "homepage": "https://github.com/storytold/gridcraft",
             "identifiers": {
@@ -1003332,7 +1003750,7 @@
             ],
             "mainProgram": "gridcraft",
             "maintainers": [],
-            "name": "gridcraft-bin-0.17.0",
+            "name": "gridcraft-bin-0.18.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1003357,14 +1003775,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gridcraft-bin-0.17.0",
+        "name": "gridcraft-bin-0.18.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gridcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.17.0",
+        "version": "0.18.0",
         "_attr": "gridcraft-bin",
         "_repo": "silicalet"
     },
@@ -1003900,7 +1004318,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yituorou/meatshell/releases/tag/v0.8.1",
+            "changelog": "https://github.com/yituorou/meatshell/releases/tag/v0.8.2",
             "description": "Lightweight FinalShell-style SSH and terminal client",
             "homepage": "https://github.com/yituorou/meatshell",
             "identifiers": {
@@ -1003957,7 +1004375,7 @@
             ],
             "mainProgram": "meatshell",
             "maintainers": [],
-            "name": "meatshell-0.8.1",
+            "name": "meatshell-0.8.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1003982,14 +1004400,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meatshell-0.8.1",
+        "name": "meatshell-0.8.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "meatshell",
         "system": "x86_64-linux",
-        "version": "0.8.1",
+        "version": "0.8.2",
         "_attr": "meatshell-bin",
         "_repo": "silicalet"
     },
@@ -1004324,7 +1004742,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nyakang/nyaterm/releases/tag/v2.0.2",
+            "changelog": "https://github.com/nyakang/nyaterm/releases/tag/v2.0.4",
             "description": "Modern remote terminal workspace with SSH, SFTP and AI assistance",
             "homepage": "https://github.com/nyakang/nyaterm",
             "identifiers": {
@@ -1004369,7 +1004787,7 @@
             },
             "mainProgram": "nyaterm",
             "maintainers": [],
-            "name": "nyaterm-2.0.2",
+            "name": "nyaterm-2.0.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1004394,14 +1004812,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nyaterm-2.0.2",
+        "name": "nyaterm-2.0.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nyaterm",
         "system": "x86_64-linux",
-        "version": "2.0.2",
+        "version": "2.0.4",
         "_attr": "nyaterm-bin",
         "_repo": "silicalet"
     },
