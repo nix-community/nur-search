@@ -48526,7 +48526,7 @@
             },
             "mainProgram": "chatgpt",
             "maintainers": [],
-            "name": "chatgpt-26.1103.32239",
+            "name": "chatgpt-26.1103.60933",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -48544,14 +48544,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1103.32239",
+        "name": "chatgpt-26.1103.60933",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1103.32239",
+        "version": "26.1103.60933",
         "_attr": "chatgpt",
         "_repo": "Sittymin"
     },
@@ -397907,7 +397907,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/plannotator/default.nix",
                 "line": 86
             },
-            "name": "plannotator-0.28.51",
+            "name": "plannotator-0.28.55",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -397931,14 +397931,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "plannotator-0.28.51",
+        "name": "plannotator-0.28.55",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "plannotator",
         "system": "x86_64-linux",
-        "version": "0.28.51",
+        "version": "0.28.55",
         "_attr": "plannotator",
         "_repo": "lmdevv"
     },
@@ -405588,6 +405588,140 @@
         "system": "x86_64-linux",
         "version": "0.2.16",
         "_attr": "pigma",
+        "_repo": "lorlike"
+    },
+    "nur.repos.lorlike.sqlmux": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/kackerx/sqlmux/releases/tag/v0.10.0",
+            "description": "A tmux-like TUI database client for PostgreSQL, MySQL, SQLite, SQL Server and Redis",
+            "homepage": "https://github.com/kackerx/sqlmux",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sqlmux",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sqlmux",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "sqlmux",
+            "maintainers": [
+                {
+                    "github": "lorlike",
+                    "githubId": 47685593,
+                    "name": "lorlike"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lorlike/pkgs/sqlmux/default.nix",
+                "line": 64
+            },
+            "name": "sqlmux-0.10.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "lorlike",
+                    "githubId": 47685593,
+                    "name": "lorlike"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lorlike/pkgs/sqlmux/default.nix#L58",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sqlmux-0.10.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sqlmux",
+        "system": "x86_64-linux",
+        "version": "0.10.0",
+        "_attr": "sqlmux",
         "_repo": "lorlike"
     },
     "nur.repos.lschuermann.vivado-2020_1": {
@@ -488618,6 +488752,96 @@
         "_attr": "kvm-archive",
         "_repo": "minegameYTB"
     },
+    "nur.repos.minegameYTB.rea": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Reverse engineer anything from your terminal or agent with one CLI and MCP server",
+            "homepage": "https://github.com/morluto/rea",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rea",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rea",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "rea",
+            "maintainers": [],
+            "name": "rea-6.8.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/minegameYTB/pkgs/tools/rea/default.nix#L92",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rea-6.8.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rea",
+        "system": "x86_64-linux",
+        "version": "6.8.0",
+        "_attr": "rea",
+        "_repo": "minegameYTB"
+    },
     "nur.repos.minegameYTB.sshrm": {
         "meta": {
             "available": true,
@@ -490195,7 +490419,7 @@
         "_attr": "art-standalone",
         "_repo": "mio"
     },
-    "nur.repos.mio.art-standalone-patched": {
+    "nur.repos.mio.art-standalone_patched": {
         "meta": {
             "available": false,
             "broken": false,
@@ -490305,7 +490529,7 @@
         "pname": "art-standalone-patched",
         "system": "x86_64-linux",
         "version": "0-unstable-2026-11-04",
-        "_attr": "art-standalone-patched",
+        "_attr": "art-standalone_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.artcraft": {
@@ -494080,7 +494304,7 @@
         "_attr": "chatgpt-pake",
         "_repo": "mio"
     },
-    "nur.repos.mio.chatgpt-patched": {
+    "nur.repos.mio.chatgpt_patched": {
         "meta": {
             "available": false,
             "broken": false,
@@ -494211,7 +494435,7 @@
         "pname": "chatgpt",
         "system": "x86_64-linux",
         "version": "26.1029.61003",
-        "_attr": "chatgpt-patched",
+        "_attr": "chatgpt_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.chipotlai-max": {
@@ -494602,7 +494826,7 @@
         "_attr": "clice",
         "_repo": "mio"
     },
-    "nur.repos.mio.codex-patched": {
+    "nur.repos.mio.codex_patched": {
         "meta": {
             "available": true,
             "badPlatforms": [
@@ -494771,7 +494995,7 @@
         "pname": "codex",
         "system": "x86_64-linux",
         "version": "0.167.0",
-        "_attr": "codex-patched",
+        "_attr": "codex_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.codexctl": {
@@ -509896,7 +510120,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ni/nix-software-center/package.nix",
-                "line": 128
+                "line": 129
             },
             "name": "nix-software-center-0.1.2-unstable-2023-11-20",
             "nonTeamMaintainers": [],
@@ -509929,7 +510153,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ni/nix-software-center/package.nix#L124",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ni/nix-software-center/package.nix#L125",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -513284,7 +513508,7 @@
         "_attr": "plasma-overdose-kde-theme",
         "_repo": "mio"
     },
-    "nur.repos.mio.polarity-patched": {
+    "nur.repos.mio.polarity_patched": {
         "meta": {
             "available": true,
             "badPlatforms": [
@@ -513433,7 +513657,7 @@
         "pname": "polarity",
         "system": "x86_64-linux",
         "version": "0-unstable-2026-05-20",
-        "_attr": "polarity-patched",
+        "_attr": "polarity_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.polkit126": {
@@ -514704,7 +514928,7 @@
         "_attr": "rain",
         "_repo": "mio"
     },
-    "nur.repos.mio.rayburst-patched": {
+    "nur.repos.mio.rayburst_patched": {
         "meta": {
             "available": true,
             "badPlatforms": [
@@ -514847,7 +515071,7 @@
         "pname": "rayburst",
         "system": "x86_64-linux",
         "version": "4.1.1",
-        "_attr": "rayburst-patched",
+        "_attr": "rayburst_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.raycast_macos15": {
@@ -515719,7 +515943,7 @@
         "_attr": "rotate-youtube-video-firefox",
         "_repo": "mio"
     },
-    "nur.repos.mio.rustdesk-patched": {
+    "nur.repos.mio.rustdesk_patched": {
         "meta": {
             "available": true,
             "badPlatforms": [
@@ -515881,7 +516105,7 @@
         "pname": "rustdesk",
         "system": "x86_64-linux",
         "version": "1.5.0",
-        "_attr": "rustdesk-patched",
+        "_attr": "rustdesk_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.ryubing": {
@@ -516980,7 +517204,7 @@
         "_attr": "socketw",
         "_repo": "mio"
     },
-    "nur.repos.mio.splayer-next-patched": {
+    "nur.repos.mio.splayer-next_patched": {
         "meta": {
             "available": true,
             "broken": false,
@@ -517104,7 +517328,7 @@
         "pname": "splayer-next",
         "system": "x86_64-linux",
         "version": "1.1.0",
-        "_attr": "splayer-next-patched",
+        "_attr": "splayer-next_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.sponsorblock-for-youtube-firefox": {
@@ -517818,7 +518042,7 @@
         "_attr": "tab-session-manager-firefox",
         "_repo": "mio"
     },
-    "nur.repos.mio.tectonic-patched": {
+    "nur.repos.mio.tectonic_patched": {
         "meta": {
             "available": true,
             "badPlatforms": [
@@ -517973,7 +518197,7 @@
         "pname": "tectonic-wrapped",
         "system": "x86_64-linux",
         "version": "0.17.0",
-        "_attr": "tectonic-patched",
+        "_attr": "tectonic_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.telegram-desktop_682": {
@@ -518674,7 +518898,7 @@
         "_attr": "terminal-browser",
         "_repo": "mio"
     },
-    "nur.repos.mio.thonny-patched": {
+    "nur.repos.mio.thonny_patched": {
         "meta": {
             "available": true,
             "broken": false,
@@ -518841,7 +519065,7 @@
         "pname": "thonny",
         "system": "x86_64-linux",
         "version": "5.0.0",
-        "_attr": "thonny-patched",
+        "_attr": "thonny_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.tlottie": {
@@ -527100,7 +527324,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ar/artex/package.nix",
                 "line": 52
             },
-            "name": "artex-0-unstable-2026-11-06",
+            "name": "artex-0-unstable-2026-11-09",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -527155,14 +527379,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artex-0-unstable-2026-11-06",
+        "name": "artex-0-unstable-2026-11-09",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artex",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-06",
+        "version": "0-unstable-2026-11-09",
         "_attr": "artex",
         "_repo": "moraxyc"
     },
@@ -527849,7 +528073,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cl/clash-nyanpasu/package.nix",
                 "line": 221
             },
-            "name": "clash-nyanpasu-2.0.1-unstable-2026-11-08",
+            "name": "clash-nyanpasu-2.0.1-unstable-2026-11-09",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -527918,14 +528142,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clash-nyanpasu-2.0.1-unstable-2026-11-08",
+        "name": "clash-nyanpasu-2.0.1-unstable-2026-11-09",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clash-nyanpasu",
         "system": "x86_64-linux",
-        "version": "2.0.1-unstable-2026-11-08",
+        "version": "2.0.1-unstable-2026-11-09",
         "_attr": "clash-nyanpasu",
         "_repo": "moraxyc"
     },
@@ -527995,7 +528219,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 54
             },
-            "name": "cpa-usage-keeper-2.0.3-unstable-2026-11-08",
+            "name": "cpa-usage-keeper-2.0.3-unstable-2026-11-09",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -528050,14 +528274,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.0.3-unstable-2026-11-08",
+        "name": "cpa-usage-keeper-2.0.3-unstable-2026-11-09",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.0.3-unstable-2026-11-08",
+        "version": "2.0.3-unstable-2026-11-09",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -528127,7 +528351,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/da/dae/package.nix",
                 "line": 20
             },
-            "name": "dae-2.1.1-unstable-2026-11-05",
+            "name": "dae-2.1.1-unstable-2026-11-09",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -528176,14 +528400,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dae-2.1.1-unstable-2026-11-05",
+        "name": "dae-2.1.1-unstable-2026-11-09",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dae",
         "system": "x86_64-linux",
-        "version": "2.1.1-unstable-2026-11-05",
+        "version": "2.1.1-unstable-2026-11-09",
         "_attr": "dae",
         "_repo": "moraxyc"
     },
@@ -530577,7 +530801,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-11-08",
+            "name": "meta-rules-dat-2026-11-09",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -530600,7 +530824,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-11-08",
+        "name": "meta-rules-dat-2026-11-09",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -530612,7 +530836,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-08",
+        "version": "2026-11-09",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -533961,7 +534185,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-11-07",
+            "name": "sing-rules-geo-2026-11-08",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -533976,7 +534200,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-11-07",
+        "name": "sing-rules-geo-2026-11-08",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -533986,7 +534210,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-11-07",
+        "version": "2026-11-08",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -534265,7 +534489,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-11-07",
+            "name": "v2ray-rules-dat-2026-11-08",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -534280,7 +534504,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-11-07",
+        "name": "v2ray-rules-dat-2026-11-08",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -534288,7 +534512,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-07",
+        "version": "2026-11-08",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
