@@ -23667,7 +23667,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Linux ram cache dropper in C without *alloc()",
+            "description": "Linux ram cache dropper in C without *alloc()",
             "homepage": "https://github.com/ssleert/ccc",
             "identifiers": {
                 "cpeParts": {
@@ -23761,6 +23761,114 @@
         "system": "x86_64-linux",
         "version": "3ba139f",
         "_attr": "ccc",
+        "_repo": "Ex-32"
+    },
+    "nur.repos.Ex-32.nuclear": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/nukeop/nuclear/releases/tag/player@1.54.2",
+            "description": "Streaming music player that finds free music for you",
+            "homepage": "https://nuclearplayer.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nuclear",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nuclear",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "longDescription": "Nuclear is a free, open-source music player without ads or tracking.\nSearch for any song or artist, build playlists, and start listening.\n",
+            "mainProgram": "nuclear-music-player",
+            "maintainers": [],
+            "name": "nuclear-1.54.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Ex-32/pkgs/nuclear/default.nix#L86",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nuclear-1.54.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nuclear",
+        "system": "x86_64-linux",
+        "version": "1.54.2",
+        "_attr": "nuclear",
         "_repo": "Ex-32"
     },
     "nur.repos.Freed-Wu.bash-prompt": {
@@ -1011582,7 +1011690,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.3362",
+            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.3519",
             "description": "One local gateway for the model every coding agent uses",
             "homepage": "https://usemagpie.ai",
             "identifiers": {
@@ -1011627,7 +1011735,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.3362",
+            "name": "magpie-0.1.3519",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1011652,14 +1011760,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.3362",
+        "name": "magpie-0.1.3519",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.3362",
+        "version": "0.1.3519",
         "_attr": "magpie",
         "_repo": "so1ve"
     },
@@ -1012536,7 +1012644,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/amzxyz/rime-wanxiang/releases/tag/v18.1.10",
+            "changelog": "https://github.com/amzxyz/rime-wanxiang/releases/tag/v18.1.11",
             "description": "Wanxiang Pinyin schemas and dictionaries for Rime",
             "homepage": "https://github.com/amzxyz/rime-wanxiang",
             "identifiers": {
@@ -1012580,7 +1012688,7 @@
                 "url": "https://spdx.org/licenses/CC-BY-4.0.html"
             },
             "maintainers": [],
-            "name": "rime-wanxiang-18.1.10",
+            "name": "rime-wanxiang-18.1.11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1012676,14 +1012784,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-wanxiang-18.1.10",
+        "name": "rime-wanxiang-18.1.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-wanxiang",
         "system": "x86_64-linux",
-        "version": "18.1.10",
+        "version": "18.1.11",
         "_attr": "rime-wanxiang",
         "_repo": "so1ve"
     },
