@@ -397280,7 +397280,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/code-cursor/default.nix",
                 "line": 93
             },
-            "name": "cursor-3.29.9",
+            "name": "cursor-3.29.15",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -397305,14 +397305,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "cursor-3.29.9",
+        "name": "cursor-3.29.15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cursor",
         "system": "x86_64-linux",
-        "version": "3.29.9",
+        "version": "3.29.15",
         "_attr": "code-cursor",
         "_repo": "lmdevv"
     },
@@ -528590,6 +528590,143 @@
         "system": "x86_64-linux",
         "version": "2.0.1-unstable-2026-11-09",
         "_attr": "clash-nyanpasu",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.cliproxyapi": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.63",
+            "description": "Proxy that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces",
+            "homepage": "https://github.com/router-for-me/CLIProxyAPI",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cliproxyapi",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cliproxyapi",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "cliproxyapi",
+            "maintainers": [
+                {
+                    "email": "i@anish.land",
+                    "github": "ap-1",
+                    "githubId": 67872951,
+                    "keys": [
+                        {
+                            "fingerprint": "2A0A 16F5 E026 BE3B A47F B7A6 841A FB68 9A5B ACCB"
+                        },
+                        {
+                            "fingerprint": "B89E A3F3 16A7 411C B5B2 8A14 B1CA 8321 35A8 C503"
+                        }
+                    ],
+                    "name": "Anish Pallati"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/cl/cliproxyapi/package.nix",
+                "line": 53
+            },
+            "name": "cliproxyapi-8.0.63",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@anish.land",
+                    "github": "ap-1",
+                    "githubId": 67872951,
+                    "keys": [
+                        {
+                            "fingerprint": "2A0A 16F5 E026 BE3B A47F B7A6 841A FB68 9A5B ACCB"
+                        },
+                        {
+                            "fingerprint": "B89E A3F3 16A7 411C B5B2 8A14 B1CA 8321 35A8 C503"
+                        }
+                    ],
+                    "name": "Anish Pallati"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/moraxyc/nur-packages/blob/HEAD/pkgs/by-name/cl/cliproxyapi/package.nix#L49",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cliproxyapi-8.0.63",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cliproxyapi",
+        "system": "x86_64-linux",
+        "version": "8.0.63",
+        "_attr": "cliproxyapi",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.cpa-usage-keeper": {
