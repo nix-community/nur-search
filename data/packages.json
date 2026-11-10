@@ -168687,7 +168687,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix",
-                "line": 89
+                "line": 90
             },
             "name": "sable-next-unwrapped-2.3.8",
             "nonTeamMaintainers": [
@@ -168788,7 +168788,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L86",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -168969,7 +168969,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix",
-                "line": 89
+                "line": 90
             },
             "name": "sable-next-unwrapped-2.3.8",
             "nonTeamMaintainers": [
@@ -169070,7 +169070,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/sable-next-unwrapped/package.nix#L86",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372653,7 +372653,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://ccache.dev/releasenotes.html#_ccache_4_14_2",
+            "changelog": "https://ccache.dev/releasenotes.html#_ccache_4_14_3",
             "description": "Compiler cache for fast recompilation of C/C++ code",
             "downloadPage": "https://ccache.dev/download.html",
             "homepage": "https://ccache.dev",
@@ -372717,7 +372717,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/kira-bruneau/pkgs/by-name/cc/ccache/package.nix",
                 "line": 205
             },
-            "name": "ccache-4.14.2",
+            "name": "ccache-4.14.3",
             "nonTeamMaintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -372788,7 +372788,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ccache-4.14.2",
+        "name": "ccache-4.14.3",
         "outputName": "out",
         "outputs": {
             "doc": null,
@@ -372797,7 +372797,7 @@
         },
         "pname": "ccache",
         "system": "x86_64-linux",
-        "version": "4.14.2",
+        "version": "4.14.3",
         "_attr": "ccache",
         "_repo": "kira-bruneau"
     },
@@ -378821,12 +378821,12 @@
             "license": {
                 "deprecated": false,
                 "free": true,
-                "fullName": "MIT License",
+                "fullName": "GNU General Public License v3.0 only",
                 "licenseType": "simple",
                 "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "mainProgram": "texlab",
             "maintainers": [
@@ -549952,7 +549952,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/cpp-httplib.nix",
                 "line": 29
             },
-            "name": "cpp-httplib-0.61.0",
+            "name": "cpp-httplib-0.65.0",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -550055,14 +550055,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpp-httplib-0.61.0",
+        "name": "cpp-httplib-0.65.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpp-httplib",
         "system": "x86_64-linux",
-        "version": "0.61.0",
+        "version": "0.65.0",
         "_attr": "cpp-httplib",
         "_repo": "nagy"
     },
@@ -550737,7 +550737,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/emacs-packages/agent-shell-links.nix",
                 "line": 27
             },
-            "name": "emacs-agent-shell-links-0-unstable-2026-07-08",
+            "name": "emacs-agent-shell-links-0-unstable-2026-10-30",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -550840,14 +550840,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "emacs-agent-shell-links-0-unstable-2026-07-08",
+        "name": "emacs-agent-shell-links-0-unstable-2026-10-30",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "emacs-agent-shell-links",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-07-08",
+        "version": "0-unstable-2026-10-30",
         "_attr": "emacsPackages.agent-shell-links",
         "_repo": "nagy"
     },
@@ -552514,7 +552514,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/emacs-packages/poimap.nix",
                 "line": 41
             },
-            "name": "emacs-poimap-0.1-unstable-2026-09-06",
+            "name": "emacs-poimap-0.1-unstable-2026-10-04",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -552617,14 +552617,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "emacs-poimap-0.1-unstable-2026-09-06",
+        "name": "emacs-poimap-0.1-unstable-2026-10-04",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "emacs-poimap",
         "system": "x86_64-linux",
-        "version": "0.1-unstable-2026-09-06",
+        "version": "0.1-unstable-2026-10-04",
         "_attr": "emacsPackages.poimap",
         "_repo": "nagy"
     },
@@ -567512,7 +567512,7 @@
                 "spdxId": "BSD-2-Clause",
                 "url": "https://spdx.org/licenses/BSD-2-Clause.html"
             },
-            "mainProgram": "yaml-shellcheck",
+            "mainProgram": "yaml_shellcheck",
             "maintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -567531,7 +567531,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/nagy/pkgs/by-name/yaml-shellcheck.nix",
                 "line": 45
             },
-            "name": "yaml-shellcheck-1.8.0",
+            "name": "yaml-shellcheck-1.9.0",
             "nonTeamMaintainers": [
                 {
                     "email": "danielnagy@posteo.de",
@@ -567586,7 +567586,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "yaml-shellcheck-1.8.0",
+        "name": "yaml-shellcheck-1.9.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -567594,7 +567594,7 @@
         },
         "pname": "yaml-shellcheck",
         "system": "x86_64-linux",
-        "version": "1.8.0",
+        "version": "1.9.0",
         "_attr": "yaml-shellcheck",
         "_repo": "nagy"
     },
@@ -1179745,7 +1179745,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3598",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3645",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1179802,7 +1179802,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 141
             },
-            "name": "magpie-0.1.3598",
+            "name": "magpie-0.1.3645",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1179846,14 +1179846,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.3598",
+        "name": "magpie-0.1.3645",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.3598",
+        "version": "0.1.3645",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
