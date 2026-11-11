@@ -307303,6 +307303,148 @@
         "_attr": "sonixd",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.sonora": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/sonorahq/sonora/releases/tag/v0.48.1",
+            "description": "A native, familiar music streaming client",
+            "homepage": "https://sonorahq.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sonora",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sonora",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "SIL Open Font License 1.1",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "ofl",
+                    "spdxId": "OFL-1.1",
+                    "url": "https://spdx.org/licenses/OFL-1.1.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "ISC License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "isc",
+                    "spdxId": "ISC",
+                    "url": "https://spdx.org/licenses/ISC.html"
+                }
+            ],
+            "mainProgram": "sonora",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/sonora/default.nix",
+                "line": 22
+            },
+            "name": "sonora-0.48.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/sonora/default.nix#L14",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sonora-0.48.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sonora",
+        "system": "x86_64-linux",
+        "version": "0.48.1",
+        "_attr": "sonora",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.soundcraft": {
         "meta": {
             "available": true,
