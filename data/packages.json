@@ -30757,6 +30757,120 @@
         "_attr": "whitesur-kde",
         "_repo": "LuisChDev"
     },
+    "nur.repos.MCSeekeri.alma": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://github.com/yetone/alma-releases/releases/tag/v0.4.567",
+            "description": "GUI client for herdr and AI agent harness",
+            "homepage": "https://alma.now",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "alma",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "alma",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "Alma is an AI agent harness and the desktop/mobile GUI client for herdr.\nIt runs Claude Code, Codex and pi agents as clean conversations, bundles\nits own browser, skills, MCP support and local-first storage.\n",
+            "mainProgram": "alma",
+            "maintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/MCSeekeri/pkgs/alma/default.nix",
+                "line": 154
+            },
+            "name": "alma-0.4.567",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/MCSeekeri/pkgs/alma/default.nix#L139",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "alma-0.4.567",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "alma",
+        "system": "x86_64-linux",
+        "version": "0.4.567",
+        "_attr": "alma",
+        "_repo": "MCSeekeri"
+    },
     "nur.repos.MCSeekeri.artmatic": {
         "meta": {
             "available": true,
@@ -74969,7 +75083,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-11-10",
+            "name": "albedo-git-0-unstable-2026-11-11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -75031,14 +75145,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-11-10",
+        "name": "albedo-git-0-unstable-2026-11-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-10",
+        "version": "0-unstable-2026-11-11",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -81698,7 +81812,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-09",
+            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-10",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -81739,14 +81853,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-09",
+        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gruvbox-plus-icons",
         "system": "x86_64-linux",
-        "version": "6.7.0-unstable-2026-11-09",
+        "version": "6.7.0-unstable-2026-11-10",
         "_attr": "gruvbox-plus-icons",
         "_repo": "adam0"
     },
@@ -82030,7 +82144,7 @@
             },
             "mainProgram": "hypruse",
             "maintainers": [],
-            "name": "hypruse-0.14.1",
+            "name": "hypruse-0.15.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -82071,7 +82185,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hypruse-0.14.1",
+        "name": "hypruse-0.15.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -82079,7 +82193,7 @@
         },
         "pname": "hypruse",
         "system": "x86_64-linux",
-        "version": "0.14.1",
+        "version": "0.15.0",
         "_attr": "hypruse",
         "_repo": "adam0"
     },
@@ -311408,7 +311522,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "shopware-cli-0.19.9",
+            "name": "shopware-cli-0.20.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -311435,14 +311549,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "shopware-cli-0.19.9",
+        "name": "shopware-cli-0.20.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "shopware-cli",
         "system": "x86_64-linux",
-        "version": "0.19.9",
+        "version": "0.20.0",
         "_attr": "shopware-cli",
         "_repo": "friendsofshopware"
     },
@@ -1062246,7 +1062360,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://gitlab.com/gitlab-org/cli/-/releases/v1.128.0",
+            "changelog": "https://gitlab.com/gitlab-org/cli/-/releases/v1.130.0",
             "description": "GitLab CLI tool bringing GitLab to your command line (upstream prebuilt binary)",
             "homepage": "https://gitlab.com/gitlab-org/cli",
             "identifiers": {
@@ -1062291,7 +1062405,7 @@
             },
             "mainProgram": "glab",
             "maintainers": [],
-            "name": "glab-bin-1.128.0",
+            "name": "glab-bin-1.130.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1062315,14 +1062429,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "glab-bin-1.128.0",
+        "name": "glab-bin-1.130.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "glab-bin",
         "system": "x86_64-linux",
-        "version": "1.128.0",
+        "version": "1.130.0",
         "_attr": "glab-bin",
         "_repo": "unstable-code"
     },
@@ -1063182,11 +1063296,11 @@
                 "redistributable": true,
                 "shortName": "gpl3Plus",
                 "spdxId": "GPL-3.0-or-later",
-                "url": "https://github.com/Awakenchan/LanternEngine/blob/v0.9.38/NOTICE"
+                "url": "https://github.com/Awakenchan/LanternEngine/blob/v0.9.42/NOTICE"
             },
             "mainProgram": "lantern-engine",
             "maintainers": [],
-            "name": "lantern-engine-0.9.38",
+            "name": "lantern-engine-0.9.42",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1063204,14 +1063318,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lantern-engine-0.9.38",
+        "name": "lantern-engine-0.9.42",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lantern-engine",
         "system": "x86_64-linux",
-        "version": "0.9.38",
+        "version": "0.9.42",
         "_attr": "lantern-engine",
         "_repo": "uriotv"
     },
