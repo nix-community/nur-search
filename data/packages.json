@@ -69882,7 +69882,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/co/comfyui-prompt-manager/package.nix",
                 "line": 47
             },
-            "name": "comfyui-prompt-manager-3.6.0-unstable-2026-11-02",
+            "name": "comfyui-prompt-manager-3.6.0-unstable-2026-11-11",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -69905,14 +69905,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "comfyui-prompt-manager-3.6.0-unstable-2026-11-02",
+        "name": "comfyui-prompt-manager-3.6.0-unstable-2026-11-11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "comfyui-prompt-manager",
         "system": "x86_64-linux",
-        "version": "3.6.0-unstable-2026-11-02",
+        "version": "3.6.0-unstable-2026-11-11",
         "_attr": "comfyui-prompt-manager",
         "_repo": "abszero"
     },
@@ -309349,6 +309349,101 @@
         "system": "x86_64-linux",
         "version": "0.23.0",
         "_attr": "vectorcraft",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.venture": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A Meta Quest emulator for PC VR",
+            "homepage": "https://venture-emu.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "venture",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "venture",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "venture",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/venture/default.nix",
+                "line": 27
+            },
+            "name": "venture-0.2.2.2",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/venture/default.nix#L24",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "venture-0.2.2.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "venture",
+        "system": "x86_64-linux",
+        "version": "0.2.2.2",
+        "_attr": "venture",
         "_repo": "forkprince"
     },
     "nur.repos.forkprince.vmware-fusion": {
