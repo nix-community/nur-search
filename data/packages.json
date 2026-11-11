@@ -248020,7 +248020,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.3527",
+            "name": "magpie-0.1.3688",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -248046,14 +248046,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.3527",
+        "name": "magpie-0.1.3688",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.3527",
+        "version": "0.1.3688",
         "_attr": "magpie",
         "_repo": "davinci42"
     },
@@ -536177,6 +536177,130 @@
         "system": "x86_64-linux",
         "version": "26200.6584.250915-1905",
         "_attr": "windows-fonts",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.ztnet": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/sinamics/ztnet/releases/tag/v0.8.7",
+            "description": "Web interface for private ZeroTier controllers with multiuser and organization support",
+            "homepage": "https://ztnet.network",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ztnet",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ztnet",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "ztnet",
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/zt/ztnet/package.nix",
+                "line": 125
+            },
+            "name": "ztnet-0.8.7",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/zt/ztnet/package.nix#L121",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ztnet-0.8.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ztnet",
+        "system": "x86_64-linux",
+        "version": "0.8.7",
+        "_attr": "ztnet",
         "_repo": "moraxyc"
     },
     "nur.repos.moredhel.emacs": {
@@ -1012477,7 +1012601,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.3684",
+            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.3701",
             "description": "One local gateway for the model every coding agent uses",
             "homepage": "https://usemagpie.ai",
             "identifiers": {
@@ -1012522,7 +1012646,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.3684",
+            "name": "magpie-0.1.3701",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1012547,14 +1012671,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.3684",
+        "name": "magpie-0.1.3701",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.3684",
+        "version": "0.1.3701",
         "_attr": "magpie",
         "_repo": "so1ve"
     },
@@ -1013814,6 +1013938,93 @@
         "system": "x86_64-linux",
         "version": "0.4.2",
         "_attr": "terracotta",
+        "_repo": "so1ve"
+    },
+    "nur.repos.so1ve.waywallen": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/waywallen/waywallen/releases/tag/v0.6.0",
+            "description": "Dynamic wallpaper manager for Linux",
+            "homepage": "https://github.com/waywallen/waywallen",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "waywallen",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "waywallen",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "mainProgram": "waywallen",
+            "maintainers": [],
+            "name": "waywallen-0.6.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/waywallen/default.nix#L70",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "waywallen-0.6.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "waywallen",
+        "system": "x86_64-linux",
+        "version": "0.6.0",
+        "_attr": "waywallen",
         "_repo": "so1ve"
     },
     "nur.repos.so1ve.winboat-unstable": {
@@ -1186411,7 +1186622,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "equicord-1.15.15.0",
+            "name": "equicord-1.15.17.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1186452,14 +1186663,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "equicord-1.15.15.0",
+        "name": "equicord-1.15.17.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "equicord",
         "system": "x86_64-linux",
-        "version": "1.15.15.0",
+        "version": "1.15.17.2",
         "_attr": "equicord",
         "_repo": "ymstnt"
     },
