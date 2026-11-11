@@ -70212,7 +70212,7 @@
                 "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/nu/nu_scripts/package.nix",
                 "line": 41
             },
-            "name": "nu_scripts-0-unstable-2026-10-31",
+            "name": "nu_scripts-0-unstable-2026-11-10",
             "nonTeamMaintainers": [
                 {
                     "email": "kiran@ostrolenk.co.uk",
@@ -70281,14 +70281,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nu_scripts-0-unstable-2026-10-31",
+        "name": "nu_scripts-0-unstable-2026-11-10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nu_scripts",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-10-31",
+        "version": "0-unstable-2026-11-10",
         "_attr": "nu_scripts_git",
         "_repo": "abszero"
     },
@@ -70704,7 +70704,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/v2/v2ray-rules-dat/package.nix",
                 "line": 69
             },
-            "name": "v2ray-rules-dat-202611092204",
+            "name": "v2ray-rules-dat-202611102204",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -70809,7 +70809,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-202611092204",
+        "name": "v2ray-rules-dat-202611102204",
         "outputName": "out",
         "outputs": {
             "geoip": null,
@@ -70818,7 +70818,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "202611092204",
+        "version": "202611102204",
         "_attr": "v2ray-rules-dat",
         "_repo": "abszero"
     },
@@ -90116,18 +90116,18 @@
             },
             "insecure": false,
             "license": {
-                "deprecated": true,
+                "deprecated": false,
                 "free": true,
-                "fullName": "GNU General Public License v3.0",
+                "fullName": "GNU General Public License v3.0 or later",
                 "licenseType": "simple",
                 "redistributable": true,
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "mainProgram": "KnotJob",
             "maintainers": [],
-            "name": "knotjob-0-chartreuse-2026-02-12",
+            "name": "knotjob-2026-02-12-chartreuse",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -90158,7 +90158,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/alejo7797/pkgs/math/knotjob/default.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/alejo7797/pkgs/math/knotjob/default.nix#L102",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -90168,15 +90168,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "knotjob-0-chartreuse-2026-02-12",
+        "name": "knotjob-2026-02-12-chartreuse",
         "outputName": "out",
         "outputs": {
-            "doc": null,
             "out": null
         },
         "pname": "knotjob",
         "system": "x86_64-linux",
-        "version": "0-chartreuse-2026-02-12",
+        "version": "2026-02-12-chartreuse",
         "_attr": "knotjob",
         "_repo": "alejo7797"
     },
@@ -183500,7 +183499,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.0",
+            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.1",
             "description": "Daemon, CLI, and PAM modules for facial authentication on Linux",
             "homepage": "https://gaze.gundulabs.com",
             "identifiers": {
@@ -183558,7 +183557,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/gaze/package.nix",
                 "line": 113
             },
-            "name": "gaze-0.5.0",
+            "name": "gaze-0.5.1",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -183597,14 +183596,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gaze-0.5.0",
+        "name": "gaze-0.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gaze",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "_attr": "gaze",
         "_repo": "ccicnce113424"
     },
@@ -183612,7 +183611,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.0",
+            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.1",
             "description": "Cinnamon Spices extension for Gaze facial authentication",
             "homepage": "https://gaze.gundulabs.com",
             "identifiers": {
@@ -183669,7 +183668,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/gaze-cinnamon-extension/package.nix",
                 "line": 39
             },
-            "name": "gaze-cinnamon-extension-0.5.0",
+            "name": "gaze-cinnamon-extension-0.5.1",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -183713,14 +183712,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gaze-cinnamon-extension-0.5.0",
+        "name": "gaze-cinnamon-extension-0.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gaze-cinnamon-extension",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "_attr": "gaze-cinnamon-extension",
         "_repo": "ccicnce113424"
     },
@@ -183728,7 +183727,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.0",
+            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.1",
             "description": "GNOME Shell extension for Gaze facial authentication",
             "homepage": "https://gaze.gundulabs.com",
             "identifiers": {
@@ -183785,7 +183784,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/gaze-gnome-extension/package.nix",
                 "line": 54
             },
-            "name": "gaze-gnome-extension-0.5.0",
+            "name": "gaze-gnome-extension-0.5.1",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -183829,14 +183828,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gaze-gnome-extension-0.5.0",
+        "name": "gaze-gnome-extension-0.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gaze-gnome-extension",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "_attr": "gaze-gnome-extension",
         "_repo": "ccicnce113424"
     },
@@ -183855,7 +183854,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.0",
+            "changelog": "https://github.com/GunduLabs/gaze/releases/tag/v0.5.1",
             "description": "GTK4/Adwaita enrollment and configuration GUI for Gaze",
             "homepage": "https://gaze.gundulabs.com",
             "identifiers": {
@@ -183913,7 +183912,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/gaze-gui/package.nix",
                 "line": 79
             },
-            "name": "gaze-gui-0.5.0",
+            "name": "gaze-gui-0.5.1",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -183952,14 +183951,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gaze-gui-0.5.0",
+        "name": "gaze-gui-0.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gaze-gui",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "_attr": "gaze-gui",
         "_repo": "ccicnce113424"
     },
@@ -184023,7 +184022,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/gaze-kcm/package.nix",
                 "line": 40
             },
-            "name": "gaze-kcm-0.5.0",
+            "name": "gaze-kcm-0.5.1",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -184067,14 +184066,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gaze-kcm-0.5.0",
+        "name": "gaze-kcm-0.5.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gaze-kcm",
         "system": "x86_64-linux",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "_attr": "gaze-kcm",
         "_repo": "ccicnce113424"
     },
@@ -186246,7 +186245,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/pipewire-bluez5-lhdc-git/default.nix",
                 "line": 139
             },
-            "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-06",
+            "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-10",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -186290,14 +186289,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-06",
+        "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pipewire-bluez5-lhdc-git",
         "system": "x86_64-linux",
-        "version": "1.7-unstable-2026-11-06",
+        "version": "1.7-unstable-2026-11-10",
         "_attr": "pipewire-bluez5-lhdc-git",
         "_repo": "ccicnce113424"
     },
@@ -186756,7 +186755,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/AnInsomniacy/rayburst/releases/tag/v4.1.1",
+            "changelog": "https://github.com/AnInsomniacy/rayburst/releases/tag/v4.1.2",
             "description": "Desktop download manager for files, torrents and streams",
             "homepage": "https://github.com/AnInsomniacy/rayburst",
             "identifiers": {
@@ -186826,7 +186825,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/rayburst/package.nix",
                 "line": 140
             },
-            "name": "rayburst-4.1.1",
+            "name": "rayburst-4.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -186876,14 +186875,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rayburst-4.1.1",
+        "name": "rayburst-4.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rayburst",
         "system": "x86_64-linux",
-        "version": "4.1.1",
+        "version": "4.1.2",
         "_attr": "rayburst",
         "_repo": "ccicnce113424"
     },
@@ -186902,7 +186901,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/AnInsomniacy/rayburst/releases/tag/v4.1.2-beta.4",
+            "changelog": "https://github.com/AnInsomniacy/rayburst/releases/tag/v4.1.2",
             "description": "Desktop download manager for files, torrents and streams",
             "homepage": "https://github.com/AnInsomniacy/rayburst",
             "identifiers": {
@@ -186972,7 +186971,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/rayburst/package.nix",
                 "line": 140
             },
-            "name": "rayburst-beta-4.1.2-beta.4",
+            "name": "rayburst-beta-4.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -187022,14 +187021,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rayburst-beta-4.1.2-beta.4",
+        "name": "rayburst-beta-4.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rayburst-beta",
         "system": "x86_64-linux",
-        "version": "4.1.2-beta.4",
+        "version": "4.1.2",
         "_attr": "rayburst-beta",
         "_repo": "ccicnce113424"
     },
