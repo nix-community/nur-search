@@ -294524,6 +294524,102 @@
         "_attr": "boxtron-bin",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.brisk": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Ultra-fast, modern download manager for desktop",
+            "homepage": "https://github.com/BrisklyDev/brisk",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "brisk",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "brisk",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "brisk",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/brisk/default.nix",
+                "line": 61
+            },
+            "name": "brisk-2.4.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/brisk/default.nix#L58",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "brisk-2.4.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "brisk",
+        "system": "x86_64-linux",
+        "version": "2.4.0",
+        "_attr": "brisk",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.cadcraft": {
         "meta": {
             "available": true,
@@ -297754,6 +297850,127 @@
         "system": "x86_64-linux",
         "version": "0.1.9",
         "_attr": "folio-studio",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.freebuff": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/CodebuffAI/codebuff-community/releases/tag/freebuff-v0.2.36",
+            "description": "The 100% free coding agent (terminal)",
+            "homepage": "https://freebuff.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "freebuff",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "freebuff",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Freebuff is a free coding agent funded by ads instead of a subscription.\nThreads live in the cloud, so a task can be started in the terminal and continued from the desktop, phone or browser.\n",
+            "mainProgram": "freebuff",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/freebuff/default.nix",
+                "line": 37
+            },
+            "name": "freebuff-0.2.36",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/freebuff/default.nix#L29",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "freebuff-0.2.36",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "freebuff",
+        "system": "x86_64-linux",
+        "version": "0.2.36",
+        "_attr": "freebuff",
         "_repo": "forkprince"
     },
     "nur.repos.forkprince.fx": {
@@ -536244,7 +536461,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/zt/ztnet/package.nix",
-                "line": 125
+                "line": 132
             },
             "name": "ztnet-0.8.7",
             "nonTeamMaintainers": [
@@ -536287,7 +536504,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/zt/ztnet/package.nix#L121",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/zt/ztnet/package.nix#L128",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1012601,7 +1012818,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.3701",
+            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.3711",
             "description": "One local gateway for the model every coding agent uses",
             "homepage": "https://usemagpie.ai",
             "identifiers": {
@@ -1012646,7 +1012863,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.3701",
+            "name": "magpie-0.1.3711",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1012671,14 +1012888,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.3701",
+        "name": "magpie-0.1.3711",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.3701",
+        "version": "0.1.3711",
         "_attr": "magpie",
         "_repo": "so1ve"
     },
@@ -1014000,7 +1014217,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/waywallen/default.nix#L70",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/waywallen/default.nix#L73",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
