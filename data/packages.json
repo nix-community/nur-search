@@ -266121,7 +266121,7 @@
             },
             "mainProgram": "paintdotnet",
             "maintainers": [],
-            "name": "paintdotnet-5.200.9793.3533",
+            "name": "paintdotnet-5.200.9810.36543",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -266145,14 +266145,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "paintdotnet-5.200.9793.3533",
+        "name": "paintdotnet-5.200.9810.36543",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "paintdotnet",
         "system": "x86_64-linux",
-        "version": "5.200.9793.3533",
+        "version": "5.200.9810.36543",
         "_attr": "paintdotnet",
         "_repo": "duncannah"
     },
@@ -518093,6 +518093,134 @@
         "system": "x86_64-linux",
         "version": "0.78.0-unstable-2026-10-29",
         "_attr": "skippy-native-runtime-vulkan",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.slacky_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/andirsun/Slacky/releases/tag/v1.2.0",
+            "description": "Unofficial Slack desktop client for arm64 Linux",
+            "homepage": "https://github.com/andirsun/Slacky",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "slacky",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "slacky",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "slacky",
+            "maintainers": [
+                {
+                    "email": "da157@voidq.com",
+                    "github": "0xda157",
+                    "githubId": 153149335,
+                    "keys": [
+                        {
+                            "fingerprint": "5A66 FF95 36DE B501 DDD2  1647 B7AC 1B10 365D 45FF"
+                        }
+                    ],
+                    "matrix": "@da157:catgirl.cloud",
+                    "name": "0xda157"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/2m2w6ylabp0snrban9xkjijww8188lac-source/pkgs/by-name/sl/slacky/package.nix",
+                "line": 73
+            },
+            "name": "slacky-1.2.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "da157@voidq.com",
+                    "github": "0xda157",
+                    "githubId": 153149335,
+                    "keys": [
+                        {
+                            "fingerprint": "5A66 FF95 36DE B501 DDD2  1647 B7AC 1B10 365D 45FF"
+                        }
+                    ],
+                    "matrix": "@da157:catgirl.cloud",
+                    "name": "0xda157"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/sl/slacky/package.nix#L69",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "slacky-1.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "slacky",
+        "system": "x86_64-linux",
+        "version": "1.2.0",
+        "_attr": "slacky_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.sniffnet-patched": {
