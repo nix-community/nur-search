@@ -3721,6 +3721,99 @@
         "_attr": "chatgpt",
         "_repo": "Adamekka"
     },
+    "nur.repos.Adamekka.curseforge": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Official CurseForge mod and addon manager",
+            "homepage": "https://www.curseforge.com/download/app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "curseforge",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "curseforge",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "curseforge",
+            "maintainers": [
+                {
+                    "github": "Adamekka",
+                    "githubId": 68786400,
+                    "name": "Adamekka"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/curseforge/default.nix",
+                "line": 38
+            },
+            "name": "curseforge-1.325.0-41594",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Adamekka",
+                    "githubId": 68786400,
+                    "name": "Adamekka"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Adamekka/pkgs/curseforge/default.nix#L34",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "curseforge-1.325.0-41594",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "curseforge",
+        "system": "x86_64-linux",
+        "version": "1.325.0-41594",
+        "_attr": "curseforge",
+        "_repo": "Adamekka"
+    },
     "nur.repos.Adamekka.etterna": {
         "meta": {
             "available": false,
@@ -457824,7 +457917,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/milahu/pkgs/development/python-modules/camoufox/default.nix",
-                "line": 192
+                "line": 242
             },
             "name": "python3.14-camoufox-158.0.1-beta.41",
             "nonTeamMaintainers": [],
@@ -457864,7 +457957,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/milahu/pkgs/development/python-modules/camoufox/default.nix#L189",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/milahu/pkgs/development/python-modules/camoufox/default.nix#L239",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
