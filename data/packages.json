@@ -12104,6 +12104,84 @@
         "_attr": "jwt-tui",
         "_repo": "Chiloute"
     },
+    "nur.repos.Chiloute.vpn-tui": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "VPN manager (OpenVPN/WireGuard) with kill switch: Go daemon vpn-tuid and TUI/CLI client",
+            "homepage": "https://github.com/Chiloute/vpn-tui",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vpn-tui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vpn-tui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "vpn-tui",
+            "maintainers": [],
+            "name": "vpn-tui-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Chiloute/pkgs/vpn-tui/default.nix#L27",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vpn-tui-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vpn-tui",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "vpn-tui",
+        "_repo": "Chiloute"
+    },
     "nur.repos.Communix.bibox": {
         "meta": {
             "available": false,
@@ -187110,7 +187188,7 @@
                 "url": "https://spdx.org/licenses/FSL-1.1-MIT.html"
             },
             "maintainers": [],
-            "name": "crush-0.100.0",
+            "name": "crush-0.101.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -187139,14 +187217,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "crush-0.100.0",
+        "name": "crush-0.101.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "crush",
         "system": "x86_64-linux",
-        "version": "0.100.0",
+        "version": "0.101.0",
         "_attr": "crush",
         "_repo": "charmbracelet"
     },
@@ -1056529,7 +1056607,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/v1.12.0",
+            "changelog": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/v1.13.0",
             "description": "Chrome DevTools for coding agents",
             "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
             "identifiers": {
@@ -1056574,7 +1056652,7 @@
             },
             "mainProgram": "chrome-devtools-mcp",
             "maintainers": [],
-            "name": "chrome-devtools-mcp-1.12.0",
+            "name": "chrome-devtools-mcp-1.13.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1056605,7 +1056683,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/chrome-devtools-mcp/default.nix#L61",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/chrome-devtools-mcp/default.nix#L57",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1056615,14 +1056693,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "chrome-devtools-mcp-1.12.0",
+        "name": "chrome-devtools-mcp-1.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chrome-devtools-mcp",
         "system": "x86_64-linux",
-        "version": "1.12.0",
+        "version": "1.13.0",
         "_attr": "chrome-devtools-mcp",
         "_repo": "trev"
     },
@@ -1057345,7 +1057423,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://trev.zip/llc/flake-release/releases/tag/v0.44.0",
+            "changelog": "https://trev.zip/llc/flake-release/releases/tag/v0.44.1",
             "description": "Flake package releaser",
             "homepage": "https://trev.zip/llc/flake-release",
             "identifiers": {
@@ -1057390,7 +1057468,7 @@
             },
             "mainProgram": "flake-release",
             "maintainers": [],
-            "name": "flake-release-0.44.0",
+            "name": "flake-release-0.44.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1057452,14 +1057530,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "flake-release-0.44.0",
+        "name": "flake-release-0.44.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "flake-release",
         "system": "x86_64-linux",
-        "version": "0.44.0",
+        "version": "0.44.1",
         "_attr": "flake-release",
         "_repo": "trev"
     },
