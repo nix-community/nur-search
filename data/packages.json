@@ -103485,19 +103485,20 @@
         "_attr": "yashiki",
         "_repo": "anntnzrb"
     },
-    "nur.repos.anotherhadi.default-creds-tui": {
+    "nur.repos.anotherhadi.cheatmd": {
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Find default credentials for many devices and software, without leaving the terminal",
-            "homepage": "https://github.com/anotherhadi/default-creds-tui",
+            "changelog": "https://github.com/cheatmd-dev/cheatmd/releases/tag/v1.0.0",
+            "description": "Executable Markdown cheatsheets",
+            "homepage": "https://github.com/cheatmd-dev/cheatmd",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "default-creds-tui",
+                    "product": "cheatmd",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -103511,7 +103512,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "default-creds-tui",
+                        "product": "cheatmd",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -103531,993 +103532,27 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "mainProgram": "default-creds-tui",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/default-creds-tui/default.nix",
-                "line": 26
-            },
-            "name": "default-creds-tui-0.1.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/default-creds-tui/default.nix#L22",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "default-creds-tui-0.1.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "default-creds-tui",
-        "system": "x86_64-linux",
-        "version": "0.1.0",
-        "_attr": "default-creds-tui",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.enzo": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
+            "mainProgram": "cheatmd",
+            "maintainers": [
                 {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
                 }
             ],
-            "broken": false,
-            "description": "Terminal video player",
-            "homepage": "https://github.com/MiguelRegueiro/enzo",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "enzo",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "enzo",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "enzo",
-            "maintainers": [],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/enzo/default.nix",
-                "line": 40
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/cheatmd/default.nix",
+                "line": 44
             },
-            "name": "enzo-1.1.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/enzo/default.nix#L36",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "enzo-1.1.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "enzo",
-        "system": "x86_64-linux",
-        "version": "1.1.0",
-        "_attr": "enzo",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.fztea": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Remote control your flipper from the local terminal or over SSH",
-            "homepage": "https://github.com/jon4hz/fztea",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "fztea",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "fztea",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "fztea",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/fztea/default.nix",
-                "line": 30
-            },
-            "name": "fztea-0.6.4",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/fztea/default.nix#L26",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "fztea-0.6.4",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "fztea",
-        "system": "x86_64-linux",
-        "version": "0.6.4",
-        "_attr": "fztea",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.github-recon": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Retrieves and aggregates public OSINT data about a GitHub user using Go and the GitHub API. Finds hidden emails in commit history, previous usernames, friends, other GitHub accounts, and more.",
-            "homepage": "https://github.com/anotherhadi/github-recon",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "github-recon",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "github-recon",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "github-recon",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/github-recon/default.nix",
-                "line": 32
-            },
-            "name": "github-recon-1.5.6",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/github-recon/default.nix#L28",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "github-recon-1.5.6",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "github-recon",
-        "system": "x86_64-linux",
-        "version": "1.5.6",
-        "_attr": "github-recon",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.gravatar-recon": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": " Retrieve and aggregate public OSINT data from Gravatar. Given an email address, the tool queries the Gravatar API and extracts useful information such as profile metadata, avatar, social accounts, and contact info.",
-            "homepage": "https://github.com/anotherhadi/gravatar-recon",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "gravatar-recon",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "gravatar-recon",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "gravatar-recon",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/gravatar-recon/default.nix",
-                "line": 32
-            },
-            "name": "gravatar-recon-1.0.1",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/gravatar-recon/default.nix#L28",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "gravatar-recon-1.0.1",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "gravatar-recon",
-        "system": "x86_64-linux",
-        "version": "1.0.1",
-        "_attr": "gravatar-recon",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.jwt-tui": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A TUI for inspecting, editing, and signing JSON Web Tokens (JWTs).",
-            "homepage": "https://github.com/anotherhadi/jwt-tui",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "jwt-tui",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "jwt-tui",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "jwt-tui",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/jwt-tui/default.nix",
-                "line": 26
-            },
-            "name": "jwt-tui-0.1.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/jwt-tui/default.nix#L22",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "jwt-tui-0.1.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "jwt-tui",
-        "system": "x86_64-linux",
-        "version": "0.1.0",
-        "_attr": "jwt-tui",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.monitui": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
+            "name": "cheatmd-1.0.0",
+            "nonTeamMaintainers": [
                 {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
                 }
             ],
-            "broken": false,
-            "description": "Delightfully minimal TUI for wrangling Hyprland monitors",
-            "homepage": "https://github.com/nathaniel-fargo/monitui",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "monitui",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "monitui",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "monitui",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/monitui/default.nix",
-                "line": 24
-            },
-            "name": "monitui-0.2.3-unstable-2026-03-14",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/monitui/default.nix#L20",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "monitui-0.2.3-unstable-2026-03-14",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "monitui",
-        "system": "x86_64-linux",
-        "version": "0.2.3-unstable-2026-03-14",
-        "_attr": "monitui",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.myx": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "A lean, beautiful terminal Spotify player",
-            "homepage": "https://github.com/HaseebKhalid1507/Myx",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "myx",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "myx",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "myx",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/myx/default.nix",
-                "line": 34
-            },
-            "name": "myx-0.4.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/myx/default.nix#L30",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "myx-0.4.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "myx",
-        "system": "x86_64-linux",
-        "version": "0.4.0",
-        "_attr": "myx",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.proton-vpn-tui": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A minimal, TUI and keyboard friendly wrapper for proton-vpn-cli",
-            "homepage": "https://github.com/anotherhadi/proton-vpn-tui",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "proton-vpn-tui",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "proton-vpn-tui",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "proton-vpn-tui",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/proton-vpn-tui/default.nix",
-                "line": 26
-            },
-            "name": "proton-vpn-tui-0.0.1",
-            "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
@@ -104568,33 +103603,163 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/proton-vpn-tui/default.nix#L22",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/cheatmd/default.nix#L39",
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "proton-vpn-tui-0.0.1",
+        "name": "cheatmd-1.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "proton-vpn-tui",
+        "pname": "cheatmd",
+        "system": "x86_64-linux",
+        "version": "1.0.0",
+        "_attr": "cheatmd",
+        "_repo": "anotherhadi"
+    },
+    "nur.repos.anotherhadi.operations": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/anotherhadi/operations/releases/tag/v0.0.1",
+            "description": "CyberChef-like data transformations from the terminal",
+            "homepage": "https://github.com/anotherhadi/operations",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "operations",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "operations",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "ops",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/operations/default.nix",
+                "line": 50
+            },
+            "name": "operations-0.0.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/operations/default.nix#L45",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "operations-0.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "operations",
         "system": "x86_64-linux",
         "version": "0.0.1",
-        "_attr": "proton-vpn-tui",
+        "_attr": "operations",
         "_repo": "anotherhadi"
     },
     "nur.repos.anotherhadi.revshell": {
         "meta": {
             "available": true,
             "broken": false,
-            "description": "CLI reverse shell generator",
-            "homepage": "https://github.com/Gubarz/revshell",
+            "changelog": "https://github.com/anotherhadi/revshell/releases/tag/v0.0.2",
+            "description": "TUI to search, render and copy reverse shell one-liners: bind shells, MSFVenom, HoaxShell and shellcode included, with a scriptable CLI",
+            "homepage": "https://github.com/anotherhadi/revshell",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -104628,132 +103793,6 @@
             "license": {
                 "deprecated": false,
                 "free": true,
-                "fullName": "The Unlicense",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "unlicense",
-                "spdxId": "Unlicense",
-                "url": "https://spdx.org/licenses/Unlicense.html"
-            },
-            "mainProgram": "revshell",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/revshell/default.nix",
-                "line": 30
-            },
-            "name": "revshell-0.8.9",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/revshell/default.nix#L26",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "revshell-0.8.9",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "revshell",
-        "system": "x86_64-linux",
-        "version": "0.8.9",
-        "_attr": "revshell",
-        "_repo": "anotherhadi"
-    },
-    "nur.repos.anotherhadi.settuings": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A TUI to manage your Linux system settings like wifi, bluetooth, and more, without leaving the terminal.",
-            "homepage": "https://github.com/anotherhadi/settuings",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "settuings",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "settuings",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
                 "fullName": "MIT License",
                 "licenseType": "simple",
                 "redistributable": true,
@@ -104761,15 +103800,27 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "mainProgram": "settuings",
-            "maintainers": [],
+            "mainProgram": "revshell",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/settuings/default.nix",
-                "line": 36
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/revshell/default.nix",
+                "line": 39
             },
-            "name": "settuings-0.1.0",
-            "nonTeamMaintainers": [],
+            "name": "revshell-0.0.2",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
@@ -104820,32 +103871,28 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/settuings/default.nix#L32",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/revshell/default.nix#L34",
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "settuings-0.1.0",
+        "name": "revshell-0.0.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "settuings",
+        "pname": "revshell",
         "system": "x86_64-linux",
-        "version": "0.1.0",
-        "_attr": "settuings",
+        "version": "0.0.2",
+        "_attr": "revshell",
         "_repo": "anotherhadi"
     },
     "nur.repos.anotherhadi.spilltea": {
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A minimal, terminal-based HTTP(S) proxy for pentesters and CTF players.",
+            "changelog": "https://github.com/anotherhadi/spilltea/releases/tag/v0.0.1",
+            "description": "TUI intercepting proxy for pentesters and bug bounty hunters, a lightweight terminal-first alternative to Burp Suite and Caido",
             "homepage": "https://github.com/anotherhadi/spilltea",
             "identifiers": {
                 "cpeParts": {
@@ -104888,14 +103935,26 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "mainProgram": "spilltea",
-            "maintainers": [],
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/spilltea/default.nix",
-                "line": 36
+                "line": 39
             },
-            "name": "spilltea-0.0.8",
-            "nonTeamMaintainers": [],
+            "name": "spilltea-0.0.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
@@ -104946,40 +104005,36 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/spilltea/default.nix#L32",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/spilltea/default.nix#L34",
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "spilltea-0.0.8",
+        "name": "spilltea-0.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "spilltea",
         "system": "x86_64-linux",
-        "version": "0.0.8",
+        "version": "0.0.1",
         "_attr": "spilltea",
         "_repo": "anotherhadi"
     },
-    "nur.repos.anotherhadi.usbguard-tui": {
+    "nur.repos.anotherhadi.steep": {
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A terminal UI for managing USB devices via usbguard.",
-            "homepage": "https://github.com/anotherhadi/usbguard-tui",
+            "changelog": "https://github.com/anotherhadi/steep/releases/tag/v0.0.4",
+            "description": "TUI to edit, replay and fuzz raw HTTP requests, powered by ffuf",
+            "homepage": "https://github.com/anotherhadi/steep",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "usbguard-tui",
+                    "product": "steep",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -104993,7 +104048,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "usbguard-tui",
+                        "product": "steep",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -105013,21 +104068,40 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "mainProgram": "usbguard-tui",
-            "maintainers": [],
+            "mainProgram": "steep",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
             "maintainersPosition": {
                 "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/usbguard-tui/default.nix",
-                "line": 26
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/steep/default.nix",
+                "line": 48
             },
-            "name": "usbguard-tui-1.3.0",
-            "nonTeamMaintainers": [],
+            "name": "steep-0.0.4",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux",
+                "aarch64-darwin",
                 "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
                 "arc-linux",
                 "armv5tel-linux",
                 "armv6l-linux",
@@ -105049,27 +104123,36 @@
                 "riscv32-linux",
                 "riscv64-linux",
                 "s390-linux",
-                "s390x-linux"
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/usbguard-tui/default.nix#L22",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/steep/default.nix#L43",
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "usbguard-tui-1.3.0",
+        "name": "steep-0.0.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "usbguard-tui",
+        "pname": "steep",
         "system": "x86_64-linux",
-        "version": "1.3.0",
-        "_attr": "usbguard-tui",
+        "version": "0.0.4",
+        "_attr": "steep",
         "_repo": "anotherhadi"
     },
     "nur.repos.anthonyroussel.aws-cdk-local": {
@@ -187853,7 +186936,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "charmtone-0.1.0",
+            "name": "charmtone-0.2.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -187882,14 +186965,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "charmtone-0.1.0",
+        "name": "charmtone-0.2.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "charmtone",
         "system": "x86_64-linux",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "_attr": "charmtone",
         "_repo": "charmbracelet"
     },
@@ -317705,7 +316788,7 @@
             },
             "mainProgram": "ibkr-desktop",
             "maintainers": [],
-            "name": "ibkr-desktop-4.0d",
+            "name": "ibkr-desktop-4.1c",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -317729,14 +316812,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ibkr-desktop-4.0d",
+        "name": "ibkr-desktop-4.1c",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ibkr-desktop",
         "system": "x86_64-linux",
-        "version": "4.0d",
+        "version": "4.1c",
         "_attr": "ibkr-desktop",
         "_repo": "herver"
     },
@@ -1045331,6 +1044414,48 @@
         "_attr": "jellyfin-plugin-ldap-authentication",
         "_repo": "toyvo"
     },
+    "nur.repos.toyvo.kea-technitium-ddns": {
+        "meta": {
+            "description": "Kea DHCP to Technitium dynamic DNS sync",
+            "homepage": "https://github.com/ToyVo/nixcfg",
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "kea-technitium-ddns",
+            "maintainers": [
+                {
+                    "email": "Collin@Diekvoss.com",
+                    "github": "ToyVo",
+                    "githubId": 5168912,
+                    "matrix": "@toyvo:matrix.org",
+                    "name": "Collin Diekvoss"
+                }
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/toyvo"
+        },
+        "name": "kea-technitium-ddns",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "kea-technitium-ddns",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "kea-technitium-ddns",
+        "_repo": "toyvo"
+    },
     "nur.repos.toyvo.libpcpnatpmp": {
         "meta": {
             "available": true,
@@ -1058105,7 +1057230,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/spotdemo4/nix-fix-hash/releases/tag/v0.5.3",
+            "changelog": "https://github.com/spotdemo4/nix-fix-hash/releases/tag/v0.5.4",
             "description": "Nix hash fixer",
             "homepage": "https://github.com/spotdemo4/nix-fix-hash",
             "identifiers": {
@@ -1058150,7 +1057275,7 @@
             },
             "mainProgram": "fix-hash",
             "maintainers": [],
-            "name": "fix-hash-0.5.3",
+            "name": "fix-hash-0.5.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1058205,14 +1057330,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fix-hash-0.5.3",
+        "name": "fix-hash-0.5.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fix-hash",
         "system": "x86_64-linux",
-        "version": "0.5.3",
+        "version": "0.5.4",
         "_attr": "fix-hash",
         "_repo": "trev"
     },
