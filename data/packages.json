@@ -12104,89 +12104,6 @@
         "_attr": "jwt-tui",
         "_repo": "Chiloute"
     },
-    "nur.repos.Chiloute.vpn-tui": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "VPN manager for pentesters (OpenVPN/WireGuard, nftables kill switch): TUI/CLI client and root daemon",
-            "homepage": "https://github.com/Chiloute/vpn-tui",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "vpn-tui",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "vpn-tui",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "vpn-tui",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Chiloute/pkgs/vpn-tui/default.nix",
-                "line": 80
-            },
-            "name": "vpn-tui-0.1.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Chiloute/pkgs/vpn-tui/default.nix#L76",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "vpn-tui-0.1.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "vpn-tui",
-        "system": "x86_64-linux",
-        "version": "0.1.0",
-        "_attr": "vpn-tui",
-        "_repo": "Chiloute"
-    },
     "nur.repos.Communix.bibox": {
         "meta": {
             "available": false,
@@ -524710,7 +524627,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ze/zeroad-unwrapped/package.nix",
-                "line": 193
+                "line": 197
             },
             "name": "0ad-0.28.0",
             "nonTeamMaintainers": [
@@ -524750,7 +524667,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ze/zeroad-unwrapped/package.nix#L184",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ze/zeroad-unwrapped/package.nix#L188",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -524983,7 +524900,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ze/zeroad-unwrapped/package.nix",
-                "line": 193
+                "line": 197
             },
             "name": "0ad-0.28.0",
             "nonTeamMaintainers": [
@@ -525023,7 +524940,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ze/zeroad-unwrapped/package.nix#L184",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ze/zeroad-unwrapped/package.nix#L188",
             "problems": {},
             "unfree": false,
             "unsupported": false
