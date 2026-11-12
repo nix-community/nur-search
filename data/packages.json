@@ -103697,6 +103697,527 @@
         "_attr": "cheatmd",
         "_repo": "anotherhadi"
     },
+    "nur.repos.anotherhadi.default-creds-tui": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/anotherhadi/default-creds-tui/releases/tag/v1.0.1",
+            "description": "Search factory-set default credentials, without leaving the terminal",
+            "homepage": "https://github.com/anotherhadi/default-creds-tui",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "default-creds-tui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "default-creds-tui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "default-creds-tui",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/default-creds-tui/default.nix",
+                "line": 39
+            },
+            "name": "default-creds-tui-1.0.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/default-creds-tui/default.nix#L34",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "default-creds-tui-1.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "default-creds-tui",
+        "system": "x86_64-linux",
+        "version": "1.0.1",
+        "_attr": "default-creds-tui",
+        "_repo": "anotherhadi"
+    },
+    "nur.repos.anotherhadi.github-recon": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/anotherhadi/github-recon/releases/tag/v1.5.7",
+            "description": "Retrieves and aggregates public OSINT data about a GitHub user: hidden commit emails, previous usernames, linked accounts, and more",
+            "homepage": "https://github.com/anotherhadi/github-recon",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "github-recon",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "github-recon",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "github-recon",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/github-recon/default.nix",
+                "line": 36
+            },
+            "name": "github-recon-1.5.7",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/github-recon/default.nix#L31",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "github-recon-1.5.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "github-recon",
+        "system": "x86_64-linux",
+        "version": "1.5.7",
+        "_attr": "github-recon",
+        "_repo": "anotherhadi"
+    },
+    "nur.repos.anotherhadi.gravatar-recon": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/anotherhadi/gravatar-recon/releases/tag/v1.0.1",
+            "description": "Retrieves and aggregates public OSINT data from Gravatar for a target email: profile metadata, avatar, social accounts, and contact info",
+            "homepage": "https://github.com/anotherhadi/gravatar-recon",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gravatar-recon",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gravatar-recon",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "gravatar-recon",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/gravatar-recon/default.nix",
+                "line": 36
+            },
+            "name": "gravatar-recon-1.0.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/gravatar-recon/default.nix#L31",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gravatar-recon-1.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gravatar-recon",
+        "system": "x86_64-linux",
+        "version": "1.0.1",
+        "_attr": "gravatar-recon",
+        "_repo": "anotherhadi"
+    },
+    "nur.repos.anotherhadi.myx": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/HaseebKhalid1507/Myx/releases/tag/v0.5.0",
+            "description": "Lean, beautiful terminal Spotify player",
+            "homepage": "https://github.com/HaseebKhalid1507/Myx",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "myx",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "myx",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "myx",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/myx/default.nix",
+                "line": 35
+            },
+            "name": "myx-0.5.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/myx/default.nix#L30",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "myx-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "myx",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "myx",
+        "_repo": "anotherhadi"
+    },
     "nur.repos.anotherhadi.operations": {
         "meta": {
             "available": true,
@@ -103831,6 +104352,140 @@
         "_attr": "operations",
         "_repo": "anotherhadi"
     },
+    "nur.repos.anotherhadi.proton-vpn-tui": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/anotherhadi/proton-vpn-tui/releases/tag/v0.1.0",
+            "description": "Minimal, keyboard-friendly TUI wrapper for protonvpn-cli",
+            "homepage": "https://github.com/anotherhadi/proton-vpn-tui",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "proton-vpn-tui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "proton-vpn-tui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "proton-vpn-tui",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/proton-vpn-tui/default.nix",
+                "line": 39
+            },
+            "name": "proton-vpn-tui-0.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/proton-vpn-tui/default.nix#L34",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "proton-vpn-tui-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "proton-vpn-tui",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "proton-vpn-tui",
+        "_repo": "anotherhadi"
+    },
     "nur.repos.anotherhadi.revshell": {
         "meta": {
             "available": true,
@@ -103963,6 +104618,119 @@
         "system": "x86_64-linux",
         "version": "0.0.2",
         "_attr": "revshell",
+        "_repo": "anotherhadi"
+    },
+    "nur.repos.anotherhadi.settuings": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/anotherhadi/settuings/releases/tag/v0.1.0",
+            "description": "TUI to manage Linux system settings like wifi and bluetooth, without leaving the terminal",
+            "homepage": "https://github.com/anotherhadi/settuings",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "settuings",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "settuings",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "settuings",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/settuings/default.nix",
+                "line": 49
+            },
+            "name": "settuings-0.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/settuings/default.nix#L44",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "settuings-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "settuings",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "settuings",
         "_repo": "anotherhadi"
     },
     "nur.repos.anotherhadi.spilltea": {
@@ -104231,6 +104999,119 @@
         "system": "x86_64-linux",
         "version": "0.0.4",
         "_attr": "steep",
+        "_repo": "anotherhadi"
+    },
+    "nur.repos.anotherhadi.usbguard-tui": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/anotherhadi/usbguard-tui/releases/tag/v1.4.0",
+            "description": "TUI for managing USB devices via usbguard",
+            "homepage": "https://github.com/anotherhadi/usbguard-tui",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "usbguard-tui",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "usbguard-tui",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "usbguard-tui",
+            "maintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/anotherhadi/pkgs/usbguard-tui/default.nix",
+                "line": 39
+            },
+            "name": "usbguard-tui-1.4.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "anotherhadi",
+                    "githubId": 112569860,
+                    "name": "Hadi"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/anotherhadi/pkgs/usbguard-tui/default.nix#L34",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "usbguard-tui-1.4.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "usbguard-tui",
+        "system": "x86_64-linux",
+        "version": "1.4.0",
+        "_attr": "usbguard-tui",
         "_repo": "anotherhadi"
     },
     "nur.repos.anthonyroussel.aws-cdk-local": {
@@ -292357,7 +293238,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/beeper-nightly/default.nix",
                 "line": 26
             },
-            "name": "beeper-nightly-4.3.311",
+            "name": "beeper-nightly-4.3.315",
             "nonTeamMaintainers": [
                 {
                     "email": "me@joshuadcampbell.com",
@@ -292416,14 +293297,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-nightly-4.3.311",
+        "name": "beeper-nightly-4.3.315",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper-nightly",
         "system": "x86_64-linux",
-        "version": "4.3.311",
+        "version": "4.3.315",
         "_attr": "beeper-nightly",
         "_repo": "forkprince"
     },
@@ -292992,7 +293873,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/brisk/default.nix",
                 "line": 61
             },
-            "name": "brisk-2.4.0",
+            "name": "brisk-2.5.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -293018,14 +293899,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "brisk-2.4.0",
+        "name": "brisk-2.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "brisk",
         "system": "x86_64-linux",
-        "version": "2.4.0",
+        "version": "2.5.0",
         "_attr": "brisk",
         "_repo": "forkprince"
     },
@@ -293100,7 +293981,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/cadcraft/default.nix",
                 "line": 16
             },
-            "name": "cadcraft-0.19.0",
+            "name": "cadcraft-0.20.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -293149,14 +294030,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cadcraft-0.19.0",
+        "name": "cadcraft-0.20.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cadcraft",
         "system": "x86_64-linux",
-        "version": "0.19.0",
+        "version": "0.20.1",
         "_attr": "cadcraft",
         "_repo": "forkprince"
     },
@@ -293844,7 +294725,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/craft-anything/default.nix",
                 "line": 16
             },
-            "name": "craft-anything-0.6.0",
+            "name": "craft-anything-0.6.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -293893,14 +294774,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "craft-anything-0.6.0",
+        "name": "craft-anything-0.6.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "craft-anything",
         "system": "x86_64-linux",
-        "version": "0.6.0",
+        "version": "0.6.1",
         "_attr": "craft-anything",
         "_repo": "forkprince"
     },
@@ -294161,7 +295042,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/deckcraft/default.nix",
                 "line": 16
             },
-            "name": "deckcraft-0.17.0",
+            "name": "deckcraft-0.18.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -294210,14 +295091,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deckcraft-0.17.0",
+        "name": "deckcraft-0.18.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deckcraft",
         "system": "x86_64-linux",
-        "version": "0.17.0",
+        "version": "0.18.1",
         "_attr": "deckcraft",
         "_repo": "forkprince"
     },
@@ -294292,7 +295173,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/designcraft/default.nix",
                 "line": 16
             },
-            "name": "designcraft-0.19.0",
+            "name": "designcraft-0.20.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -294341,14 +295222,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "designcraft-0.19.0",
+        "name": "designcraft-0.20.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "designcraft",
         "system": "x86_64-linux",
-        "version": "0.19.0",
+        "version": "0.20.1",
         "_attr": "designcraft",
         "_repo": "forkprince"
     },
@@ -294703,7 +295584,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/effectcraft/default.nix",
                 "line": 16
             },
-            "name": "effectcraft-0.23.1",
+            "name": "effectcraft-0.24.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -294752,14 +295633,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-0.23.1",
+        "name": "effectcraft-0.24.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft",
         "system": "x86_64-linux",
-        "version": "0.23.1",
+        "version": "0.24.1",
         "_attr": "effectcraft",
         "_repo": "forkprince"
     },
@@ -295311,7 +296192,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/figcraft/default.nix",
                 "line": 16
             },
-            "name": "figcraft-0.17.0",
+            "name": "figcraft-0.18.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -295360,14 +296241,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "figcraft-0.17.0",
+        "name": "figcraft-0.18.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "figcraft",
         "system": "x86_64-linux",
-        "version": "0.17.0",
+        "version": "0.18.1",
         "_attr": "figcraft",
         "_repo": "forkprince"
     },
@@ -295536,7 +296417,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/filmcraft/default.nix",
                 "line": 16
             },
-            "name": "filmcraft-0.19.0",
+            "name": "filmcraft-0.20.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -295585,14 +296466,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "filmcraft-0.19.0",
+        "name": "filmcraft-0.20.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "filmcraft",
         "system": "x86_64-linux",
-        "version": "0.19.0",
+        "version": "0.20.1",
         "_attr": "filmcraft",
         "_repo": "forkprince"
     },
@@ -295858,7 +296739,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-canary-bin/default.nix",
                 "line": 23
             },
-            "name": "fluxer-canary-bin-2026.1111.10840",
+            "name": "fluxer-canary-bin-2026.1112.143231",
             "nonTeamMaintainers": [
                 {
                     "github": "WoutFontaine",
@@ -295912,14 +296793,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-canary-bin-2026.1111.10840",
+        "name": "fluxer-canary-bin-2026.1112.143231",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer-canary-bin",
         "system": "x86_64-linux",
-        "version": "2026.1111.10840",
+        "version": "2026.1112.143231",
         "_attr": "fluxer-canary-bin",
         "_repo": "forkprince"
     },
@@ -295987,7 +296868,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-stable-bin/default.nix",
                 "line": 23
             },
-            "name": "fluxer-stable-bin-2026.1109.42917",
+            "name": "fluxer-stable-bin-2026.1112.24929",
             "nonTeamMaintainers": [
                 {
                     "github": "WoutFontaine",
@@ -296041,14 +296922,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-stable-bin-2026.1109.42917",
+        "name": "fluxer-stable-bin-2026.1112.24929",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer-stable-bin",
         "system": "x86_64-linux",
-        "version": "2026.1109.42917",
+        "version": "2026.1112.24929",
         "_attr": "fluxer-stable-bin",
         "_repo": "forkprince"
     },
@@ -296201,7 +297082,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/folio-studio/default.nix",
                 "line": 17
             },
-            "name": "folio-studio-0.1.10",
+            "name": "folio-studio-0.1.11",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -296250,14 +297131,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "folio-studio-0.1.10",
+        "name": "folio-studio-0.1.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "folio-studio",
         "system": "x86_64-linux",
-        "version": "0.1.10",
+        "version": "0.1.11",
         "_attr": "folio-studio",
         "_repo": "forkprince"
     },
@@ -296555,7 +297436,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/genoffice/default.nix",
                 "line": 16
             },
-            "name": "genoffice-0.12.852",
+            "name": "genoffice-0.13.18",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -296581,14 +297462,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "genoffice-0.12.852",
+        "name": "genoffice-0.13.18",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "genoffice",
         "system": "x86_64-linux",
-        "version": "0.12.852",
+        "version": "0.13.18",
         "_attr": "genoffice",
         "_repo": "forkprince"
     },
@@ -297081,7 +297962,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/gridcraft/default.nix",
                 "line": 16
             },
-            "name": "gridcraft-0.18.0",
+            "name": "gridcraft-0.19.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -297130,14 +298011,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gridcraft-0.18.0",
+        "name": "gridcraft-0.19.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gridcraft",
         "system": "x86_64-linux",
-        "version": "0.18.0",
+        "version": "0.19.1",
         "_attr": "gridcraft",
         "_repo": "forkprince"
     },
@@ -297685,7 +298566,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/horizon/default.nix",
                 "line": 43
             },
-            "name": "horizon-launcher-0.2.59",
+            "name": "horizon-launcher-0.2.61",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -297711,14 +298592,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-launcher-0.2.59",
+        "name": "horizon-launcher-0.2.61",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon-launcher",
         "system": "x86_64-linux",
-        "version": "0.2.59",
+        "version": "0.2.61",
         "_attr": "horizon",
         "_repo": "forkprince"
     },
@@ -298315,7 +299196,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/kryoto-desktop/default.nix",
                 "line": 35
             },
-            "name": "kryoto-desktop-0.3.3",
+            "name": "kryoto-desktop-0.3.5",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -298340,14 +299221,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kryoto-desktop-0.3.3",
+        "name": "kryoto-desktop-0.3.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kryoto-desktop",
         "system": "x86_64-linux",
-        "version": "0.3.3",
+        "version": "0.3.5",
         "_attr": "kryoto-desktop",
         "_repo": "forkprince"
     },
@@ -298503,7 +299384,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/light-studio/default.nix",
                 "line": 17
             },
-            "name": "light-studio-0.1.34",
+            "name": "light-studio-0.1.35",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -298552,14 +299433,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "light-studio-0.1.34",
+        "name": "light-studio-0.1.35",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "light-studio",
         "system": "x86_64-linux",
-        "version": "0.1.34",
+        "version": "0.1.35",
         "_attr": "light-studio",
         "_repo": "forkprince"
     },
@@ -298634,7 +299515,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/lightcraft/default.nix",
                 "line": 16
             },
-            "name": "lightcraft-0.20.0",
+            "name": "lightcraft-0.21.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -298683,14 +299564,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lightcraft-0.20.0",
+        "name": "lightcraft-0.21.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lightcraft",
         "system": "x86_64-linux",
-        "version": "0.20.0",
+        "version": "0.21.1",
         "_attr": "lightcraft",
         "_repo": "forkprince"
     },
@@ -299035,7 +299916,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/macsai/default.nix",
                 "line": 20
             },
-            "name": "MacSai-1.28.0",
+            "name": "MacSai-1.32.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -299060,14 +299941,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "MacSai-1.28.0",
+        "name": "MacSai-1.32.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "MacSai",
         "system": "x86_64-linux",
-        "version": "1.28.0",
+        "version": "1.32.0",
         "_attr": "macsai",
         "_repo": "forkprince"
     },
@@ -301806,7 +302687,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/orca/default.nix",
                 "line": 20
             },
-            "name": "orca-1.4.256",
+            "name": "orca-1.4.257",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -301831,14 +302712,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.256",
+        "name": "orca-1.4.257",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.256",
+        "version": "1.4.257",
         "_attr": "orca",
         "_repo": "forkprince"
     },
@@ -302520,7 +303401,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/passepartout/default.nix",
                 "line": 21
             },
-            "name": "passepartout-3.12.4",
+            "name": "passepartout-3.12.5",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -302545,14 +303426,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "passepartout-3.12.4",
+        "name": "passepartout-3.12.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "passepartout",
         "system": "x86_64-linux",
-        "version": "3.12.4",
+        "version": "3.12.5",
         "_attr": "passepartout",
         "_repo": "forkprince"
     },
@@ -302767,7 +303648,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/pdfcraft/default.nix",
                 "line": 16
             },
-            "name": "pdfcraft-0.20.0",
+            "name": "pdfcraft-0.21.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -302816,14 +303697,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-0.20.0",
+        "name": "pdfcraft-0.21.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft",
         "system": "x86_64-linux",
-        "version": "0.20.0",
+        "version": "0.21.1",
         "_attr": "pdfcraft",
         "_repo": "forkprince"
     },
@@ -303120,7 +304001,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/photocraft/default.nix",
                 "line": 16
             },
-            "name": "photocraft-0.22.0",
+            "name": "photocraft-0.23.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -303169,14 +304050,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "photocraft-0.22.0",
+        "name": "photocraft-0.23.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photocraft",
         "system": "x86_64-linux",
-        "version": "0.22.0",
+        "version": "0.23.1",
         "_attr": "photocraft",
         "_repo": "forkprince"
     },
@@ -303237,7 +304118,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/photon-studio/default.nix",
                 "line": 17
             },
-            "name": "photon-studio-0.1.71",
+            "name": "photon-studio-0.1.72",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -303286,14 +304167,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "photon-studio-0.1.71",
+        "name": "photon-studio-0.1.72",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photon-studio",
         "system": "x86_64-linux",
-        "version": "0.1.71",
+        "version": "0.1.72",
         "_attr": "photon-studio",
         "_repo": "forkprince"
     },
@@ -303537,6 +304418,125 @@
         "system": "x86_64-linux",
         "version": "3.1.0",
         "_attr": "playcover",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.pokemon-fulldex": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Launcher for Pok\u00e9mon DS and GBA games in widescreen at 60 fps",
+            "homepage": "https://github.com/mamesj/pokemon-fulldex",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pokemon-fulldex",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pokemon-fulldex",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "pokemon-fulldex",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/pokemon-fulldex/default.nix",
+                "line": 31
+            },
+            "name": "pokemon-fulldex-2026-11-08",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/pokemon-fulldex/default.nix#L27",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pokemon-fulldex-2026-11-08",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pokemon-fulldex",
+        "system": "x86_64-linux",
+        "version": "2026-11-08",
+        "_attr": "pokemon-fulldex",
         "_repo": "forkprince"
     },
     "nur.repos.forkprince.proton-cachyos-arm-bin": {
@@ -306124,7 +307124,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/soundcraft/default.nix",
                 "line": 16
             },
-            "name": "soundcraft-0.19.0",
+            "name": "soundcraft-0.20.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -306173,14 +307173,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "soundcraft-0.19.0",
+        "name": "soundcraft-0.20.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "soundcraft",
         "system": "x86_64-linux",
-        "version": "0.19.0",
+        "version": "0.20.1",
         "_attr": "soundcraft",
         "_repo": "forkprince"
     },
@@ -306321,6 +307321,100 @@
         "_attr": "steam",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.steamac": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon",
+            "homepage": "https://github.com/fxgl/steamac",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "steamac",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "steamac",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/steamac/default.nix",
+                "line": 20
+            },
+            "name": "steamac-1.9.13",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/steamac/default.nix#L18",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "steamac-1.9.13",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "steamac",
+        "system": "x86_64-linux",
+        "version": "1.9.13",
+        "_attr": "steamac",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.streamnook": {
         "meta": {
             "available": false,
@@ -306378,7 +307472,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/streamnook/default.nix",
                 "line": 29
             },
-            "name": "streamnook-8.9.0",
+            "name": "streamnook-8.9.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -306404,14 +307498,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "streamnook-8.9.0",
+        "name": "streamnook-8.9.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "streamnook",
         "system": "x86_64-linux",
-        "version": "8.9.0",
+        "version": "8.9.1",
         "_attr": "streamnook",
         "_repo": "forkprince"
     },
@@ -307437,7 +308531,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/vector-studio/default.nix",
                 "line": 17
             },
-            "name": "vector-studio-0.1.27",
+            "name": "vector-studio-0.1.28",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -307486,14 +308580,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "vector-studio-0.1.27",
+        "name": "vector-studio-0.1.28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vector-studio",
         "system": "x86_64-linux",
-        "version": "0.1.27",
+        "version": "0.1.28",
         "_attr": "vector-studio",
         "_repo": "forkprince"
     },
@@ -307568,7 +308662,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/vectorcraft/default.nix",
                 "line": 16
             },
-            "name": "vectorcraft-0.23.0",
+            "name": "vectorcraft-0.24.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -307617,14 +308711,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vectorcraft-0.23.0",
+        "name": "vectorcraft-0.24.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vectorcraft",
         "system": "x86_64-linux",
-        "version": "0.23.0",
+        "version": "0.24.1",
         "_attr": "vectorcraft",
         "_repo": "forkprince"
     },
@@ -308609,7 +309703,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/wordcraft/default.nix",
                 "line": 16
             },
-            "name": "wordcraft-0.17.0",
+            "name": "wordcraft-0.18.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -308658,14 +309752,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wordcraft-0.17.0",
+        "name": "wordcraft-0.18.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wordcraft",
         "system": "x86_64-linux",
-        "version": "0.17.0",
+        "version": "0.18.1",
         "_attr": "wordcraft",
         "_repo": "forkprince"
     },
@@ -1058770,7 +1059864,7 @@
                 "aarch64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/kotlin-lsp/default.nix#L128",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/trev/packages/kotlin-lsp/default.nix#L167",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
