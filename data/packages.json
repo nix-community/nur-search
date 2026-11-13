@@ -66064,6 +66064,173 @@
         "_attr": "sourcetrail",
         "_repo": "VZstless"
     },
+    "nur.repos.Wian1977.blackhole-screensaver": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Real-physics Schwarzschild black-hole OpenGL screensaver",
+            "homepage": "https://github.com/Wian1977/blackholescreensaver",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "blackhole-screensaver",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "blackhole-screensaver",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "blackhole-screensaver",
+            "maintainers": [],
+            "name": "blackhole-screensaver-1.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Wian1977/pkgs/blackhole-screensaver/default.nix#L48",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "blackhole-screensaver-1.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "blackhole-screensaver",
+        "system": "x86_64-linux",
+        "version": "1.1.0",
+        "_attr": "blackhole-screensaver",
+        "_repo": "Wian1977"
+    },
+    "nur.repos.Wian1977.miniam": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Apple Music in the terminal with true-color cover art and spectrum",
+            "homepage": "https://github.com/Wian1977/miniam",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "miniam",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "miniam",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "mainProgram": "miniam",
+            "maintainers": [],
+            "name": "miniam-0.1.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Wian1977/pkgs/miniam/default.nix#L26",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "miniam-0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "miniam",
+        "system": "x86_64-linux",
+        "version": "0.1.0",
+        "_attr": "miniam",
+        "_repo": "Wian1977"
+    },
     "nur.repos.XiaoXioe.binance": {
         "meta": {
             "available": false,
@@ -109770,6 +109937,106 @@
         "version": "0.1.5",
         "_attr": "shcopy",
         "_repo": "aymanbagabas"
+    },
+    "nur.repos.b6d5b38e0d7ae6bd0d951815cd92df43.injectd": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A tool to inject custom boot messages into the console",
+            "homepage": "https://codeberg.org/b6d5b38e0d7ae6bd0d951815cd92df43/injectd",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "injectd",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "injectd",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "injectd",
+            "maintainers": [],
+            "name": "injectd-1.0.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/b6d5b38e0d7ae6bd0d951815cd92df43/pkgs/injectd/default.nix#L21",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "injectd-1.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "injectd",
+        "system": "x86_64-linux",
+        "version": "1.0.1",
+        "_attr": "injectd",
+        "_repo": "b6d5b38e0d7ae6bd0d951815cd92df43"
     },
     "nur.repos.babariviere.godot": {
         "meta": {
@@ -170241,6 +170508,690 @@
         "_attr": "example-package",
         "_repo": "behoof4mind"
     },
+    "nur.repos.beiyanyunyi.codex-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Lightweight coding agent that runs in your terminal (official binaries)",
+            "homepage": "https://github.com/openai/codex",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "codex-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "codex-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "codex",
+            "maintainers": [],
+            "name": "codex-bin-0.169.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/beiyanyunyi/pkgs/codex-bin/default.nix#L120",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "codex-bin-0.169.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "codex-bin",
+        "system": "x86_64-linux",
+        "version": "0.169.0",
+        "_attr": "codex-bin",
+        "_repo": "beiyanyunyi"
+    },
+    "nur.repos.beiyanyunyi.mihomo-oix": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Mihomo with Smart Groups (amd64-v3 on x86_64)",
+            "homepage": "https://github.com/vernesong/mihomo-oix",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mihomo-oix",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mihomo-oix",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "mihomo",
+            "maintainers": [],
+            "name": "mihomo-oix-alpha-oix-1bda4ab",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/beiyanyunyi/pkgs/mihomo-oix/default.nix#L44",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mihomo-oix-alpha-oix-1bda4ab",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mihomo-oix-alpha-oix",
+        "system": "x86_64-linux",
+        "version": "1bda4ab",
+        "_attr": "mihomo-oix",
+        "_repo": "beiyanyunyi"
+    },
+    "nur.repos.beiyanyunyi.patchelf-unstable": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/NixOS/patchelf/blob/0.19.3-unstable-2026-10-30/ChangeLog.md",
+            "description": "Small utility to modify the dynamic linker and RPATH of ELF executables",
+            "homepage": "https://github.com/NixOS/patchelf",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "patchelf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "patchelf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "patchelf",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/development/tools/misc/patchelf/default.nix",
+                "line": 38
+            },
+            "name": "patchelf-0.19.3-unstable-2026-10-30",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/BeiyanYunyi/NUR-Repo/blob/HEAD/pkgs/development/tools/misc/patchelf/default.nix#L34",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "patchelf-0.19.3-unstable-2026-10-30",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "patchelf",
+        "system": "x86_64-linux",
+        "version": "0.19.3-unstable-2026-10-30",
+        "_attr": "patchelf-unstable",
+        "_repo": "beiyanyunyi"
+    },
+    "nur.repos.beiyanyunyi.portop": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Terminal UI for inspecting TCP and UDP ports and their owners",
+            "homepage": "https://github.com/padovanl/portop",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "portop",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "portop",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "portop",
+            "maintainers": [],
+            "name": "portop-0.4.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/beiyanyunyi/pkgs/portop/default.nix#L40",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "portop-0.4.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "portop",
+        "system": "x86_64-linux",
+        "version": "0.4.0",
+        "_attr": "portop",
+        "_repo": "beiyanyunyi"
+    },
+    "nur.repos.beiyanyunyi.qingjian": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Qingjian input method with an Fcitx5 addon, local engine, and dictionary",
+            "homepage": "https://qingjian.app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "fcitx5-qingjian",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "fcitx5-qingjian",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "qingjian-linux-server",
+            "maintainers": [],
+            "name": "fcitx5-qingjian-0.3.3",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/beiyanyunyi/pkgs/qingjian/default.nix#L142",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "fcitx5-qingjian-0.3.3",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "fcitx5-qingjian",
+        "system": "x86_64-linux",
+        "version": "0.3.3",
+        "_attr": "qingjian",
+        "_repo": "beiyanyunyi"
+    },
+    "nur.repos.beiyanyunyi.rime-ice": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/iDvel/rime-ice/blob/main/others/CHANGELOG.md",
+            "description": "Actively maintained simplified Chinese dictionary with full and double pinyin support",
+            "homepage": "https://github.com/iDvel/rime-ice",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rime-ice",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rime-ice",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "longDescription": "Rime-Ice (\u96fe\u51c7\u62fc\u97f3) provides a comprehensive, ready-to-use configuration.\nIt includes full Pinyin and popular Double Pinyin layouts,\na well-maintained open-source dictionary,\nand a wide range of extended features.\n\nTo enable the upstream `default.yaml`\n(provided as `rime_ice_suggestion.yaml`),\nadd the following to your `default.custom.yaml`:\n\n```yaml\npatch:\n  __include: rime_ice_suggestion:/\n```\n",
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                },
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                },
+                {
+                    "email": "luochen1990@gmail.com",
+                    "github": "luochen1990",
+                    "githubId": 2309868,
+                    "name": "Luo Chen"
+                },
+                {
+                    "email": "wrvsrx@outlook.com",
+                    "github": "wrvsrx",
+                    "githubId": 42770726,
+                    "name": "wrvsrx"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/by-name/ri/rime-ice/package.nix",
+                "line": 54
+            },
+            "name": "rime-ice-927e1cf1d3eeb9bf4be85e3f684dba4dd485b6f6",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                },
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                },
+                {
+                    "email": "luochen1990@gmail.com",
+                    "github": "luochen1990",
+                    "githubId": 2309868,
+                    "name": "Luo Chen"
+                },
+                {
+                    "email": "wrvsrx@outlook.com",
+                    "github": "wrvsrx",
+                    "githubId": 42770726,
+                    "name": "wrvsrx"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/BeiyanYunyi/NUR-Repo/blob/HEAD/pkgs/by-name/ri/rime-ice/package.nix#L35",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rime-ice-927e1cf1d3eeb9bf4be85e3f684dba4dd485b6f6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rime-ice",
+        "system": "x86_64-linux",
+        "version": "927e1cf1d3eeb9bf4be85e3f684dba4dd485b6f6",
+        "_attr": "rime-ice",
+        "_repo": "beiyanyunyi"
+    },
     "nur.repos.bendlas.gd32-dfu-utils": {
         "meta": {
             "available": true,
@@ -180481,6 +181432,317 @@
         "version": "0.1.1",
         "_attr": "xdg-open-svc",
         "_repo": "caarlos0"
+    },
+    "nur.repos.callumd789.rustconn": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/totoshko88/RustConn/blob/v0.24.9/CHANGELOG.md",
+            "description": "GTK4/libadwaita connection manager for SSH, RDP, VNC, SPICE, Telnet, Serial and Kubernetes",
+            "homepage": "https://github.com/totoshko88/RustConn",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rustconn",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rustconn",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "rustconn",
+            "maintainers": [],
+            "name": "rustconn-0.24.9",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/callumd789/pkgs/rustconn/package.nix#L120",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rustconn-0.24.9",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rustconn",
+        "system": "x86_64-linux",
+        "version": "0.24.9",
+        "_attr": "rustconn",
+        "_repo": "callumd789"
+    },
+    "nur.repos.callumd789.tmux-agent-sidebar": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/hiroppy/tmux-agent-sidebar/releases/tag/v0.13.0",
+            "description": "Tmux sidebar that monitors AI coding agents across all windows and sessions",
+            "homepage": "https://github.com/hiroppy/tmux-agent-sidebar",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tmux-agent-sidebar",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tmux-agent-sidebar",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "tmux-agent-sidebar",
+            "maintainers": [],
+            "name": "tmux-agent-sidebar-0.13.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/callumd789/pkgs/tmux-agent-sidebar/package.nix#L31",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tmux-agent-sidebar-0.13.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tmux-agent-sidebar",
+        "system": "x86_64-linux",
+        "version": "0.13.0",
+        "_attr": "tmux-agent-sidebar",
+        "_repo": "callumd789"
+    },
+    "nur.repos.callumd789.tmux-agent-sidebar-plugin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/hiroppy/tmux-agent-sidebar/releases/tag/v0.13.0",
+            "description": "Tmux plugin for tmux-agent-sidebar, a sidebar that monitors AI coding agents",
+            "homepage": "https://github.com/hiroppy/tmux-agent-sidebar",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tmuxplugin-tmux-agent-sidebar",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tmuxplugin-tmux-agent-sidebar",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "tmuxplugin-tmux-agent-sidebar-0.13.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/callumd789/pkgs/tmux-agent-sidebar-plugin/package.nix#L34",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tmuxplugin-tmux-agent-sidebar-0.13.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tmuxplugin-tmux-agent-sidebar",
+        "system": "x86_64-linux",
+        "version": "0.13.0",
+        "_attr": "tmux-agent-sidebar-plugin",
+        "_repo": "callumd789"
     },
     "nur.repos.cameronyule.lisp-format": {
         "meta": {
@@ -310834,6 +312096,330 @@
         "version": "1.0",
         "_attr": "example-package",
         "_repo": "fractuscontext"
+    },
+    "nur.repos.freegoxing.baidunetdisk": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Baidu Netdisk",
+            "homepage": "https://pan.baidu.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "baidunetdisk",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "baidunetdisk",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "baidunetdisk",
+            "maintainers": [],
+            "name": "baidunetdisk-8.9.7",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/baidunetdisk/default.nix#L122",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "baidunetdisk-8.9.7",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "baidunetdisk",
+        "system": "x86_64-linux",
+        "version": "8.9.7",
+        "_attr": "baidunetdisk",
+        "_repo": "freegoxing"
+    },
+    "nur.repos.freegoxing.chatgpt": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://learn.chatgpt.com/docs/changelog?type=codex-app",
+            "description": "Desktop application for ChatGPT",
+            "homepage": "https://developers.openai.com/codex/app",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "chatgpt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "chatgpt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "chatgpt",
+            "maintainers": [],
+            "name": "chatgpt-26.1106.51428",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/chatgpt/package.nix#L247",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "chatgpt-26.1106.51428",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "chatgpt",
+        "system": "x86_64-linux",
+        "version": "26.1106.51428",
+        "_attr": "chatgpt",
+        "_repo": "freegoxing"
+    },
+    "nur.repos.freegoxing.lceda-pro": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "LCEDA Pro electronics design automation client",
+            "homepage": "https://lceda.cn/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lceda-pro",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lceda-pro",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "lceda-pro",
+            "maintainers": [],
+            "name": "lceda-pro-4.1.99",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/lceda-pro/default.nix#L112",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "lceda-pro-4.1.99",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lceda-pro",
+        "system": "x86_64-linux",
+        "version": "4.1.99",
+        "_attr": "lceda-pro",
+        "_repo": "freegoxing"
+    },
+    "nur.repos.freegoxing.qq": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Messaging app",
+            "homepage": "https://im.qq.com/index/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "qq",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "qq",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [],
+            "name": "qq-3.2.34-2026-09-24",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/qq/default.nix#L75",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "qq-3.2.34-2026-09-24",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "qq",
+        "system": "x86_64-linux",
+        "version": "3.2.34-2026-09-24",
+        "_attr": "qq",
+        "_repo": "freegoxing"
     },
     "nur.repos.friedow.rofi-lpass": {
         "meta": {
@@ -775143,6 +776729,101 @@
         "_attr": "k8up",
         "_repo": "ressu"
     },
+    "nur.repos.revue.revue-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fast native code review app",
+            "homepage": "https://revue.cleangame.dev/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "revue-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "revue-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "revue",
+            "maintainers": [],
+            "name": "revue-bin-0.44.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/revue/pkgs/revue-bin.nix#L83",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "revue-bin-0.44.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "revue-bin",
+        "system": "x86_64-linux",
+        "version": "0.44.1",
+        "_attr": "revue-bin",
+        "_repo": "revue"
+    },
     "nur.repos.reward.reward": {
         "meta": {
             "available": true,
@@ -1023616,6 +1025297,427 @@
         "version": "0.3.5",
         "_attr": "tray",
         "_repo": "swarsel"
+    },
+    "nur.repos.sylr.git-sylr": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/git/git/blob/v2.56.0/Documentation/RelNotes/2.56.0.adoc",
+            "description": "Distributed version control system (sylr's fork with .gitcleanignore support)",
+            "homepage": "https://github.com/sylr/git/tree/v2.56+sylr",
+            "identifiers": {
+                "cpe": "cpe:2.3:a:git-scm:git-sylr:2.56.0+sylr.3:*:*:*:*:*:*:*",
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "git-sylr",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*",
+                    "update": "*",
+                    "vendor": "git-scm",
+                    "version": "2.56.0+sylr.3"
+                },
+                "possibleCPEs": [
+                    {
+                        "cpe": "cpe:2.3:a:git-scm:git-sylr:2.56.0+sylr.3:*:*:*:*:*:*:*",
+                        "cpeParts": {
+                            "edition": "*",
+                            "language": "*",
+                            "other": "*",
+                            "part": "a",
+                            "product": "git-sylr",
+                            "sw_edition": "*",
+                            "target_hw": "*",
+                            "target_sw": "*",
+                            "update": "*",
+                            "vendor": "git-scm",
+                            "version": "2.56.0+sylr.3"
+                        }
+                    }
+                ],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpe": "cpe:2.3:a:git-scm:git-sylr:2.56.0+sylr.3:*:*:*:*:*:*:*",
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "git-sylr",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*",
+                        "update": "*",
+                        "vendor": "git-scm",
+                        "version": "2.56.0+sylr.3"
+                    },
+                    "possibleCPEs": [
+                        {
+                            "cpe": "cpe:2.3:a:git-scm:git-sylr:2.56.0+sylr.3:*:*:*:*:*:*:*",
+                            "cpeParts": {
+                                "edition": "*",
+                                "language": "*",
+                                "other": "*",
+                                "part": "a",
+                                "product": "git-sylr",
+                                "sw_edition": "*",
+                                "target_hw": "*",
+                                "target_sw": "*",
+                                "update": "*",
+                                "vendor": "git-scm",
+                                "version": "2.56.0+sylr.3"
+                            }
+                        }
+                    ],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "Git, a popular distributed version control system designed to\nhandle very large projects with speed and efficiency.\n",
+            "mainProgram": "git",
+            "maintainers": [
+                {
+                    "email": "Wout.Mertens@gmail.com",
+                    "github": "wmertens",
+                    "githubId": 54934,
+                    "name": "Wout Mertens"
+                },
+                {
+                    "email": "supra4keanu@hotmail.com",
+                    "github": "kashw2",
+                    "githubId": 15855440,
+                    "name": "Keanu Ashwell"
+                },
+                {
+                    "email": "adam@dinwoodie.org",
+                    "github": "me-and",
+                    "githubId": 1397507,
+                    "matrix": "@me_and:matrix.org",
+                    "name": "Adam Dinwoodie"
+                },
+                {
+                    "email": "philip.taron@gmail.com",
+                    "github": "philiptaron",
+                    "githubId": 43863,
+                    "name": "Philip Taron"
+                },
+                {
+                    "email": "brianmlyles@gmail.com",
+                    "github": "zivarah",
+                    "githubId": 1123282,
+                    "name": "Brian Lyles"
+                },
+                {
+                    "email": "balsoft75@gmail.com",
+                    "github": "balsoft",
+                    "githubId": 18467667,
+                    "name": "Alexander Bantyev"
+                },
+                {
+                    "email": "andreas@rammhold.de",
+                    "github": "andir",
+                    "githubId": 638836,
+                    "name": "Andreas Rammhold"
+                },
+                {
+                    "email": "pyrox@pyrox.dev",
+                    "github": "pyrox0",
+                    "githubId": 35778371,
+                    "keys": [
+                        {
+                            "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
+                        }
+                    ],
+                    "matrix": "@pyrox:pyrox.dev",
+                    "name": "Pyrox"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/by-name/gi/git/package.nix",
+                "line": 675
+            },
+            "name": "git-sylr-2.56.0+sylr.3",
+            "nonTeamMaintainers": [
+                {
+                    "email": "Wout.Mertens@gmail.com",
+                    "github": "wmertens",
+                    "githubId": 54934,
+                    "name": "Wout Mertens"
+                },
+                {
+                    "email": "supra4keanu@hotmail.com",
+                    "github": "kashw2",
+                    "githubId": 15855440,
+                    "name": "Keanu Ashwell"
+                },
+                {
+                    "email": "adam@dinwoodie.org",
+                    "github": "me-and",
+                    "githubId": 1397507,
+                    "matrix": "@me_and:matrix.org",
+                    "name": "Adam Dinwoodie"
+                },
+                {
+                    "email": "philip.taron@gmail.com",
+                    "github": "philiptaron",
+                    "githubId": 43863,
+                    "name": "Philip Taron"
+                },
+                {
+                    "email": "brianmlyles@gmail.com",
+                    "github": "zivarah",
+                    "githubId": 1123282,
+                    "name": "Brian Lyles"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sylr/pkgs/git-sylr/default.nix#L57",
+            "problems": {},
+            "teams": [
+                {
+                    "github": "security-review",
+                    "githubId": 16430758,
+                    "githubMaintainers": [
+                        {
+                            "email": "balsoft75@gmail.com",
+                            "github": "balsoft",
+                            "githubId": 18467667,
+                            "name": "Alexander Bantyev"
+                        }
+                    ],
+                    "members": [
+                        {
+                            "email": "balsoft75@gmail.com",
+                            "github": "balsoft",
+                            "githubId": 18467667,
+                            "name": "Alexander Bantyev"
+                        },
+                        {
+                            "email": "andreas@rammhold.de",
+                            "github": "andir",
+                            "githubId": 638836,
+                            "name": "Andreas Rammhold"
+                        },
+                        {
+                            "email": "pyrox@pyrox.dev",
+                            "github": "pyrox0",
+                            "githubId": 35778371,
+                            "keys": [
+                                {
+                                    "fingerprint": "4CA9 72FB ADC8 1416 0F10  3138 FE1D 8A7D 620C 611F"
+                                }
+                            ],
+                            "matrix": "@pyrox:pyrox.dev",
+                            "name": "Pyrox"
+                        }
+                    ],
+                    "scope": "Reviews changes to core packages for Nixpkgs security vulnerabilities: https://github.com/NixOS/nixpkgs/issues/494349",
+                    "shortName": "Security review"
+                }
+            ],
+            "teamsPosition": {
+                "column": 5,
+                "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/by-name/gi/git/package.nix",
+                "line": 682
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "git-sylr-2.56.0+sylr.3",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "doc": null,
+            "out": null
+        },
+        "pname": "git-sylr",
+        "system": "x86_64-linux",
+        "version": "2.56.0+sylr.3",
+        "_attr": "git-sylr",
+        "_repo": "sylr"
+    },
+    "nur.repos.sylr.op-broker": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Resolve 1Password op:// secret references over Tailscale",
+            "homepage": "https://github.com/sylr/op-broker",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "op-broker",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "op-broker",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "op-broker-0.1.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sylr/pkgs/op-broker/default.nix#L48",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "op-broker-0.1.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "op-broker",
+        "system": "x86_64-linux",
+        "version": "0.1.1",
+        "_attr": "op-broker",
+        "_repo": "sylr"
     },
     "nur.repos.szanko.anisette-v3-server": {
         "meta": {
