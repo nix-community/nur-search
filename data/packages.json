@@ -164932,7 +164932,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.3.0",
+            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.3.1",
             "description": "Dynamically generate GitHub stats for your READMEs",
             "homepage": "https://github.com/stats-organization/github-stats-extended",
             "identifiers": {
@@ -164995,7 +164995,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix",
                 "line": 110
             },
-            "name": "github-readme-stats-extended-unwrapped-2.3.0",
+            "name": "github-readme-stats-extended-unwrapped-2.3.1",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -165099,14 +165099,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "github-readme-stats-extended-2.3.0",
+        "name": "github-readme-stats-extended-2.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "github-readme-stats-extended",
         "system": "x86_64-linux",
-        "version": "2.3.0",
+        "version": "2.3.1",
         "_attr": "_bartPackages.github-readme-stats-extended",
         "_repo": "bartoostveen"
     },
@@ -165114,7 +165114,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.3.0",
+            "changelog": "https://github.com/stats-organization/github-stats-extended/releases/tag/v2.3.1",
             "description": "Dynamically generate GitHub stats for your READMEs",
             "homepage": "https://github.com/stats-organization/github-stats-extended",
             "identifiers": {
@@ -165177,7 +165177,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/github-readme-stats-extended-unwrapped/package.nix",
                 "line": 110
             },
-            "name": "github-readme-stats-extended-unwrapped-2.3.0",
+            "name": "github-readme-stats-extended-unwrapped-2.3.1",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -165281,14 +165281,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "github-readme-stats-extended-unwrapped-2.3.0",
+        "name": "github-readme-stats-extended-unwrapped-2.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "github-readme-stats-extended-unwrapped",
         "system": "x86_64-linux",
-        "version": "2.3.0",
+        "version": "2.3.1",
         "_attr": "_bartPackages.github-readme-stats-extended-unwrapped",
         "_repo": "bartoostveen"
     },
@@ -167132,157 +167132,6 @@
         "system": "x86_64-linux",
         "version": "3.8.2",
         "_attr": "_bartPackages.out-of-your-element",
-        "_repo": "bartoostveen"
-    },
-    "nur.repos.bartoostveen._bartPackages.resolvematrix": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "A handy Matrix server resolution library and CLI",
-            "homepage": "https://forgejo.ellis.link/continuwuation/resolvematrix",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "resolvematrix",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "resolvematrix",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Mozilla Public License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
-            },
-            "mainProgram": "resolvematrix",
-            "maintainers": [
-                {
-                    "email": "bart@bartoostveen.nl",
-                    "github": "bartoostveen",
-                    "githubId": 50515369,
-                    "keys": [
-                        {
-                            "fingerprint": "81FF AB19 BAA5 6FFD 6571  890B 992D 94B5 7AC4 3430"
-                        }
-                    ],
-                    "matrix": "@bart:bartoostveen.nl",
-                    "name": "Bart Oostveen"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/resolvematrix/package.nix",
-                "line": 76
-            },
-            "name": "resolvematrix-1.4.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "bart@bartoostveen.nl",
-                    "github": "bartoostveen",
-                    "githubId": 50515369,
-                    "keys": [
-                        {
-                            "fingerprint": "81FF AB19 BAA5 6FFD 6571  890B 992D 94B5 7AC4 3430"
-                        }
-                    ],
-                    "matrix": "@bart:bartoostveen.nl",
-                    "name": "Bart Oostveen"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "i686-windows",
-                "x86_64-windows",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "riscv32-none",
-                "x86_64-redox",
-                "wasm32-wasip1"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bartoostveen/pkgs/resolvematrix/package.nix#L73",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "resolvematrix-1.4.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "resolvematrix",
-        "system": "x86_64-linux",
-        "version": "1.4.0",
-        "_attr": "_bartPackages.resolvematrix",
         "_repo": "bartoostveen"
     },
     "nur.repos.bartoostveen._bartPackages.roundcube-oidc": {
@@ -392993,7 +392842,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/incusos-flasher/default.nix",
                 "line": 49
             },
-            "name": "incusos-flasher-202611112343-unstable-2026-11-12",
+            "name": "incusos-flasher-202611122004-unstable-2026-11-12",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -393036,14 +392885,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "incusos-flasher-202611112343-unstable-2026-11-12",
+        "name": "incusos-flasher-202611122004-unstable-2026-11-12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "incusos-flasher",
         "system": "x86_64-linux",
-        "version": "202611112343-unstable-2026-11-12",
+        "version": "202611122004-unstable-2026-11-12",
         "_attr": "incusos-flasher",
         "_repo": "linyinfeng"
     },
@@ -399165,7 +399014,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/antigravity/default.nix",
                 "line": 134
             },
-            "name": "antigravity-2.6.0-5526304964083712",
+            "name": "antigravity-2.7.0-4507555968450560",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -399208,14 +399057,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "antigravity-2.6.0-5526304964083712",
+        "name": "antigravity-2.7.0-4507555968450560",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity",
         "system": "x86_64-linux",
-        "version": "2.6.0-5526304964083712",
+        "version": "2.7.0-4507555968450560",
         "_attr": "antigravity",
         "_repo": "lonerOrz"
     },
@@ -400154,7 +400003,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fabric/default.nix",
                 "line": 77
             },
-            "name": "python3.14-fabric-0-unstable-20261111-e8162e4ea",
+            "name": "python3.14-fabric-0-unstable-20261112-e8162e4ea",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -400197,7 +400046,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-fabric-0-unstable-20261111-e8162e4ea",
+        "name": "python3.14-fabric-0-unstable-20261112-e8162e4ea",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -400205,7 +400054,7 @@
         },
         "pname": "python3.14-fabric",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261111-e8162e4ea",
+        "version": "0-unstable-20261112-e8162e4ea",
         "_attr": "fabric",
         "_repo": "lonerOrz"
     },
@@ -400612,7 +400461,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/fluxer/default.nix",
                 "line": 117
             },
-            "name": "fluxer-2026.1111.1605",
+            "name": "fluxer-2026.1112.191155",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -400639,14 +400488,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-2026.1111.1605",
+        "name": "fluxer-2026.1112.191155",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer",
         "system": "x86_64-linux",
-        "version": "2026.1111.1605",
+        "version": "2026.1112.191155",
         "_attr": "fluxer",
         "_repo": "lonerOrz"
     },
@@ -401437,7 +401286,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/hongguo-desktop/default.nix",
                 "line": 143
             },
-            "name": "hongguo-desktop-0.2.169",
+            "name": "hongguo-desktop-0.2.170",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -401463,14 +401312,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "hongguo-desktop-0.2.169",
+        "name": "hongguo-desktop-0.2.170",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hongguo-desktop",
         "system": "x86_64-linux",
-        "version": "0.2.169",
+        "version": "0.2.170",
         "_attr": "hongguo-desktop",
         "_repo": "lonerOrz"
     },
@@ -401820,7 +401669,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/kazumi/default.nix",
                 "line": 195
             },
-            "name": "kazumi-2.4.3",
+            "name": "kazumi-2.4.4",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -401841,7 +401690,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kazumi-2.4.3",
+        "name": "kazumi-2.4.4",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -401850,7 +401699,7 @@
         },
         "pname": "kazumi",
         "system": "x86_64-linux",
-        "version": "2.4.3",
+        "version": "2.4.4",
         "_attr": "kazumi",
         "_repo": "lonerOrz"
     },
@@ -401903,7 +401752,7 @@
             },
             "mainProgram": "linux-wallpaperengine",
             "maintainers": [],
-            "name": "linux-wallpaperengine-0-unstable-2026-11-11",
+            "name": "linux-wallpaperengine-0-unstable-2026-11-12",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -401944,14 +401793,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-wallpaperengine-0-unstable-2026-11-11",
+        "name": "linux-wallpaperengine-0-unstable-2026-11-12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "linux-wallpaperengine",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-11",
+        "version": "0-unstable-2026-11-12",
         "_attr": "linux-wallpaperengine",
         "_repo": "lonerOrz"
     },
@@ -402074,7 +401923,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3813",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.3959",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -402131,7 +401980,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/magpie/default.nix",
                 "line": 149
             },
-            "name": "magpie-0.1.3813",
+            "name": "magpie-0.1.3959",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -402175,14 +402024,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.3813",
+        "name": "magpie-0.1.3959",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.3813",
+        "version": "0.1.3959",
         "_attr": "magpie",
         "_repo": "lonerOrz"
     },
@@ -402493,7 +402342,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/niri-git/default.nix",
                 "line": 156
             },
-            "name": "niri-git-26.04-unstable-2026-11-10",
+            "name": "niri-git-26.04-unstable-2026-11-12",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -402531,7 +402380,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "niri-git-26.04-unstable-2026-11-10",
+        "name": "niri-git-26.04-unstable-2026-11-12",
         "outputName": "out",
         "outputs": {
             "doc": null,
@@ -402539,7 +402388,7 @@
         },
         "pname": "niri-git",
         "system": "x86_64-linux",
-        "version": "26.04-unstable-2026-11-10",
+        "version": "26.04-unstable-2026-11-12",
         "_attr": "niri-git",
         "_repo": "lonerOrz"
     },
@@ -402870,7 +402719,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia/default.nix",
                 "line": 142
             },
-            "name": "noctalia-0-unstable-20261111-5a2579c4d",
+            "name": "noctalia-0-unstable-20261112-02af15624",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -402913,14 +402762,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-0-unstable-20261111-5a2579c4d",
+        "name": "noctalia-0-unstable-20261112-02af15624",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "noctalia",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261111-5a2579c4d",
+        "version": "0-unstable-20261112-02af15624",
         "_attr": "noctalia",
         "_repo": "lonerOrz"
     },
@@ -402984,7 +402833,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/noctalia-qs/default.nix",
                 "line": 133
             },
-            "name": "noctalia-qs-0-unstable-20261111-606adedbf",
+            "name": "noctalia-qs-0-unstable-20261112-606adedbf",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -403027,7 +402876,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "noctalia-qs-0-unstable-20261111-606adedbf",
+        "name": "noctalia-qs-0-unstable-20261112-606adedbf",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -403035,7 +402884,7 @@
         },
         "pname": "noctalia-qs",
         "system": "x86_64-linux",
-        "version": "0-unstable-20261111-606adedbf",
+        "version": "0-unstable-20261112-606adedbf",
         "_attr": "noctalia-qs",
         "_repo": "lonerOrz"
     },
@@ -403298,7 +403147,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lonerOrz/pkgs/orca/default.nix",
                 "line": 50
             },
-            "name": "orca-1.4.256",
+            "name": "orca-1.4.257",
             "nonTeamMaintainers": [
                 {
                     "email": "2788892716@qq.com",
@@ -403324,14 +403173,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.256",
+        "name": "orca-1.4.257",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.256",
+        "version": "1.4.257",
         "_attr": "orca",
         "_repo": "lonerOrz"
     },
