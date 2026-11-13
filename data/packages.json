@@ -297292,7 +297292,7 @@
                 "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/by-name/eq/equicord/package.nix",
                 "line": 85
             },
-            "name": "equicord-1.15.17.2",
+            "name": "equicord-2026-11-13",
             "nonTeamMaintainers": [
                 {
                     "email": "raf@notashelf.dev",
@@ -297357,14 +297357,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "equicord-1.15.17.2",
+        "name": "equicord-2026-11-13",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "equicord",
         "system": "x86_64-linux",
-        "version": "1.15.17.2",
+        "version": "2026-11-13",
         "_attr": "equicord",
         "_repo": "forkprince"
     },
@@ -1035751,6 +1035751,142 @@
         "version": "2.12.3",
         "_attr": "hello-join",
         "_repo": "tomberek"
+    },
+    "nur.repos.toonn.purple-matrix": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Matrix support for Pidgin / libpurple",
+            "homepage": "https://github.com/matrix-org/purple-matrix",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "purple-matrix-unstable",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "purple-matrix-unstable",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "free": true,
+                "fullName": "GNU General Public License v2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "nixpkgs@toonn.io",
+                    "github": "toonn",
+                    "githubId": 1486805,
+                    "matrix": "@toonn:matrix.org",
+                    "name": "Toon Nolten"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/toonn/pkgs/purple-matrix/default.nix",
+                "line": 57
+            },
+            "name": "purple-matrix-unstable-2019-06-06",
+            "nonTeamMaintainers": [
+                {
+                    "email": "nixpkgs@toonn.io",
+                    "github": "toonn",
+                    "githubId": 1486805,
+                    "matrix": "@toonn:matrix.org",
+                    "name": "Toon Nolten"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/toonn/pkgs/purple-matrix/default.nix#L54",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "purple-matrix-unstable-2019-06-06",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "purple-matrix-unstable",
+        "system": "x86_64-linux",
+        "version": "2019-06-06",
+        "_attr": "purple-matrix",
+        "_repo": "toonn"
     },
     "nur.repos.toonn.sotp": {
         "meta": {
