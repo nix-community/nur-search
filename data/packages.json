@@ -196088,7 +196088,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix",
                 "line": 93
             },
-            "name": "twintaillauncher-unwrapped-2.5.2",
+            "name": "twintaillauncher-unwrapped-2.5.3",
             "nonTeamMaintainers": [
                 {
                     "email": "claymorwan@fembois.dev",
@@ -196131,14 +196131,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "twintaillauncher-2.5.2",
+        "name": "twintaillauncher-2.5.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "twintaillauncher",
         "system": "x86_64-linux",
-        "version": "2.5.2",
+        "version": "2.5.3",
         "_attr": "twintaillauncher",
         "_repo": "claymorwan"
     },
@@ -196218,7 +196218,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/claymorwan/pkgs/twintaillauncher/twintaillauncher-unwrapped/default.nix",
                 "line": 93
             },
-            "name": "twintaillauncher-unwrapped-2.5.2",
+            "name": "twintaillauncher-unwrapped-2.5.3",
             "nonTeamMaintainers": [
                 {
                     "email": "claymorwan@fembois.dev",
@@ -196261,14 +196261,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "twintaillauncher-unwrapped-2.5.2",
+        "name": "twintaillauncher-unwrapped-2.5.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "twintaillauncher-unwrapped",
         "system": "x86_64-linux",
-        "version": "2.5.2",
+        "version": "2.5.3",
         "_attr": "twintaillauncher-unwrapped",
         "_repo": "claymorwan"
     },
@@ -248002,7 +248002,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L229",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L195",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -248083,7 +248083,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L229",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L195",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -248164,7 +248164,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L229",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dartotsu/nix/package.nix#L195",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1058507,6 +1058507,69 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "toyvo-helix",
+        "_repo": "toyvo"
+    },
+    "nur.repos.toyvo.traefik-cert-sync": {
+        "meta": {
+            "description": "Sync NixOS ACME wildcard certs into cluster TLS secrets",
+            "homepage": "https://github.com/ToyVo/nixcfg",
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "traefik-cert-sync",
+            "maintainers": [
+                {
+                    "email": "Collin@Diekvoss.com",
+                    "github": "ToyVo",
+                    "githubId": 5168912,
+                    "matrix": "@toyvo:matrix.org",
+                    "name": "Collin Diekvoss"
+                }
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/toyvo"
+        },
+        "name": "traefik-cert-sync",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "traefik-cert-sync",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "traefik-cert-sync",
         "_repo": "toyvo"
     },
     "nur.repos.trev.benchstat": {
