@@ -494984,140 +494984,6 @@
         "_attr": "chatgpt-pake",
         "_repo": "mio"
     },
-    "nur.repos.mio.chatgpt_patched": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "changelog": "https://learn.chatgpt.com/docs/changelog?type=codex-app",
-            "description": "Desktop application for ChatGPT",
-            "homepage": "https://developers.openai.com/codex/app",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "chatgpt",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "chatgpt",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "chatgpt",
-            "maintainers": [
-                {
-                    "email": "dev@wattmto.dev",
-                    "github": "wattmto",
-                    "githubId": 93639059,
-                    "name": "wattmto"
-                },
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                },
-                {
-                    "email": "nix@mdaniels.me",
-                    "github": "mdaniels5757",
-                    "githubId": 8762511,
-                    "name": "Michael Daniels"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/by-name/ch/chatgpt/package.nix",
-                "line": 270
-            },
-            "name": "chatgpt-26.1103.60933",
-            "nonTeamMaintainers": [
-                {
-                    "email": "dev@wattmto.dev",
-                    "github": "wattmto",
-                    "githubId": 93639059,
-                    "name": "wattmto"
-                },
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                },
-                {
-                    "email": "nix@mdaniels.me",
-                    "github": "mdaniels5757",
-                    "githubId": 8762511,
-                    "name": "Michael Daniels"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ch/chatgpt/package.nix#L266",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "chatgpt-26.1103.60933",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "chatgpt",
-        "system": "x86_64-linux",
-        "version": "26.1103.60933",
-        "_attr": "chatgpt_patched",
-        "_repo": "mio"
-    },
     "nur.repos.mio.chipotlai-max": {
         "meta": {
             "available": true,
@@ -495504,178 +495370,6 @@
         "system": "x86_64-linux",
         "version": "0.1.2026111107",
         "_attr": "clice",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.codex_patched": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://raw.githubusercontent.com/openai/codex/refs/tags/rust-v0.167.1/CHANGELOG.md",
-            "description": "Lightweight coding agent that runs in your terminal",
-            "homepage": "https://github.com/openai/codex",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "codex",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "codex",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "mainProgram": "codex",
-            "maintainers": [
-                {
-                    "email": "delafthi@pm.me",
-                    "github": "delafthi",
-                    "githubId": 50531499,
-                    "keys": [
-                        {
-                            "fingerprint": "6DBB 0BB9 AEE6 2C2A 8059  7E1C 0092 6686 9818 63CB"
-                        }
-                    ],
-                    "matrix": "@delafthi:matrix.org",
-                    "name": "Thierry Delafontaine"
-                },
-                {
-                    "email": "jhonyangulof+nixpkgs@gmail.com",
-                    "github": "jeafleohj",
-                    "githubId": 26931381,
-                    "name": "Jhony Elmer Angulo Fabian"
-                },
-                {
-                    "email": "mbourgon@gmail.com",
-                    "github": "malob",
-                    "githubId": 2914269,
-                    "name": "Malo Bourgon"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/by-name/co/codex/package.nix",
-                "line": 303
-            },
-            "name": "codex-0.167.1",
-            "nonTeamMaintainers": [
-                {
-                    "email": "delafthi@pm.me",
-                    "github": "delafthi",
-                    "githubId": 50531499,
-                    "keys": [
-                        {
-                            "fingerprint": "6DBB 0BB9 AEE6 2C2A 8059  7E1C 0092 6686 9818 63CB"
-                        }
-                    ],
-                    "matrix": "@delafthi:matrix.org",
-                    "name": "Thierry Delafontaine"
-                },
-                {
-                    "email": "jhonyangulof+nixpkgs@gmail.com",
-                    "github": "jeafleohj",
-                    "githubId": 26931381,
-                    "name": "Jhony Elmer Angulo Fabian"
-                },
-                {
-                    "email": "mbourgon@gmail.com",
-                    "github": "malob",
-                    "githubId": 2914269,
-                    "name": "Malo Bourgon"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/co/codex/package.nix#L298",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "codex-0.167.1",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "codex",
-        "system": "x86_64-linux",
-        "version": "0.167.1",
-        "_attr": "codex_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.codexctl": {
@@ -519353,164 +519047,6 @@
         "system": "x86_64-linux",
         "version": "7.4.0",
         "_attr": "tab-session-manager-firefox",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.tectonic_patched": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/tectonic-typesetting/tectonic/blob/tectonic@0.17.0/CHANGELOG.md",
-            "description": "TeX/LaTeX engine, wrapped with a compatible biber",
-            "homepage": "https://tectonic-typesetting.github.io/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "tectonic",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "tectonic",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "tectonic",
-            "maintainers": [
-                {
-                    "email": "me@doronbehar.com",
-                    "github": "doronbehar",
-                    "githubId": 10998835,
-                    "name": "Doron Behar"
-                },
-                {
-                    "email": "bryanlais@gmail.com",
-                    "github": "bryango",
-                    "githubId": 26322692,
-                    "name": "Bryan Lai"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/21znw7y9migznwlc8hbqyv8wjp0kz8ld-source/pkgs/by-name/te/tectonic-unwrapped/package.nix",
-                "line": 131
-            },
-            "name": "tectonic-0.17.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "lukas.werling@gmail.com",
-                    "github": "lluchs",
-                    "githubId": 516527,
-                    "name": "Lukas Werling"
-                },
-                {
-                    "email": "me@doronbehar.com",
-                    "github": "doronbehar",
-                    "githubId": 10998835,
-                    "name": "Doron Behar"
-                },
-                {
-                    "email": "bryanlais@gmail.com",
-                    "github": "bryango",
-                    "githubId": 26322692,
-                    "name": "Bryan Lai"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "i686-windows",
-                "x86_64-windows",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "riscv32-none",
-                "x86_64-redox",
-                "wasm32-wasip1"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/te/tectonic/package.nix#L48",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "tectonic-wrapped-0.17.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "tectonic-wrapped",
-        "system": "x86_64-linux",
-        "version": "0.17.0",
-        "_attr": "tectonic_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.telegram-desktop_682": {
@@ -781374,7 +780910,7 @@
             "available": true,
             "broken": false,
             "description": "Changes the color of Firefox theme to match the website\u2019s appearance.",
-            "homepage": "https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour",
+            "homepage": "https://github.com/atbc-org/Adaptive-Tab-Bar-Colour",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -790784,7 +790320,7 @@
                 "identity",
                 "<all_urls>"
             ],
-            "name": "bramble-1.35.0",
+            "name": "bramble-1.36.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -790880,14 +790416,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "bramble-1.35.0",
+        "name": "bramble-1.36.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "bramble",
         "system": "x86_64-linux",
-        "version": "1.35.0",
+        "version": "1.36.0",
         "_attr": "firefox-addons.bramble",
         "_repo": "rycee"
     },
@@ -815798,7 +815334,7 @@
                 "https://github.com/",
                 "https://github.com/*"
             ],
-            "name": "github-isometric-contributions-1.2.8",
+            "name": "github-isometric-contributions-1.2.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -815894,14 +815430,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "github-isometric-contributions-1.2.8",
+        "name": "github-isometric-contributions-1.2.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "github-isometric-contributions",
         "system": "x86_64-linux",
-        "version": "1.2.8",
+        "version": "1.2.9",
         "_attr": "firefox-addons.github-isometric-contributions",
         "_repo": "rycee"
     },
@@ -825256,7 +824792,7 @@
                 "storage",
                 "contextMenus"
             ],
-            "name": "kagi-search-0.7.7",
+            "name": "kagi-search-0.7.8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -825352,14 +824888,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kagi-search-0.7.7",
+        "name": "kagi-search-0.7.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kagi-search",
         "system": "x86_64-linux",
-        "version": "0.7.7",
+        "version": "0.7.8",
         "_attr": "firefox-addons.kagi-search",
         "_repo": "rycee"
     },
@@ -882852,7 +882388,7 @@
                 "search",
                 "storage"
             ],
-            "name": "yang-2.1.4",
+            "name": "yang-2.1.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882948,14 +882484,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "yang-2.1.4",
+        "name": "yang-2.1.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "yang",
         "system": "x86_64-linux",
-        "version": "2.1.4",
+        "version": "2.1.5",
         "_attr": "firefox-addons.yang",
         "_repo": "rycee"
     },
@@ -887858,7 +887394,7 @@
                 "downloads",
                 "management"
             ],
-            "name": "cardbook-107.7",
+            "name": "cardbook-120.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887954,14 +887490,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cardbook-107.7",
+        "name": "cardbook-120.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cardbook",
         "system": "x86_64-linux",
-        "version": "107.7",
+        "version": "120.0",
         "_attr": "thunderbird-addons.cardbook",
         "_repo": "rycee"
     },
@@ -890236,7 +889772,7 @@
             },
             "maintainers": [],
             "mozPermissions": [],
-            "name": "tb-langpack-de-153.7.20261110.162734",
+            "name": "tb-langpack-de-161.0.20261111.165556",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890332,14 +889868,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tb-langpack-de-153.7.20261110.162734",
+        "name": "tb-langpack-de-161.0.20261111.165556",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tb-langpack-de",
         "system": "x86_64-linux",
-        "version": "153.7.20261110.162734",
+        "version": "161.0.20261111.165556",
         "_attr": "thunderbird-addons.tb-langpack-de",
         "_repo": "rycee"
     },
@@ -1032566,7 +1032102,7 @@
             },
             "mainProgram": "ccpocket-bridge",
             "maintainers": [],
-            "name": "ccpocket-bridge-1.103.0",
+            "name": "ccpocket-bridge-1.106.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1032607,14 +1032143,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ccpocket-bridge-1.103.0",
+        "name": "ccpocket-bridge-1.106.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ccpocket-bridge",
         "system": "x86_64-linux",
-        "version": "1.103.0",
+        "version": "1.106.1",
         "_attr": "ccpocket-bridge",
         "_repo": "tnmt"
     },
@@ -1195854,7 +1195390,7 @@
     },
     "nur.repos.zerozawa.lightnovel-crawler": {
         "meta": {
-            "available": true,
+            "available": false,
             "broken": false,
             "description": "Turn a web novel into an e-book with one command \u2014 or run a private server that keeps your whole library downloaded, translated, and readable in the browser.",
             "homepage": "https://github.com/lncrawl/lightnovel-crawler",
@@ -1195887,7 +1195423,7 @@
                     "purls": []
                 }
             },
-            "insecure": false,
+            "insecure": true,
             "isBuildPythonPackage": [
                 "x86_64-linux",
                 "aarch64-linux",
@@ -1195920,6 +1195456,9 @@
                 "i686-freebsd",
                 "x86_64-freebsd",
                 "aarch64-freebsd"
+            ],
+            "knownVulnerabilities": [
+                "CVE-2026-120459 (python-jose)"
             ],
             "license": [
                 {
