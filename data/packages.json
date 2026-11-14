@@ -3778,7 +3778,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/curseforge/default.nix",
                 "line": 46
             },
-            "name": "curseforge-1.325.0-41594",
+            "name": "curseforge-1.326.0-42377",
             "nonTeamMaintainers": [
                 {
                     "github": "Adamekka",
@@ -3803,14 +3803,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "curseforge-1.325.0-41594",
+        "name": "curseforge-1.326.0-42377",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "curseforge",
         "system": "x86_64-linux",
-        "version": "1.325.0-41594",
+        "version": "1.326.0-42377",
         "_attr": "curseforge",
         "_repo": "Adamekka"
     },
@@ -300348,7 +300348,7 @@
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "hytale-launcher-unwrapped",
+                    "product": "hytale-launcher",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -300362,7 +300362,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "hytale-launcher-unwrapped",
+                        "product": "hytale-launcher",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -300382,6 +300382,11 @@
             },
             "mainProgram": "hytale-launcher",
             "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                },
                 {
                     "email": "gutyina.gergo.2@gmail.com",
                     "github": "gepbird",
@@ -300411,12 +300416,17 @@
                 }
             ],
             "maintainersPosition": {
-                "column": 7,
+                "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/hytale/default.nix",
-                "line": 100
+                "line": 23
             },
-            "name": "hytale-launcher-unwrapped-2026.10.26-7b63bde",
+            "name": "hytale-launcher-2026.10.26-7b63bde",
             "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                },
                 {
                     "email": "gutyina.gergo.2@gmail.com",
                     "github": "gepbird",
@@ -300452,7 +300462,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/hytale/default.nix#L97",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/hytale/default.nix#L20",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -300463,14 +300473,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "hytale-launcher",
+        "name": "hytale-launcher-2026.10.26-7b63bde",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hytale-launcher",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "2026.10.26-7b63bde",
         "_attr": "hytale",
         "_repo": "forkprince"
     },
