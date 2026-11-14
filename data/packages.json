@@ -416783,7 +416783,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mattrobenolt/pkgs/ziglint/package.nix",
                 "line": 53
             },
-            "name": "ziglint-0.8.2",
+            "name": "ziglint-0.8.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -416809,14 +416809,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ziglint-0.8.2",
+        "name": "ziglint-0.8.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ziglint",
         "system": "x86_64-linux",
-        "version": "0.8.2",
+        "version": "0.8.3",
         "_attr": "default",
         "_repo": "mattrobenolt"
     },
@@ -592386,6 +592386,144 @@
         "system": "x86_64-linux",
         "version": "4.0.0",
         "_attr": "humanizer",
+        "_repo": "prince213"
+    },
+    "nur.repos.prince213.hydro": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Online judge system",
+            "homepage": "https://github.com/hydro-dev/Hydro",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "hydro",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "hydro",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Affero General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "agpl3Only",
+                    "spdxId": "AGPL-3.0-only",
+                    "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "mainProgram": "hydrooj",
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/hy/hydro/package.nix",
+                "line": 112
+            },
+            "name": "hydro-5.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/hy/hydro/package.nix#L105",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "hydro-5.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "hydro",
+        "system": "x86_64-linux",
+        "version": "5.1.0",
+        "_attr": "hydro",
         "_repo": "prince213"
     },
     "nur.repos.prince213.i-have-adhd": {
