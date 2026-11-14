@@ -255698,7 +255698,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "gitpane-v0.18.8",
+            "name": "gitpane-v0.18.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -255753,12 +255753,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gitpane-v0.18.8",
+        "name": "gitpane-v0.18.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "gitpane-v0.18.8",
+        "pname": "gitpane-v0.18.9",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "gitpane",
@@ -256450,6 +256450,92 @@
         "version": "2.49",
         "_attr": "neolight",
         "_repo": "drafolin"
+    },
+    "nur.repos.dromas.dromas": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The dromas command, a client of Dromas, end-to-end encrypted messaging for bots.",
+            "homepage": "https://dromas.dev",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "dromas",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "dromas",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "dromas",
+            "maintainers": [],
+            "name": "dromas-0.6.6",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dromas/pkgs/dromas/default.nix#L47",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "dromas-0.6.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "dromas",
+        "system": "x86_64-linux",
+        "version": "0.6.6",
+        "_attr": "dromas",
+        "_repo": "dromas"
     },
     "nur.repos.dschrempf.beast": {
         "meta": {
@@ -363077,7 +363163,7 @@
             },
             "mainProgram": "apple-reminders-server",
             "maintainers": [],
-            "name": "apple-reminders-server-0-unstable-2026-11-13",
+            "name": "apple-reminders-server-0.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -363095,14 +363181,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "apple-reminders-server-0-unstable-2026-11-13",
+        "name": "apple-reminders-server-0.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "apple-reminders-server",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-13",
+        "version": "0.1.0",
         "_attr": "apple-reminders-server",
         "_repo": "josh"
     },
@@ -398144,6 +398230,174 @@
         "system": "x86_64-linux",
         "version": "1.9",
         "_attr": "ssl-handshake",
+        "_repo": "linyinfeng"
+    },
+    "nur.repos.linyinfeng.stable-web": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Matrix web client written in Rust and Svelte",
+            "homepage": "https://git.sable.moe/SableClient/sable-next",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "stable-web",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "stable-web",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "lin.yinfeng@outlook.com",
+                    "github": "linyinfeng",
+                    "githubId": 11229748,
+                    "name": "Lin Yinfeng"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/stable-web/default.nix",
+                "line": 42
+            },
+            "name": "stable-web-2.3.9",
+            "nonTeamMaintainers": [
+                {
+                    "email": "lin.yinfeng@outlook.com",
+                    "github": "linyinfeng",
+                    "githubId": 11229748,
+                    "name": "Lin Yinfeng"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/linyinfeng/pkgs/stable-web/default.nix#L39",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "stable-web-2.3.9",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "stable-web",
+        "system": "x86_64-linux",
+        "version": "2.3.9",
+        "_attr": "stable-web",
         "_repo": "linyinfeng"
     },
     "nur.repos.linyinfeng.telegram-send": {
@@ -492865,7 +493119,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/art-standalone_patched/package.nix#L192",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/art-standalone_patched/package.nix#L195",
             "problems": {},
             "unfree": true,
             "unsupported": false
@@ -1067634,7 +1067888,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v0.1.0",
+            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v0.1.1",
             "description": "Mouse-friendly, themeable Matrix client for the terminal",
             "homepage": "https://github.com/tylerstyle/matrix-rat",
             "identifiers": {
@@ -1067682,9 +1067936,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/tylerstyle/pkgs/matrix-rat/default.nix",
-                "line": 48
+                "line": 50
             },
-            "name": "matrix-rat-0.1.0",
+            "name": "matrix-rat-0.1.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1067710,7 +1067964,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tylerstyle/pkgs/matrix-rat/default.nix#L44",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tylerstyle/pkgs/matrix-rat/default.nix#L46",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1067720,14 +1067974,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "matrix-rat-0.1.0",
+        "name": "matrix-rat-0.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "matrix-rat",
         "system": "x86_64-linux",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "_attr": "matrix-rat",
         "_repo": "tylerstyle"
     },
@@ -1079453,7 +1079707,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/asterisk-g72x/default.nix",
-                "line": 36
+                "line": 39
             },
             "name": "asterisk-g72x-0-unstable-2026-09-07",
             "nonTeamMaintainers": [
@@ -1079475,7 +1079729,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/asterisk-g72x/default.nix#L37",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/asterisk-g72x/default.nix#L40",
             "problems": {},
             "unfree": true,
             "unsupported": false
@@ -1094721,7 +1094975,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/lantian-customized/asterisk/default.nix",
-                "line": 116
+                "line": 102
             },
             "name": "asterisk-22.11.0",
             "nonTeamMaintainers": [
@@ -1094746,7 +1095000,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/asterisk/default.nix#L117",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/lantian-customized/asterisk/default.nix#L103",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1155748,7 +1156002,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/asterisk-g72x/default.nix",
-                "line": 36
+                "line": 39
             },
             "name": "asterisk-g72x-0-unstable-2026-09-07",
             "nonTeamMaintainers": [
@@ -1155770,7 +1156024,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/asterisk-g72x/default.nix#L37",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/asterisk-g72x/default.nix#L40",
             "problems": {},
             "unfree": true,
             "unsupported": false
