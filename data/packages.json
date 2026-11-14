@@ -1193061,7 +1193061,8 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Personal AI Notebooks",
+            "changelog": "https://github.com/deta/surf/releases/tag/1.4.7-beta.0",
+            "description": "Personal AI notebooks: organize files & webpages and generate notes from them",
             "homepage": "https://github.com/deta/surf",
             "identifiers": {
                 "cpeParts": {
@@ -1193103,18 +1193104,40 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "mainProgram": "surf",
+            "mainProgram": "deta-surf",
             "maintainers": [],
-            "name": "deta-surf-1.4.7-beta.0.rc.1",
+            "name": "deta-surf-1.4.7-beta.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux",
-                "aarch64-linux"
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ymstnt/pkgs/deta-surf/default.nix#L146",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ymstnt/pkgs/deta-surf/default.nix#L199",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1193124,14 +1193147,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "deta-surf-1.4.7-beta.0.rc.1",
+        "name": "deta-surf-1.4.7-beta.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "deta-surf",
         "system": "x86_64-linux",
-        "version": "1.4.7-beta.0.rc.1",
+        "version": "1.4.7-beta.0",
         "_attr": "deta-surf",
         "_repo": "ymstnt"
     },
