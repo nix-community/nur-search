@@ -524376,7 +524376,7 @@
                 "aarch64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/vs/vscodium/package.nix#L387",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/vs/vscodium/package.nix#L424",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -524462,7 +524462,7 @@
                 "aarch64-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/vs/vscodium/package.nix#L387",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/vs/vscodium/package.nix#L424",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -579918,7 +579918,7 @@
             },
             "mainProgram": "cua-driver",
             "maintainers": [],
-            "name": "cua-driver-0.51.0",
+            "name": "cua-driver-0.51.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -579945,14 +579945,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cua-driver-0.51.0",
+        "name": "cua-driver-0.51.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cua-driver",
         "system": "x86_64-linux",
-        "version": "0.51.0",
+        "version": "0.51.5",
         "_attr": "cua-driver",
         "_repo": "nosugarcoffee"
     },
@@ -1064938,7 +1064938,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v0.4.0",
+            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v0.5.0",
             "description": "Mouse-friendly, themeable Matrix client for the terminal",
             "homepage": "https://github.com/tylerstyle/matrix-rat",
             "identifiers": {
@@ -1064986,9 +1064986,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/tylerstyle/pkgs/matrix-rat/default.nix",
-                "line": 50
+                "line": 63
             },
-            "name": "matrix-rat-0.4.0",
+            "name": "matrix-rat-0.5.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1065014,7 +1065014,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tylerstyle/pkgs/matrix-rat/default.nix#L46",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tylerstyle/pkgs/matrix-rat/default.nix#L59",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1065024,14 +1065024,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "matrix-rat-0.4.0",
+        "name": "matrix-rat-0.5.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "matrix-rat",
         "system": "x86_64-linux",
-        "version": "0.4.0",
+        "version": "0.5.0",
         "_attr": "matrix-rat",
         "_repo": "tylerstyle"
     },
@@ -1066543,7 +1066543,7 @@
             },
             "mainProgram": "meitou-launcher",
             "maintainers": [],
-            "name": "meitou-launcher-1.10.0",
+            "name": "meitou-launcher-1.12.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1066561,14 +1066561,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meitou-launcher-1.10.0",
+        "name": "meitou-launcher-1.12.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "meitou-launcher",
         "system": "x86_64-linux",
-        "version": "1.10.0",
+        "version": "1.12.0",
         "_attr": "meitou-launcher",
         "_repo": "uriotv"
     },
@@ -1140357,6 +1140357,136 @@
         "_attr": "prismml-llama-cpp-cuda",
         "_repo": "xddxdd"
     },
+    "nur.repos.xddxdd.project-maya": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Local large language model inference stack with CUDA engines and a self-managed data folder",
+            "homepage": "https://github.com/mw00/project-maya",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "project-maya",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "project-maya",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "maya",
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/project-maya/default.nix",
+                "line": 189
+            },
+            "name": "project-maya-1.1.64",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/project-maya/default.nix#L186",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "project-maya-1.1.64",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "project-maya",
+        "system": "x86_64-linux",
+        "version": "1.1.64",
+        "_attr": "project-maya",
+        "_repo": "xddxdd"
+    },
     "nur.repos.xddxdd.prometheus-knot-exporter-go": {
         "meta": {
             "available": true,
@@ -1168914,6 +1169044,136 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "uncategorized.prismml-llama-cpp-cuda",
+        "_repo": "xddxdd"
+    },
+    "nur.repos.xddxdd.uncategorized.project-maya": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Local large language model inference stack with CUDA engines and a self-managed data folder",
+            "homepage": "https://github.com/mw00/project-maya",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "project-maya",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "project-maya",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "maya",
+            "maintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/project-maya/default.nix",
+                "line": 189
+            },
+            "name": "project-maya-1.1.64",
+            "nonTeamMaintainers": [
+                {
+                    "email": "b980120@hotmail.com",
+                    "github": "xddxdd",
+                    "githubId": 5778879,
+                    "keys": [
+                        {
+                            "fingerprint": "2306 7C13 B6AE BDD7 C0BB  5673 27F3 1700 E751 EC22"
+                        },
+                        {
+                            "fingerprint": "B195 E8FB 873E 6020 DCD1  C0C6 B50E C319 385F CB0D"
+                        }
+                    ],
+                    "name": "Yuhui Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/project-maya/default.nix#L186",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "project-maya-1.1.64",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "project-maya",
+        "system": "x86_64-linux",
+        "version": "1.1.64",
+        "_attr": "uncategorized.project-maya",
         "_repo": "xddxdd"
     },
     "nur.repos.xddxdd.uncategorized.prometheus-knot-exporter-go": {
