@@ -81915,6 +81915,127 @@
         "_attr": "rocksky-cli",
         "_repo": "adam0"
     },
+    "nur.repos.adam0.talk-to-figma-mcp": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "MCP server and WebSocket relay that let agents read and edit Figma through a plugin",
+            "homepage": "https://github.com/grab/cursor-talk-to-figma-mcp",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "talk-to-figma-mcp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "talk-to-figma-mcp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "talk-to-figma-mcp",
+            "maintainers": [],
+            "name": "talk-to-figma-mcp-0.3.5-unstable-2026-07-26",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/talk-to-figma-mcp/default.nix#L117",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "talk-to-figma-mcp-0.3.5-unstable-2026-07-26",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "talk-to-figma-mcp",
+        "system": "x86_64-linux",
+        "version": "0.3.5-unstable-2026-07-26",
+        "_attr": "talk-to-figma-mcp",
+        "_repo": "adam0"
+    },
     "nur.repos.adam0.tg": {
         "meta": {
             "available": true,
@@ -267130,6 +267251,125 @@
         "_attr": "soundcraft",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.spotifast": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fast, native Spotify client",
+            "homepage": "https://spotifast.rocks/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "spotifast",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "spotifast",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "spotifast",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/spotifast/default.nix",
+                "line": 18
+            },
+            "name": "spotifast-0.17.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/spotifast/default.nix#L15",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "spotifast-0.17.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "spotifast",
+        "system": "x86_64-linux",
+        "version": "0.17.1",
+        "_attr": "spotifast",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.steam": {
         "meta": {
             "available": false,
@@ -270559,7 +270799,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/yapfast/default.nix",
-                "line": 19
+                "line": 18
             },
             "name": "yapfast-0.4.1",
             "nonTeamMaintainers": [
@@ -270575,7 +270815,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/yapfast/default.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/yapfast/default.nix#L15",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -270595,6 +270835,125 @@
         "system": "x86_64-linux",
         "version": "0.4.1",
         "_attr": "yapfast",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.zapfast": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fast, native WhatsApp client",
+            "homepage": "https://zapfast.rocks/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zapfast",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zapfast",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "zapfast",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/zapfast/default.nix",
+                "line": 18
+            },
+            "name": "zapfast-0.21.2",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/zapfast/default.nix#L15",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "zapfast-0.21.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "zapfast",
+        "system": "x86_64-linux",
+        "version": "0.21.2",
+        "_attr": "zapfast",
         "_repo": "forkprince"
     },
     "nur.repos.forkprince.zed-editor": {
