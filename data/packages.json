@@ -260265,7 +260265,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dtomvan/pkgs/alertmanager-matrix/package.nix",
                 "line": 51
             },
-            "name": "alertmanager-matrix-0.6.1",
+            "name": "alertmanager-matrix-0.6.2",
             "nonTeamMaintainers": [
                 {
                     "email": "18gatenmaker6@gmail.com",
@@ -260319,14 +260319,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "alertmanager-matrix-0.6.1",
+        "name": "alertmanager-matrix-0.6.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "alertmanager-matrix",
         "system": "x86_64-linux",
-        "version": "0.6.1",
+        "version": "0.6.2",
         "_attr": "alertmanager-matrix",
         "_repo": "dtomvan"
     },
@@ -262060,6 +262060,203 @@
         "system": "x86_64-linux",
         "version": "1.6.3",
         "_attr": "obsidian-web-clipper",
+        "_repo": "dtomvan"
+    },
+    "nur.repos.dtomvan.outl": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/outlmd/outl/blob/refs/tags/v1.0.12/CHANGELOG.md",
+            "description": "Local-first outliner. Markdown is the source of truth. Sync that doesn't corrupt your tree when two devices edit offline",
+            "homepage": "https://github.com/outlmd/outl",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "outl",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "outl",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "outl",
+            "maintainers": [
+                {
+                    "email": "18gatenmaker6@gmail.com",
+                    "github": "dtomvan",
+                    "githubId": 51440893,
+                    "keys": [
+                        {
+                            "fingerprint": "D044 F07B 8863 B681 26BD  79FE 7A98 4C82 07AD BA51"
+                        }
+                    ],
+                    "name": "Tom van Dijk"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/dtomvan/pkgs/outl/package.nix",
+                "line": 51
+            },
+            "name": "outl-1.0.12",
+            "nonTeamMaintainers": [
+                {
+                    "email": "18gatenmaker6@gmail.com",
+                    "github": "dtomvan",
+                    "githubId": 51440893,
+                    "keys": [
+                        {
+                            "fingerprint": "D044 F07B 8863 B681 26BD  79FE 7A98 4C82 07AD BA51"
+                        }
+                    ],
+                    "name": "Tom van Dijk"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "platorms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/dtomvan/pkgs/outl/package.nix#L46",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "outl-1.0.12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "outl",
+        "system": "x86_64-linux",
+        "version": "1.0.12",
+        "_attr": "outl",
         "_repo": "dtomvan"
     },
     "nur.repos.dtomvan.panix": {
@@ -1183035,7 +1183232,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/catppuccin/kitty/default.nix",
                 "line": 26
             },
-            "name": "catppuccin-kitty-0-unstable-2026-01-16",
+            "name": "catppuccin-kitty-0-unstable-2026-11-15",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1183052,14 +1183249,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "catppuccin-kitty-0-unstable-2026-01-16",
+        "name": "catppuccin-kitty-0-unstable-2026-11-15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "catppuccin-kitty",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-01-16",
+        "version": "0-unstable-2026-11-15",
         "_attr": "catppuccin.kitty",
         "_repo": "xyenon"
     },
@@ -1184080,7 +1184277,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4226",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4259",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1184137,7 +1184334,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 141
             },
-            "name": "magpie-0.1.4226",
+            "name": "magpie-0.1.4259",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1184181,14 +1184378,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4226",
+        "name": "magpie-0.1.4259",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4226",
+        "version": "0.1.4259",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
