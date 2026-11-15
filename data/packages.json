@@ -49233,7 +49233,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/attachment-converter/package.nix",
-                "line": 106
+                "line": 91
             },
             "name": "ocaml4.14.4-attachment-converter-0.2.2",
             "nonTeamMaintainers": [
@@ -49253,7 +49253,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/attachment-converter/package.nix#L99",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/attachment-converter/package.nix#L84",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -52849,7 +52849,7 @@
     },
     "nur.repos.Skyb0rg007.landlock-observability": {
         "meta": {
-            "available": true,
+            "available": false,
             "badPlatforms": [
                 {
                     "abi": {
@@ -52861,7 +52861,7 @@
                     }
                 }
             ],
-            "broken": false,
+            "broken": true,
             "description": "Library for observing Landlock",
             "homepage": "https://github.com/landlock-lsm/landlock-observability",
             "identifiers": {
@@ -52986,7 +52986,12 @@
                 "riscv32-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/landlock-observability/package.nix#L50",
-            "problems": {},
+            "problems": {
+                "broken": {
+                    "kind": "broken",
+                    "message": "This package is broken."
+                }
+            },
             "unfree": false,
             "unsupported": false
         },
@@ -53871,156 +53876,6 @@
         "system": "x86_64-linux",
         "version": "0.6.0",
         "_attr": "masque-go",
-        "_repo": "Skyb0rg007"
-    },
-    "nur.repos.Skyb0rg007.mkbstosi": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Make BuildStream OS Image",
-            "homepage": "https://gitlab.com/freedesktop-sdk/mkbstosi",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "mkbstosi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "mkbstosi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd"
-            ],
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Lesser General Public License v2.1 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "lgpl21Plus",
-                "spdxId": "LGPL-2.1-or-later",
-                "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
-            },
-            "mainProgram": "mkbstosi",
-            "maintainers": [
-                {
-                    "email": "skye@soss.website",
-                    "github": "Skyb0rg007",
-                    "githubId": 30806179,
-                    "matrix": "@skyesoss:matrix.org",
-                    "name": "Skye Soss"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Skyb0rg007/NixOS/pkgs/by-name/mkbstosi/package.nix",
-                "line": 39
-            },
-            "name": "mkbstosi-0-unstable-2026-01-03",
-            "nonTeamMaintainers": [
-                {
-                    "email": "skye@soss.website",
-                    "github": "Skyb0rg007",
-                    "githubId": 30806179,
-                    "matrix": "@skyesoss:matrix.org",
-                    "name": "Skye Soss"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/mkbstosi/package.nix#L34",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "mkbstosi-0-unstable-2026-01-03",
-        "outputName": "out",
-        "outputs": {
-            "dist": null,
-            "out": null
-        },
-        "pname": "mkbstosi",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2026-01-03",
-        "_attr": "mkbstosi",
         "_repo": "Skyb0rg007"
     },
     "nur.repos.Skyb0rg007.mkosi-HEAD": {
@@ -70256,7 +70111,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/v2/v2ray-rules-dat/package.nix",
                 "line": 69
             },
-            "name": "v2ray-rules-dat-202611132203",
+            "name": "v2ray-rules-dat-202611142203",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -70361,7 +70216,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-202611132203",
+        "name": "v2ray-rules-dat-202611142203",
         "outputName": "out",
         "outputs": {
             "geoip": null,
@@ -70370,7 +70225,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "202611132203",
+        "version": "202611142203",
         "_attr": "v2ray-rules-dat",
         "_repo": "abszero"
     },
@@ -243353,7 +243208,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Gentleman-Programming/engram/releases/tag/v3.6.2",
+            "changelog": "https://github.com/Gentleman-Programming/engram/releases/tag/v3.7.0",
             "description": "Persistent memory system for AI coding agents",
             "homepage": "https://github.com/Gentleman-Programming/engram",
             "identifiers": {
@@ -243411,7 +243266,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/congee/pkgs/engram/default.nix",
                 "line": 41
             },
-            "name": "engram-3.6.2",
+            "name": "engram-3.7.0",
             "nonTeamMaintainers": [
                 {
                     "email": "changshengwu@pm.me",
@@ -243461,14 +243316,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "engram-3.6.2",
+        "name": "engram-3.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "engram",
         "system": "x86_64-linux",
-        "version": "3.6.2",
+        "version": "3.7.0",
         "_attr": "engram",
         "_repo": "congee"
     },
@@ -243696,7 +243551,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/raullenchai/Rapid-MLX/releases/tag/v1.0.2",
+            "changelog": "https://github.com/raullenchai/Rapid-MLX/releases/tag/v1.0.3",
             "description": "Fast local AI inference engine for Apple Silicon with an OpenAI-compatible API",
             "homepage": "https://github.com/raullenchai/Rapid-MLX",
             "identifiers": {
@@ -243787,7 +243642,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/congee/pkgs/rapid-mlx/default.nix",
                 "line": 144
             },
-            "name": "rapid-mlx-1.0.2",
+            "name": "rapid-mlx-1.0.3",
             "nonTeamMaintainers": [
                 {
                     "email": "changshengwu@pm.me",
@@ -243808,7 +243663,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rapid-mlx-1.0.2",
+        "name": "rapid-mlx-1.0.3",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -243816,7 +243671,7 @@
         },
         "pname": "rapid-mlx",
         "system": "x86_64-linux",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "_attr": "rapid-mlx",
         "_repo": "congee"
     },
@@ -782429,7 +782284,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/agent-sh/computer-use-linux/releases/tag/v0.7.49",
+            "changelog": "https://github.com/agent-sh/computer-use-linux/releases/tag/v0.7.53",
             "description": "MCP server and CLI to control a Linux desktop",
             "homepage": "https://github.com/agent-sh/computer-use-linux",
             "identifiers": {
@@ -782474,7 +782329,7 @@
             },
             "mainProgram": "computer-use-linux",
             "maintainers": [],
-            "name": "computer-use-linux-0.7.49",
+            "name": "computer-use-linux-0.7.53",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -782493,14 +782348,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "computer-use-linux-0.7.49",
+        "name": "computer-use-linux-0.7.53",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "computer-use-linux",
         "system": "x86_64-linux",
-        "version": "0.7.49",
+        "version": "0.7.53",
         "_attr": "computer-use-linux",
         "_repo": "ryan4yin"
     },
@@ -782508,7 +782363,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.47.10",
+            "changelog": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.49.10",
             "description": "Desktop-automation driver for computer-use agents (MCP/CLI)",
             "homepage": "https://github.com/trycua/cua",
             "identifiers": {
@@ -782553,7 +782408,7 @@
             },
             "mainProgram": "cua-driver",
             "maintainers": [],
-            "name": "cua-driver-0.47.10",
+            "name": "cua-driver-0.49.10",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -782571,14 +782426,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cua-driver-0.47.10",
+        "name": "cua-driver-0.49.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cua-driver",
         "system": "x86_64-linux",
-        "version": "0.47.10",
+        "version": "0.49.10",
         "_attr": "cua-driver",
         "_repo": "ryan4yin"
     },
@@ -782586,7 +782441,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.2",
+            "changelog": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3",
             "description": "Open-source agent harness developed by DeepSeek AI",
             "downloadPage": "https://www.npmjs.com/package/@deepseek-ai/dsh",
             "homepage": "https://github.com/deepseek-ai/deepseek-harness",
@@ -782632,7 +782487,7 @@
             },
             "mainProgram": "dsh",
             "maintainers": [],
-            "name": "dsh-0.2.2-rc.2",
+            "name": "dsh-0.2.2-rc.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -782738,14 +782593,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-0.2.2-rc.2",
+        "name": "dsh-0.2.2-rc.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dsh",
         "system": "x86_64-linux",
-        "version": "0.2.2-rc.2",
+        "version": "0.2.2-rc.3",
         "_attr": "dsh",
         "_repo": "ryan4yin"
     },
@@ -1012231,7 +1012086,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/tools/rea/default.nix#L118",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/ctf/rea/default.nix#L121",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1012307,7 +1012162,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/tools/rea/full.nix#L24",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/ctf/rea/full.nix#L24",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
