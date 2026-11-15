@@ -424138,6 +424138,124 @@
         "_attr": "kvlibadwaita-kvantum",
         "_repo": "merrkry"
     },
+    "nur.repos.merrkry.nix-hash": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Check or update fixed-output hashes of flake packages",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "nix-hash",
+            "maintainers": [],
+            "name": "nix-hash",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/merrkry/pkgs/nix-hash/default.nix#L22",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nix-hash",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nix-hash",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "nix-hash",
+        "_repo": "merrkry"
+    },
     "nur.repos.merrkry.symseek": {
         "meta": {
             "available": true,
@@ -550035,7 +550153,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.20.5",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.20.6",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -550089,7 +550207,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 42
             },
-            "name": "cnb-cli-1.20.5",
+            "name": "cnb-cli-1.20.6",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -550108,14 +550226,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.20.5",
+        "name": "cnb-cli-1.20.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.20.5",
+        "version": "1.20.6",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -550908,7 +551026,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/tag/v2.26.9",
+            "changelog": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/tag/v2.26.10",
             "description": "A client for QQ and more",
             "homepage": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus",
             "identifiers": {
@@ -550962,7 +551080,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/icalingua++/default.nix",
                 "line": 121
             },
-            "name": "icalingua++-2.26.9",
+            "name": "icalingua++-2.26.10",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -550980,14 +551098,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "icalingua++-2.26.9",
+        "name": "icalingua++-2.26.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "icalingua++",
         "system": "x86_64-linux",
-        "version": "2.26.9",
+        "version": "2.26.10",
         "_attr": "icalingua++",
         "_repo": "mzwing"
     },
@@ -551089,7 +551207,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Chevey339/kelivo/releases/tag/v1.3.5",
+            "changelog": "https://github.com/Chevey339/kelivo/releases/tag/v1.3.6",
             "description": "A Flutter LLM chat client",
             "homepage": "https://github.com/Chevey339/kelivo",
             "identifiers": {
@@ -551143,7 +551261,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/kelivo/default.nix",
                 "line": 114
             },
-            "name": "kelivo-1.3.5",
+            "name": "kelivo-1.3.6",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -551171,7 +551289,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kelivo-1.3.5",
+        "name": "kelivo-1.3.6",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -551180,7 +551298,7 @@
         },
         "pname": "kelivo",
         "system": "x86_64-linux",
-        "version": "1.3.5",
+        "version": "1.3.6",
         "_attr": "kelivo",
         "_repo": "mzwing"
     },
@@ -551275,7 +551393,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.55",
+            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.56",
             "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit",
             "homepage": "https://github.com/cortexkit/magic-context",
             "identifiers": {
@@ -551329,7 +551447,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
                 "line": 47
             },
-            "name": "magic-context-0.49.55",
+            "name": "magic-context-0.49.56",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -551348,14 +551466,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magic-context-0.49.55",
+        "name": "magic-context-0.49.56",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magic-context",
         "system": "x86_64-linux",
-        "version": "0.49.55",
+        "version": "0.49.56",
         "_attr": "magic-context",
         "_repo": "mzwing"
     },
@@ -552391,7 +552509,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sinspired/subs-check-pro/releases/tag/v3.6.0",
+            "changelog": "https://github.com/sinspired/subs-check-pro/releases/tag/v3.6.1",
             "description": "High-performance proxy subscription checker: liveness, speed and streaming-unlock tests, encoding the results into node names",
             "homepage": "https://github.com/sinspired/subs-check-pro",
             "identifiers": {
@@ -552445,7 +552563,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/subs-check-pro/default.nix",
                 "line": 58
             },
-            "name": "subs-check-pro-3.6.0",
+            "name": "subs-check-pro-3.6.1",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -552464,14 +552582,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "subs-check-pro-3.6.0",
+        "name": "subs-check-pro-3.6.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "subs-check-pro",
         "system": "x86_64-linux",
-        "version": "3.6.0",
+        "version": "3.6.1",
         "_attr": "subs-check-pro",
         "_repo": "mzwing"
     },
@@ -1032010,7 +1032128,7 @@
             },
             "mainProgram": "ccpocket-bridge",
             "maintainers": [],
-            "name": "ccpocket-bridge-1.106.2",
+            "name": "ccpocket-bridge-1.106.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1032051,14 +1032169,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "ccpocket-bridge-1.106.2",
+        "name": "ccpocket-bridge-1.106.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ccpocket-bridge",
         "system": "x86_64-linux",
-        "version": "1.106.2",
+        "version": "1.106.4",
         "_attr": "ccpocket-bridge",
         "_repo": "tnmt"
     },
@@ -1067437,7 +1067555,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/pkgs/scopebuddy/default.nix#L56",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/uriotv/pkgs/scopebuddy/default.nix#L93",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
