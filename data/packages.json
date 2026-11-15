@@ -198671,7 +198671,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/intune-portal/default.nix",
                 "line": 114
             },
-            "name": "intune-portal-1.2609.5-resolute",
+            "name": "intune-portal-1.2610.8-resolute",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -198697,14 +198697,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "intune-portal-1.2609.5-resolute",
+        "name": "intune-portal-1.2610.8-resolute",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "intune-portal",
         "system": "x86_64-linux",
-        "version": "1.2609.5-resolute",
+        "version": "1.2610.8-resolute",
         "_attr": "intune-portal",
         "_repo": "codgician"
     },
@@ -199236,7 +199236,7 @@
                 "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
             },
             "maintainers": [],
-            "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-29",
+            "name": "networkmanager-gpclient-2.0.1-unstable-2026-11-13",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -199277,14 +199277,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "networkmanager-gpclient-1.5.0-unstable-2026-10-29",
+        "name": "networkmanager-gpclient-2.0.1-unstable-2026-11-13",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "networkmanager-gpclient",
         "system": "x86_64-linux",
-        "version": "1.5.0-unstable-2026-10-29",
+        "version": "2.0.1-unstable-2026-11-13",
         "_attr": "networkmanager-gpclient",
         "_repo": "codgician"
     },
@@ -531037,6 +531037,506 @@
         "system": "x86_64-linux",
         "version": "3.14.0",
         "_attr": "airtrail",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.aliasmode": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Local-first browser profile manager with patched Firefox and Chromium engines",
+            "homepage": "https://github.com/aliasmode/aliasmode",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "aliasmode-unwrapped",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "aliasmode-unwrapped",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Mozilla Public License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mpl20",
+                    "spdxId": "MPL-2.0",
+                    "url": "https://spdx.org/licenses/MPL-2.0.html"
+                }
+            ],
+            "mainProgram": "aliasmode",
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/al/aliasmode-unwrapped/package.nix",
+                "line": 121
+            },
+            "name": "aliasmode-unwrapped-0.1.0-beta.74",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/al/aliasmode-unwrapped/package.nix#L111",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "aliasmode-0.1.0-beta.74",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "aliasmode",
+        "system": "x86_64-linux",
+        "version": "0.1.0-beta.74",
+        "_attr": "aliasmode",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.aliasmode-chromium-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Pinned Chromium engine resources for AliasMode",
+            "homepage": "https://github.com/aliasmode/aliasmode-chromium",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "aliasmode-chromium-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "aliasmode-chromium-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Only",
+                    "spdxId": "GPL-3.0-only",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd3",
+                    "spdxId": "BSD-3-Clause",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/al/aliasmode-chromium-bin/package.nix",
+                "line": 39
+            },
+            "name": "aliasmode-chromium-bin-155.0.8059.85-aliasmode.5",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/al/aliasmode-chromium-bin/package.nix#L32",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "aliasmode-chromium-bin-155.0.8059.85-aliasmode.5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "aliasmode-chromium-bin",
+        "system": "x86_64-linux",
+        "version": "155.0.8059.85-aliasmode.5",
+        "_attr": "aliasmode-chromium-bin",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.aliasmode-firefox-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Pinned Firefox engine resources for AliasMode",
+            "homepage": "https://github.com/aliasmode/aliasmode-firefox",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "aliasmode-firefox-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "aliasmode-firefox-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/al/aliasmode-firefox-bin/package.nix",
+                "line": 39
+            },
+            "name": "aliasmode-firefox-bin-156.0.1-beta.36",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/al/aliasmode-firefox-bin/package.nix#L35",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "aliasmode-firefox-bin-156.0.1-beta.36",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "aliasmode-firefox-bin",
+        "system": "x86_64-linux",
+        "version": "156.0.1-beta.36",
+        "_attr": "aliasmode-firefox-bin",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.aliasmode-unwrapped": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Local-first browser profile manager with patched Firefox and Chromium engines",
+            "homepage": "https://github.com/aliasmode/aliasmode",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "aliasmode-unwrapped",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "aliasmode-unwrapped",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Mozilla Public License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mpl20",
+                    "spdxId": "MPL-2.0",
+                    "url": "https://spdx.org/licenses/MPL-2.0.html"
+                }
+            ],
+            "mainProgram": "aliasmode",
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/al/aliasmode-unwrapped/package.nix",
+                "line": 121
+            },
+            "name": "aliasmode-unwrapped-0.1.0-beta.74",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/al/aliasmode-unwrapped/package.nix#L111",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "aliasmode-unwrapped-0.1.0-beta.74",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "aliasmode-unwrapped",
+        "system": "x86_64-linux",
+        "version": "0.1.0-beta.74",
+        "_attr": "aliasmode-unwrapped",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.aliyundrive-webdav": {
@@ -1190590,7 +1191090,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "equicord-1.15.17.2",
+            "name": "equicord-1.15.17.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1190631,14 +1191131,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "equicord-1.15.17.2",
+        "name": "equicord-1.15.17.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "equicord",
         "system": "x86_64-linux",
-        "version": "1.15.17.2",
+        "version": "1.15.17.3",
         "_attr": "equicord",
         "_repo": "ymstnt"
     },
