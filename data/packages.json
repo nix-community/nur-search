@@ -367347,7 +367347,7 @@
             },
             "mainProgram": "gitea_exporter",
             "maintainers": [],
-            "name": "prometheus-gitea-exporter-0.2.2",
+            "name": "prometheus-gitea-exporter-0.2.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -367394,14 +367394,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "prometheus-gitea-exporter-0.2.2",
+        "name": "prometheus-gitea-exporter-0.2.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "prometheus-gitea-exporter",
         "system": "x86_64-linux",
-        "version": "0.2.2",
+        "version": "0.2.3",
         "_attr": "prometheus-gitea-exporter",
         "_repo": "josh"
     },
@@ -400771,7 +400771,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/plannotator/default.nix",
                 "line": 86
             },
-            "name": "plannotator-0.28.64",
+            "name": "plannotator-0.28.65",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -400795,14 +400795,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "plannotator-0.28.64",
+        "name": "plannotator-0.28.65",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "plannotator",
         "system": "x86_64-linux",
-        "version": "0.28.64",
+        "version": "0.28.65",
         "_attr": "plannotator",
         "_repo": "lmdevv"
     },
@@ -761347,6 +761347,130 @@
         "_attr": "qqmusic-darwin",
         "_repo": "prince213"
     },
+    "nur.repos.prince213.raidou-pi-notify": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/weirongxu/pi-notify/releases/tag/v0.11.0",
+            "description": "Notification extension for the Pi coding agent",
+            "downloadPage": "https://github.com/weirongxu/pi-notify/releases",
+            "homepage": "https://github.com/weirongxu/pi-notify",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "raidou-pi-notify",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "raidou-pi-notify",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/ra/raidou-pi-notify/package.nix",
+                "line": 59
+            },
+            "name": "raidou-pi-notify-0.11.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/ra/raidou-pi-notify/package.nix#L54",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "raidou-pi-notify-0.11.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "raidou-pi-notify",
+        "system": "x86_64-linux",
+        "version": "0.11.0",
+        "_attr": "raidou-pi-notify",
+        "_repo": "prince213"
+    },
     "nur.repos.prince213.rime-wubi98": {
         "meta": {
             "available": true,
@@ -1011066,7 +1011190,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yituorou/meatshell/releases/tag/v0.8.2",
+            "changelog": "https://github.com/yituorou/meatshell/releases/tag/v0.8.3",
             "description": "Lightweight FinalShell-style SSH and terminal client",
             "homepage": "https://github.com/yituorou/meatshell",
             "identifiers": {
@@ -1011123,7 +1011247,7 @@
             ],
             "mainProgram": "meatshell",
             "maintainers": [],
-            "name": "meatshell-0.8.2",
+            "name": "meatshell-0.8.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1011148,14 +1011272,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meatshell-0.8.2",
+        "name": "meatshell-0.8.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "meatshell",
         "system": "x86_64-linux",
-        "version": "0.8.2",
+        "version": "0.8.3",
         "_attr": "meatshell-bin",
         "_repo": "silicalet"
     },
@@ -1012300,7 +1012424,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0",
+            "changelog": "https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0",
             "description": "Reverse engineering CLI and MCP server for agents",
             "homepage": "https://github.com/morluto/rea",
             "identifiers": {
@@ -1012345,7 +1012469,7 @@
             },
             "mainProgram": "rea",
             "maintainers": [],
-            "name": "rea-6.8.0",
+            "name": "rea-6.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1012364,14 +1012488,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rea-6.8.0",
+        "name": "rea-6.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rea",
         "system": "x86_64-linux",
-        "version": "6.8.0",
+        "version": "6.9.0",
         "_attr": "rea",
         "_repo": "silicalet"
     },
@@ -1012421,7 +1012545,7 @@
             },
             "mainProgram": "rea",
             "maintainers": [],
-            "name": "rea-full-6.8.0",
+            "name": "rea-full-6.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1012440,14 +1012564,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rea-full-6.8.0",
+        "name": "rea-full-6.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rea-full",
         "system": "x86_64-linux",
-        "version": "6.8.0",
+        "version": "6.9.0",
         "_attr": "rea-full",
         "_repo": "silicalet"
     },
@@ -1075702,7 +1075826,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/x71c9/pkgs/dogma/default.nix",
-                "line": 33
+                "line": 35
             },
             "name": "dogma-3.4.1",
             "nonTeamMaintainers": [],
@@ -1075731,7 +1075855,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/x71c9/pkgs/dogma/default.nix#L30",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/x71c9/pkgs/dogma/default.nix#L32",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
