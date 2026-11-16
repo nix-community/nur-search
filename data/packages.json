@@ -228924,25 +228924,30 @@
                 "out"
             ],
             "platforms": [
+                "x86_64-linux",
                 "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
                 "armv6l-linux",
+                "armv7a-linux",
                 "armv7l-linux",
                 "i686-linux",
                 "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
                 "powerpc-linux",
                 "powerpc64-linux",
                 "powerpc64le-linux",
+                "riscv32-linux",
                 "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
+                "s390-linux",
+                "s390x-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/rustel/default.nix#L64",
             "problems": {},
@@ -1110889,7 +1110894,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
-                "line": 168
+                "line": 169
             },
             "name": "strata-0.2.14.1",
             "nonTeamMaintainers": [
@@ -1110937,7 +1110942,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/strata/default.nix#L165",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/strata/default.nix#L166",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1132138,7 +1132143,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xddxdd/pkgs/uncategorized/strata/default.nix",
-                "line": 168
+                "line": 169
             },
             "name": "strata-0.2.14.1",
             "nonTeamMaintainers": [
@@ -1132186,7 +1132191,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/strata/default.nix#L165",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/xddxdd/pkgs/uncategorized/strata/default.nix#L166",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1143961,7 +1143966,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4277",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4284",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1144018,7 +1144023,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 141
             },
-            "name": "magpie-0.1.4277",
+            "name": "magpie-0.1.4284",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1144062,14 +1144067,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4277",
+        "name": "magpie-0.1.4284",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4277",
+        "version": "0.1.4284",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
