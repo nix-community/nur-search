@@ -74168,7 +74168,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-11-12",
+            "name": "albedo-git-0-unstable-2026-11-16",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -74230,14 +74230,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-11-12",
+        "name": "albedo-git-0-unstable-2026-11-16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-12",
+        "version": "0-unstable-2026-11-16",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -80897,7 +80897,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-11",
+            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-16",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -80938,14 +80938,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-11",
+        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gruvbox-plus-icons",
         "system": "x86_64-linux",
-        "version": "6.7.0-unstable-2026-11-11",
+        "version": "6.7.0-unstable-2026-11-16",
         "_attr": "gruvbox-plus-icons",
         "_repo": "adam0"
     },
@@ -81229,7 +81229,7 @@
             },
             "mainProgram": "hypruse",
             "maintainers": [],
-            "name": "hypruse-0.15.0",
+            "name": "hypruse-0.15.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -81270,7 +81270,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hypruse-0.15.0",
+        "name": "hypruse-0.15.1",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -81278,7 +81278,7 @@
         },
         "pname": "hypruse",
         "system": "x86_64-linux",
-        "version": "0.15.0",
+        "version": "0.15.1",
         "_attr": "hypruse",
         "_repo": "adam0"
     },
@@ -81593,6 +81593,161 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "ioskeley-mono-term-nl-nf",
+        "_repo": "adam0"
+    },
+    "nur.repos.adam0.modern-web-guidance": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Google Chrome's modern web guidance CLI for coding agents, without telemetry or self-installation",
+            "homepage": "https://developer.chrome.com/docs/modern-web-guidance",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "modern-web-guidance",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "modern-web-guidance",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "modern-web-guidance",
+            "maintainers": [],
+            "name": "modern-web-guidance-1.0.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/modern-web-guidance/default.nix#L93",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "modern-web-guidance-1.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "modern-web-guidance",
+        "system": "x86_64-linux",
+        "version": "1.0.1",
+        "_attr": "modern-web-guidance",
         "_repo": "adam0"
     },
     "nur.repos.adam0.opencubicplayer": {
@@ -82330,7 +82485,7 @@
             },
             "mainProgram": "xberg",
             "maintainers": [],
-            "name": "xberg-1.3.10",
+            "name": "xberg-1.4.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -82371,7 +82526,7 @@
                 "riscv64-netbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/xberg/default.nix#L109",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/adam0/pkgs/xberg/default.nix#L110",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -82381,14 +82536,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xberg-1.3.10",
+        "name": "xberg-1.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "xberg",
         "system": "x86_64-linux",
-        "version": "1.3.10",
+        "version": "1.4.1",
         "_attr": "xberg",
         "_repo": "adam0"
     },
@@ -288695,7 +288850,7 @@
             },
             "mainProgram": "nix-reaper",
             "maintainers": [],
-            "name": "nix-reaper-4de38aa",
+            "name": "nix-reaper-0f411b8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -288736,14 +288891,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nix-reaper-4de38aa",
+        "name": "nix-reaper-0f411b8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nix-reaper",
         "system": "x86_64-linux",
-        "version": "4de38aa",
+        "version": "0f411b8",
         "_attr": "nix-reaper",
         "_repo": "ibuysausage"
     },
@@ -288796,7 +288951,7 @@
             },
             "mainProgram": "waifufetch",
             "maintainers": [],
-            "name": "waifufetch-a0f2597",
+            "name": "waifufetch-6eebbfd",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -288827,7 +288982,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ibuysausage/pkgs/waifufetch/default.nix#L53",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ibuysausage/pkgs/waifufetch/default.nix#L45",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -288837,14 +288992,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "waifufetch-a0f2597",
+        "name": "waifufetch-6eebbfd",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "waifufetch-a0f2597",
+        "pname": "waifufetch",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "6eebbfd",
         "_attr": "waifufetch",
         "_repo": "ibuysausage"
     },
@@ -1118264,161 +1118419,6 @@
         "version": "1.19.0",
         "_attr": "xcodeproj",
         "_repo": "zachcoyle"
-    },
-    "nur.repos.zeal.playlist-dir-conf": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "MPV script that loads a config from a playlists directory",
-            "homepage": "https://github.com/zzzealed/mpv-playlist-dir-conf",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "playlist-dir-conf",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "playlist-dir-conf",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
-            },
-            "longDescription": "MPV script that loads a mpv.conf from the directory of the playlist, extending `--use-filedir-conf` behavior to work with playlists",
-            "maintainers": [],
-            "name": "playlist-dir-conf-0-unstable-2026-05-31",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/zeal/pkgs/playlist-dir-conf/default.nix#L18",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "playlist-dir-conf-0-unstable-2026-05-31",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "playlist-dir-conf",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2026-05-31",
-        "_attr": "playlist-dir-conf",
-        "_repo": "zeal"
     },
     "nur.repos.zeratax.bukkitPlugins.bluemap": {
         "meta": {
