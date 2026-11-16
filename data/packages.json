@@ -271593,6 +271593,87 @@
         "_attr": "qq",
         "_repo": "freegoxing"
     },
+    "nur.repos.freegoxing.z-library": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Client for the online library Z-Library",
+            "homepage": "https://z-library.sk",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "z-library",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "z-library",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "Z-Library",
+            "maintainers": [],
+            "name": "z-library-3.2.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/z-library/default.nix#L83",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "obfuscatedCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "z-library-3.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "z-library",
+        "system": "x86_64-linux",
+        "version": "3.2.1",
+        "_attr": "z-library",
+        "_repo": "freegoxing"
+    },
     "nur.repos.friedow.rofi-lpass": {
         "meta": {
             "available": true,
@@ -357561,6 +357642,174 @@
         "_attr": "rlt",
         "_repo": "linyinfeng"
     },
+    "nur.repos.linyinfeng.sable-web": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Matrix web client written in Rust and Svelte",
+            "homepage": "https://git.sable.moe/SableClient/sable-next",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sable-web",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sable-web",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "lin.yinfeng@outlook.com",
+                    "github": "linyinfeng",
+                    "githubId": 11229748,
+                    "name": "Lin Yinfeng"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/sable-web/default.nix",
+                "line": 42
+            },
+            "name": "sable-web-26.11.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "lin.yinfeng@outlook.com",
+                    "github": "linyinfeng",
+                    "githubId": 11229748,
+                    "name": "Lin Yinfeng"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/linyinfeng/pkgs/sable-web/default.nix#L39",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "sable-web-26.11.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sable-web",
+        "system": "x86_64-linux",
+        "version": "26.11.0",
+        "_attr": "sable-web",
+        "_repo": "linyinfeng"
+    },
     "nur.repos.linyinfeng.ssl-handshake": {
         "meta": {
             "available": true,
@@ -357679,174 +357928,6 @@
         "system": "x86_64-linux",
         "version": "1.9",
         "_attr": "ssl-handshake",
-        "_repo": "linyinfeng"
-    },
-    "nur.repos.linyinfeng.stable-web": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Matrix web client written in Rust and Svelte",
-            "homepage": "https://git.sable.moe/SableClient/sable-next",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "stable-web",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "stable-web",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU Affero General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "agpl3Plus",
-                "spdxId": "AGPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "lin.yinfeng@outlook.com",
-                    "github": "linyinfeng",
-                    "githubId": 11229748,
-                    "name": "Lin Yinfeng"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/stable-web/default.nix",
-                "line": 42
-            },
-            "name": "stable-web-26.11.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "lin.yinfeng@outlook.com",
-                    "github": "linyinfeng",
-                    "githubId": 11229748,
-                    "name": "Lin Yinfeng"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/linyinfeng/pkgs/stable-web/default.nix#L39",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "stable-web-26.11.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "stable-web",
-        "system": "x86_64-linux",
-        "version": "26.11.0",
-        "_attr": "stable-web",
         "_repo": "linyinfeng"
     },
     "nur.repos.linyinfeng.telegram-send": {
@@ -1027310,7 +1027391,7 @@
             },
             "mainProgram": "StoryForge",
             "maintainers": [],
-            "name": "storyforge-2.0.11",
+            "name": "storyforge-2.0.12",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1027346,14 +1027427,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "storyforge-2.0.11",
+        "name": "storyforge-2.0.12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "storyforge",
         "system": "x86_64-linux",
-        "version": "2.0.11",
+        "version": "2.0.12",
         "_attr": "storyforge",
         "_repo": "uriotv"
     },
