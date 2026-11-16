@@ -66104,7 +66104,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Apple Music in the terminal with true-color cover art and spectrum",
+            "description": "Apple Music in the terminal with true-color cover art and a live spectrum",
             "homepage": "https://github.com/Wian1977/miniam",
             "identifiers": {
                 "cpeParts": {
@@ -66138,7 +66138,7 @@
             "insecure": false,
             "mainProgram": "miniam",
             "maintainers": [],
-            "name": "miniam-0.1.0",
+            "name": "miniam-0.1.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -66156,14 +66156,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "miniam-0.1.0",
+        "name": "miniam-0.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "miniam",
         "system": "x86_64-linux",
-        "version": "0.1.0",
+        "version": "0.1.2",
         "_attr": "miniam",
         "_repo": "Wian1977"
     },
@@ -340443,7 +340443,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/NiceneNerd/ukmm/blob/refs/tags/v0.17.1/CHANGELOG.md",
+            "changelog": "https://github.com/NiceneNerd/ukmm/blob/refs/tags/v0.17.3/CHANGELOG.md",
             "description": "New mod manager for The Legend of Zelda: Breath of the Wild",
             "homepage": "https://github.com/NiceneNerd/ukmm",
             "identifiers": {
@@ -340498,9 +340498,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/kira-bruneau/pkgs/by-name/uk/ukmm/package.nix",
-                "line": 107
+                "line": 110
             },
-            "name": "ukmm-0.17.1",
+            "name": "ukmm-0.17.3",
             "nonTeamMaintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -340533,19 +340533,19 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/kira-bruneau/pkgs/by-name/uk/ukmm/package.nix#L103",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/kira-bruneau/pkgs/by-name/uk/ukmm/package.nix#L106",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "ukmm-0.17.1",
+        "name": "ukmm-0.17.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ukmm",
         "system": "x86_64-linux",
-        "version": "0.17.1",
+        "version": "0.17.3",
         "_attr": "ukmm",
         "_repo": "kira-bruneau"
     },
@@ -498171,7 +498171,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/uu/uu-remote-linux/package.nix",
-                "line": 128
+                "line": 126
             },
             "name": "uu-remote-linux-0.2.59",
             "nonTeamMaintainers": [
@@ -498212,7 +498212,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/uu/uu-remote-linux/package.nix#L124",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/uu/uu-remote-linux/package.nix#L122",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -552063,7 +552063,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/gotgenes/pi-packages/blob/pi-permission-system-v42.0.0/packages/pi-permission-system/CHANGELOG.md",
+            "changelog": "https://github.com/gotgenes/pi-packages/blob/pi-permission-system-v42.0.2/packages/pi-permission-system/CHANGELOG.md",
             "description": "Permission enforcement extension for the Pi coding agent",
             "downloadPage": "https://github.com/gotgenes/pi-packages/releases",
             "homepage": "https://github.com/gotgenes/pi-packages/tree/main/packages/pi-permission-system",
@@ -552126,7 +552126,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/go/gotgenes-pi-permission-system/package.nix",
                 "line": 65
             },
-            "name": "gotgenes-pi-permission-system-42.0.0",
+            "name": "gotgenes-pi-permission-system-42.0.2",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -552172,14 +552172,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gotgenes-pi-permission-system-42.0.0",
+        "name": "gotgenes-pi-permission-system-42.0.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gotgenes-pi-permission-system",
         "system": "x86_64-linux",
-        "version": "42.0.0",
+        "version": "42.0.2",
         "_attr": "gotgenes-pi-permission-system",
         "_repo": "prince213"
     },
@@ -719410,7 +719410,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/jfarcand/mirroir-mcp/releases/tag/v0.48.0",
+            "changelog": "https://github.com/jfarcand/mirroir-mcp/releases/tag/v0.49.0",
             "description": "MCP server for controlling a real iPhone via macOS iPhone Mirroring",
             "downloadPage": "https://github.com/jfarcand/mirroir-mcp/releases",
             "homepage": "https://mirroir.dev/",
@@ -719447,12 +719447,12 @@
             "license": {
                 "deprecated": false,
                 "free": true,
-                "fullName": "MIT License",
+                "fullName": "Apache License 2.0",
                 "licenseType": "simple",
                 "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "mainProgram": "mirroir-mcp",
             "maintainers": [
@@ -719474,7 +719474,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/mi/mirroir-mcp/package.nix",
                 "line": 52
             },
-            "name": "mirroir-mcp-0.48.0",
+            "name": "mirroir-mcp-0.49.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -719500,14 +719500,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mirroir-mcp-0.48.0",
+        "name": "mirroir-mcp-0.49.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mirroir-mcp",
         "system": "x86_64-linux",
-        "version": "0.48.0",
+        "version": "0.49.0",
         "_attr": "mirroir-mcp",
         "_repo": "prince213"
     },
@@ -720014,7 +720014,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/minuque/pi-cc-extensions/releases/tag/v1.0.19",
+            "changelog": "https://github.com/minuque/pi-cc-extensions/releases/tag/v1.0.20",
             "description": "Claude Code-style TUI output and utilities for the Pi coding agent",
             "downloadPage": "https://github.com/minuque/pi-cc-extensions/releases",
             "homepage": "https://github.com/minuque/pi-cc-extensions",
@@ -720077,7 +720077,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-cc-extensions/package.nix",
                 "line": 38
             },
-            "name": "pi-cc-extensions-1.0.19",
+            "name": "pi-cc-extensions-1.0.20",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -720123,14 +720123,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-cc-extensions-1.0.19",
+        "name": "pi-cc-extensions-1.0.20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-cc-extensions",
         "system": "x86_64-linux",
-        "version": "1.0.19",
+        "version": "1.0.20",
         "_attr": "pi-cc-extensions",
         "_repo": "prince213"
     },
@@ -720796,7 +720796,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-token-speed/package.nix",
                 "line": 35
             },
-            "name": "pi-token-speed-0.12.0",
+            "name": "pi-token-speed-0.13.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -720819,14 +720819,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-token-speed-0.12.0",
+        "name": "pi-token-speed-0.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-token-speed",
         "system": "x86_64-linux",
-        "version": "0.12.0",
+        "version": "0.13.0",
         "_attr": "pi-token-speed",
         "_repo": "prince213"
     },
@@ -720834,7 +720834,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.47.0/CHANGELOG.md",
+            "changelog": "https://github.com/nicobailon/pi-web-access/blob/v0.48.0/CHANGELOG.md",
             "description": "Web search and content extraction extension for Pi coding agent",
             "downloadPage": "https://github.com/nicobailon/pi-web-access/releases",
             "homepage": "https://github.com/nicobailon/pi-web-access",
@@ -720897,7 +720897,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-web-access/package.nix",
                 "line": 33
             },
-            "name": "pi-web-access-0.47.0",
+            "name": "pi-web-access-0.48.0",
             "nonTeamMaintainers": [
                 {
                     "email": "prc.zhao@outlook.com",
@@ -720943,14 +720943,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-web-access-0.47.0",
+        "name": "pi-web-access-0.48.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-web-access",
         "system": "x86_64-linux",
-        "version": "0.47.0",
+        "version": "0.48.0",
         "_attr": "pi-web-access",
         "_repo": "prince213"
     },
@@ -721052,14 +721052,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "qqmusic-11.11.0.1",
+        "name": "qqmusic-11.11.1.73285",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qqmusic",
         "system": "x86_64-linux",
-        "version": "11.11.0.1",
+        "version": "11.11.1.73285",
         "_attr": "qqmusic-darwin",
         "_repo": "prince213"
     },
@@ -992254,6 +992254,105 @@
         "system": "x86_64-linux",
         "version": "0.1.0-unstable-2026-08-25",
         "_attr": "op-cached",
+        "_repo": "tnmt"
+    },
+    "nur.repos.tnmt.plannotator": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/backnotprop/plannotator/releases/tag/v0.28.65",
+            "description": "Interactive plan and code review tool for AI coding agents",
+            "homepage": "https://github.com/backnotprop/plannotator",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "plannotator",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "plannotator",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "plannotator",
+            "maintainers": [],
+            "name": "plannotator-0.28.65",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/tnmt/pkgs/plannotator/default.nix#L56",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "plannotator-0.28.65",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "plannotator",
+        "system": "x86_64-linux",
+        "version": "0.28.65",
+        "_attr": "plannotator",
         "_repo": "tnmt"
     },
     "nur.repos.tnmt.proton-drive-cli": {
