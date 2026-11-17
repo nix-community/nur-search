@@ -206616,7 +206616,7 @@
             },
             "mainProgram": "dartotsu-alpha",
             "maintainers": [],
-            "name": "dartotsu-alpha-4d73c59",
+            "name": "dartotsu-alpha-0fc3062",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -206640,14 +206640,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "dartotsu-alpha-4d73c59",
+        "name": "dartotsu-alpha-0fc3062",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dartotsu-alpha",
         "system": "x86_64-linux",
-        "version": "4d73c59",
+        "version": "0fc3062",
         "_attr": "alpha",
         "_repo": "dartotsu"
     },
@@ -271823,7 +271823,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/baidunetdisk/default.nix#L122",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/baidunetdisk/default.nix#L156",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -383883,7 +383883,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.9",
+            "changelog": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10",
             "description": "Web interface for coding agents",
             "homepage": "https://github.com/pingdotgg/t3code",
             "identifiers": {
@@ -383940,7 +383940,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/merrkry/pkgs/t3code-bin/unwrapped.nix",
                 "line": 71
             },
-            "name": "t3code-bin-unwrapped-0.1.9",
+            "name": "t3code-bin-unwrapped-0.1.10",
             "nonTeamMaintainers": [
                 {
                     "email": "merrkry@tsubasa.moe",
@@ -383966,14 +383966,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "t3code-bin-0.1.9",
+        "name": "t3code-bin-0.1.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "t3code-bin",
         "system": "x86_64-linux",
-        "version": "0.1.9",
+        "version": "0.1.10",
         "_attr": "t3code-bin",
         "_repo": "merrkry"
     },
@@ -500123,6 +500123,186 @@
         "system": "x86_64-linux",
         "version": "7.0.1",
         "_attr": "pi-mcp-adapter",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.pi-nvim": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Use the pi coding agent without leaving Neovim",
+            "homepage": "https://github.com/alex35mil/pi.nvim",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pi-nvim",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pi-nvim",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-nvim/package.nix",
+                "line": 17
+            },
+            "name": "vimplugin-pi-nvim-0-unstable-2026-11-13",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-nvim/package.nix#L14",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vimplugin-pi-nvim-0-unstable-2026-11-13",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vimplugin-pi-nvim",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-11-13",
+        "_attr": "pi-nvim",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.pi-plan-mode": {
@@ -879739,7 +879919,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ach' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -879779,7 +879959,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ach-160.0",
+            "name": "firefox-langpack-ach-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -879836,14 +880016,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ach-160.0",
+        "name": "firefox-langpack-ach-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ach",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ach",
         "_repo": "sigprof"
     },
@@ -879852,7 +880032,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'af' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -879892,7 +880072,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-af-160.0",
+            "name": "firefox-langpack-af-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -879949,14 +880129,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-af-160.0",
+        "name": "firefox-langpack-af-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-af",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-af",
         "_repo": "sigprof"
     },
@@ -879965,7 +880145,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'an' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880005,7 +880185,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-an-160.0",
+            "name": "firefox-langpack-an-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880062,14 +880242,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-an-160.0",
+        "name": "firefox-langpack-an-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-an",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-an",
         "_repo": "sigprof"
     },
@@ -880078,7 +880258,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ar' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880118,7 +880298,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ar-160.0",
+            "name": "firefox-langpack-ar-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880175,14 +880355,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ar-160.0",
+        "name": "firefox-langpack-ar-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ar",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ar",
         "_repo": "sigprof"
     },
@@ -880191,7 +880371,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ast' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880231,7 +880411,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ast-160.0",
+            "name": "firefox-langpack-ast-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880288,14 +880468,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ast-160.0",
+        "name": "firefox-langpack-ast-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ast",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ast",
         "_repo": "sigprof"
     },
@@ -880304,7 +880484,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'az' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880344,7 +880524,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-az-160.0",
+            "name": "firefox-langpack-az-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880401,14 +880581,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-az-160.0",
+        "name": "firefox-langpack-az-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-az",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-az",
         "_repo": "sigprof"
     },
@@ -880417,7 +880597,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'be' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880457,7 +880637,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-be-160.0",
+            "name": "firefox-langpack-be-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880514,14 +880694,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-be-160.0",
+        "name": "firefox-langpack-be-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-be",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-be",
         "_repo": "sigprof"
     },
@@ -880530,7 +880710,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'bg' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880570,7 +880750,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-bg-160.0",
+            "name": "firefox-langpack-bg-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880627,14 +880807,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-bg-160.0",
+        "name": "firefox-langpack-bg-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-bg",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-bg",
         "_repo": "sigprof"
     },
@@ -880643,7 +880823,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'bn' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880683,7 +880863,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-bn-160.0",
+            "name": "firefox-langpack-bn-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880740,14 +880920,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-bn-160.0",
+        "name": "firefox-langpack-bn-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-bn",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-bn",
         "_repo": "sigprof"
     },
@@ -880756,7 +880936,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'br' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880796,7 +880976,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-br-160.0",
+            "name": "firefox-langpack-br-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880853,14 +881033,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-br-160.0",
+        "name": "firefox-langpack-br-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-br",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-br",
         "_repo": "sigprof"
     },
@@ -880869,7 +881049,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'bs' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -880909,7 +881089,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-bs-160.0",
+            "name": "firefox-langpack-bs-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -880966,14 +881146,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-bs-160.0",
+        "name": "firefox-langpack-bs-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-bs",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-bs",
         "_repo": "sigprof"
     },
@@ -880982,7 +881162,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ca' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881022,7 +881202,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ca-160.0",
+            "name": "firefox-langpack-ca-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881079,14 +881259,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ca-160.0",
+        "name": "firefox-langpack-ca-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ca",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ca",
         "_repo": "sigprof"
     },
@@ -881095,7 +881275,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ca-valencia' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881135,7 +881315,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ca-valencia-160.0",
+            "name": "firefox-langpack-ca-valencia-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881192,14 +881372,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ca-valencia-160.0",
+        "name": "firefox-langpack-ca-valencia-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ca-valencia",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ca-valencia",
         "_repo": "sigprof"
     },
@@ -881208,7 +881388,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'cak' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881248,7 +881428,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-cak-160.0",
+            "name": "firefox-langpack-cak-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881305,14 +881485,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-cak-160.0",
+        "name": "firefox-langpack-cak-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-cak",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-cak",
         "_repo": "sigprof"
     },
@@ -881321,7 +881501,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'cs' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881361,7 +881541,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-cs-160.0",
+            "name": "firefox-langpack-cs-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881418,14 +881598,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-cs-160.0",
+        "name": "firefox-langpack-cs-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-cs",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-cs",
         "_repo": "sigprof"
     },
@@ -881434,7 +881614,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'cy' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881474,7 +881654,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-cy-160.0",
+            "name": "firefox-langpack-cy-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881531,14 +881711,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-cy-160.0",
+        "name": "firefox-langpack-cy-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-cy",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-cy",
         "_repo": "sigprof"
     },
@@ -881547,7 +881727,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'da' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881587,7 +881767,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-da-160.0",
+            "name": "firefox-langpack-da-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881644,14 +881824,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-da-160.0",
+        "name": "firefox-langpack-da-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-da",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-da",
         "_repo": "sigprof"
     },
@@ -881660,7 +881840,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'de' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881700,7 +881880,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-de-160.0",
+            "name": "firefox-langpack-de-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881757,14 +881937,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-de-160.0",
+        "name": "firefox-langpack-de-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-de",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-de",
         "_repo": "sigprof"
     },
@@ -881773,7 +881953,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'dsb' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881813,7 +881993,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-dsb-160.0",
+            "name": "firefox-langpack-dsb-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881870,14 +882050,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-dsb-160.0",
+        "name": "firefox-langpack-dsb-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-dsb",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-dsb",
         "_repo": "sigprof"
     },
@@ -881886,7 +882066,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'el' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -881926,7 +882106,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-el-160.0",
+            "name": "firefox-langpack-el-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -881983,14 +882163,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-el-160.0",
+        "name": "firefox-langpack-el-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-el",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-el",
         "_repo": "sigprof"
     },
@@ -881999,7 +882179,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'en-CA' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882039,7 +882219,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-en-CA-160.0",
+            "name": "firefox-langpack-en-CA-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882096,14 +882276,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-en-CA-160.0",
+        "name": "firefox-langpack-en-CA-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-en-CA",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-en-CA",
         "_repo": "sigprof"
     },
@@ -882112,7 +882292,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'en-GB' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882152,7 +882332,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-en-GB-160.0",
+            "name": "firefox-langpack-en-GB-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882209,14 +882389,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-en-GB-160.0",
+        "name": "firefox-langpack-en-GB-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-en-GB",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-en-GB",
         "_repo": "sigprof"
     },
@@ -882225,7 +882405,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'en-US' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882265,7 +882445,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-en-US-160.0",
+            "name": "firefox-langpack-en-US-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882322,14 +882502,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-en-US-160.0",
+        "name": "firefox-langpack-en-US-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-en-US",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-en-US",
         "_repo": "sigprof"
     },
@@ -882338,7 +882518,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'eo' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882378,7 +882558,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-eo-160.0",
+            "name": "firefox-langpack-eo-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882435,14 +882615,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-eo-160.0",
+        "name": "firefox-langpack-eo-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-eo",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-eo",
         "_repo": "sigprof"
     },
@@ -882451,7 +882631,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'es-AR' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882491,7 +882671,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-es-AR-160.0",
+            "name": "firefox-langpack-es-AR-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882548,14 +882728,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-es-AR-160.0",
+        "name": "firefox-langpack-es-AR-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-es-AR",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-es-AR",
         "_repo": "sigprof"
     },
@@ -882564,7 +882744,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'es-CL' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882604,7 +882784,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-es-CL-160.0",
+            "name": "firefox-langpack-es-CL-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882661,14 +882841,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-es-CL-160.0",
+        "name": "firefox-langpack-es-CL-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-es-CL",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-es-CL",
         "_repo": "sigprof"
     },
@@ -882677,7 +882857,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'es-ES' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882717,7 +882897,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-es-ES-160.0",
+            "name": "firefox-langpack-es-ES-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882774,14 +882954,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-es-ES-160.0",
+        "name": "firefox-langpack-es-ES-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-es-ES",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-es-ES",
         "_repo": "sigprof"
     },
@@ -882790,7 +882970,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'es-MX' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882830,7 +883010,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-es-MX-160.0",
+            "name": "firefox-langpack-es-MX-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -882887,14 +883067,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-es-MX-160.0",
+        "name": "firefox-langpack-es-MX-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-es-MX",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-es-MX",
         "_repo": "sigprof"
     },
@@ -882903,7 +883083,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'et' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -882943,7 +883123,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-et-160.0",
+            "name": "firefox-langpack-et-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883000,14 +883180,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-et-160.0",
+        "name": "firefox-langpack-et-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-et",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-et",
         "_repo": "sigprof"
     },
@@ -883016,7 +883196,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'eu' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883056,7 +883236,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-eu-160.0",
+            "name": "firefox-langpack-eu-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883113,14 +883293,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-eu-160.0",
+        "name": "firefox-langpack-eu-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-eu",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-eu",
         "_repo": "sigprof"
     },
@@ -883129,7 +883309,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'fa' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883169,7 +883349,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-fa-160.0",
+            "name": "firefox-langpack-fa-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883226,14 +883406,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-fa-160.0",
+        "name": "firefox-langpack-fa-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-fa",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-fa",
         "_repo": "sigprof"
     },
@@ -883242,7 +883422,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ff' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883282,7 +883462,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ff-160.0",
+            "name": "firefox-langpack-ff-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883339,14 +883519,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ff-160.0",
+        "name": "firefox-langpack-ff-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ff",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ff",
         "_repo": "sigprof"
     },
@@ -883355,7 +883535,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'fi' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883395,7 +883575,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-fi-160.0",
+            "name": "firefox-langpack-fi-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883452,14 +883632,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-fi-160.0",
+        "name": "firefox-langpack-fi-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-fi",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-fi",
         "_repo": "sigprof"
     },
@@ -883468,7 +883648,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'fr' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883508,7 +883688,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-fr-160.0",
+            "name": "firefox-langpack-fr-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883565,14 +883745,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-fr-160.0",
+        "name": "firefox-langpack-fr-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-fr",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-fr",
         "_repo": "sigprof"
     },
@@ -883581,7 +883761,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'fur' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883621,7 +883801,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-fur-160.0",
+            "name": "firefox-langpack-fur-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883678,14 +883858,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-fur-160.0",
+        "name": "firefox-langpack-fur-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-fur",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-fur",
         "_repo": "sigprof"
     },
@@ -883694,7 +883874,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'fy-NL' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883734,7 +883914,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-fy-NL-160.0",
+            "name": "firefox-langpack-fy-NL-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883791,14 +883971,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-fy-NL-160.0",
+        "name": "firefox-langpack-fy-NL-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-fy-NL",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-fy-NL",
         "_repo": "sigprof"
     },
@@ -883807,7 +883987,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ga-IE' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883847,7 +884027,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ga-IE-160.0",
+            "name": "firefox-langpack-ga-IE-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -883904,14 +884084,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ga-IE-160.0",
+        "name": "firefox-langpack-ga-IE-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ga-IE",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ga-IE",
         "_repo": "sigprof"
     },
@@ -883920,7 +884100,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'gd' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -883960,7 +884140,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-gd-160.0",
+            "name": "firefox-langpack-gd-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884017,14 +884197,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-gd-160.0",
+        "name": "firefox-langpack-gd-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-gd",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-gd",
         "_repo": "sigprof"
     },
@@ -884033,7 +884213,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'gl' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884073,7 +884253,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-gl-160.0",
+            "name": "firefox-langpack-gl-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884130,14 +884310,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-gl-160.0",
+        "name": "firefox-langpack-gl-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-gl",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-gl",
         "_repo": "sigprof"
     },
@@ -884146,7 +884326,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'gn' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884186,7 +884366,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-gn-160.0",
+            "name": "firefox-langpack-gn-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884243,14 +884423,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-gn-160.0",
+        "name": "firefox-langpack-gn-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-gn",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-gn",
         "_repo": "sigprof"
     },
@@ -884259,7 +884439,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'gu-IN' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884299,7 +884479,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-gu-IN-160.0",
+            "name": "firefox-langpack-gu-IN-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884356,14 +884536,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-gu-IN-160.0",
+        "name": "firefox-langpack-gu-IN-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-gu-IN",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-gu-IN",
         "_repo": "sigprof"
     },
@@ -884372,7 +884552,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'he' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884412,7 +884592,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-he-160.0",
+            "name": "firefox-langpack-he-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884469,14 +884649,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-he-160.0",
+        "name": "firefox-langpack-he-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-he",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-he",
         "_repo": "sigprof"
     },
@@ -884485,7 +884665,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'hi-IN' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884525,7 +884705,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-hi-IN-160.0",
+            "name": "firefox-langpack-hi-IN-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884582,14 +884762,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-hi-IN-160.0",
+        "name": "firefox-langpack-hi-IN-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-hi-IN",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-hi-IN",
         "_repo": "sigprof"
     },
@@ -884598,7 +884778,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'hr' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884638,7 +884818,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-hr-160.0",
+            "name": "firefox-langpack-hr-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884695,14 +884875,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-hr-160.0",
+        "name": "firefox-langpack-hr-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-hr",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-hr",
         "_repo": "sigprof"
     },
@@ -884711,7 +884891,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'hsb' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884751,7 +884931,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-hsb-160.0",
+            "name": "firefox-langpack-hsb-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884808,14 +884988,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-hsb-160.0",
+        "name": "firefox-langpack-hsb-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-hsb",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-hsb",
         "_repo": "sigprof"
     },
@@ -884824,7 +885004,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'hu' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884864,7 +885044,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-hu-160.0",
+            "name": "firefox-langpack-hu-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -884921,14 +885101,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-hu-160.0",
+        "name": "firefox-langpack-hu-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-hu",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-hu",
         "_repo": "sigprof"
     },
@@ -884937,7 +885117,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'hy-AM' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -884977,7 +885157,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-hy-AM-160.0",
+            "name": "firefox-langpack-hy-AM-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885034,14 +885214,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-hy-AM-160.0",
+        "name": "firefox-langpack-hy-AM-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-hy-AM",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-hy-AM",
         "_repo": "sigprof"
     },
@@ -885050,7 +885230,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ia' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885090,7 +885270,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ia-160.0",
+            "name": "firefox-langpack-ia-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885147,14 +885327,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ia-160.0",
+        "name": "firefox-langpack-ia-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ia",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ia",
         "_repo": "sigprof"
     },
@@ -885163,7 +885343,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'id' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885203,7 +885383,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-id-160.0",
+            "name": "firefox-langpack-id-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885260,14 +885440,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-id-160.0",
+        "name": "firefox-langpack-id-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-id",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-id",
         "_repo": "sigprof"
     },
@@ -885276,7 +885456,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'is' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885316,7 +885496,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-is-160.0",
+            "name": "firefox-langpack-is-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885373,14 +885553,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-is-160.0",
+        "name": "firefox-langpack-is-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-is",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-is",
         "_repo": "sigprof"
     },
@@ -885389,7 +885569,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'it' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885429,7 +885609,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-it-160.0",
+            "name": "firefox-langpack-it-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885486,14 +885666,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-it-160.0",
+        "name": "firefox-langpack-it-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-it",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-it",
         "_repo": "sigprof"
     },
@@ -885502,7 +885682,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ja' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885542,7 +885722,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ja-160.0",
+            "name": "firefox-langpack-ja-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885599,14 +885779,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ja-160.0",
+        "name": "firefox-langpack-ja-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ja",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ja",
         "_repo": "sigprof"
     },
@@ -885615,7 +885795,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ka' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885655,7 +885835,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ka-160.0",
+            "name": "firefox-langpack-ka-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885712,14 +885892,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ka-160.0",
+        "name": "firefox-langpack-ka-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ka",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ka",
         "_repo": "sigprof"
     },
@@ -885728,7 +885908,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'kab' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885768,7 +885948,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-kab-160.0",
+            "name": "firefox-langpack-kab-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885825,14 +886005,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-kab-160.0",
+        "name": "firefox-langpack-kab-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-kab",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-kab",
         "_repo": "sigprof"
     },
@@ -885841,7 +886021,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'kk' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885881,7 +886061,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-kk-160.0",
+            "name": "firefox-langpack-kk-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -885938,14 +886118,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-kk-160.0",
+        "name": "firefox-langpack-kk-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-kk",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-kk",
         "_repo": "sigprof"
     },
@@ -885954,7 +886134,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'km' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -885994,7 +886174,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-km-160.0",
+            "name": "firefox-langpack-km-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886051,14 +886231,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-km-160.0",
+        "name": "firefox-langpack-km-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-km",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-km",
         "_repo": "sigprof"
     },
@@ -886067,7 +886247,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'kn' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886107,7 +886287,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-kn-160.0",
+            "name": "firefox-langpack-kn-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886164,14 +886344,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-kn-160.0",
+        "name": "firefox-langpack-kn-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-kn",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-kn",
         "_repo": "sigprof"
     },
@@ -886180,7 +886360,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ko' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886220,7 +886400,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ko-160.0",
+            "name": "firefox-langpack-ko-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886277,14 +886457,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ko-160.0",
+        "name": "firefox-langpack-ko-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ko",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ko",
         "_repo": "sigprof"
     },
@@ -886293,7 +886473,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'lij' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886333,7 +886513,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-lij-160.0",
+            "name": "firefox-langpack-lij-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886390,14 +886570,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-lij-160.0",
+        "name": "firefox-langpack-lij-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-lij",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-lij",
         "_repo": "sigprof"
     },
@@ -886406,7 +886586,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'lt' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886446,7 +886626,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-lt-160.0",
+            "name": "firefox-langpack-lt-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886503,14 +886683,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-lt-160.0",
+        "name": "firefox-langpack-lt-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-lt",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-lt",
         "_repo": "sigprof"
     },
@@ -886519,7 +886699,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'lv' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886559,7 +886739,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-lv-160.0",
+            "name": "firefox-langpack-lv-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886616,14 +886796,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-lv-160.0",
+        "name": "firefox-langpack-lv-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-lv",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-lv",
         "_repo": "sigprof"
     },
@@ -886632,7 +886812,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'mk' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886672,7 +886852,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-mk-160.0",
+            "name": "firefox-langpack-mk-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886729,14 +886909,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-mk-160.0",
+        "name": "firefox-langpack-mk-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-mk",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-mk",
         "_repo": "sigprof"
     },
@@ -886745,7 +886925,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'mr' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886785,7 +886965,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-mr-160.0",
+            "name": "firefox-langpack-mr-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886842,14 +887022,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-mr-160.0",
+        "name": "firefox-langpack-mr-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-mr",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-mr",
         "_repo": "sigprof"
     },
@@ -886858,7 +887038,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ms' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -886898,7 +887078,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ms-160.0",
+            "name": "firefox-langpack-ms-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -886955,14 +887135,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ms-160.0",
+        "name": "firefox-langpack-ms-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ms",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ms",
         "_repo": "sigprof"
     },
@@ -886971,7 +887151,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'my' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887011,7 +887191,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-my-160.0",
+            "name": "firefox-langpack-my-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887068,14 +887248,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-my-160.0",
+        "name": "firefox-langpack-my-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-my",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-my",
         "_repo": "sigprof"
     },
@@ -887084,7 +887264,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'nb-NO' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887124,7 +887304,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-nb-NO-160.0",
+            "name": "firefox-langpack-nb-NO-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887181,14 +887361,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-nb-NO-160.0",
+        "name": "firefox-langpack-nb-NO-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-nb-NO",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-nb-NO",
         "_repo": "sigprof"
     },
@@ -887197,7 +887377,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ne-NP' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887237,7 +887417,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ne-NP-160.0",
+            "name": "firefox-langpack-ne-NP-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887294,14 +887474,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ne-NP-160.0",
+        "name": "firefox-langpack-ne-NP-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ne-NP",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ne-NP",
         "_repo": "sigprof"
     },
@@ -887310,7 +887490,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'nl' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887350,7 +887530,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-nl-160.0",
+            "name": "firefox-langpack-nl-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887407,14 +887587,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-nl-160.0",
+        "name": "firefox-langpack-nl-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-nl",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-nl",
         "_repo": "sigprof"
     },
@@ -887423,7 +887603,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'nn-NO' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887463,7 +887643,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-nn-NO-160.0",
+            "name": "firefox-langpack-nn-NO-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887520,14 +887700,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-nn-NO-160.0",
+        "name": "firefox-langpack-nn-NO-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-nn-NO",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-nn-NO",
         "_repo": "sigprof"
     },
@@ -887536,7 +887716,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'oc' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887576,7 +887756,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-oc-160.0",
+            "name": "firefox-langpack-oc-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887633,14 +887813,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-oc-160.0",
+        "name": "firefox-langpack-oc-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-oc",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-oc",
         "_repo": "sigprof"
     },
@@ -887649,7 +887829,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'pa-IN' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887689,7 +887869,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-pa-IN-160.0",
+            "name": "firefox-langpack-pa-IN-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887746,14 +887926,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-pa-IN-160.0",
+        "name": "firefox-langpack-pa-IN-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-pa-IN",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-pa-IN",
         "_repo": "sigprof"
     },
@@ -887762,7 +887942,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'pl' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887802,7 +887982,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-pl-160.0",
+            "name": "firefox-langpack-pl-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887859,14 +888039,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-pl-160.0",
+        "name": "firefox-langpack-pl-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-pl",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-pl",
         "_repo": "sigprof"
     },
@@ -887875,7 +888055,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'pt-BR' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -887915,7 +888095,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-pt-BR-160.0",
+            "name": "firefox-langpack-pt-BR-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -887972,14 +888152,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-pt-BR-160.0",
+        "name": "firefox-langpack-pt-BR-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-pt-BR",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-pt-BR",
         "_repo": "sigprof"
     },
@@ -887988,7 +888168,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'pt-PT' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888028,7 +888208,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-pt-PT-160.0",
+            "name": "firefox-langpack-pt-PT-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888085,14 +888265,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-pt-PT-160.0",
+        "name": "firefox-langpack-pt-PT-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-pt-PT",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-pt-PT",
         "_repo": "sigprof"
     },
@@ -888101,7 +888281,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'rm' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888141,7 +888321,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-rm-160.0",
+            "name": "firefox-langpack-rm-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888198,14 +888378,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-rm-160.0",
+        "name": "firefox-langpack-rm-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-rm",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-rm",
         "_repo": "sigprof"
     },
@@ -888214,7 +888394,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ro' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888254,7 +888434,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ro-160.0",
+            "name": "firefox-langpack-ro-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888311,14 +888491,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ro-160.0",
+        "name": "firefox-langpack-ro-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ro",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ro",
         "_repo": "sigprof"
     },
@@ -888327,7 +888507,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ru' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888367,7 +888547,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ru-160.0",
+            "name": "firefox-langpack-ru-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888424,14 +888604,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ru-160.0",
+        "name": "firefox-langpack-ru-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ru",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ru",
         "_repo": "sigprof"
     },
@@ -888440,7 +888620,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sat' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888480,7 +888660,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sat-160.0",
+            "name": "firefox-langpack-sat-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888537,14 +888717,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sat-160.0",
+        "name": "firefox-langpack-sat-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sat",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sat",
         "_repo": "sigprof"
     },
@@ -888553,7 +888733,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sc' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888593,7 +888773,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sc-160.0",
+            "name": "firefox-langpack-sc-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888650,14 +888830,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sc-160.0",
+        "name": "firefox-langpack-sc-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sc",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sc",
         "_repo": "sigprof"
     },
@@ -888666,7 +888846,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sco' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888706,7 +888886,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sco-160.0",
+            "name": "firefox-langpack-sco-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888763,14 +888943,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sco-160.0",
+        "name": "firefox-langpack-sco-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sco",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sco",
         "_repo": "sigprof"
     },
@@ -888779,7 +888959,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'si' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888819,7 +888999,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-si-160.0",
+            "name": "firefox-langpack-si-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888876,14 +889056,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-si-160.0",
+        "name": "firefox-langpack-si-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-si",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-si",
         "_repo": "sigprof"
     },
@@ -888892,7 +889072,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sk' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -888932,7 +889112,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sk-160.0",
+            "name": "firefox-langpack-sk-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -888989,14 +889169,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sk-160.0",
+        "name": "firefox-langpack-sk-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sk",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sk",
         "_repo": "sigprof"
     },
@@ -889005,7 +889185,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'skr' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889045,7 +889225,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-skr-160.0",
+            "name": "firefox-langpack-skr-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889102,14 +889282,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-skr-160.0",
+        "name": "firefox-langpack-skr-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-skr",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-skr",
         "_repo": "sigprof"
     },
@@ -889118,7 +889298,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sl' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889158,7 +889338,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sl-160.0",
+            "name": "firefox-langpack-sl-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889215,14 +889395,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sl-160.0",
+        "name": "firefox-langpack-sl-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sl",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sl",
         "_repo": "sigprof"
     },
@@ -889231,7 +889411,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'son' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889271,7 +889451,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-son-160.0",
+            "name": "firefox-langpack-son-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889328,14 +889508,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-son-160.0",
+        "name": "firefox-langpack-son-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-son",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-son",
         "_repo": "sigprof"
     },
@@ -889344,7 +889524,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sq' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889384,7 +889564,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sq-160.0",
+            "name": "firefox-langpack-sq-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889441,14 +889621,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sq-160.0",
+        "name": "firefox-langpack-sq-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sq",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sq",
         "_repo": "sigprof"
     },
@@ -889457,7 +889637,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sr' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889497,7 +889677,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sr-160.0",
+            "name": "firefox-langpack-sr-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889554,14 +889734,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sr-160.0",
+        "name": "firefox-langpack-sr-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sr",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sr",
         "_repo": "sigprof"
     },
@@ -889570,7 +889750,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'sv-SE' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889610,7 +889790,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-sv-SE-160.0",
+            "name": "firefox-langpack-sv-SE-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889667,14 +889847,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-sv-SE-160.0",
+        "name": "firefox-langpack-sv-SE-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-sv-SE",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-sv-SE",
         "_repo": "sigprof"
     },
@@ -889683,7 +889863,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'szl' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889723,7 +889903,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-szl-160.0",
+            "name": "firefox-langpack-szl-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889780,14 +889960,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-szl-160.0",
+        "name": "firefox-langpack-szl-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-szl",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-szl",
         "_repo": "sigprof"
     },
@@ -889796,7 +889976,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ta' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889836,7 +890016,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ta-160.0",
+            "name": "firefox-langpack-ta-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -889893,14 +890073,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ta-160.0",
+        "name": "firefox-langpack-ta-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ta",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ta",
         "_repo": "sigprof"
     },
@@ -889909,7 +890089,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'te' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -889949,7 +890129,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-te-160.0",
+            "name": "firefox-langpack-te-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890006,14 +890186,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-te-160.0",
+        "name": "firefox-langpack-te-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-te",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-te",
         "_repo": "sigprof"
     },
@@ -890022,7 +890202,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'tg' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890062,7 +890242,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-tg-160.0",
+            "name": "firefox-langpack-tg-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890119,14 +890299,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-tg-160.0",
+        "name": "firefox-langpack-tg-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-tg",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-tg",
         "_repo": "sigprof"
     },
@@ -890135,7 +890315,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'th' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890175,7 +890355,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-th-160.0",
+            "name": "firefox-langpack-th-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890232,14 +890412,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-th-160.0",
+        "name": "firefox-langpack-th-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-th",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-th",
         "_repo": "sigprof"
     },
@@ -890248,7 +890428,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'tl' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890288,7 +890468,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-tl-160.0",
+            "name": "firefox-langpack-tl-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890345,14 +890525,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-tl-160.0",
+        "name": "firefox-langpack-tl-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-tl",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-tl",
         "_repo": "sigprof"
     },
@@ -890361,7 +890541,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'tr' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890401,7 +890581,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-tr-160.0",
+            "name": "firefox-langpack-tr-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890458,14 +890638,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-tr-160.0",
+        "name": "firefox-langpack-tr-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-tr",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-tr",
         "_repo": "sigprof"
     },
@@ -890474,7 +890654,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'trs' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890514,7 +890694,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-trs-160.0",
+            "name": "firefox-langpack-trs-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890571,14 +890751,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-trs-160.0",
+        "name": "firefox-langpack-trs-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-trs",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-trs",
         "_repo": "sigprof"
     },
@@ -890587,7 +890767,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'uk' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890627,7 +890807,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-uk-160.0",
+            "name": "firefox-langpack-uk-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890684,14 +890864,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-uk-160.0",
+        "name": "firefox-langpack-uk-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-uk",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-uk",
         "_repo": "sigprof"
     },
@@ -890700,7 +890880,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'ur' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890740,7 +890920,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-ur-160.0",
+            "name": "firefox-langpack-ur-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890797,14 +890977,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-ur-160.0",
+        "name": "firefox-langpack-ur-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-ur",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-ur",
         "_repo": "sigprof"
     },
@@ -890813,7 +890993,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'uz' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890853,7 +891033,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-uz-160.0",
+            "name": "firefox-langpack-uz-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -890910,14 +891090,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-uz-160.0",
+        "name": "firefox-langpack-uz-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-uz",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-uz",
         "_repo": "sigprof"
     },
@@ -890926,7 +891106,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'vi' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -890966,7 +891146,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-vi-160.0",
+            "name": "firefox-langpack-vi-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -891023,14 +891203,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-vi-160.0",
+        "name": "firefox-langpack-vi-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-vi",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-vi",
         "_repo": "sigprof"
     },
@@ -891039,7 +891219,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'xh' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -891079,7 +891259,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-xh-160.0",
+            "name": "firefox-langpack-xh-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -891136,14 +891316,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-xh-160.0",
+        "name": "firefox-langpack-xh-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-xh",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-xh",
         "_repo": "sigprof"
     },
@@ -891152,7 +891332,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'zh-CN' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -891192,7 +891372,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-zh-CN-160.0",
+            "name": "firefox-langpack-zh-CN-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -891249,14 +891429,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-zh-CN-160.0",
+        "name": "firefox-langpack-zh-CN-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-zh-CN",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-zh-CN",
         "_repo": "sigprof"
     },
@@ -891265,7 +891445,7 @@
             "available": true,
             "broken": false,
             "description": "Firefox language pack for the 'zh-TW' language.",
-            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0/linux-x86_64/xpi/",
+            "homepage": "https://archive.mozilla.org/pub/firefox/releases/160.0.1/linux-x86_64/xpi/",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -891305,7 +891485,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "firefox-langpack-zh-TW-160.0",
+            "name": "firefox-langpack-zh-TW-160.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -891362,14 +891542,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "firefox-langpack-zh-TW-160.0",
+        "name": "firefox-langpack-zh-TW-160.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "firefox-langpack-zh-TW",
         "system": "x86_64-linux",
-        "version": "160.0",
+        "version": "160.0.1",
         "_attr": "firefox-langpack-zh-TW",
         "_repo": "sigprof"
     },
@@ -975920,6 +976100,90 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-11-12",
         "_attr": "neu-cli",
+        "_repo": "silicalet"
+    },
+    "nur.repos.silicalet.nodecode-bin": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/nodecode-ai/nodecode/releases/tag/v0.1.16",
+            "description": "Self-evolving coding agent running in Common Lisp",
+            "homepage": "https://github.com/nodecode-ai/nodecode",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nodecode-bin",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nodecode-bin",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "nodecode",
+            "maintainers": [],
+            "name": "nodecode-bin-0.1.16",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/silicalet/pkgs/tools/nodecode/binary.nix#L87",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nodecode-bin-0.1.16",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nodecode-bin",
+        "system": "x86_64-linux",
+        "version": "0.1.16",
+        "_attr": "nodecode-bin",
         "_repo": "silicalet"
     },
     "nur.repos.silicalet.nyaterm-bin": {
