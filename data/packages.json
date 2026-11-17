@@ -513227,6 +513227,286 @@
         "_attr": "ace-ctx",
         "_repo": "mzwing"
     },
+    "nur.repos.mzwing.agy-hud": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Real-time statusline HUD for Antigravity CLI",
+            "homepage": "https://github.com/lllopic/agy-hud",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "agy-hud",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "agy-hud",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "agy-hud",
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/agy-hud/default.nix",
+                "line": 48
+            },
+            "name": "agy-hud-0.2.1-unstable-2026-08-27",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/agy-hud/default.nix#L44",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "agy-hud-0.2.1-unstable-2026-08-27",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "agy-hud",
+        "system": "x86_64-linux",
+        "version": "0.2.1-unstable-2026-08-27",
+        "_attr": "agy-hud",
+        "_repo": "mzwing"
+    },
+    "nur.repos.mzwing.antigravity-cli-modified": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://antigravity.google/changelog",
+            "description": "Antigravity CLI with its context clamp lifted and built-in prompts replaceable",
+            "homepage": "https://antigravity.google",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "antigravity-cli",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "antigravity-cli",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "agy",
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/zgkk0imi2fznmsxxj9y9rhhjsf1fy2b6-source/pkgs/by-name/an/antigravity-cli/package.nix",
+                "line": 67
+            },
+            "name": "antigravity-cli-1.5.6",
+            "nonTeamMaintainers": [
+                {
+                    "email": "AdrielVelazquez@gmail.com",
+                    "github": "AdrielVelazquez",
+                    "githubId": 3443378,
+                    "name": "Adriel Velazquez"
+                },
+                {
+                    "email": "kirillrdy@gmail.com",
+                    "github": "kirillrdy",
+                    "githubId": 12160,
+                    "name": "Kirill Radzikhovskyy"
+                },
+                {
+                    "email": "fida.waseque@gmail.com",
+                    "github": "u3kkasha",
+                    "githubId": 146055002,
+                    "name": "Fida Waseque Choudhury"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/antigravity-cli-modified/default.nix#L57",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "antigravity-cli-modified-1.5.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "antigravity-cli-modified",
+        "system": "x86_64-linux",
+        "version": "1.5.6",
+        "_attr": "antigravity-cli-modified",
+        "_repo": "mzwing"
+    },
+    "nur.repos.mzwing.antigravity-wakatime": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "WakaTime plugin for Antigravity CLI",
+            "homepage": "https://github.com/wakatime/antigravity-wakatime",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "antigravity-wakatime",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "antigravity-wakatime",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/antigravity-wakatime/default.nix",
+                "line": 54
+            },
+            "name": "antigravity-wakatime-1.0.0-unstable-2026-08-31",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/antigravity-wakatime/default.nix#L51",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "antigravity-wakatime-1.0.0-unstable-2026-08-31",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "antigravity-wakatime",
+        "system": "x86_64-linux",
+        "version": "1.0.0-unstable-2026-08-31",
+        "_attr": "antigravity-wakatime",
+        "_repo": "mzwing"
+    },
     "nur.repos.mzwing.autocli": {
         "meta": {
             "available": true,
@@ -514048,7 +514328,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.23.0",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.23.5",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -514102,7 +514382,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 42
             },
-            "name": "cnb-cli-1.23.0",
+            "name": "cnb-cli-1.23.5",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -514121,14 +514401,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.23.0",
+        "name": "cnb-cli-1.23.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.23.0",
+        "version": "1.23.5",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -515288,7 +515568,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.57",
+            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.60",
             "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit",
             "homepage": "https://github.com/cortexkit/magic-context",
             "identifiers": {
@@ -515342,7 +515622,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
                 "line": 47
             },
-            "name": "magic-context-0.49.57",
+            "name": "magic-context-0.49.60",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -515361,14 +515641,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magic-context-0.49.57",
+        "name": "magic-context-0.49.60",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magic-context",
         "system": "x86_64-linux",
-        "version": "0.49.57",
+        "version": "0.49.60",
         "_attr": "magic-context",
         "_repo": "mzwing"
     },
@@ -1154821,6 +1155101,83 @@
         "system": "x86_64-linux",
         "version": "1.4.7-beta.0",
         "_attr": "deta-surf",
+        "_repo": "ymstnt"
+    },
+    "nur.repos.ymstnt.eidos-lite": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A single-file relational spreadsheet for you and your agent",
+            "homepage": "https://eidos.space",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "eidos-lite",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "eidos-lite",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "maintainers": [],
+            "name": "eidos-lite-0.34.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ymstnt/pkgs/eidos-lite/default.nix#L125",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "eidos-lite-0.34.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "eidos-lite",
+        "system": "x86_64-linux",
+        "version": "0.34.0",
+        "_attr": "eidos-lite",
         "_repo": "ymstnt"
     },
     "nur.repos.ymstnt.equicord": {
