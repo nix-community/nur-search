@@ -468859,15 +468859,16 @@
             },
             "mainProgram": "kyty_launcher",
             "maintainers": [],
-            "name": "kytyps5-0-unstable-2026-11-15",
+            "name": "kytyps5-0-unstable-2026-11-16",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
-                "x86_64-linux"
+                "x86_64-linux",
+                "x86_64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ky/kytyps5/package.nix#L359",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ky/kytyps5/package.nix#L438",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -468883,14 +468884,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kytyps5-0-unstable-2026-11-15",
+        "name": "kytyps5-0-unstable-2026-11-16",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kytyps5",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-15",
+        "version": "0-unstable-2026-11-16",
         "_attr": "kytyps5",
         "_repo": "mio"
     },
