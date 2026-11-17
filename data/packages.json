@@ -742011,15 +742011,16 @@
             ],
             "mainProgram": "revue",
             "maintainers": [],
-            "name": "revue-bin-0.44.2",
+            "name": "revue-bin-0.44.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
+                "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/revue/pkgs/revue-bin.nix#L83",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/revue/pkgs/revue-bin.nix#L97",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -742035,14 +742036,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "revue-bin-0.44.2",
+        "name": "revue-bin-0.44.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "revue-bin",
         "system": "x86_64-linux",
-        "version": "0.44.2",
+        "version": "0.44.4",
         "_attr": "revue-bin",
         "_repo": "revue"
     },
