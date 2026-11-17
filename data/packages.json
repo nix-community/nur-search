@@ -53044,8 +53044,9 @@
     },
     "nur.repos.Skyb0rg007.landlock-observability": {
         "meta": {
-            "available": false,
+            "available": true,
             "badPlatforms": [
+                "aarch64-linux",
                 {
                     "abi": {
                         "abi": "n32"
@@ -53056,7 +53057,7 @@
                     }
                 }
             ],
-            "broken": true,
+            "broken": false,
             "description": "Library for observing Landlock",
             "homepage": "https://github.com/landlock-lsm/landlock-observability",
             "identifiers": {
@@ -53181,12 +53182,7 @@
                 "riscv32-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/landlock-observability/package.nix#L50",
-            "problems": {
-                "broken": {
-                    "kind": "broken",
-                    "message": "This package is broken."
-                }
-            },
+            "problems": {},
             "unfree": false,
             "unsupported": false
         },
