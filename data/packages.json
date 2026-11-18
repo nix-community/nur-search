@@ -64488,6 +64488,112 @@
         "_attr": "ublksrv",
         "_repo": "Skyb0rg007"
     },
+    "nur.repos.Skyb0rg007.ufat": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Create, fill and check FAT32 file systems without mounting them",
+            "homepage": "https://github.com/systemd/ufat",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ufat",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ufat",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v2.1 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl21Plus",
+                "spdxId": "LGPL-2.1-or-later",
+                "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+            },
+            "mainProgram": "ufat",
+            "maintainers": [],
+            "name": "ufat-0.1.0-unstable-2026-11-13",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Skyb0rg007/NixOS/pkgs/by-name/ufat/package.nix#L34",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ufat-0.1.0-unstable-2026-11-13",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ufat",
+        "system": "x86_64-linux",
+        "version": "0.1.0-unstable-2026-11-13",
+        "_attr": "ufat",
+        "_repo": "Skyb0rg007"
+    },
     "nur.repos.Skyb0rg007.util-linux-HEAD": {
         "meta": {
             "available": true,
@@ -337329,7 +337435,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/kira-bruneau/pkgs/by-name/ha/habitica/package.nix",
                 "line": 133
             },
-            "name": "habitica-5.52.1",
+            "name": "habitica-5.53.0",
             "nonTeamMaintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -337427,7 +337533,7 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "habitica-5.52.1",
+        "name": "habitica-5.53.0",
         "outputName": "out",
         "outputs": {
             "migrations": null,
@@ -337435,7 +337541,7 @@
         },
         "pname": "habitica",
         "system": "x86_64-linux",
-        "version": "5.52.1",
+        "version": "5.53.0",
         "_attr": "habitica",
         "_repo": "kira-bruneau"
     },
@@ -337680,7 +337786,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/kira-bruneau/pkgs/by-name/ha/habitica/package.nix",
                 "line": 133
             },
-            "name": "jakirica-5.52.1",
+            "name": "jakirica-5.53.0",
             "nonTeamMaintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -337778,7 +337884,7 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "jakirica-5.52.1",
+        "name": "jakirica-5.53.0",
         "outputName": "out",
         "outputs": {
             "migrations": null,
@@ -337786,7 +337892,7 @@
         },
         "pname": "jakirica",
         "system": "x86_64-linux",
-        "version": "5.52.1",
+        "version": "5.53.0",
         "_attr": "jakirica",
         "_repo": "kira-bruneau"
     },
@@ -337872,7 +337978,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/kira-bruneau/pkgs/by-name/ha/habitica/package.nix",
                 "line": 133
             },
-            "name": "habitica-5.52.1",
+            "name": "habitica-5.53.0",
             "nonTeamMaintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -337970,14 +338076,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "jakirica-client-5.52.1",
+        "name": "jakirica-client-5.53.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "jakirica-client",
         "system": "x86_64-linux",
-        "version": "5.52.1",
+        "version": "5.53.0",
         "_attr": "jakirica-client",
         "_repo": "kira-bruneau"
     },
@@ -338183,7 +338289,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/kira-bruneau/pkgs/by-name/li/lichii/package.nix",
                 "line": 200
             },
-            "name": "lichii-316",
+            "name": "lichii-341",
             "nonTeamMaintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -338204,14 +338310,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lichii-316",
+        "name": "lichii-341",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lichii",
         "system": "x86_64-linux",
-        "version": "316",
+        "version": "341",
         "_attr": "lichii",
         "_repo": "kira-bruneau"
     },
