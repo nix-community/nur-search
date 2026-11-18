@@ -198984,7 +198984,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/intune-portal/default.nix",
-                "line": 114
+                "line": 116
             },
             "name": "intune-portal-1.2610.8-resolute",
             "nonTeamMaintainers": [
@@ -199001,7 +199001,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/codgician/pkgs/intune-portal/default.nix#L110",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/codgician/pkgs/intune-portal/default.nix#L112",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -199141,6 +199141,100 @@
         "system": "x86_64-linux",
         "version": "0.1.1",
         "_attr": "linux-entra-bridge",
+        "_repo": "codgician"
+    },
+    "nur.repos.codgician.mdatp": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft Defender for Endpoint on Linux",
+            "homepage": "https://learn.microsoft.com/defender-endpoint/microsoft-defender-endpoint-linux",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mdatp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mdatp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "codgician@outlook.com",
+                    "github": "codgician",
+                    "githubId": 15964984,
+                    "name": "codgician"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/mdatp/default.nix",
+                "line": 59
+            },
+            "name": "mdatp-101.26101.0000",
+            "nonTeamMaintainers": [
+                {
+                    "email": "codgician@outlook.com",
+                    "github": "codgician",
+                    "githubId": 15964984,
+                    "name": "codgician"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/codgician/pkgs/mdatp/default.nix#L55",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "mdatp-101.26101.0000",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mdatp",
+        "system": "x86_64-linux",
+        "version": "101.26101.0000",
+        "_attr": "mdatp",
         "_repo": "codgician"
     },
     "nur.repos.codgician.mkcreds": {
@@ -496011,7 +496105,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/de/dell-idrac-fan-controller/package.nix",
-                "line": 86
+                "line": 89
             },
             "name": "dell-idrac-fan-controller-1.108",
             "nonTeamMaintainers": [
@@ -496057,7 +496151,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/de/dell-idrac-fan-controller/package.nix#L83",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/de/dell-idrac-fan-controller/package.nix#L86",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -500281,7 +500375,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-emphasis/package.nix",
-                "line": 77
+                "line": 75
             },
             "name": "pi-emphasis-0-unstable-2026-11-16",
             "nonTeamMaintainers": [
@@ -500324,7 +500418,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-emphasis/package.nix#L74",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-emphasis/package.nix#L72",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1032029,7 +1032123,7 @@
             "description": "Linux CachyOS kernel for x86-64-v3 (non-LTO)",
             "homepage": "https://github.com/CachyOS/linux-cachyos",
             "identifiers": {
-                "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.4:*:*:*:*:*:*:*",
+                "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
@@ -1032041,11 +1032135,11 @@
                     "target_sw": "*",
                     "update": "*",
                     "vendor": "linux",
-                    "version": "7.3.4"
+                    "version": "7.3.5"
                 },
                 "possibleCPEs": [
                     {
-                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.4:*:*:*:*:*:*:*",
+                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
                         "cpeParts": {
                             "edition": "*",
                             "language": "*",
@@ -1032057,14 +1032151,14 @@
                             "target_sw": "*",
                             "update": "*",
                             "vendor": "linux",
-                            "version": "7.3.4"
+                            "version": "7.3.5"
                         }
                     }
                 ],
                 "purlParts": {},
                 "purls": [],
                 "v1": {
-                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.4:*:*:*:*:*:*:*",
+                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
                     "cpeParts": {
                         "edition": "*",
                         "language": "*",
@@ -1032076,11 +1032170,11 @@
                         "target_sw": "*",
                         "update": "*",
                         "vendor": "linux",
-                        "version": "7.3.4"
+                        "version": "7.3.5"
                     },
                     "possibleCPEs": [
                         {
-                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.4:*:*:*:*:*:*:*",
+                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
                             "cpeParts": {
                                 "edition": "*",
                                 "language": "*",
@@ -1032092,7 +1032186,7 @@
                                 "target_sw": "*",
                                 "update": "*",
                                 "vendor": "linux",
-                                "version": "7.3.4"
+                                "version": "7.3.5"
                             }
                         }
                     ],
@@ -1032178,7 +1032272,7 @@
                 "file": "/nix/store/qnkjgak3r8kpwj2szzazg7l63f1rjh59-source/pkgs/os-specific/linux/kernel/build.nix",
                 "line": 614
             },
-            "name": "linux-cachyos-latest-x86_64-v3-7.3.4",
+            "name": "linux-cachyos-latest-x86_64-v3-7.3.5",
             "nonTeamMaintainers": [
                 {
                     "email": "aseipp@pobox.com",
@@ -1032299,7 +1032393,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-cachyos-latest-x86_64-v3-7.3.4",
+        "name": "linux-cachyos-latest-x86_64-v3-7.3.5",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -1032308,7 +1032402,7 @@
         },
         "pname": "linux-cachyos-latest-x86_64-v3",
         "system": "x86_64-linux",
-        "version": "7.3.4",
+        "version": "7.3.5",
         "_attr": "linux-cachyos-latest-x86_64-v3",
         "_repo": "uriotv"
     },
@@ -1032360,7 +1032454,7 @@
             },
             "mainProgram": "meitou-launcher",
             "maintainers": [],
-            "name": "meitou-launcher-1.12.1",
+            "name": "meitou-launcher-1.13.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1032384,14 +1032478,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meitou-launcher-1.12.1",
+        "name": "meitou-launcher-1.13.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "meitou-launcher",
         "system": "x86_64-linux",
-        "version": "1.12.1",
+        "version": "1.13.0",
         "_attr": "meitou-launcher",
         "_repo": "uriotv"
     },
