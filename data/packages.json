@@ -496689,7 +496689,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.78",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.79",
             "description": "Proxy that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -496766,7 +496766,7 @@
                 "file": "/nix/store/qnkjgak3r8kpwj2szzazg7l63f1rjh59-source/pkgs/by-name/cl/cliproxyapi/package.nix",
                 "line": 55
             },
-            "name": "cliproxyapi-8.0.78",
+            "name": "cliproxyapi-8.0.79",
             "nonTeamMaintainers": [
                 {
                     "email": "i@anish.land",
@@ -496835,14 +496835,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.78",
+        "name": "cliproxyapi-8.0.79",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.78",
+        "version": "8.0.79",
         "_attr": "cliproxyapi",
         "_repo": "moraxyc"
     },
@@ -500848,7 +500848,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ny/nyanpasu-service/package.nix",
                 "line": 36
             },
-            "name": "nyanpasu-service-2.0.3-unstable-2026-11-18",
+            "name": "nyanpasu-service-2.0.4-unstable-2026-11-19",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -500907,14 +500907,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nyanpasu-service-2.0.3-unstable-2026-11-18",
+        "name": "nyanpasu-service-2.0.4-unstable-2026-11-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nyanpasu-service",
         "system": "x86_64-linux",
-        "version": "2.0.3-unstable-2026-11-18",
+        "version": "2.0.4-unstable-2026-11-19",
         "_attr": "nyanpasu-service",
         "_repo": "moraxyc"
     },
@@ -510207,6 +510207,90 @@
         "_attr": "agy-hud",
         "_repo": "mzwing"
     },
+    "nur.repos.mzwing.agy-tool-plugins": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Antigravity plugins from agy-tool: codemode sandbox, oversized tool output guard and lossless rehydrate after compaction",
+            "homepage": "https://github.com/justhil/agy-tool",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "agy-tool-plugins",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "agy-tool-plugins",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Unspecified free software license",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "free"
+            },
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/agy-tool-plugins/default.nix",
+                "line": 51
+            },
+            "name": "agy-tool-plugins-2.0.0-unstable-2026-11-17",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/agy-tool-plugins/default.nix#L48",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "agy-tool-plugins-2.0.0-unstable-2026-11-17",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "agy-tool-plugins",
+        "system": "x86_64-linux",
+        "version": "2.0.0-unstable-2026-11-17",
+        "_attr": "agy-tool-plugins",
+        "_repo": "mzwing"
+    },
     "nur.repos.mzwing.antigravity-cli-modified": {
         "meta": {
             "available": false,
@@ -511221,7 +511305,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.24.0",
+            "changelog": "https://cnb.cool/cnb/skills/cnb-skill/-/releases/tag/1.24.2",
             "description": "CNB CLI is the command line tool of CNB platform OpenAPI",
             "homepage": "https://docs.cnb.cool/zh/develops/cnb-cli.html",
             "identifiers": {
@@ -511275,7 +511359,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/cnb-cli/default.nix",
                 "line": 42
             },
-            "name": "cnb-cli-1.24.0",
+            "name": "cnb-cli-1.24.2",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -511294,14 +511378,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cnb-cli-1.24.0",
+        "name": "cnb-cli-1.24.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cnb-cli",
         "system": "x86_64-linux",
-        "version": "1.24.0",
+        "version": "1.24.2",
         "_attr": "cnb-cli",
         "_repo": "mzwing"
     },
@@ -951047,7 +951131,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/re/revdiff/package.nix",
                 "line": 39
             },
-            "name": "revdiff-1.14.0",
+            "name": "revdiff-1.15.0",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -951102,14 +951186,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "revdiff-1.14.0",
+        "name": "revdiff-1.15.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "revdiff",
         "system": "x86_64-linux",
-        "version": "1.14.0",
+        "version": "1.15.0",
         "_attr": "revdiff",
         "_repo": "sikmir"
     },
@@ -961375,7 +961459,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/ta/tatoeba/package.nix",
                 "line": 94
             },
-            "name": "tatoeba-2026-11-07",
+            "name": "tatoeba-2026-11-14",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -961482,14 +961566,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tatoeba-2026-11-07",
+        "name": "tatoeba-2026-11-14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tatoeba",
         "system": "x86_64-linux",
-        "version": "2026-11-07",
+        "version": "2026-11-14",
         "_attr": "tatoeba",
         "_repo": "sikmir"
     },
@@ -970507,7 +970591,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/yt/yt-tui/package.nix",
                 "line": 30
             },
-            "name": "yt-tui-0.8.5",
+            "name": "yt-tui-0.8.6",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -970562,14 +970646,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "yt-tui-0.8.5",
+        "name": "yt-tui-0.8.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "yt-tui",
         "system": "x86_64-linux",
-        "version": "0.8.5",
+        "version": "0.8.6",
         "_attr": "yt-tui",
         "_repo": "sikmir"
     },
