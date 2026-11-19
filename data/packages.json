@@ -132096,6 +132096,143 @@
         "_attr": "vimPlugins.SchemaStore-nvim",
         "_repo": "bandithedoge"
     },
+    "nur.repos.bandithedoge.vimPlugins.agentic-nvim": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "agentic.nvim",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "agentic.nvim",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "maintainers": [],
+            "name": "vimplugin-agentic.nvim-4750d6ce4298b3018dd67f975a1457afbeeaa09f",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/bandithedoge/pkgs/vimPlugins/package.nix#L23",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vimplugin-agentic.nvim-4750d6ce4298b3018dd67f975a1457afbeeaa09f",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vimplugin-agentic.nvim",
+        "system": "x86_64-linux",
+        "version": "4750d6ce4298b3018dd67f975a1457afbeeaa09f",
+        "_attr": "vimPlugins.agentic-nvim",
+        "_repo": "bandithedoge"
+    },
     "nur.repos.bandithedoge.vimPlugins.aniseed": {
         "meta": {
             "available": true,
@@ -182076,7 +182213,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/totoshko88/RustConn/blob/v0.24.9/CHANGELOG.md",
+            "changelog": "https://github.com/totoshko88/RustConn/blob/v0.25.1/CHANGELOG.md",
             "description": "GTK4/libadwaita connection manager for SSH, RDP, VNC, SPICE, Telnet, Serial and Kubernetes",
             "homepage": "https://github.com/totoshko88/RustConn",
             "identifiers": {
@@ -182121,7 +182258,7 @@
             },
             "mainProgram": "rustconn",
             "maintainers": [],
-            "name": "rustconn-0.24.9",
+            "name": "rustconn-0.25.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -182157,14 +182294,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rustconn-0.24.9",
+        "name": "rustconn-0.25.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rustconn",
         "system": "x86_64-linux",
-        "version": "0.24.9",
+        "version": "0.25.1",
         "_attr": "rustconn",
         "_repo": "callumd789"
     },
@@ -187959,6 +188096,125 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-06-10",
         "_attr": "pwasio",
+        "_repo": "ccicnce113424"
+    },
+    "nur.repos.ccicnce113424.qpxtool": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CD/DVD/BD media quality checker and drive control tools",
+            "homepage": "https://github.com/speed47/qpxtool",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "qpxtool",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "qpxtool",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "mainProgram": "qpxtool",
+            "maintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/qpxtool/package.nix",
+                "line": 82
+            },
+            "name": "qpxtool-0.8.1-pl8",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ccicnce113424@gmail.com",
+                    "github": "ccicnce113424",
+                    "githubId": 30774232,
+                    "matrix": "@ccicnce113424:matrix.org",
+                    "name": "ccicnce113424"
+                }
+            ],
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ccicnce113424/pkgs/qpxtool/package.nix#L79",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "qpxtool-0.8.1-pl8",
+        "outputName": "out",
+        "outputs": {
+            "dev": null,
+            "man": null,
+            "out": null
+        },
+        "pname": "qpxtool",
+        "system": "x86_64-linux",
+        "version": "0.8.1-pl8",
+        "_attr": "qpxtool",
         "_repo": "ccicnce113424"
     },
     "nur.repos.ccicnce113424.rayburst": {
@@ -453885,9 +454141,11 @@
                 "out"
             ],
             "platforms": [
-                "x86_64-linux"
+                "x86_64-linux",
+                "x86_64-darwin",
+                "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/an/anyps5/package.nix#L471",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/an/anyps5/package.nix#L485",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -454225,9 +454483,9 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 356
+                "line": 380
             },
-            "name": "archivetune-unwrapped-15.1.0",
+            "name": "archivetune-unwrapped-16.0.0",
             "nonTeamMaintainers": [
                 {
                     "email": "mio@mio19.uk",
@@ -454245,7 +454503,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L353",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L377",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -454260,14 +454518,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "archivetune-15.1.0",
+        "name": "archivetune-16.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "archivetune",
         "system": "x86_64-linux",
-        "version": "15.1.0",
+        "version": "16.0.0",
         "_attr": "archivetune",
         "_repo": "mio"
     },
@@ -499005,7 +499263,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix",
-                "line": 123
+                "line": 132
             },
             "name": "lm-detector-0-unstable-2026-11-19",
             "nonTeamMaintainers": [
@@ -499048,7 +499306,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix#L120",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix#L129",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -738985,7 +739243,7 @@
             ],
             "mainProgram": "revue",
             "maintainers": [],
-            "name": "revue-bin-0.44.9",
+            "name": "revue-bin-0.44.10",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -739010,14 +739268,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "revue-bin-0.44.9",
+        "name": "revue-bin-0.44.10",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "revue-bin",
         "system": "x86_64-linux",
-        "version": "0.44.9",
+        "version": "0.44.10",
         "_attr": "revue-bin",
         "_repo": "revue"
     },
