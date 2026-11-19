@@ -461963,7 +461963,7 @@
             "available": true,
             "broken": false,
             "changelog": "https://github.com/darlinghq/darling/releases",
-            "description": "Darling with open pull requests for libc++, host-directory linking, the CoreData stub, and compiled nib loading",
+            "description": "Darling with open pull requests for libc++, host-directory linking, and the CoreData stub",
             "homepage": "https://www.darlinghq.org",
             "identifiers": {
                 "cpeParts": {
@@ -462036,7 +462036,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling_patched/package.nix#L132",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/darling_patched/package.nix#L107",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -468544,7 +468544,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ha/hanga/package.nix#L81",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ha/hanga/package.nix#L88",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -476067,7 +476067,14 @@
             ],
             "platforms": [
                 "x86_64-linux",
+                "aarch64-darwin",
                 "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
                 "arc-linux",
                 "armv5tel-linux",
                 "armv6l-linux",
@@ -476089,9 +476096,23 @@
                 "riscv32-linux",
                 "riscv64-linux",
                 "s390-linux",
-                "s390x-linux"
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/ogre-1_11/package.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/og/ogre-1_11/package.nix#L90",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481048,7 +481069,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/rigs-of-rods/package.nix#L110",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ri/rigs-of-rods/package.nix#L113",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481067,6 +481088,107 @@
         "system": "x86_64-linux",
         "version": "2026.01",
         "_attr": "rigs-of-rods",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.rigs-of-rods_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Rigs of Rods with community native macOS / Apple Silicon port patches",
+            "homepage": "https://github.com/aasaasaasss/rigs-of-rods-apple-silicon",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rigs-of-rods_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rigs-of-rods_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "rigs-of-rods",
+            "maintainers": [],
+            "name": "rigs-of-rods_patched-2026.01-unstable-2026-10-21",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ri/rigs-of-rods_patched/package.nix#L42",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rigs-of-rods_patched-2026.01-unstable-2026-10-21",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rigs-of-rods_patched",
+        "system": "x86_64-linux",
+        "version": "2026.01-unstable-2026-10-21",
+        "_attr": "rigs-of-rods_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.rocksmith-custom-song-toolkit": {
@@ -482784,7 +482906,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/pkgs/socketw/package.nix#L63",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/so/socketw/package.nix#L67",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
