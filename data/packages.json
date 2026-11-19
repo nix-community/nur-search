@@ -101849,7 +101849,7 @@
             },
             "mainProgram": "gitpane",
             "maintainers": [],
-            "name": "gitpane-0.18.4",
+            "name": "gitpane-0.18.13",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -101900,14 +101900,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gitpane-0.18.4",
+        "name": "gitpane-0.18.13",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gitpane",
         "system": "x86_64-linux",
-        "version": "0.18.4",
+        "version": "0.18.13",
         "_attr": "gitpane",
         "_repo": "anas"
     },
@@ -102742,7 +102742,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/emanuele-em/proxelar/releases/tag/v0.6.0",
+            "changelog": "https://github.com/emanuele-em/proxelar/releases/tag/v0.7.0",
             "description": "Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface",
             "homepage": "https://github.com/emanuele-em/proxelar",
             "identifiers": {
@@ -102787,7 +102787,7 @@
             },
             "mainProgram": "proxelar",
             "maintainers": [],
-            "name": "proxelar-0.6.0",
+            "name": "proxelar-0.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -102840,14 +102840,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "proxelar-0.6.0",
+        "name": "proxelar-0.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "proxelar",
         "system": "x86_64-linux",
-        "version": "0.6.0",
+        "version": "0.7.0",
         "_attr": "proxelar",
         "_repo": "anas"
     },
@@ -327183,7 +327183,7 @@
             },
             "mainProgram": "neorex",
             "maintainers": [],
-            "name": "neorex-0.1.0-unstable-2026-11-16",
+            "name": "neorex-0.1.0-unstable-2026-11-18",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -327201,14 +327201,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "neorex-0.1.0-unstable-2026-11-16",
+        "name": "neorex-0.1.0-unstable-2026-11-18",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "neorex",
         "system": "x86_64-linux",
-        "version": "0.1.0-unstable-2026-11-16",
+        "version": "0.1.0-unstable-2026-11-18",
         "_attr": "neorex",
         "_repo": "josh"
     },
@@ -495692,6 +495692,130 @@
         "system": "x86_64-linux",
         "version": "2.3.3-unstable-2026-02-20",
         "_attr": "aliyundrive-webdav",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.antigravity-claude-proxy": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/badrisnarayanan/antigravity-claude-proxy/releases/tag/v3.1.1",
+            "description": "Proxy server to use Antigravity's Claude models with Claude Code CLI",
+            "homepage": "https://github.com/badrisnarayanan/antigravity-claude-proxy",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "antigravity-claude-proxy",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "antigravity-claude-proxy",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "antigravity-claude-proxy",
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/an/antigravity-claude-proxy/package.nix",
+                "line": 60
+            },
+            "name": "antigravity-claude-proxy-3.1.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/an/antigravity-claude-proxy/package.nix#L56",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "antigravity-claude-proxy-3.1.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "antigravity-claude-proxy",
+        "system": "x86_64-linux",
+        "version": "3.1.1",
+        "_attr": "antigravity-claude-proxy",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.artex": {
