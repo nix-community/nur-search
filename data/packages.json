@@ -119098,7 +119098,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bandithedoge/pkgs/helium-bin/package.nix",
                 "line": 135
             },
-            "name": "helium-bin-0.21.3.1",
+            "name": "helium-bin-0.22.1.1",
             "nonTeamMaintainers": [
                 {
                     "email": "bandithedoge@protonmail.com",
@@ -119126,14 +119126,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "helium-bin-0.21.3.1",
+        "name": "helium-bin-0.22.1.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "helium-bin",
         "system": "x86_64-linux",
-        "version": "0.21.3.1",
+        "version": "0.22.1.1",
         "_attr": "helium-bin",
         "_repo": "bandithedoge"
     },
@@ -149966,7 +149966,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "vimplugin-opencode.nvim-b796436d17a73f29b08b06dc4ca7a69cb64afe74",
+            "name": "vimplugin-opencode.nvim-3cab89df28614ca1e3ba490d76f70c1d7281ac88",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -150057,14 +150057,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vimplugin-opencode.nvim-b796436d17a73f29b08b06dc4ca7a69cb64afe74",
+        "name": "vimplugin-opencode.nvim-3cab89df28614ca1e3ba490d76f70c1d7281ac88",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "vimplugin-opencode.nvim-b796436d17a73f29b08b06dc4ca7a69cb64afe74",
+        "pname": "vimplugin-opencode.nvim",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "3cab89df28614ca1e3ba490d76f70c1d7281ac88",
         "_attr": "vimPlugins.opencode-nvim",
         "_repo": "bandithedoge"
     },
@@ -155959,7 +155959,7 @@
             },
             "insecure": false,
             "maintainers": [],
-            "name": "vimplugin-ucw.nvim-0a8c61f1add97835cece5bba28b6f916f21d51bd",
+            "name": "vimplugin-ucw.nvim-161675a61942a0d3708c2f4cfd580096019e23d7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -156050,14 +156050,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vimplugin-ucw.nvim-0a8c61f1add97835cece5bba28b6f916f21d51bd",
+        "name": "vimplugin-ucw.nvim-161675a61942a0d3708c2f4cfd580096019e23d7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vimplugin-ucw.nvim",
         "system": "x86_64-linux",
-        "version": "0a8c61f1add97835cece5bba28b6f916f21d51bd",
+        "version": "161675a61942a0d3708c2f4cfd580096019e23d7",
         "_attr": "vimPlugins.ucw-nvim",
         "_repo": "bandithedoge"
     },
@@ -247456,6 +247456,84 @@
         "_attr": "obsbot-camera-control",
         "_repo": "foolnotion"
     },
+    "nur.repos.foolnotion.ompanion": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Desktop client for omp over SSH and Tailscale",
+            "downloadPage": "https://github.com/edde746/ompanion/releases",
+            "homepage": "https://ompanion.app/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ompanion",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ompanion",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "ompanion",
+            "maintainers": [],
+            "name": "ompanion-2.2.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/foolnotion/pkgs/ompanion/default.nix#L61",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ompanion-2.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ompanion",
+        "system": "x86_64-linux",
+        "version": "2.2.0",
+        "_attr": "ompanion",
+        "_repo": "foolnotion"
+    },
     "nur.repos.foolnotion.parallel-hashmap": {
         "meta": {
             "available": true,
@@ -311469,6 +311547,80 @@
         "_attr": "aeroflare",
         "_repo": "itzemoji"
     },
+    "nur.repos.iuricarras.truckersmp-cli": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A simple launcher for TruckersMP to play ATS or ETS2 in multiplayer.",
+            "homepage": "https://github.com/truckersmp-cli/truckersmp-cli",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "truckersmp-cli",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "truckersmp-cli",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "truckersmp-cli",
+            "maintainers": [],
+            "name": "truckersmp-cli-0.10.2.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/iuricarras/pkgs/truckersmp-cli/default.nix#L59",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "truckersmp-cli-0.10.2.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "truckersmp-cli",
+        "system": "x86_64-linux",
+        "version": "0.10.2.1",
+        "_attr": "truckersmp-cli",
+        "_repo": "iuricarras"
+    },
     "nur.repos.ixhbinphoenix.localbooru-bin": {
         "meta": {
             "available": true,
@@ -313947,7 +314099,7 @@
             },
             "mainProgram": "claude",
             "maintainers": [],
-            "name": "claude-code-bin-2.1.327",
+            "name": "claude-code-bin-2.1.328",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -313968,14 +314120,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "claude-code-bin-2.1.327",
+        "name": "claude-code-bin-2.1.328",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "claude-code-bin",
         "system": "x86_64-linux",
-        "version": "2.1.327",
+        "version": "2.1.328",
         "_attr": "claude-code-bin",
         "_repo": "jeffguorg"
     },
@@ -314489,7 +314641,7 @@
             },
             "mainProgram": "dsh",
             "maintainers": [],
-            "name": "dsh-0.2.2-rc.1",
+            "name": "dsh-0.2.2-rc.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -314551,14 +314703,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-0.2.2-rc.1",
+        "name": "dsh-0.2.2-rc.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dsh",
         "system": "x86_64-linux",
-        "version": "0.2.2-rc.1",
+        "version": "0.2.2-rc.5",
         "_attr": "dsh",
         "_repo": "jeffguorg"
     },
@@ -314610,7 +314762,7 @@
             },
             "mainProgram": "dsh-tui",
             "maintainers": [],
-            "name": "dsh-tui-0.20.1",
+            "name": "dsh-tui-0.20.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -314672,14 +314824,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-tui-0.20.1",
+        "name": "dsh-tui-0.20.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dsh-tui",
         "system": "x86_64-linux",
-        "version": "0.20.1",
+        "version": "0.20.2",
         "_attr": "dsh-tui",
         "_repo": "jeffguorg"
     },
@@ -314943,7 +315095,7 @@
             },
             "mainProgram": "kimi",
             "maintainers": [],
-            "name": "kimi-code-2.6.3",
+            "name": "kimi-code-2.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -315005,14 +315157,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kimi-code-2.6.3",
+        "name": "kimi-code-2.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kimi-code",
         "system": "x86_64-linux",
-        "version": "2.6.3",
+        "version": "2.7.0",
         "_attr": "kimi-code",
         "_repo": "jeffguorg"
     },
@@ -315152,7 +315304,7 @@
             },
             "mainProgram": "omp",
             "maintainers": [],
-            "name": "oh-my-pi-bin-18.22.2",
+            "name": "oh-my-pi-bin-19.0.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -315173,14 +315325,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oh-my-pi-bin-18.22.2",
+        "name": "oh-my-pi-bin-19.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oh-my-pi-bin",
         "system": "x86_64-linux",
-        "version": "18.22.2",
+        "version": "19.0.0",
         "_attr": "oh-my-pi-bin",
         "_repo": "jeffguorg"
     },
@@ -744325,7 +744477,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/agent-sh/computer-use-linux/releases/tag/v0.7.53",
+            "changelog": "https://github.com/agent-sh/computer-use-linux/releases/tag/v0.7.56",
             "description": "MCP server and CLI to control a Linux desktop",
             "homepage": "https://github.com/agent-sh/computer-use-linux",
             "identifiers": {
@@ -744370,7 +744522,7 @@
             },
             "mainProgram": "computer-use-linux",
             "maintainers": [],
-            "name": "computer-use-linux-0.7.53",
+            "name": "computer-use-linux-0.7.56",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -744389,14 +744541,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "computer-use-linux-0.7.53",
+        "name": "computer-use-linux-0.7.56",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "computer-use-linux",
         "system": "x86_64-linux",
-        "version": "0.7.53",
+        "version": "0.7.56",
         "_attr": "computer-use-linux",
         "_repo": "ryan4yin"
     },
@@ -744404,7 +744556,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.49.10",
+            "changelog": "https://github.com/trycua/cua/releases/tag/cua-driver-rs-v0.53.2",
             "description": "Desktop-automation driver for computer-use agents (MCP/CLI)",
             "homepage": "https://github.com/trycua/cua",
             "identifiers": {
@@ -744449,7 +744601,7 @@
             },
             "mainProgram": "cua-driver",
             "maintainers": [],
-            "name": "cua-driver-0.49.10",
+            "name": "cua-driver-0.53.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -744467,14 +744619,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cua-driver-0.49.10",
+        "name": "cua-driver-0.53.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cua-driver",
         "system": "x86_64-linux",
-        "version": "0.49.10",
+        "version": "0.53.2",
         "_attr": "cua-driver",
         "_repo": "ryan4yin"
     },
@@ -744482,7 +744634,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3",
+            "changelog": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.5",
             "description": "Open-source agent harness developed by DeepSeek AI",
             "downloadPage": "https://www.npmjs.com/package/@deepseek-ai/dsh",
             "homepage": "https://github.com/deepseek-ai/deepseek-harness",
@@ -744528,7 +744680,7 @@
             },
             "mainProgram": "dsh",
             "maintainers": [],
-            "name": "dsh-0.2.2-rc.3",
+            "name": "dsh-0.2.2-rc.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -744634,14 +744786,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dsh-0.2.2-rc.3",
+        "name": "dsh-0.2.2-rc.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dsh",
         "system": "x86_64-linux",
-        "version": "0.2.2-rc.3",
+        "version": "0.2.2-rc.5",
         "_attr": "dsh",
         "_repo": "ryan4yin"
     },
@@ -856702,7 +856854,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sakuraba07/pkgs/omp/default.nix",
                 "line": 68
             },
-            "name": "omp-18.22.2",
+            "name": "omp-19.0.0",
             "nonTeamMaintainers": [
                 {
                     "github": "sakuraba07",
@@ -856730,14 +856882,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "omp-18.22.2",
+        "name": "omp-19.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "omp",
         "system": "x86_64-linux",
-        "version": "18.22.2",
+        "version": "19.0.0",
         "_attr": "omp",
         "_repo": "sakuraba07"
     },
