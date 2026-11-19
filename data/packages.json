@@ -231655,7 +231655,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/examosa/packages/attempt/package.nix",
-                "line": 46
+                "line": 38
             },
             "name": "attempt-1.1.1",
             "nonTeamMaintainers": [
@@ -231710,7 +231710,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/examosa/packages/attempt/package.nix#L42",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/examosa/packages/attempt/package.nix#L34",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -232668,6 +232668,148 @@
         "system": "x86_64-linux",
         "version": "1.47.0",
         "_attr": "fnox",
+        "_repo": "examosa"
+    },
+    "nur.repos.examosa.koh": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/gold-silver-copper/koh/blob/v0.17.2/CHANGELOG.md",
+            "description": "Peer-to-peer remote shell, inspired by mosh",
+            "homepage": "https://github.com/gold-silver-copper/koh",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "koh",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "koh",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "koh",
+            "maintainers": [
+                {
+                    "email": "examosa@fastmail.com",
+                    "github": "examosa",
+                    "githubId": 23395221,
+                    "matrix": "@jamonith:matrix.org",
+                    "name": "Jules Amonith"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/examosa/packages/koh/package.nix",
+                "line": 44
+            },
+            "name": "koh-0.17.2",
+            "nonTeamMaintainers": [
+                {
+                    "email": "examosa@fastmail.com",
+                    "github": "examosa",
+                    "githubId": 23395221,
+                    "matrix": "@jamonith:matrix.org",
+                    "name": "Jules Amonith"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "powerpc-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "i686-windows",
+                "x86_64-windows",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux",
+                "armv6l-netbsd",
+                "mipsel-netbsd",
+                "riscv64-netbsd",
+                "riscv32-none",
+                "x86_64-redox",
+                "wasm32-wasip1"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/examosa/packages/koh/package.nix#L40",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "koh-0.17.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "koh",
+        "system": "x86_64-linux",
+        "version": "0.17.2",
+        "_attr": "koh",
         "_repo": "examosa"
     },
     "nur.repos.examosa.lctl": {
@@ -233834,7 +233976,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/alvr-org/ALVR/releases/tag/v20.8.1",
+            "changelog": "https://github.com/alvr-org/ALVR/releases/tag/v20.14.1",
             "description": "Stream VR games from your PC to your headset via Wi-Fi",
             "homepage": "https://github.com/alvr-org/ALVR/",
             "identifiers": {
@@ -233889,9 +234031,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/falconprogrammer/pkgs/alvr/default.nix",
-                "line": 89
+                "line": 88
             },
-            "name": "alvr-20.8.1",
+            "name": "alvr-20.14.1",
             "nonTeamMaintainers": [
                 {
                     "email": "jeremyseber@gmail.com",
@@ -233929,19 +234071,19 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/alvr/default.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/alvr/default.nix#L84",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "alvr-20.8.1",
+        "name": "alvr-20.14.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "alvr",
         "system": "x86_64-linux",
-        "version": "20.8.1",
+        "version": "20.14.1",
         "_attr": "alvr",
         "_repo": "falconprogrammer"
     },
@@ -234733,9 +234875,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/falconprogrammer/pkgs/python-jwt/default.nix",
-                "line": 36
+                "line": 33
             },
-            "name": "python3.12-python-jwt-4.0.0",
+            "name": "python3.12-python-jwt-4.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -234773,7 +234915,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/python-jwt/default.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/python-jwt/default.nix#L30",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -234783,7 +234925,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.12-python-jwt-4.0.0",
+        "name": "python3.12-python-jwt-4.1.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -234791,7 +234933,7 @@
         },
         "pname": "python3.12-python-jwt",
         "system": "x86_64-linux",
-        "version": "4.0.0",
+        "version": "4.1.0",
         "_attr": "python-jwt_312",
         "_repo": "falconprogrammer"
     },
@@ -234878,9 +235020,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/falconprogrammer/pkgs/python-jwt/default.nix",
-                "line": 36
+                "line": 33
             },
-            "name": "python3.13-python-jwt-4.0.0",
+            "name": "python3.13-python-jwt-4.1.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -234918,7 +235060,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/python-jwt/default.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/python-jwt/default.nix#L30",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -234928,7 +235070,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.13-python-jwt-4.0.0",
+        "name": "python3.13-python-jwt-4.1.0",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -234936,7 +235078,7 @@
         },
         "pname": "python3.13-python-jwt",
         "system": "x86_64-linux",
-        "version": "4.0.0",
+        "version": "4.1.0",
         "_attr": "python-jwt_313",
         "_repo": "falconprogrammer"
     },
@@ -235170,9 +235312,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/falconprogrammer/pkgs/timew-sync-client/default.nix",
-                "line": 59
+                "line": 54
             },
-            "name": "timew-sync-client-unstable-2023-10-25",
+            "name": "timew-sync-client-0-unstable-2026-07-11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -235210,7 +235352,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/timew-sync-client/default.nix#L56",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/timew-sync-client/default.nix#L51",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -235220,15 +235362,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "timew-sync-client-unstable-2023-10-25",
+        "name": "timew-sync-client-0-unstable-2026-07-11",
         "outputName": "out",
         "outputs": {
             "dist": null,
             "out": null
         },
-        "pname": "timew-sync-client-unstable",
+        "pname": "timew-sync-client",
         "system": "x86_64-linux",
-        "version": "2023-10-25",
+        "version": "0-unstable-2026-07-11",
         "_attr": "timew-sync-client",
         "_repo": "falconprogrammer"
     },
@@ -235560,9 +235702,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/falconprogrammer/pkgs/xgen/default.nix",
-                "line": 25
+                "line": 23
             },
-            "name": "xgen-unstable-2023-07-02",
+            "name": "xgen-0-unstable-2026-10-30",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -235599,7 +235741,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/xgen/default.nix#L22",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/xgen/default.nix#L20",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -235609,14 +235751,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "xgen-unstable-2023-07-02",
+        "name": "xgen-0-unstable-2026-10-30",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "xgen-unstable",
+        "pname": "xgen",
         "system": "x86_64-linux",
-        "version": "2023-07-02",
+        "version": "0-unstable-2026-10-30",
         "_attr": "xgen",
         "_repo": "falconprogrammer"
     },
