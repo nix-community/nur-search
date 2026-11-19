@@ -30157,6 +30157,280 @@
         "_attr": "follow",
         "_repo": "MCSeekeri"
     },
+    "nur.repos.MCSeekeri.geph": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/geph-official/gephgui-pkg/releases/tag/v5.9.1",
+            "description": "Modular Internet censorship circumvention system designed specifically to deal with national filtering",
+            "homepage": "https://geph.io",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "geph5",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "geph5",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "mainProgram": "geph5-client",
+            "maintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/MCSeekeri/pkgs/geph/default.nix",
+                "line": 85
+            },
+            "name": "geph5-5.9.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/MCSeekeri/pkgs/geph/default.nix#L79",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "geph5-5.9.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "geph5",
+        "system": "x86_64-linux",
+        "version": "5.9.1",
+        "_attr": "geph",
+        "_repo": "MCSeekeri"
+    },
+    "nur.repos.MCSeekeri.gephgui-wry": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Modular Internet censorship circumvention system designed specifically to deal with national filtering",
+            "homepage": "https://github.com/geph-official/gephgui-wry",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gephgui-wry",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gephgui-wry",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Mozilla Public License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "mainProgram": "gephgui-wry",
+            "maintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/MCSeekeri/pkgs/gephgui-wry/default.nix",
+                "line": 108
+            },
+            "name": "gephgui-wry-5.9.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mcseekeri@outlook.com",
+                    "github": "mcseekeri",
+                    "githubId": 20928094,
+                    "keys": [
+                        {
+                            "fingerprint": "5922 79AB D9D6 85EB 9D16  754C ECDC AD89 5A38 4A12"
+                        },
+                        {
+                            "fingerprint": "0762 A387 F160 76F1 116C  BF13 3276 6666 6666 6666"
+                        }
+                    ],
+                    "name": "MCSeekeri"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/MCSeekeri/pkgs/gephgui-wry/default.nix#L103",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gephgui-wry-5.9.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gephgui-wry",
+        "system": "x86_64-linux",
+        "version": "5.9.1",
+        "_attr": "gephgui-wry",
+        "_repo": "MCSeekeri"
+    },
     "nur.repos.MCSeekeri.gstarcad": {
         "meta": {
             "available": false,
@@ -257275,7 +257549,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-canary-bin/default.nix",
-                "line": 23
+                "line": 21
             },
             "name": "fluxer-canary-bin-2026.1118.81832",
             "nonTeamMaintainers": [
@@ -257320,7 +257594,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/fluxer-canary-bin/default.nix#L18",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/fluxer-canary-bin/default.nix#L16",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -257404,7 +257678,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-stable-bin/default.nix",
-                "line": 23
+                "line": 21
             },
             "name": "fluxer-stable-bin-2026.1118.85743",
             "nonTeamMaintainers": [
@@ -257449,7 +257723,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/fluxer-stable-bin/default.nix#L18",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/fluxer-stable-bin/default.nix#L16",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -259838,7 +260112,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/kryoto-desktop/default.nix",
-                "line": 35
+                "line": 27
             },
             "name": "kryoto-desktop-0.3.11",
             "nonTeamMaintainers": [
@@ -259854,7 +260128,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/kryoto-desktop/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/kryoto-desktop/default.nix#L24",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -259931,9 +260205,9 @@
                 }
             ],
             "maintainersPosition": {
-                "column": 5,
+                "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/kryoto-minecraft-launcher/default.nix",
-                "line": 34
+                "line": 58
             },
             "name": "kryoto-minecraft-launcher-0.1.6",
             "nonTeamMaintainers": [
@@ -259949,7 +260223,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/kryoto-minecraft-launcher/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/kryoto-minecraft-launcher/default.nix#L55",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -261549,6 +261823,101 @@
         "_attr": "muxy",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.nexus-launcher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source Xbox-inspired launcher for Microsoft Store games on Linux",
+            "homepage": "https://github.com/domsvoboda/nexus-launcher",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nexus-launcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nexus-launcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "nexus-launcher",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/nexus-launcher/default.nix",
+                "line": 24
+            },
+            "name": "nexus-launcher-0.5.1",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/nexus-launcher/default.nix#L21",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nexus-launcher-0.5.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nexus-launcher",
+        "system": "x86_64-linux",
+        "version": "0.5.1",
+        "_attr": "nexus-launcher",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.nightcap": {
         "meta": {
             "available": true,
@@ -262164,7 +262533,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/note-block-studio/default.nix",
-                "line": 16
+                "line": 14
             },
             "name": "note-block-studio-2025-01-09",
             "nonTeamMaintainers": [
@@ -262181,7 +262550,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/note-block-studio/default.nix#L13",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/note-block-studio/default.nix#L11",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -262357,7 +262726,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/oak-editor/default.nix",
-                "line": 19
+                "line": 17
             },
             "name": "oak-editor-0.5.2-alpha",
             "nonTeamMaintainers": [
@@ -262374,7 +262743,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/oak-editor/default.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/oak-editor/default.nix#L14",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -266344,7 +266713,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/quiver-launcher/default.nix",
-                "line": 19
+                "line": 18
             },
             "name": "quiver-launcher-3.5.1",
             "nonTeamMaintainers": [
@@ -266384,7 +266753,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/quiver-launcher/default.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/quiver-launcher/default.nix#L15",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -267905,7 +268274,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/sonixd/default.nix",
-                "line": 18
+                "line": 17
             },
             "name": "sonixd-0.15.5",
             "nonTeamMaintainers": [
@@ -267951,7 +268320,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/sonixd/default.nix#L15",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/sonixd/default.nix#L14",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -268651,7 +269020,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/streamnook/default.nix",
-                "line": 29
+                "line": 69
             },
             "name": "streamnook-8.9.2",
             "nonTeamMaintainers": [
@@ -268668,7 +269037,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/streamnook/default.nix#L26",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/streamnook/default.nix#L66",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -269475,7 +269844,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/tinywiibackupmanager/default.nix",
-                "line": 18
+                "line": 16
             },
             "name": "tinywiibackupmanager-6.2.0",
             "nonTeamMaintainers": [
@@ -269515,7 +269884,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/tinywiibackupmanager/default.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/tinywiibackupmanager/default.nix#L14",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -269762,6 +270131,101 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "twintaillauncher",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.vboycolor": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free, open-source Virtual Boy emulator that plays games in color and 3D",
+            "homepage": "https://github.com/yuk27/VBoyColor",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "vboycolor",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "vboycolor",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "vboycolor",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/vboycolor/default.nix",
+                "line": 71
+            },
+            "name": "vboycolor-1.0.0-beta.12",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/vboycolor/default.nix#L68",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "vboycolor-1.0.0-beta.12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "vboycolor",
+        "system": "x86_64-linux",
+        "version": "1.0.0-beta.12",
+        "_attr": "vboycolor",
         "_repo": "forkprince"
     },
     "nur.repos.forkprince.vector-studio": {
@@ -270860,7 +271324,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/wiiudownloader/default.nix",
-                "line": 18
+                "line": 16
             },
             "name": "wiiudownloader-3.2",
             "nonTeamMaintainers": [
@@ -270900,7 +271364,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/wiiudownloader/default.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/wiiudownloader/default.nix#L14",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -355155,7 +355619,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/incusos-flasher/default.nix",
                 "line": 49
             },
-            "name": "incusos-flasher-202611172004-unstable-2026-11-16",
+            "name": "incusos-flasher-202611182248-unstable-2026-11-18",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -355198,14 +355662,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "incusos-flasher-202611172004-unstable-2026-11-16",
+        "name": "incusos-flasher-202611182248-unstable-2026-11-18",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "incusos-flasher",
         "system": "x86_64-linux",
-        "version": "202611172004-unstable-2026-11-16",
+        "version": "202611182248-unstable-2026-11-18",
         "_attr": "incusos-flasher",
         "_repo": "linyinfeng"
     },
