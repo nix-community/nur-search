@@ -233168,7 +233168,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/examosa/packages/koh/package.nix",
-                "line": 47
+                "line": 49
             },
             "name": "koh-0.17.2",
             "nonTeamMaintainers": [
@@ -233223,7 +233223,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/examosa/packages/koh/package.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/examosa/packages/koh/package.nix#L45",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -301355,114 +301355,6 @@
         "_attr": "zot",
         "_repo": "ijohanne"
     },
-    "nur.repos.ilkecan.archi": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/archimatetool/archi/releases/tag/release_5.11.0",
-            "description": "ArchiMate modelling tool",
-            "homepage": "https://www.archimatetool.com/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "archi",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "archi",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "archi",
-            "maintainers": [
-                {
-                    "email": "ilkecan@protonmail.com",
-                    "github": "ilkecan",
-                    "githubId": 40234257,
-                    "matrix": "@ilkecan:matrix.org",
-                    "name": "ilkecan bozdogan"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ilkecan/packages/archi/package.nix",
-                "line": 216
-            },
-            "name": "archi-5.11.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "ilkecan@protonmail.com",
-                    "github": "ilkecan",
-                    "githubId": 40234257,
-                    "matrix": "@ilkecan:matrix.org",
-                    "name": "ilkecan bozdogan"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilkecan/packages/archi/package.nix#L203",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                },
-                {
-                    "isSource": false,
-                    "shortName": "binaryBytecode"
-                },
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "archi-5.11.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "archi",
-        "system": "x86_64-linux",
-        "version": "5.11.0",
-        "_attr": "archi",
-        "_repo": "ilkecan"
-    },
     "nur.repos.ilkecan.bitburner": {
         "meta": {
             "available": false,
@@ -302121,129 +302013,6 @@
         "system": "x86_64-linux",
         "version": "56.1",
         "_attr": "icu56",
-        "_repo": "ilkecan"
-    },
-    "nur.repos.ilkecan.kunkun": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/kunkunsh/kunkun/releases/tag/Kunkun-v0.1.37",
-            "description": "Cross-platform extensible application launcher",
-            "homepage": "https://kunkun.sh",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "kunkun",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "kunkun",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "kunkun",
-            "maintainers": [
-                {
-                    "email": "ilkecan@protonmail.com",
-                    "github": "ilkecan",
-                    "githubId": 40234257,
-                    "matrix": "@ilkecan:matrix.org",
-                    "name": "ilkecan bozdogan"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ilkecan/packages/kunkun/package.nix",
-                "line": 202
-            },
-            "name": "kunkun-0.1.37",
-            "nonTeamMaintainers": [
-                {
-                    "email": "ilkecan@protonmail.com",
-                    "github": "ilkecan",
-                    "githubId": 40234257,
-                    "matrix": "@ilkecan:matrix.org",
-                    "name": "ilkecan bozdogan"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilkecan/packages/kunkun/package.nix#L198",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "kunkun-0.1.37",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "kunkun",
-        "system": "x86_64-linux",
-        "version": "0.1.37",
-        "_attr": "kunkun",
         "_repo": "ilkecan"
     },
     "nur.repos.ilkecan.pokeclicker": {
