@@ -471848,6 +471848,164 @@
         "_attr": "nix-software-center",
         "_repo": "mio"
     },
+    "nur.repos.mio.nixtamal_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://nixtamal.toast.al/changelog/#3.1.0",
+            "description": "Fulfilling input pinning for Nix",
+            "donationPage": "https://nixtamal.toast.al/funding/",
+            "homepage": "https://nixtamal.toast.al",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nixtamal",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nixtamal",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "\u2022 Automate the manual work of input pinning for dependency management\n\u2022 Allow easy ways to lock & refresh those inputs\n\u2022 Declarative manifest file over imperative CLI flags\n\u2022 diff/grep-friendly lockfile\n\u2022 Declarative patch/diff management for inputs\n\u2022 Host-, forge-, VCS-agnostic\n\u2022 Choose eval time fetchers (builtins) or build time fetchers (Nixpkgs, default)\u200a\u2014\u200awhich opens up fetching now-supported Darcs, Pijul, & Fossil\n\u2022 Supports mirrors, failing over when a server is down\n\u2022 Override hash algorithm on a per-project & per-input basis\u200a\u2014\u200aincluding BLAKE3 support\n\u2022 Custom freshness commands\n\u2022 No experimental Nix features required\n",
+            "mainProgram": "nixtamal",
+            "maintainers": [
+                {
+                    "email": "toastal+nix@posteo.net",
+                    "github": "toastal",
+                    "githubId": 561087,
+                    "keys": [
+                        {
+                            "fingerprint": "7944 74B7 D236 DAB9 C9EF  E7F9 5CCE 6F14 66D4 7C9E"
+                        }
+                    ],
+                    "matrix": "@toastal:clan.lol",
+                    "name": "toastal"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/7ykm683f0d09bp9914ssban5yzl4j6sg-source/pkgs/by-name/ni/nixtamal/package.nix",
+                "line": 197
+            },
+            "name": "ocaml5.5.2-nixtamal-3.1.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "toastal+nix@posteo.net",
+                    "github": "toastal",
+                    "githubId": 561087,
+                    "keys": [
+                        {
+                            "fingerprint": "7944 74B7 D236 DAB9 C9EF  E7F9 5CCE 6F14 66D4 7C9E"
+                        }
+                    ],
+                    "matrix": "@toastal:clan.lol",
+                    "name": "toastal"
+                }
+            ],
+            "outputsToInstall": [
+                "bin",
+                "data",
+                "doc",
+                "man"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ni/nixtamal/package.nix#L183",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ocaml5.5.2-nixtamal-3.1.0",
+        "outputName": "bin",
+        "outputs": {
+            "bin": null,
+            "data": null,
+            "doc": null,
+            "lib": null,
+            "man": null,
+            "out": null
+        },
+        "pname": "ocaml5.5.2-nixtamal",
+        "system": "x86_64-linux",
+        "version": "3.1.0",
+        "_attr": "nixtamal_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.nlvm": {
         "meta": {
             "available": true,
