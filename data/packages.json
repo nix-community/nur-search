@@ -459043,6 +459043,94 @@
         "_attr": "discordchatexporter-desktop_patched",
         "_repo": "mio"
     },
+    "nur.repos.mio.doaxvb-re-launcher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.7.0",
+            "description": "Launcher for the DOAXVB static recompilation of Dead or Alive Xtreme Beach Volleyball",
+            "homepage": "https://github.com/NoRain211/doaxvb-re",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "doaxvb-re-launcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "doaxvb-re-launcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "Dead or Alive Xtreme Beach Volleyball recompiled to a native program for\nLinux and macOS. The repository holds no game code: `build_game.sh`\nextracts and translates the XBE from your own Xbox disc into C, then\ncompiles it with the project's runtime. This package is the launcher,\nwhich offers that build and then starts the result:\n\n    doaxvb-launcher /path/to/checkout\n\nThe launcher writes its settings, the built runner and the extracted\ndisc under `private/` in the checkout, so point it at a writable copy of\nthe source rather than the read-only store path.\n",
+            "mainProgram": "doaxvb-launcher",
+            "maintainers": [],
+            "name": "doaxvb-re-launcher-0.7.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/do/doaxvb-re-launcher/package.nix#L75",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "doaxvb-re-launcher-0.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "doaxvb-re-launcher",
+        "system": "x86_64-linux",
+        "version": "0.7.0",
+        "_attr": "doaxvb-re-launcher",
+        "_repo": "mio"
+    },
     "nur.repos.mio.drift": {
         "meta": {
             "available": true,
@@ -464469,9 +464557,14 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "longDescription": "GT3 Revisited reimplements the Gran Turismo 3 A-Spec engine for modern\nplatforms. It contains no game data: the disc image you made from your\nown copy is read at run time (`gt3r /path/to/image.iso`).\n",
+            "longDescription": "GT3 Revisited reimplements the Gran Turismo 3 A-Spec engine for modern\nplatforms. It contains no game data: the disc image you made from your\ncopy is opened by `gt3r`, either at run time with the image on its\ncommand line (`gt3r /path/to/image.iso`) or, when it was set with\n`gt3-revisited.override { image = \u2026; }`, without an argument.\n`gt3-revisited-unwrapped` is the same build without the wrapper.\n",
             "mainProgram": "gt3r",
             "maintainers": [],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/nix/store/7ykm683f0d09bp9914ssban5yzl4j6sg-source/pkgs/stdenv/generic/check-meta.nix",
+                "line": 527
+            },
             "name": "gt3-revisited-0.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
@@ -464482,7 +464575,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited/package.nix#L91",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited-unwrapped/package.nix#L91",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -464501,6 +464594,86 @@
         "system": "x86_64-linux",
         "version": "0.7.0",
         "_attr": "gt3-revisited",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.gt3-revisited-unwrapped": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open reimplementation of the Gran Turismo 3 A-Spec engine (needs your own disc)",
+            "homepage": "https://github.com/matt-pulsipher/GT3-revisited",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gt3-revisited",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gt3-revisited",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "GT3 Revisited reimplements the Gran Turismo 3 A-Spec engine for modern\nplatforms. It contains no game data: the disc image you made from your\nown copy is read at run time (`gt3r /path/to/image.iso`).\n",
+            "mainProgram": "gt3r",
+            "maintainers": [],
+            "name": "gt3-revisited-0.7.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited-unwrapped/package.nix#L91",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gt3-revisited-0.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gt3-revisited",
+        "system": "x86_64-linux",
+        "version": "0.7.0",
+        "_attr": "gt3-revisited-unwrapped",
         "_repo": "mio"
     },
     "nur.repos.mio.guitar-pro": {
@@ -474967,6 +475140,93 @@
         "system": "x86_64-linux",
         "version": "1.0.1",
         "_attr": "pianotrans",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.pinyon-shift-launcher": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.5",
+            "description": "Launcher that builds and runs Pinyon Shift from your own Forza Horizon disc",
+            "homepage": "https://github.com/arcanite24/pinyon-shift",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pinyon-shift-launcher",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pinyon-shift-launcher",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "Pinyon Shift recompiles the Xbox 360 release of Forza Horizon ahead of\ntime and runs it natively, with no emulator. The game code has to be\ngenerated from a disc the player owns, so this package is the launcher\nonly: point it at your own image, confirm ownership and it installs the\nbuild tools, generates and compiles the game in your home directory, then\nstarts it. No game data is included in, or downloaded by, this package.\n",
+            "mainProgram": "PinyonShiftLauncher",
+            "maintainers": [],
+            "name": "pinyon-shift-launcher-0.9.5",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pi/pinyon-shift-launcher/package.nix#L82",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pinyon-shift-launcher-0.9.5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pinyon-shift-launcher",
+        "system": "x86_64-linux",
+        "version": "0.9.5",
+        "_attr": "pinyon-shift-launcher",
         "_repo": "mio"
     },
     "nur.repos.mio.pixelle-video": {
