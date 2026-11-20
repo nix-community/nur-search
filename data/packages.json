@@ -465368,6 +465368,121 @@
         "_attr": "hcxtools",
         "_repo": "mio"
     },
+    "nur.repos.mio.horizon": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "changelog": "https://github.com/horizon-rust/horizon/releases/tag/v0.2.97",
+            "description": "Minecraft: Java Edition rewritten from scratch in Rust",
+            "homepage": "https://playhorizon.dev",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "horizon",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "horizon",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl3Plus",
+                "spdxId": "LGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+            },
+            "longDescription": "Horizon is a from-scratch Rust implementation of Minecraft: Java Edition,\nchecked against vanilla behaviour. This package builds the client with\nsound, controllers and Horizon's online extras; start it with\n`horizon-client --resources DIR`, where DIR is what upstream's\nhorizon-prepare wrote. It contains no Minecraft assets.\n",
+            "mainProgram": "horizon-client",
+            "maintainers": [],
+            "name": "horizon-0.2.97",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ho/horizon/package.nix#L72",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "horizon-0.2.97",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "horizon",
+        "system": "x86_64-linux",
+        "version": "0.2.97",
+        "_attr": "horizon",
+        "_repo": "mio"
+    },
     "nur.repos.mio.icloud-for-linux": {
         "meta": {
             "available": true,
@@ -466673,6 +466788,94 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-11-01",
         "_attr": "ladybird_patched",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.lain-psx-decompiled": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Y0oshi/lain-psx-decompiled/releases/tag/v0.2.0",
+            "description": "Native client for the Serial Experiments Lain (PlayStation) decompilation",
+            "homepage": "https://github.com/Y0oshi/lain-psx-decompiled",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lain-psx-decompiled",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lain-psx-decompiled",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "A decompilation of Serial Experiments Lain for the PlayStation, and a\nnative client built from it: the reconstructed C code runs on PsyCross, a\nreimplementation of the PlayStation SDK, instead of an emulator. No game\ndata is included. The client verifies and imports your own Redump dumps\nof disc 1 (SLPS-01603) and disc 2 (SLPS-01604) on first start and keeps\nthem, the memory card and settings in the platform's application data\ndirectory.\n",
+            "mainProgram": "lain",
+            "maintainers": [],
+            "name": "lain-psx-decompiled-0.2.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/la/lain-psx-decompiled/package.nix#L72",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "lain-psx-decompiled-0.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lain-psx-decompiled",
+        "system": "x86_64-linux",
+        "version": "0.2.0",
+        "_attr": "lain-psx-decompiled",
         "_repo": "mio"
     },
     "nur.repos.mio.lastbook": {
