@@ -464666,6 +464666,86 @@
         "_attr": "grub2_patched",
         "_repo": "mio"
     },
+    "nur.repos.mio.gt3-revisited": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open reimplementation of the Gran Turismo 3 A-Spec engine (needs your own disc)",
+            "homepage": "https://github.com/matt-pulsipher/GT3-revisited",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gt3-revisited",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gt3-revisited",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "GT3 Revisited reimplements the Gran Turismo 3 A-Spec engine for modern\nplatforms. It contains no game data: the disc image you made from your\nown copy is read at run time (`gt3r /path/to/image.iso`).\n",
+            "mainProgram": "gt3r",
+            "maintainers": [],
+            "name": "gt3-revisited-0.7.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited/package.nix#L91",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gt3-revisited-0.7.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gt3-revisited",
+        "system": "x86_64-linux",
+        "version": "0.7.0",
+        "_attr": "gt3-revisited",
+        "_repo": "mio"
+    },
     "nur.repos.mio.guitar-pro": {
         "meta": {
             "available": false,
@@ -480411,6 +480491,86 @@
         "system": "x86_64-linux",
         "version": "7.4.0",
         "_attr": "tab-session-manager-firefox",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.takedawn": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Native port of Burnout 3: Takedown (static recompilation, needs your own disc)",
+            "homepage": "https://github.com/xenophobentx/takedawn",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "takedawn",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "takedawn",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Takedawn runs the original Xbox release of Burnout 3: Takedown as a\nnative program. It ships no game data: the build translates\ndefault.xbe from your own retail disc into C, which is then compiled\nwith the xboxrecomp runtime. The game itself is installed from your\ndisc image on first start (`takedawn --install <image>`).\n",
+            "mainProgram": "takedawn",
+            "maintainers": [],
+            "name": "takedawn-0.3.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ta/takedawn/package.nix#L120",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "takedawn-0.3.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "takedawn",
+        "system": "x86_64-linux",
+        "version": "0.3.1",
+        "_attr": "takedawn",
         "_repo": "mio"
     },
     "nur.repos.mio.telegram-desktop_682": {
@@ -1023778,7 +1023938,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://gitlab.com/gitlab-org/gitlab-runner/blob/v19.5.3/CHANGELOG.md",
+            "changelog": "https://gitlab.com/gitlab-org/gitlab-runner/blob/v19.6.0/CHANGELOG.md",
             "description": "GitLab Runner, the continuous integration executor of GitLab (upstream prebuilt binary)",
             "homepage": "https://docs.gitlab.com/runner",
             "identifiers": {
@@ -1023823,7 +1023983,7 @@
             },
             "mainProgram": "gitlab-runner",
             "maintainers": [],
-            "name": "gitlab-runner-bin-19.5.3",
+            "name": "gitlab-runner-bin-19.6.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1023847,14 +1024007,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gitlab-runner-bin-19.5.3",
+        "name": "gitlab-runner-bin-19.6.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gitlab-runner-bin",
         "system": "x86_64-linux",
-        "version": "19.5.3",
+        "version": "19.6.0",
         "_attr": "gitlab-runner-bin",
         "_repo": "unstable-code"
     },
