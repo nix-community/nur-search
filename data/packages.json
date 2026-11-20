@@ -450658,7 +450658,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 390
+                "line": 396
             },
             "name": "archivetune-unwrapped-16.0.0",
             "nonTeamMaintainers": [
@@ -450678,7 +450678,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L387",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L393",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -478653,6 +478653,83 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "septabee",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.skate3recomp-plus": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Enhanced native Skate 3 recompilation (needs your own disc)",
+            "homepage": "https://github.com/dougieprishpreed/skate3recomp-plus",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "skate3recomp-plus",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "skate3recomp-plus",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "Skate 3 Recompiled+ adds Skate 2's New San Vanelona, a native Vulkan\nrenderer and fixes to a recompilation of Skate 3. It ships no game data:\nthe build recompiles default.xex from your own extracted retail disc,\nand the game is installed from that disc at run time.\n",
+            "mainProgram": "skate3",
+            "maintainers": [],
+            "name": "skate3recomp-plus-0.2e",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp-plus/package.nix#L143",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "skate3recomp-plus-0.2e",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "skate3recomp-plus",
+        "system": "x86_64-linux",
+        "version": "0.2e",
+        "_attr": "skate3recomp-plus",
         "_repo": "mio"
     },
     "nur.repos.mio.skippy": {
