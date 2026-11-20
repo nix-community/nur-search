@@ -187204,7 +187204,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/nix-auth/default.nix",
                 "line": 19
             },
-            "name": "nix-auth-0-unstable-2026-11-18",
+            "name": "nix-auth-0-unstable-2026-11-19",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -187254,14 +187254,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nix-auth-0-unstable-2026-11-18",
+        "name": "nix-auth-0-unstable-2026-11-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nix-auth",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-18",
+        "version": "0-unstable-2026-11-19",
         "_attr": "nix-auth",
         "_repo": "ccicnce113424"
     },
@@ -187643,7 +187643,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Starfallan/PiliNara/releases/tag/2.6.2",
+            "changelog": "https://github.com/Starfallan/PiliNara/releases/tag/2.2.0",
             "description": "Third-party Bilibili client developed in Flutter, PiliPlus fork",
             "homepage": "https://github.com/Starfallan/PiliNara",
             "identifiers": {
@@ -187701,7 +187701,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/pilinara/default.nix",
                 "line": 34
             },
-            "name": "pilinara-2.6.2",
+            "name": "pilinara-2.2.0",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -187745,7 +187745,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pilinara-2.6.2",
+        "name": "pilinara-2.2.0",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -187754,7 +187754,7 @@
         },
         "pname": "pilinara",
         "system": "x86_64-linux",
-        "version": "2.6.2",
+        "version": "2.2.0",
         "_attr": "pilinara",
         "_repo": "ccicnce113424"
     },
@@ -187951,7 +187951,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ccicnce113424/pkgs/pipewire-bluez5-lhdc-git/default.nix",
                 "line": 139
             },
-            "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-18",
+            "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-19",
             "nonTeamMaintainers": [
                 {
                     "email": "ccicnce113424@gmail.com",
@@ -187995,14 +187995,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-18",
+        "name": "pipewire-bluez5-lhdc-git-1.7-unstable-2026-11-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pipewire-bluez5-lhdc-git",
         "system": "x86_64-linux",
-        "version": "1.7-unstable-2026-11-18",
+        "version": "1.7-unstable-2026-11-19",
         "_attr": "pipewire-bluez5-lhdc-git",
         "_repo": "ccicnce113424"
     },
@@ -495476,7 +495476,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix",
-                "line": 132
+                "line": 131
             },
             "name": "lm-detector-0-unstable-2026-11-19",
             "nonTeamMaintainers": [
@@ -495519,7 +495519,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix#L129",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix#L128",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -497610,6 +497610,128 @@
         "_attr": "pi-ast-sgrep",
         "_repo": "moraxyc"
     },
+    "nur.repos.moraxyc.pi-cc-tools": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Claude Code style UI for pi: one-line tool groups, syntax-highlighted diffs, an activity spinner, and colors from your terminal theme",
+            "homepage": "https://github.com/FammasMaz/pi-cc-tools",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pi-cc-tools",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pi-cc-tools",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-cc-tools/package.nix",
+                "line": 55
+            },
+            "name": "pi-cc-tools-1.0.89-unstable-2026-11-18",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-cc-tools/package.nix#L52",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pi-cc-tools-1.0.89-unstable-2026-11-18",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pi-cc-tools",
+        "system": "x86_64-linux",
+        "version": "1.0.89-unstable-2026-11-18",
+        "_attr": "pi-cc-tools",
+        "_repo": "moraxyc"
+    },
     "nur.repos.moraxyc.pi-cliproxyapi-provider": {
         "meta": {
             "available": true,
@@ -497894,7 +498016,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-emphasis/package.nix",
-                "line": 75
+                "line": 70
             },
             "name": "pi-emphasis-0-unstable-2026-11-16",
             "nonTeamMaintainers": [
@@ -497937,7 +498059,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-emphasis/package.nix#L72",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-emphasis/package.nix#L67",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -498016,7 +498138,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-live-terminal/package.nix",
-                "line": 75
+                "line": 43
             },
             "name": "pi-live-terminal-0.2.4-unstable-2026-08-30",
             "nonTeamMaintainers": [
@@ -498059,7 +498181,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-live-terminal/package.nix#L72",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-live-terminal/package.nix#L40",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -498138,7 +498260,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-lsp-client/package.nix",
-                "line": 44
+                "line": 30
             },
             "name": "pi-lsp-client-0.2.0",
             "nonTeamMaintainers": [
@@ -498181,7 +498303,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-lsp-client/package.nix#L41",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-lsp-client/package.nix#L27",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -498260,7 +498382,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-mcp-adapter/package.nix",
-                "line": 67
+                "line": 66
             },
             "name": "pi-mcp-adapter-7.0.1",
             "nonTeamMaintainers": [
@@ -498303,7 +498425,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-mcp-adapter/package.nix#L64",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-mcp-adapter/package.nix#L63",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -499081,7 +499203,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-web-access/package.nix",
-                "line": 70
+                "line": 51
             },
             "name": "pi-web-access-0.48.0",
             "nonTeamMaintainers": [
@@ -499124,7 +499246,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-web-access/package.nix#L67",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-web-access/package.nix#L48",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -499204,7 +499326,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-worktree-extension/package.nix",
-                "line": 84
+                "line": 76
             },
             "name": "pi-worktree-extension-2.0.5",
             "nonTeamMaintainers": [
@@ -499247,7 +499369,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-worktree-extension/package.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-worktree-extension/package.nix#L72",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1142403,7 +1142525,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4539",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4572",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1142460,7 +1142582,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 143
             },
-            "name": "magpie-0.1.4539",
+            "name": "magpie-0.1.4572",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1142504,14 +1142626,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4539",
+        "name": "magpie-0.1.4572",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4539",
+        "version": "0.1.4572",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
