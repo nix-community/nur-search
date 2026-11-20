@@ -452561,7 +452561,7 @@
             },
             "mainProgram": "antigravity-tools",
             "maintainers": [],
-            "name": "antigravity-tools-5.0.3",
+            "name": "antigravity-tools-5.0.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452579,14 +452579,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "antigravity-tools-5.0.3",
+        "name": "antigravity-tools-5.0.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity-tools",
         "system": "x86_64-linux",
-        "version": "5.0.3",
+        "version": "5.0.4",
         "_attr": "antigravity-manager",
         "_repo": "mio"
     },
@@ -452639,7 +452639,7 @@
             },
             "mainProgram": "relinker",
             "maintainers": [],
-            "name": "anyps5-0.1.5-unstable-2026-11-20",
+            "name": "anyps5-0.1.5-unstable-2026-11-21",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452665,14 +452665,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "anyps5-0.1.5-unstable-2026-11-20",
+        "name": "anyps5-0.1.5-unstable-2026-11-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "anyps5",
         "system": "x86_64-linux",
-        "version": "0.1.5-unstable-2026-11-20",
+        "version": "0.1.5-unstable-2026-11-21",
         "_attr": "anyps5",
         "_repo": "mio"
     },
@@ -462263,7 +462263,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Edge0-AI/Edge0/releases/tag/v0.3.0",
+            "changelog": "https://github.com/Edge0-AI/Edge0/releases/tag/v0.3.1",
             "description": "Streaming MoE inference engine (CLI, local OpenAI/Anthropic server)",
             "homepage": "https://github.com/Edge0-AI/Edge0",
             "identifiers": {
@@ -462314,7 +462314,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ed/edge0/package.nix",
                 "line": 80
             },
-            "name": "edge0-0.3.0",
+            "name": "edge0-0.3.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -462376,14 +462376,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "edge0-0.3.0",
+        "name": "edge0-0.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "edge0",
         "system": "x86_64-linux",
-        "version": "0.3.0",
+        "version": "0.3.1",
         "_attr": "edge0",
         "_repo": "mio"
     },
@@ -472425,7 +472425,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/mozilla/multi-account-containers/releases/tag/8.4.0",
+            "changelog": "https://github.com/mozilla/multi-account-containers/releases/tag/8.4.1",
             "description": "Firefox Multi-Account Containers \u2014 keep your identities separate with colored container tabs",
             "homepage": "https://github.com/mozilla/multi-account-containers",
             "identifiers": {
@@ -472472,9 +472472,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/mu/multi-account-containers/package.nix",
-                "line": 32
+                "line": 35
             },
-            "name": "multi-account-containers-8.4.0",
+            "name": "multi-account-containers-8.4.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -472560,7 +472560,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/mu/multi-account-containers/package.nix#L29",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/mu/multi-account-containers/package.nix#L32",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -472570,14 +472570,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "multi-account-containers-8.4.0",
+        "name": "multi-account-containers-8.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "multi-account-containers",
         "system": "x86_64-linux",
-        "version": "8.4.0",
+        "version": "8.4.1",
         "_attr": "multi-account-containers",
         "_repo": "mio"
     },
@@ -474715,6 +474715,90 @@
         "system": "x86_64-linux",
         "version": "8.9.9.1",
         "_attr": "notepad-plus-plus-raven",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.nova-nix": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Nix implementation for Windows (experimental), packaged to run under Wine",
+            "homepage": "https://github.com/Novavero-AI/nova-nix",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nova-nix",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nova-nix",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "nova-nix",
+            "maintainers": [],
+            "name": "nova-nix-0.10.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/no/nova-nix/package.nix#L64",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nova-nix-0.10.0.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nova-nix",
+        "system": "x86_64-linux",
+        "version": "0.10.0.0",
+        "_attr": "nova-nix",
         "_repo": "mio"
     },
     "nur.repos.mio.nrs-client": {
@@ -483651,7 +483735,7 @@
             },
             "mainProgram": "terminal-browser",
             "maintainers": [],
-            "name": "terminal-browser-0.15.7",
+            "name": "terminal-browser-0.15.9",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -483693,14 +483777,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "terminal-browser-0.15.7",
+        "name": "terminal-browser-0.15.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "terminal-browser",
         "system": "x86_64-linux",
-        "version": "0.15.7",
+        "version": "0.15.9",
         "_attr": "terminal-browser",
         "_repo": "mio"
     },
@@ -484517,7 +484601,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "ublock-origin-firefox-1.76.4",
+            "name": "ublock-origin-firefox-1.76.6",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -484613,14 +484697,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ublock-origin-firefox-1.76.4",
+        "name": "ublock-origin-firefox-1.76.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ublock-origin-firefox",
         "system": "x86_64-linux",
-        "version": "1.76.4",
+        "version": "1.76.6",
         "_attr": "ublock-origin-firefox",
         "_repo": "mio"
     },
