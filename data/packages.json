@@ -465483,6 +465483,120 @@
         "_attr": "horizon",
         "_repo": "mio"
     },
+    "nur.repos.mio.horizon-prepare": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Prepare Horizon's resources from the player's own Minecraft install",
+            "homepage": "https://playhorizon.dev",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "horizon-prepare",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "horizon-prepare",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl3Plus",
+                "spdxId": "LGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+            },
+            "longDescription": "horizon-prepare imports and checks the vanilla client and server jars that\nMinecraft 26.3 pins, runs vanilla's own exporters under Java 25, and writes\nthe resource folder that `horizon-client --resources` reads. It downloads\nnothing: point `--minecraft-dir` at a game directory a launcher has already\nfilled, and pass `--server-jar` the server jar of the same version. This\npackage contains no Minecraft assets.\n",
+            "mainProgram": "horizon-prepare",
+            "maintainers": [],
+            "name": "horizon-prepare-0.2.97",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ho/horizon-prepare/package.nix#L26",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "horizon-prepare-0.2.97",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "horizon-prepare",
+        "system": "x86_64-linux",
+        "version": "0.2.97",
+        "_attr": "horizon-prepare",
+        "_repo": "mio"
+    },
     "nur.repos.mio.icloud-for-linux": {
         "meta": {
             "available": true,
@@ -468364,624 +468478,6 @@
         "system": "x86_64-linux",
         "version": "3.65.0",
         "_attr": "meru",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.mesh-llm": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Pool spare GPU capacity to run LLMs at larger scale",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "mesh-llm",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "mesh-llm",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                }
-            ],
-            "longDescription": "MeshLLM pools the GPUs of several machines to serve large language\nmodels through an OpenAI-compatible API and a web console. This package\nbundles a CPU runtime and, on Linux, a Vulkan runtime. CUDA and ROCm\nruntimes come with `mesh-llm-cuda` (unfree) and `mesh-llm-rocm`, or with\nthe nixpkgs settings `cudaSupport` and `rocmSupport`.\n",
-            "mainProgram": "mesh-llm",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                },
-                {
-                    "email": "mio@mio19.uk",
-                    "github": "mio-aotearoa",
-                    "githubId": 57285379,
-                    "name": "Mio"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/me/mesh-llm/package.nix",
-                "line": 370
-            },
-            "name": "mesh-llm-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                },
-                {
-                    "email": "mio@mio19.uk",
-                    "github": "mio-aotearoa",
-                    "githubId": 57285379,
-                    "name": "Mio"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/me/mesh-llm/package.nix#L356",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "mesh-llm-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "mesh-llm",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "mesh-llm",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.mesh-llm-cuda": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Pool spare GPU capacity to run LLMs at larger scale",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "mesh-llm",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "mesh-llm",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                }
-            ],
-            "longDescription": "MeshLLM pools the GPUs of several machines to serve large language\nmodels through an OpenAI-compatible API and a web console. This package\nbundles a CPU runtime and, on Linux, a Vulkan runtime. CUDA and ROCm\nruntimes come with `mesh-llm-cuda` (unfree) and `mesh-llm-rocm`, or with\nthe nixpkgs settings `cudaSupport` and `rocmSupport`.\n",
-            "mainProgram": "mesh-llm",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                },
-                {
-                    "email": "mio@mio19.uk",
-                    "github": "mio-aotearoa",
-                    "githubId": 57285379,
-                    "name": "Mio"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/me/mesh-llm/package.nix",
-                "line": 370
-            },
-            "name": "mesh-llm-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                },
-                {
-                    "email": "mio@mio19.uk",
-                    "github": "mio-aotearoa",
-                    "githubId": 57285379,
-                    "name": "Mio"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/me/mesh-llm-cuda/package.nix#L7",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "mesh-llm-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "mesh-llm",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "mesh-llm-cuda",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.mesh-llm-native-runtime": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Patched llama.cpp libraries that Skippy and MeshLLM load for inference (cpu backend)",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm/tree/main/skippy",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "skippy-native-runtime",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "skippy-native-runtime",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "longDescription": "The inference engine of mesh-llm, which bundles it; install mesh-llm\ninstead. The backend is chosen with `cudaSupport`,\n`rocmSupport`, `vulkanSupport` (also as skippy-native-runtime-vulkan)\nand `metalSupport` (the default on macOS), otherwise it is CPU only.\n",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/sk/skippy-native-runtime/package.nix",
-                "line": 325
-            },
-            "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skippy-native-runtime/package.nix#L300",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "dev": null,
-            "out": null
-        },
-        "pname": "skippy-native-runtime",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "mesh-llm-native-runtime",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.mesh-llm-native-runtime-vulkan": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Patched llama.cpp libraries that Skippy and MeshLLM load for inference (vulkan backend)",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm/tree/main/skippy",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "skippy-native-runtime",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "skippy-native-runtime",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "longDescription": "The inference engine of mesh-llm, which bundles it; install mesh-llm\ninstead. The backend is chosen with `cudaSupport`,\n`rocmSupport`, `vulkanSupport` (also as skippy-native-runtime-vulkan)\nand `metalSupport` (the default on macOS), otherwise it is CPU only.\n",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/sk/skippy-native-runtime/package.nix",
-                "line": 325
-            },
-            "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skippy-native-runtime-vulkan/package.nix#L7",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "dev": null,
-            "out": null
-        },
-        "pname": "skippy-native-runtime",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "mesh-llm-native-runtime-vulkan",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.mesh-llm-rocm": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Pool spare GPU capacity to run LLMs at larger scale",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "mesh-llm",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "mesh-llm",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                }
-            ],
-            "longDescription": "MeshLLM pools the GPUs of several machines to serve large language\nmodels through an OpenAI-compatible API and a web console. This package\nbundles a CPU runtime and, on Linux, a Vulkan runtime. CUDA and ROCm\nruntimes come with `mesh-llm-cuda` (unfree) and `mesh-llm-rocm`, or with\nthe nixpkgs settings `cudaSupport` and `rocmSupport`.\n",
-            "mainProgram": "mesh-llm",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                },
-                {
-                    "email": "mio@mio19.uk",
-                    "github": "mio-aotearoa",
-                    "githubId": 57285379,
-                    "name": "Mio"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/me/mesh-llm/package.nix",
-                "line": 370
-            },
-            "name": "mesh-llm-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                },
-                {
-                    "email": "mio@mio19.uk",
-                    "github": "mio-aotearoa",
-                    "githubId": 57285379,
-                    "name": "Mio"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/me/mesh-llm-rocm/package.nix#L7",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "mesh-llm-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "mesh-llm",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "mesh-llm-rocm",
         "_repo": "mio"
     },
     "nur.repos.mio.minetest580": {
@@ -479108,352 +478604,6 @@
         "system": "x86_64-linux",
         "version": "0.2e",
         "_attr": "skate3recomp-plus",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.skippy": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Serve a language model locally behind OpenAI- and Anthropic-compatible APIs",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm/tree/main/skippy",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "skippy",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "skippy",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                }
-            ],
-            "longDescription": "Skippy is the model-serving engine of MeshLLM, usable on its own: it\ndownloads models, sizes the context to the available memory and serves\none model on this machine. This package bundles the same runtimes as\nmesh-llm (CPU and, on Linux, Vulkan; CUDA and ROCm with the nixpkgs\nsettings `cudaSupport` and `rocmSupport`).\n",
-            "mainProgram": "skippy",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/sk/skippy/package.nix",
-                "line": 142
-            },
-            "name": "skippy-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skippy/package.nix#L128",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "skippy-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "skippy",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "skippy",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.skippy-native-runtime": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Patched llama.cpp libraries that Skippy and MeshLLM load for inference (cpu backend)",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm/tree/main/skippy",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "skippy-native-runtime",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "skippy-native-runtime",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "longDescription": "The inference engine of mesh-llm, which bundles it; install mesh-llm\ninstead. The backend is chosen with `cudaSupport`,\n`rocmSupport`, `vulkanSupport` (also as skippy-native-runtime-vulkan)\nand `metalSupport` (the default on macOS), otherwise it is CPU only.\n",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/sk/skippy-native-runtime/package.nix",
-                "line": 325
-            },
-            "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skippy-native-runtime/package.nix#L300",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "dev": null,
-            "out": null
-        },
-        "pname": "skippy-native-runtime",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "skippy-native-runtime",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.skippy-native-runtime-vulkan": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [],
-            "broken": false,
-            "changelog": "https://github.com/Mesh-LLM/mesh-llm/commits/f2a7f62c755e283c389a28cbf8d1e8f926677a4e",
-            "description": "Patched llama.cpp libraries that Skippy and MeshLLM load for inference (vulkan backend)",
-            "homepage": "https://github.com/Mesh-LLM/mesh-llm/tree/main/skippy",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "skippy-native-runtime",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "skippy-native-runtime",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "MIT License",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "Apache License 2.0",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "longDescription": "The inference engine of mesh-llm, which bundles it; install mesh-llm\ninstead. The backend is chosen with `cudaSupport`,\n`rocmSupport`, `vulkanSupport` (also as skippy-native-runtime-vulkan)\nand `metalSupport` (the default on macOS), otherwise it is CPU only.\n",
-            "maintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/sk/skippy-native-runtime/package.nix",
-                "line": 325
-            },
-            "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-            "nonTeamMaintainers": [
-                {
-                    "email": "martin.kleinberger@gmail.com",
-                    "github": "kleinbem",
-                    "githubId": 1173376,
-                    "name": "Martin Kleinberger"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skippy-native-runtime-vulkan/package.nix#L7",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "skippy-native-runtime-0.78.0-unstable-2026-10-29",
-        "outputName": "out",
-        "outputs": {
-            "dev": null,
-            "out": null
-        },
-        "pname": "skippy-native-runtime",
-        "system": "x86_64-linux",
-        "version": "0.78.0-unstable-2026-10-29",
-        "_attr": "skippy-native-runtime-vulkan",
         "_repo": "mio"
     },
     "nur.repos.mio.slacky_patched": {
