@@ -273930,7 +273930,7 @@
                 "shortName": "unfree"
             },
             "maintainers": [],
-            "name": "goreleaser-pro-2.20.2",
+            "name": "goreleaser-pro-2.20.3",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -273959,14 +273959,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "goreleaser-pro-2.20.2",
+        "name": "goreleaser-pro-2.20.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "goreleaser-pro",
         "system": "x86_64-linux",
-        "version": "2.20.2",
+        "version": "2.20.3",
         "_attr": "goreleaser-pro",
         "_repo": "goreleaser"
     },
@@ -455987,7 +455987,7 @@
             },
             "mainProgram": "Compositor",
             "maintainers": [],
-            "name": "compositor-1.6.13",
+            "name": "compositor-1.6.14",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -456011,14 +456011,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.6.13",
+        "name": "compositor-1.6.14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.6.13",
+        "version": "1.6.14",
         "_attr": "compositor",
         "_repo": "mio"
     },
@@ -466701,6 +466701,107 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-11-01",
         "_attr": "ladybird_patched",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.lastbook": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Offline survival library: guides, manuals, videos, maps and encyclopedias",
+            "homepage": "https://lastbook.org",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lastbook",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lastbook",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "lastbook",
+            "maintainers": [],
+            "name": "lastbook-1.1.13",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/la/lastbook/package.nix#L190",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "lastbook-1.1.13",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "lastbook",
+        "system": "x86_64-linux",
+        "version": "1.1.13",
+        "_attr": "lastbook",
         "_repo": "mio"
     },
     "nur.repos.mio.layan-sddm": {
@@ -480892,7 +480993,7 @@
             },
             "mainProgram": "terminal-browser",
             "maintainers": [],
-            "name": "terminal-browser-0.15.6",
+            "name": "terminal-browser-0.15.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -480934,14 +481035,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "terminal-browser-0.15.6",
+        "name": "terminal-browser-0.15.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "terminal-browser",
         "system": "x86_64-linux",
-        "version": "0.15.6",
+        "version": "0.15.7",
         "_attr": "terminal-browser",
         "_repo": "mio"
     },
