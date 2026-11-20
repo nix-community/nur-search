@@ -48336,7 +48336,7 @@
             },
             "mainProgram": "chatgpt",
             "maintainers": [],
-            "name": "chatgpt-26.1111.71704",
+            "name": "chatgpt-26.1117.31558",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -48354,14 +48354,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1111.71704",
+        "name": "chatgpt-26.1117.31558",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1111.71704",
+        "version": "26.1117.31558",
         "_attr": "chatgpt",
         "_repo": "Sittymin"
     },
@@ -48947,7 +48947,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Sittymin/pkgs/wechat/default.nix",
                 "line": 212
             },
-            "name": "wechat-4.1.13.26",
+            "name": "wechat-4.1.13.29",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -48971,14 +48971,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "wechat-4.1.13.26",
+        "name": "wechat-4.1.13.29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wechat",
         "system": "x86_64-linux",
-        "version": "4.1.13.26",
+        "version": "4.1.13.29",
         "_attr": "wechat",
         "_repo": "Sittymin"
     },
@@ -74460,7 +74460,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-11-19",
+            "name": "albedo-git-0-unstable-2026-11-20",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -74522,14 +74522,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-11-19",
+        "name": "albedo-git-0-unstable-2026-11-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-19",
+        "version": "0-unstable-2026-11-20",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -81189,7 +81189,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-18",
+            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-19",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -81230,14 +81230,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-18",
+        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gruvbox-plus-icons",
         "system": "x86_64-linux",
-        "version": "6.7.0-unstable-2026-11-18",
+        "version": "6.7.0-unstable-2026-11-19",
         "_attr": "gruvbox-plus-icons",
         "_repo": "adam0"
     },
@@ -269075,88 +269075,6 @@
         "_attr": "baidunetdisk",
         "_repo": "freegoxing"
     },
-    "nur.repos.freegoxing.chatgpt": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "changelog": "https://learn.chatgpt.com/docs/changelog?type=codex-app",
-            "description": "Desktop application for ChatGPT",
-            "homepage": "https://developers.openai.com/codex/app",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "chatgpt",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "chatgpt",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "chatgpt",
-            "maintainers": [],
-            "name": "chatgpt-26.1111.21308",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/chatgpt/package.nix#L247",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "chatgpt-26.1111.21308",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "chatgpt",
-        "system": "x86_64-linux",
-        "version": "26.1111.21308",
-        "_attr": "chatgpt",
-        "_repo": "freegoxing"
-    },
     "nur.repos.freegoxing.equation-exporter": {
         "meta": {
             "available": true,
@@ -269319,167 +269237,6 @@
         "system": "x86_64-linux",
         "version": "4.1.100",
         "_attr": "lceda-pro",
-        "_repo": "freegoxing"
-    },
-    "nur.repos.freegoxing.qq": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Messaging app",
-            "homepage": "https://im.qq.com/index/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "qq",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "qq",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "maintainers": [],
-            "name": "qq-3.2.34-2026-09-24",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/qq/default.nix#L75",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "qq-3.2.34-2026-09-24",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "qq",
-        "system": "x86_64-linux",
-        "version": "3.2.34-2026-09-24",
-        "_attr": "qq",
-        "_repo": "freegoxing"
-    },
-    "nur.repos.freegoxing.z-library": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Client for the online library Z-Library",
-            "homepage": "https://z-library.sk",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "z-library",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "z-library",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "Z-Library",
-            "maintainers": [],
-            "name": "z-library-3.2.1",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/freegoxing/pkgs/z-library/default.nix#L83",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "obfuscatedCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "z-library-3.2.1",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "z-library",
-        "system": "x86_64-linux",
-        "version": "3.2.1",
-        "_attr": "z-library",
         "_repo": "freegoxing"
     },
     "nur.repos.friedow.rofi-lpass": {
@@ -969443,7 +969200,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.5.8",
+            "changelog": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.5.11",
             "description": "Cross-platform multi-protocol concurrent downloader",
             "homepage": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
             "identifiers": {
@@ -969488,7 +969245,7 @@
             },
             "mainProgram": "ghost-downloader-3",
             "maintainers": [],
-            "name": "ghost-downloader-3-4.5.8",
+            "name": "ghost-downloader-3-4.5.11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -969512,14 +969269,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghost-downloader-3-4.5.8",
+        "name": "ghost-downloader-3-4.5.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghost-downloader",
         "system": "x86_64-linux",
-        "version": "3-4.5.8",
+        "version": "3-4.5.11",
         "_attr": "ghost-downloader-3",
         "_repo": "silicalet"
     },
@@ -970660,7 +970417,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nyakang/nyaterm/releases/tag/v2.0.6",
+            "changelog": "https://github.com/nyakang/nyaterm/releases/tag/v2.0.7",
             "description": "Modern remote terminal workspace with SSH, SFTP and AI assistance",
             "homepage": "https://github.com/nyakang/nyaterm",
             "identifiers": {
@@ -970705,7 +970462,7 @@
             },
             "mainProgram": "nyaterm",
             "maintainers": [],
-            "name": "nyaterm-2.0.6",
+            "name": "nyaterm-2.0.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -970730,14 +970487,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nyaterm-2.0.6",
+        "name": "nyaterm-2.0.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nyaterm",
         "system": "x86_64-linux",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "_attr": "nyaterm-bin",
         "_repo": "silicalet"
     },
@@ -971108,7 +970865,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yinzhenyu-su/qrypt/releases/tag/v0.7.0",
+            "changelog": "https://github.com/yinzhenyu-su/qrypt/releases/tag/v0.7.1",
             "description": "Cloud drive CLI and FUSE filesystem with rclone-compatible encryption",
             "homepage": "https://github.com/yinzhenyu-su/qrypt",
             "identifiers": {
@@ -971153,7 +970910,7 @@
             },
             "mainProgram": "qrypt",
             "maintainers": [],
-            "name": "qrypt-bin-0.7.0",
+            "name": "qrypt-bin-0.7.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -971178,14 +970935,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "qrypt-bin-0.7.0",
+        "name": "qrypt-bin-0.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "qrypt-bin",
         "system": "x86_64-linux",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "_attr": "qrypt-bin",
         "_repo": "silicalet"
     },
@@ -971470,7 +971227,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/morluto/rea/releases/tag/rea-agents-6.9.0",
+            "changelog": "https://github.com/morluto/rea/releases/tag/rea-agents-6.10.1",
             "description": "Reverse engineering CLI and MCP server for agents",
             "homepage": "https://github.com/morluto/rea",
             "identifiers": {
@@ -971515,7 +971272,7 @@
             },
             "mainProgram": "rea",
             "maintainers": [],
-            "name": "rea-6.9.0",
+            "name": "rea-6.10.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -971534,14 +971291,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rea-6.9.0",
+        "name": "rea-6.10.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rea",
         "system": "x86_64-linux",
-        "version": "6.9.0",
+        "version": "6.10.1",
         "_attr": "rea",
         "_repo": "silicalet"
     },
@@ -971591,7 +971348,7 @@
             },
             "mainProgram": "rea",
             "maintainers": [],
-            "name": "rea-full-6.9.0",
+            "name": "rea-full-6.10.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -971610,14 +971367,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rea-full-6.9.0",
+        "name": "rea-full-6.10.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rea-full",
         "system": "x86_64-linux",
-        "version": "6.9.0",
+        "version": "6.10.1",
         "_attr": "rea-full",
         "_repo": "silicalet"
     },
@@ -972257,7 +972014,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/heartleo/zlib/releases/tag/v0.0.14",
+            "changelog": "https://github.com/heartleo/zlib/releases/tag/v0.0.15",
             "description": "Command-line client for Z-Library",
             "homepage": "https://github.com/heartleo/zlib",
             "identifiers": {
@@ -972302,7 +972059,7 @@
             },
             "mainProgram": "zlib",
             "maintainers": [],
-            "name": "zlib-cli-0.0.14",
+            "name": "zlib-cli-0.0.15",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -972398,14 +972155,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zlib-cli-0.0.14",
+        "name": "zlib-cli-0.0.15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "zlib-cli",
         "system": "x86_64-linux",
-        "version": "0.0.14",
+        "version": "0.0.15",
         "_attr": "zlib-cli",
         "_repo": "silicalet"
     },
