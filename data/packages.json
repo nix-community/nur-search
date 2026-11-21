@@ -65917,6 +65917,160 @@
         "_attr": "ntsc-rs",
         "_repo": "VZstless"
     },
+    "nur.repos.VZstless.plangothic": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CJK font based on Source Han Sans with glyphs for CJK Unified Ideographs Extension B\u2013J",
+            "homepage": "https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "plangothic",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "plangothic",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "SIL Open Font License 1.1",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "ofl",
+                "spdxId": "OFL-1.1",
+                "url": "https://spdx.org/licenses/OFL-1.1.html"
+            },
+            "maintainers": [],
+            "name": "plangothic-2.9.5795",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/VZstless/pkgs/by-name/pl/plangothic/package.nix#L25",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "plangothic-2.9.5795",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "plangothic",
+        "system": "x86_64-linux",
+        "version": "2.9.5795",
+        "_attr": "plangothic",
+        "_repo": "VZstless"
+    },
     "nur.repos.VZstless.sashiko": {
         "meta": {
             "available": true,
@@ -165632,7 +165786,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/git-pages/package.nix",
                 "line": 51
             },
-            "name": "git-pages-latest-unstable-2026-11-17",
+            "name": "git-pages-latest-unstable-2026-11-19",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -165687,14 +165841,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "git-pages-latest-unstable-2026-11-17",
+        "name": "git-pages-latest-unstable-2026-11-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "git-pages-latest-unstable",
         "system": "x86_64-linux",
-        "version": "2026-11-17",
+        "version": "2026-11-19",
         "_attr": "_bartPackages.git-pages",
         "_repo": "bartoostveen"
     },
@@ -170406,7 +170560,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/bartoostveen/pkgs/venator/package.nix",
                 "line": 108
             },
-            "name": "venator-0.1.0a4-unstable-2026-11-18",
+            "name": "venator-0.1.0a4-unstable-2026-11-19",
             "nonTeamMaintainers": [
                 {
                     "email": "bart@bartoostveen.nl",
@@ -170510,14 +170664,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "venator-0.1.0a4-unstable-2026-11-18",
+        "name": "venator-0.1.0a4-unstable-2026-11-19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "venator",
         "system": "x86_64-linux",
-        "version": "0.1.0a4-unstable-2026-11-18",
+        "version": "0.1.0a4-unstable-2026-11-19",
         "_attr": "_bartPackages.venator",
         "_repo": "bartoostveen"
     },
@@ -252465,7 +252619,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/beeper-nightly/default.nix",
                 "line": 26
             },
-            "name": "beeper-nightly-4.3.338",
+            "name": "beeper-nightly-4.3.343",
             "nonTeamMaintainers": [
                 {
                     "email": "me@joshuadcampbell.com",
@@ -252524,14 +252678,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-nightly-4.3.338",
+        "name": "beeper-nightly-4.3.343",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper-nightly",
         "system": "x86_64-linux",
-        "version": "4.3.338",
+        "version": "4.3.343",
         "_attr": "beeper-nightly",
         "_repo": "forkprince"
     },
@@ -253443,7 +253597,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/clop/default.nix",
                 "line": 26
             },
-            "name": "clop-3.7.5",
+            "name": "clop-3.7.6",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -253468,14 +253622,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clop-3.7.5",
+        "name": "clop-3.7.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clop",
         "system": "x86_64-linux",
-        "version": "3.7.5",
+        "version": "3.7.6",
         "_attr": "clop",
         "_repo": "forkprince"
     },
@@ -253537,7 +253691,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/compositor/default.nix",
                 "line": 20
             },
-            "name": "compositor-1.6.14",
+            "name": "compositor-1.6.15",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -253562,14 +253716,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.6.14",
+        "name": "compositor-1.6.15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.6.14",
+        "version": "1.6.15",
         "_attr": "compositor",
         "_repo": "forkprince"
     },
@@ -255390,7 +255544,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/eq/equicord/package.nix",
                 "line": 85
             },
-            "name": "equicord-2026-11-20",
+            "name": "equicord-2026-11-21",
             "nonTeamMaintainers": [
                 {
                     "email": "raf@notashelf.dev",
@@ -255455,14 +255609,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "equicord-2026-11-20",
+        "name": "equicord-2026-11-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "equicord",
         "system": "x86_64-linux",
-        "version": "2026-11-20",
+        "version": "2026-11-21",
         "_attr": "equicord",
         "_repo": "forkprince"
     },
@@ -256084,7 +256238,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-canary-bin/default.nix",
                 "line": 21
             },
-            "name": "fluxer-canary-bin-2026.1120.22310",
+            "name": "fluxer-canary-bin-2026.1120.172553",
             "nonTeamMaintainers": [
                 {
                     "github": "WoutFontaine",
@@ -256138,14 +256292,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-canary-bin-2026.1120.22310",
+        "name": "fluxer-canary-bin-2026.1120.172553",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer-canary-bin",
         "system": "x86_64-linux",
-        "version": "2026.1120.22310",
+        "version": "2026.1120.172553",
         "_attr": "fluxer-canary-bin",
         "_repo": "forkprince"
     },
@@ -256213,7 +256367,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-stable-bin/default.nix",
                 "line": 21
             },
-            "name": "fluxer-stable-bin-2026.1120.30521",
+            "name": "fluxer-stable-bin-2026.1120.163638",
             "nonTeamMaintainers": [
                 {
                     "github": "WoutFontaine",
@@ -256267,14 +256421,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-stable-bin-2026.1120.30521",
+        "name": "fluxer-stable-bin-2026.1120.163638",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer-stable-bin",
         "system": "x86_64-linux",
-        "version": "2026.1120.30521",
+        "version": "2026.1120.163638",
         "_attr": "fluxer-stable-bin",
         "_repo": "forkprince"
     },
@@ -257371,7 +257525,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/imputnet/helium/releases/tag/0.22.1.1",
+            "changelog": "https://github.com/imputnet/helium/releases/tag/0.22.2.1",
             "description": "Private, fast, and honest web browser (nightly builds)",
             "homepage": "https://github.com/imputnet/helium",
             "identifiers": {
@@ -257437,7 +257591,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/helium-nightly/default.nix",
                 "line": 25
             },
-            "name": "helium-0.22.1.1",
+            "name": "helium-0.22.2.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -257496,14 +257650,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "helium-0.22.1.1",
+        "name": "helium-0.22.2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "helium",
         "system": "x86_64-linux",
-        "version": "0.22.1.1",
+        "version": "0.22.2.1",
         "_attr": "helium-nightly",
         "_repo": "forkprince"
     },
@@ -257911,7 +258065,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/horizon/default.nix",
                 "line": 43
             },
-            "name": "horizon-launcher-0.2.89",
+            "name": "horizon-launcher-0.2.98",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -257937,14 +258091,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-launcher-0.2.89",
+        "name": "horizon-launcher-0.2.98",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon-launcher",
         "system": "x86_64-linux",
-        "version": "0.2.89",
+        "version": "0.2.98",
         "_attr": "horizon",
         "_repo": "forkprince"
     },
@@ -258835,7 +258989,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/light-studio/default.nix",
                 "line": 17
             },
-            "name": "light-studio-0.1.41",
+            "name": "light-studio-0.1.42",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -258884,14 +259038,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "light-studio-0.1.41",
+        "name": "light-studio-0.1.42",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "light-studio",
         "system": "x86_64-linux",
-        "version": "0.1.41",
+        "version": "0.1.42",
         "_attr": "light-studio",
         "_repo": "forkprince"
     },
@@ -262446,7 +262600,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/orca/default.nix",
                 "line": 20
             },
-            "name": "orca-1.4.266",
+            "name": "orca-1.4.268",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -262471,14 +262625,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.266",
+        "name": "orca-1.4.268",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.266",
+        "version": "1.4.268",
         "_attr": "orca",
         "_repo": "forkprince"
     },
@@ -263877,7 +264031,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/photon-studio/default.nix",
                 "line": 17
             },
-            "name": "photon-studio-0.1.80",
+            "name": "photon-studio-0.1.81",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -263926,14 +264080,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "photon-studio-0.1.80",
+        "name": "photon-studio-0.1.81",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photon-studio",
         "system": "x86_64-linux",
-        "version": "0.1.80",
+        "version": "0.1.81",
         "_attr": "photon-studio",
         "_repo": "forkprince"
     },
@@ -265582,7 +265736,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/removemacai/default.nix",
                 "line": 29
             },
-            "name": "removemacai-1.2.1",
+            "name": "removemacai-1.2.2",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -265607,14 +265761,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "removemacai-1.2.1",
+        "name": "removemacai-1.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "removemacai",
         "system": "x86_64-linux",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "_attr": "removemacai",
         "_repo": "forkprince"
     },
@@ -266412,7 +266566,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/ViceVerse-cz/Serein/releases/tag/v1.0.0-nightly.20261120.98",
+            "changelog": "https://github.com/ViceVerse-cz/Serein/releases/tag/v1.0.0-nightly.20261121.100",
             "description": "Tiny, performant & 100% native client for Discord made in Rust",
             "homepage": "https://github.com/ViceVerse-cz/Serein",
             "identifiers": {
@@ -266480,7 +266634,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/serein/default.nix",
                 "line": 36
             },
-            "name": "serein-1.0.0-nightly.20261120.98",
+            "name": "serein-1.0.0-nightly.20261121.100",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -266506,14 +266660,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "serein-1.0.0-nightly.20261120.98",
+        "name": "serein-1.0.0-nightly.20261121.100",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "serein",
         "system": "x86_64-linux",
-        "version": "1.0.0-nightly.20261120.98",
+        "version": "1.0.0-nightly.20261121.100",
         "_attr": "serein",
         "_repo": "forkprince"
     },
@@ -268443,7 +268597,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/transit-audio/transit/releases/tag/v0.7.3",
+            "changelog": "https://github.com/transit-audio/transit/releases/tag/v0.7.4",
             "description": "A free, open-source digital audio workstation (DAW) written in Rust",
             "homepage": "https://github.com/transit-audio/transit",
             "identifiers": {
@@ -268511,7 +268665,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/transit/default.nix",
                 "line": 18
             },
-            "name": "transit-0.7.3",
+            "name": "transit-0.7.4",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -268537,14 +268691,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "transit-0.7.3",
+        "name": "transit-0.7.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "transit",
         "system": "x86_64-linux",
-        "version": "0.7.3",
+        "version": "0.7.4",
         "_attr": "transit",
         "_repo": "forkprince"
     },
@@ -268818,7 +268972,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/vector-studio/default.nix",
                 "line": 17
             },
-            "name": "vector-studio-0.1.33",
+            "name": "vector-studio-0.1.34",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -268867,14 +269021,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "vector-studio-0.1.33",
+        "name": "vector-studio-0.1.34",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vector-studio",
         "system": "x86_64-linux",
-        "version": "0.1.33",
+        "version": "0.1.34",
         "_attr": "vector-studio",
         "_repo": "forkprince"
     },
@@ -337100,7 +337254,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/kira-bruneau/pkgs/by-name/li/lichii/package.nix",
                 "line": 200
             },
-            "name": "lichii-341",
+            "name": "lichii-366",
             "nonTeamMaintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -337121,14 +337275,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lichii-341",
+        "name": "lichii-366",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lichii",
         "system": "x86_64-linux",
-        "version": "341",
+        "version": "366",
         "_attr": "lichii",
         "_repo": "kira-bruneau"
     },
@@ -728012,6 +728166,152 @@
         "system": "x86_64-linux",
         "version": "0.10.2",
         "_attr": "tmustier-pi-usage-extension",
+        "_repo": "prince213"
+    },
+    "nur.repos.prince213.tokenrouter": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/TokenFlux/TokenRouter/releases/tag/v0.7.6",
+            "description": "LLM gateway",
+            "downloadPage": "https://github.com/TokenFlux/TokenRouter/releases",
+            "homepage": "https://github.com/TokenFlux/TokenRouter",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tokenrouter",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tokenrouter",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "mainProgram": "tokenrouter",
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/to/tokenrouter/package.nix",
+                "line": 125
+            },
+            "name": "tokenrouter-0.7.6",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/to/tokenrouter/package.nix#L117",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tokenrouter-0.7.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tokenrouter",
+        "system": "x86_64-linux",
+        "version": "0.7.6",
+        "_attr": "tokenrouter",
         "_repo": "prince213"
     },
     "nur.repos.prince213.tunnckocore-pi-gpt-fast-mode": {
