@@ -207731,7 +207731,7 @@
             },
             "mainProgram": "dartotsu-alpha",
             "maintainers": [],
-            "name": "dartotsu-alpha-372f642",
+            "name": "dartotsu-alpha-a9bd474",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -207755,14 +207755,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "dartotsu-alpha-372f642",
+        "name": "dartotsu-alpha-a9bd474",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "dartotsu-alpha",
+        "pname": "dartotsu-alpha-a9bd474",
         "system": "x86_64-linux",
-        "version": "372f642",
+        "version": "",
         "_attr": "alpha",
         "_repo": "dartotsu"
     },
@@ -234414,7 +234414,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/falconprogrammer/pkgs/alvr/default.nix",
-                "line": 88
+                "line": 90
             },
             "name": "alvr-20.14.1",
             "nonTeamMaintainers": [
@@ -234454,7 +234454,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/alvr/default.nix#L84",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/falconprogrammer/pkgs/alvr/default.nix#L86",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -371958,7 +371958,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "audio-loudness-batch-normalize-v0.3.3",
             "nonTeamMaintainers": [
@@ -371970,7 +371970,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -371984,6 +371984,87 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "audio-loudness-batch-normalize",
+        "_repo": "lxl66566"
+    },
+    "nur.repos.lxl66566.easytier": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple, decentralized mesh VPN with WireGuard support",
+            "homepage": "https://github.com/EasyTier/easytier",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "easytier",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "easytier",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "mainProgram": "easytier-core",
+            "maintainers": [
+                "lxl66566"
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
+                "line": 98
+            },
+            "name": "easytier-v2.7.1",
+            "nonTeamMaintainers": [
+                "lxl66566"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "easytier-v2.7.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "easytier-v2.7.1",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "easytier",
         "_repo": "lxl66566"
     },
     "nur.repos.lxl66566.fail2ban-rs": {
@@ -372039,7 +372120,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "fail2ban-rs-v1.5.5",
             "nonTeamMaintainers": [
@@ -372051,7 +372132,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372120,7 +372201,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "fungi-v0.4.0",
             "nonTeamMaintainers": [
@@ -372132,7 +372213,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372288,7 +372369,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "git-simple-encrypt-v3.1.3",
             "nonTeamMaintainers": [
@@ -372300,7 +372381,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372369,7 +372450,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "git-sync-backup-v0.4.0",
             "nonTeamMaintainers": [
@@ -372381,7 +372462,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372450,7 +372531,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "git-touchfish-commit-v0.3.2",
             "nonTeamMaintainers": [
@@ -372462,7 +372543,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372531,7 +372612,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "nextppp-v0.3.0-alpha.1",
             "nonTeamMaintainers": [
@@ -372543,7 +372624,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372612,7 +372693,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "openppp2-v1.0.0.26151",
             "nonTeamMaintainers": [
@@ -372624,7 +372705,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372693,7 +372774,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "reader-server-rs-v0.2.1",
             "nonTeamMaintainers": [
@@ -372705,7 +372786,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372774,7 +372855,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "selector4nix-v0.11.0",
             "nonTeamMaintainers": [
@@ -372786,7 +372867,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372855,7 +372936,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "system76-scheduler-niri-v0.1.0",
             "nonTeamMaintainers": [
@@ -372867,7 +372948,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -372936,7 +373017,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "urldecoder-v2.0.1",
             "nonTeamMaintainers": [
@@ -372948,7 +373029,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -373017,7 +373098,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "user-startup-rs-v0.3.0",
             "nonTeamMaintainers": [
@@ -373029,7 +373110,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -373098,7 +373179,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "xp3-pack-unpack-v0.1.0",
             "nonTeamMaintainers": [
@@ -373110,7 +373191,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -373179,7 +373260,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "zdu-v0.1.1",
             "nonTeamMaintainers": [
@@ -373191,7 +373272,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -373260,7 +373341,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
-                "line": 91
+                "line": 98
             },
             "name": "zhfmt-v0.1.2",
             "nonTeamMaintainers": [
@@ -373272,7 +373353,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -496286,7 +496367,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.0.80",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.0",
             "description": "Proxy that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -496363,7 +496444,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/cl/cliproxyapi/package.nix",
                 "line": 55
             },
-            "name": "cliproxyapi-8.0.80",
+            "name": "cliproxyapi-8.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "i@anish.land",
@@ -496432,14 +496513,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.0.80",
+        "name": "cliproxyapi-8.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.0.80",
+        "version": "8.1.0",
         "_attr": "cliproxyapi",
         "_repo": "moraxyc"
     },
@@ -499761,151 +499842,6 @@
         "system": "x86_64-linux",
         "version": "1.1",
         "_attr": "metacubex-geo",
-        "_repo": "moraxyc"
-    },
-    "nur.repos.moraxyc.microfetch": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Microscopic fetch script in Rust, for NixOS systems",
-            "homepage": "https://github.com/NotAShelf/microfetch",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "microfetch",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "microfetch",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "microfetch",
-            "maintainers": [
-                {
-                    "email": "nix@ccnlc.eu",
-                    "github": "nydragon",
-                    "githubId": 56591727,
-                    "keys": [
-                        {
-                            "fingerprint": "25FF 8464 F062 7EC0 0129 6A43 14AA 30A8 65EA 1209"
-                        }
-                    ],
-                    "name": "nydragon"
-                },
-                {
-                    "email": "raf@notashelf.dev",
-                    "github": "NotAShelf",
-                    "githubId": 62766066,
-                    "matrix": "@raf:notashelf.dev",
-                    "name": "NotAShelf"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/mi/microfetch/package.nix",
-                "line": 31
-            },
-            "name": "microfetch-1.2.0-unstable-2026-11-07",
-            "nonTeamMaintainers": [
-                {
-                    "email": "nix@ccnlc.eu",
-                    "github": "nydragon",
-                    "githubId": 56591727,
-                    "keys": [
-                        {
-                            "fingerprint": "25FF 8464 F062 7EC0 0129 6A43 14AA 30A8 65EA 1209"
-                        }
-                    ],
-                    "name": "nydragon"
-                },
-                {
-                    "email": "raf@notashelf.dev",
-                    "github": "NotAShelf",
-                    "githubId": 62766066,
-                    "matrix": "@raf:notashelf.dev",
-                    "name": "NotAShelf"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/moraxyc/nur-packages/blob/HEAD/pkgs/by-name/mi/microfetch/package.nix#L28",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "microfetch-1.2.0-unstable-2026-11-07",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "microfetch",
-        "system": "x86_64-linux",
-        "version": "1.2.0-unstable-2026-11-07",
-        "_attr": "microfetch",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.mm-geofeed-verifier": {
@@ -1030760,7 +1030696,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v0.9.1",
+            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v1.0.0",
             "description": "Mouse-friendly, themeable Matrix client for the terminal",
             "homepage": "https://github.com/tylerstyle/matrix-rat",
             "identifiers": {
@@ -1030810,7 +1030746,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/tylerstyle/pkgs/matrix-rat/default.nix",
                 "line": 63
             },
-            "name": "matrix-rat-0.9.1",
+            "name": "matrix-rat-1.0.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1030846,14 +1030782,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "matrix-rat-0.9.1",
+        "name": "matrix-rat-1.0.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "matrix-rat",
         "system": "x86_64-linux",
-        "version": "0.9.1",
+        "version": "1.0.0",
         "_attr": "matrix-rat",
         "_repo": "tylerstyle"
     },
