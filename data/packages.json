@@ -68415,9 +68415,40 @@
                 "redistributable": false,
                 "shortName": "unfree"
             },
-            "maintainers": [],
+            "maintainers": [
+                {
+                    "email": "weathercold.scr@proton.me",
+                    "github": "Weathercold",
+                    "githubId": 49368953,
+                    "keys": [
+                        {
+                            "fingerprint": "D20F C904 A145 8B28 53D8  FBA0 0422 0096 01E4 87FC"
+                        }
+                    ],
+                    "matrix": "@weathercold:matrix.org",
+                    "name": "Weathercold"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/bo/bocchi-cursors/package.nix",
+                "line": 27
+            },
             "name": "bocchi-cursors-1.0",
-            "nonTeamMaintainers": [],
+            "nonTeamMaintainers": [
+                {
+                    "email": "weathercold.scr@proton.me",
+                    "github": "Weathercold",
+                    "githubId": 49368953,
+                    "keys": [
+                        {
+                            "fingerprint": "D20F C904 A145 8B28 53D8  FBA0 0422 0096 01E4 87FC"
+                        }
+                    ],
+                    "matrix": "@weathercold:matrix.org",
+                    "name": "Weathercold"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
@@ -68448,12 +68479,7 @@
                 "s390x-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/abszero/pkgs/bo/bocchi-cursors/package.nix#L23",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "problems": {},
             "unfree": true,
             "unsupported": false
         },
@@ -69875,6 +69901,67 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-10-21",
         "_attr": "lsp-ai-chendesheng",
+        "_repo": "abszero"
+    },
+    "nur.repos.abszero.nix-update-fixed": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "nix-update with reliable flake source realization",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "mainProgram": "nix-update",
+            "maintainers": [],
+            "name": "nix-update",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/abszero/pkgs/ni/nix-update-fixed/package.nix#L14",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nix-update",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nix-update",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "nix-update-fixed",
         "_repo": "abszero"
     },
     "nur.repos.abszero.noita_save_manager": {
@@ -330953,7 +331040,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "python3.14-wikidata-rdf-patch-1.0.7",
+            "name": "python3.14-wikidata-rdf-patch-1.0.8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -331049,7 +331136,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-wikidata-rdf-patch-1.0.7",
+        "name": "python3.14-wikidata-rdf-patch-1.0.8",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -331057,7 +331144,7 @@
         },
         "pname": "python3.14-wikidata-rdf-patch",
         "system": "x86_64-linux",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "_attr": "wikidata-rdf-patch",
         "_repo": "josh"
     },
@@ -352536,7 +352623,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/baibot/default.nix",
                 "line": 33
             },
-            "name": "baibot-v2026.11.18.0",
+            "name": "baibot-v2026.11.21.0",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -352593,12 +352680,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "baibot-v2026.11.18.0",
+        "name": "baibot-v2026.11.21.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "baibot-v2026.11.18.0",
+        "pname": "baibot-v2026.11.21.0",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "baibot",
@@ -354015,7 +354102,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/incusos-flasher/default.nix",
                 "line": 49
             },
-            "name": "incusos-flasher-202611192004-unstable-2026-11-20",
+            "name": "incusos-flasher-202611202004-unstable-2026-11-20",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -354058,14 +354145,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "incusos-flasher-202611192004-unstable-2026-11-20",
+        "name": "incusos-flasher-202611202004-unstable-2026-11-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "incusos-flasher",
         "system": "x86_64-linux",
-        "version": "202611192004-unstable-2026-11-20",
+        "version": "202611202004-unstable-2026-11-20",
         "_attr": "incusos-flasher",
         "_repo": "linyinfeng"
     },
@@ -356820,7 +356907,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/rime-packages/rime-luna-pinyin/default.nix",
                 "line": 36
             },
-            "name": "rime-luna-pinyin-56b934b099dfbeab842320f13aa8b461a6ab3e42",
+            "name": "rime-luna-pinyin-84685a7e7793e43278ca29368977b79d74d37a03",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -356837,14 +356924,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-luna-pinyin-56b934b099dfbeab842320f13aa8b461a6ab3e42",
+        "name": "rime-luna-pinyin-84685a7e7793e43278ca29368977b79d74d37a03",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-luna-pinyin",
         "system": "x86_64-linux",
-        "version": "56b934b099dfbeab842320f13aa8b461a6ab3e42",
+        "version": "84685a7e7793e43278ca29368977b79d74d37a03",
         "_attr": "rimePackages.rime-luna-pinyin",
         "_repo": "linyinfeng"
     },
