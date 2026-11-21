@@ -464889,7 +464889,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.4",
+            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.5",
             "description": "Forkgram desktop messaging app",
             "homepage": "https://github.com/forkgram/tdesktop",
             "identifiers": {
@@ -464947,7 +464947,7 @@
                 "file": "/nix/store/7ykm683f0d09bp9914ssban5yzl4j6sg-source/pkgs/applications/networking/instant-messengers/telegram/telegram-desktop/unwrapped.nix",
                 "line": 154
             },
-            "name": "forkgram-desktop-unwrapped-7.4.4",
+            "name": "forkgram-desktop-unwrapped-7.4.5",
             "nonTeamMaintainers": [
                 {
                     "email": "nickcao@nichi.co",
@@ -465040,19 +465040,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L55",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "forkgram-desktop-7.4.4",
+        "name": "forkgram-desktop-7.4.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "forkgram-desktop",
         "system": "x86_64-linux",
-        "version": "7.4.4",
+        "version": "7.4.5",
         "_attr": "forkgram-desktop",
         "_repo": "mio"
     },
@@ -465060,7 +465060,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.4",
+            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.5",
             "description": "Forkgram desktop messaging app",
             "homepage": "https://github.com/forkgram/tdesktop",
             "identifiers": {
@@ -465118,7 +465118,7 @@
                 "file": "/nix/store/7ykm683f0d09bp9914ssban5yzl4j6sg-source/pkgs/applications/networking/instant-messengers/telegram/telegram-desktop/unwrapped.nix",
                 "line": 154
             },
-            "name": "forkgram-desktop-unwrapped-7.4.4",
+            "name": "forkgram-desktop-unwrapped-7.4.5",
             "nonTeamMaintainers": [
                 {
                     "email": "nickcao@nichi.co",
@@ -465211,19 +465211,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L55",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "forkgram-desktop-7.4.4",
+        "name": "forkgram-desktop-7.4.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "forkgram-desktop",
         "system": "x86_64-linux",
-        "version": "7.4.4",
+        "version": "7.4.5",
         "_attr": "forkgram-desktop_patched",
         "_repo": "mio"
     },
@@ -468087,7 +468087,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/horizon-rust/horizon/releases/tag/v0.2.97",
+            "changelog": "https://github.com/horizon-rust/horizon/releases/tag/v2026.10.23",
             "description": "Minecraft: Java Edition rewritten from scratch in Rust",
             "homepage": "https://playhorizon.dev",
             "identifiers": {
@@ -468133,7 +468133,7 @@
             "longDescription": "Horizon is a from-scratch Rust implementation of Minecraft: Java Edition,\nchecked against vanilla behaviour. This package builds the client with\nsound, controllers and Horizon's online extras; start it with\n`horizon-client --resources DIR`, where DIR is what upstream's\nhorizon-prepare wrote. It contains no Minecraft assets.\n",
             "mainProgram": "horizon-client",
             "maintainers": [],
-            "name": "horizon-0.2.97",
+            "name": "horizon-2026.10.23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -468160,7 +468160,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ho/horizon/package.nix#L72",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ho/horizon/package.nix#L126",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -468176,14 +468176,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-0.2.97",
+        "name": "horizon-2026.10.23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon",
         "system": "x86_64-linux",
-        "version": "0.2.97",
+        "version": "2026.10.23",
         "_attr": "horizon",
         "_repo": "mio"
     },
@@ -468247,7 +468247,7 @@
             "longDescription": "horizon-prepare imports and checks the vanilla client and server jars that\nMinecraft 26.3 pins, runs vanilla's own exporters under Java 25, and writes\nthe resource folder that `horizon-client --resources` reads. It downloads\nnothing: point `--minecraft-dir` at a game directory a launcher has already\nfilled, and pass `--server-jar` the server jar of the same version. This\npackage contains no Minecraft assets.\n",
             "mainProgram": "horizon-prepare",
             "maintainers": [],
-            "name": "horizon-prepare-0.2.97",
+            "name": "horizon-prepare-2026.10.23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -468290,14 +468290,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-prepare-0.2.97",
+        "name": "horizon-prepare-2026.10.23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon-prepare",
         "system": "x86_64-linux",
-        "version": "0.2.97",
+        "version": "2026.10.23",
         "_attr": "horizon-prepare",
         "_repo": "mio"
     },
@@ -489949,7 +489949,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://zen-browser.app/release-notes/#1.24.1b",
+            "changelog": "https://zen-browser.app/release-notes/#1.24.3b",
             "description": "Firefox based browser with a focus on privacy and customization",
             "homepage": "https://zen-browser.app",
             "identifiers": {
@@ -490026,7 +490026,7 @@
                 "line": 193
             },
             "maxSilent": 14400,
-            "name": "zen-browser-unwrapped-1.24.1b",
+            "name": "zen-browser-unwrapped-1.24.3b",
             "nonTeamMaintainers": [
                 {
                     "email": "me+nix@matthewp.io",
@@ -490109,7 +490109,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "zen-browser-unwrapped-1.24.1b",
+        "name": "zen-browser-unwrapped-1.24.3b",
         "outputName": "out",
         "outputs": {
             "debug": null,
@@ -490117,7 +490117,7 @@
         },
         "pname": "zen-browser-unwrapped",
         "system": "x86_64-linux",
-        "version": "1.24.1b",
+        "version": "1.24.3b",
         "_attr": "zen-browser",
         "_repo": "mio"
     },
