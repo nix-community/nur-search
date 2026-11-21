@@ -172442,89 +172442,6 @@
         "_attr": "rime-ice",
         "_repo": "beiyanyunyi"
     },
-    "nur.repos.beiyanyunyi.splitwave-bin": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Node-based audio routing and effects application",
-            "homepage": "https://github.com/Horuse/Splitwave",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "splitwave-bin",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "splitwave-bin",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "splitwave",
-            "maintainers": [],
-            "name": "splitwave-bin-1.5.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/beiyanyunyi/pkgs/splitwave-bin/default.nix#L75",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "splitwave-bin-1.5.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "splitwave-bin",
-        "system": "x86_64-linux",
-        "version": "1.5.0",
-        "_attr": "splitwave-bin",
-        "_repo": "beiyanyunyi"
-    },
     "nur.repos.bendlas.gd32-dfu-utils": {
         "meta": {
             "available": true,
@@ -331036,7 +330953,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "python3.14-wikidata-rdf-patch-1.0.6",
+            "name": "python3.14-wikidata-rdf-patch-1.0.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -331132,7 +331049,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-wikidata-rdf-patch-1.0.6",
+        "name": "python3.14-wikidata-rdf-patch-1.0.7",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -331140,7 +331057,7 @@
         },
         "pname": "python3.14-wikidata-rdf-patch",
         "system": "x86_64-linux",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "_attr": "wikidata-rdf-patch",
         "_repo": "josh"
     },
@@ -331191,7 +331108,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "wikidatabots-0-unstable-2026-11-19",
+            "name": "wikidatabots-0-unstable-2026-11-21",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -331287,14 +331204,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wikidatabots-0-unstable-2026-11-19",
+        "name": "wikidatabots-0-unstable-2026-11-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wikidatabots",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-19",
+        "version": "0-unstable-2026-11-21",
         "_attr": "wikidatabots",
         "_repo": "josh"
     },
