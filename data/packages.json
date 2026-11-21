@@ -74416,7 +74416,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-11-20",
+            "name": "albedo-git-0-unstable-2026-11-21",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -74478,14 +74478,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-11-20",
+        "name": "albedo-git-0-unstable-2026-11-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-20",
+        "version": "0-unstable-2026-11-21",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -81145,7 +81145,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-19",
+            "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-20",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -81186,14 +81186,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-19",
+        "name": "gruvbox-plus-icons-6.7.0-unstable-2026-11-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gruvbox-plus-icons",
         "system": "x86_64-linux",
-        "version": "6.7.0-unstable-2026-11-19",
+        "version": "6.7.0-unstable-2026-11-20",
         "_attr": "gruvbox-plus-icons",
         "_repo": "adam0"
     },
@@ -472855,6 +472855,87 @@
         "_attr": "mpeghdec",
         "_repo": "mio"
     },
+    "nur.repos.mio.msvc-wine-toolchain": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "MSVC + ATL/MFC + Windows SDK unpacked for Wine-based cross builds",
+            "homepage": "https://github.com/mstorsjo/msvc-wine",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "msvc-wine-toolchain",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "msvc-wine-toolchain",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "Downloads and unpacks Microsoft's x64 MSVC Build Tools, ATL, MFC and the\nWindows SDK through msvc-wine's vsdownload.py, then installs its wrapper\nscripts. The result is a 4 GiB, non-redistributable toolchain meant to be\ndriven with Wine (cl.exe, lib.exe, link.exe and rc.exe run as Windows\nPE files); nothing in it is redistributable.\n",
+            "maintainers": [
+                "maydayv7"
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ms/msvc-wine-toolchain/package.nix",
+                "line": 164
+            },
+            "name": "msvc-wine-toolchain-14.52.37029",
+            "nonTeamMaintainers": [
+                "maydayv7"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "x86_64-darwin",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ms/msvc-wine-toolchain/package.nix#L154",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "msvc-wine-toolchain-14.52.37029",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "msvc-wine-toolchain",
+        "system": "x86_64-linux",
+        "version": "14.52.37029",
+        "_attr": "msvc-wine-toolchain",
+        "_repo": "mio"
+    },
     "nur.repos.mio.multi-account-containers": {
         "meta": {
             "available": true,
@@ -476090,6 +476171,88 @@
         "_attr": "openhuman",
         "_repo": "mio"
     },
+    "nur.repos.mio.openmpt-tracker": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "OpenMPT tracker (real MSVC + MFC build, run with Wine)",
+            "homepage": "https://openmpt.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "Builds the OpenMPT tracker GUI from the source that libopenmpt ships,\nusing Microsoft's own cl.exe, lib.exe, link.exe and rc.exe with ATL/MFC\nunder Wine \u2014 the build system MSVC-only MFC code requires. The GUI is\nlaunched with Wine; openmpt123 (the command line player) is available\nseparately as a MinGW build.\n",
+            "mainProgram": "openmpt-tracker",
+            "maintainers": [
+                "maydayv7"
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/op/openmpt-tracker/package.nix",
+                "line": 37
+            },
+            "name": "openmpt-tracker",
+            "nonTeamMaintainers": [
+                "maydayv7"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openmpt-tracker/package.nix#L46",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "openmpt-tracker",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "openmpt-tracker",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "openmpt-tracker",
+        "_repo": "mio"
+    },
     "nur.repos.mio.openmpt123": {
         "meta": {
             "available": true,
@@ -476134,7 +476297,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "longDescription": "The official command-line module player from the OpenMPT project,\ncross-compiled for Windows with MinGW-w64 and run through Wine. The\nOpenMPT tracker itself is MFC-based and MSVC-only, so it cannot be built\nthis way. On macOS this uses gcenx-wine-staging instead of nixpkgs Wine.\n",
+            "longDescription": "The official command-line module player from the OpenMPT project,\ncross-compiled for Windows with MinGW-w64 and run through Wine. The\nOpenMPT tracker itself is MFC-based and MSVC-only, so it is packaged\nseparately as openmpt-tracker, a real MSVC + MFC build run under Wine. On\nmacOS this uses gcenx-wine-staging instead of nixpkgs Wine.\n",
             "mainProgram": "openmpt123",
             "maintainers": [
                 "maydayv7"
@@ -476142,7 +476305,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/op/openmpt123/package.nix",
-                "line": 32
+                "line": 33
             },
             "name": "openmpt123",
             "nonTeamMaintainers": [
@@ -476156,7 +476319,7 @@
                 "aarch64-darwin",
                 "x86_64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openmpt123/package.nix#L41",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openmpt123/package.nix#L42",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1030822,7 +1030985,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v1.0.0",
+            "changelog": "https://github.com/tylerstyle/matrix-rat/releases/tag/v1.0.1",
             "description": "Mouse-friendly, themeable Matrix client for the terminal",
             "homepage": "https://github.com/tylerstyle/matrix-rat",
             "identifiers": {
@@ -1030872,7 +1031035,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/tylerstyle/pkgs/matrix-rat/default.nix",
                 "line": 63
             },
-            "name": "matrix-rat-1.0.0",
+            "name": "matrix-rat-1.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1030908,14 +1031071,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "matrix-rat-1.0.0",
+        "name": "matrix-rat-1.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "matrix-rat",
         "system": "x86_64-linux",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "_attr": "matrix-rat",
         "_repo": "tylerstyle"
     },
