@@ -326000,7 +326000,7 @@
             },
             "mainProgram": "plex-index",
             "maintainers": [],
-            "name": "plex-index-0.1.0",
+            "name": "plex-index-0.2.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -326047,14 +326047,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "plex-index-0.1.0",
+        "name": "plex-index-0.2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "plex-index",
         "system": "x86_64-linux",
-        "version": "0.1.0",
+        "version": "0.2.1",
         "_attr": "plex-index",
         "_repo": "josh"
     },
@@ -327389,7 +327389,7 @@
             },
             "mainProgram": "restic-age-key",
             "maintainers": [],
-            "name": "restic-age-key-1.2.2",
+            "name": "restic-age-key-1.3.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -327436,14 +327436,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "restic-age-key-1.2.2",
+        "name": "restic-age-key-1.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "restic-age-key",
         "system": "x86_64-linux",
-        "version": "1.2.2",
+        "version": "1.3.0",
         "_attr": "restic-age-key",
         "_repo": "josh"
     },
@@ -469203,177 +469203,6 @@
         "system": "x86_64-linux",
         "version": "5.9.9",
         "_attr": "insta360-studio",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.jadx_patched": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/skylot/jadx/releases/tag/v1.5.6",
-            "description": "Dex to Java decompiler",
-            "homepage": "https://github.com/skylot/jadx",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "jadx",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "jadx",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Apache License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Command line and GUI tools for produce Java source code from Android Dex\nand Apk files.\n",
-            "mainProgram": "jadx-gui",
-            "maintainers": [
-                {
-                    "email": "emily+nix@downunderctf.com",
-                    "github": "emilytrau",
-                    "githubId": 13267947,
-                    "name": "Emily Trau"
-                },
-                {
-                    "email": "Misaka13514@gmail.com",
-                    "github": "Misaka13514",
-                    "githubId": 54669781,
-                    "keys": [
-                        {
-                            "fingerprint": "293B 93D8 A471 059F 85D7  16A6 5BA9 2099 D9BE 2DAA"
-                        }
-                    ],
-                    "matrix": "@misaka13514:matrix.org",
-                    "name": "Rine Amakawa"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/ja/jadx/package.nix",
-                "line": 115
-            },
-            "name": "jadx-1.5.6",
-            "nonTeamMaintainers": [
-                {
-                    "email": "emily+nix@downunderctf.com",
-                    "github": "emilytrau",
-                    "githubId": 13267947,
-                    "name": "Emily Trau"
-                },
-                {
-                    "email": "Misaka13514@gmail.com",
-                    "github": "Misaka13514",
-                    "githubId": 54669781,
-                    "keys": [
-                        {
-                            "fingerprint": "293B 93D8 A471 059F 85D7  16A6 5BA9 2099 D9BE 2DAA"
-                        }
-                    ],
-                    "matrix": "@misaka13514:matrix.org",
-                    "name": "Rine Amakawa"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ja/jadx/package.nix#L102",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": true,
-                    "shortName": "fromSource"
-                },
-                {
-                    "isSource": false,
-                    "shortName": "binaryBytecode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "jadx-1.5.6",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "jadx",
-        "system": "x86_64-linux",
-        "version": "1.5.6",
-        "_attr": "jadx_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.jlcone": {
