@@ -331934,7 +331934,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/josh/pkgs/josh/wikidatabots.nix#L71",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/josh/pkgs/josh/wikidatabots.nix#L69",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -483506,7 +483506,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Local inference engine for Apple silicon",
+            "description": "Local inference engine and desktop app for Apple silicon",
             "homepage": "https://github.com/incoai/splash",
             "identifiers": {
                 "cpeParts": {
@@ -483550,7 +483550,7 @@
             },
             "mainProgram": "splash",
             "maintainers": [],
-            "name": "splash-1.7.0",
+            "name": "splash-1.7.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -483558,7 +483558,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sp/splash/package.nix#L114",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sp/splash/package.nix#L207",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -483568,14 +483568,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "splash-1.7.0",
+        "name": "splash-1.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "splash",
         "system": "x86_64-linux",
-        "version": "1.7.0",
+        "version": "1.7.1",
         "_attr": "splash",
         "_repo": "mio"
     },
@@ -542399,7 +542399,7 @@
             },
             "mainProgram": "cua-driver",
             "maintainers": [],
-            "name": "cua-driver-0.58.1",
+            "name": "cua-driver-0.59.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -542426,14 +542426,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cua-driver-0.58.1",
+        "name": "cua-driver-0.59.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cua-driver",
         "system": "x86_64-linux",
-        "version": "0.58.1",
+        "version": "0.59.2",
         "_attr": "cua-driver",
         "_repo": "nosugarcoffee"
     },
@@ -731667,7 +731667,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/figcraft/default.nix#L134",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/artcraft-suite/figcraft/default.nix#L132",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -732077,8 +732077,8 @@
     },
     "nur.repos.quriosity.hyper": {
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "description": "a terminal built on web technologies",
             "homepage": "https://github.com/quine-global/hyper",
             "identifiers": {
@@ -732123,7 +732123,7 @@
             },
             "mainProgram": "hyper",
             "maintainers": [],
-            "name": "hyper-4.0.0-q",
+            "name": "hyper-4.0.0-q-canary.22",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -732131,12 +732131,8 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/hyper/default.nix#L130",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/hyper/default.nix#L128",
             "problems": {
-                "broken": {
-                    "kind": "broken",
-                    "message": "This package is broken."
-                },
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
@@ -732151,14 +732147,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hyper-4.0.0-q",
+        "name": "hyper-4.0.0-q-canary.22",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hyper",
         "system": "x86_64-linux",
-        "version": "4.0.0-q",
+        "version": "4.0.0-q-canary.22",
         "_attr": "hyper",
         "_repo": "quriosity"
     },
@@ -983976,7 +983972,7 @@
             },
             "mainProgram": "agy",
             "maintainers": [],
-            "name": "antigravity-cli-1.5.14",
+            "name": "antigravity-cli-1.5.15",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -984001,14 +983997,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "antigravity-cli-1.5.14",
+        "name": "antigravity-cli-1.5.15",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity-cli",
         "system": "x86_64-linux",
-        "version": "1.5.14",
+        "version": "1.5.15",
         "_attr": "antigravity-cli",
         "_repo": "so1ve"
     },
@@ -985594,7 +985590,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Chevey339/kelivo/releases/tag/v1.3.6",
+            "changelog": "https://github.com/Chevey339/kelivo/releases/tag/v1.3.7",
             "description": "A Flutter LLM chat client",
             "homepage": "https://github.com/Chevey339/kelivo",
             "identifiers": {
@@ -985639,7 +985635,7 @@
             },
             "mainProgram": "kelivo",
             "maintainers": [],
-            "name": "kelivo-1.3.6",
+            "name": "kelivo-1.3.7",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -985663,14 +985659,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kelivo-1.3.6",
+        "name": "kelivo-1.3.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kelivo",
         "system": "x86_64-linux",
-        "version": "1.3.6",
+        "version": "1.3.7",
         "_attr": "kelivo",
         "_repo": "so1ve"
     },
@@ -985764,7 +985760,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.4669",
+            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.4684",
             "description": "One local gateway for the model every coding agent uses",
             "homepage": "https://usemagpie.ai",
             "identifiers": {
@@ -985809,7 +985805,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4669",
+            "name": "magpie-0.1.4684",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -985828,14 +985824,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4669",
+        "name": "magpie-0.1.4684",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4669",
+        "version": "0.1.4684",
         "_attr": "magpie",
         "_repo": "so1ve"
     },
@@ -986657,7 +986653,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/gaboolic/rime-frost/releases/tag/1.0.4",
+            "changelog": "https://github.com/gaboolic/rime-frost/releases/tag/1.0.5",
             "description": "White Frost Pinyin schemas, dictionaries, and language model for Rime",
             "homepage": "https://github.com/gaboolic/rime-frost",
             "identifiers": {
@@ -986701,7 +986697,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "rime-frost-1.0.4",
+            "name": "rime-frost-1.0.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -986803,14 +986799,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rime-frost-1.0.4",
+        "name": "rime-frost-1.0.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rime-frost",
         "system": "x86_64-linux",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "_attr": "rime-frost",
         "_repo": "so1ve"
     },
