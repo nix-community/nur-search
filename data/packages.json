@@ -66704,7 +66704,7 @@
             },
             "mainProgram": "ghost-downloader-3",
             "maintainers": [],
-            "name": "ghost-downloader-3-4.5.10",
+            "name": "ghost-downloader-3-4.5.11",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -66752,14 +66752,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ghost-downloader-3-4.5.10",
+        "name": "ghost-downloader-3-4.5.11",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ghost-downloader",
         "system": "x86_64-linux",
-        "version": "3-4.5.10",
+        "version": "3-4.5.11",
         "_attr": "ghost-downloader-3",
         "_repo": "XiaoXioe"
     },
@@ -66893,7 +66893,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "teldrive-2.0.13",
+            "name": "teldrive-2.0.14",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -66911,14 +66911,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "teldrive-2.0.13",
+        "name": "teldrive-2.0.14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "teldrive",
         "system": "x86_64-linux",
-        "version": "2.0.13",
+        "version": "2.0.14",
         "_attr": "teldrive",
         "_repo": "XiaoXioe"
     },
@@ -501654,7 +501654,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-cc-extensions/package.nix",
-                "line": 62
+                "line": 100
             },
             "name": "pi-cc-extensions-1.0.21",
             "nonTeamMaintainers": [
@@ -501697,7 +501697,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-cc-extensions/package.nix#L59",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-cc-extensions/package.nix#L97",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -502363,7 +502363,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-lsp-client/package.nix",
-                "line": 30
+                "line": 75
             },
             "name": "pi-lsp-client-0.2.0",
             "nonTeamMaintainers": [
@@ -502406,7 +502406,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-lsp-client/package.nix#L27",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-lsp-client/package.nix#L72",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -502886,7 +502886,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-processes/package.nix",
-                "line": 50
+                "line": 86
             },
             "name": "pi-processes-0.13.7",
             "nonTeamMaintainers": [
@@ -502906,7 +502906,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-processes/package.nix#L47",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-processes/package.nix#L83",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -502985,7 +502985,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-revdiff/package.nix",
-                "line": 69
+                "line": 66
             },
             "name": "pi-revdiff-1.15.0",
             "nonTeamMaintainers": [
@@ -503006,6 +503006,7 @@
                 "out"
             ],
             "platforms": [
+                "aarch64-darwin",
                 "x86_64-linux",
                 "aarch64-linux",
                 "arc-linux",
@@ -503030,9 +503031,13 @@
                 "riscv64-linux",
                 "s390-linux",
                 "s390x-linux",
-                "aarch64-darwin"
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-revdiff/package.nix#L66",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-revdiff/package.nix#L63",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -503210,7 +503215,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-subagents/package.nix",
-                "line": 61
+                "line": 98
             },
             "name": "pi-subagents-0.26.2",
             "nonTeamMaintainers": [
@@ -503253,7 +503258,7 @@
                 "riscv64-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-subagents/package.nix#L58",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-subagents/package.nix#L95",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -503973,134 +503978,6 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2025-07-04",
         "_attr": "quickjspp",
-        "_repo": "moraxyc"
-    },
-    "nur.repos.moraxyc.revdiff": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/umputun/revdiff/blob/v1.15.0/CHANGELOG.md",
-            "description": "TUI for reviewing diffs, files, and documents with inline annotations",
-            "homepage": "https://github.com/umputun/revdiff",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "revdiff",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "revdiff",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "revdiff",
-            "maintainers": [
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/re/revdiff/package.nix",
-                "line": 48
-            },
-            "name": "revdiff-1.15.0",
-            "nonTeamMaintainers": [
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/re/revdiff/package.nix#L44",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "revdiff-1.15.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "revdiff",
-        "system": "x86_64-linux",
-        "version": "1.15.0",
-        "_attr": "revdiff",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.sable-next": {
