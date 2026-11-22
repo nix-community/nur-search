@@ -732023,8 +732023,8 @@
     },
     "nur.repos.quriosity.hyper": {
         "meta": {
-            "available": true,
-            "broken": false,
+            "available": false,
+            "broken": true,
             "description": "a terminal built on web technologies",
             "homepage": "https://github.com/quine-global/hyper",
             "identifiers": {
@@ -732079,6 +732079,10 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/quriosity/pkgs/apps/hyper/default.nix#L130",
             "problems": {
+                "broken": {
+                    "kind": "broken",
+                    "message": "This package is broken."
+                },
                 "maintainerless": {
                     "kind": "maintainerless",
                     "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
