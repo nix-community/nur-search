@@ -464897,6 +464897,84 @@
         "_attr": "mygui-ogre",
         "_repo": "mio"
     },
+    "nur.repos.mio.nearme": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/georgemandis/nearme/releases/tag/v0.3.0",
+            "description": "Search for places near coordinates using macOS MapKit",
+            "homepage": "https://github.com/georgemandis/nearme",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nearme",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nearme",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "nearme",
+            "maintainers": [],
+            "name": "nearme-0.3.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ne/nearme/package.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nearme-0.3.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nearme",
+        "system": "x86_64-linux",
+        "version": "0.3.0",
+        "_attr": "nearme",
+        "_repo": "mio"
+    },
     "nur.repos.mio.needy-girl-overdose-theme": {
         "meta": {
             "available": true,
@@ -479451,9 +479529,10 @@
                 "riscv32-linux",
                 "riscv64-linux",
                 "s390-linux",
-                "s390x-linux"
+                "s390x-linux",
+                "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/wh/whereami/package.nix#L73",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/wh/whereami/package.nix#L101",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
