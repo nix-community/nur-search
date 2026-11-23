@@ -353256,7 +353256,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/baibot/default.nix",
                 "line": 33
             },
-            "name": "baibot-v2026.11.22.0",
+            "name": "baibot-v2026.11.22.1",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -353313,12 +353313,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "baibot-v2026.11.22.0",
+        "name": "baibot-v2026.11.22.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "baibot-v2026.11.22.0",
+        "pname": "baibot-v2026.11.22.1",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "baibot",
@@ -354735,7 +354735,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/incusos-flasher/default.nix",
                 "line": 49
             },
-            "name": "incusos-flasher-202611212003-unstable-2026-11-20",
+            "name": "incusos-flasher-202611222004-unstable-2026-11-20",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -354778,14 +354778,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "incusos-flasher-202611212003-unstable-2026-11-20",
+        "name": "incusos-flasher-202611222004-unstable-2026-11-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "incusos-flasher",
         "system": "x86_64-linux",
-        "version": "202611212003-unstable-2026-11-20",
+        "version": "202611222004-unstable-2026-11-20",
         "_attr": "incusos-flasher",
         "_repo": "linyinfeng"
     },
@@ -476474,6 +476474,99 @@
         "_attr": "omnimux",
         "_repo": "mio"
     },
+    "nur.repos.mio.one-api": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/songquanpeng/one-api/releases/tag/v0.6.10",
+            "description": "LLM API gateway and key management service with an OpenAI-compatible API",
+            "downloadPage": "https://github.com/songquanpeng/one-api/releases",
+            "homepage": "https://github.com/songquanpeng/one-api",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "one-api",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "one-api",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "one-api",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/on/one-api/package.nix",
+                "line": 177
+            },
+            "name": "one-api-0.6.10",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/on/one-api/package.nix#L170",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "one-api-0.6.10",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "one-api",
+        "system": "x86_64-linux",
+        "version": "0.6.10",
+        "_attr": "one-api",
+        "_repo": "mio"
+    },
     "nur.repos.mio.open-bamboo-networking": {
         "meta": {
             "available": true,
@@ -480247,6 +480340,96 @@
         "system": "x86_64-linux",
         "version": "1.2.1",
         "_attr": "prospect-mail",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.purge": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.18.0",
+            "description": "Free up your Mac safely by clearing app caches and leftover files",
+            "downloadPage": "https://github.com/jithin-sabu/purge-app/releases",
+            "homepage": "https://github.com/jithin-sabu/purge-app",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "purge",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "purge",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "purge",
+            "maintainers": [],
+            "name": "purge-1.18.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/pu/purge/package.nix#L180",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "purge-1.18.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "purge",
+        "system": "x86_64-linux",
+        "version": "1.18.0",
+        "_attr": "purge",
         "_repo": "mio"
     },
     "nur.repos.mio.pygubu": {
@@ -1028983,7 +1029166,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://trev.zip/llc/flake-release/releases/tag/v0.48.2",
+            "changelog": "https://trev.zip/llc/flake-release/releases/tag/v0.50.0",
             "description": "Flake package releaser",
             "homepage": "https://trev.zip/llc/flake-release",
             "identifiers": {
@@ -1029028,7 +1029211,7 @@
             },
             "mainProgram": "flake-release",
             "maintainers": [],
-            "name": "flake-release-0.48.2",
+            "name": "flake-release-0.50.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1029090,14 +1029273,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "flake-release-0.48.2",
+        "name": "flake-release-0.50.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "flake-release",
         "system": "x86_64-linux",
-        "version": "0.48.2",
+        "version": "0.50.0",
         "_attr": "flake-release",
         "_repo": "trev"
     },
@@ -1032725,7 +1032908,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/aiortc/pylsqpack/releases/tag/1.1.1",
+            "changelog": "https://github.com/aiortc/pylsqpack/releases/tag/1.1.2",
             "description": "Python wrapper for the ls-qpack QPACK library",
             "downloadPage": "https://pypi.org/project/pylsqpack/#files",
             "homepage": "https://github.com/aiortc/pylsqpack",
@@ -1032803,7 +1032986,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "python3.14-pylsqpack-1.1.1",
+            "name": "python3.14-pylsqpack-1.1.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1032899,7 +1033082,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-pylsqpack-1.1.1",
+        "name": "python3.14-pylsqpack-1.1.2",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1032907,7 +1033090,7 @@
         },
         "pname": "python3.14-pylsqpack",
         "system": "x86_64-linux",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "_attr": "pylsqpack-latest",
         "_repo": "trev"
     },
@@ -1034466,7 +1034649,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yt-dlp/yt-dlp/commits/a38fc9a11f9dc519964ea710225ec1944c6444e0",
+            "changelog": "https://github.com/yt-dlp/yt-dlp/commits/1507b26936b46d8613b3df197184a1fa1530afac",
             "description": "Feature-rich command-line audio/video downloader - master branch",
             "homepage": "https://github.com/yt-dlp/yt-dlp/",
             "identifiers": {
