@@ -70530,7 +70530,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/halo-box/strix-llama.cpp/releases/tag/v1.0.0",
+            "changelog": "https://github.com/halo-box/strix-llama.cpp/releases/tag/v1.1.0",
             "description": "llama.cpp fork optimized for AMD Strix Halo, with Vulkan support",
             "homepage": "https://github.com/halo-box/strix-llama.cpp",
             "identifiers": {
@@ -70593,7 +70593,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/abszero/pkgs/st/strix-llama-cpp/package.nix",
                 "line": 54
             },
-            "name": "strix-llama-cpp-1.0.0",
+            "name": "strix-llama-cpp-1.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "weathercold.scr@proton.me",
@@ -70619,7 +70619,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "strix-llama-cpp-1.0.0",
+        "name": "strix-llama-cpp-1.1.0",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -70627,7 +70627,7 @@
         },
         "pname": "strix-llama-cpp",
         "system": "x86_64-linux",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "_attr": "strix-llama-cpp",
         "_repo": "abszero"
     },
@@ -208600,7 +208600,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4685",
+            "name": "magpie-0.1.4692",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -208626,14 +208626,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4685",
+        "name": "magpie-0.1.4692",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4685",
+        "version": "0.1.4692",
         "_attr": "magpie",
         "_repo": "davinci42"
     },
@@ -444333,6 +444333,112 @@
         "system": "x86_64-linux",
         "version": "",
         "_attr": "aria2-wrapped",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.arnis": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Generate any location from the real world in Minecraft Java Edition with a high level of detail",
+            "homepage": "https://github.com/louis-e/arnis",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "arnis",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "arnis",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "arnis",
+            "maintainers": [],
+            "name": "arnis-3.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv64-linux",
+                "s390x-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv7a-linux",
+                "m68k-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mipsel-linux",
+                "mips64el-linux",
+                "riscv32-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/arnis/package.nix#L69",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "arnis-3.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "arnis",
+        "system": "x86_64-linux",
+        "version": "3.5.0",
+        "_attr": "arnis",
         "_repo": "mio"
     },
     "nur.repos.mio.art-standalone": {
@@ -973739,7 +973845,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix",
-                "line": 143
+                "line": 140
             },
             "name": "caddy-sn0wm1x-2.11.9",
             "nonTeamMaintainers": [
@@ -973791,7 +973897,7 @@
                 "x86_64-freebsd",
                 "aarch64-freebsd"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix#L136",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/sn0wm1x/pkgs/by-name/caddy-sn0wm1x/default.nix#L133",
             "problems": {},
             "unfree": false,
             "unsupported": false
