@@ -12112,520 +12112,6 @@
         "_attr": "vpn-tui",
         "_repo": "Chiloute"
     },
-    "nur.repos.Communix.bibox": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "",
-            "downloadPage": "https://www.bibox.schule/download/",
-            "homepage": "https://www.bibox.schule/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "bibox",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "bibox",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree redistributable",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "unfreeRedistributable"
-            },
-            "mainProgram": "bibox",
-            "maintainers": [],
-            "name": "bibox-3.0.4",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Communix/pkgs/bibox/default.nix#L28",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "bibox-3.0.4",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "bibox",
-        "system": "x86_64-linux",
-        "version": "3.0.4",
-        "_attr": "bibox",
-        "_repo": "Communix"
-    },
-    "nur.repos.Communix.glide-browser": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://glide-browser.app/changelog#0.1.65a",
-            "description": "Extensible and keyboard-focused web browser built on Firefox",
-            "downloadPage": "https://glide-browser.app/#download",
-            "homepage": "https://glide-browser.app/",
-            "hydraPlatforms": [],
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "glide-browser-unwrapped",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "glide-browser-unwrapped",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Mozilla Public License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
-            },
-            "mainProgram": "glide",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/stdenv/generic/check-meta.nix",
-                "line": 527
-            },
-            "name": "glide-browser-unwrapped-0.1.65a",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://forge.kruemmelspalter.org/communix/nur-packagespkgs/applications/networking/browsers/firefox/wrapper.nix#L238",
-            "priority": 4,
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "glide-0.1.65a",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "glide",
-        "system": "x86_64-linux",
-        "version": "0.1.65a",
-        "_attr": "glide-browser",
-        "_repo": "Communix"
-    },
-    "nur.repos.Communix.glide-browser-unwrapped": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://glide-browser.app/changelog#0.1.65a",
-            "description": "Extensible and keyboard-focused web browser built on Firefox",
-            "downloadPage": "https://glide-browser.app/#download",
-            "homepage": "https://glide-browser.app/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "glide-browser-unwrapped",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "glide-browser-unwrapped",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Mozilla Public License 2.0",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
-            },
-            "mainProgram": "glide",
-            "maintainers": [],
-            "name": "glide-browser-unwrapped-0.1.65a",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Communix/pkgs/glide/default.nix#L153",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "glide-browser-unwrapped-0.1.65a",
-        "outputName": "out",
-        "outputs": {
-            "debug": null,
-            "out": null
-        },
-        "pname": "glide-browser-unwrapped",
-        "system": "x86_64-linux",
-        "version": "0.1.65a",
-        "_attr": "glide-browser-unwrapped",
-        "_repo": "Communix"
-    },
-    "nur.repos.Communix.makko": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://forge.starlightnet.work/Team/Makko/releases",
-            "description": "A simple, lightweight, and portable Static Site Generator written in Zig.",
-            "homepage": "https://makko.starlightnet.work/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "makko",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "makko",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "zlib License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "zlib",
-                "spdxId": "Zlib",
-                "url": "https://spdx.org/licenses/Zlib.html"
-            },
-            "mainProgram": "makko",
-            "maintainers": [],
-            "name": "makko-3.0.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Communix/pkgs/makko/default.nix#L29",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "makko-3.0.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "makko",
-        "system": "x86_64-linux",
-        "version": "3.0.0",
-        "_attr": "makko",
-        "_repo": "Communix"
-    },
-    "nur.repos.Communix.psysonic": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Desktop music player for Subsonic-compatible servers",
-            "homepage": "https://github.com/Psychotoxical/psysonic",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "psysonic",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "psysonic",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "psysonic",
-            "maintainers": [],
-            "name": "psysonic-1.50.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv64-linux",
-                "s390x-linux",
-                "x86_64-linux",
-                "armv5tel-linux",
-                "armv7a-linux",
-                "m68k-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mipsel-linux",
-                "mips64el-linux",
-                "riscv32-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Communix/pkgs/psysonic/default.nix#L111",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "psysonic-1.50.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "psysonic",
-        "system": "x86_64-linux",
-        "version": "1.50.0",
-        "_attr": "psysonic",
-        "_repo": "Communix"
-    },
     "nur.repos.DanNixon.aprsgateway": {
         "meta": {
             "available": true,
@@ -74559,7 +74045,7 @@
             },
             "mainProgram": "albedo",
             "maintainers": [],
-            "name": "albedo-git-0-unstable-2026-11-22",
+            "name": "albedo-git-0-unstable-2026-11-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -74621,14 +74107,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "albedo-git-0-unstable-2026-11-22",
+        "name": "albedo-git-0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "albedo-git",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-22",
+        "version": "0-unstable-2026-11-23",
         "_attr": "albedo-git",
         "_repo": "adam0"
     },
@@ -208600,7 +208086,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4708",
+            "name": "magpie-0.1.4717",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -208626,14 +208112,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4708",
+        "name": "magpie-0.1.4717",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4708",
+        "version": "0.1.4717",
         "_attr": "magpie",
         "_repo": "davinci42"
     },
@@ -272223,7 +271709,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "shopware-cli-0.20.0",
+            "name": "shopware-cli-0.21.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -272250,14 +271736,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "shopware-cli-0.20.0",
+        "name": "shopware-cli-0.21.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "shopware-cli",
         "system": "x86_64-linux",
-        "version": "0.20.0",
+        "version": "0.21.0",
         "_attr": "shopware-cli",
         "_repo": "friendsofshopware"
     },
@@ -487670,7 +487156,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ar/artex/package.nix",
                 "line": 57
             },
-            "name": "artex-0-unstable-2026-11-22",
+            "name": "artex-0-unstable-2026-11-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -487725,14 +487211,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artex-0-unstable-2026-11-22",
+        "name": "artex-0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artex",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-22",
+        "version": "0-unstable-2026-11-23",
         "_attr": "artex",
         "_repo": "moraxyc"
     },
@@ -488822,7 +488308,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 56
             },
-            "name": "cpa-usage-keeper-2.1.1-unstable-2026-11-20",
+            "name": "cpa-usage-keeper-2.1.1-unstable-2026-11-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -488877,14 +488363,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.1.1-unstable-2026-11-20",
+        "name": "cpa-usage-keeper-2.1.1-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.1.1-unstable-2026-11-20",
+        "version": "2.1.1-unstable-2026-11-23",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -490511,7 +489997,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ho/horizon-client/package.nix",
                 "line": 71
             },
-            "name": "horizon-client-0-unstable-2026-11-22",
+            "name": "horizon-client-0-unstable-2026-11-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -490539,14 +490025,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-client-0-unstable-2026-11-22",
+        "name": "horizon-client-0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon-client",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-22",
+        "version": "0-unstable-2026-11-23",
         "_attr": "horizon-client",
         "_repo": "moraxyc"
     },
@@ -490627,7 +490113,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ho/horizon-prepare/package.nix",
                 "line": 56
             },
-            "name": "horizon-prepare-0-unstable-2026-11-22",
+            "name": "horizon-prepare-0-unstable-2026-11-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -490655,14 +490141,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "horizon-prepare-0-unstable-2026-11-22",
+        "name": "horizon-prepare-0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "horizon-prepare",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-22",
+        "version": "0-unstable-2026-11-23",
         "_attr": "horizon-prepare",
         "_repo": "moraxyc"
     },
@@ -490898,7 +490384,7 @@
             },
             "mainProgram": "jiufenxuezhang-ielts",
             "maintainers": [],
-            "name": "jiufenxuezhang-ielts-0.9.21-rc.3",
+            "name": "jiufenxuezhang-ielts-0.9.21-rc.5",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -490923,14 +490409,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "jiufenxuezhang-ielts-0.9.21-rc.3",
+        "name": "jiufenxuezhang-ielts-0.9.21-rc.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "jiufenxuezhang-ielts",
         "system": "x86_64-linux",
-        "version": "0.9.21-rc.3",
+        "version": "0.9.21-rc.5",
         "_attr": "jiufenxuezhang-ielts",
         "_repo": "moraxyc"
     },
@@ -491175,7 +490661,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix",
                 "line": 131
             },
-            "name": "lm-detector-0-unstable-2026-11-19",
+            "name": "lm-detector-0-unstable-2026-11-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -491221,14 +490707,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lm-detector-0-unstable-2026-11-19",
+        "name": "lm-detector-0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lm-detector",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-19",
+        "version": "0-unstable-2026-11-23",
         "_attr": "lm-detector",
         "_repo": "moraxyc"
     },
@@ -491905,7 +491391,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-11-22",
+            "name": "meta-rules-dat-2026-11-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -491928,7 +491414,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-11-22",
+        "name": "meta-rules-dat-2026-11-23",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -491940,7 +491426,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-22",
+        "version": "2026-11-23",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -496849,7 +496335,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-11-21",
+            "name": "sing-rules-geo-2026-11-22",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -496864,7 +496350,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-11-21",
+        "name": "sing-rules-geo-2026-11-22",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -496874,7 +496360,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-11-21",
+        "version": "2026-11-22",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -497286,7 +496772,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-11-21",
+            "name": "v2ray-rules-dat-2026-11-22",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -497301,7 +496787,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-11-21",
+        "name": "v2ray-rules-dat-2026-11-22",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -497309,7 +496795,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-21",
+        "version": "2026-11-22",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
@@ -497522,7 +497008,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/wh/whois42d-ng/package.nix",
                 "line": 53
             },
-            "name": "whois42d-ng-2.2.1-unstable-2026-11-16",
+            "name": "whois42d-ng-2.2.1-unstable-2026-11-23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -497585,14 +497071,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "whois42d-ng-2.2.1-unstable-2026-11-16",
+        "name": "whois42d-ng-2.2.1-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "whois42d-ng",
         "system": "x86_64-linux",
-        "version": "2.2.1-unstable-2026-11-16",
+        "version": "2.2.1-unstable-2026-11-23",
         "_attr": "whois42d-ng",
         "_repo": "moraxyc"
     },
