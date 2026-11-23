@@ -272050,7 +272050,7 @@
             },
             "mainProgram": "lceda-pro",
             "maintainers": [],
-            "name": "lceda-pro-4.1.100",
+            "name": "lceda-pro-4.1.105",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -272074,14 +272074,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "lceda-pro-4.1.100",
+        "name": "lceda-pro-4.1.105",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lceda-pro",
         "system": "x86_64-linux",
-        "version": "4.1.100",
+        "version": "4.1.105",
         "_attr": "lceda-pro",
         "_repo": "freegoxing"
     },
@@ -444185,12 +444185,16 @@
         "meta": {
             "available": true,
             "broken": false,
+            "changelog": "https://github.com/aria2/aria2/releases/tag/release-1.37.0",
+            "description": "Lightweight, multi-protocol, multi-source, command-line download utility",
+            "homepage": "https://aria2.github.io",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
+                    "product": "aria2",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -444204,6 +444208,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
+                        "product": "aria2",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -444213,12 +444218,100 @@
                 }
             },
             "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
             "mainProgram": "aria2",
-            "maintainers": [],
-            "name": "aria2",
-            "nonTeamMaintainers": [],
+            "maintainers": [
+                {
+                    "email": "koral@mailoo.org",
+                    "github": "k0ral",
+                    "githubId": 524268,
+                    "name": "Koral"
+                },
+                {
+                    "email": "tim.haering@posteo.net",
+                    "github": "timhae",
+                    "githubId": 6264882,
+                    "name": "Tim H\u00e4ring"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/ar/aria2/package.nix",
+                "line": 79
+            },
+            "name": "aria2-1.37.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "koral@mailoo.org",
+                    "github": "k0ral",
+                    "githubId": 524268,
+                    "name": "Koral"
+                },
+                {
+                    "email": "tim.haering@posteo.net",
+                    "github": "timhae",
+                    "githubId": 6264882,
+                    "name": "Tim H\u00e4ring"
+                }
+            ],
             "outputsToInstall": [
                 "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
             ],
             "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/build-support/trivial-builders/default.nix#L260",
             "problems": {},
@@ -444605,7 +444698,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/artcraft/package.nix",
-                "line": 229
+                "line": 228
             },
             "name": "artcraft-0.41.1",
             "nonTeamMaintainers": [],
@@ -444633,7 +444726,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/artcraft/package.nix#L224",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/artcraft/package.nix#L223",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -448057,6 +448150,8 @@
         "meta": {
             "available": true,
             "broken": false,
+            "description": "Cross-platform clipboard utility",
+            "homepage": "https://github.com/nikitabobko/dotfiles",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -448085,6 +448180,16 @@
                 }
             },
             "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
             "mainProgram": "cb",
             "maintainers": [],
             "name": "cb",
@@ -448092,8 +448197,40 @@
             "outputsToInstall": [
                 "out"
             ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
             "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/build-support/trivial-builders/default.nix#L260",
-            "problems": {},
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
             "unfree": false,
             "unsupported": false
         },
@@ -458224,7 +458361,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gl/globalprotect-openconnect/package.nix#L83",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gl/globalprotect-openconnect/package.nix#L82",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -458988,7 +459125,6 @@
             ],
             "broken": false,
             "description": "Hanga: Minecraft + Luanti + Teardown + GTA at the same time",
-            "homepage": "https://example.com",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
@@ -459038,9 +459174,6 @@
             ],
             "platforms": [
                 "aarch64-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
                 "aarch64-linux",
                 "armv6l-linux",
                 "armv7l-linux",
@@ -459052,15 +459185,6 @@
                 "riscv64-linux",
                 "s390x-linux",
                 "x86_64-linux",
-                "aarch64-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "powerpc-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "i686-windows",
-                "x86_64-windows",
                 "armv5tel-linux",
                 "armv7a-linux",
                 "m68k-linux",
@@ -459068,13 +459192,7 @@
                 "mips64-linux",
                 "mipsel-linux",
                 "mips64el-linux",
-                "riscv32-linux",
-                "armv6l-netbsd",
-                "mipsel-netbsd",
-                "riscv64-netbsd",
-                "riscv32-none",
-                "x86_64-redox",
-                "wasm32-wasip1"
+                "riscv32-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ha/hanga/package.nix#L88",
             "problems": {
@@ -461659,7 +461777,7 @@
         "meta": {
             "available": false,
             "broken": false,
-            "description": "LINE is new level of communication, and the very infrastructure of your life.",
+            "description": "LINE is new level of communication, and the very infrastructure of your life",
             "homepage": "https://line.me",
             "identifiers": {
                 "cpeParts": {
@@ -463670,7 +463788,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A set of tools for working with packages made with mkWindowsApp.",
+            "description": "A set of tools for working with packages made with mkWindowsApp",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -465632,7 +465750,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ni/nix-software-center/package.nix",
-                "line": 129
+                "line": 128
             },
             "name": "nix-software-center-0.1.2-unstable-2023-11-20",
             "nonTeamMaintainers": [],
@@ -465665,7 +465783,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ni/nix-software-center/package.nix#L125",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ni/nix-software-center/package.nix#L124",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -467320,7 +467438,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/opengrep/package.nix#L226",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/opengrep/package.nix#L225",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -467523,7 +467641,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/op/openmpt-tracker/package.nix",
-                "line": 37
+                "line": 36
             },
             "name": "openmpt-tracker",
             "nonTeamMaintainers": [
@@ -467537,7 +467655,7 @@
                 "aarch64-darwin",
                 "x86_64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openmpt-tracker/package.nix#L46",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openmpt-tracker/package.nix#L45",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -467605,7 +467723,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/op/openmpt123/package.nix",
-                "line": 33
+                "line": 32
             },
             "name": "openmpt123",
             "nonTeamMaintainers": [
@@ -467619,7 +467737,7 @@
                 "aarch64-darwin",
                 "x86_64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openmpt123/package.nix#L42",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openmpt123/package.nix#L41",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -467715,7 +467833,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openscore/package.nix#L96",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/openscore/package.nix#L95",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -471248,7 +471366,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/py/python27/default.nix#L400",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/py/python27/default.nix#L399",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -479650,14 +479768,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "widevine-firefox",
+        "name": "widevine-firefox-4.10.3112.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "widevine-firefox",
         "system": "x86_64-linux",
-        "version": "",
+        "version": "4.10.3112.0",
         "_attr": "widevine-firefox",
         "_repo": "mio"
     },
@@ -480202,7 +480320,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480296,7 +480414,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480390,7 +480508,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480484,7 +480602,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480578,7 +480696,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480672,7 +480790,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480766,7 +480884,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480860,7 +480978,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -480954,7 +481072,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wine64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -481048,7 +481166,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -481142,7 +481260,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -481236,7 +481354,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
@@ -481330,7 +481448,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install.",
+            "description": "A Bash shell containing wineWow64 with an ephemeral WINEPREFIX. Useful for running a Wine-compatible Windows program that you don't want to install",
             "homepage": "https://github.com/emmanuelrosa/erosanix",
             "identifiers": {
                 "cpeParts": {
