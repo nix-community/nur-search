@@ -257084,6 +257084,125 @@
         "_attr": "gimp",
         "_repo": "forkprince"
     },
+    "nur.repos.forkprince.gitcraft": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Desktop Git client for exploring repository history and managing everyday changes",
+            "homepage": "https://github.com/MystifiedSky/GitCraft",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gitcraft",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gitcraft",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "gitcraft",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/gitcraft/default.nix",
+                "line": 16
+            },
+            "name": "gitcraft-0.1.40",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/gitcraft/default.nix#L14",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gitcraft-0.1.40",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gitcraft",
+        "system": "x86_64-linux",
+        "version": "0.1.40",
+        "_attr": "gitcraft",
+        "_repo": "forkprince"
+    },
     "nur.repos.forkprince.github-desktop": {
         "meta": {
             "available": true,
@@ -261412,6 +261531,125 @@
         "system": "x86_64-linux",
         "version": "32.2.2",
         "_attr": "obs-studio",
+        "_repo": "forkprince"
+    },
+    "nur.repos.forkprince.openchamber": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Agentic development environment based on the OpenCode AI agent",
+            "homepage": "https://github.com/openchamber/openchamber",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "openchamber",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "openchamber",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "openchamber",
+            "maintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/openchamber/default.nix",
+                "line": 16
+            },
+            "name": "openchamber-2.8.0",
+            "nonTeamMaintainers": [
+                {
+                    "github": "Prince527Github",
+                    "githubId": 75485262,
+                    "name": "Prinky"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/forkprince/pkgs/openchamber/default.nix#L14",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "openchamber-2.8.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "openchamber",
+        "system": "x86_64-linux",
+        "version": "2.8.0",
+        "_attr": "openchamber",
         "_repo": "forkprince"
     },
     "nur.repos.forkprince.opendisk": {
@@ -968761,7 +968999,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yituorou/meatshell/releases/tag/v0.8.3",
+            "changelog": "https://github.com/yituorou/meatshell/releases/tag/v0.8.4",
             "description": "Lightweight FinalShell-style SSH and terminal client",
             "homepage": "https://github.com/yituorou/meatshell",
             "identifiers": {
@@ -968818,7 +969056,7 @@
             ],
             "mainProgram": "meatshell",
             "maintainers": [],
-            "name": "meatshell-0.8.3",
+            "name": "meatshell-0.8.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -968843,14 +969081,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meatshell-0.8.3",
+        "name": "meatshell-0.8.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "meatshell",
         "system": "x86_64-linux",
-        "version": "0.8.3",
+        "version": "0.8.4",
         "_attr": "meatshell-bin",
         "_repo": "silicalet"
     },
@@ -969269,7 +969507,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nyakang/nyaterm/releases/tag/v2.0.7",
+            "changelog": "https://github.com/nyakang/nyaterm/releases/tag/v2.0.8",
             "description": "Modern remote terminal workspace with SSH, SFTP and AI assistance",
             "homepage": "https://github.com/nyakang/nyaterm",
             "identifiers": {
@@ -969314,7 +969552,7 @@
             },
             "mainProgram": "nyaterm",
             "maintainers": [],
-            "name": "nyaterm-2.0.7",
+            "name": "nyaterm-2.0.8",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -969339,14 +969577,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "nyaterm-2.0.7",
+        "name": "nyaterm-2.0.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "nyaterm",
         "system": "x86_64-linux",
-        "version": "2.0.7",
+        "version": "2.0.8",
         "_attr": "nyaterm-bin",
         "_repo": "silicalet"
     },
@@ -969523,7 +969761,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/storytold/pdfcraft/releases/tag/v0.21.1",
+            "changelog": "https://github.com/storytold/pdfcraft/releases/tag/v0.22.0",
             "description": "Native PDF reader and document workbench",
             "homepage": "https://github.com/storytold/pdfcraft",
             "identifiers": {
@@ -969580,7 +969818,7 @@
             ],
             "mainProgram": "pdfcraft",
             "maintainers": [],
-            "name": "pdfcraft-bin-0.21.1",
+            "name": "pdfcraft-bin-0.22.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -969605,14 +969843,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pdfcraft-bin-0.21.1",
+        "name": "pdfcraft-bin-0.22.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pdfcraft-bin",
         "system": "x86_64-linux",
-        "version": "0.21.1",
+        "version": "0.22.0",
         "_attr": "pdfcraft-bin",
         "_repo": "silicalet"
     },
