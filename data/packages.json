@@ -66705,7 +66705,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/XiaoXioe/pkgs/by-name/mi/misterdownloadmanager/package.nix#L121",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/XiaoXioe/pkgs/by-name/mi/misterdownloadmanager/package.nix#L119",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -208391,7 +208391,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4749",
+            "name": "magpie-0.1.4759",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -208417,14 +208417,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4749",
+        "name": "magpie-0.1.4759",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4749",
+        "version": "0.1.4759",
         "_attr": "magpie",
         "_repo": "davinci42"
     },
@@ -472857,6 +472857,148 @@
         "system": "x86_64-linux",
         "version": "0.13.7-unstable-2026-11-15",
         "_attr": "recompia",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.remmina_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://gitlab.com/Remmina/Remmina/-/blob/master/CHANGELOG.md#v1444",
+            "description": "Remote desktop client written in GTK",
+            "homepage": "https://gitlab.com/Remmina/Remmina",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "remmina_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "remmina_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "mainProgram": "remmina",
+            "maintainers": [
+                {
+                    "email": "bigras.bruno@gmail.com",
+                    "github": "bbigras",
+                    "githubId": 24027,
+                    "name": "Bruno Bigras"
+                },
+                {
+                    "email": "melanie.bianca.sigl@gmail.com",
+                    "github": "melsigl",
+                    "githubId": 15093162,
+                    "name": "Melanie B. Sigl"
+                },
+                {
+                    "email": "ryan@ryantm.com",
+                    "github": "ryantm",
+                    "githubId": 4804,
+                    "matrix": "@ryantm:matrix.org",
+                    "name": "Ryan Mulligan"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/re/remmina/package.nix",
+                "line": 148
+            },
+            "name": "remmina_patched-1.4.44",
+            "nonTeamMaintainers": [
+                {
+                    "email": "bigras.bruno@gmail.com",
+                    "github": "bbigras",
+                    "githubId": 24027,
+                    "name": "Bruno Bigras"
+                },
+                {
+                    "email": "melanie.bianca.sigl@gmail.com",
+                    "github": "melsigl",
+                    "githubId": 15093162,
+                    "name": "Melanie B. Sigl"
+                },
+                {
+                    "email": "ryan@ryantm.com",
+                    "github": "ryantm",
+                    "githubId": 4804,
+                    "matrix": "@ryantm:matrix.org",
+                    "name": "Ryan Mulligan"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/re/remmina/package.nix#L146",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "remmina_patched-1.4.44",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "remmina_patched",
+        "system": "x86_64-linux",
+        "version": "1.4.44",
+        "_attr": "remmina_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.rigs-of-rods": {
