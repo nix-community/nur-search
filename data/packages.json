@@ -216355,7 +216355,7 @@
             },
             "mainProgram": "dromas",
             "maintainers": [],
-            "name": "dromas-0.6.11",
+            "name": "dromas-0.6.12",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -216382,14 +216382,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "dromas-0.6.11",
+        "name": "dromas-0.6.12",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dromas",
         "system": "x86_64-linux",
-        "version": "0.6.11",
+        "version": "0.6.12",
         "_attr": "dromas",
         "_repo": "dromas"
     },
@@ -302367,7 +302367,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/borglab/gtsam/releases/tag/4.2.2",
+            "changelog": "https://github.com/borglab/gtsam/releases/tag/4.3.0",
             "description": "Library for smoothing and mapping using factor graphs and Bayes networks",
             "homepage": "https://gtsam.org/",
             "identifiers": {
@@ -302400,16 +302400,28 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd3",
+                    "spdxId": "BSD-3-Clause",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
             "longDescription": "GTSAM is a C++ library that implements smoothing and mapping (SAM) in robotics and vision, using Factor Graphs and Bayes Networks as the underlying computing paradigm rather than sparse matrices.\n",
             "maintainers": [
                 {
@@ -302423,9 +302435,9 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/ilkecan/packages/gtsam/package.nix",
-                "line": 84
+                "line": 113
             },
-            "name": "gtsam-4.2.2",
+            "name": "gtsam-4.3.0",
             "nonTeamMaintainers": [
                 {
                     "email": "ilkecan@protonmail.com",
@@ -302485,19 +302497,19 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilkecan/packages/gtsam/package.nix#L77",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/ilkecan/packages/gtsam/package.nix#L103",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "gtsam-4.2.2",
+        "name": "gtsam-4.3.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gtsam",
         "system": "x86_64-linux",
-        "version": "4.2.2",
+        "version": "4.3.0",
         "_attr": "gtsam",
         "_repo": "ilkecan"
     },
@@ -503654,8 +503666,7 @@
                 "out"
             ],
             "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
+                "x86_64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/bakamusic/default.nix#L340",
             "problems": {},
@@ -505247,8 +505258,7 @@
                 "out"
             ],
             "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
+                "x86_64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/icalingua++/default.nix#L116",
             "problems": {},
@@ -505550,7 +505560,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.73",
+            "changelog": "https://github.com/cortexkit/magic-context/releases/tag/v0.49.74",
             "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit",
             "homepage": "https://github.com/cortexkit/magic-context",
             "identifiers": {
@@ -505604,7 +505614,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/magic-context/default.nix",
                 "line": 47
             },
-            "name": "magic-context-0.49.73",
+            "name": "magic-context-0.49.74",
             "nonTeamMaintainers": [
                 {
                     "name": "mzwing"
@@ -505623,14 +505633,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magic-context-0.49.73",
+        "name": "magic-context-0.49.74",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magic-context",
         "system": "x86_64-linux",
-        "version": "0.49.73",
+        "version": "0.49.74",
         "_attr": "magic-context",
         "_repo": "mzwing"
     },
