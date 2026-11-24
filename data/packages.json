@@ -861487,6 +861487,91 @@
         "_attr": "clinvk",
         "_repo": "signalridge"
     },
+    "nur.repos.signalridge.mare": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Hyperextensible AI coding agent harness (Rust core, Lua 5.5 plugins)",
+            "homepage": "https://github.com/signalridge/mare",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mare",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mare",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "mare",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/signalridge/pkgs/mare/default.nix",
+                "line": 63
+            },
+            "name": "mare-1.0.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/signalridge/pkgs/mare/default.nix#L60",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mare-1.0.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mare",
+        "system": "x86_64-linux",
+        "version": "1.0.2",
+        "_attr": "mare",
+        "_repo": "signalridge"
+    },
     "nur.repos.signalridge.sing-box": {
         "meta": {
             "available": true,
