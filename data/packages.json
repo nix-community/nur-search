@@ -1147564,7 +1147564,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4734",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4743",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1147621,7 +1147621,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 143
             },
-            "name": "magpie-0.1.4734",
+            "name": "magpie-0.1.4743",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1147665,14 +1147665,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4734",
+        "name": "magpie-0.1.4743",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4734",
+        "version": "0.1.4743",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
@@ -1152689,7 +1152689,7 @@
         "_attr": "aether",
         "_repo": "yashsio"
     },
-    "nur.repos.yashsio.krypton-cli": {
+    "nur.repos.yashsio.keres-cli": {
         "meta": {
             "available": true,
             "badPlatforms": [
@@ -1152704,15 +1152704,15 @@
                 }
             ],
             "broken": false,
-            "description": "Command-line interface for the Krypton encryption library",
-            "homepage": "https://github.com/KryptonOSS/krypton-cli",
+            "description": "Command-line interface for the Keres",
+            "homepage": "https://github.com/keres-rs/keres-cli",
             "identifiers": {
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
                     "other": "*",
                     "part": "a",
-                    "product": "krypton-cli",
+                    "product": "keres-cli",
                     "sw_edition": "*",
                     "target_hw": "*",
                     "target_sw": "*"
@@ -1152726,7 +1152726,7 @@
                         "language": "*",
                         "other": "*",
                         "part": "a",
-                        "product": "krypton-cli",
+                        "product": "keres-cli",
                         "sw_edition": "*",
                         "target_hw": "*",
                         "target_sw": "*"
@@ -1152746,9 +1152746,9 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "mainProgram": "krypton",
+            "mainProgram": "keres",
             "maintainers": [],
-            "name": "krypton-cli-0.4.2",
+            "name": "keres-cli-0.7.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1152793,7 +1152793,7 @@
                 "x86_64-redox",
                 "wasm32-wasip1"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/yashsio/pkgs/krypton-cli/default.nix#L19",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/yashsio/pkgs/keres-cli/default.nix#L19",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1152803,15 +1152803,15 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "krypton-cli-0.4.2",
+        "name": "keres-cli-0.7.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "krypton-cli",
+        "pname": "keres-cli",
         "system": "x86_64-linux",
-        "version": "0.4.2",
-        "_attr": "krypton-cli",
+        "version": "0.7.0",
+        "_attr": "keres-cli",
         "_repo": "yashsio"
     },
     "nur.repos.yashsio.mozart": {
