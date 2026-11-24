@@ -442106,6 +442106,116 @@
         "_attr": "sshrm",
         "_repo": "minegameYTB"
     },
+    "nur.repos.mio.acnhrecomp": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Nycolazs/ACNHRecomp/releases/tag/v0.9.0",
+            "description": "Native PC port of Animal Crossing: New Horizons (launcher)",
+            "homepage": "https://github.com/Nycolazs/ACNHRecomp",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "acnhrecomp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "acnhrecomp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "ACNHRecomp is a native recompilation of Animal Crossing: New Horizons.\nThis package builds the from-source launcher, which prepares the game\nfrom the user's own extracted game files; the game's recompiled code is\nnot included and cannot be built without those files.\n",
+            "mainProgram": "acnhrecomp",
+            "maintainers": [],
+            "name": "acnhrecomp-0.9.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ac/acnhrecomp/package.nix#L139",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "acnhrecomp-0.9.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "acnhrecomp",
+        "system": "x86_64-linux",
+        "version": "0.9.0",
+        "_attr": "acnhrecomp",
+        "_repo": "mio"
+    },
     "nur.repos.mio.adobe-acrobat-reader": {
         "meta": {
             "available": false,
@@ -456901,7 +457011,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/fr/freesmlauncher-unwrapped/package.nix",
-                "line": 116
+                "line": 120
             },
             "name": "freesmlauncher-unwrapped-2.3.2",
             "nonTeamMaintainers": [
@@ -456942,7 +457052,7 @@
                 "s390x-linux",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fr/freesmlauncher-unwrapped/package.nix#L107",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fr/freesmlauncher-unwrapped/package.nix#L111",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -1030110,7 +1030220,7 @@
             "description": "Linux CachyOS kernel for x86-64-v3 (non-LTO)",
             "homepage": "https://github.com/CachyOS/linux-cachyos",
             "identifiers": {
-                "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
+                "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.6:*:*:*:*:*:*:*",
                 "cpeParts": {
                     "edition": "*",
                     "language": "*",
@@ -1030122,11 +1030232,11 @@
                     "target_sw": "*",
                     "update": "*",
                     "vendor": "linux",
-                    "version": "7.3.5"
+                    "version": "7.3.6"
                 },
                 "possibleCPEs": [
                     {
-                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
+                        "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.6:*:*:*:*:*:*:*",
                         "cpeParts": {
                             "edition": "*",
                             "language": "*",
@@ -1030138,14 +1030248,14 @@
                             "target_sw": "*",
                             "update": "*",
                             "vendor": "linux",
-                            "version": "7.3.5"
+                            "version": "7.3.6"
                         }
                     }
                 ],
                 "purlParts": {},
                 "purls": [],
                 "v1": {
-                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
+                    "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.6:*:*:*:*:*:*:*",
                     "cpeParts": {
                         "edition": "*",
                         "language": "*",
@@ -1030157,11 +1030267,11 @@
                         "target_sw": "*",
                         "update": "*",
                         "vendor": "linux",
-                        "version": "7.3.5"
+                        "version": "7.3.6"
                     },
                     "possibleCPEs": [
                         {
-                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.5:*:*:*:*:*:*:*",
+                            "cpe": "cpe:2.3:o:linux:linux_kernel:7.3.6:*:*:*:*:*:*:*",
                             "cpeParts": {
                                 "edition": "*",
                                 "language": "*",
@@ -1030173,7 +1030283,7 @@
                                 "target_sw": "*",
                                 "update": "*",
                                 "vendor": "linux",
-                                "version": "7.3.5"
+                                "version": "7.3.6"
                             }
                         }
                     ],
@@ -1030259,7 +1030369,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/os-specific/linux/kernel/build.nix",
                 "line": 614
             },
-            "name": "linux-cachyos-latest-x86_64-v3-7.3.5",
+            "name": "linux-cachyos-latest-x86_64-v3-7.3.6",
             "nonTeamMaintainers": [
                 {
                     "email": "aseipp@pobox.com",
@@ -1030380,7 +1030490,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "linux-cachyos-latest-x86_64-v3-7.3.5",
+        "name": "linux-cachyos-latest-x86_64-v3-7.3.6",
         "outputName": "out",
         "outputs": {
             "dev": null,
@@ -1030389,7 +1030499,7 @@
         },
         "pname": "linux-cachyos-latest-x86_64-v3",
         "system": "x86_64-linux",
-        "version": "7.3.5",
+        "version": "7.3.6",
         "_attr": "linux-cachyos-latest-x86_64-v3",
         "_repo": "uriotv"
     },
@@ -1030441,7 +1030551,7 @@
             },
             "mainProgram": "meitou-launcher",
             "maintainers": [],
-            "name": "meitou-launcher-1.18.0",
+            "name": "meitou-launcher-1.20.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1030465,14 +1030575,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meitou-launcher-1.18.0",
+        "name": "meitou-launcher-1.20.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "meitou-launcher",
         "system": "x86_64-linux",
-        "version": "1.18.0",
+        "version": "1.20.0",
         "_attr": "meitou-launcher",
         "_repo": "uriotv"
     },
