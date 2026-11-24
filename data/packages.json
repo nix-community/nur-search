@@ -208030,7 +208030,7 @@
             },
             "mainProgram": "dartotsu-prerelease",
             "maintainers": [],
-            "name": "dartotsu-prerelease-1.2.1",
+            "name": "dartotsu-prerelease-1.2.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -208054,14 +208054,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "dartotsu-prerelease-1.2.1",
+        "name": "dartotsu-prerelease-1.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dartotsu-prerelease",
         "system": "x86_64-linux",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "_attr": "prerelease",
         "_repo": "dartotsu"
     },
@@ -208111,7 +208111,7 @@
             },
             "mainProgram": "dartotsu",
             "maintainers": [],
-            "name": "dartotsu-1.2.1",
+            "name": "dartotsu-1.2.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -208135,14 +208135,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "dartotsu-1.2.1",
+        "name": "dartotsu-1.2.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "dartotsu",
         "system": "x86_64-linux",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "_attr": "stable",
         "_repo": "dartotsu"
     },
@@ -228782,6 +228782,1999 @@
         "version": "1113",
         "_attr": "vlmcsd",
         "_repo": "eh5"
+    },
+    "nur.repos.elzorrorebelde.abw-abcde": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Script extraction/insertion utility for ROM hacking (replacement for Atlas & Cartographer)",
+            "homepage": "https://www.romhacking.net/utilities/1392/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "abw-abcde",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "abw-abcde",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree redistributable",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "unfreeRedistributable"
+            },
+            "longDescription": "abcde is a script extraction/insertion utility that aims to take as many of\nthe things that are good about Atlas and Cartographer as possible and make\nthem even better.\n\nIt implements all features supported by Cartographer and Atlas, corrects many\nbugs, and adds new features including: expanded table file syntax with support\nfor non-octet text encodings (e.g. 6-bit tokens, Huffman encodings),\nmid-string encoding changes (table switching), new extraction and insertion\ncommands, and an improved text-to-binary algorithm based on A* search.\n",
+            "mainProgram": "abw-abcde",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/abw-abcde/default.nix",
+                "line": 79
+            },
+            "name": "abw-abcde-0.0.10",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/abw-abcde/default.nix#L65",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "abw-abcde-0.0.10",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "abw-abcde",
+        "system": "x86_64-linux",
+        "version": "0.0.10",
+        "_attr": "abw-abcde",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.bof-text-editor": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Command line tool for editing Breath of Fire III and IV text sections",
+            "homepage": "https://github.com/glitch-in-the-herring/bof-text-editor",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "bof-text",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "bof-text",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Extractor and markup intermediary for editing text sections found in\nBreath of Fire III and IV. Can extract text from .EMI files into a\nmarkup representation, and patch edited text back into the game files.\n",
+            "mainProgram": "bof-text",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/bof-text-editor/default.nix",
+                "line": 43
+            },
+            "name": "python3.14-bof-text-unstable-2025-09-05",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/bof-text-editor/default.nix#L35",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-bof-text-unstable-2025-09-05",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-bof-text-unstable",
+        "system": "x86_64-linux",
+        "version": "2025-09-05",
+        "_attr": "bof-text-editor",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.bof3-text-extractor": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Text extractor for Breath of Fire III",
+            "homepage": "https://github.com/glitch-in-the-herring/bof3-text-extractor",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "bof3-text-extractor",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "bof3-text-extractor",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "A tool to extract the dialogue sections from AREAxxx.EMI files found in\nBreath of Fire III's game files. Supports both English and Japanese text\nextraction.\n",
+            "mainProgram": "bof3-extractor",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/bof3-text-extractor/default.nix",
+                "line": 68
+            },
+            "name": "bof3-text-extractor-unstable-2022-11-30",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/bof3-text-extractor/default.nix#L60",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "bof3-text-extractor-unstable-2022-11-30",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "bof3-text-extractor-unstable",
+        "system": "x86_64-linux",
+        "version": "2022-11-30",
+        "_attr": "bof3-text-extractor",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.bof4-text-extractor": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Text extractor for Breath of Fire IV",
+            "homepage": "https://github.com/glitch-in-the-herring/bof4-text-extractor",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "bof4-text-extractor",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "bof4-text-extractor",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "A tool to extract the dialogue sections from AREAxxx.EMI files found in\nBreath of Fire IV's game files. Supports both English and Japanese text\nextraction.\n",
+            "mainProgram": "bof4-extractor",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/bof4-text-extractor/default.nix",
+                "line": 80
+            },
+            "name": "bof4-text-extractor-unstable-2022-11-28",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/bof4-text-extractor/default.nix#L72",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "bof4-text-extractor-unstable-2022-11-28",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "bof4-text-extractor-unstable",
+        "system": "x86_64-linux",
+        "version": "2022-11-28",
+        "_attr": "bof4-text-extractor",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.emi-extractor": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Extractor for .EMI Files",
+            "homepage": "https://github.com/glitch-in-the-herring/emi-extractor",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "emi-extractor",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "emi-extractor",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "A tool to extract all sections from .EMI files found in Breath of Fire III\nand IV. Separates the various sections of the EMI file into multiple files.\n",
+            "mainProgram": "emi_extractor",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/emi-extractor/default.nix",
+                "line": 43
+            },
+            "name": "emi-extractor-unstable-2022-02-28",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/emi-extractor/default.nix#L36",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "emi-extractor-unstable-2022-02-28",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "emi-extractor-unstable",
+        "system": "x86_64-linux",
+        "version": "2022-02-28",
+        "_attr": "emi-extractor",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.gtkcsslanguageserver": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Language server for GTK CSS",
+            "homepage": "https://github.com/JCWasmx86/GTKCssLanguageServer",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gtk-css-language-server",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gtk-css-language-server",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "free": true,
+                "fullName": "GNU General Public License v3.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "mainProgram": "gtkcsslanguageserver",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/gtk-css-language-server/default.nix",
+                "line": 63
+            },
+            "name": "gtk-css-language-server-2023.12",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/gtk-css-language-server/default.nix#L60",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gtk-css-language-server-2023.12",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gtk-css-language-server",
+        "system": "x86_64-linux",
+        "version": "2023.12",
+        "_attr": "gtkcsslanguageserver",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.mkpsxiso": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "PlayStation ISO image maker & dumping tool",
+            "homepage": "https://github.com/Lameguy64/mkpsxiso",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "mkpsxiso",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "mkpsxiso",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "mkpsxiso is a PlayStation ISO image maker and dumping tool. It can build\nPlayStation-compatible ISO images from XML project files and dump/extract\nexisting PlayStation ISO images into XML project files.\n",
+            "mainProgram": "mkpsxiso",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/mkpsxiso/default.nix",
+                "line": 43
+            },
+            "name": "mkpsxiso-2.30",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/mkpsxiso/default.nix#L35",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "mkpsxiso-2.30",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "mkpsxiso",
+        "system": "x86_64-linux",
+        "version": "2.30",
+        "_attr": "mkpsxiso",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.ngpost": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Command Line and sexy GUI Usenet poster for binaries",
+            "homepage": "https://github.com/mbruel/ngPost",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ngpost",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ngpost",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "free": true,
+                "fullName": "GNU General Public License v3.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "mainProgram": "ngPost",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/ngpost/default.nix",
+                "line": 58
+            },
+            "name": "ngpost-4.16",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/ngpost/default.nix#L55",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ngpost-4.16",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ngpost",
+        "system": "x86_64-linux",
+        "version": "4.16",
+        "_attr": "ngpost",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.ppf": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "PPF3.0 patch creation and application tool",
+            "homepage": "https://github.com/meunierd/ppf",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "ppf",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "ppf",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Unspecified free software license",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "free"
+            },
+            "longDescription": "PPF (PlayStation Patch File) is a binary patch format widely used in the\nconsole modding scene, particularly for PlayStation and PlayStation 2\ndisc images. This package provides both the creation tool (makeppf3) and\nthe application tool (applyppf3) for PPF3.0 patches, as well as\nlegacy support for PPF1.0 and PPF2.0 patches in the application tool.\n",
+            "mainProgram": "makeppf3",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/ppf/default.nix",
+                "line": 71
+            },
+            "name": "ppf-3.0-unstable-2018-09-01",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/ppf/default.nix#L61",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "ppf-3.0-unstable-2018-09-01",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "ppf",
+        "system": "x86_64-linux",
+        "version": "3.0-unstable-2018-09-01",
+        "_attr": "ppf",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.redot-engine": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Redot-Engine/redot-engine/releases/tag/redot-26.3-stable",
+            "description": "Free and Open Source 2D and 3D game engine (Redot fork of Godot)",
+            "homepage": "https://redotengine.org",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "redot-mono",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "redot-mono",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "redot-engine-mono",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 11,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/redot-engine/common.nix",
+                "line": 331
+            },
+            "name": "redot-mono-26.3",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/redot-engine/common.nix#L324",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "redot-mono-wrapper-26.3",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "man": null,
+            "out": null
+        },
+        "pname": "redot-mono-wrapper",
+        "system": "x86_64-linux",
+        "version": "26.3",
+        "_attr": "redot-engine",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.redot-engine-lts": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Redot-Engine/redot-engine/releases/tag/redot-26.2-stable",
+            "description": "Free and Open Source 2D and 3D game engine (Redot fork of Godot)",
+            "homepage": "https://redotengine.org",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "redot-mono",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "redot-mono",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "redot-engine-mono",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 11,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/redot-engine/common.nix",
+                "line": 331
+            },
+            "name": "redot-mono-26.2-stable",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/redot-engine/common.nix#L324",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "redot-mono-wrapper-26.2-stable",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "man": null,
+            "out": null
+        },
+        "pname": "redot-mono-wrapper",
+        "system": "x86_64-linux",
+        "version": "26.2-stable",
+        "_attr": "redot-engine-lts",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.rustel": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "A native Rust engine for the Strudel pattern language",
+            "homepage": "https://github.com/tzfm/rustel",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "rustel",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "rustel",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "longDescription": "rustel is a native Rust engine for the Strudel pattern language, a live\ncoding environment for algorithmic music. It includes a command-line\nrenderer and an interactive terminal studio.\n",
+            "mainProgram": "rustel",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/rustel/default.nix",
+                "line": 72
+            },
+            "name": "rustel-0.1.6",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/rustel/default.nix#L64",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "rustel-0.1.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "rustel",
+        "system": "x86_64-linux",
+        "version": "0.1.6",
+        "_attr": "rustel",
+        "_repo": "elzorrorebelde"
+    },
+    "nur.repos.elzorrorebelde.tilemolester": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/toruzz/TileMolester/releases",
+            "description": "Multi-format, user-extensible graphics data editor for arbitrary binary files",
+            "homepage": "https://github.com/toruzz/TileMolester",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tilemolester",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tilemolester",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "Tile Molester is a multi-format, user-extensible graphics data editor\nthat lets you create, view and edit graphics in arbitrary binary files,\nwith a particular focus on binaries for game consoles.\n",
+            "mainProgram": "tilemolester",
+            "maintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/tilemolester/default.nix",
+                "line": 75
+            },
+            "name": "tilemolester-0.21",
+            "nonTeamMaintainers": [
+                {
+                    "email": "jorge@esavara.cr",
+                    "github": "elzorrorebelde",
+                    "githubId": 1055216,
+                    "name": "Jorge Javier Araya Navarro"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "javascript-ghcjs",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64_be-none",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "microblaze-none",
+                "microblazeel-none",
+                "mips-none",
+                "mips64-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "powerpcle-none",
+                "riscv32-none",
+                "riscv64-none",
+                "rx-none",
+                "s390-none",
+                "s390x-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasip1",
+                "wasm32-wasip1",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "aarch64-uefi",
+                "x86_64-uefi"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/elzorrorebelde/packages/tilemolester/default.nix#L66",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tilemolester-0.21",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tilemolester",
+        "system": "x86_64-linux",
+        "version": "0.21",
+        "_attr": "tilemolester",
+        "_repo": "elzorrorebelde"
     },
     "nur.repos.endle.xcodegen": {
         "meta": {
@@ -252744,7 +254737,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/beeper-nightly/default.nix",
                 "line": 26
             },
-            "name": "beeper-nightly-4.3.349",
+            "name": "beeper-nightly-4.3.353",
             "nonTeamMaintainers": [
                 {
                     "email": "me@joshuadcampbell.com",
@@ -252803,14 +254796,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "beeper-nightly-4.3.349",
+        "name": "beeper-nightly-4.3.353",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beeper-nightly",
         "system": "x86_64-linux",
-        "version": "4.3.349",
+        "version": "4.3.353",
         "_attr": "beeper-nightly",
         "_repo": "forkprince"
     },
@@ -253722,7 +255715,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/clop/default.nix",
                 "line": 26
             },
-            "name": "clop-3.7.6",
+            "name": "clop-3.7.7",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -253747,14 +255740,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clop-3.7.6",
+        "name": "clop-3.7.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clop",
         "system": "x86_64-linux",
-        "version": "3.7.6",
+        "version": "3.7.7",
         "_attr": "clop",
         "_repo": "forkprince"
     },
@@ -253816,7 +255809,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/compositor/default.nix",
                 "line": 20
             },
-            "name": "compositor-1.7.0",
+            "name": "compositor-1.7.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -253841,14 +255834,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.7.0",
+        "name": "compositor-1.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.7.0",
+        "version": "1.7.1",
         "_attr": "compositor",
         "_repo": "forkprince"
     },
@@ -254797,7 +256790,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/designcraft/default.nix",
                 "line": 16
             },
-            "name": "designcraft-0.20.1",
+            "name": "designcraft-0.21.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -254846,14 +256839,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "designcraft-0.20.1",
+        "name": "designcraft-0.21.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "designcraft",
         "system": "x86_64-linux",
-        "version": "0.20.1",
+        "version": "0.21.1",
         "_attr": "designcraft",
         "_repo": "forkprince"
     },
@@ -255208,7 +257201,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/effectcraft/default.nix",
                 "line": 16
             },
-            "name": "effectcraft-0.24.1",
+            "name": "effectcraft-0.25.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -255257,14 +257250,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "effectcraft-0.24.1",
+        "name": "effectcraft-0.25.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "effectcraft",
         "system": "x86_64-linux",
-        "version": "0.24.1",
+        "version": "0.25.1",
         "_attr": "effectcraft",
         "_repo": "forkprince"
     },
@@ -255669,7 +257662,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/eq/equicord/package.nix",
                 "line": 85
             },
-            "name": "equicord-2026-11-23",
+            "name": "equicord-2026-11-24",
             "nonTeamMaintainers": [
                 {
                     "email": "raf@notashelf.dev",
@@ -255734,14 +257727,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "equicord-2026-11-23",
+        "name": "equicord-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "equicord",
         "system": "x86_64-linux",
-        "version": "2026-11-23",
+        "version": "2026-11-24",
         "_attr": "equicord",
         "_repo": "forkprince"
     },
@@ -256263,7 +258256,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/flux-markdown/default.nix",
                 "line": 20
             },
-            "name": "flux-markdown-1.59.907",
+            "name": "flux-markdown-1.60.918",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -256288,14 +258281,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "flux-markdown-1.59.907",
+        "name": "flux-markdown-1.60.918",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "flux-markdown",
         "system": "x86_64-linux",
-        "version": "1.59.907",
+        "version": "1.60.918",
         "_attr": "flux-markdown",
         "_repo": "forkprince"
     },
@@ -256363,7 +258356,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-canary-bin/default.nix",
                 "line": 21
             },
-            "name": "fluxer-canary-bin-2026.1120.172553",
+            "name": "fluxer-canary-bin-2026.1124.53524",
             "nonTeamMaintainers": [
                 {
                     "github": "WoutFontaine",
@@ -256417,14 +258410,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-canary-bin-2026.1120.172553",
+        "name": "fluxer-canary-bin-2026.1124.53524",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer-canary-bin",
         "system": "x86_64-linux",
-        "version": "2026.1120.172553",
+        "version": "2026.1124.53524",
         "_attr": "fluxer-canary-bin",
         "_repo": "forkprince"
     },
@@ -256492,7 +258485,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/fluxer-stable-bin/default.nix",
                 "line": 21
             },
-            "name": "fluxer-stable-bin-2026.1120.163638",
+            "name": "fluxer-stable-bin-2026.1124.64728",
             "nonTeamMaintainers": [
                 {
                     "github": "WoutFontaine",
@@ -256546,14 +258539,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "fluxer-stable-bin-2026.1120.163638",
+        "name": "fluxer-stable-bin-2026.1124.64728",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "fluxer-stable-bin",
         "system": "x86_64-linux",
-        "version": "2026.1120.163638",
+        "version": "2026.1124.64728",
         "_attr": "fluxer-stable-bin",
         "_repo": "forkprince"
     },
@@ -256706,7 +258699,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/folio-studio/default.nix",
                 "line": 17
             },
-            "name": "folio-studio-0.1.18",
+            "name": "folio-studio-0.1.19",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -256755,14 +258748,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "folio-studio-0.1.18",
+        "name": "folio-studio-0.1.19",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "folio-studio",
         "system": "x86_64-linux",
-        "version": "0.1.18",
+        "version": "0.1.19",
         "_attr": "folio-studio",
         "_repo": "forkprince"
     },
@@ -257060,7 +259053,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/genoffice/default.nix",
                 "line": 16
             },
-            "name": "genoffice-0.13.615",
+            "name": "genoffice-0.13.886",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -257086,14 +259079,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "genoffice-0.13.615",
+        "name": "genoffice-0.13.886",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "genoffice",
         "system": "x86_64-linux",
-        "version": "0.13.615",
+        "version": "0.13.886",
         "_attr": "genoffice",
         "_repo": "forkprince"
     },
@@ -257448,7 +259441,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/gitcraft/default.nix",
                 "line": 16
             },
-            "name": "gitcraft-0.1.41",
+            "name": "gitcraft-0.1.43",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -257497,14 +259490,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gitcraft-0.1.41",
+        "name": "gitcraft-0.1.43",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gitcraft",
         "system": "x86_64-linux",
-        "version": "0.1.41",
+        "version": "0.1.43",
         "_attr": "gitcraft",
         "_repo": "forkprince"
     },
@@ -257769,7 +259762,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/imputnet/helium/releases/tag/0.22.2.1",
+            "changelog": "https://github.com/imputnet/helium/releases/tag/0.22.4.1",
             "description": "Private, fast, and honest web browser (nightly builds)",
             "homepage": "https://github.com/imputnet/helium",
             "identifiers": {
@@ -257835,7 +259828,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/helium-nightly/default.nix",
                 "line": 25
             },
-            "name": "helium-0.22.2.1",
+            "name": "helium-0.22.4.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -257894,14 +259887,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "helium-0.22.2.1",
+        "name": "helium-0.22.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "helium",
         "system": "x86_64-linux",
-        "version": "0.22.2.1",
+        "version": "0.22.4.1",
         "_attr": "helium-nightly",
         "_repo": "forkprince"
     },
@@ -258214,7 +260207,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/highball/default.nix",
                 "line": 40
             },
-            "name": "highball-0.10.26",
+            "name": "highball-0.10.29",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -258239,14 +260232,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "highball-0.10.26",
+        "name": "highball-0.10.29",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "highball",
         "system": "x86_64-linux",
-        "version": "0.10.26",
+        "version": "0.10.29",
         "_attr": "highball",
         "_repo": "forkprince"
     },
@@ -258830,7 +260823,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/hytale/default.nix",
                 "line": 23
             },
-            "name": "hytale-launcher-2026.11.16-1726018",
+            "name": "hytale-launcher-2026.11.23-8717529",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -258883,14 +260876,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "hytale-launcher-2026.11.16-1726018",
+        "name": "hytale-launcher-2026.11.23-8717529",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hytale-launcher",
         "system": "x86_64-linux",
-        "version": "2026.11.16-1726018",
+        "version": "2026.11.23-8717529",
         "_attr": "hytale",
         "_repo": "forkprince"
     },
@@ -259329,7 +261322,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/light-studio/default.nix",
                 "line": 17
             },
-            "name": "light-studio-0.1.43",
+            "name": "light-studio-0.1.44",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -259378,14 +261371,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "light-studio-0.1.43",
+        "name": "light-studio-0.1.44",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "light-studio",
         "system": "x86_64-linux",
-        "version": "0.1.43",
+        "version": "0.1.44",
         "_attr": "light-studio",
         "_repo": "forkprince"
     },
@@ -263059,7 +265052,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/orca/default.nix",
                 "line": 20
             },
-            "name": "orca-1.4.272",
+            "name": "orca-1.4.273",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -263084,14 +265077,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "orca-1.4.272",
+        "name": "orca-1.4.273",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "orca",
         "system": "x86_64-linux",
-        "version": "1.4.272",
+        "version": "1.4.273",
         "_attr": "orca",
         "_repo": "forkprince"
     },
@@ -264490,7 +266483,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/photon-studio/default.nix",
                 "line": 17
             },
-            "name": "photon-studio-0.1.83",
+            "name": "photon-studio-0.1.84",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -264539,14 +266532,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "photon-studio-0.1.83",
+        "name": "photon-studio-0.1.84",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "photon-studio",
         "system": "x86_64-linux",
-        "version": "0.1.83",
+        "version": "0.1.84",
         "_attr": "photon-studio",
         "_repo": "forkprince"
     },
@@ -264970,7 +266963,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/prism/default.nix",
                 "line": 26
             },
-            "name": "prism-1.2.5",
+            "name": "prism-1.2.6",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -264996,14 +266989,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "prism-1.2.5",
+        "name": "prism-1.2.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "prism",
         "system": "x86_64-linux",
-        "version": "1.2.5",
+        "version": "1.2.6",
         "_attr": "prism",
         "_repo": "forkprince"
     },
@@ -265648,7 +267641,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/punktfunk-client/default.nix",
                 "line": 36
             },
-            "name": "punktfunk-client-0.47.0",
+            "name": "punktfunk-client-0.48.0",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -265697,14 +267690,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "punktfunk-client-0.47.0",
+        "name": "punktfunk-client-0.48.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "punktfunk-client",
         "system": "x86_64-linux",
-        "version": "0.47.0",
+        "version": "0.48.0",
         "_attr": "punktfunk-client",
         "_repo": "forkprince"
     },
@@ -266985,7 +268978,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/screendrop/default.nix",
                 "line": 20
             },
-            "name": "screendrop-0.39.1",
+            "name": "screendrop-0.40.1",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -267010,14 +269003,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "screendrop-0.39.1",
+        "name": "screendrop-0.40.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "screendrop",
         "system": "x86_64-linux",
-        "version": "0.39.1",
+        "version": "0.40.1",
         "_attr": "screendrop",
         "_repo": "forkprince"
     },
@@ -269316,7 +271309,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/twintaillauncher/default.nix",
                 "line": 111
             },
-            "name": "twintaillauncher-unwrapped-2.5.3",
+            "name": "twintaillauncher-unwrapped-2.5.4",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -269527,7 +271520,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/vector-studio/default.nix",
                 "line": 17
             },
-            "name": "vector-studio-0.1.36",
+            "name": "vector-studio-0.1.37",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -269576,14 +271569,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "vector-studio-0.1.36",
+        "name": "vector-studio-0.1.37",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vector-studio",
         "system": "x86_64-linux",
-        "version": "0.1.36",
+        "version": "0.1.37",
         "_attr": "vector-studio",
         "_repo": "forkprince"
     },
@@ -271502,7 +273495,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/forkprince/pkgs/yapfast/default.nix",
                 "line": 18
             },
-            "name": "yapfast-0.5.0-nightly.20261120.19",
+            "name": "yapfast-0.5.0-nightly.20261124.21",
             "nonTeamMaintainers": [
                 {
                     "github": "Prince527Github",
@@ -271527,14 +273520,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "yapfast-0.5.0-nightly.20261120.19",
+        "name": "yapfast-0.5.0-nightly.20261124.21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "yapfast",
         "system": "x86_64-linux",
-        "version": "0.5.0-nightly.20261120.19",
+        "version": "0.5.0-nightly.20261124.21",
         "_attr": "yapfast",
         "_repo": "forkprince"
     },
@@ -727845,7 +729838,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "maintainers": [],
-            "name": "virtual-display-0.9.0",
+            "name": "virtual-display-0.10.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -727869,14 +729862,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "virtual-display-0.9.0",
+        "name": "virtual-display-0.10.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "virtual-display",
         "system": "x86_64-linux",
-        "version": "0.9.0",
+        "version": "0.10.0",
         "_attr": "virtual-display",
         "_repo": "rapatao"
     },
