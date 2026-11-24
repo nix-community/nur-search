@@ -47784,6 +47784,93 @@
         "_attr": "chatgpt",
         "_repo": "Sittymin"
     },
+    "nur.repos.Sittymin.claude-code": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Anthropic Claude Code CLI (native binary distributed via npm)",
+            "homepage": "https://code.claude.com/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "claude-code",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "claude-code",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "claude",
+            "maintainers": [],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Sittymin/pkgs/claude-code/default.nix",
+                "line": 56
+            },
+            "name": "claude-code-2.1.330",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Sittymin/pkgs/claude-code/default.nix#L50",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "claude-code-2.1.330",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "claude-code",
+        "system": "x86_64-linux",
+        "version": "2.1.330",
+        "_attr": "claude-code",
+        "_repo": "Sittymin"
+    },
     "nur.repos.Sittymin.claude-desktop": {
         "meta": {
             "available": false,
@@ -47834,7 +47921,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Sittymin/pkgs/claude-desktop/default.nix",
-                "line": 227
+                "line": 241
             },
             "name": "claude-desktop-6.28899.6",
             "nonTeamMaintainers": [],
@@ -47845,7 +47932,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Sittymin/pkgs/claude-desktop/default.nix#L220",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/Sittymin/pkgs/claude-desktop/default.nix#L234",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -449338,7 +449425,7 @@
             },
             "mainProgram": "Compositor",
             "maintainers": [],
-            "name": "compositor-1.7.0",
+            "name": "compositor-1.7.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -449362,14 +449449,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.7.0",
+        "name": "compositor-1.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.7.0",
+        "version": "1.7.1",
         "_attr": "compositor",
         "_repo": "mio"
     },
@@ -453715,6 +453802,91 @@
         "system": "x86_64-linux",
         "version": "0.1.0-rc4-unstable-2026-11-15",
         "_attr": "eglantine",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.electerm": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/electerm/electerm/releases/tag/v5.12.6",
+            "description": "Terminal, SSH, SFTP, telnet, serial, RDP, VNC and ftp client",
+            "downloadPage": "https://github.com/electerm/electerm/releases",
+            "homepage": "https://electerm.org",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "electerm",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "electerm",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "electerm",
+            "maintainers": [],
+            "name": "electerm-5.12.6",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/el/electerm/package.nix#L155",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "electerm-5.12.6",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "electerm",
+        "system": "x86_64-linux",
+        "version": "5.12.6",
+        "_attr": "electerm",
         "_repo": "mio"
     },
     "nur.repos.mio.electron_36-bin": {
@@ -460074,7 +460246,7 @@
             },
             "mainProgram": "kiwix",
             "maintainers": [],
-            "name": "kiwix-apple-3.16.1",
+            "name": "kiwix-apple-3.19.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -460102,14 +460274,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kiwix-apple-3.16.1",
+        "name": "kiwix-apple-3.19.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kiwix-apple",
         "system": "x86_64-linux",
-        "version": "3.16.1",
+        "version": "3.19.0",
         "_attr": "kiwix-apple",
         "_repo": "mio"
     },
@@ -461083,6 +461255,92 @@
         "system": "x86_64-linux",
         "version": "1.1.16",
         "_attr": "lastbook_patched",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.launchnext": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/RoversX/LaunchNext/releases/tag/2.4.2",
+            "description": "Launchpad alternative for macOS 26+ with folders, fuzzy search and layout import",
+            "downloadPage": "https://github.com/RoversX/LaunchNext/releases",
+            "homepage": "https://github.com/RoversX/LaunchNext",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "launchnext",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "launchnext",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "launchnext",
+            "maintainers": [],
+            "name": "launchnext-2.4.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/la/launchnext/package.nix#L129",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "launchnext-2.4.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "launchnext",
+        "system": "x86_64-linux",
+        "version": "2.4.2",
+        "_attr": "launchnext",
         "_repo": "mio"
     },
     "nur.repos.mio.launchy": {
@@ -470983,7 +471241,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.18.0",
+            "changelog": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.18.1",
             "description": "Free up your Mac safely by clearing app caches and leftover files",
             "downloadPage": "https://github.com/jithin-sabu/purge-app/releases",
             "homepage": "https://github.com/jithin-sabu/purge-app",
@@ -471030,7 +471288,7 @@
             },
             "mainProgram": "purge",
             "maintainers": [],
-            "name": "purge-1.18.0",
+            "name": "purge-1.18.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -471058,14 +471316,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "purge-1.18.0",
+        "name": "purge-1.18.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "purge",
         "system": "x86_64-linux",
-        "version": "1.18.0",
+        "version": "1.18.1",
         "_attr": "purge",
         "_repo": "mio"
     },
