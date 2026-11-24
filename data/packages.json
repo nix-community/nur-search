@@ -345251,7 +345251,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/linyinfeng/pkgs/baibot/default.nix",
                 "line": 33
             },
-            "name": "baibot-v2026.11.23.0",
+            "name": "baibot-v2026.11.24.0",
             "nonTeamMaintainers": [
                 {
                     "email": "lin.yinfeng@outlook.com",
@@ -345308,12 +345308,12 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "baibot-v2026.11.23.0",
+        "name": "baibot-v2026.11.24.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
-        "pname": "baibot-v2026.11.23.0",
+        "pname": "baibot-v2026.11.24.0",
         "system": "x86_64-linux",
         "version": "",
         "_attr": "baibot",
@@ -445862,9 +445862,9 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 396
+                "line": 401
             },
-            "name": "archivetune-unwrapped-16.0.0",
+            "name": "archivetune-unwrapped-16.1.0",
             "nonTeamMaintainers": [
                 {
                     "email": "mio@mio19.uk",
@@ -445882,7 +445882,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L393",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L398",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -445897,14 +445897,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "archivetune-16.0.0",
+        "name": "archivetune-16.1.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "archivetune",
         "system": "x86_64-linux",
-        "version": "16.0.0",
+        "version": "16.1.0",
         "_attr": "archivetune",
         "_repo": "mio"
     },
@@ -446975,229 +446975,6 @@
         "_attr": "bambu-studio-open",
         "_repo": "mio"
     },
-    "nur.repos.mio.baobab_patched": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Graphical application to analyse disk usage in any GNOME environment",
-            "homepage": "https://apps.gnome.org/Baobab/",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "baobab",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "baobab",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v2.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "mainProgram": "baobab",
-            "maintainers": [
-                {
-                    "email": "rjl931189261@126.com",
-                    "github": "bobby285271",
-                    "githubId": 20080233,
-                    "matrix": "@bobby285271:matrix.org",
-                    "name": "Bobby Rong"
-                },
-                {
-                    "email": "jtojnar@gmail.com",
-                    "github": "jtojnar",
-                    "githubId": 705123,
-                    "matrix": "@jtojnar:matrix.org",
-                    "name": "Jan Tojnar"
-                },
-                {
-                    "email": "hey@winston.sh",
-                    "github": "nekowinston",
-                    "githubId": 79978224,
-                    "name": "winston"
-                },
-                {
-                    "email": "hello@capypara.de",
-                    "github": "theCapypara",
-                    "githubId": 3512122,
-                    "keys": [
-                        {
-                            "fingerprint": "5F29 132D EFA8 5DA0 B598  5BF2 5941 754C 1CDE 33BB"
-                        }
-                    ],
-                    "matrix": "@capypara:matrix.org",
-                    "name": "Marco K\u00f6pcke"
-                },
-                {
-                    "github": "thunze",
-                    "githubId": 22795263,
-                    "name": "Tom Hunze"
-                }
-            ],
-            "name": "baobab-50.0",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "x86_64-solaris",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ba/baobab/package.nix#L59",
-            "problems": {},
-            "teams": [
-                {
-                    "enableFeatureFreezePing": true,
-                    "github": "gnome",
-                    "githubId": 3806133,
-                    "githubMaintainers": [
-                        {
-                            "email": "rjl931189261@126.com",
-                            "github": "bobby285271",
-                            "githubId": 20080233,
-                            "matrix": "@bobby285271:matrix.org",
-                            "name": "Bobby Rong"
-                        },
-                        {
-                            "email": "jtojnar@gmail.com",
-                            "github": "jtojnar",
-                            "githubId": 705123,
-                            "matrix": "@jtojnar:matrix.org",
-                            "name": "Jan Tojnar"
-                        }
-                    ],
-                    "members": [
-                        {
-                            "email": "rjl931189261@126.com",
-                            "github": "bobby285271",
-                            "githubId": 20080233,
-                            "matrix": "@bobby285271:matrix.org",
-                            "name": "Bobby Rong"
-                        },
-                        {
-                            "email": "jtojnar@gmail.com",
-                            "github": "jtojnar",
-                            "githubId": 705123,
-                            "matrix": "@jtojnar:matrix.org",
-                            "name": "Jan Tojnar"
-                        },
-                        {
-                            "email": "hey@winston.sh",
-                            "github": "nekowinston",
-                            "githubId": 79978224,
-                            "name": "winston"
-                        },
-                        {
-                            "email": "hello@capypara.de",
-                            "github": "theCapypara",
-                            "githubId": 3512122,
-                            "keys": [
-                                {
-                                    "fingerprint": "5F29 132D EFA8 5DA0 B598  5BF2 5941 754C 1CDE 33BB"
-                                }
-                            ],
-                            "matrix": "@capypara:matrix.org",
-                            "name": "Marco K\u00f6pcke"
-                        },
-                        {
-                            "github": "thunze",
-                            "githubId": 22795263,
-                            "name": "Tom Hunze"
-                        }
-                    ],
-                    "scope": "Maintain GNOME desktop environment and platform.",
-                    "shortName": "GNOME"
-                }
-            ],
-            "teamsPosition": {
-                "column": 5,
-                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/ba/baobab/package.nix",
-                "line": 63
-            },
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "baobab-50.0",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "baobab",
-        "system": "x86_64-linux",
-        "version": "50.0",
-        "_attr": "baobab_patched",
-        "_repo": "mio"
-    },
     "nur.repos.mio.beam-studio": {
         "meta": {
             "available": false,
@@ -447606,7 +447383,7 @@
             },
             "mainProgram": "beamng-earth",
             "maintainers": [],
-            "name": "beamng-earth-1.10.1-beta.dev.567",
+            "name": "beamng-earth-1.10.1-beta.dev.574",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -447653,14 +447430,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "beamng-earth-1.10.1-beta.dev.567",
+        "name": "beamng-earth-1.10.1-beta.dev.574",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "beamng-earth",
         "system": "x86_64-linux",
-        "version": "1.10.1-beta.dev.567",
+        "version": "1.10.1-beta.dev.574",
         "_attr": "beamng-earth",
         "_repo": "mio"
     },
@@ -451190,7 +450967,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/clice-io/clice/releases/tag/v1.1.2026112308",
+            "changelog": "https://github.com/clice-io/clice/releases/tag/v1.1.2026112310",
             "description": "Next-generation C++ language server built on LLVM/Clang",
             "homepage": "https://github.com/clice-io/clice",
             "identifiers": {
@@ -451240,7 +451017,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/cl/clice/package.nix",
                 "line": 280
             },
-            "name": "clice-1.1.2026112308",
+            "name": "clice-1.1.2026112310",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -451269,14 +451046,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "clice-1.1.2026112308",
+        "name": "clice-1.1.2026112310",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "clice",
         "system": "x86_64-linux",
-        "version": "1.1.2026112308",
+        "version": "1.1.2026112310",
         "_attr": "clice",
         "_repo": "mio"
     },
@@ -452221,7 +451998,7 @@
             },
             "mainProgram": "cutefish-calendar",
             "maintainers": [],
-            "name": "cutefish-calendar-1.0-unstable-2026-11-19",
+            "name": "cutefish-calendar-1.0-unstable-2026-11-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452262,14 +452039,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-calendar-1.0-unstable-2026-11-19",
+        "name": "cutefish-calendar-1.0-unstable-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-calendar",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-19",
+        "version": "1.0-unstable-2026-11-24",
         "_attr": "cutefish-calendar",
         "_repo": "mio"
     },
@@ -452321,7 +452098,7 @@
             },
             "mainProgram": "cutefish-compositor",
             "maintainers": [],
-            "name": "cutefish-compositor-1.0-unstable-2026-11-19",
+            "name": "cutefish-compositor-1.0-unstable-2026-11-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452362,14 +452139,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-compositor-1.0-unstable-2026-11-19",
+        "name": "cutefish-compositor-1.0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-compositor",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-19",
+        "version": "1.0-unstable-2026-11-23",
         "_attr": "cutefish-compositor",
         "_repo": "mio"
     },
@@ -452421,7 +452198,7 @@
             },
             "mainProgram": "cutefish-wayland-session",
             "maintainers": [],
-            "name": "cutefish-core-1.0-unstable-2026-11-18",
+            "name": "cutefish-core-1.0-unstable-2026-11-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452462,14 +452239,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-core-1.0-unstable-2026-11-18",
+        "name": "cutefish-core-1.0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-core",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-18",
+        "version": "1.0-unstable-2026-11-23",
         "_attr": "cutefish-core",
         "_repo": "mio"
     },
@@ -452522,7 +452299,7 @@
             "longDescription": "Enable it with services.displayManager.cutefish-dm.enable; the Wayland\nsession also logs in through SDDM, GDM or LightDM.\n",
             "mainProgram": "cutefish-dm",
             "maintainers": [],
-            "name": "cutefish-dm-1.0-unstable-2026-11-18",
+            "name": "cutefish-dm-1.0-unstable-2026-11-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452563,14 +452340,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-dm-1.0-unstable-2026-11-18",
+        "name": "cutefish-dm-1.0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-dm",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-18",
+        "version": "1.0-unstable-2026-11-23",
         "_attr": "cutefish-dm",
         "_repo": "mio"
     },
@@ -452622,7 +452399,7 @@
             },
             "mainProgram": "cutefish-filemanager",
             "maintainers": [],
-            "name": "cutefish-filemanager-1.0-unstable-2026-11-19",
+            "name": "cutefish-filemanager-1.0-unstable-2026-11-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452663,14 +452440,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-filemanager-1.0-unstable-2026-11-19",
+        "name": "cutefish-filemanager-1.0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-filemanager",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-19",
+        "version": "1.0-unstable-2026-11-23",
         "_attr": "cutefish-filemanager",
         "_repo": "mio"
     },
@@ -452721,7 +452498,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "cutefish-framework-1.0-unstable-2026-11-18",
+            "name": "cutefish-framework-1.0-unstable-2026-11-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452762,15 +452539,135 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-framework-1.0-unstable-2026-11-18",
+        "name": "cutefish-framework-1.0-unstable-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-framework",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-18",
+        "version": "1.0-unstable-2026-11-24",
         "_attr": "cutefish-framework",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.cutefish-ghostty-vt": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Ghostty's VT parsing library, built statically for cutefish-terminal",
+            "homepage": "https://github.com/ghostty-org/ghostty",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "cutefish-ghostty-vt",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "cutefish-ghostty-vt",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "cutefish-ghostty-vt-1.0.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-ghostty-vt/package.nix#L103",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "cutefish-ghostty-vt-1.0.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "cutefish-ghostty-vt",
+        "system": "x86_64-linux",
+        "version": "1.0.1",
+        "_attr": "cutefish-ghostty-vt",
         "_repo": "mio"
     },
     "nur.repos.mio.cutefish-icons": {
@@ -452820,7 +452717,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "maintainers": [],
-            "name": "cutefish-icons-1.0-unstable-2026-11-18",
+            "name": "cutefish-icons-1.0-unstable-2026-11-20",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452861,14 +452758,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-icons-1.0-unstable-2026-11-18",
+        "name": "cutefish-icons-1.0-unstable-2026-11-20",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-icons",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-18",
+        "version": "1.0-unstable-2026-11-20",
         "_attr": "cutefish-icons",
         "_repo": "mio"
     },
@@ -453019,7 +452916,7 @@
             },
             "mainProgram": "cutefish-preview",
             "maintainers": [],
-            "name": "cutefish-preview-1.0-unstable-2026-11-17",
+            "name": "cutefish-preview-1.0-unstable-2026-11-21",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -453060,14 +452957,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-preview-1.0-unstable-2026-11-17",
+        "name": "cutefish-preview-1.0-unstable-2026-11-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-preview",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-17",
+        "version": "1.0-unstable-2026-11-21",
         "_attr": "cutefish-preview",
         "_repo": "mio"
     },
@@ -453218,7 +453115,7 @@
             },
             "mainProgram": "cutefish-settings",
             "maintainers": [],
-            "name": "cutefish-settings-1.0-unstable-2026-11-19",
+            "name": "cutefish-settings-1.0-unstable-2026-11-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -453259,14 +453156,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-settings-1.0-unstable-2026-11-19",
+        "name": "cutefish-settings-1.0-unstable-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-settings",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-19",
+        "version": "1.0-unstable-2026-11-24",
         "_attr": "cutefish-settings",
         "_repo": "mio"
     },
@@ -453318,7 +453215,7 @@
             },
             "mainProgram": "cutefish-system-monitor",
             "maintainers": [],
-            "name": "cutefish-system-monitor-1.0-unstable-2026-11-19",
+            "name": "cutefish-system-monitor-1.0-unstable-2026-11-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -453359,14 +453256,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-system-monitor-1.0-unstable-2026-11-19",
+        "name": "cutefish-system-monitor-1.0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-system-monitor",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-19",
+        "version": "1.0-unstable-2026-11-23",
         "_attr": "cutefish-system-monitor",
         "_repo": "mio"
     },
@@ -453440,7 +453337,7 @@
             ],
             "mainProgram": "cutefish-terminal",
             "maintainers": [],
-            "name": "cutefish-terminal-1.0-unstable-2026-11-19",
+            "name": "cutefish-terminal-1.0-unstable-2026-11-22",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -453471,7 +453368,7 @@
                 "s390-linux",
                 "s390x-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-terminal/package.nix#L26",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/cu/cutefish-terminal/package.nix#L28",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -453481,14 +453378,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-terminal-1.0-unstable-2026-11-19",
+        "name": "cutefish-terminal-1.0-unstable-2026-11-22",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-terminal",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-19",
+        "version": "1.0-unstable-2026-11-22",
         "_attr": "cutefish-terminal",
         "_repo": "mio"
     },
@@ -453639,7 +453536,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [],
-            "name": "cutefish-toolkit-1.0-unstable-2026-11-19",
+            "name": "cutefish-toolkit-1.0-unstable-2026-11-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -453680,14 +453577,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-toolkit-1.0-unstable-2026-11-19",
+        "name": "cutefish-toolkit-1.0-unstable-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-toolkit",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-19",
+        "version": "1.0-unstable-2026-11-24",
         "_attr": "cutefish-toolkit",
         "_repo": "mio"
     },
@@ -453739,7 +453636,7 @@
             },
             "mainProgram": "cutefish-video-player",
             "maintainers": [],
-            "name": "cutefish-video-player-1.0-unstable-2026-11-18",
+            "name": "cutefish-video-player-1.0-unstable-2026-11-21",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -453780,14 +453677,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cutefish-video-player-1.0-unstable-2026-11-18",
+        "name": "cutefish-video-player-1.0-unstable-2026-11-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cutefish-video-player",
         "system": "x86_64-linux",
-        "version": "1.0-unstable-2026-11-18",
+        "version": "1.0-unstable-2026-11-21",
         "_attr": "cutefish-video-player",
         "_repo": "mio"
     },
@@ -454107,7 +454004,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
                 "line": 385
             },
-            "name": "darling-0.1.20260608-unstable-2026-11-22",
+            "name": "darling-0.1.20260608-unstable-2026-11-24",
             "nonTeamMaintainers": [
                 {
                     "email": "hello@zhaofeng.li",
@@ -454128,7 +454025,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "darling-0.1.20260608-unstable-2026-11-22",
+        "name": "darling-0.1.20260608-unstable-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -454136,7 +454033,7 @@
         },
         "pname": "darling",
         "system": "x86_64-linux",
-        "version": "0.1.20260608-unstable-2026-11-22",
+        "version": "0.1.20260608-unstable-2026-11-24",
         "_attr": "darling",
         "_repo": "mio"
     },
@@ -454316,7 +454213,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/darling/package.nix",
                 "line": 385
             },
-            "name": "darling_patched-0.1.20260608-unstable-2026-11-22",
+            "name": "darling_patched-0.1.20260608-unstable-2026-11-24",
             "nonTeamMaintainers": [
                 {
                     "email": "hello@zhaofeng.li",
@@ -454337,7 +454234,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "darling_patched-0.1.20260608-unstable-2026-11-22",
+        "name": "darling_patched-0.1.20260608-unstable-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null,
@@ -454345,7 +454242,7 @@
         },
         "pname": "darling_patched",
         "system": "x86_64-linux",
-        "version": "0.1.20260608-unstable-2026-11-22",
+        "version": "0.1.20260608-unstable-2026-11-24",
         "_attr": "darling_patched",
         "_repo": "mio"
     },
@@ -454456,153 +454353,6 @@
         "system": "x86_64-linux",
         "version": "0.7",
         "_attr": "datalog",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.davinci-resolve-studio2033": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Professional video editing, color, effects and audio post-processing",
-            "homepage": "https://www.blackmagicdesign.com/products/davinciresolve",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "davinci-resolve-studio",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "davinci-resolve-studio",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "davinci-resolve-studio",
-            "maintainers": [
-                {
-                    "email": "andrew@johnandrewmarshall.com",
-                    "github": "amarshall",
-                    "githubId": 153175,
-                    "name": "Andrew Marshall"
-                },
-                {
-                    "email": "xbagon@outlook.de",
-                    "github": "XBagon",
-                    "githubId": 1523292,
-                    "name": "XBagon"
-                },
-                {
-                    "github": "toXel",
-                    "githubId": 2300709,
-                    "name": "Timo Arlt"
-                },
-                {
-                    "email": "christina@cafkafk.com",
-                    "github": "cafkafk",
-                    "githubId": 89321978,
-                    "keys": [
-                        {
-                            "fingerprint": "7B9E E848 D074 AE03 7A0C  651A 8ED4 DEF7 375A 30C8"
-                        },
-                        {
-                            "fingerprint": "208A 2A66 8A2F CDE7 B5D3  8F64 CDDC 792F 6552 51ED"
-                        }
-                    ],
-                    "matrix": "@cafkafk:gitter.im",
-                    "name": "Christina S\u00f8rensen"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/davinci-resolve2033/package.nix",
-                "line": 455
-            },
-            "name": "davinci-resolve-studio-20.3.3",
-            "nonTeamMaintainers": [
-                {
-                    "email": "andrew@johnandrewmarshall.com",
-                    "github": "amarshall",
-                    "githubId": 153175,
-                    "name": "Andrew Marshall"
-                },
-                {
-                    "email": "xbagon@outlook.de",
-                    "github": "XBagon",
-                    "githubId": 1523292,
-                    "name": "XBagon"
-                },
-                {
-                    "github": "toXel",
-                    "githubId": 2300709,
-                    "name": "Timo Arlt"
-                },
-                {
-                    "email": "christina@cafkafk.com",
-                    "github": "cafkafk",
-                    "githubId": 89321978,
-                    "keys": [
-                        {
-                            "fingerprint": "7B9E E848 D074 AE03 7A0C  651A 8ED4 DEF7 375A 30C8"
-                        },
-                        {
-                            "fingerprint": "208A 2A66 8A2F CDE7 B5D3  8F64 CDDC 792F 6552 51ED"
-                        }
-                    ],
-                    "matrix": "@cafkafk:gitter.im",
-                    "name": "Christina S\u00f8rensen"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/davinci-resolve2033/package.nix#L452",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "davinci-resolve-studio-20.3.3",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "davinci-resolve-studio",
-        "system": "x86_64-linux",
-        "version": "20.3.3",
-        "_attr": "davinci-resolve-studio2033",
         "_repo": "mio"
     },
     "nur.repos.mio.davinci-resolve-studio211": {
@@ -454750,153 +454500,6 @@
         "system": "x86_64-linux",
         "version": "21.1",
         "_attr": "davinci-resolve-studio211",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.davinci-resolve2033": {
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Professional video editing, color, effects and audio post-processing",
-            "homepage": "https://www.blackmagicdesign.com/products/davinciresolve",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "davinci-resolve",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "davinci-resolve",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": false,
-                "fullName": "Unfree",
-                "licenseType": "simple",
-                "redistributable": false,
-                "shortName": "unfree"
-            },
-            "mainProgram": "davinci-resolve",
-            "maintainers": [
-                {
-                    "email": "andrew@johnandrewmarshall.com",
-                    "github": "amarshall",
-                    "githubId": 153175,
-                    "name": "Andrew Marshall"
-                },
-                {
-                    "email": "xbagon@outlook.de",
-                    "github": "XBagon",
-                    "githubId": 1523292,
-                    "name": "XBagon"
-                },
-                {
-                    "github": "toXel",
-                    "githubId": 2300709,
-                    "name": "Timo Arlt"
-                },
-                {
-                    "email": "christina@cafkafk.com",
-                    "github": "cafkafk",
-                    "githubId": 89321978,
-                    "keys": [
-                        {
-                            "fingerprint": "7B9E E848 D074 AE03 7A0C  651A 8ED4 DEF7 375A 30C8"
-                        },
-                        {
-                            "fingerprint": "208A 2A66 8A2F CDE7 B5D3  8F64 CDDC 792F 6552 51ED"
-                        }
-                    ],
-                    "matrix": "@cafkafk:gitter.im",
-                    "name": "Christina S\u00f8rensen"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/da/davinci-resolve2033/package.nix",
-                "line": 455
-            },
-            "name": "davinci-resolve-20.3.3",
-            "nonTeamMaintainers": [
-                {
-                    "email": "andrew@johnandrewmarshall.com",
-                    "github": "amarshall",
-                    "githubId": 153175,
-                    "name": "Andrew Marshall"
-                },
-                {
-                    "email": "xbagon@outlook.de",
-                    "github": "XBagon",
-                    "githubId": 1523292,
-                    "name": "XBagon"
-                },
-                {
-                    "github": "toXel",
-                    "githubId": 2300709,
-                    "name": "Timo Arlt"
-                },
-                {
-                    "email": "christina@cafkafk.com",
-                    "github": "cafkafk",
-                    "githubId": 89321978,
-                    "keys": [
-                        {
-                            "fingerprint": "7B9E E848 D074 AE03 7A0C  651A 8ED4 DEF7 375A 30C8"
-                        },
-                        {
-                            "fingerprint": "208A 2A66 8A2F CDE7 B5D3  8F64 CDDC 792F 6552 51ED"
-                        }
-                    ],
-                    "matrix": "@cafkafk:gitter.im",
-                    "name": "Christina S\u00f8rensen"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/da/davinci-resolve2033/package.nix#L452",
-            "problems": {},
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": true,
-            "unsupported": false
-        },
-        "name": "davinci-resolve-20.3.3",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "davinci-resolve",
-        "system": "x86_64-linux",
-        "version": "20.3.3",
-        "_attr": "davinci-resolve2033",
         "_repo": "mio"
     },
     "nur.repos.mio.davinci-resolve211": {
@@ -456977,294 +456580,6 @@
         "_attr": "fdroidcl_git",
         "_repo": "mio"
     },
-    "nur.repos.mio.ffmpeg_9": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/FFmpeg/FFmpeg/blob/n9.0.2/Changelog",
-            "description": "Complete, cross-platform solution to record, convert and stream audio and video",
-            "donationPage": "https://ffmpeg.org/donations.html",
-            "homepage": "https://www.ffmpeg.org/",
-            "identifiers": {
-                "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "ffmpeg",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*",
-                    "update": "*",
-                    "vendor": "ffmpeg",
-                    "version": "9.0.2"
-                },
-                "possibleCPEs": [
-                    {
-                        "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
-                        "cpeParts": {
-                            "edition": "*",
-                            "language": "*",
-                            "other": "*",
-                            "part": "a",
-                            "product": "ffmpeg",
-                            "sw_edition": "*",
-                            "target_hw": "*",
-                            "target_sw": "*",
-                            "update": "*",
-                            "vendor": "ffmpeg",
-                            "version": "9.0.2"
-                        }
-                    }
-                ],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "ffmpeg",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*",
-                        "update": "*",
-                        "vendor": "ffmpeg",
-                        "version": "9.0.2"
-                    },
-                    "possibleCPEs": [
-                        {
-                            "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:9.0.2:*:*:*:*:*:*:*",
-                            "cpeParts": {
-                                "edition": "*",
-                                "language": "*",
-                                "other": "*",
-                                "part": "a",
-                                "product": "ffmpeg",
-                                "sw_edition": "*",
-                                "target_hw": "*",
-                                "target_sw": "*",
-                                "update": "*",
-                                "vendor": "ffmpeg",
-                                "version": "9.0.2"
-                            }
-                        }
-                    ],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": [
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU Lesser General Public License v2.1 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "lgpl21Plus",
-                    "spdxId": "LGPL-2.1-or-later",
-                    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU General Public License v2.0 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "gpl2Plus",
-                    "spdxId": "GPL-2.0-or-later",
-                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU Lesser General Public License v3.0 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "lgpl3Plus",
-                    "spdxId": "LGPL-3.0-or-later",
-                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
-                },
-                {
-                    "deprecated": false,
-                    "free": true,
-                    "fullName": "GNU General Public License v3.0 or later",
-                    "licenseType": "simple",
-                    "redistributable": true,
-                    "shortName": "gpl3Plus",
-                    "spdxId": "GPL-3.0-or-later",
-                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-                }
-            ],
-            "longDescription": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,\nmux, demux, stream, filter and play pretty much anything that humans and machines\nhave created. It supports the most obscure ancient formats up to the cutting edge.\nNo matter if they were designed by some standards committee, the community or\na corporation.\n",
-            "mainProgram": "ffmpeg",
-            "maintainers": [
-                {
-                    "email": "nixpkgs@mail.atemu.net",
-                    "github": "Atemu",
-                    "githubId": 18599032,
-                    "name": "Atemu"
-                },
-                {
-                    "email": "nixpkgs@missing.ninja",
-                    "github": "jopejoe1",
-                    "githubId": 34899572,
-                    "matrix": "@jopejoe1:matrix.org",
-                    "name": "jopejoe1"
-                },
-                {
-                    "email": "nixpkgs@emily.moe",
-                    "github": "emilazy",
-                    "githubId": 18535642,
-                    "name": "Emily"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 7,
-                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/development/libraries/ffmpeg/generic.nix",
-                "line": 1140
-            },
-            "name": "ffmpeg-9.0.2",
-            "nonTeamMaintainers": [
-                {
-                    "email": "nixpkgs@mail.atemu.net",
-                    "github": "Atemu",
-                    "githubId": 18599032,
-                    "name": "Atemu"
-                },
-                {
-                    "email": "nixpkgs@missing.ninja",
-                    "github": "jopejoe1",
-                    "githubId": 34899572,
-                    "matrix": "@jopejoe1:matrix.org",
-                    "name": "jopejoe1"
-                },
-                {
-                    "email": "nixpkgs@emily.moe",
-                    "github": "emilazy",
-                    "githubId": 18535642,
-                    "name": "Emily"
-                }
-            ],
-            "outputsToInstall": [
-                "bin",
-                "man"
-            ],
-            "pkgConfigModules": [
-                "libavcodec",
-                "libavdevice",
-                "libavfilter",
-                "libavformat",
-                "libavutil",
-                "libswresample",
-                "libswscale"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-darwin",
-                "aarch64-linux",
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "javascript-ghcjs",
-                "arc-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "loongarch64-linux",
-                "m68k-linux",
-                "sh4-linux",
-                "microblaze-linux",
-                "microblazeel-linux",
-                "mips-linux",
-                "mips64-linux",
-                "mips64el-linux",
-                "mipsel-linux",
-                "powerpc-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "s390x-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64_be-none",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "microblaze-none",
-                "microblazeel-none",
-                "mips-none",
-                "mips64-none",
-                "msp430-none",
-                "or1k-none",
-                "m68k-none",
-                "powerpc-none",
-                "powerpcle-none",
-                "riscv32-none",
-                "riscv64-none",
-                "rx-none",
-                "s390-none",
-                "s390x-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasip1",
-                "wasm32-wasip1",
-                "aarch64-windows",
-                "x86_64-windows",
-                "i686-windows",
-                "aarch64-uefi",
-                "x86_64-uefi"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/development/libraries/ffmpeg/generic.nix#L1107",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "ffmpeg-9.0.2",
-        "outputName": "bin",
-        "outputs": {
-            "bin": null,
-            "data": null,
-            "dev": null,
-            "doc": null,
-            "lib": null,
-            "man": null,
-            "out": null
-        },
-        "pname": "ffmpeg",
-        "system": "x86_64-linux",
-        "version": "9.0.2",
-        "_attr": "ffmpeg_9",
-        "_repo": "mio"
-    },
     "nur.repos.mio.firefox-relay-firefox": {
         "meta": {
             "available": true,
@@ -458501,7 +457816,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.5",
+            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.6",
             "description": "Forkgram Desktop messaging app",
             "homepage": "https://github.com/forkgram/tdesktop",
             "identifiers": {
@@ -458559,7 +457874,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/applications/networking/instant-messengers/telegram/telegram-desktop/unwrapped.nix",
                 "line": 154
             },
-            "name": "forkgram-desktop-unwrapped-7.4.5",
+            "name": "forkgram-desktop-unwrapped-7.4.6",
             "nonTeamMaintainers": [
                 {
                     "email": "nickcao@nichi.co",
@@ -458652,19 +457967,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L89",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L114",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "forkgram-desktop-7.4.5",
+        "name": "forkgram-desktop-7.4.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "forkgram-desktop",
         "system": "x86_64-linux",
-        "version": "7.4.5",
+        "version": "7.4.6",
         "_attr": "forkgram-desktop",
         "_repo": "mio"
     },
@@ -458672,7 +457987,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.5",
+            "changelog": "https://github.com/forkgram/tdesktop/releases/tag/v7.4.6",
             "description": "Forkgram Desktop messaging app",
             "homepage": "https://github.com/forkgram/tdesktop",
             "identifiers": {
@@ -458730,7 +458045,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/applications/networking/instant-messengers/telegram/telegram-desktop/unwrapped.nix",
                 "line": 154
             },
-            "name": "forkgram-desktop-unwrapped-7.4.5",
+            "name": "forkgram-desktop-unwrapped-7.4.6",
             "nonTeamMaintainers": [
                 {
                     "email": "nickcao@nichi.co",
@@ -458823,19 +458138,19 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L89",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fo/forkgram-desktop/package.nix#L114",
             "problems": {},
             "unfree": false,
             "unsupported": false
         },
-        "name": "forkgram-desktop-7.4.5",
+        "name": "forkgram-desktop-7.4.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "forkgram-desktop",
         "system": "x86_64-linux",
-        "version": "7.4.5",
+        "version": "7.4.6",
         "_attr": "forkgram-desktop_patched",
         "_repo": "mio"
     },
@@ -462134,100 +461449,6 @@
         "_attr": "icloud-mail",
         "_repo": "mio"
     },
-    "nur.repos.mio.ilo": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Collection of helpful datatypes and algorithms for MPEG-H software",
-            "homepage": "https://github.com/Fraunhofer-IIS/ilo",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "ilo",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "ilo",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Fraunhofer FDK AAC Codec Library",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "fraunhofer-fdk",
-                "spdxId": "FDK-AAC",
-                "url": "https://spdx.org/licenses/FDK-AAC.html"
-            },
-            "maintainers": [
-                {
-                    "email": "nixpkgs@missing.ninja",
-                    "github": "jopejoe1",
-                    "githubId": 34899572,
-                    "matrix": "@jopejoe1:matrix.org",
-                    "name": "jopejoe1"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/il/ilo/package.nix",
-                "line": 85
-            },
-            "name": "ilo-2.0.2",
-            "nonTeamMaintainers": [
-                {
-                    "email": "nixpkgs@missing.ninja",
-                    "github": "jopejoe1",
-                    "githubId": 34899572,
-                    "matrix": "@jopejoe1:matrix.org",
-                    "name": "jopejoe1"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "pkgConfigModules": [
-                "ilo"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/il/ilo/package.nix#L82",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "ilo-2.0.2",
-        "outputName": "out",
-        "outputs": {
-            "dev": null,
-            "doc": null,
-            "out": null
-        },
-        "pname": "ilo",
-        "system": "x86_64-linux",
-        "version": "2.0.2",
-        "_attr": "ilo",
-        "_repo": "mio"
-    },
     "nur.repos.mio.insta360-studio": {
         "meta": {
             "available": false,
@@ -463007,7 +462228,7 @@
             },
             "mainProgram": "kyty_launcher",
             "maintainers": [],
-            "name": "kytyps5-0-unstable-2026-11-22",
+            "name": "kytyps5-0-unstable-2026-11-23",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -463032,14 +462253,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kytyps5-0-unstable-2026-11-22",
+        "name": "kytyps5-0-unstable-2026-11-23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kytyps5",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-22",
+        "version": "0-unstable-2026-11-23",
         "_attr": "kytyps5",
         "_repo": "mio"
     },
@@ -463256,7 +462477,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Immortal-Protocols/lastbook/releases/tag/v1.1.16",
+            "changelog": "https://github.com/Immortal-Protocols/lastbook/releases/tag/v1.1.17",
             "description": "Offline survival library: guides, manuals, videos, maps and encyclopedias",
             "homepage": "https://lastbook.org",
             "identifiers": {
@@ -463301,7 +462522,7 @@
             },
             "mainProgram": "lastbook",
             "maintainers": [],
-            "name": "lastbook-1.1.16",
+            "name": "lastbook-1.1.17",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -463343,14 +462564,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lastbook-1.1.16",
+        "name": "lastbook-1.1.17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lastbook",
         "system": "x86_64-linux",
-        "version": "1.1.16",
+        "version": "1.1.17",
         "_attr": "lastbook",
         "_repo": "mio"
     },
@@ -463358,7 +462579,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Immortal-Protocols/lastbook/releases/tag/v1.1.16",
+            "changelog": "https://github.com/Immortal-Protocols/lastbook/releases/tag/v1.1.17",
             "description": "Offline survival library: guides, manuals, videos, maps and encyclopedias",
             "homepage": "https://lastbook.org",
             "identifiers": {
@@ -463403,7 +462624,7 @@
             },
             "mainProgram": "lastbook",
             "maintainers": [],
-            "name": "lastbook_patched-1.1.16",
+            "name": "lastbook_patched-1.1.17",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -463445,14 +462666,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lastbook_patched-1.1.16",
+        "name": "lastbook_patched-1.1.17",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lastbook_patched",
         "system": "x86_64-linux",
-        "version": "1.1.16",
+        "version": "1.1.17",
         "_attr": "lastbook_patched",
         "_repo": "mio"
     },
@@ -466067,101 +465288,6 @@
         "system": "x86_64-linux",
         "version": "1.0.0",
         "_attr": "mkwindowsapp-tools",
-        "_repo": "mio"
-    },
-    "nur.repos.mio.mpeghdec": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "C/C++ implementation of the MPEG-H Audio standard as defined in ISO/IEC 23008-3:2022",
-            "homepage": "https://github.com/Fraunhofer-IIS/mpeghdec",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "mpeghdec",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "mpeghdec",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "Fraunhofer FDK AAC Codec Library",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "fraunhofer-fdk",
-                "spdxId": "FDK-AAC",
-                "url": "https://spdx.org/licenses/FDK-AAC.html"
-            },
-            "maintainers": [
-                {
-                    "email": "nixpkgs@missing.ninja",
-                    "github": "jopejoe1",
-                    "githubId": 34899572,
-                    "matrix": "@jopejoe1:matrix.org",
-                    "name": "jopejoe1"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/mp/mpeghdec/package.nix",
-                "line": 100
-            },
-            "name": "mpeghdec-4.0.1",
-            "nonTeamMaintainers": [
-                {
-                    "email": "nixpkgs@missing.ninja",
-                    "github": "jopejoe1",
-                    "githubId": 34899572,
-                    "matrix": "@jopejoe1:matrix.org",
-                    "name": "jopejoe1"
-                }
-            ],
-            "outputsToInstall": [
-                "bin"
-            ],
-            "pkgConfigModules": [
-                "mpeghdec"
-            ],
-            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/mp/mpeghdec/package.nix#L97",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "mpeghdec-4.0.1",
-        "outputName": "out",
-        "outputs": {
-            "bin": null,
-            "dev": null,
-            "doc": null,
-            "out": null
-        },
-        "pname": "mpeghdec",
-        "system": "x86_64-linux",
-        "version": "4.0.1",
-        "_attr": "mpeghdec",
         "_repo": "mio"
     },
     "nur.repos.mio.msvc-wine-toolchain": {
@@ -478792,7 +477918,7 @@
             },
             "mainProgram": "terminal-browser",
             "maintainers": [],
-            "name": "terminal-browser-0.15.9",
+            "name": "terminal-browser-0.16.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -478834,14 +477960,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "terminal-browser-0.15.9",
+        "name": "terminal-browser-0.16.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "terminal-browser",
         "system": "x86_64-linux",
-        "version": "0.15.9",
+        "version": "0.16.1",
         "_attr": "terminal-browser",
         "_repo": "mio"
     },
@@ -480358,7 +479484,7 @@
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
             "maintainers": [],
-            "name": "user-agent-switcher-firefox-1.4.115",
+            "name": "user-agent-switcher-firefox-1.4.116",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -480454,14 +479580,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "user-agent-switcher-firefox-1.4.115",
+        "name": "user-agent-switcher-firefox-1.4.116",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "user-agent-switcher-firefox",
         "system": "x86_64-linux",
-        "version": "1.4.115",
+        "version": "1.4.116",
         "_attr": "user-agent-switcher-firefox",
         "_repo": "mio"
     },
@@ -481688,7 +480814,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/stdenv/generic/check-meta.nix",
                 "line": 527
             },
-            "name": "wallet-engine-0.0.7-unstable-2026-11-23",
+            "name": "wallet-engine-0.0.7-unstable-2026-10-02",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -481729,7 +480855,7 @@
                 "riscv64-netbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/wa/wallet-engine/package.nix#L63",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/wa/wallet-engine/package.nix#L68",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -481739,14 +480865,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wallet-engine-0.0.7-unstable-2026-11-23",
+        "name": "wallet-engine-0.0.7-unstable-2026-10-02",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wallet-engine",
         "system": "x86_64-linux",
-        "version": "0.0.7-unstable-2026-11-23",
+        "version": "0.0.7-unstable-2026-10-02",
         "_attr": "wallet-engine",
         "_repo": "mio"
     },
