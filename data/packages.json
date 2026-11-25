@@ -47571,7 +47571,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Sittymin/pkgs/antigravity/default.nix",
                 "line": 195
             },
-            "name": "antigravity-2.35.0-6394266482769920",
+            "name": "antigravity-2.35.1-4615540875067392",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -47590,14 +47590,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "antigravity-2.35.0-6394266482769920",
+        "name": "antigravity-2.35.1-4615540875067392",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity",
         "system": "x86_64-linux",
-        "version": "2.35.0-6394266482769920",
+        "version": "2.35.1-4615540875067392",
         "_attr": "antigravity",
         "_repo": "Sittymin"
     },
@@ -490182,7 +490182,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/badrisnarayanan/antigravity-claude-proxy/releases/tag/v3.1.1",
+            "changelog": "https://github.com/badrisnarayanan/antigravity-claude-proxy/releases/tag/v3.1.2",
             "description": "Proxy server to use Antigravity's Claude models with Claude Code CLI",
             "homepage": "https://github.com/badrisnarayanan/antigravity-claude-proxy",
             "identifiers": {
@@ -490245,7 +490245,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/an/antigravity-claude-proxy/package.nix",
                 "line": 60
             },
-            "name": "antigravity-claude-proxy-3.1.1",
+            "name": "antigravity-claude-proxy-3.1.2",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -490291,14 +490291,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "antigravity-claude-proxy-3.1.1",
+        "name": "antigravity-claude-proxy-3.1.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity-claude-proxy",
         "system": "x86_64-linux",
-        "version": "3.1.1",
+        "version": "3.1.2",
         "_attr": "antigravity-claude-proxy",
         "_repo": "moraxyc"
     },
@@ -491101,7 +491101,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cl/cliproxy-antigravity/package.nix",
                 "line": 57
             },
-            "name": "cliproxy-antigravity-0.4.0",
+            "name": "cliproxy-antigravity-0.6.0",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -491156,14 +491156,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxy-antigravity-0.4.0",
+        "name": "cliproxy-antigravity-0.6.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxy-antigravity",
         "system": "x86_64-linux",
-        "version": "0.4.0",
+        "version": "0.6.0",
         "_attr": "cliproxy-antigravity",
         "_repo": "moraxyc"
     },
@@ -491520,7 +491520,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 57
             },
-            "name": "cpa-usage-keeper-2.1.1-unstable-2026-11-24",
+            "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-25",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -491575,14 +491575,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.1.1-unstable-2026-11-24",
+        "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.1.1-unstable-2026-11-24",
+        "version": "2.1.2-unstable-2026-11-25",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -493132,238 +493132,6 @@
         "_attr": "hmcl-dev-windows",
         "_repo": "moraxyc"
     },
-    "nur.repos.moraxyc.horizon-client": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Minecraft: Java Edition rebuilt in Rust",
-            "homepage": "https://github.com/horizon-rust/horizon",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "horizon-client",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "horizon-client",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "horizon-client",
-            "maintainers": [
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ho/horizon-client/package.nix",
-                "line": 71
-            },
-            "name": "horizon-client-0-unstable-2026-11-24",
-            "nonTeamMaintainers": [
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/ho/horizon-client/package.nix#L68",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "horizon-client-0-unstable-2026-11-24",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "horizon-client",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-24",
-        "_attr": "horizon-client",
-        "_repo": "moraxyc"
-    },
-    "nur.repos.moraxyc.horizon-prepare": {
-        "meta": {
-            "available": true,
-            "badPlatforms": [
-                {
-                    "abi": {
-                        "abi": "n32"
-                    },
-                    "cpu": {
-                        "bits": 64,
-                        "family": "mips"
-                    }
-                }
-            ],
-            "broken": false,
-            "description": "Prepare Horizon resources from your own copy of Minecraft: Java Edition",
-            "homepage": "https://github.com/horizon-rust/horizon",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "horizon-prepare",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "horizon-prepare",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "MIT License",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "horizon-prepare",
-            "maintainers": [
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                }
-            ],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ho/horizon-prepare/package.nix",
-                "line": 56
-            },
-            "name": "horizon-prepare-0-unstable-2026-11-24",
-            "nonTeamMaintainers": [
-                {
-                    "email": "i@qaq.li",
-                    "github": "Moraxyc",
-                    "githubId": 69713071,
-                    "keys": [
-                        {
-                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
-                        }
-                    ],
-                    "matrix": "@moraxyc:qaq.li",
-                    "name": "Moraxyc Xu"
-                }
-            ],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-darwin",
-                "aarch64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/ho/horizon-prepare/package.nix#L53",
-            "problems": {},
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "horizon-prepare-0-unstable-2026-11-24",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "horizon-prepare",
-        "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-24",
-        "_attr": "horizon-prepare",
-        "_repo": "moraxyc"
-    },
     "nur.repos.moraxyc.hysteria-realm-server": {
         "meta": {
             "available": false,
@@ -494381,7 +494149,7 @@
                 "shortName": "unfree"
             },
             "maintainers": [],
-            "name": "maxmind-geolite2-2026.11.22",
+            "name": "maxmind-geolite2-2026.11.25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -494396,14 +494164,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "maxmind-geolite2-2026.11.22",
+        "name": "maxmind-geolite2-2026.11.25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "maxmind-geolite2",
         "system": "x86_64-linux",
-        "version": "2026.11.22",
+        "version": "2026.11.25",
         "_attr": "maxmind-geolite2",
         "_repo": "moraxyc"
     },
@@ -494603,7 +494371,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-11-24",
+            "name": "meta-rules-dat-2026-11-25",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -494626,7 +494394,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-11-24",
+        "name": "meta-rules-dat-2026-11-25",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -494638,7 +494406,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-24",
+        "version": "2026-11-25",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -499646,7 +499414,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-11-23",
+            "name": "sing-rules-geo-2026-11-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -499661,7 +499429,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-11-23",
+        "name": "sing-rules-geo-2026-11-24",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -499671,7 +499439,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-11-23",
+        "version": "2026-11-24",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -499801,6 +499569,232 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-07-08",
         "_attr": "subconverter",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.sunrise-client": {
+        "meta": {
+            "available": false,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Sunrise, Minecraft: Java Edition 26.3 rewritten in Rust, and sunrise-ctl",
+            "homepage": "https://playsunrise.net",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sunrise-client",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sunrise-client",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "PolyForm Shield License 1.0.0",
+                "redistributable": true,
+                "spdxId": "PolyForm-Shield-1.0.0",
+                "url": "https://polyformproject.org/licenses/shield/1.0.0/"
+            },
+            "mainProgram": "sunrise-client",
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/su/sunrise-client/package.nix",
+                "line": 77
+            },
+            "name": "sunrise-client-0-unstable-2026-11-25",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/su/sunrise-client/package.nix#L68",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "sunrise-client-0-unstable-2026-11-25",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sunrise-client",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-11-25",
+        "_attr": "sunrise-client",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.sunrise-prepare": {
+        "meta": {
+            "available": false,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Prepare Sunrise's game files from your own copy of Minecraft: Java Edition 26.3",
+            "homepage": "https://playsunrise.net",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sunrise-prepare",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sunrise-prepare",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "PolyForm Shield License 1.0.0",
+                "redistributable": true,
+                "spdxId": "PolyForm-Shield-1.0.0",
+                "url": "https://polyformproject.org/licenses/shield/1.0.0/"
+            },
+            "mainProgram": "sunrise-prepare",
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/su/sunrise-prepare/package.nix",
+                "line": 62
+            },
+            "name": "sunrise-prepare-0-unstable-2026-11-25",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/su/sunrise-prepare/package.nix#L53",
+            "problems": {},
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "sunrise-prepare-0-unstable-2026-11-25",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sunrise-prepare",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-11-25",
+        "_attr": "sunrise-prepare",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.tokenrouter": {
@@ -500083,7 +500077,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-11-23",
+            "name": "v2ray-rules-dat-2026-11-24",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -500098,7 +500092,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-11-23",
+        "name": "v2ray-rules-dat-2026-11-24",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -500106,7 +500100,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-23",
+        "version": "2026-11-24",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
