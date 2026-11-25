@@ -370574,184 +370574,6 @@
         "_attr": "uvShellHook",
         "_repo": "mattrobenolt"
     },
-    "nur.repos.mattrobenolt.zed": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A high-performance, multiplayer code editor",
-            "homepage": "https://zed.dev",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "zed",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "zed",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "zed",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mattrobenolt/pkgs/zed/package.nix",
-                "line": 93
-            },
-            "name": "zed-1.29.3",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mattrobenolt/pkgs/zed/package.nix#L85",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "zed-1.29.3",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "zed",
-        "system": "x86_64-linux",
-        "version": "1.29.3",
-        "_attr": "zed",
-        "_repo": "mattrobenolt"
-    },
-    "nur.repos.mattrobenolt.zed-preview": {
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A high-performance, multiplayer code editor (Preview)",
-            "homepage": "https://zed.dev",
-            "identifiers": {
-                "cpeParts": {
-                    "edition": "*",
-                    "language": "*",
-                    "other": "*",
-                    "part": "a",
-                    "product": "zed-preview",
-                    "sw_edition": "*",
-                    "target_hw": "*",
-                    "target_sw": "*"
-                },
-                "possibleCPEs": [],
-                "purlParts": {},
-                "purls": [],
-                "v1": {
-                    "cpeParts": {
-                        "edition": "*",
-                        "language": "*",
-                        "other": "*",
-                        "part": "a",
-                        "product": "zed-preview",
-                        "sw_edition": "*",
-                        "target_hw": "*",
-                        "target_sw": "*"
-                    },
-                    "possibleCPEs": [],
-                    "purls": []
-                }
-            },
-            "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 only",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "mainProgram": "zed",
-            "maintainers": [],
-            "maintainersPosition": {
-                "column": 5,
-                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mattrobenolt/pkgs/zed/package.nix",
-                "line": 93
-            },
-            "name": "zed-preview-1.30.2-pre",
-            "nonTeamMaintainers": [],
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "aarch64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mattrobenolt/pkgs/zed/package.nix#L85",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
-            "sourceProvenance": [
-                {
-                    "isSource": false,
-                    "shortName": "binaryNativeCode"
-                }
-            ],
-            "unfree": false,
-            "unsupported": false
-        },
-        "name": "zed-preview-1.30.2-pre",
-        "outputName": "out",
-        "outputs": {
-            "out": null
-        },
-        "pname": "zed-preview",
-        "system": "x86_64-linux",
-        "version": "1.30.2-pre",
-        "_attr": "zed-preview",
-        "_repo": "mattrobenolt"
-    },
     "nur.repos.mattrobenolt.zigdoc": {
         "meta": {
             "available": true,
@@ -449471,6 +449293,155 @@
         "_attr": "caddy",
         "_repo": "mio"
     },
+    "nur.repos.mio.calibre_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/kovidgoyal/calibre/releases/tag/v9.17.0",
+            "description": "Comprehensive e-book software",
+            "homepage": "https://calibre-ebook.com",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "calibre_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "calibre_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "calibre is a powerful and easy to use e-book manager. Users say it\u2019s\noutstanding and a must-have. It\u2019ll allow you to do nearly everything and\nit takes things a step beyond normal e-book software. It\u2019s also completely\nfree and open source and great for both casual users and computer experts.\n",
+            "mainProgram": "calibre",
+            "maintainers": [
+                {
+                    "email": "mail@pascal-wittmann.de",
+                    "github": "pSub",
+                    "githubId": 83842,
+                    "name": "Pascal Wittmann"
+                },
+                {
+                    "email": "myrialsarvay@gmail.com",
+                    "github": "sempiternal-aurora",
+                    "githubId": 78790545,
+                    "name": "Myria Sarvay"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/ca/calibre/package.nix",
+                "line": 337
+            },
+            "name": "calibre_patched-9.17.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "mail@pascal-wittmann.de",
+                    "github": "pSub",
+                    "githubId": 83842,
+                    "name": "Pascal Wittmann"
+                },
+                {
+                    "email": "myrialsarvay@gmail.com",
+                    "github": "sempiternal-aurora",
+                    "githubId": 78790545,
+                    "name": "Myria Sarvay"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "x86_64-solaris",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/ca/calibre/package.nix#L327",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "calibre_patched-9.17.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "calibre_patched",
+        "system": "x86_64-linux",
+        "version": "9.17.0",
+        "_attr": "calibre_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.capcut": {
         "meta": {
             "available": false,
@@ -460529,7 +460500,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited-unwrapped/package.nix#L100",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited-unwrapped/package.nix#L140",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -460609,7 +460580,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited-unwrapped/package.nix#L100",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gt/gt3-revisited-unwrapped/package.nix#L140",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -495416,6 +495387,105 @@
         "system": "x86_64-linux",
         "version": "0.0.35",
         "_attr": "pi-acp",
+        "_repo": "moraxyc"
+    },
+    "nur.repos.moraxyc.pi-ask": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Interactive clarification flows for Pi coding agent",
+            "homepage": "https://github.com/eko24ive/pi-ask",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pi-ask",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pi-ask",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-ask/package.nix",
+                "line": 67
+            },
+            "name": "pi-ask-1.2.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "i@qaq.li",
+                    "github": "Moraxyc",
+                    "githubId": 69713071,
+                    "keys": [
+                        {
+                            "fingerprint": "7DD1 A4DF 7DD6 AEEB F07B  1108 8296 4F3A B1D9 DE79"
+                        }
+                    ],
+                    "matrix": "@moraxyc:qaq.li",
+                    "name": "Moraxyc Xu"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/moraxyc/pkgs/by-name/pi/pi-ask/package.nix#L64",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pi-ask-1.2.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pi-ask",
+        "system": "x86_64-linux",
+        "version": "1.2.0",
+        "_attr": "pi-ask",
         "_repo": "moraxyc"
     },
     "nur.repos.moraxyc.pi-ast-sgrep": {
@@ -737720,7 +737790,7 @@
             ],
             "mainProgram": "revue",
             "maintainers": [],
-            "name": "revue-bin-0.44.12",
+            "name": "revue-bin-0.44.14",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -737745,14 +737815,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "revue-bin-0.44.12",
+        "name": "revue-bin-0.44.14",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "revue-bin",
         "system": "x86_64-linux",
-        "version": "0.44.12",
+        "version": "0.44.14",
         "_attr": "revue-bin",
         "_repo": "revue"
     },
@@ -784607,7 +784677,7 @@
                 "aarch64-uefi",
                 "x86_64-uefi"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/default.nix#L256",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/rycee/pkgs/firefox-addons/default.nix#L258",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1031994,7 +1032064,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://gitlab.com/gitlab-org/cli/-/releases/v1.131.0",
+            "changelog": "https://gitlab.com/gitlab-org/cli/-/releases/v1.133.0",
             "description": "GitLab CLI tool bringing GitLab to your command line (upstream prebuilt binary)",
             "homepage": "https://gitlab.com/gitlab-org/cli",
             "identifiers": {
@@ -1032039,7 +1032109,7 @@
             },
             "mainProgram": "glab",
             "maintainers": [],
-            "name": "glab-bin-1.131.0",
+            "name": "glab-bin-1.133.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1032063,14 +1032133,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "glab-bin-1.131.0",
+        "name": "glab-bin-1.133.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "glab-bin",
         "system": "x86_64-linux",
-        "version": "1.131.0",
+        "version": "1.133.0",
         "_attr": "glab-bin",
         "_repo": "unstable-code"
     },
