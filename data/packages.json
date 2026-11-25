@@ -364914,7 +364914,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/pkgs/galgamemanager/default.nix",
                 "line": 145
             },
-            "name": "galgamemanager-1.4.1",
+            "name": "galgamemanager-1.4.2",
             "nonTeamMaintainers": [
                 "lxl66566"
             ],
@@ -364935,14 +364935,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "galgamemanager-1.4.1",
+        "name": "galgamemanager-1.4.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "galgamemanager",
         "system": "x86_64-linux",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "_attr": "galgamemanager",
         "_repo": "lxl66566"
     },
@@ -462303,6 +462303,408 @@
         "_attr": "kdeconnect-kde_patched",
         "_repo": "mio"
     },
+    "nur.repos.mio.kdenlive_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free and open source video editor, based on MLT Framework and KDE Frameworks",
+            "donationPage": "https://kde.org/donate/",
+            "homepage": "https://invent.kde.org/multimedia/kdenlive",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "kdenlive_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "kdenlive_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "bsd3",
+                    "spdxId": "BSD-3-Clause",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Boost Software License 1.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "boost",
+                    "spdxId": "BSL-1.0",
+                    "url": "https://spdx.org/licenses/BSL-1.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Creative Commons Attribution Share Alike 4.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "cc-by-sa-40",
+                    "spdxId": "CC-BY-SA-4.0",
+                    "url": "https://spdx.org/licenses/CC-BY-SA-4.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Creative Commons Zero v1.0 Universal",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "cc0",
+                    "spdxId": "CC0-1.0",
+                    "url": "https://spdx.org/licenses/CC0-1.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v2.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl2Only",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Only",
+                    "spdxId": "GPL-3.0-only",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v3.0 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl3Only",
+                    "spdxId": "LGPL-3.0-only",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "mainProgram": "kdenlive",
+            "maintainers": [
+                {
+                    "email": "me@0upti.me",
+                    "github": "K900",
+                    "githubId": 386765,
+                    "matrix": "@k900:0upti.me",
+                    "name": "Ilya K."
+                },
+                {
+                    "email": "nickcao@nichi.co",
+                    "github": "NickCao",
+                    "githubId": 15247171,
+                    "name": "Nick Cao"
+                },
+                {
+                    "email": "sandro.jaeckel@gmail.com",
+                    "github": "SuperSandro2000",
+                    "githubId": 7258858,
+                    "matrix": "@sandro:supersandro.de",
+                    "name": "Sandro J\u00e4ckel"
+                },
+                {
+                    "email": "fridh@fridh.nl",
+                    "github": "FRidh",
+                    "githubId": 2129135,
+                    "name": "Frederik Rietdijk"
+                },
+                {
+                    "email": "nixpkgs-maintainer@lunnova.dev",
+                    "github": "LunNova",
+                    "githubId": 782440,
+                    "name": "Luna Nova"
+                },
+                {
+                    "email": "nixos@kchr.de",
+                    "github": "bkchr",
+                    "githubId": 5718007,
+                    "name": "Bastian K\u00f6cher"
+                },
+                {
+                    "email": "fedin-ilja2010@ya.ru",
+                    "github": "ilya-fedin",
+                    "githubId": 17829319,
+                    "name": "Ilya Fedin"
+                },
+                {
+                    "email": "matt@mattmoriarity.com",
+                    "github": "mjm",
+                    "githubId": 1181,
+                    "matrix": "@mjm:beeper.com",
+                    "name": "Matt Moriarity"
+                },
+                {
+                    "email": "paul@nyanlout.re",
+                    "github": "nyanloutre",
+                    "githubId": 7677321,
+                    "name": "Paul Trehiou"
+                },
+                {
+                    "email": "peter@hoeg.com",
+                    "github": "peterhoeg",
+                    "githubId": 722550,
+                    "matrix": "@peter:hoeg.com",
+                    "name": "Peter Hoeg"
+                }
+            ],
+            "name": "kdenlive_patched-26.08.3",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/kde/gear/kdenlive/default.nix#L22",
+            "problems": {},
+            "teams": [
+                {
+                    "enableFeatureFreezePing": true,
+                    "github": "qt-kde",
+                    "githubId": 4341481,
+                    "githubMaintainers": [
+                        {
+                            "email": "me@0upti.me",
+                            "github": "K900",
+                            "githubId": 386765,
+                            "matrix": "@k900:0upti.me",
+                            "name": "Ilya K."
+                        },
+                        {
+                            "email": "nickcao@nichi.co",
+                            "github": "NickCao",
+                            "githubId": 15247171,
+                            "name": "Nick Cao"
+                        },
+                        {
+                            "email": "sandro.jaeckel@gmail.com",
+                            "github": "SuperSandro2000",
+                            "githubId": 7258858,
+                            "matrix": "@sandro:supersandro.de",
+                            "name": "Sandro J\u00e4ckel"
+                        }
+                    ],
+                    "members": [
+                        {
+                            "email": "me@0upti.me",
+                            "github": "K900",
+                            "githubId": 386765,
+                            "matrix": "@k900:0upti.me",
+                            "name": "Ilya K."
+                        },
+                        {
+                            "email": "nickcao@nichi.co",
+                            "github": "NickCao",
+                            "githubId": 15247171,
+                            "name": "Nick Cao"
+                        },
+                        {
+                            "email": "sandro.jaeckel@gmail.com",
+                            "github": "SuperSandro2000",
+                            "githubId": 7258858,
+                            "matrix": "@sandro:supersandro.de",
+                            "name": "Sandro J\u00e4ckel"
+                        },
+                        {
+                            "email": "fridh@fridh.nl",
+                            "github": "FRidh",
+                            "githubId": 2129135,
+                            "name": "Frederik Rietdijk"
+                        },
+                        {
+                            "email": "nixpkgs-maintainer@lunnova.dev",
+                            "github": "LunNova",
+                            "githubId": 782440,
+                            "name": "Luna Nova"
+                        },
+                        {
+                            "email": "nixos@kchr.de",
+                            "github": "bkchr",
+                            "githubId": 5718007,
+                            "name": "Bastian K\u00f6cher"
+                        },
+                        {
+                            "email": "fedin-ilja2010@ya.ru",
+                            "github": "ilya-fedin",
+                            "githubId": 17829319,
+                            "name": "Ilya Fedin"
+                        },
+                        {
+                            "email": "matt@mattmoriarity.com",
+                            "github": "mjm",
+                            "githubId": 1181,
+                            "matrix": "@mjm:beeper.com",
+                            "name": "Matt Moriarity"
+                        },
+                        {
+                            "email": "paul@nyanlout.re",
+                            "github": "nyanloutre",
+                            "githubId": 7677321,
+                            "name": "Paul Trehiou"
+                        },
+                        {
+                            "email": "peter@hoeg.com",
+                            "github": "peterhoeg",
+                            "githubId": 722550,
+                            "matrix": "@peter:hoeg.com",
+                            "name": "Peter Hoeg"
+                        }
+                    ],
+                    "scope": "Maintain the Qt framework, KDE application suite, Plasma desktop environment and related projects",
+                    "shortName": "Qt-KDE"
+                }
+            ],
+            "teamsPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/kde/lib/mk-kde-derivation.nix",
+                "line": 168
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "kdenlive_patched-26.08.3",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "dev": null,
+            "devtools": null,
+            "out": null
+        },
+        "pname": "kdenlive_patched",
+        "system": "x86_64-linux",
+        "version": "26.08.3",
+        "_attr": "kdenlive_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.kiwix-apple": {
         "meta": {
             "available": true,
@@ -491171,7 +491573,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.3",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.4",
             "description": "Proxy that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -491248,7 +491650,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/cl/cliproxyapi/package.nix",
                 "line": 55
             },
-            "name": "cliproxyapi-8.1.3",
+            "name": "cliproxyapi-8.1.4",
             "nonTeamMaintainers": [
                 {
                     "email": "i@anish.land",
@@ -491317,14 +491719,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.1.3",
+        "name": "cliproxyapi-8.1.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.1.3",
+        "version": "8.1.4",
         "_attr": "cliproxyapi",
         "_repo": "moraxyc"
     },
