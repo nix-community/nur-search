@@ -47755,7 +47755,7 @@
             },
             "mainProgram": "chatgpt",
             "maintainers": [],
-            "name": "chatgpt-26.1120.41243",
+            "name": "chatgpt-26.1120.50957",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -47773,14 +47773,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1120.41243",
+        "name": "chatgpt-26.1120.50957",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1120.41243",
+        "version": "26.1120.50957",
         "_attr": "chatgpt",
         "_repo": "Sittymin"
     },
@@ -352674,7 +352674,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/plannotator/default.nix",
                 "line": 86
             },
-            "name": "plannotator-0.29.3",
+            "name": "plannotator-0.29.4",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -352698,14 +352698,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "plannotator-0.29.3",
+        "name": "plannotator-0.29.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "plannotator",
         "system": "x86_64-linux",
-        "version": "0.29.3",
+        "version": "0.29.4",
         "_attr": "plannotator",
         "_repo": "lmdevv"
     },
@@ -545882,7 +545882,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Web extension for Shiori, a simple bookmark manager.\nSource code: <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/f665bd935533eb5705b9b5a9b66fa6bf85948f0d63dc51251ce6bcbb57366666/https%3A//github.com/go-shiori/shiori\" rel=\"nofollow\">https://github.com/go-shiori/shiori</a>, <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/47f5664568166259ecbd623f26626113f4386ff691306c50bcbfef3030f2504b/https%3A//github.com/go-shiori/shiori-web-ext\" rel=\"nofollow\">https://github.com/go-shiori/shiori-web-ext</a>",
+            "description": "Web extension for Shiori, a simple bookmark manager.\nSource code: https://github.com/go-shiori/shiori, https://github.com/go-shiori/shiori-web-ext",
             "homepage": "https://github.com/go-shiori/shiori-web-ext",
             "identifiers": {
                 "cpeParts": {
@@ -545924,12 +545924,14 @@
             },
             "maintainers": [],
             "mozPermissions": [
-                "<all_urls>",
                 "tabs",
                 "storage",
-                "bookmarks"
+                "bookmarks",
+                "scripting",
+                "activeTab",
+                "<all_urls>"
             ],
-            "name": "shiori_ext-0.8.5",
+            "name": "shiori_ext-1.8.0.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -546025,14 +546027,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "shiori_ext-0.8.5",
+        "name": "shiori_ext-1.8.0.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "shiori_ext",
         "system": "x86_64-linux",
-        "version": "0.8.5",
+        "version": "1.8.0.1",
         "_attr": "firefox-addons.shiori_ext",
         "_repo": "pborzenkov"
     },
