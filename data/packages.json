@@ -447093,6 +447093,91 @@
         "_attr": "autodesk-fusion-360",
         "_repo": "mio"
     },
+    "nur.repos.mio.background-music": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/kyleneideck/BackgroundMusic/releases/tag/v0.5.0",
+            "description": "Per-application volume mixer and audio utility for macOS",
+            "downloadPage": "https://github.com/kyleneideck/BackgroundMusic/releases",
+            "homepage": "https://github.com/kyleneideck/BackgroundMusic",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "background-music",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "background-music",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "mainProgram": "background-music",
+            "maintainers": [],
+            "name": "background-music-0.5.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ba/background-music/package.nix#L138",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "background-music-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "background-music",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "background-music",
+        "_repo": "mio"
+    },
     "nur.repos.mio.bambu-studio-open": {
         "meta": {
             "available": true,
@@ -479666,6 +479751,97 @@
         "system": "x86_64-linux",
         "version": "7.4.0",
         "_attr": "tab-session-manager-firefox",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.tabby-terminal": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Eugeny/tabby/releases/tag/v1.0.238",
+            "description": "Highly configurable terminal emulator, SSH and serial client",
+            "downloadPage": "https://github.com/Eugeny/tabby/releases",
+            "homepage": "https://tabby.sh",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "tabby-terminal",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "tabby-terminal",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "tabby",
+            "maintainers": [],
+            "name": "tabby-terminal-1.0.238",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ta/tabby-terminal/package.nix#L421",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "tabby-terminal-1.0.238",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "tabby-terminal",
+        "system": "x86_64-linux",
+        "version": "1.0.238",
+        "_attr": "tabby-terminal",
         "_repo": "mio"
     },
     "nur.repos.mio.takedawn": {
