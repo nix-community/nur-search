@@ -457529,6 +457529,102 @@
         "_attr": "firejail-profiles",
         "_repo": "mio"
     },
+    "nur.repos.mio.flightdeck": {
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                {
+                    "abi": {
+                        "abi": "n32"
+                    },
+                    "cpu": {
+                        "bits": 64,
+                        "family": "mips"
+                    }
+                }
+            ],
+            "broken": false,
+            "description": "Linux launcher for Microsoft Flight Simulator 2024 and 2020",
+            "downloadPage": "https://github.com/marselnenaj/flightdeck-msfs-2024-linux-xbox/releases",
+            "homepage": "https://github.com/marselnenaj/flightdeck-msfs-2024-linux-xbox",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "flightdeck",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "flightdeck",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Flightdeck installs and starts an owned Xbox PC or Steam copy of MSFS\n2024/2020 through Wine.  The Xbox sign-in and Store windows are separate\nruntime components that need GTK 3, WebKitGTK 4.1 and the GStreamer\nplugins from the host; the launcher itself only needs the desktop's\nX11/Wayland libraries.\n",
+            "mainProgram": "flightdeck",
+            "maintainers": [],
+            "name": "flightdeck-0.3.14",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fl/flightdeck/package.nix#L129",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "flightdeck-0.3.14",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "flightdeck",
+        "system": "x86_64-linux",
+        "version": "0.3.14",
+        "_attr": "flightdeck",
+        "_repo": "mio"
+    },
     "nur.repos.mio.floccus-firefox": {
         "meta": {
             "available": true,
@@ -462271,6 +462367,120 @@
         "system": "x86_64-linux",
         "version": "1100c2b",
         "_attr": "konfyt_git",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.krita_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free and open source painting application",
+            "homepage": "https://krita.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "krita-unwrapped",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "krita-unwrapped",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "mainProgram": "krita",
+            "maintainers": [
+                {
+                    "email": "ming@culpring.com",
+                    "github": "sifmelcara",
+                    "githubId": 10496191,
+                    "name": "Ming Chuan"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/kr/krita-unwrapped/package.nix",
+                "line": 155
+            },
+            "name": "krita-unwrapped-6.0.4.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "ming@culpring.com",
+                    "github": "sifmelcara",
+                    "githubId": 10496191,
+                    "name": "Ming Chuan"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/kr/krita-unwrapped/package.nix#L153",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "krita-6.0.4.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "krita",
+        "system": "x86_64-linux",
+        "version": "6.0.4.1",
+        "_attr": "krita_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.kytyps5": {
