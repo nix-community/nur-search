@@ -3684,7 +3684,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/chatgpt/default.nix",
                 "line": 23
             },
-            "name": "chatgpt-26.1120.41243",
+            "name": "chatgpt-26.1120.50957",
             "nonTeamMaintainers": [
                 {
                     "github": "Adamekka",
@@ -3710,14 +3710,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "chatgpt-26.1120.41243",
+        "name": "chatgpt-26.1120.50957",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chatgpt",
         "system": "x86_64-linux",
-        "version": "26.1120.41243",
+        "version": "26.1120.50957",
         "_attr": "chatgpt",
         "_repo": "Adamekka"
     },
@@ -4470,7 +4470,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/Adamekka/pkgs/rpcs3-git/default.nix",
                 "line": 197
             },
-            "name": "rpcs3-git-0.0.43-unstable-2026-11-23",
+            "name": "rpcs3-git-0.0.43-unstable-2026-11-24",
             "nonTeamMaintainers": [
                 {
                     "github": "Adamekka",
@@ -4490,14 +4490,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "rpcs3-git-0.0.43-unstable-2026-11-23",
+        "name": "rpcs3-git-0.0.43-unstable-2026-11-24",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rpcs3-git",
         "system": "x86_64-linux",
-        "version": "0.0.43-unstable-2026-11-23",
+        "version": "0.0.43-unstable-2026-11-24",
         "_attr": "rpcs3-git",
         "_repo": "Adamekka"
     },
@@ -199352,7 +199352,7 @@
             },
             "mainProgram": "Aiursoft.Tracer",
             "maintainers": [],
-            "name": "aiursoft-tracer-0-unstable-2026-11-24",
+            "name": "aiursoft-tracer-0-unstable-2026-11-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -199371,14 +199371,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "aiursoft-tracer-0-unstable-2026-11-24",
+        "name": "aiursoft-tracer-0-unstable-2026-11-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "aiursoft-tracer",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-24",
+        "version": "0-unstable-2026-11-25",
         "_attr": "aiursoft-tracer",
         "_repo": "codgician"
     },
@@ -201273,7 +201273,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/can1357/oh-my-pi/blob/v19.1.1/packages/coding-agent/CHANGELOG.md",
+            "changelog": "https://github.com/can1357/oh-my-pi/blob/v19.2.1/packages/coding-agent/CHANGELOG.md",
             "description": "AI coding agent for the terminal with hash-anchored edits, LSP, DAP, Python, browser, and subagents",
             "homepage": "https://github.com/can1357/oh-my-pi",
             "identifiers": {
@@ -201330,7 +201330,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/codgician/pkgs/oh-my-pi-bin/default.nix",
                 "line": 168
             },
-            "name": "oh-my-pi-bin-19.1.1",
+            "name": "oh-my-pi-bin-19.2.1",
             "nonTeamMaintainers": [
                 {
                     "email": "codgician@outlook.com",
@@ -201359,14 +201359,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "oh-my-pi-bin-19.1.1",
+        "name": "oh-my-pi-bin-19.2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "oh-my-pi-bin",
         "system": "x86_64-linux",
-        "version": "19.1.1",
+        "version": "19.2.1",
         "_attr": "oh-my-pi-bin",
         "_repo": "codgician"
     },
@@ -462516,6 +462516,318 @@
         "_attr": "jlcone",
         "_repo": "mio"
     },
+    "nur.repos.mio.kate_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Advanced text editor",
+            "donationPage": "https://kde.org/donate/",
+            "homepage": "https://invent.kde.org/utilities/kate",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "kate_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "kate_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Creative Commons Zero v1.0 Universal",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "cc0",
+                    "spdxId": "CC0-1.0",
+                    "url": "https://spdx.org/licenses/CC0-1.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v2.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl2Plus",
+                    "spdxId": "GPL-2.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Library General Public License v2 only",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl2Only",
+                    "spdxId": "LGPL-2.0-only",
+                    "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Library General Public License v2 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl2Plus",
+                    "spdxId": "LGPL-2.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "mainProgram": "kate",
+            "maintainers": [
+                {
+                    "email": "me@0upti.me",
+                    "github": "K900",
+                    "githubId": 386765,
+                    "matrix": "@k900:0upti.me",
+                    "name": "Ilya K."
+                },
+                {
+                    "email": "nickcao@nichi.co",
+                    "github": "NickCao",
+                    "githubId": 15247171,
+                    "name": "Nick Cao"
+                },
+                {
+                    "email": "sandro.jaeckel@gmail.com",
+                    "github": "SuperSandro2000",
+                    "githubId": 7258858,
+                    "matrix": "@sandro:supersandro.de",
+                    "name": "Sandro J\u00e4ckel"
+                },
+                {
+                    "email": "fridh@fridh.nl",
+                    "github": "FRidh",
+                    "githubId": 2129135,
+                    "name": "Frederik Rietdijk"
+                },
+                {
+                    "email": "nixpkgs-maintainer@lunnova.dev",
+                    "github": "LunNova",
+                    "githubId": 782440,
+                    "name": "Luna Nova"
+                },
+                {
+                    "email": "nixos@kchr.de",
+                    "github": "bkchr",
+                    "githubId": 5718007,
+                    "name": "Bastian K\u00f6cher"
+                },
+                {
+                    "email": "fedin-ilja2010@ya.ru",
+                    "github": "ilya-fedin",
+                    "githubId": 17829319,
+                    "name": "Ilya Fedin"
+                },
+                {
+                    "email": "matt@mattmoriarity.com",
+                    "github": "mjm",
+                    "githubId": 1181,
+                    "matrix": "@mjm:beeper.com",
+                    "name": "Matt Moriarity"
+                },
+                {
+                    "email": "paul@nyanlout.re",
+                    "github": "nyanloutre",
+                    "githubId": 7677321,
+                    "name": "Paul Trehiou"
+                },
+                {
+                    "email": "peter@hoeg.com",
+                    "github": "peterhoeg",
+                    "githubId": 722550,
+                    "matrix": "@peter:hoeg.com",
+                    "name": "Peter Hoeg"
+                }
+            ],
+            "name": "kate_patched-26.08.3",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/kde/gear/kate/default.nix#L3",
+            "problems": {},
+            "teams": [
+                {
+                    "enableFeatureFreezePing": true,
+                    "github": "qt-kde",
+                    "githubId": 4341481,
+                    "githubMaintainers": [
+                        {
+                            "email": "me@0upti.me",
+                            "github": "K900",
+                            "githubId": 386765,
+                            "matrix": "@k900:0upti.me",
+                            "name": "Ilya K."
+                        },
+                        {
+                            "email": "nickcao@nichi.co",
+                            "github": "NickCao",
+                            "githubId": 15247171,
+                            "name": "Nick Cao"
+                        },
+                        {
+                            "email": "sandro.jaeckel@gmail.com",
+                            "github": "SuperSandro2000",
+                            "githubId": 7258858,
+                            "matrix": "@sandro:supersandro.de",
+                            "name": "Sandro J\u00e4ckel"
+                        }
+                    ],
+                    "members": [
+                        {
+                            "email": "me@0upti.me",
+                            "github": "K900",
+                            "githubId": 386765,
+                            "matrix": "@k900:0upti.me",
+                            "name": "Ilya K."
+                        },
+                        {
+                            "email": "nickcao@nichi.co",
+                            "github": "NickCao",
+                            "githubId": 15247171,
+                            "name": "Nick Cao"
+                        },
+                        {
+                            "email": "sandro.jaeckel@gmail.com",
+                            "github": "SuperSandro2000",
+                            "githubId": 7258858,
+                            "matrix": "@sandro:supersandro.de",
+                            "name": "Sandro J\u00e4ckel"
+                        },
+                        {
+                            "email": "fridh@fridh.nl",
+                            "github": "FRidh",
+                            "githubId": 2129135,
+                            "name": "Frederik Rietdijk"
+                        },
+                        {
+                            "email": "nixpkgs-maintainer@lunnova.dev",
+                            "github": "LunNova",
+                            "githubId": 782440,
+                            "name": "Luna Nova"
+                        },
+                        {
+                            "email": "nixos@kchr.de",
+                            "github": "bkchr",
+                            "githubId": 5718007,
+                            "name": "Bastian K\u00f6cher"
+                        },
+                        {
+                            "email": "fedin-ilja2010@ya.ru",
+                            "github": "ilya-fedin",
+                            "githubId": 17829319,
+                            "name": "Ilya Fedin"
+                        },
+                        {
+                            "email": "matt@mattmoriarity.com",
+                            "github": "mjm",
+                            "githubId": 1181,
+                            "matrix": "@mjm:beeper.com",
+                            "name": "Matt Moriarity"
+                        },
+                        {
+                            "email": "paul@nyanlout.re",
+                            "github": "nyanloutre",
+                            "githubId": 7677321,
+                            "name": "Paul Trehiou"
+                        },
+                        {
+                            "email": "peter@hoeg.com",
+                            "github": "peterhoeg",
+                            "githubId": 722550,
+                            "matrix": "@peter:hoeg.com",
+                            "name": "Peter Hoeg"
+                        }
+                    ],
+                    "scope": "Maintain the Qt framework, KDE application suite, Plasma desktop environment and related projects",
+                    "shortName": "Qt-KDE"
+                }
+            ],
+            "teamsPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/kde/lib/mk-kde-derivation.nix",
+                "line": 168
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "kate_patched-26.08.3",
+        "outputName": "out",
+        "outputs": {
+            "debug": null,
+            "dev": null,
+            "devtools": null,
+            "out": null
+        },
+        "pname": "kate_patched",
+        "system": "x86_64-linux",
+        "version": "26.08.3",
+        "_attr": "kate_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.kdeconnect-kde_patched": {
         "meta": {
             "available": true,
@@ -486068,6 +486380,115 @@
         "system": "x86_64-linux",
         "version": "1.2.0",
         "_attr": "xfce4-terminal-patched",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.xpipe_patched": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://github.com/xpipe-io/xpipe/releases/tag/24.10",
+            "description": "Cross-platform shell connection hub and remote file manager",
+            "downloadPage": "https://github.com/xpipe-io/xpipe/releases/latest",
+            "homepage": "https://github.com/xpipe-io/xpipe",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "xpipe",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "xpipe",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": false,
+                    "fullName": "Unfree",
+                    "licenseType": "simple",
+                    "redistributable": false,
+                    "shortName": "unfree"
+                }
+            ],
+            "mainProgram": "xpipe",
+            "maintainers": [
+                {
+                    "email": "crschnick@xpipe.io",
+                    "github": "crschnick",
+                    "githubId": 72509152,
+                    "name": "Christopher Schnick"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/xp/xpipe/package.nix",
+                "line": 154
+            },
+            "name": "xpipe-24.10",
+            "nonTeamMaintainers": [
+                {
+                    "email": "crschnick@xpipe.io",
+                    "github": "crschnick",
+                    "githubId": 72509152,
+                    "name": "Christopher Schnick"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/xp/xpipe/package.nix#L145",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "xpipe-24.10",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "xpipe",
+        "system": "x86_64-linux",
+        "version": "24.10",
+        "_attr": "xpipe_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.youku-bin": {
@@ -1020464,7 +1020885,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/v1.13.0",
+            "changelog": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/v1.14.0",
             "description": "Chrome DevTools for coding agents",
             "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
             "identifiers": {
@@ -1020509,7 +1020930,7 @@
             },
             "mainProgram": "chrome-devtools-mcp",
             "maintainers": [],
-            "name": "chrome-devtools-mcp-1.13.0",
+            "name": "chrome-devtools-mcp-1.14.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1020550,14 +1020971,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "chrome-devtools-mcp-1.13.0",
+        "name": "chrome-devtools-mcp-1.14.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "chrome-devtools-mcp",
         "system": "x86_64-linux",
-        "version": "1.13.0",
+        "version": "1.14.0",
         "_attr": "chrome-devtools-mcp",
         "_repo": "trev"
     },
@@ -1020565,7 +1020986,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.2",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.4",
             "description": "Proxy server providing OpenAI-compatible APIs for CLI models",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -1020610,7 +1021031,7 @@
             },
             "mainProgram": "cli-proxy-api",
             "maintainers": [],
-            "name": "cliproxyapi-8.1.2",
+            "name": "cliproxyapi-8.1.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1020672,14 +1021093,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.1.2",
+        "name": "cliproxyapi-8.1.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.1.2",
+        "version": "8.1.4",
         "_attr": "cliproxyapi",
         "_repo": "trev"
     },
@@ -1021280,7 +1021701,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://trev.zip/llc/flake-release/releases/tag/v0.50.0",
+            "changelog": "https://trev.zip/llc/flake-release/releases/tag/v0.51.0",
             "description": "Flake package releaser",
             "homepage": "https://trev.zip/llc/flake-release",
             "identifiers": {
@@ -1021325,7 +1021746,7 @@
             },
             "mainProgram": "flake-release",
             "maintainers": [],
-            "name": "flake-release-0.50.0",
+            "name": "flake-release-0.51.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1021387,14 +1021808,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "flake-release-0.50.0",
+        "name": "flake-release-0.51.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "flake-release",
         "system": "x86_64-linux",
-        "version": "0.50.0",
+        "version": "0.51.0",
         "_attr": "flake-release",
         "_repo": "trev"
     },
@@ -1026451,7 +1026872,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "python3.14-uv-build-0.13.9",
+            "name": "python3.14-uv-build-0.13.10",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1026547,7 +1026968,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-uv-build-0.13.9",
+        "name": "python3.14-uv-build-0.13.10",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1026555,7 +1026976,7 @@
         },
         "pname": "python3.14-uv-build",
         "system": "x86_64-linux",
-        "version": "0.13.9",
+        "version": "0.13.10",
         "_attr": "uv-build-latest",
         "_repo": "trev"
     },
@@ -1026875,7 +1027296,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yt-dlp/ejs/commits/181a67bbdf94c095a77359c01b4c372ac6355796",
+            "changelog": "https://github.com/yt-dlp/ejs/commits/40b7a7d4aee59853043ab204b6ee0d96ec92c646",
             "description": "External JavaScript for yt-dlp supporting many runtimes",
             "homepage": "https://github.com/yt-dlp/ejs/",
             "identifiers": {
@@ -1026974,7 +1027395,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "python3.14-yt-dlp-ejs-0.8.0-unstable-2026-11-24",
+            "name": "python3.14-yt-dlp-ejs-0.8.0-unstable-2026-11-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1027022,7 +1027443,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-yt-dlp-ejs-0.8.0-unstable-2026-11-24",
+        "name": "python3.14-yt-dlp-ejs-0.8.0-unstable-2026-11-25",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -1027030,7 +1027451,7 @@
         },
         "pname": "python3.14-yt-dlp-ejs",
         "system": "x86_64-linux",
-        "version": "0.8.0-unstable-2026-11-24",
+        "version": "0.8.0-unstable-2026-11-25",
         "_attr": "yt-dlp-ejs",
         "_repo": "trev"
     },
