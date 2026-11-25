@@ -456469,6 +456469,100 @@
         "_attr": "facebook-container",
         "_repo": "mio"
     },
+    "nur.repos.mio.famistudio_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "NES Music Editor",
+            "homepage": "https://famistudio.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "famistudio",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "famistudio",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "FamiStudio is very simple music editor for the Nintendo Entertainment System\nor Famicom. It is targeted at both chiptune artists and NES homebrewers.\n",
+            "mainProgram": "FamiStudio",
+            "maintainers": [
+                {
+                    "email": "opna2608@protonmail.com",
+                    "github": "OPNA2608",
+                    "githubId": 23431373,
+                    "name": "Cosima Neidahl"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/fa/famistudio/package.nix",
+                "line": 187
+            },
+            "name": "famistudio-4.5.4",
+            "nonTeamMaintainers": [
+                {
+                    "email": "opna2608@protonmail.com",
+                    "github": "OPNA2608",
+                    "githubId": 23431373,
+                    "name": "Cosima Neidahl"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/mio-19/nurpkgs/blob/HEAD/pkgs/by-name/fa/famistudio/package.nix#L181",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "famistudio-4.5.4",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "famistudio",
+        "system": "x86_64-linux",
+        "version": "4.5.4",
+        "_attr": "famistudio_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.fdroidcl_git": {
         "meta": {
             "available": true,
