@@ -478351,6 +478351,83 @@
         "_attr": "serein",
         "_repo": "mio"
     },
+    "nur.repos.mio.skate3recomp": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Native Skate 3 recompilation",
+            "homepage": "https://github.com/mchughalex/skate3recomp",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "skate3recomp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "skate3recomp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "longDescription": "A native recompilation of Skate 3 for Linux and Apple Silicon macOS. The\nsource ships no game data: the pinned disc image is used for code\ngeneration and first-run setup, and the title update is installed from\nthe pinned TU3 package.\n",
+            "mainProgram": "skate3",
+            "maintainers": [],
+            "name": "skate3recomp-2.0.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp/package.nix#L307",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "skate3recomp-2.0.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "skate3recomp",
+        "system": "x86_64-linux",
+        "version": "2.0.2",
+        "_attr": "skate3recomp",
+        "_repo": "mio"
+    },
     "nur.repos.mio.skate3recomp-plus": {
         "meta": {
             "available": false,
@@ -478395,7 +478472,7 @@
                 "redistributable": false,
                 "shortName": "unfree"
             },
-            "longDescription": "Skate 3 Recompiled+ adds Skate 2's New San Vanelona, a native Vulkan\nrenderer and fixes to a recompilation of Skate 3. Its source ships no\ngame data: the pinned disc image is used for code generation and runtime\nsetup, and can be replaced with your own retail disc image.\n",
+            "longDescription": "Skate 3 Recompiled+ adds Skate 2's New San Vanelona, a native Vulkan\nrenderer and fixes to a recompilation of Skate 3. Its source ships no\ngame data: the pinned Skate 3 and Skate 2 discs are used for code\ngeneration and first-run setup, the pinned TU3 package is staged for the\ngame, and both can be replaced with your own retail files. New San Van\nalso needs the three Skate 2 map packs, supplied through skate2Dlc.\n",
             "mainProgram": "skate3",
             "maintainers": [],
             "name": "skate3recomp-plus-0.2e",
@@ -478407,7 +478484,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp-plus/package.nix#L290",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp-plus/package.nix#L352",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
