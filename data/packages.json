@@ -172061,6 +172061,7 @@
         "meta": {
             "available": true,
             "broken": false,
+            "changelog": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
             "description": "Lightweight coding agent that runs in your terminal (official binaries)",
             "homepage": "https://github.com/openai/codex",
             "identifiers": {
@@ -172105,7 +172106,7 @@
             },
             "mainProgram": "codex",
             "maintainers": [],
-            "name": "codex-bin-0.171.0",
+            "name": "codex-bin-0.172.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -172114,7 +172115,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/beiyanyunyi/pkgs/codex-bin/default.nix#L120",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/beiyanyunyi/pkgs/codex-bin/default.nix#L101",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -172130,14 +172131,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "codex-bin-0.171.0",
+        "name": "codex-bin-0.172.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "codex-bin",
         "system": "x86_64-linux",
-        "version": "0.171.0",
+        "version": "0.172.0",
         "_attr": "codex-bin",
         "_repo": "beiyanyunyi"
     },
@@ -172189,7 +172190,7 @@
             },
             "mainProgram": "mihomo",
             "maintainers": [],
-            "name": "mihomo-oix-alpha-oix-3173c7c",
+            "name": "mihomo-oix-alpha-oix-1e25c2f",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -172215,14 +172216,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mihomo-oix-alpha-oix-3173c7c",
+        "name": "mihomo-oix-alpha-oix-1e25c2f",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mihomo-oix-alpha-oix",
         "system": "x86_64-linux",
-        "version": "3173c7c",
+        "version": "1e25c2f",
         "_attr": "mihomo-oix",
         "_repo": "beiyanyunyi"
     },
@@ -172435,7 +172436,7 @@
             },
             "mainProgram": "portop",
             "maintainers": [],
-            "name": "portop-0.4.0",
+            "name": "portop-0.4.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -172477,14 +172478,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "portop-0.4.0",
+        "name": "portop-0.4.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "portop",
         "system": "x86_64-linux",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "_attr": "portop",
         "_repo": "beiyanyunyi"
     },
@@ -465446,6 +465447,126 @@
         "_attr": "layan-sddm",
         "_repo": "mio"
     },
+    "nur.repos.mio.libreoffice_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://wiki.documentfoundation.org/ReleaseNotes/26.8",
+            "description": "LibreOffice 26.8.3.1 built from source on Darwin",
+            "homepage": "https://libreoffice.org/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "libreoffice_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "libreoffice_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Mozilla Public License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mpl20",
+                    "spdxId": "MPL-2.0",
+                    "url": "https://spdx.org/licenses/MPL-2.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "soffice",
+            "maintainers": [
+                {
+                    "email": "7c6f434c@mail.ru",
+                    "github": "7c6f434c",
+                    "githubId": 1891350,
+                    "name": "Michael Raskin"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/applications/office/libreoffice/default.nix",
+                "line": 917
+            },
+            "name": "libreoffice_patched-26.8.3.1",
+            "nonTeamMaintainers": [
+                {
+                    "email": "7c6f434c@mail.ru",
+                    "github": "7c6f434c",
+                    "githubId": 1891350,
+                    "name": "Michael Raskin"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/li/libreoffice_patched/package.nix#L238",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "libreoffice_patched-26.8.3.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "libreoffice_patched",
+        "system": "x86_64-linux",
+        "version": "26.8.3.1",
+        "_attr": "libreoffice_patched",
+        "_repo": "mio"
+    },
     "nur.repos.mio.librewolf-widevine": {
         "meta": {
             "available": true,
@@ -482465,6 +482586,96 @@
         "system": "x86_64-linux",
         "version": "1.4.116",
         "_attr": "user-agent-switcher-firefox",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.utm": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/utmapp/UTM/releases/tag/v5.0.5",
+            "description": "Emulator and virtualizer for macOS",
+            "downloadPage": "https://github.com/utmapp/UTM/releases",
+            "homepage": "https://mac.getutm.app/",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "utm",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "utm",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "Apache License 2.0",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "utm",
+            "maintainers": [],
+            "name": "utm-5.0.5",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ut/utm/package.nix#L263",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "utm-5.0.5",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "utm",
+        "system": "x86_64-linux",
+        "version": "5.0.5",
+        "_attr": "utm",
         "_repo": "mio"
     },
     "nur.repos.mio.uutils-diffutils_patched": {
