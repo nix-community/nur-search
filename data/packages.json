@@ -493778,7 +493778,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.6",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.7",
             "description": "Proxy that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -493855,7 +493855,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/cl/cliproxyapi/package.nix",
                 "line": 55
             },
-            "name": "cliproxyapi-8.1.6",
+            "name": "cliproxyapi-8.1.7",
             "nonTeamMaintainers": [
                 {
                     "email": "i@anish.land",
@@ -493924,14 +493924,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.1.6",
+        "name": "cliproxyapi-8.1.7",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.1.6",
+        "version": "8.1.7",
         "_attr": "cliproxyapi",
         "_repo": "moraxyc"
     },
@@ -494000,7 +494000,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-reductant/package.nix",
                 "line": 75
             },
-            "name": "cpa-reductant-0.1.4",
+            "name": "cpa-reductant-0.1.5",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -494050,14 +494050,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-reductant-0.1.4",
+        "name": "cpa-reductant-0.1.5",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-reductant",
         "system": "x86_64-linux",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "_attr": "cpa-reductant",
         "_repo": "moraxyc"
     },
@@ -508442,7 +508442,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/antigravity-cli-modified/default.nix#L66",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/antigravity-cli-modified/default.nix#L72",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -508462,6 +508462,99 @@
         "system": "x86_64-linux",
         "version": "1.5.13",
         "_attr": "antigravity-cli-modified",
+        "_repo": "mzwing"
+    },
+    "nur.repos.mzwing.antigravity-hub-modified": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "changelog": "https://antigravity.google/changelog",
+            "description": "Antigravity desktop with its language server's context clamp lifted and built-in prompts replaceable",
+            "downloadPage": "https://antigravity.google/download",
+            "homepage": "https://antigravity.google",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "antigravity-hub-modified",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "antigravity-hub-modified",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "antigravity",
+            "maintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 9,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mzwing/pkgs/antigravity-hub-modified/default.nix",
+                "line": 33
+            },
+            "name": "antigravity-hub-modified-2.32.1",
+            "nonTeamMaintainers": [
+                {
+                    "name": "mzwing"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin",
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mzwing/pkgs/antigravity-hub-modified/default.nix#L32",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "antigravity-hub-modified-2.32.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "antigravity-hub-modified",
+        "system": "x86_64-linux",
+        "version": "2.32.1",
+        "_attr": "antigravity-hub-modified",
         "_repo": "mzwing"
     },
     "nur.repos.mzwing.antigravity-wakatime": {
@@ -949422,7 +949515,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/py/pyrosm/package.nix",
                 "line": 48
             },
-            "name": "python3.14-pyrosm-0.29.0",
+            "name": "python3.14-pyrosm-0.29.1",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -949478,7 +949571,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-pyrosm-0.29.0",
+        "name": "python3.14-pyrosm-0.29.1",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -949486,7 +949579,7 @@
         },
         "pname": "python3.14-pyrosm",
         "system": "x86_64-linux",
-        "version": "0.29.0",
+        "version": "0.29.1",
         "_attr": "pyrosm",
         "_repo": "sikmir"
     },
@@ -963689,7 +963782,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/ta/tatoeba/package.nix",
                 "line": 94
             },
-            "name": "tatoeba-2026-11-14",
+            "name": "tatoeba-2026-11-21",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -963796,14 +963889,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "tatoeba-2026-11-14",
+        "name": "tatoeba-2026-11-21",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "tatoeba",
         "system": "x86_64-linux",
-        "version": "2026-11-14",
+        "version": "2026-11-21",
         "_attr": "tatoeba",
         "_repo": "sikmir"
     },
@@ -967806,7 +967899,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/sikmir/pkgs/by-name/to/torchgeo/package.nix",
                 "line": 66
             },
-            "name": "python3.14-torchgeo-0.10.0",
+            "name": "python3.14-torchgeo-0.10.1",
             "nonTeamMaintainers": [
                 {
                     "email": "sikmir@disroot.org",
@@ -967862,7 +967955,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "python3.14-torchgeo-0.10.0",
+        "name": "python3.14-torchgeo-0.10.1",
         "outputName": "out",
         "outputs": {
             "dist": null,
@@ -967870,7 +967963,7 @@
         },
         "pname": "python3.14-torchgeo",
         "system": "x86_64-linux",
-        "version": "0.10.0",
+        "version": "0.10.1",
         "_attr": "torchgeo",
         "_repo": "sikmir"
     },
