@@ -478946,6 +478946,116 @@
         "_attr": "socketw",
         "_repo": "mio"
     },
+    "nur.repos.mio.speedbreaker-carbon": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/SpeedBreakerProject/speedbreaker-carbon/releases/tag/v0.1.3",
+            "description": "Native recompilation of Need for Speed: Carbon (needs your own USA Collector's Edition disc)",
+            "homepage": "https://github.com/SpeedBreakerProject/speedbreaker-carbon",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "speedbreaker-carbon",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "speedbreaker-carbon",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "SpeedBreaker: Carbon is a native static recompilation of the Xbox 360\nversion of Need for Speed: Carbon. Its source contains no game code or\ndata. This package installs the build tools and source, then compiles\nthe game executable from the default.xex on a user-supplied USA\nCollector's Edition disc image on first run.\n",
+            "mainProgram": "speedbreaker-carbon",
+            "maintainers": [],
+            "name": "speedbreaker-carbon-0.1.3",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sp/speedbreaker-carbon/package.nix#L327",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "speedbreaker-carbon-0.1.3",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "speedbreaker-carbon",
+        "system": "x86_64-linux",
+        "version": "0.1.3",
+        "_attr": "speedbreaker-carbon",
+        "_repo": "mio"
+    },
     "nur.repos.mio.splash": {
         "meta": {
             "available": true,
@@ -492679,7 +492789,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/badrisnarayanan/antigravity-claude-proxy/releases/tag/v3.1.2",
+            "changelog": "https://github.com/badrisnarayanan/antigravity-claude-proxy/releases/tag/v3.1.3",
             "description": "Proxy server to use Antigravity's Claude models with Claude Code CLI",
             "homepage": "https://github.com/badrisnarayanan/antigravity-claude-proxy",
             "identifiers": {
@@ -492742,7 +492852,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/an/antigravity-claude-proxy/package.nix",
                 "line": 60
             },
-            "name": "antigravity-claude-proxy-3.1.2",
+            "name": "antigravity-claude-proxy-3.1.3",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -492788,14 +492898,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "antigravity-claude-proxy-3.1.2",
+        "name": "antigravity-claude-proxy-3.1.3",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "antigravity-claude-proxy",
         "system": "x86_64-linux",
-        "version": "3.1.2",
+        "version": "3.1.3",
         "_attr": "antigravity-claude-proxy",
         "_repo": "moraxyc"
     },
@@ -493598,7 +493708,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cl/cliproxy-antigravity/package.nix",
                 "line": 57
             },
-            "name": "cliproxy-antigravity-0.6.0",
+            "name": "cliproxy-antigravity-0.7.1",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -493653,14 +493763,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxy-antigravity-0.6.0",
+        "name": "cliproxy-antigravity-0.7.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxy-antigravity",
         "system": "x86_64-linux",
-        "version": "0.6.0",
+        "version": "0.7.1",
         "_attr": "cliproxy-antigravity",
         "_repo": "moraxyc"
     },
@@ -493668,7 +493778,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.4",
+            "changelog": "https://github.com/router-for-me/CLIProxyAPI/releases/tag/v8.1.6",
             "description": "Proxy that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces",
             "homepage": "https://github.com/router-for-me/CLIProxyAPI",
             "identifiers": {
@@ -493745,7 +493855,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/cl/cliproxyapi/package.nix",
                 "line": 55
             },
-            "name": "cliproxyapi-8.1.4",
+            "name": "cliproxyapi-8.1.6",
             "nonTeamMaintainers": [
                 {
                     "email": "i@anish.land",
@@ -493814,14 +493924,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cliproxyapi-8.1.4",
+        "name": "cliproxyapi-8.1.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cliproxyapi",
         "system": "x86_64-linux",
-        "version": "8.1.4",
+        "version": "8.1.6",
         "_attr": "cliproxyapi",
         "_repo": "moraxyc"
     },
@@ -494017,7 +494127,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 57
             },
-            "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-25",
+            "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -494072,14 +494182,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-25",
+        "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.1.2-unstable-2026-11-25",
+        "version": "2.1.2-unstable-2026-11-26",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -495861,7 +495971,7 @@
             },
             "mainProgram": "jiufenxuezhang-ielts",
             "maintainers": [],
-            "name": "jiufenxuezhang-ielts-0.9.21-rc.5",
+            "name": "jiufenxuezhang-ielts-0.9.22-rc.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -495886,14 +495996,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "jiufenxuezhang-ielts-0.9.21-rc.5",
+        "name": "jiufenxuezhang-ielts-0.9.22-rc.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "jiufenxuezhang-ielts",
         "system": "x86_64-linux",
-        "version": "0.9.21-rc.5",
+        "version": "0.9.22-rc.1",
         "_attr": "jiufenxuezhang-ielts",
         "_repo": "moraxyc"
     },
@@ -496138,7 +496248,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix",
                 "line": 131
             },
-            "name": "lm-detector-0-unstable-2026-11-23",
+            "name": "lm-detector-0-unstable-2026-11-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -496184,14 +496294,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lm-detector-0-unstable-2026-11-23",
+        "name": "lm-detector-0-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lm-detector",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-23",
+        "version": "0-unstable-2026-11-26",
         "_attr": "lm-detector",
         "_repo": "moraxyc"
     },
@@ -496254,7 +496364,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "loyalsoldier-geoip-2026-11-19",
+            "name": "loyalsoldier-geoip-2026-11-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -496269,7 +496379,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "loyalsoldier-geoip-2026-11-19",
+        "name": "loyalsoldier-geoip-2026-11-26",
         "outputName": "out",
         "outputs": {
             "clash": null,
@@ -496285,7 +496395,7 @@
         },
         "pname": "loyalsoldier-geoip",
         "system": "x86_64-linux",
-        "version": "2026-11-19",
+        "version": "2026-11-26",
         "_attr": "loyalsoldier-geoip",
         "_repo": "moraxyc"
     },
@@ -496868,7 +496978,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-11-25",
+            "name": "meta-rules-dat-2026-11-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -496891,7 +497001,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-11-25",
+        "name": "meta-rules-dat-2026-11-26",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -496903,7 +497013,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-25",
+        "version": "2026-11-26",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -497750,7 +497860,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/grinev/opencode-telegram-bot/releases/tag/v0.28.0",
+            "changelog": "https://github.com/grinev/opencode-telegram-bot/releases/tag/v0.29.0",
             "description": "OpenCode mobile client via Telegram",
             "homepage": "https://github.com/grinev/opencode-telegram-bot",
             "identifiers": {
@@ -497813,7 +497923,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/op/opencode-telegram-bot/package.nix",
                 "line": 44
             },
-            "name": "opencode-telegram-bot-0.28.0",
+            "name": "opencode-telegram-bot-0.29.0",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -497859,14 +497969,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "opencode-telegram-bot-0.28.0",
+        "name": "opencode-telegram-bot-0.29.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "opencode-telegram-bot",
         "system": "x86_64-linux",
-        "version": "0.28.0",
+        "version": "0.29.0",
         "_attr": "opencode-telegram-bot",
         "_repo": "moraxyc"
     },
@@ -498426,7 +498536,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-cc-extensions/package.nix",
                 "line": 77
             },
-            "name": "pi-cc-extensions-1.0.22",
+            "name": "pi-cc-extensions-1.0.23",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -498472,14 +498582,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-cc-extensions-1.0.22",
+        "name": "pi-cc-extensions-1.0.23",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-cc-extensions",
         "system": "x86_64-linux",
-        "version": "1.0.22",
+        "version": "1.0.23",
         "_attr": "pi-cc-extensions",
         "_repo": "moraxyc"
     },
@@ -499478,7 +499588,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-nvim/package.nix",
                 "line": 17
             },
-            "name": "vimplugin-pi-nvim-0-unstable-2026-11-20",
+            "name": "vimplugin-pi-nvim-0-unstable-2026-11-25",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -499582,14 +499692,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vimplugin-pi-nvim-0-unstable-2026-11-20",
+        "name": "vimplugin-pi-nvim-0-unstable-2026-11-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vimplugin-pi-nvim",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-20",
+        "version": "0-unstable-2026-11-25",
         "_attr": "pi-nvim",
         "_repo": "moraxyc"
     },
@@ -502257,7 +502367,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-11-24",
+            "name": "sing-rules-geo-2026-11-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -502272,7 +502382,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-11-24",
+        "name": "sing-rules-geo-2026-11-25",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -502282,7 +502392,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-11-24",
+        "version": "2026-11-25",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -502488,7 +502598,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/su/sunrise-client/package.nix",
                 "line": 77
             },
-            "name": "sunrise-client-0-unstable-2026-11-25",
+            "name": "sunrise-client-0-unstable-2026-11-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -502516,14 +502626,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "sunrise-client-0-unstable-2026-11-25",
+        "name": "sunrise-client-0-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sunrise-client",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-25",
+        "version": "0-unstable-2026-11-26",
         "_attr": "sunrise-client",
         "_repo": "moraxyc"
     },
@@ -502601,7 +502711,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/su/sunrise-prepare/package.nix",
                 "line": 62
             },
-            "name": "sunrise-prepare-0-unstable-2026-11-25",
+            "name": "sunrise-prepare-0-unstable-2026-11-26",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -502629,14 +502739,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "sunrise-prepare-0-unstable-2026-11-25",
+        "name": "sunrise-prepare-0-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sunrise-prepare",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-25",
+        "version": "0-unstable-2026-11-26",
         "_attr": "sunrise-prepare",
         "_repo": "moraxyc"
     },
@@ -502920,7 +503030,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-11-24",
+            "name": "v2ray-rules-dat-2026-11-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -502935,7 +503045,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-11-24",
+        "name": "v2ray-rules-dat-2026-11-25",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -502943,7 +503053,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-24",
+        "version": "2026-11-25",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
@@ -977800,7 +977910,7 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/deepseek-harness/default.nix#L79",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/deepseek-harness/default.nix#L85",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -978758,7 +978868,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.4853",
+            "changelog": "https://github.com/yetone/magpie-releases/releases/tag/v0.1.4858",
             "description": "One local gateway for the model every coding agent uses",
             "homepage": "https://usemagpie.ai",
             "identifiers": {
@@ -978803,7 +978913,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4853",
+            "name": "magpie-0.1.4858",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -978822,14 +978932,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4853",
+        "name": "magpie-0.1.4858",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4853",
+        "version": "0.1.4858",
         "_attr": "magpie",
         "_repo": "so1ve"
     },
@@ -979616,7 +979726,7 @@
                 "x86_64-linux",
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/rea/default.nix#L61",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/so1ve/pkgs/rea/default.nix#L67",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
