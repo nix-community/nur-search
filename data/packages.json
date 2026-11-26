@@ -19556,7 +19556,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4526",
+            "name": "magpie-0.1.4839",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -19574,14 +19574,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4526",
+        "name": "magpie-0.1.4839",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4526",
+        "version": "0.1.4839",
         "_attr": "magpie",
         "_repo": "Emin017"
     },
@@ -461292,7 +461292,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/stdenv/generic/check-meta.nix",
                 "line": 527
             },
-            "name": "gt3-revisited-0.8.0",
+            "name": "gt3-revisited-0.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -461312,14 +461312,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gt3-revisited-0.8.0",
+        "name": "gt3-revisited-0.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gt3-revisited",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "_attr": "gt3-revisited",
         "_repo": "mio"
     },
@@ -461372,7 +461372,7 @@
             "longDescription": "GT3 Revisited reimplements the Gran Turismo 3 A-Spec engine for modern\nplatforms. It contains no game data: the disc image you made from your\nown copy is read at run time (`gt3r /path/to/image.iso`).\n",
             "mainProgram": "gt3r",
             "maintainers": [],
-            "name": "gt3-revisited-0.8.0",
+            "name": "gt3-revisited-0.9.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -461392,14 +461392,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "gt3-revisited-0.8.0",
+        "name": "gt3-revisited-0.9.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "gt3-revisited",
         "system": "x86_64-linux",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "_attr": "gt3-revisited-unwrapped",
         "_repo": "mio"
     },
@@ -536171,7 +536171,7 @@
             },
             "mainProgram": "icebath",
             "maintainers": [],
-            "name": "icebath-1.1.2",
+            "name": "icebath-1.2.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -536198,14 +536198,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "icebath-1.1.2",
+        "name": "icebath-1.2.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "icebath",
         "system": "x86_64-linux",
-        "version": "1.1.2",
+        "version": "1.2.1",
         "_attr": "icebath",
         "_repo": "nickheyer"
     },
@@ -722531,6 +722531,128 @@
         "_attr": "mirroir-mcp",
         "_repo": "prince213"
     },
+    "nur.repos.prince213.monotykamary-pi-math": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Render LaTeX as terminal images in Pi's TUI",
+            "homepage": "https://github.com/monotykamary/pi-math",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "monotykamary-pi-math",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "monotykamary-pi-math",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/mo/monotykamary-pi-math/package.nix",
+                "line": 40
+            },
+            "name": "monotykamary-pi-math-0.5.15",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/mo/monotykamary-pi-math/package.nix#L37",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "monotykamary-pi-math-0.5.15",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "monotykamary-pi-math",
+        "system": "x86_64-linux",
+        "version": "0.5.15",
+        "_attr": "monotykamary-pi-math",
+        "_repo": "prince213"
+    },
     "nur.repos.prince213.naiveproxy": {
         "meta": {
             "available": true,
@@ -723028,6 +723150,142 @@
         "system": "x86_64-linux",
         "version": "0.9.23",
         "_attr": "pi-agent-browser-native",
+        "_repo": "prince213"
+    },
+    "nur.repos.prince213.pi-better-render": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/JeffeyChou/pi-better-render/releases/tag/v0.5.0",
+            "description": "Streaming-first rich rendering for Pi's TUI",
+            "downloadPage": "https://github.com/JeffeyChou/pi-better-render/releases",
+            "homepage": "https://github.com/JeffeyChou/pi-better-render",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "pi-better-render",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "pi-better-render",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/prince213/pkgs/by-name/pi/pi-better-render/package.nix",
+                "line": 43
+            },
+            "name": "pi-better-render-0.5.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "prc.zhao@outlook.com",
+                    "github": "Prince213",
+                    "githubId": 25235514,
+                    "keys": [
+                        {
+                            "fingerprint": "2589 45E5 C556 7B4D B36C  3E28 A64B 5235 356E 16D1"
+                        }
+                    ],
+                    "matrix": "@prince213:matrix.org",
+                    "name": "Sizhe Zhao"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-darwin",
+                "aarch64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "sh4-linux",
+                "microblazeel-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/prince213/pkgs/by-name/pi/pi-better-render/package.nix#L35",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "pi-better-render-0.5.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "pi-better-render",
+        "system": "x86_64-linux",
+        "version": "0.5.0",
+        "_attr": "pi-better-render",
         "_repo": "prince213"
     },
     "nur.repos.prince213.pi-cc-extensions": {
