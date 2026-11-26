@@ -478254,7 +478254,7 @@
         "meta": {
             "available": false,
             "broken": false,
-            "description": "Enhanced native Skate 3 recompilation (needs your own disc)",
+            "description": "Enhanced native Skate 3 recompilation",
             "homepage": "https://github.com/dougieprishpreed/skate3recomp-plus",
             "identifiers": {
                 "cpeParts": {
@@ -478294,7 +478294,7 @@
                 "redistributable": false,
                 "shortName": "unfree"
             },
-            "longDescription": "Skate 3 Recompiled+ adds Skate 2's New San Vanelona, a native Vulkan\nrenderer and fixes to a recompilation of Skate 3. It ships no game data:\nthe build recompiles default.xex from your own extracted retail disc,\nand the game is installed from that disc at run time.\n",
+            "longDescription": "Skate 3 Recompiled+ adds Skate 2's New San Vanelona, a native Vulkan\nrenderer and fixes to a recompilation of Skate 3. Its source ships no\ngame data: the pinned disc image is used for code generation and runtime\nsetup, and can be replaced with your own retail disc image.\n",
             "mainProgram": "skate3",
             "maintainers": [],
             "name": "skate3recomp-plus-0.2e",
@@ -478306,7 +478306,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp-plus/package.nix#L273",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp-plus/package.nix#L290",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -1168037,7 +1168037,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/ZeroDeng01/sublinkPro/releases/tag/v1.3.0",
+            "changelog": "https://github.com/ZeroDeng01/sublinkPro/releases/tag/v1.3.1",
             "description": "Modern proxy subscription management panel with smart tags, speed tests and relay chains",
             "homepage": "https://github.com/ZeroDeng01/sublinkPro",
             "identifiers": {
@@ -1168092,7 +1168092,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/sublinkpro/default.nix",
                 "line": 41
             },
-            "name": "sublinkpro-1.3.0",
+            "name": "sublinkpro-1.3.1",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1168117,14 +1168117,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sublinkpro-1.3.0",
+        "name": "sublinkpro-1.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sublinkpro",
         "system": "x86_64-linux",
-        "version": "1.3.0",
+        "version": "1.3.1",
         "_attr": "sublinkpro",
         "_repo": "zhyiheihei"
     },
@@ -1170261,7 +1170261,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/ZeroDeng01/sublinkPro/releases/tag/v1.3.0",
+            "changelog": "https://github.com/ZeroDeng01/sublinkPro/releases/tag/v1.3.1",
             "description": "Modern proxy subscription management panel with smart tags, speed tests and relay chains",
             "homepage": "https://github.com/ZeroDeng01/sublinkPro",
             "identifiers": {
@@ -1170316,7 +1170316,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/sublinkpro/default.nix",
                 "line": 41
             },
-            "name": "sublinkpro-1.3.0",
+            "name": "sublinkpro-1.3.1",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1170341,14 +1170341,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sublinkpro-1.3.0",
+        "name": "sublinkpro-1.3.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sublinkpro",
         "system": "x86_64-linux",
-        "version": "1.3.0",
+        "version": "1.3.1",
         "_attr": "uncategorized.sublinkpro",
         "_repo": "zhyiheihei"
     },
