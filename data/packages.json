@@ -366157,6 +366157,99 @@
         "_attr": "system76-scheduler-niri",
         "_repo": "lxl66566"
     },
+    "nur.repos.lxl66566.todograph": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Mini local-first todo dependency graph (DAG) manager for AI agents",
+            "homepage": "https://github.com/lxl66566/todograph",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "todograph",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "todograph",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Apache License 2.0",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "mainProgram": "todograph",
+            "maintainers": [
+                "lxl66566"
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lxl66566/lib/makeBinPackage.nix",
+                "line": 98
+            },
+            "name": "todograph-v0.1.0",
+            "nonTeamMaintainers": [
+                "lxl66566"
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/lxl66566/lib/makeBinPackage.nix#L95",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "todograph-v0.1.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "todograph-v0.1.0",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "todograph",
+        "_repo": "lxl66566"
+    },
     "nur.repos.lxl66566.urldecoder": {
         "meta": {
             "available": true,
