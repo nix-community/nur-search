@@ -277853,6 +277853,143 @@
         "_attr": "orb-forge-gui",
         "_repo": "gepbird"
     },
+    "nur.repos.gepbird.sunbird": {
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Discord Desktop Phoenix with the Sunbird plugin runtime",
+            "homepage": "https://sunbird.tools/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "sunbird",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "sunbird",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": false,
+                "fullName": "Unfree",
+                "licenseType": "simple",
+                "redistributable": false,
+                "shortName": "unfree"
+            },
+            "mainProgram": "sunbird",
+            "maintainers": [
+                {
+                    "email": "gutyina.gergo.2@gmail.com",
+                    "github": "gepbird",
+                    "githubId": 29818440,
+                    "keys": [
+                        {
+                            "fingerprint": "hEzYpII9pUMfbhhr1LbUaLoGKGKX7UJQ1i9QU5SIssQ"
+                        },
+                        {
+                            "fingerprint": "MnieeyZ1Y02OB4PMrkM5xrk3ZXq3XTahcSocDyqzmFg"
+                        },
+                        {
+                            "fingerprint": "YfsHXlTvwc3HmLzQPi4g9nn4bKCj/mV/xgg9dxxxdnU"
+                        },
+                        {
+                            "fingerprint": "2NGbD6uF4OYtqjaYvN4foZFooT7XTAHODUaNxGVuJdk"
+                        },
+                        {
+                            "fingerprint": "RoAfvqa6w1l8Vdm3W60TDXurYwJ6h03VEGD+wDNGEwc"
+                        },
+                        {
+                            "fingerprint": "MP2UpIRtJpbFFqyucP431H/FPCfn58UhEUTro4lXtRs"
+                        }
+                    ],
+                    "matrix": "@gepbird:matrix.org",
+                    "name": "Gutyina Gerg\u0151"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/gepbird/pkgs/sunbird/default.nix",
+                "line": 50
+            },
+            "name": "sunbird-2233",
+            "nonTeamMaintainers": [
+                {
+                    "email": "gutyina.gergo.2@gmail.com",
+                    "github": "gepbird",
+                    "githubId": 29818440,
+                    "keys": [
+                        {
+                            "fingerprint": "hEzYpII9pUMfbhhr1LbUaLoGKGKX7UJQ1i9QU5SIssQ"
+                        },
+                        {
+                            "fingerprint": "MnieeyZ1Y02OB4PMrkM5xrk3ZXq3XTahcSocDyqzmFg"
+                        },
+                        {
+                            "fingerprint": "YfsHXlTvwc3HmLzQPi4g9nn4bKCj/mV/xgg9dxxxdnU"
+                        },
+                        {
+                            "fingerprint": "2NGbD6uF4OYtqjaYvN4foZFooT7XTAHODUaNxGVuJdk"
+                        },
+                        {
+                            "fingerprint": "RoAfvqa6w1l8Vdm3W60TDXurYwJ6h03VEGD+wDNGEwc"
+                        },
+                        {
+                            "fingerprint": "MP2UpIRtJpbFFqyucP431H/FPCfn58UhEUTro4lXtRs"
+                        }
+                    ],
+                    "matrix": "@gepbird:matrix.org",
+                    "name": "Gutyina Gerg\u0151"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/gepbird/pkgs/sunbird/default.nix#L45",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": true,
+            "unsupported": false
+        },
+        "name": "sunbird-2233",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "sunbird",
+        "system": "x86_64-linux",
+        "version": "2233",
+        "_attr": "sunbird",
+        "_repo": "gepbird"
+    },
     "nur.repos.gepbird.xfce4-terminal-sixel": {
         "meta": {
             "available": true,
@@ -480869,7 +481006,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "mainProgram": "stuntrally",
+            "mainProgram": "StuntRally",
             "maintainers": [
                 {
                     "email": "mail@pascal-wittmann.de",
@@ -480881,7 +481018,7 @@
             "maintainersPosition": {
                 "column": 5,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/st/stuntrally2/package.nix",
-                "line": 169
+                "line": 172
             },
             "name": "stuntrally2-2.7",
             "nonTeamMaintainers": [
@@ -480919,9 +481056,10 @@
                 "riscv32-linux",
                 "riscv64-linux",
                 "s390-linux",
-                "s390x-linux"
+                "s390x-linux",
+                "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/st/stuntrally2/package.nix#L165",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/st/stuntrally2/package.nix#L168",
             "problems": {},
             "unfree": false,
             "unsupported": false
@@ -742535,7 +742673,7 @@
             ],
             "mainProgram": "revue",
             "maintainers": [],
-            "name": "revue-bin-0.45.0",
+            "name": "revue-bin-0.45.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -742560,14 +742698,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "revue-bin-0.45.0",
+        "name": "revue-bin-0.45.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "revue-bin",
         "system": "x86_64-linux",
-        "version": "0.45.0",
+        "version": "0.45.1",
         "_attr": "revue-bin",
         "_repo": "revue"
     },
