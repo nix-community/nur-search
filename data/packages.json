@@ -208419,7 +208419,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4937",
+            "name": "magpie-0.1.4952",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -208445,14 +208445,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4937",
+        "name": "magpie-0.1.4952",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4937",
+        "version": "0.1.4952",
         "_attr": "magpie",
         "_repo": "davinci42"
     },
@@ -476892,6 +476892,80 @@
         "_attr": "quibble_patched",
         "_repo": "mio"
     },
+    "nur.repos.mio.quibble_win11": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source UEFI bootloader for Windows, win11 branch",
+            "homepage": "https://github.com/openzfsonwindows/quibble",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "quibble_win11",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "quibble_win11",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "longDescription": "The openzfsonwindows `win11` branch of Quibble (PR #144): the loader\nchanges Windows 11 needs on top of the revision `quibble` packages.\n`zfs-efi` requires them for Windows 11, which is why this variant exists\nnext to `quibble` and `quibble_patched`.\n\nInstall layout is the same as `quibble`: `quibble.efi`, `freeldr.ini` and\n`font.ttf` in the directory the image is loaded from, with `drivers/`\nnext to them.\n",
+            "maintainers": [],
+            "name": "quibble_win11-20230328-unstable-2026-11-04",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/qu/quibble_win11/package.nix#L141",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "quibble_win11-x86_64-w64-mingw32-20230328-unstable-2026-11-04",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "quibble_win11-x86_64-w64-mingw32",
+        "system": "x86_64-linux",
+        "version": "20230328-unstable-2026-11-04",
+        "_attr": "quibble_win11",
+        "_repo": "mio"
+    },
     "nur.repos.mio.rain": {
         "meta": {
             "available": true,
@@ -494106,7 +494180,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/ar/artex/package.nix",
                 "line": 57
             },
-            "name": "artex-0-unstable-2026-11-23",
+            "name": "artex-0-unstable-2026-11-27",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -494161,14 +494235,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "artex-0-unstable-2026-11-23",
+        "name": "artex-0-unstable-2026-11-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "artex",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-23",
+        "version": "0-unstable-2026-11-27",
         "_attr": "artex",
         "_repo": "moraxyc"
     },
@@ -495258,7 +495332,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/cp/cpa-usage-keeper/package.nix",
                 "line": 57
             },
-            "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-26",
+            "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-27",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -495313,14 +495387,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-26",
+        "name": "cpa-usage-keeper-2.1.2-unstable-2026-11-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "cpa-usage-keeper",
         "system": "x86_64-linux",
-        "version": "2.1.2-unstable-2026-11-26",
+        "version": "2.1.2-unstable-2026-11-27",
         "_attr": "cpa-usage-keeper",
         "_repo": "moraxyc"
     },
@@ -496581,7 +496655,7 @@
                     "licenseType": "simple",
                     "redistributable": true,
                     "shortName": "AdditionRef-HMCL",
-                    "url": "https://github.com/HMCL-dev/HMCL/blob/v3.18.0.367/LICENSE"
+                    "url": "https://github.com/HMCL-dev/HMCL/blob/v3.18.0.368/LICENSE"
                 },
                 "license": {
                     "deprecated": false,
@@ -496635,7 +496709,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/hm/hmcl/package.nix",
                 "line": 235
             },
-            "name": "hmcl-dev-3.18.0.367",
+            "name": "hmcl-dev-3.18.0.368",
             "nonTeamMaintainers": [
                 {
                     "email": "zadarumaka@proton.me",
@@ -496692,14 +496766,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hmcl-dev-3.18.0.367",
+        "name": "hmcl-dev-3.18.0.368",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hmcl-dev",
         "system": "x86_64-linux",
-        "version": "3.18.0.367",
+        "version": "3.18.0.368",
         "_attr": "hmcl-dev",
         "_repo": "moraxyc"
     },
@@ -496748,7 +496822,7 @@
                     "licenseType": "simple",
                     "redistributable": true,
                     "shortName": "AdditionRef-HMCL",
-                    "url": "https://github.com/HMCL-dev/HMCL/blob/v3.18.0.367/LICENSE"
+                    "url": "https://github.com/HMCL-dev/HMCL/blob/v3.18.0.368/LICENSE"
                 },
                 "license": {
                     "deprecated": false,
@@ -496802,7 +496876,7 @@
                 "file": "/nix/store/p5sq2bv7s7s6w77f8m8a8w0kzh76pdip-source/pkgs/by-name/hm/hmcl/package.nix",
                 "line": 235
             },
-            "name": "hmcl-dev-3.18.0.367",
+            "name": "hmcl-dev-3.18.0.368",
             "nonTeamMaintainers": [
                 {
                     "email": "zadarumaka@proton.me",
@@ -496859,14 +496933,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "hmcl-dev-windows-3.18.0.367",
+        "name": "hmcl-dev-windows-3.18.0.368",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "hmcl-dev-windows",
         "system": "x86_64-linux",
-        "version": "3.18.0.367",
+        "version": "3.18.0.368",
         "_attr": "hmcl-dev-windows",
         "_repo": "moraxyc"
     },
@@ -497379,7 +497453,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/lm/lm-detector/package.nix",
                 "line": 131
             },
-            "name": "lm-detector-0-unstable-2026-11-26",
+            "name": "lm-detector-0-unstable-2026-11-27",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -497425,14 +497499,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "lm-detector-0-unstable-2026-11-26",
+        "name": "lm-detector-0-unstable-2026-11-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "lm-detector",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-26",
+        "version": "0-unstable-2026-11-27",
         "_attr": "lm-detector",
         "_repo": "moraxyc"
     },
@@ -498109,7 +498183,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/me/meta-rules-dat/package.nix",
                 "line": 71
             },
-            "name": "meta-rules-dat-2026-11-26",
+            "name": "meta-rules-dat-2026-11-27",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -498132,7 +498206,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meta-rules-dat-2026-11-26",
+        "name": "meta-rules-dat-2026-11-27",
         "outputName": "out",
         "outputs": {
             "dat": null,
@@ -498144,7 +498218,7 @@
         },
         "pname": "meta-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-26",
+        "version": "2026-11-27",
         "_attr": "meta-rules-dat",
         "_repo": "moraxyc"
     },
@@ -500998,7 +501072,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/pi/pi-processes/package.nix",
                 "line": 58
             },
-            "name": "pi-processes-0.13.8",
+            "name": "pi-processes-0.13.9",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -501021,14 +501095,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "pi-processes-0.13.8",
+        "name": "pi-processes-0.13.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "pi-processes",
         "system": "x86_64-linux",
-        "version": "0.13.8",
+        "version": "0.13.9",
         "_attr": "pi-processes",
         "_repo": "moraxyc"
     },
@@ -503498,7 +503572,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "sing-rules-geo-2026-11-25",
+            "name": "sing-rules-geo-2026-11-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -503513,7 +503587,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sing-rules-geo-2026-11-25",
+        "name": "sing-rules-geo-2026-11-26",
         "outputName": "out",
         "outputs": {
             "db": null,
@@ -503523,7 +503597,7 @@
         },
         "pname": "sing-rules-geo",
         "system": "x86_64-linux",
-        "version": "2026-11-25",
+        "version": "2026-11-26",
         "_attr": "sing-rules-geo",
         "_repo": "moraxyc"
     },
@@ -503729,7 +503803,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/su/sunrise-client/package.nix",
                 "line": 77
             },
-            "name": "sunrise-client-0-unstable-2026-11-26",
+            "name": "sunrise-client-0-unstable-2026-11-27",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -503757,14 +503831,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "sunrise-client-0-unstable-2026-11-26",
+        "name": "sunrise-client-0-unstable-2026-11-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sunrise-client",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-26",
+        "version": "0-unstable-2026-11-27",
         "_attr": "sunrise-client",
         "_repo": "moraxyc"
     },
@@ -503842,7 +503916,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/su/sunrise-prepare/package.nix",
                 "line": 62
             },
-            "name": "sunrise-prepare-0-unstable-2026-11-26",
+            "name": "sunrise-prepare-0-unstable-2026-11-27",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -503870,14 +503944,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "sunrise-prepare-0-unstable-2026-11-26",
+        "name": "sunrise-prepare-0-unstable-2026-11-27",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sunrise-prepare",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-26",
+        "version": "0-unstable-2026-11-27",
         "_attr": "sunrise-prepare",
         "_repo": "moraxyc"
     },
@@ -504161,7 +504235,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [],
-            "name": "v2ray-rules-dat-2026-11-25",
+            "name": "v2ray-rules-dat-2026-11-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -504176,7 +504250,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "v2ray-rules-dat-2026-11-25",
+        "name": "v2ray-rules-dat-2026-11-26",
         "outputName": "out",
         "outputs": {
             "lists": null,
@@ -504184,7 +504258,7 @@
         },
         "pname": "v2ray-rules-dat",
         "system": "x86_64-linux",
-        "version": "2026-11-25",
+        "version": "2026-11-26",
         "_attr": "v2ray-rules-dat",
         "_repo": "moraxyc"
     },
@@ -504653,7 +504727,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sinamics/ztnet/releases/tag/v0.8.7",
+            "changelog": "https://github.com/sinamics/ztnet/releases/tag/v0.8.8",
             "description": "Web interface for private ZeroTier controllers with multiuser and organization support",
             "homepage": "https://ztnet.network",
             "identifiers": {
@@ -504716,7 +504790,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/moraxyc/pkgs/by-name/zt/ztnet/package.nix",
                 "line": 128
             },
-            "name": "ztnet-0.8.7",
+            "name": "ztnet-0.8.8",
             "nonTeamMaintainers": [
                 {
                     "email": "i@qaq.li",
@@ -504762,14 +504836,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ztnet-0.8.7",
+        "name": "ztnet-0.8.8",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ztnet",
         "system": "x86_64-linux",
-        "version": "0.8.7",
+        "version": "0.8.8",
         "_attr": "ztnet",
         "_repo": "moraxyc"
     },
@@ -1032927,7 +1033001,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/unstable-code/pkgs/wshowlyrics/generic.nix",
                 "line": 102
             },
-            "name": "wshowlyrics-0.11.2",
+            "name": "wshowlyrics-0.12.0",
             "nonTeamMaintainers": [
                 "unstable-code"
             ],
@@ -1032965,14 +1033039,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "wshowlyrics-0.11.2",
+        "name": "wshowlyrics-0.12.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "wshowlyrics",
         "system": "x86_64-linux",
-        "version": "0.11.2",
+        "version": "0.12.0",
         "_attr": "wshowlyrics",
         "_repo": "unstable-code"
     },
