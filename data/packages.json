@@ -230677,7 +230677,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/elzorrorebelde/packages/rustel/default.nix",
                 "line": 76
             },
-            "name": "rustel-0.1.8",
+            "name": "rustel-0.1.9",
             "nonTeamMaintainers": [
                 {
                     "email": "jorge@esavara.cr",
@@ -230720,14 +230720,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "rustel-0.1.8",
+        "name": "rustel-0.1.9",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "rustel",
         "system": "x86_64-linux",
-        "version": "0.1.8",
+        "version": "0.1.9",
         "_attr": "rustel",
         "_repo": "elzorrorebelde"
     },
@@ -461039,17 +461039,27 @@
                 }
             },
             "insecure": false,
-            "license": {
-                "deprecated": false,
-                "free": true,
-                "fullName": "GNU General Public License v3.0 or later",
-                "licenseType": "simple",
-                "redistributable": true,
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "longDescription": "A PySide6 launcher and a GT6-tuned RPCS3 built from source. It installs\nthe official PS3 firmware, applies GT6's update chain, writes the\nemulator configuration and patches, and starts the game. It includes no\ngame data, firmware, or keys: you need a disc image made from your own\nGran Turismo 6 copy (and firmware downloaded from Sony) before playing.\n",
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Unfree redistributable firmware",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "unfreeRedistributableFirmware"
+                }
+            ],
+            "longDescription": "A PySide6 launcher and a GT6-tuned RPCS3 built from source. It installs\nthe official PS3 firmware, applies GT6's update chain, writes the\nemulator configuration and patches, and starts the game. Sony PS3\nfirmware 4.93 is bundled so first-run setup does not\nneed to download it. It includes no game data or keys: you need a disc\nimage made from your own Gran Turismo 6 copy before playing.\n",
             "mainProgram": "gt6-launcher",
             "maintainers": [],
             "name": "gran-turismo-6-pc-1.1.3",
@@ -461060,7 +461070,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gr/gran-turismo-6-pc/package.nix#L170",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gr/gran-turismo-6-pc/package.nix#L185",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -461071,6 +461081,10 @@
                 {
                     "isSource": true,
                     "shortName": "fromSource"
+                },
+                {
+                    "isSource": false,
+                    "shortName": "binaryFirmware"
                 }
             ],
             "unfree": false,
@@ -461145,7 +461159,7 @@
                     "url": "https://spdx.org/licenses/MIT.html"
                 }
             ],
-            "longDescription": "Grand Theft Auto 2 Recompiled is a native port of Grand Theft Auto 2\nmade by static recompilation.  This package builds the launcher,\nruntime and lifter from source; it contains no game data or game code.\nOn first start the launcher reads the 2004 Rockstar freeware release\n(GTA2.exe) or an installed copy of that release, translates gta2.exe\nand binkw32.dll to C, compiles them for this machine, and starts the\nresulting game.\n",
+            "longDescription": "Grand Theft Auto 2 Recompiled is a native port of Grand Theft Auto 2\nmade by static recompilation.  This package builds the launcher,\nruntime and lifter from source; it contains no game data or game code.\nOn first start the launcher reads the 2004 Rockstar freeware installer\n(GTA2INSTALLER.exe) or an installed copy of that release, translates\ngta2.exe and binkw32.dll to C, compiles them for this machine, and\nstarts the resulting game.  The installer is available at\nhttps://archive.org/details/gta2_rockstar-classics.\n",
             "mainProgram": "gta2-launcher",
             "maintainers": [],
             "name": "grand-theft-auto-2-recompiled-0.7.2",
@@ -472487,6 +472501,115 @@
         "_attr": "openmpt123",
         "_repo": "mio"
     },
+    "nur.repos.mio.opensave": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Liquid-co/OpenSave/blob/v2.4.1/CHANGELOG.md",
+            "description": "Peer-to-peer game save sync",
+            "downloadPage": "https://github.com/Liquid-co/OpenSave/releases",
+            "homepage": "https://github.com/Liquid-co/OpenSave",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "opensave",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "opensave",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "MIT License",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "OpenSave syncs game saves between your own devices over the LAN or\nthrough a relay, with versioned snapshots and conflict handling. Includes\nthe Wails desktop app, the headless CLI, and a relay server.\n",
+            "mainProgram": "opensave",
+            "maintainers": [],
+            "name": "opensave-2.4.1",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/op/opensave/package.nix#L132",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "opensave-2.4.1",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "opensave",
+        "system": "x86_64-linux",
+        "version": "2.4.1",
+        "_attr": "opensave",
+        "_repo": "mio"
+    },
     "nur.repos.mio.openscore": {
         "meta": {
             "available": true,
@@ -479462,6 +479585,92 @@
         "system": "x86_64-linux",
         "version": "813375e",
         "_attr": "socketw",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.source-recomp": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/kanapitsas/source-recomp/releases/tag/v0.4.0",
+            "description": "Portal 2, Half-Life 2 and Portal static recompiler for Apple silicon",
+            "homepage": "https://github.com/kanapitsas/source-recomp",
+            "hydraPlatforms": [],
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "source-recomp",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "source-recomp",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "longDescription": "Source-recomp translates the x86 Linux binaries from the user's own\nSteam copies of Portal 2, Half-Life 2 and Portal into C, then compiles\nthem into native Apple silicon applications. The game code is generated\nlocally and is not included in this package.\n\nRun `source-recomp --detect` to locate complete Steam installations and\nLinux depots, or pass the game and depot directories explicitly. Builds\nand local configuration are stored in\n`$XDG_DATA_HOME/source-recomp/src` by default; override that location with\n`SOURCE_RECOMP_STATE`.\n",
+            "mainProgram": "source-recomp",
+            "maintainers": [],
+            "name": "source-recomp-0.4.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/so/source-recomp/package.nix#L178",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "source-recomp-0.4.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "source-recomp",
+        "system": "x86_64-linux",
+        "version": "0.4.0",
+        "_attr": "source-recomp",
         "_repo": "mio"
     },
     "nur.repos.mio.speedbreaker-carbon": {
@@ -1150810,7 +1151019,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4919",
+            "changelog": "https://github.com/yetone/magpie/releases/tag/v0.1.4935",
             "description": "Manage models, providers, and accounts for AI coding agents in one place",
             "homepage": "https://github.com/yetone/magpie",
             "identifiers": {
@@ -1150867,7 +1151076,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/xyenon/pkgs/magpie/default.nix",
                 "line": 145
             },
-            "name": "magpie-0.1.4919",
+            "name": "magpie-0.1.4935",
             "nonTeamMaintainers": [
                 {
                     "email": "i@xyenon.bid",
@@ -1150911,14 +1151120,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4919",
+        "name": "magpie-0.1.4935",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4919",
+        "version": "0.1.4935",
         "_attr": "magpie",
         "_repo": "xyenon"
     },
