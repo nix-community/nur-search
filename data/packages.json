@@ -451981,7 +451981,7 @@
             },
             "mainProgram": "Compositor",
             "maintainers": [],
-            "name": "compositor-1.7.1",
+            "name": "compositor-1.7.4",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -452005,14 +452005,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "compositor-1.7.1",
+        "name": "compositor-1.7.4",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "compositor",
         "system": "x86_64-linux",
-        "version": "1.7.1",
+        "version": "1.7.4",
         "_attr": "compositor",
         "_repo": "mio"
     },
@@ -456155,7 +456155,7 @@
             },
             "mainProgram": "eglantine",
             "maintainers": [],
-            "name": "eglantine-0.1.0-rc4-unstable-2026-11-15",
+            "name": "eglantine-0.1.0-rc4-unstable-2026-11-25",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -456175,14 +456175,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "eglantine-0.1.0-rc4-unstable-2026-11-15",
+        "name": "eglantine-0.1.0-rc4-unstable-2026-11-25",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "eglantine",
         "system": "x86_64-linux",
-        "version": "0.1.0-rc4-unstable-2026-11-15",
+        "version": "0.1.0-rc4-unstable-2026-11-25",
         "_attr": "eglantine",
         "_repo": "mio"
     },
@@ -456190,7 +456190,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/electerm/electerm/releases/tag/v5.12.6",
+            "changelog": "https://github.com/electerm/electerm/releases/tag/v5.15.0",
             "description": "Terminal, SSH, SFTP, telnet, serial, RDP, VNC and ftp client",
             "downloadPage": "https://github.com/electerm/electerm/releases",
             "homepage": "https://electerm.org",
@@ -456236,7 +456236,7 @@
             },
             "mainProgram": "electerm",
             "maintainers": [],
-            "name": "electerm-5.12.6",
+            "name": "electerm-5.15.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -456260,14 +456260,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "electerm-5.12.6",
+        "name": "electerm-5.15.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "electerm",
         "system": "x86_64-linux",
-        "version": "5.12.6",
+        "version": "5.15.0",
         "_attr": "electerm",
         "_repo": "mio"
     },
@@ -459611,7 +459611,7 @@
                 "mips64el-linux",
                 "riscv32-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fu/futo-notes/package.nix#L112",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/fu/futo-notes/package.nix#L117",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -461000,6 +461000,187 @@
         "system": "x86_64-linux",
         "version": "3.21.0",
         "_attr": "google-maps-pake",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.gran-turismo-6-pc": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://github.com/Mabec-games/Gran-Turismo-6-PC/releases/tag/v1.1.3",
+            "description": "Gran Turismo 6 launcher with a GT6-patched RPCS3 build",
+            "homepage": "https://github.com/Mabec-games/Gran-Turismo-6-PC",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "gran-turismo-6-pc",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "gran-turismo-6-pc",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "A PySide6 launcher and a GT6-tuned RPCS3 built from source. It installs\nthe official PS3 firmware, applies GT6's update chain, writes the\nemulator configuration and patches, and starts the game. It includes no\ngame data, firmware, or keys: you need a disc image made from your own\nGran Turismo 6 copy (and firmware downloaded from Sony) before playing.\n",
+            "mainProgram": "gt6-launcher",
+            "maintainers": [],
+            "name": "gran-turismo-6-pc-1.1.3",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gr/gran-turismo-6-pc/package.nix#L170",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "gran-turismo-6-pc-1.1.3",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "gran-turismo",
+        "system": "x86_64-linux",
+        "version": "6-pc-1.1.3",
+        "_attr": "gran-turismo-6-pc",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.grand-theft-auto-2-recompiled": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Native Grand Theft Auto 2 recompilation launcher (requires your own GTA 2 freeware copy)",
+            "homepage": "https://github.com/almost-drowned-rat/Grand-Theft-Auto-2-Recompiled",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "grand-theft-auto-2-recompiled",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "grand-theft-auto-2-recompiled",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "longDescription": "Grand Theft Auto 2 Recompiled is a native port of Grand Theft Auto 2\nmade by static recompilation.  This package builds the launcher,\nruntime and lifter from source; it contains no game data or game code.\nOn first start the launcher reads the 2004 Rockstar freeware release\n(GTA2.exe) or an installed copy of that release, translates gta2.exe\nand binkw32.dll to C, compiles them for this machine, and starts the\nresulting game.\n",
+            "mainProgram": "gta2-launcher",
+            "maintainers": [],
+            "name": "grand-theft-auto-2-recompiled-0.7.2",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/gr/grand-theft-auto-2-recompiled/package.nix#L269",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "grand-theft-auto-2-recompiled-0.7.2",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "grand-theft-auto",
+        "system": "x86_64-linux",
+        "version": "2-recompiled-0.7.2",
+        "_attr": "grand-theft-auto-2-recompiled",
         "_repo": "mio"
     },
     "nur.repos.mio.graphene-hardened-malloc": {
@@ -464920,7 +465101,7 @@
             },
             "mainProgram": "kyty_launcher",
             "maintainers": [],
-            "name": "kytyps5-0-unstable-2026-11-25",
+            "name": "kytyps5-0-unstable-2026-11-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -464945,14 +465126,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "kytyps5-0-unstable-2026-11-25",
+        "name": "kytyps5-0-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "kytyps5",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-25",
+        "version": "0-unstable-2026-11-26",
         "_attr": "kytyps5",
         "_repo": "mio"
     },
@@ -466600,7 +466781,7 @@
             ],
             "mainProgram": "mac-apk",
             "maintainers": [],
-            "name": "mac-apk-1.0.2379",
+            "name": "mac-apk-1.0.2404",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -466618,14 +466799,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "mac-apk-1.0.2379",
+        "name": "mac-apk-1.0.2404",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "mac-apk",
         "system": "x86_64-linux",
-        "version": "1.0.2379",
+        "version": "1.0.2404",
         "_attr": "mac-apk",
         "_repo": "mio"
     },
@@ -470639,6 +470820,102 @@
         "system": "x86_64-linux",
         "version": "0-unstable-2026-03-31",
         "_attr": "nm2nix",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.nookery": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Native PC port of Animal Crossing for the GameCube",
+            "homepage": "https://github.com/flyngmt/Nookery",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "nookery",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "nookery",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "Creative Commons Zero v1.0 Universal",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "cc0",
+                    "spdxId": "CC0-1.0",
+                    "url": "https://spdx.org/licenses/CC0-1.0.html"
+                },
+                {
+                    "deprecated": false,
+                    "free": true,
+                    "fullName": "MIT License",
+                    "licenseType": "simple",
+                    "redistributable": true,
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "longDescription": "Nookery is a native Windows/Linux/macOS/Android/iOS port of Animal\nCrossing (GameCube), built from the ac-decomp decompilation.  The\nrepository contains no game assets; a legally obtained GAFE01 Rev 0\ndisc image is required and is selected on first launch.\n",
+            "mainProgram": "Nookery",
+            "maintainers": [],
+            "name": "nookery-1.0.0",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/no/nookery/package.nix#L150",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "sourceProvenance": [
+                {
+                    "isSource": true,
+                    "shortName": "fromSource"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "nookery-1.0.0",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "nookery",
+        "system": "x86_64-linux",
+        "version": "1.0.0",
+        "_attr": "nookery",
         "_repo": "mio"
     },
     "nur.repos.mio.notepad-plus-plus": {
@@ -478394,7 +478671,7 @@
             ],
             "mainProgram": "serein",
             "maintainers": [],
-            "name": "serein-1.0.0-unstable-2026-11-24",
+            "name": "serein-1.0.0-unstable-2026-11-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -478431,14 +478708,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "serein-1.0.0-unstable-2026-11-24",
+        "name": "serein-1.0.0-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "serein",
         "system": "x86_64-linux",
-        "version": "1.0.0-unstable-2026-11-24",
+        "version": "1.0.0-unstable-2026-11-26",
         "_attr": "serein",
         "_repo": "mio"
     },
@@ -478498,7 +478775,7 @@
                 "aarch64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp/package.nix#L307",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/sk/skate3recomp/package.nix#L317",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -483765,7 +484042,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/violentmonkey/violentmonkey/releases/tag/v2.50.1",
+            "changelog": "https://github.com/violentmonkey/violentmonkey/releases/tag/v2.50.2",
             "description": "Violentmonkey provides userscripts support for browsers",
             "homepage": "https://violentmonkey.github.io/",
             "identifiers": {
@@ -483814,7 +484091,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/vi/violentmonkey/package.nix",
                 "line": 63
             },
-            "name": "violentmonkey-2.50.1",
+            "name": "violentmonkey-2.50.2",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -483910,14 +484187,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "violentmonkey-2.50.1",
+        "name": "violentmonkey-2.50.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "violentmonkey",
         "system": "x86_64-linux",
-        "version": "2.50.1",
+        "version": "2.50.2",
         "_attr": "violentmonkey",
         "_repo": "mio"
     },
@@ -484082,7 +484359,7 @@
             },
             "mainProgram": "vphone-cli",
             "maintainers": [],
-            "name": "vphone-cli-0-unstable-2026-11-25",
+            "name": "vphone-cli-0-unstable-2026-11-26",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -484106,14 +484383,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vphone-cli-0-unstable-2026-11-25",
+        "name": "vphone-cli-0-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vphone-cli",
         "system": "x86_64-linux",
-        "version": "0-unstable-2026-11-25",
+        "version": "0-unstable-2026-11-26",
         "_attr": "vphone-cli",
         "_repo": "mio"
     },
@@ -1033935,7 +1034212,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Jelmerro/Vieb/releases/tag/12.12.0",
+            "changelog": "https://github.com/Jelmerro/Vieb/releases/tag/12.12.1",
             "description": "Vim Inspired Electron Browser",
             "homepage": "https://vieb.dev/",
             "identifiers": {
@@ -1033980,7 +1034257,7 @@
             },
             "mainProgram": "vieb",
             "maintainers": [],
-            "name": "vieb-12.12.0",
+            "name": "vieb-12.12.1",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1034042,14 +1034319,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "vieb-12.12.0",
+        "name": "vieb-12.12.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "vieb",
         "system": "x86_64-linux",
-        "version": "12.12.0",
+        "version": "12.12.1",
         "_attr": "vieb",
         "_repo": "vieb-nix"
     },
@@ -1164626,7 +1164903,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/akitaonrails/ai-usagebar/releases/tag/1.55.0",
+            "changelog": "https://github.com/akitaonrails/ai-usagebar/releases/tag/1.55.1",
             "description": "Multi-provider AI plan usage widget, CLI and TUI",
             "homepage": "https://github.com/akitaonrails/ai-usagebar",
             "identifiers": {
@@ -1164681,7 +1164958,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/ai-usagebar/default.nix",
                 "line": 56
             },
-            "name": "ai-usagebar-1.55.0",
+            "name": "ai-usagebar-1.55.1",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1164700,14 +1164977,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ai-usagebar-1.55.0",
+        "name": "ai-usagebar-1.55.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ai-usagebar",
         "system": "x86_64-linux",
-        "version": "1.55.0",
+        "version": "1.55.1",
         "_attr": "ai-usagebar",
         "_repo": "zhyiheihei"
     },
@@ -1169046,7 +1169323,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/hslr-s/sun-panel/releases/tag/v1.8.1",
+            "changelog": "https://github.com/hslr-s/sun-panel/releases/tag/v2.0.2",
             "description": "Server and NAS navigation panel, homepage, browser homepage",
             "homepage": "https://github.com/hslr-s/sun-panel",
             "identifiers": {
@@ -1169101,7 +1169378,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/sun-panel/default.nix",
                 "line": 103
             },
-            "name": "sun-panel-1.8.1",
+            "name": "sun-panel-2.0.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1169142,14 +1169419,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sun-panel-1.8.1",
+        "name": "sun-panel-2.0.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sun-panel",
         "system": "x86_64-linux",
-        "version": "1.8.1",
+        "version": "2.0.2",
         "_attr": "sun-panel",
         "_repo": "zhyiheihei"
     },
@@ -1169764,7 +1170041,7 @@
                 }
             ],
             "broken": false,
-            "changelog": "https://github.com/akitaonrails/ai-usagebar/releases/tag/1.55.0",
+            "changelog": "https://github.com/akitaonrails/ai-usagebar/releases/tag/1.55.1",
             "description": "Multi-provider AI plan usage widget, CLI and TUI",
             "homepage": "https://github.com/akitaonrails/ai-usagebar",
             "identifiers": {
@@ -1169819,7 +1170096,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/ai-usagebar/default.nix",
                 "line": 56
             },
-            "name": "ai-usagebar-1.55.0",
+            "name": "ai-usagebar-1.55.1",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1169838,14 +1170115,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "ai-usagebar-1.55.0",
+        "name": "ai-usagebar-1.55.1",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "ai-usagebar",
         "system": "x86_64-linux",
-        "version": "1.55.0",
+        "version": "1.55.1",
         "_attr": "uncategorized.ai-usagebar",
         "_repo": "zhyiheihei"
     },
@@ -1171270,7 +1171547,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/hslr-s/sun-panel/releases/tag/v1.8.1",
+            "changelog": "https://github.com/hslr-s/sun-panel/releases/tag/v2.0.2",
             "description": "Server and NAS navigation panel, homepage, browser homepage",
             "homepage": "https://github.com/hslr-s/sun-panel",
             "identifiers": {
@@ -1171325,7 +1171602,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/zhyiheihei/pkgs/uncategorized/sun-panel/default.nix",
                 "line": 103
             },
-            "name": "sun-panel-1.8.1",
+            "name": "sun-panel-2.0.2",
             "nonTeamMaintainers": [
                 {
                     "github": "zhyiheihei",
@@ -1171366,14 +1171643,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "sun-panel-1.8.1",
+        "name": "sun-panel-2.0.2",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "sun-panel",
         "system": "x86_64-linux",
-        "version": "1.8.1",
+        "version": "2.0.2",
         "_attr": "uncategorized.sun-panel",
         "_repo": "zhyiheihei"
     },
