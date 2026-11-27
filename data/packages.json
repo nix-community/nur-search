@@ -19556,7 +19556,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4839",
+            "name": "magpie-0.1.4940",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -19574,14 +19574,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4839",
+        "name": "magpie-0.1.4940",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4839",
+        "version": "0.1.4940",
         "_attr": "magpie",
         "_repo": "Emin017"
     },
@@ -476536,7 +476536,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/qu/quibble/package.nix#L128",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/qu/quibble/package.nix#L126",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
@@ -476555,6 +476555,79 @@
         "system": "x86_64-linux",
         "version": "20230328-unstable-2024-06-23",
         "_attr": "quibble",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.quibble_patched": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open-source UEFI bootloader for Windows, with a real setjmp/longjmp runtime",
+            "homepage": "https://github.com/maharmstone/quibble",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "quibble_patched",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "quibble_patched",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "maintainers": [],
+            "name": "quibble_patched-20230328-unstable-2024-06-23",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/qu/quibble_patched/package.nix#L70",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "quibble_patched-x86_64-w64-mingw32-20230328-unstable-2024-06-23",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "quibble_patched-x86_64-w64-mingw32",
+        "system": "x86_64-linux",
+        "version": "20230328-unstable-2024-06-23",
+        "_attr": "quibble_patched",
         "_repo": "mio"
     },
     "nur.repos.mio.rain": {
@@ -489322,6 +489395,79 @@
         "system": "x86_64-linux",
         "version": "0.1.0-unstable-2026-11-22",
         "_attr": "zfs-dedup",
+        "_repo": "mio"
+    },
+    "nur.repos.mio.zfs-uefi": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Read-only ZFS driver for UEFI, for use with Quibble",
+            "homepage": "https://github.com/openzfsonwindows/zfs-efi",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "zfs-uefi",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "zfs-uefi",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Lesser General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "lgpl3Plus",
+                "spdxId": "LGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+            },
+            "maintainers": [],
+            "name": "zfs-uefi-0-unstable-2026-10-29",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/zf/zfs-uefi/package.nix#L81",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "zfs-uefi-x86_64-w64-mingw32-0-unstable-2026-10-29",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "zfs-uefi-x86_64-w64-mingw32",
+        "system": "x86_64-linux",
+        "version": "0-unstable-2026-10-29",
+        "_attr": "zfs-uefi",
         "_repo": "mio"
     },
     "nur.repos.mio.zizzania": {
@@ -1033481,7 +1033627,7 @@
             },
             "mainProgram": "meitou-launcher",
             "maintainers": [],
-            "name": "meitou-launcher-1.21.3",
+            "name": "meitou-launcher-1.22.0",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -1033505,14 +1033651,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "meitou-launcher-1.21.3",
+        "name": "meitou-launcher-1.22.0",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "meitou-launcher",
         "system": "x86_64-linux",
-        "version": "1.21.3",
+        "version": "1.22.0",
         "_attr": "meitou-launcher",
         "_repo": "uriotv"
     },
