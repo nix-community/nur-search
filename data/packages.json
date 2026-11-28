@@ -19556,7 +19556,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4940",
+            "name": "magpie-0.1.4987",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -19574,14 +19574,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4940",
+        "name": "magpie-0.1.4987",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4940",
+        "version": "0.1.4987",
         "_attr": "magpie",
         "_repo": "Emin017"
     },
@@ -446592,7 +446592,7 @@
             "maintainersPosition": {
                 "column": 7,
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/ar/archivetune/package.nix",
-                "line": 406
+                "line": 407
             },
             "name": "archivetune-unwrapped-16.1.0",
             "nonTeamMaintainers": [
@@ -446612,7 +446612,7 @@
                 "x86_64-darwin",
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L403",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/ar/archivetune/package.nix#L404",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -466498,7 +466498,7 @@
             "platforms": [
                 "aarch64-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/li/libreoffice_patched/package.nix#L238",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/li/libreoffice_patched/package.nix#L247",
             "problems": {},
             "sourceProvenance": [
                 {
@@ -481883,6 +481883,106 @@
         "_attr": "stuntrally_patched",
         "_repo": "mio"
     },
+    "nur.repos.mio.supertuxkart-evolution": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "3D open-source arcade racer (Evolution branch)",
+            "homepage": "https://supertuxkart.net/",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "supertuxkart-evolution",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "supertuxkart-evolution",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v3.0 or later",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "supertuxkart-evolution",
+            "maintainers": [],
+            "name": "supertuxkart-evolution-1.5-unstable-2026-09-23",
+            "nonTeamMaintainers": [],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/su/supertuxkart-evolution/package.nix#L201",
+            "problems": {
+                "maintainerless": {
+                    "kind": "maintainerless",
+                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
+                }
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "supertuxkart-evolution-1.5-unstable-2026-09-23",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "supertuxkart-evolution",
+        "system": "x86_64-linux",
+        "version": "1.5-unstable-2026-09-23",
+        "_attr": "supertuxkart-evolution",
+        "_repo": "mio"
+    },
     "nur.repos.mio.tab-session-manager-firefox": {
         "meta": {
             "available": true,
@@ -490383,7 +490483,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/zf/zfs-uefi/package.nix#L102",
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/zf/zfs-uefi/package.nix#L106",
             "problems": {
                 "maintainerless": {
                     "kind": "maintainerless",
