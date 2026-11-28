@@ -208594,7 +208594,7 @@
             },
             "mainProgram": "magpie",
             "maintainers": [],
-            "name": "magpie-0.1.4994",
+            "name": "magpie-0.1.5019",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -208620,14 +208620,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "magpie-0.1.4994",
+        "name": "magpie-0.1.5019",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "magpie",
         "system": "x86_64-linux",
-        "version": "0.1.4994",
+        "version": "0.1.5019",
         "_attr": "magpie",
         "_repo": "davinci42"
     },
@@ -335401,6 +335401,100 @@
         "_attr": "comfyui-workflow-mcp",
         "_repo": "knightfemale"
     },
+    "nur.repos.knightfemale.deviceTrees.amlogic.meson-sm1-x96-max-plus": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Prebuilt device tree blob for X96 Max+ (Amlogic S905X3)",
+            "homepage": "https://github.com/ophub/amlogic-s9xxx-armbian",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU General Public License v2.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/knightfemale/outputs/_legacyPackages/deviceTrees/amlogic/meson-sm1-x96-max-plus/default.nix",
+                "line": 25
+            },
+            "name": "meson-sm1-x96-max-plus",
+            "nonTeamMaintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/knightfemale/outputs/_legacyPackages/deviceTrees/amlogic/meson-sm1-x96-max-plus/default.nix#L21",
+            "problems": {},
+            "sourceProvenance": [
+                {
+                    "isSource": false,
+                    "shortName": "binaryNativeCode"
+                }
+            ],
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "meson-sm1-x96-max-plus",
+        "outputName": "out",
+        "outputs": {
+            "out": null
+        },
+        "pname": "meson-sm1-x96-max-plus",
+        "system": "x86_64-linux",
+        "version": "",
+        "_attr": "deviceTrees.amlogic.meson-sm1-x96-max-plus",
+        "_repo": "knightfemale"
+    },
     "nur.repos.knightfemale.flake-show-ng": {
         "meta": {
             "available": true,
@@ -335504,6 +335598,133 @@
         "system": "x86_64-linux",
         "version": "0.1.2",
         "_attr": "flake-show-ng",
+        "_repo": "knightfemale"
+    },
+    "nur.repos.knightfemale.python314Packages.lada": {
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://codeberg.org/ladaapp/lada/releases/tag/v0.11.0",
+            "description": "Restore videos with pixelated/mosaic regions",
+            "homepage": "https://codeberg.org/ladaapp/lada",
+            "identifiers": {
+                "cpeParts": {
+                    "edition": "*",
+                    "language": "*",
+                    "other": "*",
+                    "part": "a",
+                    "product": "lada",
+                    "sw_edition": "*",
+                    "target_hw": "*",
+                    "target_sw": "*"
+                },
+                "possibleCPEs": [],
+                "purlParts": {},
+                "purls": [],
+                "v1": {
+                    "cpeParts": {
+                        "edition": "*",
+                        "language": "*",
+                        "other": "*",
+                        "part": "a",
+                        "product": "lada",
+                        "sw_edition": "*",
+                        "target_hw": "*",
+                        "target_sw": "*"
+                    },
+                    "possibleCPEs": [],
+                    "purls": []
+                }
+            },
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "x86_64-linux",
+                "aarch64-linux",
+                "arc-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "loongarch64-linux",
+                "m68k-linux",
+                "sh4-linux",
+                "microblaze-linux",
+                "microblazeel-linux",
+                "mips-linux",
+                "mips64-linux",
+                "mips64el-linux",
+                "mipsel-linux",
+                "powerpc-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "s390x-linux",
+                "aarch64-darwin",
+                "aarch64-windows",
+                "x86_64-windows",
+                "i686-windows",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-freebsd"
+            ],
+            "license": {
+                "deprecated": false,
+                "free": true,
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "licenseType": "simple",
+                "redistributable": true,
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "mainProgram": "lada",
+            "maintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 5,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/knightfemale/outputs/_legacyPackages/python314Packages/lada/default.nix",
+                "line": 160
+            },
+            "name": "python3.14-lada-0.11.0",
+            "nonTeamMaintainers": [
+                {
+                    "email": "2067834160@qq.com",
+                    "github": "knightfemale",
+                    "githubId": 124773040,
+                    "name": "\u9a91\u58eb\u59ec"
+                }
+            ],
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/knightfemale/outputs/_legacyPackages/python314Packages/lada/default.nix#L156",
+            "problems": {},
+            "unfree": false,
+            "unsupported": false
+        },
+        "name": "python3.14-lada-0.11.0",
+        "outputName": "out",
+        "outputs": {
+            "dist": null,
+            "out": null
+        },
+        "pname": "python3.14-lada",
+        "system": "x86_64-linux",
+        "version": "0.11.0",
+        "_attr": "python314Packages.lada",
         "_repo": "knightfemale"
     },
     "nur.repos.kokakiwi.agree": {
@@ -353416,7 +353637,7 @@
                 "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/lmdevv/pkgs/plannotator/default.nix",
                 "line": 86
             },
-            "name": "plannotator-0.29.5",
+            "name": "plannotator-0.29.6",
             "nonTeamMaintainers": [
                 "lmdevv"
             ],
@@ -353440,14 +353661,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "plannotator-0.29.5",
+        "name": "plannotator-0.29.6",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "plannotator",
         "system": "x86_64-linux",
-        "version": "0.29.5",
+        "version": "0.29.6",
         "_attr": "plannotator",
         "_repo": "lmdevv"
     },
@@ -463929,10 +464150,51 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "longDescription": "Isabelle is a generic proof assistant. It allows mathematical formulas\nto be expressed in a formal language and provides tools for proving those\nformulas in a logical calculus.\n",
-            "maintainers": [],
-            "name": "isabelle-2026",
-            "nonTeamMaintainers": [],
+            "longDescription": "Isabelle is a generic proof assistant.  It allows mathematical formulas\nto be expressed in a formal language and provides tools for proving those\nformulas in a logical calculus.\n",
+            "maintainers": [
+                {
+                    "email": "supermanitu@gmail.com",
+                    "github": "jvanbruegge",
+                    "githubId": 1529052,
+                    "keys": [
+                        {
+                            "fingerprint": "3513 5CE5 77AD 711F 3825  9A99 3665 72BE 7D6C 78A2"
+                        }
+                    ],
+                    "name": "Jan van Br\u00fcgge"
+                },
+                {
+                    "email": "myrialsarvay@gmail.com",
+                    "github": "sempiternal-aurora",
+                    "githubId": 78790545,
+                    "name": "Myria Sarvay"
+                }
+            ],
+            "maintainersPosition": {
+                "column": 7,
+                "file": "/home/runner/work/nur-search/nur-search/nur-combined/repos/mio/by-name/is/isabelle/components/generic.nix",
+                "line": 196
+            },
+            "name": "isabelle-2026-unstable-2026-11-26",
+            "nonTeamMaintainers": [
+                {
+                    "email": "supermanitu@gmail.com",
+                    "github": "jvanbruegge",
+                    "githubId": 1529052,
+                    "keys": [
+                        {
+                            "fingerprint": "3513 5CE5 77AD 711F 3825  9A99 3665 72BE 7D6C 78A2"
+                        }
+                    ],
+                    "name": "Jan van Br\u00fcgge"
+                },
+                {
+                    "email": "myrialsarvay@gmail.com",
+                    "github": "sempiternal-aurora",
+                    "githubId": 78790545,
+                    "name": "Myria Sarvay"
+                }
+            ],
             "outputsToInstall": [
                 "out"
             ],
@@ -463941,13 +464203,8 @@
                 "aarch64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/is/isabelle/package.nix#L303",
-            "problems": {
-                "maintainerless": {
-                    "kind": "maintainerless",
-                    "message": "This package has no declared maintainer, i.e. an empty `meta.maintainers` and `meta.teams` attribute."
-                }
-            },
+            "position": "https://github.com/nix-community/nur-combined/tree/main/repos/mio/by-name/is/isabelle/components/generic.nix#L183",
+            "problems": {},
             "sourceProvenance": [
                 {
                     "isSource": true,
@@ -463965,14 +464222,14 @@
             "unfree": false,
             "unsupported": false
         },
-        "name": "isabelle-2026",
+        "name": "isabelle-2026-unstable-2026-11-26",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "isabelle",
         "system": "x86_64-linux",
-        "version": "2026",
+        "version": "2026-unstable-2026-11-26",
         "_attr": "isabelle",
         "_repo": "mio"
     },
@@ -499400,7 +499657,7 @@
                 "shortName": "unfree"
             },
             "maintainers": [],
-            "name": "maxmind-geolite2-2026.11.25",
+            "name": "maxmind-geolite2-2026.11.28",
             "nonTeamMaintainers": [],
             "outputsToInstall": [
                 "out"
@@ -499415,14 +499672,14 @@
             "unfree": true,
             "unsupported": false
         },
-        "name": "maxmind-geolite2-2026.11.25",
+        "name": "maxmind-geolite2-2026.11.28",
         "outputName": "out",
         "outputs": {
             "out": null
         },
         "pname": "maxmind-geolite2",
         "system": "x86_64-linux",
-        "version": "2026.11.25",
+        "version": "2026.11.28",
         "_attr": "maxmind-geolite2",
         "_repo": "moraxyc"
     },
